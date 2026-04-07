@@ -1,22 +1,31 @@
-# KI-Literacy: Infrastruktur & Lokales Deployment (Tag 03)
+# KI-Literacy: Begleit-Repository zur Vorlesung
 
-Begleit-Repository zum Modul **KI-Literacy**. 
+Willkommen im offiziellen Repository zum Modul **KI-Literacy**. Dieses Projekt dient als zentrale Anlaufstelle für alle technischen Ressourcen, Anleitungen und Laborübungen der verschiedenen Vorlesungssessions.
 
-An diesem Tag verlassen wir die reine Theorie und bauen unsere eigene, lokale KI-Infrastruktur auf. Wir lernen, wie man LLMs unabhängig von Cloud-Anbietern kontrolliert, mit eigenem Wissen (RAG) erweitert und zu autonomen Agenten ausbaut.
+In diesem Kurs lernen wir, wie man LLMs versteht, kontrolliert und unabhängig von großen Cloud-Anbietern in eigene, agentische Ökosysteme integriert.
 
-## 🎯 Fokus von Tag 03: Deployment & Agentik
-- **Docker-Ökosystem:** Beherrschung der Container-Technologie für lokale KI-Dienste.
-- **Self-Hosting (OpenWebUI):** Bereitstellung eines mächtigen, lokalen Frontends für LLMs.
-- **Knowledge-Integration (RAG):** Einrichtung von Retrieval Augmented Generation für private Dokumenten-Chats.
-- **Web-Intelligence:** Anbindung von Suchmaschinen (Brave/Brave Search) für aktuelle Live-Daten.
-- **Code Interpreter:** Sichere Ausführung von Python-Code zur Datenanalyse (Jupyter-Integration).
-- **Agentische Workflows:** Einsatz von Sub-Agenten zur autonomen Bewältigung komplexer Multi-Step Aufgaben.
+## 📅 Modul-Übersicht & Sessions
 
-## 📂 Dateien & Guides
-- [03_Setup_und_Lokale_Infrastruktur.md](./03_Setup_und_Lokale_Infrastruktur.md): Der umfassende Guide zur Installation von Docker, OpenWebUI, RAG-Konfiguration, Agenten-Setup und Code-Interpreter.
-- [Linkliste.md](./Linkliste.md): Kuratierte Ressourcen zu interaktiven KI-Visualisierungen (Transformer, Embeddings), Benchmarks und Tool-Dokumentationen.
-- `requirements.txt`: Zentrale Liste der Python-Bibliotheken für die analytischen Fähigkeiten der KI.
-- `demodokumente/`: Übungsmaterial für RAG-Suche, Vision-Analysen und Data Science Challenges.
+### Session 03: Lokale Infrastruktur & Agentik (Fokus-Tag)
+An diesem Tag bauen wir unsere eigene, lokale KI-Umgebung auf und erweitern sie um fortgeschrittene Fähigkeiten:
+- **Docker-Ökosystem:** Containerisierung lokaler KI-Dienste.
+- **Self-Hosting (OpenWebUI):** Kontrolle über das KI-Interface.
+- **Private Knowledge (RAG):** Retrieval Augmented Generation für Dokumenten-Analysen.
+- **Web-Intelligence:** Live-Datenanbindung via Brave Search.
+- **Analytik:** Code Interpreter Integration (Jupyter).
+- **Agentik:** Einsatz autonomer Sub-Agenten für komplexe Workflows.
 
 ---
-*Dieses Repository dient als Live-Dokumentation und interaktive Labor-Umgebung während der Vorlesung.*
+
+## 📂 Zentrale Ressourcen
+
+### 📖 Dokumentationen & Guides
+- [03_Setup_und_Lokale_Infrastruktur.md](./03_Setup_und_Lokale_Infrastruktur.md) – Der Master-Guide für das Deployment von Docker, OpenWebUI und Agenten-Tools.
+- [Linkliste.md](./Linkliste.md) – Kuratierte Sammlung interaktiver Visualisierungen (Transformer, Embeddings), Benchmarks und Tool-Dokumentationen.
+
+### 🧪 Laborübungen & Daten
+- `demodokumente/` – Testmaterial für RAG-Suche, Vision-Analysen und Data Science Challenges.
+- `requirements.txt` – Python-Abhängigkeiten für die analytischen KI-Fähigkeiten.
+
+---
+*Dieses Repository wird kontinuierlich während der Vorlesungsreihe aktualisiert.*
