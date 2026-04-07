@@ -1,16 +1,17 @@
-# Befehle & Deployment-Guide für Tag 03
+# Lab Session 1 - Advanced Deployment and Infrastructure
+## Befehle & Deployment-Guide für Tag 03
 
 An diesem Tag richten wir unsere lokale KI-Umgebung mittels Docker ein.
 
 ## 1. Docker Installation & Vorbereitung
 Bevor wir die Container starten, muss Docker Desktop installiert und korrekt konfiguriert sein.
 
-### 🍏 macOS Checkliste
+### 1.1 macOS Checkliste
 - **Download:** Docker Desktop für Mac (Achte auf den richtigen Chip: Intel vs. Apple Silicon M1/M2/M3).
 - **Berechtigungen:** Erlaube Docker beim ersten Start den "Privileged Access".
 - **Ressourcen:** In den Einstellungen (Settings > Resources) sollten mindestens 4GB RAM zugewiesen sein.
 
-### 🪟 Windows Checkliste: Der "anwendersichere" Deep-Dive
+### 1.2 Windows Checkliste: Der "anwendersichere" Deep-Dive
 Unter Windows ist die Einrichtung etwas komplexer, da Docker eine Brücke zwischen Windows und Linux baut (**WSL 2 - Windows Subsystem for Linux**). Damit das funktioniert, müssen wir tief ins System:
 
 #### Schritt A: Die BIOS-Hürde (Hardware-Virtualisierung)
@@ -44,14 +45,18 @@ Nach dem Neustart öffnest du Docker Desktop:
 2. Wähle links **General**.
 3. Stelle sicher, dass der Haken bei **"Use the WSL 2 based engine"** gesetzt ist.
 
-**Test der Installation (Terminal/PowerShell):**
+### 1.3 Test der Installation
+Öffne dein Terminal (oder PowerShell unter Windows) und gib folgenden Befehl ein:
 ```bash
 docker run hello-world
 ```
 *(Wenn du hier ein "Hello from Docker!" siehst, hast du es geschafft!)*
 
 ## 2. OpenWebUI installieren
-OpenWebUI dient als lokales Frontend für die Interaktion mit Modellen (z.B. via Ollama oder APIs).
+OpenWebUI dient als lokales Frontend für die Interaktion mit Modellen (via Ollama, LMStudio, OpenRouter oder andere...).
+
+**So installierst du es:**
+Öffne das Terminal (entweder direkt in Docker Desktop unter "Containers" > "Terminal" oder dein normales System-Terminal) und gib diesen Befehl ein:
 
 ```bash
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui ghcr.io/open-webui/open-webui:main
@@ -67,55 +72,99 @@ Sobald OpenWebUI unter `http://localhost:3000` läuft, binden wir unsere Modell-
 3. In OpenWebUI: Gehe auf **Settings > Connections > OpenAI API**.
 4. Trage bei der URL ein: `http://host.docker.internal:1234/v1`.
 
-## 2.2 Labor-Challenge: RAG, Vision & Performance (Hard-Mode)
-In dieser Übung testen wir die Grenzen unserer lokalen Modelle im Vergleich zur Cloud-Power von Gemini. Nutze dafür die Dateien im Ordner **`demodokumente`**.
+## 2.2 RAG und Websuche konfigurieren
+Das Herzstück von Nova ist das Wissen. Hier konfigurieren wir, wie Nova Dokumente liest und im Web sucht. Gehe dazu in OpenWebUI auf dein **User-Icon > Settings** und wähle die entsprechenden Reiter.
 
-### Challenge A: Die Nadel im Heuhaufen (RAG)
-Kann ein mini-LLM semantische Informationen in riesigen Dokumenten finden?
-1. Lade das Dokument **`CON01_Jahresabschluss_Needleinthemiddle.pdf`** in OpenWebUI hoch.
-2. Nutze den Befehl `#` im Chat, um die Datei zu referenzieren.
-3. **Aufgabe:** Finde den Satz, der mit "Wurzel macht einen ..." beginnt (Tipp: Er ist auf Seite 66 versteckt).
-4. **Vergleich:** Probiere es erst mit dem lokalen `Qwen 3.5 (0.8B)` und dann mit `google/gemini-3-flash-preview`. Wer findet die Information schneller und präziser?
+### 📑 Dokumente & RAG Einstellungen
+Unter **Settings > Documents** nimmst du folgende Einstellungen vor:
 
-### Challenge B: Bild-Analyse & Vision-Inventur
-1. Wähle ein Modell mit Vision-Fähigkeiten (z.B. Gemini via OpenRouter).
-2. Lade das Bild **`Parkplatz_Autos-Farben_und ein Bieber.png`** hoch.
-3. **Aufgabe:** 
-   - Zähle alle Autos auf dem Parkplatz und sortiere sie nach Farben.
-   - Suche den versteckten Biber im Bild! (Vergleiche deine Lösung danach mit `LSG_Bieber.png`).
+**Allgemein:**
+- **Engine zur Inhaltsextraktion:** Standard
+- **OCR:** Bilder aus PDFs extrahieren (aktivieren)
+- **PDF Loader Modus:** Seite
+- **Embedding und Retrieval umgehen:** (Deaktiviert lassen)
 
-### Challenge C: Das Wimmelbild der ausgestorbenen Tiere
-1. Lade das Bild **`Wimmelbild_Tiere_zweiTiere-nichtaktuell.png`** hoch.
-2. **Aufgabe:** "In diesem Bild sind Tiere versteckt, die es nicht mehr gibt oder die es nie gab. Findest du den T-Rex und das Einhorn?"
-3. Analysiere, wie gut das Modell logische Zusammenhänge (Existenz von Tieren) mit visueller Suche verknüpft.
+**Text-Splitter (Chunking):**
+- **Splitter:** Token (Tiktoken) oder Markdown-Header
+- **Chunk-Größe:** 400
+- **Chunk-Überlappung:** 40
+- **Zielwert min. Chunk-Größe:** 0
 
-### Challenge D: Tabellen-Extraktion
-1. Nutze die PDF-Dokumente aus dem Ordner, die komplexe Tabellen enthalten.
-2. **Aufgabe:** "Extrahiere die Tabelle von Seite X als saubere Markdown-Tabelle."
-3. Prüfe, ob das Modell die Spaltenzuordnungen korrekt beibehält.
+**Embedding Modell:**
+- **Modell-Engine:** Standard (SentenceTransformers)
+- **Modell:** `sentence-transformers/all-MiniLM-L6-v2`
+- **Batch-Größe:** 2
+- *Hinweis: Nach Änderung des Modells bitte die Schaltfläche "Neu indizieren" nutzen.*
 
-### ☁️ Externe Modelle (OpenRouter / Gemini)
-1. Erstelle einen API-Key auf [openrouter.ai](https://openrouter.ai/).
-2. In OpenWebUI: Gehe auf **Settings > Connections > OpenAI API** (auf das "+" für eine neue Verbindung klicken).
-3. **URL:** `https://openrouter.ai/api/v1`
-4. **Key:** Dein OpenRouter API-Key.
+**RAG-Vorlage (Prompt-Template):**
+Kopiere diesen Text in das Feld **RAG-Vorlage**:
 
-### 🤖 Deine Agentin "Nova" erstellen
+```markdown
+### Task:
+Respond to the user query using the provided context, incorporating inline citations in the format [source_id] **only when the <source_id> tag is explicitly provided** in the context.
+
+### Guidelines:
+- If you don't know the answer, clearly state that.
+- If uncertain, ask the user for clarification.
+- Respond in the same language as the user's query.
+- If the context is unreadable or of poor quality, inform the user and provide the best possible answer.
+- If the answer isn't present in the context but you possess the knowledge, explain this to the user and provide the answer using your own understanding.
+- **Only include inline citations using [source_id] (e.g., [1], [2]) when a `<source_id>` tag is explicitly provided in the context.**
+- Do not cite if the <source_id> tag is not provided in the context.  
+- Do not use XML tags in your response.
+- Ensure citations are concise and directly related to the information provided.
+
+### Example of Citation:
+If the user asks about a specific topic and the information is found in "whitepaper.pdf" with a provided <source_id>, the response should include the citation like so:  
+* "According to the study, the proposed method increases efficiency by 20% [whitepaper.pdf]."
+If no <source_id> is present, the response should omit the citation.
+
+### Output:
+Provide a clear and direct response to the user's query, including inline citations in the format [source_id] only when the <source_id> tag is present in the context.
+
+<context>
+{{CONTEXT}}
+</context>
+
+<user_query>
+{{QUERY}}
+</user_query>
+```
+
+### 🌍 Websuche Einstellungen
+Unter **Settings > Web Search** gibst du folgendes ein:
+
+**Allgemein:**
+- **Websuche:** Aktivieren
+- **Suchmaschine:** brave
+- **API-Schlüssel:** (Deinen Brave Search API-Key eintragen)
+- **Suchergebnisse:** 5
+- **Gleichzeitige Anfragen:** 5
+
+**Loader Einstellungen:**
+- **Engine:** Standard
+- **Timeout:** (Standardwert lassen)
+- **SSL-Zertifikat prüfen:** Aktiviert
+- **Gleichzeitige Anfragen:** 2
+- **YouTube-Sprache:** de
+
+> [!NOTE]
+> **Suchmaschinen-Vergleich:** Brave ist aktuell die beste Wahl für LLMs (sehr sauber aufbereitet). DuckDuckGo (DDGS) ist kostenlos, stößt aber schnell an Limits. SearXNG ist mächtig, kann aber schwache Modelle durch inkonsistente Formate verwirren.
+
+---
+
+## 2.3 Deine Agentin "Nova" erstellen
 Damit wir nicht nur nackte Modelle nutzen, erstellen wir eine spezialisierte Agentin:
 1. Gehe in den Bereich **Workspace > Models > Create a Model**.
 2. **Name:** Nova
 3. **Basemodel:** Wähle zwingend das Modell: `google/gemini-3-flash-preview` (via OpenRouter).
 4. **System Prompt:** Kopiere den vollständigen Text aus der Datei [Nova_Systemprompt.md](./Nova_Systemprompt.md) hier hinein.
-5. **Capabilities:** Aktiviere **Websearch** (DuckDuckGo in den General Settings auswählen).
+5. **Capabilities:** Aktiviere **Websearch**.
 
-### 📑 RAG (Retrieval Augmented Generation) nutzen
-Damit die KI deine eigenen Dokumente kennt:
-1. Gehe auf **Workspace > Documents** und lade eine PDF hoch.
-2. Im Chat kannst du die Datei nun mit dem Befehl `#` (Raute-Symbol) aufrufen. "Nova" wird nun zuerst in deinem Dokument suchen, bevor sie antwortet.
+---
 
-**Test der Konfiguration:**
-Wähle das Modell "Nova" im Chat aus und frage: 
-> "Hallo Nova, stelle dich kurz vor und sage mir, ob du Zugriff auf das Internet hast."
+## 2.4 Labor-Challenge: RAG, Vision & Performance (Hard-Mode)
+In dieser Übung testen wir die Grenzen unserer lokalen Modelle im Vergleich zur Cloud-Power von Gemini. Nutze dafür die Dateien im Ordner **`demodokumente`**.
 
 ## 3. Code-Interpreter (Jupyter) einrichten
 Um der KI das Rechnen und die Datenanalyse mittels Python zu ermöglichen, richten wir einen Jupyter-Container ein.
