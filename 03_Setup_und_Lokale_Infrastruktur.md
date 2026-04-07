@@ -361,7 +361,7 @@ Testen Sie Ihre Modelle in verschiedenen Domänen, um qualitative Unterschiede z
 ### 7.3 Evaluation: Wer bewertet die Ergebnisse?
 Die Bewertung erfolgt in einem zweistufigen Verfahren:
 1. **Human Evaluation:** Sie als Fachexperte prüfen Korrektheit, logische Herleitung und stilistische Nuancen.
-2. **LLM-as-a-Judge (Frontier-Vergleich):** Ein externes **Frontier-Modell** (z.B. GPT-4o, Claude 3.5 Sonnet oder GPT-4o via Perplexity) bewertet die Antworten der kleineren Modelle nach einer Punkteskala (1-10) hinsichtlich Präzision, Logik und Halluzinationen.
+2. **LLM-as-a-Judge (Frontier-Vergleich):** Ein externes **Frontier-Modell** (z.B. GPT-5.X, Claude Sonnet 4.X oder Gemini 3.1 Pro via Perplexity) bewertet die Antworten der kleineren Modelle nach einer Punkteskala (1-10) hinsichtlich Präzision, Logik und Halluzinationen.
 
 ### 7.4 Modell-Orchestrierung & Routing
 In der professionellen Praxis nutzt man selten nur *ein* Modell. Man **orchestriert** den Einsatz je nach Komplexität ("Modell-Tiering"):
