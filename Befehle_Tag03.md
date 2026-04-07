@@ -52,6 +52,8 @@ docker run hello-world
 ```
 *(Wenn du hier ein "Hello from Docker!" siehst, hast du es geschafft!)*
 
+---
+
 ## 2. OpenWebUI installieren
 OpenWebUI dient als lokales Frontend für die Interaktion mit Modellen (via Ollama, LMStudio, OpenRouter oder andere...).
 
@@ -62,39 +64,37 @@ OpenWebUI dient als lokales Frontend für die Interaktion mit Modellen (via Olla
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui ghcr.io/open-webui/open-webui:main
 ```
 
-## 2.1 OpenWebUI-Konfiguration: Modelle & Agenten
+### 2.1 Modelle anbinden
 Sobald OpenWebUI unter `http://localhost:3000` läuft, binden wir unsere Modell-Backends an:
 
-### 🏠 Lokale Modelle (LM Studio)
-1. Starte **LM Studio** auf deinem PC/Mac und lade ein effizientes, kleines Modell herunter:
-   - **Empfehlung:** `Qwen 3.5 (0.8B)` oder `Gemma 4 (2B)`. Diese Modelle sind klein genug für fast jeden Laptop, aber erstaunlich fähig.
+**Lokale Modelle (LM Studio):**
+1. Starte **LM Studio** auf deinem PC/Mac und lade ein effizientes Modell herunter:
+   - **Empfehlung:** `Qwen 3.5 (0.8B)` oder `Gemma 4 (2B)`.
 2. Gehe im Dashboard auf den Reiter **"Local Server"** und klicke auf "Start Server".
 3. In OpenWebUI: Gehe auf **Settings > Connections > OpenAI API**.
 4. Trage bei der URL ein: `http://host.docker.internal:1234/v1`.
 
-## 2.2 RAG und Websuche konfigurieren
-Das Herzstück von Nova ist das Wissen. Hier konfigurieren wir, wie Nova Dokumente liest und im Web sucht. Gehe dazu in OpenWebUI auf dein **User-Icon > Settings** und wähle die entsprechenden Reiter.
+**Externe Modelle (OpenRouter / Gemini):**
+1. Erstelle einen API-Key auf [openrouter.ai](https://openrouter.ai/).
+2. In OpenWebUI: Gehe auf **Settings > Connections > OpenAI API** (auf das "+" für eine neue Verbindung klicken).
+3. **URL:** `https://openrouter.ai/api/v1` | **Key:** Dein Key.
 
-### 📑 Dokumente & RAG Einstellungen
-Unter **Settings > Documents** nimmst du folgende Einstellungen vor:
+---
+
+## 2.2 RAG / Dokumente konfigurieren
+Nova soll deine PDF-Dokumente verstehen. Gehe zu **User-Icon > Einstellungen > Dokumente**:
 
 **Allgemein:**
 - **Engine zur Inhaltsextraktion:** Standard
-- **OCR:** Bilder aus PDFs extrahieren (aktivieren)
+- **Bilder aus PDFs extrahieren (OCR):** Aktivieren
 - **PDF Loader Modus:** Seite
-- **Embedding und Retrieval umgehen:** (Deaktiviert lassen)
+- **Embedding-Modell-Engine:** Standard (SentenceTransformers)
+- **Embedding-Modell:** `sentence-transformers/all-MiniLM-L6-v2`
 
 **Text-Splitter (Chunking):**
-- **Splitter:** Token (Tiktoken) oder Markdown-Header
-- **Chunk-Größe:** 400
-- **Chunk-Überlappung:** 40
-- **Zielwert min. Chunk-Größe:** 0
-
-**Embedding Modell:**
-- **Modell-Engine:** Standard (SentenceTransformers)
-- **Modell:** `sentence-transformers/all-MiniLM-L6-v2`
-- **Batch-Größe:** 2
-- *Hinweis: Nach Änderung des Modells bitte die Schaltfläche "Neu indizieren" nutzen.*
+- **Text-Splitter:** Token (Tiktoken)
+- **Markdown-Header-Text-Splitter:** Aktivieren
+- **Chunk-Größe:** 400 | **Chunk-Überlappung:** 40 | **Zielwert min. Chunk:** 0
 
 **RAG-Vorlage (Prompt-Template):**
 Kopiere diesen Text in das Feld **RAG-Vorlage**:
@@ -130,216 +130,71 @@ Provide a clear and direct response to the user's query, including inline citati
 {{QUERY}}
 </user_query>
 ```
+*Nach Änderungen bitte die Schaltfläche "Neu indizieren" nutzen.*
 
-### 🌍 Websuche Einstellungen
-Unter **Settings > Web Search** gibst du folgendes ein:
+---
+
+## 2.3 Websuche konfigurieren
+Gehe zu **User-Icon > Einstellungen > Websuche**:
 
 **Allgemein:**
-- **Websuche:** Aktivieren
-- **Suchmaschine:** brave
-- **API-Schlüssel:** (Deinen Brave Search API-Key eintragen)
-- **Suchergebnisse:** 5
-- **Gleichzeitige Anfragen:** 5
+- **Web-Suchmaschine:** brave
+- **Brave Search API-Schlüssel:** (Deinen Key hier eingeben)
+- **Anzahl der Suchergebnisse:** 5 | **Gleichzeitige Anfragen:** 5
 
-**Loader Einstellungen:**
-- **Engine:** Standard
-- **Timeout:** (Standardwert lassen)
+**Loader:**
+- **Web-Loader-Engine:** Standard
 - **SSL-Zertifikat prüfen:** Aktiviert
-- **Gleichzeitige Anfragen:** 2
 - **YouTube-Sprache:** de
 
-> [!NOTE]
-> **Suchmaschinen-Vergleich:** Brave ist aktuell die beste Wahl für LLMs (sehr sauber aufbereitet). DuckDuckGo (DDGS) ist kostenlos, stößt aber schnell an Limits. SearXNG ist mächtig, kann aber schwache Modelle durch inkonsistente Formate verwirren.
+> [!TIP]
+> **Suchmaschinen-Vergleich:** Brave ist aktuell die beste Wahl (sauber aufbereitet). DuckDuckGo (DDGS) trifft schnell an Limits. SearXNG ist kostenlos, kann aber durch die Vielfalt der Formate schwächere LLMs oft verwirren (Brave benötigt eine Kreditkarte, auch für den Free Plan).
 
 ---
 
-## 2.3 Deine Agentin "Nova" erstellen
-Damit wir nicht nur nackte Modelle nutzen, erstellen wir eine spezialisierte Agentin:
-1. Gehe in den Bereich **Workspace > Models > Create a Model**.
-2. **Name:** Nova
-3. **Basemodel:** Wähle zwingend das Modell: `google/gemini-3-flash-preview` (via OpenRouter).
-4. **System Prompt:** Kopiere den vollständigen Text aus der Datei [Nova_Systemprompt.md](./Nova_Systemprompt.md) hier hinein.
-5. **Capabilities:** Aktiviere **Websearch**.
+## 2.4 Deine Agentin "Nova" erstellen
+1. Gehe zu **Workspace > Models > Create a Model**.
+2. **Name:** Nova | **Basemodel:** `google/gemini-3-flash-preview` (OpenRouter).
+3. **System Prompt:** Inhalt aus [Nova_Systemprompt.md](./Nova_Systemprompt.md).
+4. **Capabilities:** Aktiviere **Websearch**.
 
 ---
 
-## 2.4 Labor-Challenge: RAG, Vision & Performance (Hard-Mode)
-In dieser Übung testen wir die Grenzen unserer lokalen Modelle im Vergleich zur Cloud-Power von Gemini. Nutze dafür die Dateien im Ordner **`demodokumente`**.
+## 2.5 Labor-Challenge: Das große KI-Labor (Hard-Mode)
+Nutze dafür die Dateien im Ordner **`demodokumente`** und deine konfigurierten Tools.
+
+### Challenge A: Die Nadel im Heuhaufen (RAG)
+1. Lade **`CON01_Jahresabschluss_Needleinthemiddle.pdf`** hoch.
+2. **Aufgabe:** Finde den Satz, der mit "Wurzel macht einen ..." beginnt (S. 66).
+
+### Challenge B: Bild-Analyse & Vision-Inventur
+1. Lade **`Parkplatz_Autos-Farben_und ein Biber.png`** hoch.
+2. **Aufgabe:** Zähle Autos nach Farben. Suche den versteckten Biber! (LSG: `LSG_Biber.png`).
+
+### Challenge C: Wimmelbild-Suche
+1. Lade **`Wimmelbild_Tiere_zweiTiere-nichtaktuell.png`** hoch.
+2. **Aufgabe:** Suche den T-Rex und das Einhorn.
+
+### Challenge D: Data Science Untersuchung (Code Interpreter)
+**Prompt:** "Nutze: `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/GolfSpielen.csv`. Erstelle eine Klassifikation für `Klassenvorhersage`. Nutze 4 Modelle, vergleiche Metriken und visualisiere die Ergebnisse."
+
+---
 
 ## 3. Code-Interpreter (Jupyter) einrichten
-Um der KI das Rechnen und die Datenanalyse mittels Python zu ermöglichen, richten wir einen Jupyter-Container ein.
-
-### 3.1 Jupyter-Container erstellen
-Führe diesen Befehl aus, um die Instanz zu starten. 
-
-> [!CAUTION]
-> **SICHERHEITSHINWEIS:** Ersetze `DEIN_SICHERER_TOKEN` durch einen zufälligen String (z.B. generiert via `openssl rand -hex 32`).
-
 ```bash
-docker run -d \
-  -p 8888:8888 \
-  --name jupyter-interpreter \
-  --restart always \
-  jupyter/datascience-notebook \
-  start.sh jupyter notebook \
-  --NotebookApp.token='DEIN_SICHERER_TOKEN' \
-  --NotebookApp.password='' \
-  --NotebookApp.allow_origin='*' \
-  --NotebookApp.disable_check_xsrf=True
+docker run -d -p 8888:8888 --name jupyter-interpreter --restart always jupyter/datascience-notebook start.sh jupyter notebook --NotebookApp.token='DEIN_TOKEN' --NotebookApp.password='' --NotebookApp.allow_origin='*' --NotebookApp.disable_check_xsrf=True
 ```
-
-### 3.2 Bibliotheken im Container installieren
-Sobald der Container läuft, installieren wir die für die KI-Analyse notwendigen Bibliotheken aus der im Repo bereitgestellten `requirements_jupyter.txt`.
-
-```bash
-docker exec jupyter-interpreter pip install -r requirements_jupyter.txt
-```
-
-### 3.3 Einbindung in OpenWebUI
-Damit OpenWebUI den Jupyter-Container als "Code Interpreter" erkennt, müssen wir die Verbindung in den Einstellungen hinterlegen und ein spezielles Prompt-Template nutzen.
-
-**Konfiguration in OpenWebUI:**
-1. Navigiere zu **Settings > Images & Web Search** (oder **Code Interpreter** je nach Version).
-2. Trage bei der Jupyter-URL ein: `http://host.docker.internal:8888`.
-3. Gib den von dir gewählten Token (`DEIN_SICHERER_TOKEN`) ein.
-
-![Einstellungen Code Interpreter](assets/einstellungen_code_interpreter.png)
-*Beispiel der Konfiguration in OpenWebUI.*
-
-**Prompt-Vorlage (System-Prompt):**
-Kopiere diesen Prompt in das Feld für den **System-Prompt** oder das spezifische Modell-Profil, um sicherzustellen, dass die KI den Interpreter korrekt ansteuert:
-
-> ### CODE INTERPRETER (JUPYTER) – PROMPT TEMPLATE
-> Du hast Zugriff auf eine Jupyter-Python-Umgebung (Kernel). Der Kernelzustand bleibt über Ausführungen hinweg erhalten (Variablen/Imports können wiederverwendet werden).
-> 
-> **Ziel:** Wenn Rechnen/EDA/ML nötig ist, sollst du Code zuverlässig ausführen lassen und danach den tatsächlichen Output interpretieren (ohne Halluzinationen).
-> 
-> **A) HARTE AUSGABE- & FORMATREGELN (damit OpenWebUI triggert)**
-> 1. Wenn du Code ausführen willst, MUSS deine gesamte Antwort in PHASE A exakt so aussehen (und sonst nichts):
->    `<code_interpreter type="code" lang="python"> # python code </code_interpreter>`
-> 2. **VERBOTEN:** Kein JSON-Toolcall-Objekt, keine Markdown-Fences (```python), kein Text vor/nach dem Block in PHASE A.
-> 3. Nutze ausschließlich das obige `<code_interpreter>`-Format.
-> 
-> **B) ZWEI-PHASEN-VERTRAG (Tool-Loop)**
-> - **PHASE A (vor Ausführung):** Antworte ausschließlich mit EINEM `<code_interpreter>`-Block. Schreibe lauffähigen, vollständigen Code.
-> - **PHASE B (nach Ausführung):** Antworte ausschließlich mit Text-Interpretation (kein weiterer Code-Block). Beziehe dich nur auf den tatsächlich sichtbaren Output.
-> 
-> **Interpretationsstruktur (PHASE B):**
-> 1. Datenüberblick (Shape, Spalten, Zielvariable).
-> 2. Vorverarbeitung (Encodings, Scaling, Missing Values).
-> 3. Modellvergleich (Accuracy, F1, ROC-AUC).
-> 4. Bestes Modell (warum).
-> 5. Grafiken (was man auf den Plots erkennt).
-> 
-> **C) JUPYTER-SPEZIFISCH (stabil & nachvollziehbar)**
-> - Kernel hält Zustand; vermeide unnötige Wiederholungen.
-> - Vermeide `exit()`/`sys.exit()`.
-> - Bei ML: setze `random_state`/Seeds, prüfe Daten (`df.dtypes`, `df.isna()`).
-> 
-> **D) DATENQUELLEN (URL / Upload)**
-> - Bei CSV-URL: `pandas.read_csv(url)` nutzen.
-> - Bei Upload: Verwende den bereitgestellten Pfad oder liste Dateien via `os.listdir('.')`.
-> 
-> **E) FEHLERBEHANDLUNG & ITERATION**
-> - Bei Fehlern: PHASE A mit korrigiertem Code wiederholen.
-> - Keine stillen Annahmen; prüfe Spaltennamen.
-> 
-> **F) PLOTS / OUTPUT**
-> - Erzeuge mindestens eine sinnvolle Grafik (Chaos Matrix, ROC-Kurve).
-> - Drucke eine kompakte Ergebnistabelle der Modelle.
-
-### 3.4 Erster Test des Code-Interpreters
-Sobald alles konfiguriert ist, machen wir einen Funktionstest:
-
-1. Starte einen neuen Chat in OpenWebUI.
-2. Klicke links neben dem Eingabefeld auf das **"+" Symbol** und stelle sicher, dass der **Code Interpreter** (Jupyter) aktiv ist.
-3. Gib folgenden Test-Prompt ein:
-   > "Berechne die ersten 15 Fibonacci-Zahlen und erstelle ein ansprechendes Balkendiagramm dazu."
-
-**Erfolgskontrolle:** 
-Die KI sollte nun zuerst den Code in den `<code_interpreter>`-Tags ausgeben (Phase A), dann den Jupyter-Lauf abwarten und schließlich in Phase B das Diagramm und die Zahlenreihe präsentieren.
+*Einbindung in OpenWebUI via `http://host.docker.internal:8888`.*
 
 ## 4. Docker MCP Toolkit & Web-Suche
-Docker Desktop bietet nun das **MCP Toolkit (Beta)** an, mit dem wir die Fähigkeiten unserer KI massiv erweitern können (z.B. Websuche, Dateizugriff).
-
-### 4.1 MCP Toolkit aktivieren & Server hinzufügen
-Öffne Docker Desktop und wähle im linken Menü **MCP Toolkit**.
-
-![Übersicht MCP Toolkit](assets/dockerdesktop_mcp01.png)
-*Hier siehst du deine bereits installierten MCP-Server (z.B. Brave Search).*
-
-**Workflow zum Hinzufügen:**
-1. Gehe auf den Reiter **Catalog**. Hier findest du über 300 vorgefertigte Server.
-2. Suche nach **Brave Search**, **Fetch** und **Playwright**.
-3. Klicke jeweils auf das **"+" Symbol**, um sie zu deinem Toolkit hinzuzufügen.
-
-![MCP Katalog](assets/dockerdesktop_mcp_catalog.png)
-*Suche im Katalog nach den gewünschten Tools und füge sie hinzu.*
-
-### 4.2 Clients freischalten
-Damit deine lokale KI (z.B. in LM Studio) auf diese Tools zugreifen kann, musst du sie für den jeweiligen Client freischalten.
-
-![Clients freischalten](assets/dockerdesktop_mcp_clients.png)
-*Aktiviere den Schalter für LM Studio oder andere genutzte Clients.*
-
-### 🔍 Web-Suche via Brave API
-Für die Nutzung von **Brave Search** innerhalb des MCP-Toolkits benötigst du einen API-Key:
-- **Registrierung:** Erstelle einen Account unter [api.search.brave.com](https://api.search.brave.com/).
-- **Kosten:** Im kostenlosen Tarif sind aktuell ca. 2.000 Abfragen pro Monat inklusive (Free Tier).
-- **Hinterlegung:** Klicke im MCP Toolkit auf den Brave Search Server und trage deinen Key in die Umgebungsvariablen/Einstellungen ein.
-
-**Alternative:** Wer keine API-Keys nutzen möchte, kann in OpenWebUI direkt die integrierte **DuckDuckGo-Websuche** nutzen (Einstellungen > Websuche).
-
-> [!WARNING]
-> **VORSICHT MIT DEM KONTEXTFENSTER:** Jeder aktive MCP-Server sendet zusätzliche Informationen an das Modell. Wenn du zu viele Tools gleichzeitig aktivierst, wird das Kontextfenster (der "Arbeitsspeicher" der KI) schneller voll, was zu Fehlern oder "Vergesslichkeit" des Modells führen kann. Aktiviere nur die Server, die du aktuell wirklich benötigst.
-
-### 4.3 OpenWebUI mit MCP verbinden
-Da OpenWebUI im Docker-Container läuft, kann es nicht direkt auf die `stdio`-Schnittstellen der MCP-Server zugreifen. Wir binden sie daher als Netzwerk-Dienst (SSE) ein.
-
-**Schritt-für-Schritt:**
-1. Gehe in OpenWebUI auf **Admin Settings** > **External Tools**.
-2. Klicke auf das **"+" Symbol** (Add Server), um ein neues Tool hinzuzufügen.
-3. **Type:** Wähle zwingend `MCP (Streamable HTTP)`.
-4. **URL:** Nutze die Adresse des Docker Toolkits. Da OpenWebUI im Container läuft, lautet der Host `host.docker.internal`.
-   - *Format:* `http://host.docker.internal:<PORT>/sse`
-   - *(Den genauen Port findest du in Docker Desktop unter den Details des jeweiligen MCP-Servers).*
-5. **Name:** Gib dem Tool einen klaren Namen (z.B. "Brave Search").
-
-**Aktivierung im Chat & Test:**
-Wähle das Modell "Nova" aus, aktiviere den Brave MCP Server im Chat (+) unter "Integrations" und frage:
-> "Suche mit Brave Search nach den 3 wichtigsten Durchbrüchen in der KI-Forschung von letzter Woche und erstelle eine Tabelle dazu."
+Öffne Docker Desktop > **MCP Toolkit**. Füge Brave Search aus dem Katalog hinzu und verbinde es in OpenWebUI via **SSE** (`http://host.docker.internal:<PORT>/sse`).
 
 ## 5. Erweiterte Agenten-Fähigkeiten (Sub-Agenten)
-Um komplexe Aufgaben (mehrstufige Recherchen, Analysen) zu bewältigen, können wir OpenWebUI mit einem **Sub-Agent Tool** ausstatten. Dies ist der "Turbolader" für Nova.
-
-**Installation des Sub-Agents:**
-1. Gehe zu **Workspace > Tools** in OpenWebUI.
-2. Klicke auf **"Import from OpenWebUI Community"** oder nutze diesen direkten Link: [Sub-Agent Tool (v7bfeb0b7)](https://openwebui.com/posts/sub_agent_7bfeb0b7).
-3. Bestätige den Import und aktiviere das Tool in den Einstellungen deiner Agentin Nova.
-
-**Warum das Sub-Agent Tool?**
-- **Delegation:** Nova kann nun Aufgaben, die mehr als 3 Schritte erfordern, an einen spezialisierten Sub-Agenten auslagern.
-- **Autonomie:** Der Sub-Agent arbeitet im Hintergrund die Suchergebnisse ab und liefert Nova nur das fertige Resultat.
+Importiere das **Sub-Agent Tool** ([v7bfeb0b7](https://openwebui.com/posts/sub_agent_7bfeb0b7)) in OpenWebUI > Workspace > Tools.
 
 ### 5.1 Der finale Belastungstest (Agentik & Multi-Step)
-Um die volle Power von **Nova** und dem **Sub-Agent Tool** zu testen, nutzen wir eine komplexe Aufgabe, die Recherche, Strukturierung und Dokumentation kombiniert.
-
-**Der "Final Boss" Testprompt:**
-Kopiere diesen Prompt in den Chat mit Nova:
-
-> "Hallo Nova, wie war dein Tag? Erzähle mir was es Aktuelles der letzten 24 Stunden (nur die je drei relevantesten Themen) aus der Politik, Wirtschaft und dem Sport aus Deutschland und der Welt gibt. Beginne mit der Nennung des heutigen Datums und füge dann die jeweiligen Informationen in wenigen aber ausführlichen Worten mit Inline-Zitation unter den Themen: Deutschland, Welt auf. Achte auf verifizierte aktuelle Nachrichten. Vermeide Halluzinationen.
-> 
-> Kannst Du im Anschluss für Deine Ergebnisse eine neue Notiz erstellen mit dem Titel „News vom TT.MM.JJJJ“ (heutiges Datum) und dann die Ergebnisse dort eintragen?"
-
-**Beobachte den Workflow:**
-- Nova sollte zuerst den Zeitstempel für heute abrufen.
-- Sie wird dann den Sub-Agenten delegieren, um die verschiedenen News-Bereiche abzugreifen.
-- Am Ende wird sie die Ergebnisse zusammenfassen und (sofern das Tooling es zulässt) eine neue Notiz in deinem Workspace anlegen.
+**Prompt:** "Wie war dein Tag? Erzähle mir aktuelle News der letzten 24h (Politik, Wirtschaft, Sport) aus Deutschland und der Welt. Nenne das heutige Datum, nutze Inline-Zitationen und erstelle am Ende eine neue Notiz mit dem Titel 'News vom [Datum]'."
 
 ---
 **Nächste Schritte:** 
-1. Binde den Jupyter-Server in den OpenWebUI Einstellungen als "Code Interpreter" ein (`http://host.docker.internal:8888`).
-2. Aktiviere die gewünschten MCP-Server in Docker Desktop und notiere dir die Ports.
-3. Verbinden die Server in den OpenWebUI Admin-Settings via **Streamable HTTP (SSE)**.
-4. Importiere das **Sub-Agent Tool** und starte den finalen News-Test.
-5. Genieße dein vollständig lokales, agentisches KI-Setup! 🚀
+Teste deine Umgebung mit der Master-Aufgabe in 5.1! 🚀
