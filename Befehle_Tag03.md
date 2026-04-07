@@ -2,10 +2,21 @@
 
 An diesem Tag richten wir unsere lokale KI-Umgebung mittels Docker ein.
 
-## 1. Docker Grundlagen
-Bevor wir starten, muss Docker auf dem System installiert sein (Docker Desktop für Mac/Windows).
+## 1. Docker Installation & Vorbereitung
+Bevor wir die Container starten, muss Docker Desktop installiert und korrekt konfiguriert sein.
 
-**Test der Installation:**
+### 🍏 macOS Checkliste
+- **Download:** Docker Desktop für Mac (Achte auf den richtigen Chip: Intel vs. Apple Silicon M1/M2/M3).
+- **Berechtigungen:** Erlaube Docker beim ersten Start den "Privileged Access".
+- **Ressourcen:** In den Einstellungen (Settings > Resources) sollten mindestens 4GB RAM zugewiesen sein.
+
+### 🪟 Windows Checkliste (WSL 2 Fokus)
+Unter Windows ist die Nutzung des **WSL 2 Backends** zwingend erforderlich für eine stabile Performance.
+- **BIOS:** Stelle sicher, dass die **Virtualisierung (VT-x / AMD-V)** im BIOS deines Rechners auf "Enabled" steht.
+- **WSL 2:** Installiere/Aktualisiere das Windows Subsystem for Linux. Befehl in der PowerShell (Admin): `wsl --install`.
+- **Docker Settings:** Gehe in Docker Desktop auf *Settings > General* und stelle sicher, dass **"Use the WSL 2 based engine"** aktiviert ist.
+
+**Test der Installation (Terminal/PowerShell):**
 ```bash
 docker run hello-world
 ```
