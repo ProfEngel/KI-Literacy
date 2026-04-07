@@ -342,5 +342,35 @@ Nutze diese Aufgaben, um die Werkzeuge (Sub-Agent, Code Interpreter, Knowledge B
 **Prompt:** "Generiere eine hochauflösende Visualisierung der Mandelbrot-Menge mittels Python. Nutze eine ästhetische Farbpalette (z.B. 'magma' oder 'inferno') und speichere das Bild als PNG."
 
 ---
+
+## 7. KI-Benchmarks: Qualität & Evaluation in der Praxis
+Um die Leistungsfähigkeit verschiedener Modelle (Qwen 0.8B vs. Gemini 3.1 Flash) objektiv zu bewerten, führen wir systematische Benchmarks durch.
+
+### 7.1 Die Benchmark-Bedingungen (Die "Hebel")
+Ein fairer Vergleich erfordert identische Bedingungen. Achten Sie auf diese Parameter:
+- **Temperature:** (0.0 für Fakten/Code, 0.7+ für Kreativität).
+- **System Prompt:** Ein identischer System-Prompt ("Du bist ein Experte für...") neutralisiert Verhaltensunterschiede der Basemodelle.
+- **RAG-Kontext:** Wird das Modell durch Dokumente unterstützt oder antwortet es "Zero-Shot" (nur aus dem Training)?
+
+### 7.2 Fachspezifische Test-Prompts
+Testen Sie Ihre Modelle in verschiedenen Domänen, um qualitative Unterschiede zu sehen:
+- **Allgemein:** "Erkläre die Quantenverschränkung so, dass es ein 10-jähriger versteht."
+- **BWL:** "Erstelle eine Break-Even-Analyse für ein SaaS-Startup mit fixen Kosten von 50.000 € und einem Deckungsbeitrag von 150 € pro Nutzer."
+- **Jura:** "Prüfe die Zulässigkeit einer Klage vor dem Verwaltungsgericht, wenn der Widerspruchsbescheid der Ausgangsbehörde vor 5 Wochen zugestellt wurde."
+
+### 7.3 Evaluation: Wer bewertet die Ergebnisse?
+Die Bewertung erfolgt in einem zweistufigen Verfahren:
+1. **Human Evaluation:** Sie als Fachexperte prüfen Korrektheit, logische Herleitung und stilistische Nuancen.
+2. **LLM-as-a-Judge (Frontier-Vergleich):** Ein externes **Frontier-Modell** (z.B. GPT-4o, Claude 3.5 Sonnet oder GPT-4o via Perplexity) bewertet die Antworten der kleineren Modelle nach einer Punkteskala (1-10) hinsichtlich Präzision, Logik und Halluzinationen.
+
+### 7.4 Modell-Orchestrierung & Routing
+In der professionellen Praxis nutzt man selten nur *ein* Modell. Man **orchestriert** den Einsatz je nach Komplexität ("Modell-Tiering"):
+- **Small (0.8B - 3B):** Blitzschnell für einfache Klassifizierungen oder das Routing von Anfragen.
+- **Medium (7B - 30B):** Lokale Allrounder für RAG-Aufgaben und Standard-Analysen.
+- **Frontier (Cloud-Giganten):** Für komplexe juristische Prüfungen, finale Validierungen oder strategische Planungen.
+
+**Profi-Tipp:** Tools wie **LiteLLM** fungieren als intelligente Schaltzentrale (Router) und leiten Anfragen automatisch an das günstigste oder fähigste Modell weiter, ohne dass der Anwender das Backend manuell wechseln muss.
+
+---
 **Nächste Schritte:** 
 Bringe deine Umgebung zum Glühen! 🚀

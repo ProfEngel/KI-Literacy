@@ -14,6 +14,8 @@ An diesem Tag bauen wir unsere eigene, lokale KI-Umgebung auf und erweitern sie 
 - **Web-Intelligence:** Live-Datenanbindung via Brave Search.
 - **Analytik:** Code Interpreter Integration (Jupyter).
 - **Agentik:** Einsatz autonomer Sub-Agenten für komplexe Workflows.
+- **KI-Benchmarks:** Methodik für qualitative Modellvergleiche (Human- vs. LLM-as-a-judge).
+- **Modell-Orchestrierung:** Effizientes Routing komplexer Aufgaben mittels Tools wie LiteLLM.
 
 ---
 
