@@ -1,4 +1,4 @@
-# Linkliste & Fundstücke (Tag 03)
+# Linkliste & Fundstücke
 
 Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG und geschlossenen Wissensräumen.
 
