@@ -55,7 +55,7 @@ docker run hello-world
 ---
 
 ## 2. OpenWebUI installieren
-OpenWebUI dient als lokales Frontend für die Interaktion mit Modellen (via Ollama, LMStudio, OpenRouter oder andere...).
+OpenWebUI gilt aktuell als SOTA (State of the Art) für OpenSource Chat-Oberflächen und dient als mächtiges lokales Frontend für die Interaktion mit Modellen (via Ollama, LMStudio, OpenRouter oder andere...).
 
 **So installierst du es:**
 Öffne das Terminal (entweder direkt in Docker Desktop unter "Containers" > "Terminal" oder dein normales System-Terminal) und gib diesen Befehl ein:
@@ -163,7 +163,7 @@ Gehe dazu in OpenWebUI auf dein **User-Icon > Settings > Web Search**:
 ## 2.4 Deine Agentin "Nova" erstellen
 Damit wir nicht nur nackte Modelle nutzen, erstellen wir eine spezialisierte Agentin:
 1. Gehe in den Bereich **Workspace > Models > Create a Model**.
-2. **Name:** Nova
+2. **Name:** Nova (oder einen Namen nach eigenem Wunsch)
 3. **Basemodel:** Wähle zwingend das Modell: `google/gemini-3-flash-preview` (via OpenRouter).
 4. **System Prompt:** Kopiere den vollständigen Text aus der Datei [Nova_Systemprompt.md](./Nova_Systemprompt.md) hier hinein.
 5. **Capabilities:** Aktiviere **Websearch**.
@@ -272,8 +272,24 @@ Nutze die analytische Power deiner Jupyter-Umgebung.
 ---
 
 ## 4. Docker MCP Toolkit & Web-Suche
-Docker Desktop bietet nun das **MCP Toolkit (Beta)** an.
+Docker Desktop bietet das **MCP Toolkit (Beta)** an.
 
+### Was ist MCP? (Einfach erklärt)
+![MCP Explainer](assets/mcp_explainer.jpg)
+
+Das **Model Context Protocol (MCP)** ist ein neuer, offener Standard, der wie ein "Universalstecker" für KIs funktioniert. Er ermöglicht es, dass verschiedene KI-Modelle und Anwendungen nahtlos mit Datenquellen und Werkzeugen kommunizieren können.
+
+**Das Prinzip: Server & Client**
+Das System basiert auf einer einfachen Rollenverteilung, die man sich wie bei einem Restaurant vorstellen kann:
+- **Der Client (z.B. OpenWebUI):** Das ist der Gast, der eine Bestellung aufgibt (z.B. "Suche mir die neuesten Nachrichten").
+- **Der Server (MCP-Server):** Das ist der Koch, der die spezialisierten Werkzeuge hat (z.B. Zugriff auf das Internet oder eine Datenbank), um die Bestellung auszuführen.
+
+**Warum ist das revolutionär?**
+1. **Offener Standard:** MCP ist kein geschlossenes System einer einzelnen Firma. Jeder kann MCP-Server entwickeln oder nutzen.
+2. **Flexibilität:** Die Rollen sind trennbar. Man kann einen eigenen MCP-Server betreiben (z.B. für interne Firmendaten), einen fertigen Client nutzen oder beides kombinieren.
+3. **Endlose Vielfalt:** Das Docker MCP Toolkit zeigt nur eine kleine Auswahl. In der Realität gibt es bereits hunderte MCP-Server für fast alles: Finanzdaten, Smarthome-Steuerung, Google Drive, Slack oder spezialisierte Programmier-Bots.
+
+Kurz gesagt: MCP gibt der KI "Hände und Augen", damit sie nicht nur redet, sondern aktiv für Sie arbeiten kann.
 ### 4.1 MCP Toolkit aktivieren & Server hinzufügen
 1. Docker Desktop > **MCP Toolkit** (links).
 2. **Catalog:** Suche nach `Brave Search`, `Fetch` und `Playwright` > Aktiviere sie via **"+"**.
