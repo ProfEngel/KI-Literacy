@@ -61,10 +61,38 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 Sobald OpenWebUI unter `http://localhost:3000` läuft, binden wir unsere Modell-Backends an:
 
 ### 🏠 Lokale Modelle (LM Studio)
-1. Starte **LM Studio** auf deinem PC/Mac und lade ein Modell (z.B. Llama 3 oder Mistral).
+1. Starte **LM Studio** auf deinem PC/Mac und lade ein effizientes, kleines Modell herunter:
+   - **Empfehlung:** `Qwen 3.5 (0.8B)` oder `Gemma 4 (2B)`. Diese Modelle sind klein genug für fast jeden Laptop, aber erstaunlich fähig.
 2. Gehe im Dashboard auf den Reiter **"Local Server"** und klicke auf "Start Server".
 3. In OpenWebUI: Gehe auf **Settings > Connections > OpenAI API**.
-4. Trage bei der URL ein: `http://host.docker.internal:1234/v1` (Der Host-Gateway sorgt dafür, dass Docker LM Studio auf deinem Rechner erreicht).
+4. Trage bei der URL ein: `http://host.docker.internal:1234/v1`.
+
+## 2.2 Labor-Challenge: RAG, Vision & Performance (Hard-Mode)
+In dieser Übung testen wir die Grenzen unserer lokalen Modelle im Vergleich zur Cloud-Power von Gemini. Nutze dafür die Dateien im Ordner **`demodokumente`**.
+
+### Challenge A: Die Nadel im Heuhaufen (RAG)
+Kann ein mini-LLM semantische Informationen in riesigen Dokumenten finden?
+1. Lade das Dokument **`CON01_Jahresabschluss_Needleinthemiddle.pdf`** in OpenWebUI hoch.
+2. Nutze den Befehl `#` im Chat, um die Datei zu referenzieren.
+3. **Aufgabe:** Finde den Satz, der mit "Wurzel macht einen ..." beginnt (Tipp: Er ist auf Seite 66 versteckt).
+4. **Vergleich:** Probiere es erst mit dem lokalen `Qwen 3.5 (0.8B)` und dann mit `google/gemini-3-flash-preview`. Wer findet die Information schneller und präziser?
+
+### Challenge B: Bild-Analyse & Vision-Inventur
+1. Wähle ein Modell mit Vision-Fähigkeiten (z.B. Gemini via OpenRouter).
+2. Lade das Bild **`Parkplatz_Autos-Farben_und ein Bieber.png`** hoch.
+3. **Aufgabe:** 
+   - Zähle alle Autos auf dem Parkplatz und sortiere sie nach Farben.
+   - Suche den versteckten Biber im Bild! (Vergleiche deine Lösung danach mit `LSG_Bieber.png`).
+
+### Challenge C: Das Wimmelbild der ausgestorbenen Tiere
+1. Lade das Bild **`Wimmelbild_Tiere_zweiTiere-nichtaktuell.png`** hoch.
+2. **Aufgabe:** "In diesem Bild sind Tiere versteckt, die es nicht mehr gibt oder die es nie gab. Findest du den T-Rex und das Einhorn?"
+3. Analysiere, wie gut das Modell logische Zusammenhänge (Existenz von Tieren) mit visueller Suche verknüpft.
+
+### Challenge D: Tabellen-Extraktion
+1. Nutze die PDF-Dokumente aus dem Ordner, die komplexe Tabellen enthalten.
+2. **Aufgabe:** "Extrahiere die Tabelle von Seite X als saubere Markdown-Tabelle."
+3. Prüfe, ob das Modell die Spaltenzuordnungen korrekt beibehält.
 
 ### ☁️ Externe Modelle (OpenRouter / Gemini)
 1. Erstelle einen API-Key auf [openrouter.ai](https://openrouter.ai/).
