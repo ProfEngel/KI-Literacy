@@ -24,7 +24,14 @@ Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG u
 Für die Laborübungen zu RAG nutzen wir die fiktiven Daten der **Relmiad AG**:
 - [Relmiad AG Rohdaten (Github)](https://github.com/ProfEngel/OpenTuneWeaver/tree/main/examples/relmiad_ag/raw_files)
 - [Weitere fiktive Beispiele](https://github.com/ProfEngel/OpenTuneWeaver/tree/main/examples/diverses/raw_files)
+- [KI-Literacy Demodokumente (Github)](https://github.com/ProfEngel/KI-Literacy/tree/main/demodokumente)
+- [Zentrale Datensammlung (ProfEngel Datasets)](https://github.com/ProfEngel/datasets)
 
 ## 🔬 Forschung
 - [Lost in the Middle (Paper)](https://arxiv.org/abs/2307.03172) - Warum KIs die Mitte von Texten übersehen.
 - [Attention is All You Need (Transformer Paper)](https://arxiv.org/abs/1706.03762) - Das Fundament moderner LLMs.
+
+## 💡 Dies und das
+- [Anthropic Research: Emotion Concepts](https://www.anthropic.com/research/emotion-concepts-function) - Untersuchung über die Repräsentation emotionaler Konzepte in KI-Modellen.
+- [AI in Conflict (Gaza Research)](https://www.qmul.ac.uk/media/news/2024/hss/gaza-war-israel-using-ai-to-identify-human-targets-raising-fears-that-innocents-are-being-caught-in-the-net.html) - Bericht über den Einsatz von KI-Systemen zur Zielidentifikation in modernen Kriegen.
+- [KI-Drohnen im Donbas (News-Bericht)](https://www.bild.de/politik/ausland-und-internationales/ki-drohnen-im-donbas-revolutionaere-technologie-der-ukraine-enthuellt-69329c8abdb9c3d5970e4999) - Über den Einsatz autonomer Waffensysteme und deren Auswirkungen.
