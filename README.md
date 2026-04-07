@@ -11,7 +11,7 @@ An diesem Tag verlassen wir die reine Theorie und bauen unsere eigene, lokale KI
 - **Security:** Sicherung von lokalen Schnittstellen mittels Token-Authentifizierung.
 
 ## 📂 Dateien für heute
-- `Befehle_Tag03.md`: Schritt-für-Schritt Anleitung zur Installation von Docker, OpenWebUI und dem Jupyter-Interpreter.
+- `03_Setup_und_Lokale_Infrastruktur.md`: Schritt-für-Schritt Anleitung zur Installation von Docker, OpenWebUI und dem Jupyter-Interpreter.
 - `requirements.txt`: Die benötigten Python-Bibliotheken für den Code-Interpreter.
 - `Linkliste.md`: Ressourcen zu Docker-Images und OpenWebUI Dokumentation.
 
