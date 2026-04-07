@@ -215,9 +215,17 @@ docker run -d \
 ### 3.2 Bibliotheken im Container installieren
 Sobald der Container läuft, installieren wir die für die KI-Analyse notwendigen Bibliotheken aus der im Repo bereitgestellten `requirements_jupyter.txt`.
 
+**Option 1: Über das Terminal (Schnell)**
 ```bash
 docker exec jupyter-interpreter pip install -r requirements_jupyter.txt
 ```
+
+**Option 2: Über die Jupyter-Oberfläche (Alternative)**
+1. Öffne Jupyter im Browser (`http://localhost:8888`).
+2. Nutze den Login-Token aus dem Docker-Log.
+3. Klicke auf **New > Text File**, nenne sie `requirements.txt` und füge den Inhalt der Bibliotheksliste ein (oder lade die Datei hoch).
+4. Gehe zurück auf die Übersicht, klicke auf **New > Terminal**.
+5. Gib im Terminal ein: `pip install -r requirements.txt`.
 
 ### 3.3 Einbindung in OpenWebUI
 1. Navigiere zu **Settings > Images & Web Search** (oder **Code Interpreter**).
@@ -292,6 +300,30 @@ Um komplexe Aufgaben zu bewältigen, nutzen wir das **Sub-Agent Tool**.
 **Challenge E (Globale Inflation & Web-Visualisierung):**
 Verwende das Sub-Agent Tool für eine tiefgreifende Recherche und Dashboard-Erstellung.
 > "Wie hat sich die Inflation in Deutschland seit 2000 entwickelt? Kannst du das gegenüberstellen zu China? Zeige auch bitte auf, was die Gründe für Peaks sind. Zeige dann alles in ein oder mehreren passenden Charts in einem HTML/JS/CSS Dashboard an."
+
+---
+
+## 6. OpenWebUI Mastery: Benchmark-Challenges für zu Hause
+Nutze diese Aufgaben, um die Werkzeuge (Sub-Agent, Code Interpreter, Knowledge Base) bis an ihre Grenzen zu testen.
+
+### Benchmark 1: Creative Coding (The Snake Challenge)
+**Modell:** Nova (mit Code Interpreter)
+**Prompt:** "Erstelle ein vollständig spielbares Snake-Spiel in einer einzigen HTML-Datei inklusive CSS für das Styling und JavaScript für die Logik. Das Spiel soll im Chat-Fenster als Vorschau (oder nach Download) direkt ausführbar sein."
+
+### Benchmark 2: Deep Knowledge Analysis (@Collections)
+**Workflow:**
+1. Lade 3-5 thematisch verwandte PDFs (z.B. KI-Papers) in **Workspace > Knowledge** hoch.
+2. Erstelle eine **Collection** namens "KI-Forschung".
+3. Starte einen Chat und tippe `@KI-Forschung`. 
+**Prompt:** "Analysiere diese Dokumente übergreifend. Was sind die 3 konsistentesten Thesen und wo widersprechen sich die Autoren? Erstelle eine vergleichende Matrix."
+
+### Benchmark 3: Market Intelligence (Sub-Agent Turbo)
+**Modell:** Nova (mit Sub-Agent Tool)
+**Prompt:** "Führe eine Marktanalyse zum Thema 'Autonomes Fahren: Tesla vs. Waymo' der letzten 24 Monate durch. Recherchiere aktuelle Vorfälle, regulatorische Änderungen und technologische Durchbrüche. Erstelle ein ausführliches Management-Summary mit Empfehlung."
+
+### Benchmark 4: Mathematical Art (Visuals)
+**Modell:** Nova (mit Code Interpreter)
+**Prompt:** "Generiere eine hochauflösende Visualisierung der Mandelbrot-Menge mittels Python. Nutze eine ästhetische Farbpalette (z.B. 'magma' oder 'inferno') und speichere das Bild als PNG."
 
 ---
 **Nächste Schritte:** 
