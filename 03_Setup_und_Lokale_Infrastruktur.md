@@ -180,12 +180,16 @@ In dieser Übung testen wir die Grenzen unserer lokalen Modelle und Agenten. Nut
 
 ### Challenge B: Bild-Analyse & Vision-Inventur
 1. Lade **`Parkplatz_Autos-Farben_und ein Biber.png`** hoch.
+
+![Parkplatz Analyse](demodokumente/Parkplatz_Autos-Farben_und%20ein%20Biber.png)
 2. **Aufgabe:** 
    - Zähle alle Autos und sortiere sie nach Farben.
    - Suche den versteckten Biber! (Lösung: `LSG_Biber.png`).
 
 ### Challenge C: Das Wimmelbild der ausgestorbenen Tiere
 1. Lade **`Wimmelbild_Tiere_zweiTiere-nichtaktuell.png`** hoch.
+
+![Tier Wimmelbild](demodokumente/Wimmelbild_Tiere_zweiTiere-nichtaktuell.png)
 2. **Aufgabe:** Suche Tiere, die es nicht mehr gibt oder nie gab (T-Rex & Einhorn).
 
 ---
