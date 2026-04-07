@@ -1,36 +1,51 @@
-# Befehle & Vorlagen für Tag 03
+# Befehle & Deployment-Guide für Tag 03
 
-Hier findest du die wichtigsten technischen Befehle und Prompt-Strukturen, die wir in den Laborphasen von Tag 03 verwenden.
+An diesem Tag richten wir unsere lokale KI-Umgebung mittels Docker ein.
 
-## 🛠️ Docker: Lokale Websuche mit SearXNG
-Um eine datenschutzfreundliche Suche in deine lokale KI (OpenWebUI) zu integrieren, nutzen wir SearXNG. 
+## 1. Docker Grundlagen
+Bevor wir starten, muss Docker auf dem System installiert sein (Docker Desktop für Mac/Windows).
 
-**Befehl zum Starten des Containers (inkl. Konfiguration für JSON-Output):**
-
+**Test der Installation:**
 ```bash
-mkdir -p ./searxng && printf 'use_default_settings: true\nsearch:\n  formats:\n    - html\n    - json\n' > ./searxng/settings.yml && docker run -d --name searxng -p 8080:8080 -v "$(pwd)/searxng:/etc/searxng:rw" --restart unless-stopped --cap-drop ALL --cap-add CHOWN --cap-add SETGID --cap-add SETUID --cap-add DAC_OVERRIDE --log-driver json-file --log-opt max-size=1m --log-opt max-file=1 searxng/searxng:latest
+docker run hello-world
 ```
 
-## 🧠 Prompt Engineering: Das 6-Elemente-Modell
-Nutze diese Struktur für deine professionellen Prompts, um reproduzierbare Ergebnisse zu erhalten:
+## 2. OpenWebUI installieren
+OpenWebUI dient als lokales Frontend für die Interaktion mit Modellen (z.B. via Ollama oder APIs).
 
-1. **Aufgabe:** (Was soll getan werden? Imperativ!)
-2. **Kontext:** (Hintergrund, Zielgruppe, Branche)
-3. **Persona:** (Welche Rolle soll die KI einnehmen?)
-4. **Beispiel (Few-Shot):** (Musterlösungen vorgeben)
-5. **Format:** (Markdown-Tabelle, JSON, Bulletpoints?)
-6. **Tonalität:** (Sachlich, akademisch, locker?)
+```bash
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui ghcr.io/open-webui/open-webui:main
+```
 
-**Beispiel-Vorlage:**
-> "Agiere als [Persona]. Wir sind [Kontext]. Deine Aufgabe ist es, [Aufgabe]. Achte dabei auf [Tonalität]. Gib das Ergebnis ausschließlich im Format [Format] aus. Hier ist ein Beispiel, wie ich es mir vorstelle: [Beispiel]."
+## 3. Code-Interpreter (Jupyter) einrichten
+Um der KI das Rechnen und die Datenanalyse mittels Python zu ermöglichen, richten wir einen Jupyter-Container ein.
 
-## 🔍 RAG & Strict Grounding
-Wenn die KI nur auf Basis eines bereitgestellten Textes antworten soll:
+### 3.1 Jupyter-Container erstellen
+Führe diesen Befehl aus, um die Instanz zu starten. 
 
-> "Beantworte die folgende Frage **ausschließlich** auf Basis des bereitgestellten Kontextes. Wenn die Information dort nicht enthalten ist, antworte mit 'Dazu liegen mir keine Informationen vor'.
->
-> KONTEXT:
-> [Hier Text einfügen]
-> 
-> FRAGE:
-> [Hier Frage einfügen]"
+> [!CAUTION]
+> **SICHERHEITSHINWEIS:** Ersetze `DEIN_SICHERER_TOKEN` durch einen zufälligen String (z.B. generiert via `openssl rand -hex 32`).
+
+```bash
+docker run -d \
+  -p 8888:8888 \
+  --name jupyter-interpreter \
+  --restart always \
+  jupyter/datascience-notebook \
+  start.sh jupyter notebook \
+  --NotebookApp.token='DEIN_SICHERER_TOKEN' \
+  --NotebookApp.password='' \
+  --NotebookApp.allow_origin='*' \
+  --NotebookApp.disable_check_xsrf=True
+```
+
+### 3.2 Bibliotheken im Container installieren
+Sobald der Container läuft, installieren wir die für die KI-Analyse notwendigen Bibliotheken aus der im Repo bereitgestellten `requirements.txt`.
+
+```bash
+docker exec jupyter-interpreter pip install -r requirements.txt
+```
+
+---
+**Nächste Schritte:** 
+Binde den Jupyter-Server in den OpenWebUI Einstellungen als "Code Interpreter" ein, indem du den Token und die URL (`http://host.docker.internal:8888`) hinterlegst.
