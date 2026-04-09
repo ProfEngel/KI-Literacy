@@ -56,3 +56,11 @@ Für die Laborübungen nutzen wir verschiedene Datensätze zur Evaluation:
 - [Anthropic Research: Emotion Concepts](https://www.anthropic.com/research/emotion-concepts-function) - Repräsentation emotionaler Konzepte in Modellen.
 - [AI in Conflict (Gaza Research)](https://www.qmul.ac.uk/media/news/2024/hss/gaza-war-israel-using-ai-to-identify-human-targets-raising-fears-that-innocents-are-being-caught-in-the-net.html) - Ethische Analyse von KI-Einsätzen.
 - [KI-Drohnen im Donbas (News-Bericht)](https://www.bild.de/politik/ausland-und-internationales/ki-drohnen-im-donbas-revolutionaere-technologie-der-ukraine-enthuellt-69329c8abdb9c3d5970e4999) - Autonome Waffensysteme.
+
+## 📰 News-Briefing 09.04.2026
+- [Claude Code Source Leak (Ars Technica)](https://arstechnica.com/ai/2026/04/heres-what-that-claude-code-source-leak-reveals-about-anthropics-plans/) - Einblick in Anthropics Zukunftspläne und neue Features basierend auf einem Source-Code-Leak.
+- [Gemma 4 (Google DeepMind)](https://deepmind.google/models/gemma/gemma-4/) - Offizielle Vorstellung von DeepMinds Gemma-4, starken offenen Modellen basierend auf der Gemini 3 Architektur.
+- [Google AI Edge Gallery (GitHub)](https://github.com/google-ai-edge/gallery) - Eine offizielle GitHub Collection rund um Edge und On-Device KI-Modelle.
+- [Perplexity Daten-Leak (t3n)](https://t3n.de/news/perplexity-soll-millionen-chats-an-meta-und-google-weitergegeben-haben-selbst-im-inkognito-modus-1737436/) - Bericht über mutmaßliche Privacy-Verstöße, bei denen Chatverläufe an Meta und Google flossen.
+- [Perplexity LLM-Suche](https://www.perplexity.ai/search/was-kannst-du-mir-zu-den-llm-m-L3NwvHbESzmBkTaUNsOvqQ) - Eine exemplarische Suchanfrage zu Eigenschaften aktueller Sprachmodelle.
+- [Claude Code & Obsidian als Zweites Gehirn (YouTube)](https://youtu.be/B_SbI0F0h4o?si=cnM9yxqQj7e2uzav) - Ein Tutorial, wie man das Obsidian-Vault mit Claude Code als RAG-Wissensbasis nutzt.
