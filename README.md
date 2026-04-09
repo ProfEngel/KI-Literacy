@@ -23,6 +23,7 @@ An diesem Tag bauen wir unsere eigene, lokale KI-Umgebung auf und erweitern sie 
 
 ### 📖 Dokumentationen & Guides
 - [03_Setup_und_Lokale_Infrastruktur.md](./03_Setup_und_Lokale_Infrastruktur.md) – Der Master-Guide für das Deployment von Docker, OpenWebUI und Agenten-Tools.
+- [KI-VL-Skript_26.pdf](./KI-VL-Skript_26.pdf) – Aktuelle Vorlesungsbegleitunterlage (Skript).
 - [Linkliste.md](./Linkliste.md) – Kuratierte Sammlung interaktiver Visualisierungen (Transformer, Embeddings), Benchmarks und Tool-Dokumentationen.
 
 ### 🧪 Laborübungen & Daten
