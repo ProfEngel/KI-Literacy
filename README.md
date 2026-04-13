@@ -1,34 +1,45 @@
 # KI-Literacy: Begleit-Repository zur Vorlesung
 
-Willkommen im offiziellen Repository zum Modul **KI-Literacy**. Dieses Projekt dient als zentrale Anlaufstelle für alle technischen Ressourcen, Anleitungen und Laborübungen der verschiedenen Vorlesungssessions.
+Willkommen im offiziellen Repository zum Modul **KI-Literacy**. Dieses Projekt dient als zentrale Anlaufstelle für technische Ressourcen, Anleitungen und Laborübungen der Vorlesungsreihe.
 
 In diesem Kurs lernen wir, wie man LLMs versteht, kontrolliert und unabhängig von großen Cloud-Anbietern in eigene, agentische Ökosysteme integriert.
 
-## 📅 Modul-Übersicht & Sessions
+---
 
-### Session 03: Lokale Infrastruktur & Agentik (Fokus-Tag)
-An diesem Tag bauen wir unsere eigene, lokale KI-Umgebung auf und erweitern sie um fortgeschrittene Fähigkeiten:
-- **Docker-Ökosystem:** Containerisierung lokaler KI-Dienste.
-- **Self-Hosting (OpenWebUI):** Kontrolle über das KI-Interface.
-- **Private Knowledge (RAG):** Retrieval Augmented Generation für Dokumenten-Analysen.
-- **Web-Intelligence:** Live-Datenanbindung via Brave Search.
-- **Analytik:** Code Interpreter Integration (Jupyter).
-- **Agentik:** Einsatz autonomer Sub-Agenten für komplexe Workflows.
-- **KI-Benchmarks:** Methodik für qualitative Modellvergleiche (Human- vs. LLM-as-a-judge).
-- **Modell-Orchestrierung:** Effizientes Routing komplexer Aufgaben mittels Tools wie LiteLLM.
+## 🚀 Schnellstart (Infrastruktur)
+
+Um die gesamte Kurs-Umgebung (OpenWebUI, Jupyter-Interpreter, SearXNG-Suche) mit einem Klick zu starten, nutze die bereitgestellte Docker-Konfiguration:
+
+1.  **Repository klonen** oder Dateien herunterladen.
+2.  **Docker Desktop** starten.
+3.  Im Terminal diesen Befehl im Ordner ausführen:
+    ```bash
+    docker-compose up -d
+    ```
+
+Detaillierte Anweisungen und alternative Deployment-Wege findest du im [Deployment_Guide.md](./Deployment_Guide.md).
 
 ---
 
-## 📂 Zentrale Ressourcen
+## 📂 Ressourcen-Übersicht
 
 ### 📖 Dokumentationen & Guides
-- [03_Setup_und_Lokale_Infrastruktur.md](./03_Setup_und_Lokale_Infrastruktur.md) – Der Master-Guide für das Deployment von Docker, OpenWebUI und Agenten-Tools.
-- [KI-VL-Skript_26.pdf](./KI-VL-Skript_26.pdf) – Aktuelle Vorlesungsbegleitunterlage (Skript).
-- [Linkliste.md](./Linkliste.md) – Kuratierte Sammlung interaktiver Visualisierungen (Transformer, Embeddings), Benchmarks und Tool-Dokumentationen.
+- **[Deployment_Guide.md](./Deployment_Guide.md)** – Der vollständige Master-Guide für das Setup von Docker, OpenWebUI, Jupyter und MCP-Servern.
+- **[KI-VL-Skript_26.pdf](./KI-VL-Skript_26.pdf)** – Aktuelles Vorlesungsbegleit-Skript.
+- **[Linkliste.md](./Linkliste.md)** – Kuratierte Links zu Visualisierungen (Transformer, Tokenizer) und Benchmarks.
+- **[Nova_Systemprompt.md](./Nova_Systemprompt.md)** – Das "Gehirn" unserer Kurs-Agentin.
 
-### 🧪 Laborübungen & Daten
-- `demodokumente/` – Testmaterial für RAG-Suche, Vision-Analysen und Data Science Challenges.
-- `requirements.txt` – Python-Abhängigkeiten für die analytischen KI-Fähigkeiten.
+### 🧪 Laborübungen & Multimodale Demodaten
+Der Ordner `demodokumente/` enthält spezielles Testmaterial für verschiedene KI-Fähigkeiten:
+- **Vision:** Bilder für Objekterkennung und Detail-Analysen (z. B. Parkplatz-Check, Wimmelbilder).
+- **RAG & Long-Context:** Komplexe PDFs und Word-Dokumente für die "Nadel im Heuhaufen"-Suche.
+- **Audio:** Beispieldateien für Transkriptions-Tests.
+- **Data Science:** CSV-Dateien für Analysen mittels Code Interpreter.
+
+### 🛠️ Konfigurationen
+- `docker-compose.yml` – Orchestrierung aller Dienste.
+- `searxng_settings.yml` – Konfiguration für die datenschutzkonforme lokale Suche.
+- `requirements_jupyter.txt` – Notwendige Python-Bibliotheken für den Code-Interpreter.
 
 ---
 *Dieses Repository wird kontinuierlich während der Vorlesungsreihe aktualisiert.*
