@@ -1,7 +1,7 @@
 # Lab Session 1 - Advanced Deployment and Infrastructure
 ## Befehle & Deployment-Guide
 
-An diesem Tag richten wir unsere lokale KI-Umgebung mittels Docker ein.
+Wir richten an mehreren Tagen aufeinander aufbauend unsere lokale KI-Umgebung mittels Docker ein. So wie es hier aufgebaut wird, ist es Enterprise-ready. Das heißt, es ist modular und kann leicht um weitere Container erweitert werden. Bzgl. IT-Sicherheit sollten die tatsächlichen IT-Vorgaben des jeweiligen Unternehmens herangezogen werden.
 
 ## 1. Docker Installation & Vorbereitung
 Bevor wir die Container starten, muss Docker Desktop installiert und korrekt konfiguriert sein.
