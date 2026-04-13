@@ -1,5 +1,5 @@
 # Lab Session 1 - Advanced Deployment and Infrastructure
-## Befehle & Deployment-Guide für Tag 03
+## Befehle & Deployment-Guide
 
 An diesem Tag richten wir unsere lokale KI-Umgebung mittels Docker ein.
 
