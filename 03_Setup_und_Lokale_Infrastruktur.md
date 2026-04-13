@@ -52,7 +52,7 @@ docker run hello-world
 ```
 *(Wenn du hier ein "Hello from Docker!" siehst, hast du es geschafft!)*
 
-## 2. Der "Profieweg": Alles auf einmal mit Docker Compose
+## 2. Der "Profiweg": Alles auf einmal mit Docker Compose
 Statt jeden Container einzeln zu starten, nutzen wir eine Konfigurationsdatei (`docker-compose.yml`), die alle Dienste (OpenWebUI, Jupyter, SearXNG) mit einem einzigen Befehl startet und vernetzt.
 
 ### 2.1 Vorbereitung
