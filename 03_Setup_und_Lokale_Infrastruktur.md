@@ -52,19 +52,35 @@ docker run hello-world
 ```
 *(Wenn du hier ein "Hello from Docker!" siehst, hast du es geschafft!)*
 
+## 2. Der "Profieweg": Alles auf einmal mit Docker Compose
+Statt jeden Container einzeln zu starten, nutzen wir eine Konfigurationsdatei (`docker-compose.yml`), die alle Dienste (OpenWebUI, Jupyter, SearXNG) mit einem einzigen Befehl startet und vernetzt.
+
+### 2.1 Vorbereitung
+Stelle sicher, dass die Dateien `docker-compose.yml` und `searxng_settings.yml` im gleichen Ordner liegen.
+
+### 2.2 Starten
+Öffne dein Terminal in diesem Ordner und gib ein:
+```bash
+docker-compose up -d
+```
+*Docker lädt nun alle Images herunter und startet die Container im Hintergrund.*
+
+### 2.3 Die Adressen im Überblick
+- **OpenWebUI:** `http://localhost:3000`
+- **Jupyter Notebook:** `http://localhost:3005`
+- **SearXNG (Suche):** `http://localhost:3010`
+
 ---
 
-## 2. OpenWebUI installieren
-OpenWebUI gilt aktuell als SOTA (State of the Art) für OpenSource Chat-Oberflächen und dient als mächtiges lokales Frontend für die Interaktion mit Modellen (via Ollama, LMStudio, OpenRouter oder andere...).
+## 3. Manueller Weg: Einzelschritte (Alternativ)
+Falls du die Container lieber einzeln kontrollieren möchtest, hier die Befehle:
 
-**So installierst du es:**
-Öffne das Terminal (entweder direkt in Docker Desktop unter "Containers" > "Terminal" oder dein normales System-Terminal) und gib diesen Befehl ein:
-
+### 3.1 OpenWebUI
 ```bash
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui ghcr.io/open-webui/open-webui:main
 ```
 
-### 2.1 OpenWebUI-Konfiguration: Modelle & Agenten
+### 3.2 OpenWebUI-Konfiguration: Modelle & Agenten
 Sobald OpenWebUI unter `http://localhost:3000` läuft, binden wir unsere Modell-Backends an:
 
 #### 🏠 Lokale Modelle (LM Studio)
@@ -80,7 +96,7 @@ Sobald OpenWebUI unter `http://localhost:3000` läuft, binden wir unsere Modell-
 
 ---
 
-## 2.2 RAG und Dokumente konfigurieren
+## 3.3 RAG und Dokumente konfigurieren
 Das Herzstück von Nova ist das Wissen. Gehe dazu in OpenWebUI auf dein **User-Icon > Settings > Documents**:
 
 **Allgemein:**
@@ -139,7 +155,7 @@ Provide a clear and direct response to the user's query, including inline citati
 
 ---
 
-## 2.3 Websuche konfigurieren
+## 3.4 Websuche konfigurieren
 Gehe dazu in OpenWebUI auf dein **User-Icon > Settings > Web Search**:
 
 **Allgemein:**
@@ -160,7 +176,7 @@ Gehe dazu in OpenWebUI auf dein **User-Icon > Settings > Web Search**:
 
 ---
 
-## 2.4 Deine Agentin "Nova" erstellen
+## 3.5 Deine Agentin "Nova" erstellen
 Damit wir nicht nur nackte Modelle nutzen, erstellen wir eine spezialisierte Agentin:
 1. Gehe in den Bereich **Workspace > Models > Create a Model**.
 2. **Name:** Nova (oder einen Namen nach eigenem Wunsch)
@@ -170,7 +186,7 @@ Damit wir nicht nur nackte Modelle nutzen, erstellen wir eine spezialisierte Age
 
 ---
 
-## 2.5 Labor-Challenge I: Vision & RAG (Basics)
+## 3.6 Labor-Challenge I: Vision & RAG (Basics)
 In dieser Übung testen wir die Grenzen unserer lokalen Modelle und Agenten. Nutze dafür die Dateien im Ordner **`demodokumente`**.
 
 ### Challenge A: Die Nadel im Heuhaufen (RAG)
@@ -205,7 +221,7 @@ Führe diesen Befehl aus, um die Instanz zu starten.
 
 ```bash
 docker run -d \
-  -p 8888:8888 \
+  -p 3005:8888 \
   --name jupyter-interpreter \
   --restart always \
   jupyter/datascience-notebook \
@@ -233,7 +249,7 @@ docker exec jupyter-interpreter pip install -r requirements_jupyter.txt
 
 ### 3.3 Einbindung in OpenWebUI
 1. Navigiere zu **Settings > Images & Web Search** (oder **Code Interpreter**).
-2. Trage bei der Jupyter-URL ein: `http://host.docker.internal:8888`.
+2. Trage bei der Jupyter-URL ein: `http://host.docker.internal:3005`.
 3. Gib den von dir gewählten Token (`DEIN_SICHERER_TOKEN`) ein.
 
 ![Einstellungen Code Interpreter](assets/einstellungen_code_interpreter.png)
@@ -275,7 +291,7 @@ Nutze die analytische Power deiner Jupyter-Umgebung.
 
 ---
 
-## 4. Docker MCP Toolkit & Web-Suche
+## 5. Docker MCP Toolkit & Web-Suche
 Docker Desktop bietet das **MCP Toolkit (Beta)** an.
 
 ### Was ist MCP? (Einfach erklärt)
@@ -294,13 +310,14 @@ Das System basiert auf einer einfachen Rollenverteilung, die man sich wie bei ei
 3. **Endlose Vielfalt:** Das Docker MCP Toolkit zeigt nur eine kleine Auswahl. In der Realität gibt es bereits hunderte MCP-Server für fast alles: Finanzdaten, Smarthome-Steuerung, Google Drive, Slack oder spezialisierte Programmier-Bots.
 
 Kurz gesagt: MCP gibt der KI "Hände und Augen", damit sie nicht nur redet, sondern aktiv für Sie arbeiten kann.
-### 4.1 MCP Toolkit aktivieren & Server hinzufügen
+
+### 5.1 MCP Toolkit aktivieren & Server hinzufügen
 1. Docker Desktop > **MCP Toolkit** (links).
 2. **Catalog:** Suche nach `Brave Search`, `Fetch` und `Playwright` > Aktiviere sie via **"+"**.
 3. **Clients:** Aktiviere den Schalter für LM Studio (oder andere Clients).
 4. **Ports:** Notiere dir den Port des jeweiligen Servers in den Details.
 
-### 4.2 OpenWebUI mit MCP verbinden (SSE)
+### 5.2 OpenWebUI mit MCP verbinden (SSE)
 Da OpenWebUI im Docker-Container läuft, binden wir sie als Netzwerk-Dienst (SSE) ein.
 1. OpenWebUI > **Admin Settings > External Tools** > **"+" (Add Server)**.
 2. **Type:** Wähle `MCP (Streamable HTTP)`.
@@ -308,22 +325,44 @@ Da OpenWebUI im Docker-Container läuft, binden wir sie als Netzwerk-Dienst (SSE
 
 ---
 
-## 5. Erweiterte Agenten-Fähigkeiten (Sub-Agenten)
+## 6. Lokale Websuche mit SearXNG
+SearXNG ist eine Metasuchmaschine, die Ergebnisse von Google, Bing und Co. bündelt und datenschutzkonform für LLMs bereitstellt.
+
+### 6.1 SearXNG manuell starten
+Falls du Docker Compose nicht nutzt, starte SearXNG so:
+```bash
+docker run -d \
+  -p 3010:8080 \
+  --name searxng \
+  --restart always \
+  -v $(pwd)/searxng_settings.yml:/etc/searxng/settings.yml \
+  searxng/searxng:latest
+```
+
+### 6.2 Einbindung in OpenWebUI
+1. Gehe zu **Settings > Web Search**.
+2. Wähle als Suchmaschine **SearXNG**.
+3. URL: `http://host.docker.internal:3010/search?q=<query>`.
+4. Stelle sicher, dass in den SearXNG-Einstellungen das Format `json` aktiviert ist (ist in unserer `searxng_settings.yml` bereits der Fall).
+
+---
+
+## 7. Erweiterte Agenten-Fähigkeiten (Sub-Agenten)
 Um komplexe Aufgaben zu bewältigen, nutzen wir das **Sub-Agent Tool**.
 
-### 5.1 Installation des Sub-Agents
+### 7.1 Installation des Sub-Agents
 1. Gehe zu **Workspace > Tools** in OpenWebUI.
 2. Klicke auf **"Import from OpenWebUI Community"** oder nutze diesen Link: [Sub-Agent Tool (v7bfeb0b7)](https://openwebui.com/posts/sub_agent_7bfeb0b7).
 3. Bestätige den Import und aktiviere das Tool in den Einstellungen deiner Agentin Nova.
 
-### 5.2 Der finale Belastungstest (Agentik & Multi-Step)
+### 7.2 Der finale Belastungstest (Agentik & Multi-Step)
 **Challenge E (Globale Inflation & Web-Visualisierung):**
 Verwende das Sub-Agent Tool für eine tiefgreifende Recherche und Dashboard-Erstellung.
 > "Wie hat sich die Inflation in Deutschland seit 2000 entwickelt? Kannst du das gegenüberstellen zu China? Zeige auch bitte auf, was die Gründe für Peaks sind. Zeige dann alles in ein oder mehreren passenden Charts in einem HTML/JS/CSS Dashboard an."
 
 ---
 
-## 6. OpenWebUI Mastery: Benchmark-Challenges für zu Hause
+## 8. OpenWebUI Mastery: Benchmark-Challenges für zu Hause
 Nutze diese Aufgaben, um die Werkzeuge (Sub-Agent, Code Interpreter, Knowledge Base) bis an ihre Grenzen zu testen.
 
 ### Benchmark 1: Creative Coding (The Snake Challenge)
@@ -347,27 +386,27 @@ Nutze diese Aufgaben, um die Werkzeuge (Sub-Agent, Code Interpreter, Knowledge B
 
 ---
 
-## 7. KI-Benchmarks: Qualität & Evaluation in der Praxis
+## 9. KI-Benchmarks: Qualität & Evaluation in der Praxis
 Um die Leistungsfähigkeit verschiedener Modelle (Qwen 0.8B vs. Gemini 3.1 Flash) objektiv zu bewerten, führen wir systematische Benchmarks durch.
 
-### 7.1 Die Benchmark-Bedingungen (Die "Hebel")
+### 9.1 Die Benchmark-Bedingungen (Die "Hebel")
 Ein fairer Vergleich erfordert identische Bedingungen. Achten Sie auf diese Parameter:
 - **Temperature:** (0.0 für Fakten/Code, 0.7+ für Kreativität).
 - **System Prompt:** Ein identischer System-Prompt ("Du bist ein Experte für...") neutralisiert Verhaltensunterschiede der Basemodelle.
 - **RAG-Kontext:** Wird das Modell durch Dokumente unterstützt oder antwortet es "Zero-Shot" (nur aus dem Training)?
 
-### 7.2 Fachspezifische Test-Prompts
+### 9.2 Fachspezifische Test-Prompts
 Testen Sie Ihre Modelle in verschiedenen Domänen, um qualitative Unterschiede zu sehen:
 - **Allgemein:** "Erkläre die Quantenverschränkung so, dass es ein 10-jähriger versteht."
 - **BWL:** "Erstelle eine Break-Even-Analyse für ein SaaS-Startup mit fixen Kosten von 50.000 € und einem Deckungsbeitrag von 150 € pro Nutzer."
 - **Jura:** "Prüfe die Zulässigkeit einer Klage vor dem Verwaltungsgericht, wenn der Widerspruchsbescheid der Ausgangsbehörde vor 5 Wochen zugestellt wurde."
 
-### 7.3 Evaluation: Wer bewertet die Ergebnisse?
+### 9.3 Evaluation: Wer bewertet die Ergebnisse?
 Die Bewertung erfolgt in einem zweistufigen Verfahren:
 1. **Human Evaluation:** Sie als Fachexperte prüfen Korrektheit, logische Herleitung und stilistische Nuancen.
 2. **LLM-as-a-Judge (Frontier-Vergleich):** Ein externes **Frontier-Modell** (z.B. GPT-5.X, Claude Sonnet 4.X oder Gemini 3.1 Pro via Perplexity) bewertet die Antworten der kleineren Modelle nach einer Punkteskala (1-10) hinsichtlich Präzision, Logik und Halluzinationen.
 
-### 7.4 Modell-Orchestrierung & Routing
+### 9.4 Modell-Orchestrierung & Routing
 In der professionellen Praxis nutzt man selten nur *ein* Modell. Man **orchestriert** den Einsatz je nach Komplexität ("Modell-Tiering"):
 - **Small (0.8B - 3B):** Blitzschnell für einfache Klassifizierungen oder das Routing von Anfragen.
 - **Medium (7B - 30B):** Lokale Allrounder für RAG-Aufgaben und Standard-Analysen.
@@ -376,5 +415,6 @@ In der professionellen Praxis nutzt man selten nur *ein* Modell. Man **orchestri
 **Profi-Tipp:** Tools wie **LiteLLM** fungieren als intelligente Schaltzentrale (Router) und leiten Anfragen automatisch an das günstigste oder fähigste Modell weiter, ohne dass der Anwender das Backend manuell wechseln muss.
 
 ---
+
 **Nächste Schritte:** 
 Bringe deine Umgebung zum Glühen! 🚀

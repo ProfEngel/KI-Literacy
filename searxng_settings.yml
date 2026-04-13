@@ -1,0 +1,35 @@
+# SearXNG settings
+
+use_default_settings: true
+
+server:
+  port: 8080
+  bind_address: "0.0.0.0"
+  secret_key: "ultrasecretkey" # Sollte in Produktion geändert werden
+  base_url: false
+
+search:
+  safe_search: 0
+  autocomplete: ""
+  formats:
+    - html
+    - json
+
+engines:
+  - name: google
+    engine: google
+    shortcut: g
+  - name: duckduckgo
+    engine: duckduckgo
+    shortcut: ddg
+  - name: wikipedia
+    engine: wikipedia
+    shortcut: w
+
+ui:
+  static_path: ""
+  templates_path: ""
+  theme: simple
+  center_alignment: false
+  default_locale: "de"
+  infinite_scroll: false

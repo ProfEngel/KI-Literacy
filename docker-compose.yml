@@ -1,0 +1,43 @@
+services:
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    ports:
+      - "3000:8080"
+    add_host:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - open-webui:/app/backend/data
+    restart: always
+
+  jupyter-interpreter:
+    image: jupyter/datascience-notebook
+    container_name: jupyter-interpreter
+    ports:
+      - "3005:8888"
+    restart: always
+    environment:
+      - JUPYTER_TOKEN=DEIN_SICHERER_TOKEN
+    command: >
+      start.sh jupyter notebook
+      --NotebookApp.token='DEIN_SICHERER_TOKEN'
+      --NotebookApp.password=''
+      --NotebookApp.allow_origin='*'
+      --NotebookApp.disable_check_xsrf=True
+    volumes:
+      - jupyter_data:/home/jovyan/work
+
+  searxng:
+    image: searxng/searxng:latest
+    container_name: searxng
+    ports:
+      - "3010:8080"
+    volumes:
+      - ./searxng_settings.yml:/etc/searxng/settings.yml:ro
+    restart: always
+    environment:
+      - SEARXNG_SETTINGS_PATH=/etc/searxng/settings.yml
+
+volumes:
+  open-webui:
+  jupyter_data:
