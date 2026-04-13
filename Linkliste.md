@@ -65,5 +65,6 @@ Für die Laborübungen nutzen wir verschiedene Datensätze zur Evaluation:
 - [Perplexity LLM-Suche](https://www.perplexity.ai/search/was-kannst-du-mir-zu-den-llm-m-L3NwvHbESzmBkTaUNsOvqQ) - Eine exemplarische Suchanfrage zu Eigenschaften aktueller Sprachmodelle.
 - [Claude Code & Obsidian als Zweites Gehirn (YouTube)](https://youtu.be/B_SbI0F0h4o?si=cnM9yxqQj7e2uzav) - Ein Tutorial, wie man das Obsidian-Vault mit Claude Code als RAG-Wissensbasis nutzt.
 ## 📰 News-Briefing 16.04.2026
-- [Milla Jovovich goes Open Source (Forbes)](https://www.forbes.com/sites/joshpearce/2026/04/09/milla-jovovich-goes-open-source-guns-blazing-with--top-ai-memory-code/) - Bericht über Open-Source-Initiativen und neue Speicher-Technologien (AI Memory) für LLMs.
+- [Milla Jovovich goes Open Source (Forbes)](https://www.forbes.com/sites/joshpearce/2026/04/09/milla-jovovich-goes-open-source-guns-blazing-with--top-ai-memory-code/) - Bericht über die Open-Source-Initiative der Schauspielerin (Resident Evil, Das fünfte Element). Ihr "AI Memory Code" gilt aktuell als die leistungsfähigste Lösung ihrer Art für LLMs.
+- [Google Gemini Agents Overview](https://gemini.google/overview/agent/) - Google stellt seine neuen KI-Agenten vor (Rollout in Deutschland steht kurz bevor).
 - [Ace_step.15 XL Audio (YouTube)](https://youtu.be/UAlLD5fS7-c?si=JMSCEnDUxLBBxvu5) - Demonstration von Ace_step.15 XL zur Erstellung von Audioinhalten in Studioqualität auf lokaler Hardware.
