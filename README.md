@@ -30,7 +30,7 @@ Detaillierte Anweisungen und alternative Deployment-Wege findest du im [Deployme
 - **[Nova_Systemprompt.md](./Nova_Systemprompt.md)** – Das "Gehirn" unserer Kurs-Agentin.
 
 ### 🧪 Laborübungen & Multimodale Demodaten
-Der Ordner `demodokumente/` enthält spezielles Testmaterial für verschiedene KI-Fähigkeiten:
+Der Ordner `demodokumente/` enthält spezielles Testmaterial für verschiedene KI-Fähigkeiten. Alle Dateien in diesem Ordner wurden mittels KI generiert und sind somit lizenzfrei für Lehrzwecke nutzbar:
 - **Vision:** Bilder für Objekterkennung und Detail-Analysen (z. B. Parkplatz-Check, Wimmelbilder).
 - **RAG & Long-Context:** Komplexe PDFs und Word-Dokumente für die "Nadel im Heuhaufen"-Suche.
 - **Audio:** Beispieldateien für Transkriptions-Tests.
