@@ -68,3 +68,6 @@ Für die Laborübungen nutzen wir verschiedene Datensätze zur Evaluation:
 - [Milla Jovovich goes Open Source (Forbes)](https://www.forbes.com/sites/joshpearce/2026/04/09/milla-jovovich-goes-open-source-guns-blazing-with--top-ai-memory-code/) - Bericht über die Open-Source-Initiative der Schauspielerin (Resident Evil, Das fünfte Element). Ihr "AI Memory Code" gilt aktuell als die leistungsfähigste Lösung ihrer Art für LLMs.
 - [Google Gemini Agents Overview](https://gemini.google/overview/agent/) - Google stellt seine neuen KI-Agenten vor (Rollout in Deutschland steht kurz bevor).
 - [Ace_step.15 XL Audio (YouTube)](https://youtu.be/UAlLD5fS7-c?si=JMSCEnDUxLBBxvu5) - Demonstration von Ace_step.15 XL zur Erstellung von Audioinhalten in Studioqualität auf lokaler Hardware.
+- [Suno AI](https://suno.com/) - Suno AI – Musik-Generierung auf Profi-Niveau.
+- [Anthropic Research: Emotion Concepts](https://www.anthropic.com/research/emotion-concepts-function) - Anthropic Research – Repräsentation emotionaler Zustände in LLMs.
+

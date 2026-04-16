@@ -35,6 +35,8 @@ Der Ordner `demodokumente/` enthält spezielles Testmaterial für verschiedene K
 - **RAG & Long-Context:** Komplexe PDFs und Word-Dokumente für die "Nadel im Heuhaufen"-Suche.
 - **Audio:** Beispieldateien für Transkriptions-Tests.
 - **Data Science:** CSV-Dateien für Analysen mittels Code Interpreter.
+- **Agentik:** [demoaufgabe_agents_oui.md](./demoaufgabe_agents_oui.md) – Eine Schritt-für-Schritt-Anleitung zur Erstellung von OpenWebUI-Agenten am Beispiel einer wissenschaftlichen Recherche-Umgebung.
+
 
 ### 🛠️ Konfigurationen
 - `docker-compose.yml` – Orchestrierung aller Dienste.
