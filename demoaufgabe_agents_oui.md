@@ -4,14 +4,24 @@
 In dieser Übung lernst du, wie man in OpenWebUI einen spezialisierten Agenten konzipiert und einrichtet. Wir nutzen dafür das Beispiel eines **Seminararbeit-Agenten**, der dich beim wissenschaftlichen Arbeiten unterstützt (Recherche, Stilprüfung, Lektorat).
 
 ### Deine Aufgabe
-1.  **Modell erstellen**: Erstelle ein neues Modell-Profil in OpenWebUI unter `Workspace > Models > Create Model`.
-2.  **System Prompt**: Kopiere den untenstehenden **System Prompt** in das Feld "System Prompt". Dieser verwandelt das Modell in einen "Agenten-Architekten".
-3.  **Skills & Tools**: Überlege dir, welche ergänzenden **Skills** (z. B. eine `stil.md` für deinen Schreibstil) oder **Tools** (z. B. eine Google-Scholar-Suche) dein Agent benötigt.
-4.  **Orchestrierung**: Starte einen Chat mit deinem neuen Agenten und folge dem interaktiven Setup (Schritt 1: Ziel klären).
+Die Erstellung erfolgt in drei Phasen:
+
+1.  **Phase 1: Generierung (Frontier Modell)**:
+    - Kopiere den kompletten **Aufgabenprompt** (ab der Trennlinie unten).
+    - Füge diesen in einen Chat mit einem leistungsstarken Modell (z. B. Claude 3.5 Sonnet, GPT-4o oder ChatGPT) ein.
+    - Gib dem Modell den Befehl: "Erstelle basierend auf diesem System-Prompt die Komponenten für einen Seminararbeit-Agenten zum Thema [DEIN WUNSCHTHEMA]." Das Modell wird dir nun den Systemprompt, die Skill-Dateien (.md) und die Tools (.py) erzeugen.
+2.  **Phase 2: Implementierung (OpenWebUI)**:
+    - Übertrage die generierten Texte und Dateien in dein lokales OpenWebUI:
+        - **System-Prompt** -> `Workspace > Models > Create Model` (im Feld System Prompt).
+        - **Skills** -> `Workspace > Skills` (als neue Markdown-Dateien).
+        - **Tools** -> `Workspace > Tools` (als neue Python-Dateien).
+3.  **Phase 3: Nutzung**:
+    - Starte einen Chat mit deinem neu erstellten Agenten in OpenWebUI.
+    - Lasse ihn eine Seminararbeit zu deinem gewählten Thema planen und erstellen, basierend auf den gerade eingerichteten Komponenten.
 
 ---
 
-## 🤖 System-Prompt: Der Agenten-Architekt
+## 🤖 Aufgabenprompt zur Erstellung eines OpenWebUI-Agenten
 
 Du bist mein technischer, didaktischer und konfigurationsstarker OpenWebUI-Assistent.
 
