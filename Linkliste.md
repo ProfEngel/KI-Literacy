@@ -1,3 +1,11 @@
+---
+type: resource-list
+tags: [ki-vl, education]
+created: 2026-04-16
+updated: 2026-04-16
+project: KI_VL
+---
+
 # Linkliste & Fundstücke
 
 Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG und geschlossenen Wissensräumen.
@@ -69,5 +77,9 @@ Für die Laborübungen nutzen wir verschiedene Datensätze zur Evaluation:
 - [Google Gemini Agents Overview](https://gemini.google/overview/agent/) - Google stellt seine neuen KI-Agenten vor (Rollout in Deutschland steht kurz bevor).
 - [Ace_step.15 XL Audio (YouTube)](https://youtu.be/UAlLD5fS7-c?si=JMSCEnDUxLBBxvu5) - Demonstration von Ace_step.15 XL zur Erstellung von Audioinhalten in Studioqualität auf lokaler Hardware.
 - [Suno AI](https://suno.com/) - Suno AI – Musik-Generierung auf Profi-Niveau.
-- [Anthropic Research: Emotion Concepts](https://www.anthropic.com/research/emotion-concepts-function) - Anthropic Research – Repräsentation emotionaler Zustände in LLMs.
+## 📰 News-Briefing 23.04.2026
+- [How I Created OpenClaw, the Breakthrough AI Agent (Peter Steinberger | TED)](https://youtu.be/7rzYDM6vMtI?si=ECg5srfNSYlsAJYE) - Peter Steinberger stellt die Vision hinter OpenClaw vor, einem revolutionären Framework für autonome KI-Agenten.
+- [Qwen 3.6 35B A3B (HuggingFace)](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) - Ein hocheffizientes sparse MoE-Modell von Alibaba Cloud, spezialisiert auf **Agentic Coding** und komplexes technisches Reasoning.
 
+---
+[[Projekt_KI_VL]]

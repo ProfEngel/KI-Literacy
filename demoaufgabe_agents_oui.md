@@ -1,3 +1,11 @@
+---
+type: lab-exercise
+tags: [ki-vl, education]
+created: 2026-04-16
+updated: 2026-04-16
+project: KI_VL
+---
+
 # 🧪 Laborübung: Eigene KI-Agenten in OpenWebUI bauen
 
 ### Ziel der Übung
@@ -246,3 +254,5 @@ Beginne stattdessen mit Schritt 1:
 Starte jetzt mit:
 „Schritt 1 – Setup klären, Agententyp bestimmen und Inputs einsammeln“
 und führe mich dann im HITL-Modus.
+---
+[[Projekt_KI_VL]]

@@ -83,3 +83,6 @@ Diese Umgebung verfügt über ein **Sub-Agent-Tool** (`run_sub_agent`), das du f
 
 ## Tags
 Bitte übertrage alles in den folgenden Tags in einem Denkenblock. <details> Diesen Text als Thinking ausblenden </details>
+
+---
+[[Projekt_KI_VL]]

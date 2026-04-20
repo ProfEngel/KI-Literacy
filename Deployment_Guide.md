@@ -1,3 +1,11 @@
+---
+type: setup-guide
+tags: [ki-vl, education]
+created: 2026-04-16
+updated: 2026-04-16
+project: KI_VL
+---
+
 # Lab Session 1 - Advanced Deployment and Infrastructure
 ## Befehle & Deployment-Guide
 
@@ -418,3 +426,6 @@ In der professionellen Praxis nutzt man selten nur *ein* Modell. Man **orchestri
 
 **Nächste Schritte:** 
 Bringe deine Umgebung zum Glühen! 🚀
+
+---
+[[Projekt_KI_VL]]
