@@ -79,7 +79,9 @@ Für die Laborübungen nutzen wir verschiedene Datensätze zur Evaluation:
 - [Suno AI](https://suno.com/) - Suno AI – Musik-Generierung auf Profi-Niveau.
 ## 📰 News-Briefing 23.04.2026
 - [How I Created OpenClaw, the Breakthrough AI Agent (Peter Steinberger | TED)](https://youtu.be/7rzYDM6vMtI?si=ECg5srfNSYlsAJYE) - Peter Steinberger stellt die Vision hinter OpenClaw vor, einem revolutionären Framework für autonome KI-Agenten.
-- [Qwen 3.6 35B A3B (HuggingFace)](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) - Ein hocheffizientes sparse MoE-Modell von Alibaba Cloud, spezialisiert auf **Agentic Coding** und komplexes technisches Reasoning.
+- [Qwen 3.6 27B (Alibaba Cloud)](https://qwen.ai/blog?id=qwen3.6-27b) - Neues, hocheffizientes Modell von Alibaba; bietet Performance auf dem Niveau von 72B-Modellen bei deutlich reduzierten Hardwareanforderungen.
+- [Qwen 3.6 35B A3B (Alibaba Cloud)](https://qwen.ai/blog?id=qwen3.6-35b-a3b) - Ein "Sparse Mixture-of-Experts" (MoE) Modell mit nur 3 Mrd. aktiven Parametern pro Token; spezialisiert auf **Agentic Coding** und technisches Reasoning.
+- [Kimi K2.6 (Moonshot AI)](https://huggingface.co/moonshotai/Kimi-K2.6) - Natives multimodales Modell, optimiert für "Long-Horizon Coding" und die Steuerung von Agenten-Schwärmen (bis zu 300 koordinierte Sub-Agenten).
 
 ---
 [[Projekt_KI_VL]]
