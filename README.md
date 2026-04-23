@@ -44,7 +44,7 @@ Der Ordner `demodokumente/` enthält spezielles Testmaterial für verschiedene K
 - **Audio:** Beispieldateien für Transkriptions-Tests.
 - **Data Science:** CSV-Dateien für Analysen mittels Code Interpreter.
 - **Agentik & Seminararbeit:** 
-    - **[agents_demo/](./agents_demo/)** – Ein vollständiges Demo-Paket für einen **OpenWebUI Seminararbeit-Agenten**. Enthält System-Prompts, Skills (didaktisch & poetisch) und aktuelle Literaturquellen (RAG) zum Thema KI-Ethik in der Bildung.
+    - **[agents_demo/](./agents_demo/)** – Ein vollständiges Demo-Paket für einen **OpenWebUI Seminararbeit-Agenten**. Enthält System-Prompts, Skills (didaktisch & poetisch), aktuelle Literaturquellen (RAG) und **Demoprompts** zum Testen.
     - [demoaufgabe_agents_oui.md](./demoaufgabe_agents_oui.md) – Die ursprüngliche Schritt-für-Schritt-Anleitung zur Erstellung von Agenten.
 
 

@@ -14,7 +14,8 @@ Dieses Repository enthält die Konfiguration für einen didaktisch geprägten KI
     - `quellen.md`: Zitationsregeln.
     - `lektorat.md`: Qualitätssicherung.
     - `entwurf.md`: Gliederung der Arbeit.
-- `installationsanweisung.md`: Anleitung zur Einrichtung der "Literatur"-Collection und des Modells.
+- `demoprompts.md`: Verschiedene Beispielsätze, um den Agenten in Aktion zu erleben.
+- `installationsanweisung.md`: Schritt-für-Schritt Anleitung zur Einrichtung in OpenWebUI.
 
 ## Verwendung
 Der Agent ist ideal für Nutzer, die bereits eine Literaturliste haben und diese tiefgreifend und stilistisch konsistent verarbeiten möchten.
