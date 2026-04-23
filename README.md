@@ -43,7 +43,9 @@ Der Ordner `demodokumente/` enthält spezielles Testmaterial für verschiedene K
 - **RAG & Long-Context:** Komplexe PDFs und Word-Dokumente für die "Nadel im Heuhaufen"-Suche.
 - **Audio:** Beispieldateien für Transkriptions-Tests.
 - **Data Science:** CSV-Dateien für Analysen mittels Code Interpreter.
-- **Agentik:** [demoaufgabe_agents_oui.md](./demoaufgabe_agents_oui.md) – Eine Schritt-für-Schritt-Anleitung zur Erstellung von OpenWebUI-Agenten am Beispiel einer wissenschaftlichen Recherche-Umgebung.
+- **Agentik & Seminararbeit:** 
+    - **[agents_demo/](./agents_demo/)** – Ein vollständiges Demo-Paket für einen **OpenWebUI Seminararbeit-Agenten**. Enthält System-Prompts, Skills (didaktisch & poetisch) und aktuelle Literaturquellen (RAG) zum Thema KI-Ethik in der Bildung.
+    - [demoaufgabe_agents_oui.md](./demoaufgabe_agents_oui.md) – Die ursprüngliche Schritt-für-Schritt-Anleitung zur Erstellung von Agenten.
 
 
 ### 🛠️ Konfigurationen
