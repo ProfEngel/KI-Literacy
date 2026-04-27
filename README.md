@@ -46,6 +46,7 @@ Der Ordner `demodokumente/` enthält spezielles Testmaterial für verschiedene K
 - **Agentik & Seminararbeit:** 
     - **[agents_demo/](./agents_demo/)** – Ein vollständiges Demo-Paket für einen **OpenWebUI Seminararbeit-Agenten**. Enthält System-Prompts, Skills (didaktisch & poetisch), aktuelle Literaturquellen (RAG) und **Demoprompts** zum Testen.
     - [demoaufgabe_agents_oui.md](./demoaufgabe_agents_oui.md) – Die ursprüngliche Schritt-für-Schritt-Anleitung zur Erstellung von Agenten.
+- **[Bilderzeugung (Module)](./bilderzeugung/)** – Ein vollständiges Lehrmodul zur systematischen KI-Bildgenerierung. Enthält eine Anleitung mit 16 Lern-Aufgaben, ein Cheat Sheet für technisches Prompting und multimodale Referenzbilder (Erdbeere, Wimmelbild, Character Sheet).
 
 
 ### 🛠️ Konfigurationen
