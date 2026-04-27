@@ -5,6 +5,7 @@ Dieses Repository enthält die Materialien für ein Lehrmodul zur systematischen
 ## Inhalt des Ordners
 
 - **[Anleitung.md](./Anleitung.md)**: Das vollständige Unterrichtsskript inklusive Ablaufplan, didaktischen Hinweisen und Referenzbildern.
+- **[BilderzeugungVerstehen.md](./BilderzeugungVerstehen.md)**: Ein technischer und strategischer Überblick (Geschichte, Diffusion, Open vs. Closed, Hardware).
 - **[cheatsheet.md](./cheatsheet.md)**: Ein kompaktes Referenzblatt mit Prompt-Formeln, Shotgrößen, Kameraeinstellungen und Stil-Vorlagen.
 - **media/**: Enthält alle im Modul verwendeten Beispielbilder.
 
