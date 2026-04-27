@@ -95,6 +95,31 @@ Kopieren Sie diesen Text in Ihr LLM:
 
 > **Prompt:** A minimalist vector logo for [a tech startup named 'Ouroboros'], showing [a stylized snake eating its tail], geometric shapes, clean lines, flat design, two-tone color palette [Black and Gold], isolated on white background, professional branding style.
 
+### K. Architektur & Interior Design
+*Fokus auf Raumgefühl, Materialien und Lichtführung.*
+
+> **Prompt:** Professional architectural photography of [a modern brutalist villa in a pine forest]. Large [concrete walls], floor-to-ceiling [glass windows], warm interior lighting visible from outside, twilight blue hour atmosphere, soft ambient light, high-end materials, minimalist landscape design, 8k resolution, wide angle lens.
+
+### L. Makro-Fotografie
+*Fokus auf extreme Details, die für das bloße Auge oft unsichtbar sind.*
+
+> **Prompt:** Macro photography of [a honeybee covered in pollen on a lavender flower]. Extreme detail on [the bee's wings and eyes], shallow depth of field with creamy bokeh, natural sunlight, vibrant colors, microscopic textures visible, high-speed shutter look, professional nature documentary style.
+
+### M. Fashion & Editorial Portrait
+*Fokus auf Posen, Kleidung und Licht-Inszenierung.*
+
+> **Prompt:** Editorial fashion portrait of [a model wearing a structural avant-garde silver dress]. Setting: [a stark white minimalist studio]. Lighting: high-contrast butterfly lighting, sharp shadows, cool color temperature, professional magazine aesthetic, [Vogue-style] composition, extreme sharpness on fabric textures.
+
+### N. Sci-Fi & Cyberpunk
+*Atmosphärische Welten mit Neon-Licht und technologischen Details.*
+
+> **Prompt:** Cinematic sci-fi concept art of [a neon-drenched street in a futuristic Tokyo]. Rain-slicked pavement reflecting [cyan and magenta neon signs], [hovering vehicles] in the background, volumetric fog, dense urban atmosphere, high-detail technological elements, Blade Runner aesthetic, 16:9 aspect ratio.
+
+### O. Retro & Vintage Fotografie
+*Simulation von analogen Film-Looks und historischen Epochen.*
+
+> **Prompt:** Vintage [Polaroid] photo from the [1970s] showing [a group of friends at a beach bonfire]. Faded colors, slight light leaks, soft grain, warm nostalgic atmosphere, square format with white border look, [35mm film] aesthetic, authentic retro feel.
+
 ---
 
 ## 3. Fortgeschrittene Techniken

@@ -6,7 +6,8 @@ Dieses Repository enthält die Materialien für ein Lehrmodul zur systematischen
 
 - **[Anleitung.md](./Anleitung.md)**: Das vollständige Unterrichtsskript inklusive Ablaufplan, didaktischen Hinweisen und Referenzbildern.
 - **[BilderzeugungVerstehen.md](./BilderzeugungVerstehen.md)**: Ein technischer und strategischer Überblick (Geschichte, Diffusion, Open vs. Closed, Hardware).
-- **[cheatsheet.md](./cheatsheet.md)**: Ein kompaktes Referenzblatt mit Prompt-Formeln, Shotgrößen, Kameraeinstellungen und Stil-Vorlagen.
+- **[cheatsheet.md](./cheatsheet.md)**: Ein kompaktes Referenzblatt mit Prompt-Formeln, Shotgrößen und Kameraeinstellungen.
+- **[diffusion_prompts.md](./diffusion_prompts.md)**: Ein umfangreicher Katalog mit Musterprompts für 15+ Kategorien und LLM-Workflow.
 - **media/**: Enthält alle im Modul verwendeten Beispielbilder.
 
 ## Struktur des Moduls
