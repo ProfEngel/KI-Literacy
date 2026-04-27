@@ -114,3 +114,29 @@ no extra objects, no text, no watermark, no duplicate items, no anatomy errors, 
 
 ### C. Character Sheet
 > Create a clean character sheet of a woman on a neutral background. Top row: full-body front view, left profile, right profile, back view, relaxed A-pose. Bottom row: close-up portrait front, left profile, right profile. Keep identical facial features, identical proportions, identical hairstyle, identical glasses, consistent soft studio lighting, clean panel layout, no extra props.
+
+### D. Infografik (Strukturiert)
+Dieses Format eignet sich für FLUX-Modelle, um saubere Texte und Icons zu generieren.
+
+> A professional, high-quality vector art infographic on a clean, solid light background. The style is modern flat design, using clean geometric shapes, sans-serif typography, and a cohesive color palette of Teal, Navy Blue, and White.
+> 
+> 1. Header Area: A bold, modern title text at the top reading: "ENERGIE-MIX 2025".
+> 
+> 2. Visual Section 1 (Top Left): A clean vector icon representing solar panels. Below it, a text label in bold font reading: "SOLAR".
+> 
+> 3. Visual Section 2 (Top Right): A clean vector icon representing wind turbines. Below it, a text label reading: "WIND".
+> 
+> 4. Visual Section 3 (Bottom Left): A clean vector icon representing a water dam. Below it, a text label reading: "WASSER".
+> 
+> 5. Visual Section 4 (Bottom Right): A clean vector icon representing a battery. Below it, a text label reading: "SPEICHER".
+> 
+> Style details: Adobe Illustrator style, 2D flat vector graphics, minimalist, business professional, perfect typography, text in German.
+
+### E. Metapher & Schaubild
+Hier steht die pädagogische Vermittlung eines Konzepts im Vordergrund.
+
+> **Metapher (Diffusion):**
+> Pädagogisches Schaubild, Infografik-Stil, gedeckte Pastellfarben. Metapher für den Diffusionsprozess: Ein antiker Bildhauer aus Marmor schält mit Meißel und Hammer eine perfekte Statue aus einer dichten, wirbelnden Wolke aus statischem Rauschen und digitalen Pixel-Fragmenten heraus. Sauberer weißer Hintergrund. Labels auf Deutsch: "Rauschen (Input)" an der Pixelwolke, "Diffusion" am Bildhauer, "Struktur (Output)" an der Statue. Moderner Vektor-Stil.
+
+> **Technisches Schaubild (Knoten-Workflow):**
+> Pädagogisches Schaubild, Infografik-Stil, flaches Design. Darstellung eines knotenbasierten Workflows (Nodes). Mehrere Boxen mit abgerundeten Ecken sind durch geschwungene, farbige Linien miteinander verbunden. Labels auf Deutsch in den Boxen: "Checkpoint Loader", "CLIP-Text", "K-Sampler", "VAE Decode", "Bild (Output)". Hintergrund schlichtes Weiß, minimalistisch, Fokus auf logischen Fluss.
