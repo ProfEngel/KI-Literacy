@@ -104,72 +104,19 @@ no extra objects, no text, no watermark, no duplicate items, no anatomy errors, 
 
 ---
 
-## 5. Musterprompts für die Praxis
+---
 
-> [!TIP] Nutzungshinweis
-> Die Begriffe in eckigen Klammern `[...]` sind Platzhalter. Ersetzen Sie diese durch Ihr gewünschtes Motiv oder Thema, um den Prompt zu individualisieren.
+## 5. Musterprompts & Inspiration
 
-### A. Einzelobjekt
-> Photorealistic close-up of a [single ripe strawberry] placed on a [white ceramic plate], centered composition, neutral bright background, eye-level view, 50mm lens look, soft diffused light from camera-left, gentle shadow under the [strawberry], realistic surface texture, fresh appetizing appearance, minimal scene, no extra objects.
+Eine umfangreiche Sammlung von strukturierten Prompts für verschiedene Kategorien (Foto, Werbung, Sketchnotes, Infografiken etc.) finden Sie in der separaten Datei:
 
-### B. Szene mit Tiefenstaffelung
-> Photorealistic tabletop scene: a [white ceramic cup] stands on the left front of a [wooden table], a [sleeping cat] rests beside it, a [fresh green apple] sits on the right rear of the table, clear foreground-midground-background separation, eye-level camera, 50mm lens, soft natural window light, realistic materials, calm domestic atmosphere, no clutter.
+👉 **[[diffusion_prompts|Prompt-Katalog: Bildgenerierung]]**
 
-### C. Character Sheet
-> Create a clean character sheet of a [woman] on a neutral background. Top row: full-body front view, left profile, right profile, back view, relaxed A-pose. Bottom row: close-up portrait front, left profile, right profile. Keep identical facial features, identical proportions, [identical hairstyle], [identical glasses], consistent soft studio lighting, clean panel layout, no extra props.
-
-### D. Infografik (Strukturiert)
-Dieses Format eignet sich hervorragend, um saubere Texte und Icons innerhalb eines Bildes zu generieren.
-
-> A professional, high-quality vector art infographic on a clean, solid light background. The style is modern flat design, using clean geometric shapes, sans-serif typography, and a cohesive color palette of [Teal, Navy Blue, and White].
-> 
-> 1. Header Area: A bold, modern title text at the top reading: "[ENERGIE-MIX 2025]".
-> 
-> 2. Visual Section 1 (Top Left): A clean vector icon representing [solar panels]. Below it, a text label in bold font reading: "[SOLAR]".
-> 
-> 3. Visual Section 2 (Top Right): A clean vector icon representing [wind turbines]. Below it, a text label reading: "[WIND]".
-> 
-> 4. Visual Section 3 (Bottom Left): A clean vector icon representing [a water dam]. Below it, a text label reading: "[WASSER]".
-> 
-> 5. Visual Section 4 (Bottom Right): A clean vector icon representing [a battery]. Below it, a text label reading: "[SPEICHER]".
-> 
-> Style details: Adobe Illustrator style, 2D flat vector graphics, minimalist, business professional, perfect typography, text in [German].
-
-### E. Metapher & Schaubild
-Hier steht die pädagogische Vermittlung eines Konzepts im Vordergrund.
-
-> **Metapher:**
-> Pädagogisches Schaubild, Infografik-Stil, gedeckte Pastellfarben. Metapher für [den Diffusionsprozess]: Ein [antiker Bildhauer aus Marmor] schält mit Meißel und Hammer eine [perfekte Statue] aus einer dichten, wirbelnden Wolke aus [statischem Rauschen und digitalen Pixel-Fragmenten] heraus. Sauberer weißer Hintergrund. Labels auf [Deutsch]: "[Rauschen (Input)]" an der [Pixelwolke], "[Diffusion]" am [Bildhauer], "[Struktur (Output)]" an der [Statue]. Moderner Vektor-Stil.
-
-> **Technisches Schaubild:**
-> Pädagogisches Schaubild, Infografik-Stil, flaches Design. Darstellung eines [knotenbasierten Workflows (Nodes)]. Mehrere Boxen mit abgerundeten Ecken sind durch geschwungene, farbige Linien miteinander verbunden. Labels auf [Deutsch] in den Boxen: "[Checkpoint Loader]", "[CLIP-Text]", "[K-Sampler]", "[VAE Decode]", "[Bild (Output)]". Hintergrund schlichtes Weiß, minimalistisch, Fokus auf logischen Fluss.
+Dort finden Sie auch den optimierten **LLM-Workflow**, um aus einer einfachen Idee einen professionellen Bild-Prompt zu erstellen.
 
 ---
 
-## 6. Der LLM-Workflow: Von der Idee zum Profi-Prompt
-
-Oft ist es effizienter, ein Sprachmodell (LLM wie ChatGPT oder Claude) zu nutzen, um den finalen Bild-Prompt zu erstellen. Dabei dient das LLM als „Prompt Architect“.
-
-### Der zweistufige Prozess
-1. **Konzept & Metapher:** Definieren Sie das Thema und eine passende visuelle Metapher (z.B. „Hebbsche Regel“ als „Spuren im Schnee“).
-2. **LLM-Instruktion:** Geben Sie dem LLM feste Stilvorgaben und lassen Sie es den strukturierten englischen Prompt formulieren.
-
-### Beispiel: LLM-Prompt für konsistente Metaphern
-Nutzen Sie diesen Text als Anweisung für Ihr LLM:
-
-> Du bist ein Experte für Bild-Prompts. Erstelle einen hochgradig detaillierten englischen Prompt für ein Bildgenerierungsmodell.
-> 
-> **Stilvorgabe (Konsistenz):**
-> „Pädagogisches Schaubild, Infografik-Stil, gedeckte Pastellfarben, sauberer weißer Hintergrund, moderner Vektor-Stil, Adobe Illustrator Look, keine 3D-Effekte, flaches Design, alle Labels zwingend auf Deutsch.“
-> 
-> **Aufgabe:**
-> Erzeuge eine visuelle Metapher für [Thema: Hebbsche Regel].
-> Nutze als Bildinhalt [Metapher: Spuren im Schnee, die durch häufiges Gehen zu tiefen Pfaden werden].
-> Füge passende Labels für die Konzepte ein.
-
----
-
-## 7. Ressourcen & Communities
+## 6. Ressourcen & Communities
 
 - **[Civitai](https://civitai.com/):** Die zentrale Plattform für Open-Source Modelle und LoRAs.
 - **[Hugging Face](https://huggingface.co/):** Die Infrastruktur für professionelle Modellgewichte (z.B. FLUX, ERNIE).
