@@ -119,7 +119,7 @@ no extra objects, no text, no watermark, no duplicate items, no anatomy errors, 
 > Create a clean character sheet of a [woman] on a neutral background. Top row: full-body front view, left profile, right profile, back view, relaxed A-pose. Bottom row: close-up portrait front, left profile, right profile. Keep identical facial features, identical proportions, [identical hairstyle], [identical glasses], consistent soft studio lighting, clean panel layout, no extra props.
 
 ### D. Infografik (Strukturiert)
-Dieses Format eignet sich für FLUX-Modelle, um saubere Texte und Icons zu generieren.
+Dieses Format eignet sich hervorragend, um saubere Texte und Icons innerhalb eines Bildes zu generieren.
 
 > A professional, high-quality vector art infographic on a clean, solid light background. The style is modern flat design, using clean geometric shapes, sans-serif typography, and a cohesive color palette of [Teal, Navy Blue, and White].
 > 
@@ -143,3 +143,34 @@ Hier steht die pädagogische Vermittlung eines Konzepts im Vordergrund.
 
 > **Technisches Schaubild:**
 > Pädagogisches Schaubild, Infografik-Stil, flaches Design. Darstellung eines [knotenbasierten Workflows (Nodes)]. Mehrere Boxen mit abgerundeten Ecken sind durch geschwungene, farbige Linien miteinander verbunden. Labels auf [Deutsch] in den Boxen: "[Checkpoint Loader]", "[CLIP-Text]", "[K-Sampler]", "[VAE Decode]", "[Bild (Output)]". Hintergrund schlichtes Weiß, minimalistisch, Fokus auf logischen Fluss.
+
+---
+
+## 6. Der LLM-Workflow: Von der Idee zum Profi-Prompt
+
+Oft ist es effizienter, ein Sprachmodell (LLM wie ChatGPT oder Claude) zu nutzen, um den finalen Bild-Prompt zu erstellen. Dabei dient das LLM als „Prompt Architect“.
+
+### Der zweistufige Prozess
+1. **Konzept & Metapher:** Definieren Sie das Thema und eine passende visuelle Metapher (z.B. „Hebbsche Regel“ als „Spuren im Schnee“).
+2. **LLM-Instruktion:** Geben Sie dem LLM feste Stilvorgaben und lassen Sie es den strukturierten englischen Prompt formulieren.
+
+### Beispiel: LLM-Prompt für konsistente Metaphern
+Nutzen Sie diesen Text als Anweisung für Ihr LLM:
+
+> Du bist ein Experte für Bild-Prompts. Erstelle einen hochgradig detaillierten englischen Prompt für ein Bildgenerierungsmodell.
+> 
+> **Stilvorgabe (Konsistenz):**
+> „Pädagogisches Schaubild, Infografik-Stil, gedeckte Pastellfarben, sauberer weißer Hintergrund, moderner Vektor-Stil, Adobe Illustrator Look, keine 3D-Effekte, flaches Design, alle Labels zwingend auf Deutsch.“
+> 
+> **Aufgabe:**
+> Erzeuge eine visuelle Metapher für [Thema: Hebbsche Regel].
+> Nutze als Bildinhalt [Metapher: Spuren im Schnee, die durch häufiges Gehen zu tiefen Pfaden werden].
+> Füge passende Labels für die Konzepte ein.
+
+---
+
+## 7. Ressourcen & Communities
+
+- **[Civitai](https://civitai.com/):** Die zentrale Plattform für Open-Source Modelle und LoRAs.
+- **[Hugging Face](https://huggingface.co/):** Die Infrastruktur für professionelle Modellgewichte (z.B. FLUX, ERNIE).
+- **[Artificial Analysis](https://artificialanalysis.ai/image/leaderboard/editing):** Unabhängige Leaderboards für Bildgeneratoren.
