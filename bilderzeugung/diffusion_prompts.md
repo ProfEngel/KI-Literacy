@@ -33,12 +33,37 @@ Ausgabe: Nur den englischen Code-Block für den Prompt.
 *Systematischer Aufbau einer Person und Erstellung von Referenzbögen (Character Sheets).*
 
 #### Der Workflow zur Charakter-Entwicklung
-Um eine konsistente Person zu erschaffen, empfiehlt es sich, diese schrittweise zu definieren:
-1. **Basis:** Geschlecht, Alter, Ethnizität (z.B. *Female, 30 years old, Mediterranean*).
-2. **Statur:** Größe, Körperbau (z.B. *Tall, slender, athletic build*).
-3. **Gesicht:** Form & Merkmale (z.B. *Oval face, sharp jawline, high cheekbones, emerald green eyes*).
-4. **Haare:** Schnitt, Farbe, Textur (z.B. *Short pixie cut, platinum blonde, straight*).
-5. **Kleidung:** Stil & Material (z.B. *Cyberpunk techwear, matte black nylon, neon accents*).
+Um eine konsistente Person zu erschaffen, definieren Sie diese schrittweise:
+
+| Schritt | Fokus | Beispiele & Optionen |
+| :--- | :--- | :--- |
+| **1. Basis** | Demografie | *Gender, Age (Child, Teen, Young Adult, Senior), Ethnicity* |
+| **2. Gesicht** | Form & Augen | **Form:** *Oval, Round, Square, Heart-shaped, Diamond.*<br>**Augen:** *Almond-shaped, Deep-set, Hooded; Amber, Hazel, Ice-blue.* |
+| **3. Haare** | Schnitt & Farbe | **Schnitt:** *Pixie, Bob, Buzz cut, Undercut, Afro, Braids, Dreads, Long waves, Messy bun, Side-part.*<br>**Farbe:** *Platinum blonde, Copper red, Ash brown, Jet black, Salt & pepper, Lavender.* |
+| **4. Statur** | Körperbau | *Slender, Athletic, Muscular, Curvy, Lean, Stocky, Ectomorph, Mesomorph.* |
+| **5. Emotionen** | Ausdruck | **Basisemotionen:** *Happy, Sad, Angry, Disgust, Fear, Surprise.* |
+| **6. Stil** | Kleidung | *Techwear, Dark Academia, Streetwear, Business Casual, Cyberpunk, Minimalist.* |
+
+#### Attribut-Katalog (Referenz für Prompts)
+
+**Haarfrisuren (Hair Styles):**
+- **Kurz:** *Buzz cut, Crew cut, Undercut, Pixie cut, Fade, Pompadour.*
+- **Mittellang:** *Bob, Lob (Long Bob), Shag cut, Mullet, Curtain bangs.*
+- **Lang:** *Beach waves, Sleek straight, Braided crown, High ponytail, Messy bun.*
+- **Texturiert:** *Afro, Box braids, Cornrows, Locs/Dreadlocks, Finger waves.*
+
+**Gesichtsmerkmale (Facial Features):**
+- **Haut:** *Freckles, Sun-kissed, Pale, Weathered, Smooth, Rosy cheeks.*
+- **Bart:** *Stubble, Goatee, Full beard, Van Dyke, Moustache, Clean-shaven.*
+- **Besonderheiten:** *Sharp jawline, High cheekbones, Dimples, Piercings, Small scar.*
+
+**Basis-Emotionen (The 6 Universal Emotions):**
+- **Freude (Joy):** *Beaming smile, crinkled eyes, radiant expression.*
+- **Trauer (Sadness):** *Downward gaze, trembling lip, misty eyes.*
+- **Wut (Anger):** *Furrowed brow, flared nostrils, clenched jaw.*
+- **Ekel (Disgust):** *Wrinkled nose, curled upper lip, squinted eyes.*
+- **Furcht (Fear):** *Wide-eyed, raised eyebrows, pale complexion.*
+- **Überraschung (Surprise):** *Open mouth, arched brows, wide pupils.*
 
 #### Variante 1: Charakter-Sheet (Neu-Erstellung)
 *Erzeugt eine Person von Grund auf in verschiedenen Ansichten.*
