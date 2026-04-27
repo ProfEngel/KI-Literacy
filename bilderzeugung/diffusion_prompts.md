@@ -29,7 +29,46 @@ Ausgabe: Nur den englischen Code-Block für den Prompt.
 
 ---
 
-## 2. Kategorien & Musterprompts
+## 2. Charakter-Entwicklung & Konsistenz
+*Systematischer Aufbau einer Person und Erstellung von Referenzbögen (Character Sheets).*
+
+#### Der Workflow zur Charakter-Entwicklung
+Um eine konsistente Person zu erschaffen, empfiehlt es sich, diese schrittweise zu definieren:
+1. **Basis:** Geschlecht, Alter, Ethnizität (z.B. *Female, 30 years old, Mediterranean*).
+2. **Statur:** Größe, Körperbau (z.B. *Tall, slender, athletic build*).
+3. **Gesicht:** Form & Merkmale (z.B. *Oval face, sharp jawline, high cheekbones, emerald green eyes*).
+4. **Haare:** Schnitt, Farbe, Textur (z.B. *Short pixie cut, platinum blonde, straight*).
+5. **Kleidung:** Stil & Material (z.B. *Cyberpunk techwear, matte black nylon, neon accents*).
+
+#### Variante 1: Charakter-Sheet (Neu-Erstellung)
+*Erzeugt eine Person von Grund auf in verschiedenen Ansichten.*
+
+```text
+A clean professional character sheet of [a woman with an oval face, sharp jawline, and short platinum blonde pixie cut]. Neutral light grey background. 
+
+Layout: 
+- Top row: Full-body front view, left profile, right profile, back view, relaxed A-pose. 
+- Bottom row: Three close-up portraits showing different expressions (neutral, smiling, focused). 
+
+Details: Identical facial features, identical proportions, identical [cyberpunk clothing], consistent soft studio lighting, clean panel layout, high detail, no extra props.
+```
+
+#### Variante 2: Charakter-Sheet (Basierend auf Referenzbild)
+*Wird genutzt, wenn bereits ein Foto/Bild der Person existiert (Image-to-Image / Reference).*
+
+```text
+Character sheet based on the attached reference image of [the person]. Maintaining 100% facial consistency and proportions. Neutral background.
+
+Layout:
+- Multi-angle views: full-body front, side profile, and back view. 
+- Close-up headshots: front and 45-degree angle.
+
+Style: Consistent soft lighting, same [clothing] as in the reference, same [hairstyle], clean systematic arrangement, professional design.
+```
+
+---
+
+## 3. Kategorien & Musterprompts
 
 > [!TIP] Nutzungshinweis
 > Alle Begriffe in eckigen Klammern `[...]` sind Platzhalter. Ersetzen Sie diese durch Ihr Motiv, um das Bild zu individualisieren.
@@ -157,46 +196,9 @@ Cinematic sci-fi concept art of [a neon-drenched street in a futuristic Tokyo]. 
 Vintage [Polaroid] photo from the [1970s] showing [a group of friends at a beach bonfire]. Faded colors, slight light leaks, soft grain, warm nostalgic atmosphere, square format with white border look, [35mm film] aesthetic, authentic retro feel.
 ```
 
-### P. Charakter-Entwicklung & Konsistenz
-*Systematischer Aufbau einer Person und Erstellung von Referenzbögen (Character Sheets).*
-
-#### Der Workflow zur Charakter-Entwicklung
-Um eine konsistente Person zu erschaffen, empfiehlt es sich, diese schrittweise zu definieren:
-1. **Basis:** Geschlecht, Alter, Ethnizität (z.B. *Female, 30 years old, Mediterranean*).
-2. **Statur:** Größe, Körperbau (z.B. *Tall, slender, athletic build*).
-3. **Gesicht:** Form & Merkmale (z.B. *Oval face, sharp jawline, high cheekbones, emerald green eyes*).
-4. **Haare:** Schnitt, Farbe, Textur (z.B. *Short pixie cut, platinum blonde, straight*).
-5. **Kleidung:** Stil & Material (z.B. *Cyberpunk techwear, matte black nylon, neon accents*).
-
-#### Variante 1: Charakter-Sheet (Neu-Erstellung)
-*Erzeugt eine Person von Grund auf in verschiedenen Ansichten.*
-
-```text
-A clean professional character sheet of [a woman with an oval face, sharp jawline, and short platinum blonde pixie cut]. Neutral light grey background. 
-
-Layout: 
-- Top row: Full-body front view, left profile, right profile, back view, relaxed A-pose. 
-- Bottom row: Three close-up portraits showing different expressions (neutral, smiling, focused). 
-
-Details: Identical facial features, identical proportions, identical [cyberpunk clothing], consistent soft studio lighting, clean panel layout, high detail, no extra props.
-```
-
-#### Variante 2: Charakter-Sheet (Basierend auf Referenzbild)
-*Wird genutzt, wenn bereits ein Foto/Bild der Person existiert (Image-to-Image / Reference).*
-
-```text
-Character sheet based on the attached reference image of [the person]. Maintaining 100% facial consistency and proportions. Neutral background.
-
-Layout:
-- Multi-angle views: full-body front, side profile, and back view. 
-- Close-up headshots: front and 45-degree angle.
-
-Style: Consistent soft lighting, same [clothing] as in the reference, same [hairstyle], clean systematic arrangement, professional design.
-```
-
 ---
 
-## 3. Fortgeschrittene Techniken
+## 4. Fortgeschrittene Techniken
 
 - **Ratio-Steuerung:** Fügen Sie `--ar 16:9` oder `--ar 9:16` am Ende hinzu (modellabhängig).
 - **Detail-Booster:** Begriffe wie `hyper-detailed`, `volumetric lighting` oder `subsurface scattering` erhöhen die visuelle Qualität bei 3D/Photo.
