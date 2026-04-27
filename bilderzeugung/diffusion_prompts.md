@@ -37,33 +37,34 @@ Um eine konsistente Person zu erschaffen, definieren Sie diese schrittweise:
 
 | Schritt | Fokus | Beispiele & Optionen |
 | :--- | :--- | :--- |
-| **1. Basis** | Demografie | *Gender, Age (Child, Teen, Young Adult, Senior), Ethnicity* |
-| **2. Gesicht** | Form & Augen | **Form:** *Oval, Round, Square, Heart-shaped, Diamond.*<br>**Augen:** *Almond-shaped, Deep-set, Hooded; Amber, Hazel, Ice-blue.* |
-| **3. Haare** | Schnitt & Farbe | **Schnitt:** *Pixie, Bob, Buzz cut, Undercut, Afro, Braids, Dreads, Long waves, Messy bun, Side-part.*<br>**Farbe:** *Platinum blonde, Copper red, Ash brown, Jet black, Salt & pepper, Lavender.* |
-| **4. Statur** | Körperbau | *Slender, Athletic, Muscular, Curvy, Lean, Stocky, Ectomorph, Mesomorph.* |
-| **5. Emotionen** | Ausdruck | **Basisemotionen:** *Happy, Sad, Angry, Disgust, Fear, Surprise.* |
-| **6. Stil** | Kleidung | *Techwear, Dark Academia, Streetwear, Business Casual, Cyberpunk, Minimalist.* |
+| **1. Basis** | Demografie | *Gender, Age (Newborn, Toddler, Teen, Young Adult, Middle-aged, Senior, Octogenarian), Ethnicity (Nordic, East Asian, South Asian, African, Indigenous, Latino, Middle Eastern).* |
+| **2. Gesicht** | Form & Augen | **Form:** *Oval, Round, Square, Heart-shaped, Diamond, Triangular.* **Augen:** *Almond-shaped, Deep-set, Hooded, Monolid, Wide-set; Amber, Hazel, Ice-blue, Heterochromia (two colors).* |
+| **3. Haare** | Schnitt & Farbe | **Schnitt:** *Pixie, Bob, Buzz cut, Undercut, Afro, Braids, Dreads, Long waves, Messy bun, Side-part, Mullet, Shag, Curtain bangs.* **Farbe:** *Platinum blonde, Copper red, Ash brown, Jet black, Salt & pepper, Lavender, Mint green, Sunset orange.* |
+| **4. Statur** | Körperbau | *Slender, Athletic, Muscular, Curvy, Lean, Stocky, Ectomorph, Mesomorph, Endomorph, Petite, Towering.* |
+| **5. Emotionen** | Ausdruck | **Universal:** *Happy, Sad, Angry, Disgust, Fear, Surprise.* **Nuanciert:** *Smug, Pensive, Melancholic, Ecstatic, Stoic, Skeptical.* |
+| **6. Stil** | Kleidung | *Techwear, Dark Academia, Streetwear, Business Casual, Cyberpunk, Minimalist, Steampunk, Cottagecore, Boho-Chic, Athleisure.* |
 
 #### Attribut-Katalog (Referenz für Prompts)
 
-**Haarfrisuren (Hair Styles):**
-- **Kurz:** *Buzz cut, Crew cut, Undercut, Pixie cut, Fade, Pompadour.*
-- **Mittellang:** *Bob, Lob (Long Bob), Shag cut, Mullet, Curtain bangs.*
-- **Lang:** *Beach waves, Sleek straight, Braided crown, High ponytail, Messy bun.*
-- **Texturiert:** *Afro, Box braids, Cornrows, Locs/Dreadlocks, Finger waves.*
+**Haarfrisuren & Texturen (Hair Styles & Textures):**
+- **Kurz:** *Buzz cut, Crew cut, Undercut, Pixie cut, Fade, Pompadour, Caesar cut.*
+- **Mittellang:** *Bob, Lob (Long Bob), Shag cut, Mullet, Curtain bangs, Pageboy.*
+- **Lang:** *Beach waves, Sleek straight, Braided crown, High ponytail, Messy bun, Waist-length hair.*
+- **Texturiert:** *Afro, Box braids, Cornrows, Locs/Dreadlocks, Finger waves, Kinky hair, Coily curls.*
 
 **Gesichtsmerkmale (Facial Features):**
-- **Haut:** *Freckles, Sun-kissed, Pale, Weathered, Smooth, Rosy cheeks.*
-- **Bart:** *Stubble, Goatee, Full beard, Van Dyke, Moustache, Clean-shaven.*
-- **Besonderheiten:** *Sharp jawline, High cheekbones, Dimples, Piercings, Small scar.*
+- **Haut:** *Freckles, Sun-kissed, Pale, Weathered, Smooth, Rosy cheeks, Vitiligo, Tattoos.*
+- **Bart:** *Stubble, Goatee, Full beard, Van Dyke, Moustache, Clean-shaven, Mutton chops.*
+- **Besonderheiten:** *Sharp jawline, High cheekbones, Dimples, Piercings, Small scar, Glasses, Crow's feet.*
 
-**Basis-Emotionen (The 6 Universal Emotions):**
-- **Freude (Joy):** *Beaming smile, crinkled eyes, radiant expression.*
-- **Trauer (Sadness):** *Downward gaze, trembling lip, misty eyes.*
-- **Wut (Anger):** *Furrowed brow, flared nostrils, clenched jaw.*
-- **Ekel (Disgust):** *Wrinkled nose, curled upper lip, squinted eyes.*
-- **Furcht (Fear):** *Wide-eyed, raised eyebrows, pale complexion.*
-- **Überraschung (Surprise):** *Open mouth, arched brows, wide pupils.*
+**Emotions-Nuancen (Detailed Expressions):**
+- **Freude (Joy):** *Beaming smile, crinkled eyes, radiant, ecstatic, cheerful.*
+- **Trauer (Sadness):** *Downward gaze, trembling lip, misty eyes, melancholic, heartbroken.*
+- **Wut (Anger):** *Furrowed brow, flared nostrils, clenched jaw, seething, furious.*
+- **Ekel (Disgust):** *Wrinkled nose, curled upper lip, squinted eyes, repulsed.*
+- **Furcht (Fear):** *Wide-eyed, raised eyebrows, pale complexion, terrified, anxious.*
+- **Überraschung (Surprise):** *Open mouth, arched brows, wide pupils, astonished, bewildered.*
+- **Intellekt/Status:** *Stoic, skeptical, pensive, smug, arrogant, humble.*
 
 #### Variante 1: Charakter-Sheet (Neu-Erstellung)
 *Erzeugt eine Person von Grund auf in verschiedenen Ansichten.*
