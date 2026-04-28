@@ -241,11 +241,11 @@ docker run -d \
 ```
 
 ### 3.2 Bibliotheken im Container installieren
-Sobald der Container läuft, installieren wir die für die KI-Analyse notwendigen Bibliotheken aus der im Repo bereitgestellten `requirements_jupyter.txt`.
+Sobald der Container läuft, installieren wir die für die KI-Analyse notwendigen Bibliotheken aus der im Repo bereitgestellten `infrastructure/requirements_jupyter.txt`.
 
 **Option 1: Über das Terminal (Schnell)**
 ```bash
-docker exec jupyter-interpreter pip install -r requirements_jupyter.txt
+docker exec jupyter-interpreter pip install -r infrastructure/requirements_jupyter.txt
 ```
 
 **Option 2: Über die Jupyter-Oberfläche (Alternative)**

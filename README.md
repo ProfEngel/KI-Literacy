@@ -53,7 +53,7 @@ Der Ordner `demodokumente/` enthält spezielles Testmaterial für verschiedene K
 ### 🛠️ Konfigurationen
 - `infrastructure/docker-compose.yml` – Orchestrierung aller Dienste.
 - `infrastructure/searxng_settings.yml` – Konfiguration für die datenschutzkonforme lokale Suche.
-- `requirements_jupyter.txt` – Notwendige Python-Bibliotheken für den Code-Interpreter.
+- `infrastructure/requirements_jupyter.txt` – Notwendige Python-Bibliotheken für den Code-Interpreter.
 
 ---
 *Dieses Repository wird kontinuierlich während der Vorlesungsreihe aktualisiert.*
