@@ -1,110 +1,153 @@
 # Vorlesungsbegleiter: KI-Driven Data Science (Tag 6 & 7)
 
-Dieses Dokument führt dich chronologisch durch die Vorlesungstage 6 und 7. Wir wechseln zwischen theoretischem Input und praktischen Laborübungen direkt am Code Interpreter.
+Dieses Dokument ist dein interaktiver Begleiter durch die Vorlesungstage 6 und 7. Wir verzahnen Theorie, technisches Setup und praktische Laborübungen zu einem linearen Lernpfad.
 
 ---
 
 # 🛠️ TAG 6: Datenbändigung & Aufbereitung
 
-## 1. Theorie: Die KI als "Junior Data Scientist"
-Bevor wir starten, müssen wir verstehen, wie die KI mit Daten arbeitet. Anders als bei der normalen Textgenerierung nutzt die KI hier einen **Code Interpreter**.
+## 1. Intro: Die neue Rolle des "Management Translators"
+In der modernen Business-Welt verschwimmt die Grenze zwischen IT und Management. Als BWLer musst du kein Python-Experte sein, aber du musst die **Code Literacy** besitzen, um KI-generierte Analysen zu validieren und in Geschäftsentscheidungen zu übersetzen.
 
-### Das Sandbox-Konzept
-Der Code Interpreter ist eine isolierte Umgebung (Sandbox), in der die KI Python-Code schreiben und ausführen kann. 
-- **Vorteil:** Die KI rät nicht das Ergebnis einer Rechnung, sondern berechnet es präzise.
-- **Workflow:** Die KI erkennt eine Aufgabe (z. B. "Erstelle einen Chart"), schreibt den Code, führt ihn in der Sandbox aus und zeigt dir das Ergebnis (Tabelle, Bild, Datei).
-
-### Code Literacy für BWLer
-Du musst kein Programmierer sein, aber du solltest den Code "lesen" können (Code Literacy):
-- Nutzt die KI die richtigen Filter?
-- Werden Ausreißer sinnvoll behandelt?
-- Sind die Achsen im Diagramm korrekt beschriftet?
+### Warum Code Interpreter?
+Herkömmliche LLMs (wie ChatGPT ohne Tools) neigen bei Mathematik zu Halluzinationen. Der **Code Interpreter** löst dieses Problem, indem er eine echte Programmierumgebung nutzt.
 
 ---
 
-## 2. Labor: Erster Kontakt & Systemtest
-**Ziel:** Sicherstellen, dass die Verbindung zum Jupyter-Kernel steht.
+## 2. Technisches Setup: Die Sandbox einrichten
+Bevor wir analysieren, bauen wir unser Labor auf. Wir nutzen eine isolierte **Docker-Sandbox**.
 
-**Übung 1: Der Fibonacci-Check**
-> **Prompt:** "Berechne die ersten 15 Fibonacci-Zahlen unter Nutzung deines Code Interpreters. Erstelle anschließend ein Balkendiagramm, das die Werte zeigt. Nutze eine ästhetische Farbpalette."
+### Schritt A: Container starten
+Navigiere in deinem Terminal in den Ordner `datascience/` und starte die Umgebung:
+```bash
+docker-compose up -d
+```
+*Dies startet einen Jupyter-Server auf Port 3005.*
 
-*Prüfe: Erscheint der `<code_interpreter>` Block? Wird die Grafik direkt gerendert?*
+### Schritt B: Bibliotheken (Science-Stack) installieren
+Damit die KI "schlaue" Dinge tun kann, braucht sie Pakete wie Pandas, Scikit-Learn und Plotly:
+```bash
+docker exec jupyter-interpreter pip install -r requirements_jupyter.txt
+```
+
+### Schritt C: Anbindung an OpenWebUI
+![Konfiguration Code Interpreter](assets/einstellungen_code_interpreter.png)
+1. Gehe in OpenWebUI auf **Settings > Images & Web Search**.
+2. URL: `http://host.docker.internal:3005`
+3. Token: `DEIN_SICHERER_TOKEN` (wie in der docker-compose.yml definiert).
 
 ---
 
-## 3. Theorie: Datenreinigung & EDA
-In der Realität sind Daten "schmutzig" (Missing Values, falsche Formate). Die **Explorative Datenanalyse (EDA)** ist der erste Schritt jeder Untersuchung.
+## 3. Theorie: Das Sandbox-Konzept & ReAct-Workflow
+![Metapher: Die Code-Interpreter Sandbox](assets/sandbox_metapher.png)
 
-### Schritte der EDA:
-1. **Struktur prüfen:** Welche Spalten gibt es? (`df.info()`)
-2. **Statistik:** Mittelwerte, Min/Max. (`df.describe()`)
-3. **Bereinigung:** Missing Values füllen oder Zeilen löschen.
-4. **Encoding:** Text (z. B. "Sonne", "Regen") in Zahlen umwandeln (0, 1).
+Die Sandbox ist ein geschützter Raum. Die KI arbeitet nach dem **ReAct-Prinzip (Reason + Act)**:
+1. **Reason:** "Ich muss den Mittelwert berechnen."
+2. **Act:** Schreibt Python-Code und führt ihn aus.
+3. **Observation:** Liest das Ergebnis des Kernels.
+4. **Output:** Erklärt dir das Ergebnis.
 
 ---
 
-## 4. Labor: Datenreinigung (Live-Daten)
-**Ziel:** KI-gestützte Aufbereitung von Daten direkt aus dem Netz.
+## 4. Labor: Funktionstest (Mission: Fibonacci)
+**Ziel:** Verbindung prüfen.
 
-**Übung 2: Online-Datensätze bändigen**
-> **Prompt:** "Analysiere folgende zwei Datensätze direkt über ihre URLs:
+**Prompt:**
+> "Berechne die ersten 15 Fibonacci-Zahlen unter Nutzung deines Code Interpreters. Erstelle anschließend ein Balkendiagramm, das die Werte zeigt. Nutze eine ästhetische Farbpalette."
+
+---
+
+## 5. Theorie: Datenreinigung & EDA (Explorative Datenanalyse)
+Bevor man Modelle baut, muss man seine Daten kennen.
+*   **Missing Values:** Wie gehen wir mit Lücken um? (Löschen vs. Imputation)
+*   **Outlier:** Sind extreme Werte Messfehler oder wichtige Signale?
+*   **Encoding:** Die KI wandelt Kategorien (z. B. Wetter: "Sonnig") in Zahlen um (0, 1, 2), damit Modelle rechnen können.
+
+---
+
+## 6. Labor: Datenreinigung & EDA (Live-Daten)
+**Ziel:** Umgang mit unsauberen Daten aus Online-Quellen.
+
+**Prompt:**
+> "Analysiere folgende zwei Datensätze direkt über ihre URLs:
 > 1. `https://raw.githubusercontent.com/ProfEngel/KI-Literacy/refs/heads/main/datascience/data/GolfSpielen.csv`
 > 2. `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/Schwertlilie_missingvalues.csv`
 >
-> **Aufgabe:** Prüfe beide auf fehlende Werte, bereinige sie (Imputation) und wandle kategoriale Werte in numerische um. Zeige mir die bereinigten Header."
+> **Aufgabe:** 
+> - Prüfe beide auf fehlende Werte und Inkonsistenzen.
+> - Bereinige die Daten (Imputation von Missing Values).
+> - Wandle kategoriale Werte (wie 'Wetter') in numerische Werte um.
+> - Zeige mir die bereinigten Header beider Tabellen."
 
 ---
 
-## 5. Labor: Korrelationen erkennen
-**Übung 3: Die Heatmap**
-> **Prompt:** "Erstelle eine Korrelationsmatrix für den bereinigten Golf-Datensatz. Welche Faktoren haben den größten Einfluss darauf, ob Golf gespielt wird? Visualisiere die Korrelationen in einer Heatmap (Seaborn)."
+## 7. Labor: Korrelationen visualisieren
+**Ziel:** Muster erkennen.
+
+**Prompt:**
+> "Erstelle eine Korrelationsmatrix für den bereinigten Golf-Datensatz. Welche Faktoren haben den größten Einfluss darauf, ob Golf gespielt wird? Visualisiere die Korrelationen in einer Heatmap (Seaborn)."
 
 ---
 
 # 📊 TAG 7: Analyse, Modellierung & Kommunikation
 
-## 6. Theorie: Statistische Modellierung
-Heute gehen wir einen Schritt weiter: Wir wollen die Zukunft vorhersagen.
+## 8. Theorie: Statistische Modellierung & Business Insights
+Heute generieren wir Wissen aus den bereinigten Daten.
 
-### Konzepte:
-- **Regression:** Wie beeinflusst Variable A (Werbung) die Variable B (Umsatz)?
-- **Klassifikation:** Gehört ein Kunde zur Gruppe „Käufer“ oder „Nicht-Käufer“?
+### Modelltypen:
+*   **Regression:** Vorhersage von Werten (Umsatz, Preis).
+*   **Klassifikation:** Vorhersage von Gruppen (Kunde kauft vs. kauft nicht).
 
-Die KI hilft uns, Modelle (Decision Trees, Random Forest) zu trainieren, ohne dass wir die Mathematik dahinter programmieren müssen.
-
----
-
-## 7. Labor: Modellierung in der Praxis
-**Ziel:** Vorhersagen treffen und Modelle vergleichen.
-
-**Übung 4: Das Klassifikationsmodell**
-> **Prompt:** "Nutze die Golf-Daten, um ein einfaches Klassifikationsmodell zu trainieren. Zielvariable ist 'Spielen'. Teile die Daten in Training und Test-Set. Gib die Genauigkeit (Accuracy) und eine Confusion Matrix aus. Vergleiche mindestens zwei verschiedene Algorithmen."
+### Der "Management-Translator":
+Die KI übersetzt technische Metriken (p-Werte, R²) in Business-Empfehlungen:
+*   *Technisch:* "p-value = 0.042"
+*   *Business:* "Wir können mit 95% Sicherheit sagen, dass die Temperatur den Absatz beeinflusst."
 
 ---
 
-## 8. Theorie: Der Management-Translator
-Ein statistischer Output wie `p-value = 0.042` ist für Manager oft schwer zu greifen. Die KI fungiert hier als Übersetzer.
+## 9. Labor: Modellierung & Vorhersage
+**Ziel:** KI-gestütztes Training von Modellen.
 
-**Die Aufgabe der KI:**
-- Ergebnisse interpretieren ("Mit 95% Sicherheit...").
-- Handlungsempfehlungen ableiten ("Marketing hochfahren bei Sonne > 25°C").
+![Business Insights & Regression](assets/dashboard_analyse.png)
 
----
-
-## 9. Labor: Kommunikation & Visualisierung
-**Ziel:** Daten für Entscheider aufbereiten.
-
-**Übung 5: Das Management Summary**
-> **Prompt:** "Basierend auf dem Modell aus Übung 4: Erstelle ein kurzes Management Summary (max. 3 Bulletpoints). Erkläre, unter welchen Wetterbedingungen wir das Marketing hochfahren sollten und wie sicher wir uns dabei statistisch sind."
-
-**Übung 6: Interaktive Charts**
-> **Prompt:** "Erstelle ein interaktives Diagramm mit Plotly, das den Zusammenhang zwischen Temperatur und der Spielentscheidung zeigt. Sorge für Hover-Effekte."
+**Prompt:**
+> "Nutze die Daten, um ein einfaches Klassifikationsmodell (z. B. Decision Tree oder Logistic Regression) zu trainieren. Zielvariable ist 'Spielen'. 
+> 1. Teile die Daten in Training und Test-Set.
+> 2. Gib die Genauigkeit (Accuracy) und eine Confusion Matrix aus.
+> 3. Vergleiche mindestens zwei verschiedene Algorithmen."
 
 ---
 
-## 10. Finale Challenge: Mathematische Kunst
-**Übung 7: Die Mandelbrot-Menge**
-> **Prompt:** "Generiere eine hochauflösende Visualisierung der Mandelbrot-Menge mittels Python. Nutze eine ästhetische Farbpalette und speichere das Bild als PNG."
+## 10. Theorie: Kommunikation & Interaktive Visualisierung
+Statische Bilder sind gut, interaktive Dashboards sind besser.
+*   **Matplotlib:** Für Berichte.
+*   **Plotly:** Für interaktives Erkunden (Hover-Effekte, Zoom).
+
+---
+
+## 11. Labor: Management Summary & Dashboarding
+**Ziel:** Ergebnisse professionell präsentieren.
+
+**Übung A (Management Summary):**
+> "Basierend auf deinem Modell: Erstelle ein kurzes Management Summary (max. 3 Bulletpoints). Erkläre, unter welchen Wetterbedingungen wir das Marketing hochfahren sollten."
+
+**Übung B (Interaktive Visualisierung):**
+> "Erstelle ein interaktives Diagramm mit Plotly, das den Zusammenhang zwischen Temperatur und der Spielentscheidung zeigt. Nutze Hover-Effekte für Details."
+
+---
+
+## 12. Finale Challenge: Die Grenzen der Sandbox
+**Ziel:** Rechenpower und Visualisierungs-Fähigkeiten testen.
+
+**Prompt:**
+> "Generiere eine hochauflösende Visualisierung der Mandelbrot-Menge mittels Python. Nutze eine ästhetische Farbpalette (z. B. 'magma') und speichere das Bild als PNG."
+
+---
+
+## 🛡️ Troubleshooting & Best Practices
+1. **Der Zwei-Phasen-Vertrag:** Achte darauf, dass die KI erst den Code-Block sendet und *nach* der Ausführung die Interpretation liefert.
+2. **Plausibilitätscheck:** Frage die KI: "Warum hast du dich für dieses Modell entschieden?"
+3. **Daten-Souveränität:** Durch den lokalen Docker-Container bleiben deine Daten auf deinem Rechner, während nur der Code-Vorschlag von der KI kommt.
 
 ---
 [[Projekt_KI_VL]]
