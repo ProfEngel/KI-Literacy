@@ -20,7 +20,7 @@ Um die gesamte Kurs-Umgebung (OpenWebUI, Jupyter-Interpreter, SearXNG-Suche) mit
 
 1.  **Repository klonen** oder Dateien herunterladen.
 2.  **Docker Desktop** starten.
-3.  Im Terminal diesen Befehl im Ordner ausführen:
+3.  Im Terminal in den Ordner `infrastructure/` navigieren und diesen Befehl ausführen:
     ```bash
     docker-compose up -d
     ```
@@ -51,8 +51,8 @@ Der Ordner `demodokumente/` enthält spezielles Testmaterial für verschiedene K
 
 
 ### 🛠️ Konfigurationen
-- `docker-compose.yml` – Orchestrierung aller Dienste.
-- `searxng_settings.yml` – Konfiguration für die datenschutzkonforme lokale Suche.
+- `infrastructure/docker-compose.yml` – Orchestrierung aller Dienste.
+- `infrastructure/searxng_settings.yml` – Konfiguration für die datenschutzkonforme lokale Suche.
 - `requirements_jupyter.txt` – Notwendige Python-Bibliotheken für den Code-Interpreter.
 
 ---

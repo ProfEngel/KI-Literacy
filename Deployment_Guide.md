@@ -64,10 +64,10 @@ docker run hello-world
 Statt jeden Container einzeln zu starten, nutzen wir eine Konfigurationsdatei (`docker-compose.yml`), die alle Dienste (OpenWebUI, Jupyter, SearXNG) mit einem einzigen Befehl startet und vernetzt.
 
 ### 2.1 Vorbereitung
-Stelle sicher, dass die Dateien `docker-compose.yml` und `searxng_settings.yml` im gleichen Ordner liegen.
+Stelle sicher, dass die Dateien `docker-compose.yml` und `searxng_settings.yml` im Ordner `infrastructure/` liegen.
 
 ### 2.2 Starten
-Öffne dein Terminal in diesem Ordner und gib ein:
+Öffne dein Terminal im Ordner `infrastructure/` und gib ein:
 ```bash
 docker-compose up -d
 ```
@@ -343,7 +343,7 @@ docker run -d \
   -p 3010:8080 \
   --name searxng \
   --restart always \
-  -v $(pwd)/searxng_settings.yml:/etc/searxng/settings.yml \
+  -v $(pwd)/infrastructure/searxng_settings.yml:/etc/searxng/settings.yml \
   searxng/searxng:latest
 ```
 
