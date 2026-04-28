@@ -21,4 +21,11 @@ requests
 beautifulsoup4
 qrcode
 plotly
-streamlit
+yfinance
+folium
+networkx
+nltk
+textblob
+vaderSentiment
+wordcloud
+mlxtend
