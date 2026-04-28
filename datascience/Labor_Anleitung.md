@@ -77,6 +77,19 @@ In dieser Übung lernst du, wie du den Jupyter-Interpreter in OpenWebUI nutzt, u
 
 ---
 
+## 🎖️ Finale Challenge: Große Data Science Untersuchung
+**Ziel:** Eigenständige Problemlösung auf einem komplexen Datensatz.
+
+**Prompt:**
+> "Führe eine vollständige Data Science Untersuchung auf folgendem Datensatz durch: `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/bostonhousing.csv`
+> 1. Erstelle eine **Klassifikation oder Regression** (entscheide selbst, was hier angebracht ist). Zielvariable ist `medv`.
+> 2. Entscheide selbst, welche Vorverarbeitungen (Encoding, Scaling, Handling Missing Values) nötig sind.
+> 3. Nutze mindestens **4 verschiedene Modelle** für deine Untersuchung und vergleiche die Ergebnisse.
+> 4. Zeige am Ende das am besten performende Modell auf.
+> 5. Präsentiere die typischen Metriken (neben der Verlustfunktion) und nutze Grafiken (Plots), um deine Ergebnisse zu verdeutlichen. Nicht numerische Werte bitte vorab wandeln."
+
+---
+
 ## Challenge: Die mathematische Kunst (Mandelbrot)
 **Ziel:** Grenzen der Rechenleistung testen.
 

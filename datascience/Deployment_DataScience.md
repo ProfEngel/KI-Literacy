@@ -80,9 +80,11 @@ Kopiere diesen Prompt in das Feld für den **System-Prompt** deines "Nova" Model
 
 **Challenge (Data Science Untersuchung):**
 Nutze die analytische Power deiner Jupyter-Umgebung.
-> "Nutze folgenden Datensatz: `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/GolfSpielen.csv`
-> Erstelle eine Klassifikation oder Regression (entscheide selbst, was angebracht ist). Nutze das Merkmal `Klassenvorhersage` als Zielvariable. 
-> Nutze mindestens 4 Modelle für deine Untersuchung und vergleiche die Ergebnisse. Zeige am Ende das am besten performende Modell auf."
+> "Führe eine vollständige Data Science Untersuchung auf folgendem Datensatz durch: `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/bostonhousing.csv`
+> 1. Erstelle eine **Klassifikation oder Regression** (entscheide selbst, was hier angebracht ist). Zielvariable ist `medv`.
+> 2. Entscheide selbst, welche Vorverarbeitungen nötig sind.
+> 3. Nutze mindestens **4 Modelle** für deine Untersuchung und vergleiche die Ergebnisse.
+> 4. Zeige am Ende das am besten performende Modell auf inklusive Metriken und Grafiken."
 
 ---
 [[Projekt_KI_VL]]
