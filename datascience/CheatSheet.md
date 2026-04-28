@@ -54,7 +54,6 @@ Bevor du einem Ergebnis vertraust, prüfe:
 ---
 
 ## 5. Profi-Prompts (Tag 7 Fokus)
-- „Erstelle ein **interaktives Dashboard** mit Streamlit-Syntax für diese Daten.“
 - „Visualisiere den Trend mit **Plotly**, sodass ich die Werte beim Hovern sehen kann.“
 - „Übersetze dieses statistische Ergebnis in eine **Management-Empfehlung**.“
 - „Führe eine Sensitivitätsanalyse für die Variable X durch.“

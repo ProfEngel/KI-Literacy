@@ -68,7 +68,6 @@ Die größte Stärke der KI im Data-Science-Kontext ist die Übersetzung. Ein st
 Daten werden erst durch Visualisierung greifbar. 
 - **Matplotlib/Seaborn:** Für statische, druckreife Grafiken in Berichten.
 - **Plotly:** Für interaktive Grafiken, in denen man zoomen und Werte ablesen kann.
-- **Streamlit:** Die KI kann aus dem Analyse-Code direkt eine kleine Web-App (Dashboard) bauen, die Nutzer ohne Programmierkenntnisse bedienen können.
 
 - **Sandbox-Limits:** Der Interpreter hat keinen Zugriff auf das Internet (Sicherheit) und nur begrenzten Speicher/CPU.
 - **Garbage In, Garbage Out:** Wenn die Datenbasis falsch ist, hilft auch der beste Code nicht.

@@ -1,67 +1,88 @@
 # Deployment Guide: Data Science & Code Interpreter
 
-Dieser Guide beschreibt das isolierte Setup des Jupyter-Kernels für die Arbeit mit dem Code Interpreter in OpenWebUI.
+Dieser Guide beschreibt das Setup des Jupyter-Kernels für die Arbeit mit dem Code Interpreter in OpenWebUI, um der KI das Rechnen und die Datenanalyse mittels Python zu ermöglichen.
 
-## 1. Voraussetzungen
-- **Docker Desktop** ist installiert und läuft.
-- Der Ordner `datascience` wurde auf den lokalen Rechner heruntergeladen.
+## 1. Jupyter-Container erstellen
 
-## 2. Start des Jupyter-Containers
+Um die Instanz zu starten, navigiere im Terminal in den Ordner `datascience/` und führe diesen Befehl aus (oder nutze die bereitgestellte `docker-compose.yml` via `docker-compose up -d`).
 
-Navigiere im Terminal in den Ordner `datascience` und führe folgenden Befehl aus:
+> [!CAUTION]
+> **SICHERHEITSHINWEIS:** Ersetze `DEIN_SICHERER_TOKEN` durch einen zufälligen String (z.B. generiert via `openssl rand -hex 32`).
 
+### Manueller Start (Alternative zu Docker Compose):
 ```bash
-docker-compose up -d
+docker run -d \
+  -p 3005:8888 \
+  --name jupyter-interpreter \
+  --restart always \
+  jupyter/datascience-notebook \
+  start.sh jupyter notebook \
+  --NotebookApp.token='DEIN_SICHERER_TOKEN' \
+  --NotebookApp.password='' \
+  --NotebookApp.allow_origin='*' \
+  --NotebookApp.disable_check_xsrf=True
 ```
 
-### Konfigurations-Details:
-- **Port:** 3005
-- **Token:** `DEIN_SICHERER_TOKEN` (Sollte für den produktiven Einsatz in der `docker-compose.yml` geändert werden).
-- **Volumes:** Ein persistentes Volume `jupyter_data` wird erstellt, damit deine Notebooks und installierten Pakete auch nach einem Neustart erhalten bleiben.
+## 2. Bibliotheken im Container installieren
 
----
+Sobald der Container läuft, installieren wir die für die KI-Analyse notwendigen Bibliotheken aus der bereitgestellten `requirements_jupyter.txt`.
 
-## 3. Installation der Python-Bibliotheken
-
-Damit die KI Daten analysieren und Diagramme zeichnen kann, müssen die notwendigen Bibliotheken im Container installiert werden. Wir nutzen dafür die bereitgestellte `requirements_jupyter.txt`.
-
-Führe diesen Befehl im Terminal aus:
-
+**Option 1: Über das Terminal (Schnell)**
 ```bash
 docker exec jupyter-interpreter pip install -r requirements_jupyter.txt
 ```
 
-*Hinweis: Dieser Vorgang kann je nach Internetverbindung 1-2 Minuten dauern.*
+**Option 2: Über die Jupyter-Oberfläche (Alternative)**
+1. Öffne Jupyter im Browser (`http://localhost:3005`).
+2. Nutze den Login-Token aus dem Docker-Log oder deiner Konfiguration.
+3. Klicke auf **New > Text File**, nenne sie `requirements.txt` und füge den Inhalt der `requirements_jupyter.txt` ein.
+4. Gehe zurück auf die Übersicht, klicke auf **New > Terminal**.
+5. Gib im Terminal ein: `pip install -r requirements.txt`.
 
----
+## 3. Einbindung in OpenWebUI
 
-## 4. Anbindung an OpenWebUI
+1. Navigiere zu **Settings > Images & Web Search** (oder **Code Interpreter**).
+2. Trage bei der Jupyter-URL ein: `http://host.docker.internal:3005`.
+3. Gib den von dir gewählten Token (`DEIN_SICHERER_TOKEN`) ein.
 
-1. Öffne **OpenWebUI** in deinem Browser (meist `http://localhost:3000`).
-2. Navigiere zu **Settings > Images & Web Search** (in neueren Versionen ggf. unter **Code Interpreter**).
-3. Aktiviere den Schalter für den **Code Interpreter**.
-4. Trage folgende Werte ein:
-   - **Jupyter-URL:** `http://host.docker.internal:3005`
-   - **Jupyter-Token:** `DEIN_SICHERER_TOKEN`
-5. Klicke auf **Save**.
+![Einstellungen Code Interpreter](assets/einstellungen_code_interpreter.png)
+*Abbildung 1: Konfiguration des Code Interpreters in OpenWebUI.*
 
----
+## 4. Code Interpreter Prompt & Vertrag
 
-## 5. Funktionstest
+Kopiere diesen Prompt in das Feld für den **System-Prompt** deines "Nova" Modells oder erstelle ein spezialisiertes Profil, damit die KI den Interpreter korrekt ansteuert:
 
-Starte einen neuen Chat und sende folgenden Prompt:
+> ### CODE INTERPRETER (JUPYTER) – PROMPT TEMPLATE
+> Du hast Zugriff auf eine Jupyter-Python-Umgebung (Kernel). Der Kernelzustand bleibt über Ausführungen hinweg erhalten.
+>
+> **Ziel:** Wenn Rechnen/EDA/ML nötig ist, sollst du Code zuverlässig ausführen lassen und danach den tatsächlichen Output interpretieren (ohne Halluzinationen).
+>
+> **A) HARTE AUSGABE- & FORMATREGELN**
+> 1. Wenn du Code ausführen willst, MUSS deine gesamte Antwort in PHASE A exakt so aussehen (und sonst nichts):
+>    `<code_interpreter type="code" lang="python"> # python code </code_interpreter>`
+> 2. **VERBOTEN:** Kein JSON-Toolcall-Objekt, keine Markdown-Fences (```python), kein Text vor/nach dem Block in PHASE A.
+> 3. Nutze ausschließlich das obige `<code_interpreter>`-Format.
+>
+> **B) ZWEI-PHASEN-VERTRAG (Tool-Loop)**
+> - **PHASE A (vor Ausführung):** Antworte ausschließlich mit EINEM `<code_interpreter>`-Block.
+> - **PHASE B (nach Ausführung):** Antworte ausschließlich mit Text-Interpretation (kein weiterer Code-Block).
+>
+> **Interpretationsstruktur (PHASE B):**
+> 1. Datenüberblick (Shape, Spalten, Zielvariable).
+> 2. Vorverarbeitung (Encodings, Scaling, Missing Values).
+> 3. Modellvergleich (Accuracy, F1, ROC-AUC).
+> 4. Bestes Modell (warum).
+> 5. Grafiken (was man auf den Plots erkennt).
 
-> "Berechne die ersten 10 Primzahlen mittels Python und erstelle ein Balkendiagramm dazu."
+## 5. Test & Challenge
 
-Wenn die KI einen `<code_interpreter>` Block anzeigt und kurz darauf ein Bild generiert, ist das System erfolgreich eingerichtet.
+**Funktionstest:** "Berechne die ersten 15 Fibonacci-Zahlen und erstelle ein Balkendiagramm dazu."
 
----
-
-## 6. Lokale Datennutzung
-
-Um lokale Daten zu analysieren, nutze die Dateien im Ordner `./data`. 
-- Lade die Datei (z. B. `GolfSpielen.csv`) einfach in den Chat hoch.
-- Die KI erkennt die Datei und nutzt den Code Interpreter, um sie einzulesen.
+**Challenge (Data Science Untersuchung):**
+Nutze die analytische Power deiner Jupyter-Umgebung.
+> "Nutze folgenden Datensatz: `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/GolfSpielen.csv`
+> Erstelle eine Klassifikation oder Regression (entscheide selbst, was angebracht ist). Nutze das Merkmal `Klassenvorhersage` als Zielvariable. 
+> Nutze mindestens 4 Modelle für deine Untersuchung und vergleiche die Ergebnisse. Zeige am Ende das am besten performende Modell auf."
 
 ---
 [[Projekt_KI_VL]]

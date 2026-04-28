@@ -18,19 +18,22 @@ In dieser Übung lernst du, wie du den Jupyter-Interpreter in OpenWebUI nutzt, u
 
 ---
 
-## Aufgabe 2: Datenreinigung (The Dirty CSV)
-**Ziel:** KI-gestützte Aufbereitung von realen (unsauberen) Daten.
-
-**Voraussetzung:** Lade die Datei `GolfSpielen.csv` aus dem lokalen Ordner `./data/` in den Chat hoch.
+## Aufgabe 2: Datenreinigung (Online Datensätze)
+**Ziel:** KI-gestützte Aufbereitung von realen (unsauberen) Daten direkt aus dem Netz.
 
 ![Metapher: Die Code-Interpreter Sandbox](./assets/sandbox_metapher.png)
 *Abbildung 1: Die Sandbox als geschützter Raum für logische Berechnungen und Datenanalyse.*
 
 **Prompt:**
-> "Analysiere den hochgeladenen Datensatz. 
-> 1. Prüfe auf fehlende Werte und Ausreißer.
-> 2. Bereinige die Daten: Wandle kategoriale Werte (wie 'Wetter') in numerische Werte um, damit sie für Modelle nutzbar sind.
-> 3. Zeige mir den bereinigten Header als Tabelle."
+> "Analysiere folgende zwei Datensätze direkt über ihre URLs:
+> 1. `https://raw.githubusercontent.com/ProfEngel/KI-Literacy/refs/heads/main/datascience/data/GolfSpielen.csv`
+> 2. `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/Schwertlilie_missingvalues.csv`
+>
+> **Aufgabe:** 
+> - Prüfe beide auf fehlende Werte und Inkonsistenzen.
+> - Bereinige die Daten (Imputation von Missing Values).
+> - Wandle kategoriale Werte (wie 'Wetter') in numerische Werte um.
+> - Führe die Datensätze zusammen (sofern sinnvoll) oder zeige mir die bereinigten Header beider Tabellen."
 
 ---
 
@@ -38,7 +41,7 @@ In dieser Übung lernst du, wie du den Jupyter-Interpreter in OpenWebUI nutzt, u
 **Ziel:** Zusammenhänge in Daten erkennen.
 
 **Prompt:**
-> "Erstelle eine Korrelationsmatrix für den bereinigten Datensatz. Welche Faktoren haben den größten Einfluss darauf, ob Golf gespielt wird? Visualisiere die Korrelationen in einer Heatmap (Seaborn)."
+> "Erstelle eine Korrelationsmatrix für den bereinigten Golf-Datensatz. Welche Faktoren haben den größten Einfluss darauf, ob Golf gespielt wird? Visualisiere die Korrelationen in einer Heatmap (Seaborn)."
 
 ---
 
@@ -66,12 +69,11 @@ In dieser Übung lernst du, wie du den Jupyter-Interpreter in OpenWebUI nutzt, u
 
 ---
 
-## Aufgabe 6: Interaktive Visualisierung & Dashboarding
+## Aufgabe 6: Interaktive Visualisierung mit Plotly
 **Ziel:** Daten für Endnutzer aufbereiten.
 
 **Prompt:**
-> "Erstelle ein interaktives Diagramm mit Plotly, das den Zusammenhang zwischen Temperatur und der Spielentscheidung zeigt. 
-> Bonus: Generiere den Python-Code für ein einfaches Streamlit-Dashboard, das diesen Chart anzeigt."
+> "Erstelle ein interaktives Diagramm mit Plotly, das den Zusammenhang zwischen Temperatur und der Spielentscheidung zeigt. Sorge dafür, dass man beim Hovern über die Datenpunkte die exakten Werte sehen kann."
 
 ---
 
