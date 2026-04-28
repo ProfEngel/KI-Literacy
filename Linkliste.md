@@ -82,6 +82,10 @@ Für die Laborübungen nutzen wir verschiedene Datensätze zur Evaluation:
 - [Qwen 3.6 27B (Alibaba Cloud)](https://qwen.ai/blog?id=qwen3.6-27b) - Neues, hocheffizientes Modell von Alibaba; bietet Performance auf dem Niveau von 72B-Modellen bei deutlich reduzierten Hardwareanforderungen.
 - [Qwen 3.6 35B A3B (Alibaba Cloud)](https://qwen.ai/blog?id=qwen3.6-35b-a3b) - Ein "Sparse Mixture-of-Experts" (MoE) Modell mit nur 3 Mrd. aktiven Parametern pro Token; spezialisiert auf **Agentic Coding** und technisches Reasoning.
 - [Kimi K2.6 (Moonshot AI)](https://huggingface.co/moonshotai/Kimi-K2.6) - Natives multimodales Modell, optimiert für "Long-Horizon Coding" und die Steuerung von Agenten-Schwärmen (bis zu 300 koordinierte Sub-Agenten).
+## 📰 News-Briefing 30.04.2026
+- [Introducing GPT-5.5 (OpenAI)](https://openai.com/de-DE/index/introducing-gpt-5-5/) - OpenAI stellt GPT-5.5 vor. Massive Steigerung in Reasoning-Fähigkeiten und native "System 2" Architektur für komplexe Problemlösungen.
+- [Introducing ChatGPT Images 2.0 (OpenAI)](https://openai.com/de-DE/index/introducing-chatgpt-images-2-0/) - Evolution der Bilderzeugung. DALL-E 4 Integration mit präzisem Inpainting, lokaler Konsistenz und direkter Bearbeitung im Chat-Interface.
+- [DeepSeek-V4 Collection (Hugging Face)](https://huggingface.co/collections/deepseek-ai/deepseek-v4) - DeepSeek-V4 (Flash & Pro) bricht Preis-Leistungs-Rekorde. Performance auf Frontier-Niveau bei Bruchteil der Kosten.
 
 ---
 [[Projekt_KI_VL]]

@@ -1,0 +1,20 @@
+services:
+  jupyter-interpreter:
+    image: jupyter/datascience-notebook
+    container_name: jupyter-interpreter
+    ports:
+      - "3005:8888"
+    restart: always
+    environment:
+      - JUPYTER_TOKEN=DEIN_SICHERER_TOKEN
+    command: >
+      start.sh jupyter notebook
+      --NotebookApp.token='DEIN_SICHERER_TOKEN'
+      --NotebookApp.password=''
+      --NotebookApp.allow_origin='*'
+      --NotebookApp.disable_check_xsrf=True
+    volumes:
+      - jupyter_data:/home/jovyan/work
+
+volumes:
+  jupyter_data:

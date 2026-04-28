@@ -1,0 +1,15 @@
+outlook,temperature,humidity,windy,Klassenvorhersage
+sunny,29.4,85,FALSE,no
+sunny,26.7,90,TRUE,no
+overcast,28.3,86,FALSE,yes
+rainy,21.1,96,FALSE,yes
+rainy,20.0,80,FALSE,yes
+rainy,18.3,70,TRUE,no
+overcast,17.8,65,TRUE,yes
+sunny,22.2,95,FALSE,no
+sunny,20.6,70,FALSE,yes
+rainy,23.9,80,FALSE,yes
+sunny,23.9,70,TRUE,yes
+overcast,22.2,90,TRUE,yes
+overcast,27.2,75,FALSE,yes
+rainy,21.7,91,TRUE,no
