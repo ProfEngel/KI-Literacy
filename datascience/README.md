@@ -4,9 +4,10 @@ Dieses Modul vermittelt die Grundlagen der KI-gestützten Datenanalyse. Wir lern
 
 ## Inhalt des Ordners
 
-- **[DataScienceVerstehen.md](./DataScienceVerstehen.md)**: Ein technischer und methodischer Überblick (Code Interpreter vs. RAG, EDA-Prozess, Statistische Modellierung).
-- **[Labor_Anleitung.md](./Labor_Anleitung.md)**: Strukturierte Laborübungen, unterteilt in **Tag 6 (Aufbereitung)** und **Tag 7 (Analyse)**.
-- **[CheatSheet.md](./CheatSheet.md)**: Kompakte Referenz für System-Prompts, notwendige Python-Bibliotheken und Visualisierungs-Tipps.
+- **[vorlesungsbegleiter.md](./vorlesungsbegleiter.md)**: Der chronologische Leitfaden für die Vorlesung (Inhalt & Übungen verzahnt). **Empfohlener Einstieg!**
+- **[DataScienceVerstehen.md](./DataScienceVerstehen.md)**: Ein technischer und methodischer Überblick (Theorie-Fokus).
+- **[Labor_Anleitung.md](./Labor_Anleitung.md)**: Alle Laborübungen auf einen Blick.
+- **[CheatSheet.md](./CheatSheet.md)**: Kompakte Referenz für System-Prompts und Python-Bibliotheken.
 - **assets/**: Enthält Infografiken und visuelle Hilfsmittel zum Modul.
 
 ## Struktur des Moduls (Ablauf)
