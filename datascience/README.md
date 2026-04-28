@@ -7,6 +7,7 @@ Dieses Modul vermittelt die Grundlagen der KI-gestützten Datenanalyse. Wir lern
 - **[vorlesungsbegleiter.md](./vorlesungsbegleiter.md)**: Der chronologische Leitfaden für die Vorlesung (Inhalt & Übungen verzahnt). **Empfohlener Einstieg!**
 - **[DataScienceVerstehen.md](./DataScienceVerstehen.md)**: Ein technischer und methodischer Überblick (Theorie-Fokus).
 - **[Labor_Anleitung.md](./Labor_Anleitung.md)**: Alle Laborübungen auf einen Blick.
+- **[datascience_prompts.md](./datascience_prompts.md)**: Ein strukturierter Katalog mit Musterprompts für die gesamte Pipeline.
 - **[CheatSheet.md](./CheatSheet.md)**: Kompakte Referenz für System-Prompts und Python-Bibliotheken.
 - **assets/**: Enthält Infografiken und visuelle Hilfsmittel zum Modul.
 
