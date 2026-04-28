@@ -29,9 +29,20 @@ Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG u
 - [AI Toolkit](https://github.com/ostris/ai-toolkit) - Vielseitiges Toolkit für professionelle KI-Workflows.
 
 ## 🎨 Generative Medien (Bild & Video)
+### Native Plattformen
 - [ComfyUI](https://www.comfy.org/) - Das flexibelste, Knoten-basierte GUI für Stable Diffusion und Video-Gen.
 - [Invoke AI](https://github.com/invoke-ai/InvokeAI) - Professionelles Creative-Engine für visuelle KI-Inhalte.
 - [Higgsfield](https://higgsfield.ai/) - Innovative Plattform für High-End KI-Video-Generierung.
+- [Freepik](https://www.freepik.com/) - Umfangreiche Ressourcen und integrierte KI-Design-Tools.
+- [Adobe Firefly](https://www.adobe.com/de/products/firefly.html) - Adobes generative KI, nahtlos in Creative Cloud integriert.
+- [OpenArt](https://openart.ai/) - Plattform für KI-Bilderzeugung und Prompt-Discovery.
+- [Leonardo.ai](https://leonardo.ai/) - High-End Plattform für konsistente Charakter- und Asset-Erzeugung.
+
+### APIs mit Playground (Pay-per-use)
+- [Kie.ai](https://kie.ai/de) - Professionelle API für Stable Diffusion & Flux mit einfachem Playground.
+- [Fal.ai](https://fal.ai/dashboard) - Extrem schnelle Inference-API für Audio, Bild und Video.
+- [Freepik API](https://www.freepik.com/api/image-generation) - Programmatischer Zugriff auf die Freepik Generation-Engine.
+- [Leonardo.ai API](https://leonardo.ai) - Enterprise-API zur Integration der Leonardo-Modelle.
 
 ## ☁️ Cloud & Infrastruktur
 - [RunPod Pricing](https://www.runpod.io/pricing) - Preisübersicht für On-Demand GPU-Instanzen (Training & Inference).
