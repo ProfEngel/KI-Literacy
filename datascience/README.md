@@ -27,7 +27,6 @@ Das Modul folgt dem Modulplan für zwei aufeinanderfolgende Vorlesungstage:
 1. **Statistische Modellierung**: Lineare Regression und Klassifikation durchführen.
 2. **Business Insights**: Mathematische Ergebnisse (p-Werte etc.) in Management-Sprache übersetzen.
 3. **Advanced Visualisierung**: Interaktive Charts mit Plotly oder Matplotlib erstellen.
-4. **Dashboarding**: Ausblick auf die Generierung von Streamlit-Dashboards.
 
 ## Setup-Schnellstart
 
