@@ -1,108 +1,93 @@
 # Prompt-Katalog: AI Data Science & Code Interpreter
 
-Diese Sammlung enthält strukturierte Musterprompts für die gesamte Data Science Pipeline sowie spezialisierte Analysen (Text Mining, Geo, Zeitreihen).
+Diese Sammlung enthält strukturierte Musterprompts für die gesamte Data Science Pipeline. Jeder Prompt ist so konzipiert, dass er direkt einen realen Datensatz aus dem Web lädt.
 
 ---
 
-## 📋 1. Datenvorbereitung & Cleaning (The Dirty Work)
-*Fokus: Datenqualität und Vorverarbeitung für Machine Learning.*
+## 📋 1. Datenvorbereitung & Cleaning
+*Fokus: Datenqualität sicherstellen.*
 
 ### A. Missing Values & Imputation
-> "Untersuche den Datensatz `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/Schwertlilie_missingvalues.csv`. 
-> 1. Identifiziere Spalten mit fehlenden Werten.
-> 2. Wende unterschiedliche Strategien an: Mittelwert-Imputation für numerische Werte und Mode-Imputation für kategoriale Werte.
-> 3. Vergleiche die Verteilung vor und nach der Imputation in einem Histogramm."
+> "Lade den Datensatz von `https://raw.githubusercontent.com/ProfEngel/datasets/main/Schwertlilie_missingvalues.csv` und untersuche ihn auf fehlende Werte.
+> 1. Identifiziere alle Spalten mit NaN-Werten.
+> 2. Wende eine sinnvolle Imputation an (z. B. Mittelwert für numerische Spalten).
+> 3. Vergleiche die Statistik vor und nach der Bereinigung."
 
 ### B. Ausreißer (Outlier Detection)
-> "Prüfe den Boston Housing Datensatz (`medv`) auf Ausreißer.
-> 1. Nutze die IQR-Methode (Interquartilsabstand), um Extremwerte zu identifizieren.
-> 2. Visualisiere die Ausreißer in einem Boxplot.
-> 3. Diskutiere, ob die Ausreißer entfernt oder transformiert werden sollten."
+> "Lade den Datensatz von `https://raw.githubusercontent.com/ProfEngel/datasets/main/bostonhousing.csv`.
+> 1. Prüfe die Zielvariable `medv` auf Ausreißer mittels Boxplot und IQR-Methode.
+> 2. Identifiziere extrem hohe Immobilienpreise und diskutiere, ob diese für ein Modell repräsentativ sind.
+> 3. Visualisiere die Verteilung mit und ohne Ausreißer."
 
 ### C. Imbalanced Datasets (Ungleichverteilung)
-> "Prüfe die Zielvariable im Titanic-Datensatz (`Survived`). 
-> 1. Liegt eine starke Ungleichverteilung vor?
-> 2. Falls ja, wende SMOTE (Synthetic Minority Over-sampling Technique) oder einfaches Undersampling an, um die Klassen für das Modelltraining auszugleichen."
+> "Lade den Datensatz von `https://raw.githubusercontent.com/ProfEngel/datasets/main/Titanic_small.csv`.
+> 1. Prüfe die Verteilung der Zielvariable `Survived`. Liegt ein Klassen-Ungleichgewicht vor?
+> 2. Bereite die Daten so vor, dass die KI beim Modelltraining ein Oversampling (z. B. SMOTE) oder Undersampling vorschlägt, um die Vorhersagequalität für die Minderheitsklasse zu erhöhen."
 
 ---
 
 ## 🤖 2. Machine Learning & Algorithmen
-*Fokus: Modellierung und Visualisierung komplexer Logik.*
+*Fokus: Logik und Modell-Visualisierung.*
 
-### A. Entscheidungsbäume (Decision Trees) mit Visualisierung
-> "Trainiere einen Entscheidungsbaum auf dem `GolfSpielen.csv` Datensatz.
-> 1. Zielvariable: `Klassenvorhersage`.
-> 2. Visualisiere den fertigen Baum grafisch (plot_tree), damit ich die Entscheidungslogik nachvollziehen kann.
-> 3. Welche Merkmale stehen an der Wurzel des Baums?"
+### A. Entscheidungsbäume (Decision Trees)
+> "Lade den Datensatz von `https://raw.githubusercontent.com/ProfEngel/datasets/main/GolfSpielen.csv`.
+> 1. Trainiere einen Entscheidungsbaum, um die `Klassenvorhersage` (Spielen: Ja/Nein) basierend auf dem Wetter zu prognostizieren.
+> 2. Visualisiere den Baum grafisch, damit die Entscheidungsregeln (Sonne, Feuchtigkeit etc.) klar erkennbar sind."
 
 ### B. Clustering (K-Means)
-> "Führe eine K-Means Clusteranalyse auf dem Iris-Datensatz durch.
-> 1. Nutze die Elbow-Methode, um die optimale Anzahl an Clustern (k) zu bestimmen.
-> 2. Visualisiere die Cluster in einem 2D-Scatterplot (Sepal Length vs. Petal Width)."
+> "Lade den Datensatz von `https://raw.githubusercontent.com/ProfEngel/datasets/main/Schwertlilie.csv`.
+> 1. Führe eine K-Means Clusteranalyse durch, um die Blumen ohne Nutzung des Labels `Species` zu gruppieren.
+> 2. Bestimme die optimale Clusteranzahl via Elbow-Plot.
+> 3. Visualisiere die resultierenden Cluster in einem Scatterplot."
 
 ### C. Association Rules (Warenkorbanalyse)
-> "Nutze den Datensatz `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/Groceries_dataset.csv`.
-> 1. Wende den Apriori-Algorithmus an, um Assoziationsregeln zu finden.
-> 2. Filtere nach Regeln mit einem Lift > 1.2 und einer Confidence > 0.5.
-> 3. Welche Produkte werden am häufigsten zusammen gekauft?"
+> "Lade den Datensatz von `https://raw.githubusercontent.com/ProfEngel/datasets/main/shopping_trends_updated.csv`.
+> 1. Suche nach Mustern im Kaufverhalten (z. B. Zusammenhang zwischen Kategorie und Review-Rating).
+> 2. Wende Assoziationsregeln an, um herauszufinden, welche Produktgruppen häufig gemeinsam (oder von ähnlichen Altersgruppen) gekauft werden."
 
 ---
 
 ## 📝 3. Text Mining & Sentiment Analyse
-*Fokus: Unstrukturierte Texte in Erkenntnisse verwandeln.*
+*Fokus: Sprache in Daten verwandeln.*
 
-### A. Word Clouds & Frequenzanalyse
-> "Lade den Text-Datensatz zu Kundenbewertungen.
-> 1. Führe ein Preprocessing durch (Stopwords entfernen, Lemmatisierung).
-> 2. Erstelle eine Word Cloud der häufigsten Begriffe.
-> 3. Welche Themen dominieren die positiven vs. negativen Bewertungen?"
-
-### B. Sentiment Analyse (VADER / TextBlob)
-> "Führe eine Sentiment-Analyse auf den Tweets im Datensatz durch.
-> 1. Kategorisiere jeden Tweet als Positiv, Negativ oder Neutral.
-> 2. Erstelle ein Tortendiagramm der Sentiment-Verteilung.
-> 3. Zeige Beispiele für extrem negative Tweets auf."
+### A. Word Clouds & Sentiment
+> "Lade den Text-Datensatz `https://raw.githubusercontent.com/ProfEngel/datasets/main/VW_Tweets_Dieselskandal_2016.xlsx`.
+> 1. Führe eine Textbereinigung (Stopwords, Lemmatisierung) durch.
+> 2. Erstelle eine Word Cloud der meistgenannten Begriffe.
+> 3. Führe eine Sentiment-Analyse durch: War die Stimmung in den Tweets überwiegend negativ?"
 
 ---
 
-## 🕸️ 4. Netzwerkanalysen & Spezial-Visualisierungen
-*Fokus: Beziehungen und räumliche Daten.*
+## 🕸️ 4. Spezial-Visualisierungen
+*Fokus: Komplexe Zusammenhänge grafisch darstellen.*
 
-### A. Netzwerkanalyse (Graph Theory)
-> "Lade den Datensatz zu Flugverbindungen zwischen Städten.
-> 1. Erstelle einen Graphen mit NetworkX (Knoten = Städte, Kanten = Flüge).
-> 2. Berechne die 'Centrality' der Städte (welche Stadt ist der wichtigste Knoten?).
-> 3. Visualisiere das Netzwerk grafisch."
+### A. Geo-Mapping (Crime Map)
+> "Lade den Datensatz von `https://raw.githubusercontent.com/ProfEngel/datasets/main/PhildalphiaCrimeActivites_UTF8.csv`.
+> 1. Erstelle eine Karte (Heatmap) der Kriminalitätsschwerpunkte in Philadelphia basierend auf den Koordinaten.
+> 2. Nutze eine interaktive Karte (Plotly/Folium), um die Verteilung nach Tageszeit zu visualisieren."
 
-### B. Geo-Daten: Philadelphia Crime Map
-> "Nutze den Philadelphia Crime Datensatz. 
-> 1. Erstelle eine Heatmap der Verbrechensschwerpunkte basierend auf Breiten- und Längengraden.
-> 2. Nutze Folium oder Plotly-Express (Mapbox), um die Verteilung interaktiv auf einer Karte anzuzeigen.
-> 3. Filtere nach Verbrechensart 'Theft' oder 'Burglary'."
+### B. Netzwerkanalyse (Zusammenhänge)
+> "Nutze den Datensatz `https://raw.githubusercontent.com/ProfEngel/datasets/main/Global_YouTube_Statistics_UTF8.csv`.
+> 1. Erstelle eine Netzwerkgrafik, welche die Top-Kategorien mit den erfolgreichsten Ländern verbindet.
+> 2. Visualisiere die Stärke der Verbindung durch die Dicke der Linien (Anzahl der Kanäle)."
 
 ---
 
-## 📈 5. Zeitreihen-Analyse (Time Series)
-*Fokus: Trends und Vorhersagen über die Zeit.*
+## 📈 5. Zeitreihen & Finanzen (Yahoo Finance)
+*Fokus: Trends und Prognosen.*
 
-### A. Yahoo Finance: NVIDIA Analyse
-> "Nutze die Bibliothek `yfinance`, um die Aktiendaten von NVIDIA (Symbol: NVDA) der letzten 24 Monate zu laden.
-> 1. Berechne den gleitenden Durchschnitt (Moving Average) für 20 und 50 Tage.
-> 2. Visualisiere den Aktienkurs zusammen mit den Durchschnitten.
-> 3. Führe eine statistische Prüfung auf Stationarität durch (Augmented Dickey-Fuller Test)."
-
-### B. Saisonale Dekomposition
-> "Nutze den AirPassengers Datensatz. 
-> 1. Zerlege die Zeitreihe in Trend, Saisonalität und Residuen (seasonal_decompose).
-> 2. Visualisiere die vier Komponenten untereinander.
-> 3. Erstelle eine Vorhersage für die nächsten 12 Monate mittels eines ARIMA-Modells."
+### A. Yahoo Finance: NVIDIA (NVDA)
+> "Nutze die Bibliothek `yfinance`, um die Kurse von NVIDIA (`NVDA`) der letzten 2 Jahre zu laden.
+> 1. Visualisiere den Kursverlauf inkl. 50-Tage und 200-Tage Durchschnitt.
+> 2. Berechne die tägliche Volatilität.
+> 3. Erstelle eine Prognose für die nächsten 30 Tage mittels einer einfachen Trend-Fortschreibung oder eines ARIMA-Modells."
 
 ---
 
-## 🛡️ Best Practices & Tipps
-- **Methodik vor Code:** Frage die KI: "Welche Vorverarbeitungsschritte sind für diesen spezifischen Algorithmus (z. B. k-Means) zwingend erforderlich (z. B. Skalierung)?"
-- **Visualisierung:** Fordere interaktive Plots (`Plotly`), wenn du Daten explorieren willst, und statische Plots (`Seaborn/Matplotlib`) für Berichte.
-- **Validierung:** Lass dir immer die Konfusionsmatrix und den Klassifikationsbericht (`classification_report`) ausgeben, nicht nur die Accuracy.
+## 🛡️ Best Practices
+1. **Raw-URLs nutzen:** Achte darauf, immer den `raw`-Link von GitHub zu verwenden, damit die KI die Datei direkt einlesen kann.
+2. **Daten-Souveränität:** Durch den lokalen Docker-Container bleiben deine Daten privat, während die KI nur den Analyse-Code schreibt.
+3. **Validierung:** Hinterfrage immer die "Feature Importance" eines Modells.
 
 ---
 [[Projekt_KI_VL]]
