@@ -236,12 +236,14 @@ Person, Ort und Objekt kommen aus getrennten Vorlagen zusammen.
 
 ### Phase 7: Bearbeitung, Variation & Skalierung
 
+In dieser Phase verlassen wir den Bereich der reinen Text-zu-Bild-Generierung. Wir lernen, dass ein generiertes Bild kein statisches Endprodukt ist, sondern eine flexible Basis für gezielte Manipulationen. Diese Techniken basieren auf dem Verständnis des **Latent Space** und erlauben es, visuelle Fehler zu korrigieren, Bildgrenzen zu sprengen oder kreative Stil-Remixe zu erstellen, ohne die Grundkomposition zu verlieren.
+
 #### Aufgabe 17: Inpainting (Gezielte Korrektur)
 **Ziel**: Ein Element in einer bestehenden Szene austauschen oder hinzufügen, ohne das restliche Bild zu verändern.
 
 ![Inpainting: Kirsche statt Erdbeere](media/inpainting_kirsche.jpg)
 
-Beim Inpainting wird ein Teil des Bildes maskiert. Die KI generiert nur diesen Bereich neu, während Licht, Schatten und Stil des restlichen Bildes erhalten bleiben.
+**Hintergrund:** Beim Inpainting maskieren wir einen Teil des Bildes. Die KI "vergisst" den Inhalt unter der Maske und startet dort einen neuen Diffusionsprozess. Da die KI jedoch den nicht-maskierten Bereich als Kontext sieht, werden Lichtrichtung, Schattenwurf und Texturen des Originals automatisch übernommen. Dies ist das wichtigste Werkzeug für die professionelle Fehlerkorrektur.
 
 > [!EXAMPLE] Prompt: Inpainting
 > Tausche die Erdbeere auf dem Teller durch eine glänzende rote Kirsche aus. Behalte den weißen Teller, den Schattenwurf und das weiche Studiolicht exakt bei.
@@ -251,7 +253,7 @@ Beim Inpainting wird ein Teil des Bildes maskiert. Die KI generiert nur diesen B
 
 ![Outpainting: Erweiterter Bildraum](media/outpainting_szene.jpg)
 
-Outpainting erlaubt es, den Canvas zu vergrößern. Die KI "erfindet" den passenden Kontext dazu, wobei sie den bestehenden Stil und die Lichtstimmung logisch fortführt.
+**Hintergrund:** Outpainting (auch „Generative Fill“ genannt) erweitert den Bildraum. Die KI muss hierbei die Perspektive (Fluchtlinien) und die Lichtstimmung des Originals in den neuen Raum extrapolieren. Dies ist besonders nützlich, um aus einem quadratischen Bild ein Breitbild-Format (16:9) für Präsentationen zu machen, ohne das Motiv zu verzerren.
 
 > [!EXAMPLE] Prompt: Outpainting
 > Erweitere das Bild der Erdbeere zu einer Weitwinkel-Ansicht. Zeige den gesamten Holztisch, einen minimalistischen Stuhl daneben und ein helles Fenster im Hintergrund. Behalte den sauberen, hellen Stil bei.
@@ -261,7 +263,10 @@ Outpainting erlaubt es, den Canvas zu vergrößern. Die KI "erfindet" den passen
 
 ![Remix: Gleicher Inhalt, neuer Stil](media/remix_comic.jpg)
 
-Ein Remix nutzt das Originalbild als strukturelle Vorlage (Image-to-Image mit mittlerer Denoising-Stärke), um alternative Interpretationen zu erzeugen.
+**Hintergrund:** Ein Remix nutzt Image-to-Image-Workflows. Der entscheidende Parameter ist hier die **Denoising Strength**:
+- **Niedrig (0.3):** Nur Texturen ändern sich, die Formen bleiben fast identisch.
+- **Mittel (0.5 - 0.6):** Ein guter Kompromiss für Stiländerungen bei gleicher Komposition.
+- **Hoch (0.8+):** Die KI nutzt das Original nur noch als grobe Skizze für Farben und Massenverteilung.
 
 > [!EXAMPLE] Prompt: Remix
 > Nutze das Bild der Erdbeere als Vorlage, aber rendere die Szene im Stil eines farbenfrohen Pop-Art Comics mit dicken Outlines. Die Komposition muss identisch bleiben.
@@ -271,10 +276,10 @@ Ein Remix nutzt das Originalbild als strukturelle Vorlage (Image-to-Image mit mi
 
 ![Resize & Upscaling: Mehr Details](media/resize_demo.jpg)
 
-Techniken wie Upscaling (z.B. Hires. fix oder externe AI-Upscaler) verbessern die Detailtiefe. Aspect Ratio Anpassungen optimieren das Bild für verschiedene Plattformen (z.B. 16:9 für Präsentationen).
+**Hintergrund:** Standardgeneratoren arbeiten oft in niedrigen Auflösungen (z.B. 1024px). KI-Upscaler (wie Hires. fix oder Topaz) vergrößern das Bild nicht nur (Interpolation), sondern fügen im Latent Space neue, feine Details hinzu, die in der niedrigen Auflösung nicht darstellbar waren. Dies macht das Bild "druckreif".
 
 > [!TIP] Workflow
-> Nutze einen Upscaler (z.B. 2.0x), um feine Texturen (Samen der Erdbeere, Reflexionen auf dem Teller) schärfer hervorzuheben.
+> Nutze einen Upscaler (z.B. 2.0x), um feine Texturen (Samen der Erdbeere, Reflexionen auf dem Teller) schärfer hervorzuheben. Dies erhöht nicht nur die Größe, sondern auch die empfundene Qualität (Perceptual Quality).
 
 ---
 
