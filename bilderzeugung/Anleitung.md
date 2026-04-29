@@ -20,6 +20,7 @@ Nach dem Modul können die Lernenden:
 * Prompts strukturiert nach Subjekt, Komposition, Licht, Stil und Constraints aufbauen.
 * Perspektive, Brennweite, Blende und Licht gezielt variieren.
 * Personen und wiederkehrende Figuren konsistenter prompten.
+* Fortgeschrittene Bearbeitungstechniken wie Inpainting, Outpainting, Remixe und Resize anwenden.
 
 ### Didaktisches Prinzip
 Es wird immer nur **eine** Komplexitätsstufe erhöht: zuerst ein Objekt, dann mehrere Objekte, dann räumliche Beziehungen, dann Licht, dann Stil, dann Person, dann Konsistenz, dann Referenzarbeit („ein Hebel pro Iteration“-Prinzip).
@@ -230,6 +231,50 @@ Person, Ort und Objekt kommen aus getrennten Vorlagen zusammen.
 
 > [!EXAMPLE] Prompt: Multi-Reference
 > Use the character reference for identity, the room reference for scene structure, and the object reference for the apple. Place the woman seated on the floor in the left foreground, the cup on the front edge of the table, and the green apple on the right rear of the table. Match all elements to soft warm evening window light, photorealistic style, realistic materials, consistent perspective.
+
+---
+
+### Phase 7: Bearbeitung, Variation & Skalierung
+
+#### Aufgabe 17: Inpainting (Gezielte Korrektur)
+**Ziel**: Ein Element in einer bestehenden Szene austauschen oder hinzufügen, ohne das restliche Bild zu verändern.
+
+![Inpainting: Kirsche statt Erdbeere](media/inpainting_kirsche.jpg)
+
+Beim Inpainting wird ein Teil des Bildes maskiert. Die KI generiert nur diesen Bereich neu, während Licht, Schatten und Stil des restlichen Bildes erhalten bleiben.
+
+> [!EXAMPLE] Prompt: Inpainting
+> Tausche die Erdbeere auf dem Teller durch eine glänzende rote Kirsche aus. Behalte den weißen Teller, den Schattenwurf und das weiche Studiolicht exakt bei.
+
+#### Aufgabe 18: Outpainting (Bildraum erweitern)
+**Ziel**: Eine Szene über ihre ursprünglichen Grenzen hinaus fortsetzen (z.B. von einer Nahaufnahme zur Totalen).
+
+![Outpainting: Erweiterter Bildraum](media/outpainting_szene.jpg)
+
+Outpainting erlaubt es, den Canvas zu vergrößern. Die KI "erfindet" den passenden Kontext dazu, wobei sie den bestehenden Stil und die Lichtstimmung logisch fortführt.
+
+> [!EXAMPLE] Prompt: Outpainting
+> Erweitere das Bild der Erdbeere zu einer Weitwinkel-Ansicht. Zeige den gesamten Holztisch, einen minimalistischen Stuhl daneben und ein helles Fenster im Hintergrund. Behalte den sauberen, hellen Stil bei.
+
+#### Aufgabe 19: Remixe & Variationen
+**Ziel**: Die Essenz eines Bildes beibehalten, aber Details oder Stile radikal ändern.
+
+![Remix: Gleicher Inhalt, neuer Stil](media/remix_comic.jpg)
+
+Ein Remix nutzt das Originalbild als strukturelle Vorlage (Image-to-Image mit mittlerer Denoising-Stärke), um alternative Interpretationen zu erzeugen.
+
+> [!EXAMPLE] Prompt: Remix
+> Nutze das Bild der Erdbeere als Vorlage, aber rendere die Szene im Stil eines farbenfrohen Pop-Art Comics mit dicken Outlines. Die Komposition muss identisch bleiben.
+
+#### Aufgabe 20: Resize & Upscaling
+**Ziel**: Die Auflösung erhöhen oder das Seitenverhältnis ändern, ohne den Inhalt zu verzerren.
+
+![Resize & Upscaling: Mehr Details](media/resize_demo.jpg)
+
+Techniken wie Upscaling (z.B. Hires. fix oder externe AI-Upscaler) verbessern die Detailtiefe. Aspect Ratio Anpassungen optimieren das Bild für verschiedene Plattformen (z.B. 16:9 für Präsentationen).
+
+> [!TIP] Workflow
+> Nutze einen Upscaler (z.B. 2.0x), um feine Texturen (Samen der Erdbeere, Reflexionen auf dem Teller) schärfer hervorzuheben.
 
 ---
 
