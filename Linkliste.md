@@ -95,8 +95,11 @@ Für die Laborübungen nutzen wir verschiedene Datensätze zur Evaluation:
 - [Kimi K2.6 (Moonshot AI)](https://huggingface.co/moonshotai/Kimi-K2.6) - Natives multimodales Modell, optimiert für "Long-Horizon Coding" und die Steuerung von Agenten-Schwärmen (bis zu 300 koordinierte Sub-Agenten).
 ## 📰 News-Briefing 30.04.2026
 - [Introducing GPT-5.5 (OpenAI)](https://openai.com/de-DE/index/introducing-gpt-5-5/) - OpenAI stellt GPT-5.5 vor. Massive Steigerung in Reasoning-Fähigkeiten und native "System 2" Architektur für komplexe Problemlösungen.
+- [Our Principles (OpenAI)](https://openai.com/index/our-principles/) - Sam Altman definiert die Kernprinzipien für die Zukunft: Demokratisierung, Empowerment, allgemeiner Wohlstand und gesellschaftliche Resilienz als Leitplanken für AGI.
 - [Introducing ChatGPT Images 2.0 (OpenAI)](https://openai.com/de-DE/index/introducing-chatgpt-images-2-0/) - Evolution der Bilderzeugung. DALL-E 4 Integration mit präzisem Inpainting, lokaler Konsistenz und direkter Bearbeitung im Chat-Interface.
 - [DeepSeek-V4 Collection (Hugging Face)](https://huggingface.co/collections/deepseek-ai/deepseek-v4) - DeepSeek-V4 (Flash & Pro) bricht Preis-Leistungs-Rekorde. Performance auf Frontier-Niveau bei Bruchteil der Kosten.
+- [AI agent buys itself a robot (YouTube)](https://youtu.be/woTy4dTiT20?si=aOMSOuIkomUHBKxc) - InsideAI zeigt, wie ein KI-Agent eigenständig Hardware erwirbt und dabei Expertenwarnungen vor unkontrolliertem Verhalten bestätigt.
+- [Agents of Chaos (ArXiv)](https://arxiv.org/abs/2602.20021) - Empirische Red-Teaming-Studie über die Sicherheits- und Governance-Risiken autonomer Agenten in Live-Umgebungen.
 
 ---
 [[Projekt_KI_VL]]
