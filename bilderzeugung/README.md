@@ -20,6 +20,11 @@ Das Modul ist in sechs Phasen unterteilt:
 5. **Personen und Konsistenz**: Erstellung von Charakteren und Character Sheets.
 6. **i2i und Multi-Reference**: Fortgeschrittene Workflows mit Bildreferenzen.
 
-## Verwendung
+## SOTA-Referenz (Stand Mai 2026)
+Aktuelle Referenz-Modelle für dieses Modul:
+*   **Prompt-Engineering (LLM):** Claude Opus 4.7, GPT-5.
+*   **Bilderzeugung:** [Google Labs: Flow](https://labs.google/fx/de/tools/flow) (kostenlos), Midjourney v7, Adobe Firefly.
+*   **Spezial-Tools:** Leonardo.ai (Konsistenz), Kie.ai (API/Playground).
 
+## Verwendung
 Die `Anleitung.md` dient als Leitfaden für Dozierende oder zum Selbststudium. Das `cheatsheet.md` sollte den Lernenden als Werkzeug für die praktischen Übungen zur Verfügung gestellt werden.
