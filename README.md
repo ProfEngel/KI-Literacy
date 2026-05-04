@@ -49,6 +49,8 @@ Der Ordner `demodokumente/` enthält spezielles Testmaterial für verschiedene K
 - **[Bilderzeugung (Modul)](./bilderzeugung/)** – Ein vollständiges Lehrmodul zur systematischen KI-Bildgenerierung. Enthält eine technische Einführung, eine Anleitung mit 16 Aufgaben, ein Cheat Sheet und einen Prompt-Katalog.
 - **[Data Science (Modul)](./datascience/)** – Neu: Ein umfassendes Modul für KI-gestützte Datenanalyse (Tag 6 & 7). Enthält Anleitungen für den Code Interpreter, Laborübungen zur Datenreinigung (EDA) und statistischen Modellierung sowie ein eigenes Deployment-Setup.
 - **[Videoerzeugung (Modul)](./videoerzeugung/)** – Ein vollständiges Lehrmodul zur kinematischen KI-Videogenerierung. Enthält didaktische Anleitungen für Kamerasteuerung, Charakter-Konsistenz (Identity Bundle), Storyboarding mittels LLM und Post-Produktions-Workflows.
+- **[Songerzeugung (Modul)](./songerzeugung/)** – Ein Lehrmodul zur KI-Musikproduktion. Deckt Theorie (Anatomie des Klangs), Prompting-Techniken für komplette Songs (Suno/Udio) und professionelle Vocal-Synthesis (Synthesizer V/ACE Studio) ab.
+- **[Design & Branding (Modul)](./design/)** – Ein Modul zur KI-gestützten visuellen Gestaltung. Verknüpft klassische Design-Prinzipien (Gestaltgesetze, Typografie) mit KI-Beschleunigung für Logo-Entwicklung, Corporate Identity und UI/UX Mockups.
 
 
 ### 🛠️ Konfigurationen

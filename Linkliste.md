@@ -98,6 +98,26 @@ Für die Laborübungen nutzen wir verschiedene Datensätze zur Evaluation:
 - [Qwen 3.6 27B (Alibaba Cloud)](https://qwen.ai/blog?id=qwen3.6-27b) - Neues, hocheffizientes Modell von Alibaba; bietet Performance auf dem Niveau von 72B-Modellen bei deutlich reduzierten Hardwareanforderungen.
 - [Qwen 3.6 35B A3B (Alibaba Cloud)](https://qwen.ai/blog?id=qwen3.6-35b-a3b) - Ein "Sparse Mixture-of-Experts" (MoE) Modell mit nur 3 Mrd. aktiven Parametern pro Token; spezialisiert auf **Agentic Coding** und technisches Reasoning.
 - [Kimi K2.6 (Moonshot AI)](https://huggingface.co/moonshotai/Kimi-K2.6) - Natives multimodales Modell, optimiert für "Long-Horizon Coding" und die Steuerung von Agenten-Schwärmen (bis zu 300 koordinierte Sub-Agenten).
+
+---
+
+## 🎵 Song- & Audioerzeugung
+### Cloud-Tools (Einstieg)
+- **[Suno](https://suno.com)** – Führende KI für komplette Songs mit Gesang.
+- **[Udio](https://udio.com)** – Hochwertige Arrangements und klangliche Tiefe.
+- **[Audimee](https://audimee.com)** – Spezialisiert auf Voice-Cloning und Identity-Transfer.
+
+### Professionelle Vocal Synthesis (Partitur & Detail-Kontrolle)
+- **[ACE Studio](https://acestudio.ai)** – High-End Gesangssynthese mit KI-Sängern.
+- **[Synthesizer V](https://dreamtonics.com/synthesizerv/)** – Der Industriestandard für virtuelle KI-Stimmen.
+- **[Vocoflex](https://dreamtonics.com/vocoflex/)** – Echtzeit-Stimm-Morphing und Charakter-Design.
+
+### Lokale Generierung & Experimentell
+- **[Stable Audio](https://stableaudio.com)** – Konsistente Instrumentals und Texturen.
+- **[Mozart AI](https://mozart.ai)** – Experimentelle Audio-Workflows.
+- **ComfyUI AceStep1.5 XL** – Lokale Node-basierte Audio-Generierung.
+
+---
 ## 📰 News-Briefing 30.04.2026
 - [Introducing GPT-5.5 (OpenAI)](https://openai.com/de-DE/index/introducing-gpt-5-5/) - OpenAI stellt GPT-5.5 vor. Massive Steigerung in Reasoning-Fähigkeiten und native "System 2" Architektur für komplexe Problemlösungen.
 - [Our Principles (OpenAI)](https://openai.com/index/our-principles/) - Sam Altman definiert die Kernprinzipien für die Zukunft: Demokratisierung, Empowerment, allgemeiner Wohlstand und gesellschaftliche Resilienz als Leitplanken für AGI.
