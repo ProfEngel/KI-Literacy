@@ -122,6 +122,9 @@ Ein professioneller Charakter-Workflow erfordert die Bereitstellung folgender As
 4.  **Scaling:** Bei mehreren Personen im Bild muss das Bundle für jede Identität erstellt werden.
 5.  **Produkte als Charaktere:** Auch Objekte (z.B. eine Coladose) müssen wie Charaktere behandelt werden (Product Sheet), um Logos und Formen stabil zu halten.
 
+> [!TIP] Profi-Tipp: Outfit-spezifische Charaktersheets
+> Erzeuge im Idealfall je Szene ein eigenes Charaktersheet. Sollte die Person in unterschiedlichen Szenen unterschiedliche Kleidung tragen (z.B. Astronaut mit und ohne Helm, Fußballspieler(in), Business-Outfit vs. Casual Look), dann erstelle dafür jeweils ein passendes Charaktersheet, um die Konsistenz der Details zu maximieren.
+
 ---
 
 #### Aufgabe 8: Der visuelle Avatar-Transfer
@@ -190,6 +193,8 @@ Moderne SOTA-Modelle können heute zwar bis zu 15 Sekunden (oder mehr) am Stück
     
     > [!TIP] Der ultimative Director-Prompt für diese Aufgabe (Template)
     > *"Write me a multi-shot prompt that describes the below scene using the uploaded image as a key visual reference… [INSERT CHARACTER, ACTION, LOCATION, TIME OF DAY] Structure it as a sequence of shots totalling exactly 15 seconds, where each shot is a minimum of 2 seconds and a maximum of 5 seconds. Choose the shot count freely based on what best serves the action — anywhere from 3 shots (longer, more contemplative beats) up to 7 shots (fast, punchy cutting) — and vary this choice each time the prompt is run so results feel fresh. Chain shots with 'Cut to.' between them. For each shot specify: shot size (wide/medium/close-up/macro), lens (e.g. 24mm, 35mm, 50mm, 85mm), camera angle (low/high/eye-level/over-the-shoulder/Dutch), and one clear camera movement verb (push in, pull out, track, orbit, pan, tilt, handheld, static). Vary all four across the sequence and pick the angle that best sells each beat. Output one flowing paragraph, no line breaks, no lists, no markdown, 1000 characters maximum. End the prompt with: 'Photo real, natural framing. Audio: diegetic sound only — natural ambience, environmental foley, and subject-driven sound.'"*
+    > 
+    > **Hinweis:** Eine erweiterte Version dieses Prompts mit spezifischen Befehlen für Modelle wie LTX, Seedance, Kling, Sora und Veo findest du im **[directorprompt_template.md](./directorprompt_template.md)**.
 
     > [!EXAMPLE] Ausgefüllter Beispiel-Prompt für unsere Aufgabe (Der Koch)
     > *"Write me a multi-shot prompt that describes the below scene using the uploaded image as a key visual reference… **Character: A male chef, 40s, apron. Action: Chopping vegetables, slicing a red bell pepper, smiling and saying 'Dinner is almost ready'. Location: Bright modern kitchen. Time of day: Evening golden hour.** Structure it as a sequence of shots totalling exactly 15 seconds, where each shot is a minimum of 2 seconds and a maximum of 5 seconds. Choose the shot count freely based on what best serves the action — anywhere from 3 shots (longer, more contemplative beats) up to 7 shots (fast, punchy cutting) — and vary this choice each time the prompt is run so results feel fresh. Chain shots with 'Cut to.' between them. For each shot specify: shot size (wide/medium/close-up/macro), lens (e.g. 24mm, 35mm, 50mm, 85mm), camera angle (low/high/eye-level/over-the-shoulder/Dutch), and one clear camera movement verb (push in, pull out, track, orbit, pan, tilt, handheld, static). Vary all four across the sequence and pick the angle that best sells each beat. Output one flowing paragraph, no line breaks, no lists, no markdown, 1000 characters maximum. End the prompt with: 'Photo real, natural framing. Audio: diegetic sound only — natural ambience, environmental foley, and subject-driven sound.'"*

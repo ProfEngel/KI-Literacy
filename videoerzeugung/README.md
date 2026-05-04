@@ -8,6 +8,7 @@ Dieses Repository enthält die Materialien für ein Lehrmodul zur systematischen
 - **[VideoerzeugungVerstehen.md](./VideoerzeugungVerstehen.md)**: Technischer Überblick über Videoarchitekturen, FPS-Standards und physikalische Konzepte.
 - **[cheatsheet.md](./cheatsheet.md)**: Kompakte Referenz für Kamera- und Objektbewegungen sowie zeitliche Parameter.
 - **[multi_shot_prompts.md](./multi_shot_prompts.md)**: Agnostische Frameworks für die Planung komplexer Sequenzen mittels LLM.
+- **[directorprompt_template.md](./directorprompt_template.md)**: Der ultimative Director-Prompt mit modellspezifischen Erweiterungen (LTX, Kling, Sora etc.).
 - **media/**: Beispielvideos und Key Visuals.
 
 ## Struktur des Moduls
