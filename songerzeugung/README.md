@@ -16,5 +16,7 @@ Dieses Modul widmet sich der systematischen Erstellung von Musik und Gesang mitt
 
 ## 📂 Struktur des Moduls
 *   **[Anleitung.md](./Anleitung.md)**: Der didaktische 6-Phasen-Leitfaden.
+*   **[PromptVorlagen.md](./PromptVorlagen.md)**: Master-Anweisungen und Vorlagen zur Song-Generierung.
+*   **[System_Prompts.md](./System_Prompts.md)**: Spezialisierte System-Instruktionen für Musik-Agenten.
 *   **[cheatsheet.md](./cheatsheet.md)**: Referenz für Genres, Stimmungen und Audio-Parameter.
 *   **[AudioVerstehen.md](./AudioVerstehen.md)**: Theoretische Basis (Spektrogramme, Latent Audio Diffusion).
