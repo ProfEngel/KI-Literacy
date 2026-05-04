@@ -38,6 +38,9 @@ Der Goldene Schnitt und die Drittel-Regel sorgen für Balance.
 *   **KI-Beschleunigung**: **Generatives Outpainting** und **Inpainting** (siehe Modul [Bilderzeugung](../bilderzeugung/)). KI kann Kompositionen erweitern, während sie die Balance des ursprünglichen Rasters beibehält.
 
 ## 5. Logo-Design & Markenidentität
+
+![Logo Design Evolution](./media/logo_evolution.jpg)
+
 Ein Logo ist die Essenz einer Marke.
 *   **Traditionell**: Hunderte Skizzen, Vektorisierung in Illustrator.
 *   **KI-Beschleunigung**: **Prompt-basiertes Prototyping** mit Midjourney oder Flux.
