@@ -19,6 +19,11 @@ Nach dem Modul können die Lernenden:
 * Statische Bilder gezielt in Bewegung versetzen (Image-to-Video).
 * Kamerabewegungen (Pan, Zoom, Orbit) präzise steuern.
 * Konsistente Charaktere über mehrere Video-Shots hinweg beibehalten.
+* Kinematische Videosequenzen mittels LLM-Storyboarding planen und umsetzen.
+
+> [!TIP] Vertiefung für Fortgeschrittene
+> Ergänzend zu diesem Basis-Workflow findest Du hier Best Practices für die **[lokale Videogenerierung (Specs/ComfyUI)](./BestPractice.md)** und die Erstellung von professionellen **[Produkt-Werbespots](./BestPractice.md)**.
+
 * Komplexe Sequenzen mittels strukturierter Multi-Shot-Prompting-Frameworks planen.
 * Post-Produktions-Workflows (Upscaling, Sound) anwenden.
 
