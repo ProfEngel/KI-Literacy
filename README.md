@@ -51,6 +51,8 @@ Der Ordner `demodokumente/` enthält spezielles Testmaterial für verschiedene K
 - **[Videoerzeugung (Modul)](./videoerzeugung/)** – Ein vollständiges Lehrmodul zur kinematischen KI-Videogenerierung. Enthält didaktische Anleitungen für Kamerasteuerung, Charakter-Konsistenz (Identity Bundle), Storyboarding mittels LLM und Post-Produktions-Workflows. Ergänzt um **Best Practices** für lokale Workflows (Specs/ComfyUI) und Produktwerbung.
 - **[Songerzeugung (Modul)](./songerzeugung/)** – Ein Lehrmodul zur KI-Musikproduktion. Deckt Theorie (Anatomie des Klangs), Prompting-Techniken für komplette Songs (Suno/Udio) und professionelle Vocal-Synthesis (Synthesizer V/ACE Studio) ab.
 - **[Design & Branding (Modul)](./design/)** – Ein Modul zur KI-gestützten visuellen Gestaltung. Verknüpft klassische Design-Prinzipien (Gestaltgesetze, Typografie) mit KI-Beschleunigung für Logo-Entwicklung, Corporate Identity und UI/UX Mockups.
+- **[Agents Desktop (Modul)](./agents-desktop/)** – KI-Agenten in der professionellen Entwicklungsumgebung (VS Code, Codex, Antigravity).
+- **[Agents To-Go (Modul)](./agents-to-go/)** – Mobile und portable KI-Lösungen (Hermes, OpenClaw) für maximale Datensouveränität unterwegs.
 
 
 ### 🛠️ Konfigurationen
