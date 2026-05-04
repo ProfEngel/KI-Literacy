@@ -48,6 +48,7 @@ Der Ordner `demodokumente/` enthält spezielles Testmaterial für verschiedene K
     - [demoaufgabe_agents_oui.md](./demoaufgabe_agents_oui.md) – Die ursprüngliche Schritt-für-Schritt-Anleitung zur Erstellung von Agenten.
 - **[Bilderzeugung (Modul)](./bilderzeugung/)** – Ein vollständiges Lehrmodul zur systematischen KI-Bildgenerierung. Enthält eine technische Einführung, eine Anleitung mit 16 Aufgaben, ein Cheat Sheet und einen Prompt-Katalog.
 - **[Data Science (Modul)](./datascience/)** – Neu: Ein umfassendes Modul für KI-gestützte Datenanalyse (Tag 6 & 7). Enthält Anleitungen für den Code Interpreter, Laborübungen zur Datenreinigung (EDA) und statistischen Modellierung sowie ein eigenes Deployment-Setup.
+- **[Videoerzeugung (Modul)](./videoerzeugung/)** – Ein vollständiges Lehrmodul zur kinematischen KI-Videogenerierung. Enthält didaktische Anleitungen für Kamerasteuerung, Charakter-Konsistenz (Identity Bundle), Storyboarding mittels LLM und Post-Produktions-Workflows.
 
 
 ### 🛠️ Konfigurationen
