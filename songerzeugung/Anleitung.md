@@ -15,6 +15,10 @@ Bevor wir die KI "rechnen" lassen, müssen wir die Sprache der Musik verstehen.
 
 ### Phase 2: Der schnelle Song (Entry Level Tools)
 Wir nutzen Tools, die Text-Prompts direkt in fertige Audio-Dateien (inkl. Gesang) verwandeln.
+
+> [!TIP] Prompt-Vorlagen
+> Nutze unsere spezialisierten **[Prompt-Vorlagen](./PromptVorlagen.md)** und **[System-Prompts](./System_Prompts.md)**, um aus Referenzsongs professionelle KI-Prompts zu generieren.
+
 *   **Tools:** **Suno**, **Mozart AI**, **Audimee**.
 *   **Aufgabe 2: Der 30-Sekunden-Jingle:** Erzeuge einen kurzen Werbe-Song für ein fiktives Produkt.
 *   **Aufgabe 3: Voice-Transfer:** Nutze **Audimee**, um eine bestehende Melodie mit einer neuen (geklonten) Identität zu versehen.
