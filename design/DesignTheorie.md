@@ -12,18 +12,27 @@ Klassische Gestaltgesetze (Nähe, Ähnlichkeit, Geschlossenheit) bestimmen, wie 
     *   *Prompt-Beispiel:* "Analysiere diesen Screenshot. Welche Elemente fallen zuerst ins Auge? Werden die Gestaltgesetze der Nähe korrekt angewendet?"
 
 ## 2. Farbenlehre & Harmonien
+
+![Farbenlehre Infografik](./media/color_theory.jpg)
+
 Farben wecken Emotionen und steuern die Markenwahrnehmung.
 *   **Traditionell**: Manuelle Auswahl über den Farbkreis (Komplementär, Analog).
 *   **KI-Beschleunigung**: Generierung von **Corporate Palettes** mittels Tools wie *Huemint* oder *Canva Magic Color*.
     *   *AI-Workflow:* Erzeuge eine Palette basierend auf Adjektiven wie "innovativ, vertrauenswürdig, ökologisch".
 
 ## 3. Typografie & Font-Pairing
+
+![Typografie Hierarchie](./media/typography_hierarchy.jpg)
+
 Die Wahl der Schriftart bestimmt die "Stimme" eines Designs.
 *   **Traditionell**: Suche in Font-Bibliotheken nach passenden Paarungen (Serif/Sans-Serif).
 *   **KI-Beschleunigung**: KI-gestützte Font-Empfehlungen basierend auf dem Inhaltskontext.
     *   *Tipp:* Moderne Design-Tools schlagen Schriften vor, die emotional zum generierten Bildmaterial passen.
 
 ## 4. Komposition & Raster (Grid)
+
+![Layout & Grid Regeln](./media/layout_grid.jpg)
+
 Der Goldene Schnitt und die Drittel-Regel sorgen für Balance.
 *   **Traditionell**: Manuelles Konstruieren von Rastern.
 *   **KI-Beschleunigung**: **Generatives Outpainting** und **Inpainting** (siehe Modul [Bilderzeugung](../bilderzeugung/)). KI kann Kompositionen erweitern, während sie die Balance des ursprünglichen Rasters beibehält.

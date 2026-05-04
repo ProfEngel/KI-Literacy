@@ -1,46 +1,61 @@
 # Best Practices: Lokale Videogenerierung & Produktwerbung
 
-Dieses Dokument vertieft zwei fortgeschrittene Workflows der Videoerzeugung: den hochperformanten lokalen Betrieb und die professionelle Erstellung von Werbespots.
+Dieses Dokument vertieft fortgeschrittene Workflows der Videoerzeugung, basierend auf aktuellen Industriestandards für lokale Kontrolle und kommerzielle Produktion.
 
 ---
 
 ## 1. Lokaler Workflow: LTX 2.3 All-in-One (ComfyUI)
-Wenn Cloud-Credits aufgebraucht sind oder maximale Privatsphäre/Kontrolle benötigt wird, ist ein lokaler Workflow in **ComfyUI** die beste Wahl.
+Wenn maximale Kontrolle über Lip-Sync, Bewegung und Bildübergänge gefragt ist, bietet der LTX 2.3 Workflow in ComfyUI eine modulare Lösung.
 
-### Hardware-Spezifikationen (Specs)
-Für eine flüssige lokale Generierung (LTX 2.3 Modell) werden folgende Mindestvoraussetzungen empfohlen:
-*   **GPU (Grafikkarte):** Mindestens **12 GB VRAM** (z.B. NVIDIA RTX 3060 12GB oder höher).
-*   **RAM (Arbeitsspeicher):** Mindestens **16 GB RAM**.
-*   **Speicher:** SSD empfohlen für schnelles Laden der Checkpoints (ca. 20-40 GB freier Platz).
+### Hardware-Spezifikationen
+Für einen stabilen Betrieb des LTX 2.3 Modells (ca. 24 fps Generierung) ist folgende Hardware essenziell:
 
-### Best Practice Workflow
-*   **Tool:** [ComfyUI](https://github.com/comfyanonymous/ComfyUI) mit dem LTX 2.3 All-in-One Workflow.
-*   **Vorteil:** Integriert Text-to-Video, Image-to-Video und Lip-Sync in einer einzigen Node-Struktur.
-*   **Anwendung:** Besonders stark bei "Video-to-Video" Motion-Transfer und der Animation spezifischer Keyframes (First/Last Frame).
+![Hardware Specs Infografik](./media/local_specs.jpg)
 
-**Video-Referenz:** [So verwenden Sie den LTX2.3 All-in-One-Workflow](https://youtu.be/3HXCeSGnoq0?si=bggUL2XXgIDU0I-x)
+*   **GPU:** NVIDIA RTX Serie (mind. 12 GB VRAM) für FP8-Quantisierung.
+*   **RAM:** 16 GB (32 GB für parallele Prozesse empfohlen).
+*   **SSD:** NVMe empfohlen, da Checkpoints (>20 GB) beim Start geladen werden müssen.
 
----
+### Die 6 Modi des All-in-One Workflows
+Ein zentraler "Selector Node" erlaubt den Wechsel zwischen verschiedenen Generierungs-Logiken:
 
-## 2. Produktwerbung: Der Profi-Workflow mit Seedance 2.0
-Die Erstellung von Werbevideos erfordert eine deutlich höhere Konsistenz als künstlerische Experimente.
+![ComfyUI 6-Mode Logic](./media/comfy_modes.jpg)
 
-### Der 5-Phasen-Workflow für KI-Werbung
-1.  **Konzept & Branding:** Nutzung von LLMs (z.B. Claude) zur Definition der Bildsprache und des Director-Prompts.
-2.  **Asset-Design:** Erstellung von Key-Visuals (Produkt/Charakter) mit High-Fidelity Modellen (z.B. **Nano Banana Pro**).
-3.  **Generierung:** Nutzung von **Seedance 2.0** oder **Kling 3.0** für die kinematische Umsetzung der Szenen.
-4.  **Konsistenz-Check:** Sicherstellung, dass das Produkt (z.B. eine Getränkedose) in jedem Shot identisch aussieht (via LoRA oder Reference-Images).
-5.  **Post-Produktion:** Finaler Schnitt, Upscaling und Sound-Design in NLE-Software (z.B. DaVinci Resolve).
+1.  **Text-to-Video:** Direkte Generierung aus Prompts.
+2.  **Audio-to-Video:** Generierung synchron zu einer Audiospur.
+3.  **Image-to-Video:** Animation eines Startbildes (Keyframe 1).
+4.  **Cinematic Lip-Sync:** Hochpräzise Mundsynchronisation für KI-Sprecher.
+5.  **First & Last Frame:** KI berechnet die Bewegung *zwischen* zwei vorgegebenen Bildern.
+6.  **Video-to-Video:** Stil-Transfer oder Bewegungs-Übertragung von einem Referenzvideo.
 
-### Key Takeaways für Werbespots
-*   **Identity First:** Erst das Produkt/Charakter fixieren, dann die Bewegung generieren.
-*   **Multi-Shot Planning:** Werbespots leben von schnellen Schnitten und unterschiedlichen Einstellungsgrößen (Macro für Texturen, Wide für Kontext).
-
-**Video-Referenz:** [Seedance 2.0 für KI-Werbung (Vollständiger Workflow)](https://youtu.be/ClIaRcvwnTQ?si=_YDb1S6VvfcoW6_A)
+**Video-Anleitung:** [LTX2.3 All-in-One-Workflow im Detail](https://youtu.be/3HXCeSGnoq0?si=bggUL2XXgIDU0I-x)
 
 ---
 
-## Weiterführende Links
-- [ComfyUI GitHub](https://github.com/comfyanonymous/ComfyUI)
-- [Seedance.ai](https://seedance.ai)
-- [Modul: Bilderzeugung](../bilderzeugung/) (Grundlage für Konsistenz)
+## 2. Produktwerbung: Seedance 2.0 & Kling 3.0
+Die Erstellung von Werbespots erfordert "Product Consistency" – das Produkt darf sich nicht verändern.
+
+### Konsistenz-Strategien (Branding Loop)
+Um sicherzustellen, dass ein Produkt (z.B. ein Parfümflakon) über mehrere Szenen hinweg identisch bleibt, nutzen wir den Branding-Loop:
+
+![Commercial Consistency Workflow](./media/commercial_consistency.jpg)
+
+*   **Fixed Identity:** Erstellung eines "Identity Bundles" (Referenzbilder des Produkts aus allen Winkeln).
+*   **Constant Seed:** Nutzung des identischen Seed-Wertes für den Hintergrund, während nur das Produkt animiert wird.
+*   **Motion Control (Level 5-7):** In Seedance 2.0 steuert dieser Parameter die Dynamik. Für Werbung ist Level 6 meist der "Sweet Spot" zwischen Realismus und Dynamik.
+
+### Pro-Tipps für Commercials
+*   **Prompt-Struktur:** Beginne mit dem Fokusobjekt, gefolgt von Lichtstimmung und Kamerafahrt (z.B. *"Macro shot of a cold soda can, water droplets, golden hour light, slow dolly zoom"*).
+*   **Iterative Verfeinerung:** Nutze die "Seed-Variation", um kleine Details in der Reflexion anzupassen, ohne die Grundform zu verlieren.
+
+**Video-Anleitung:** [Profis-Workflows für KI-Werbung](https://youtu.be/ClIaRcvwnTQ?si=_YDb1S6VvfcoW6_A)
+
+---
+
+## Zusammenfassung
+Die Wahl des richtigen Tools hängt vom Ziel ab:
+*   **Cloud (Seedance/Kling):** Schnelle High-End Ergebnisse für Werbung.
+*   **Lokal (ComfyUI):** Maximale technische Kontrolle und Lip-Sync-Präzision.
+
+---
+[[Anleitung]] | [[Projekt_KI_VL]]
