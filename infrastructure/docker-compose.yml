@@ -1,21 +1,50 @@
 services:
+  # Redis for SearXNG caching
+  searxng-redis:
+    image: redis:alpine
+    container_name: searxng-redis
+    restart: always
+    networks:
+      - ki-network
+
+  searxng:
+    image: searxng/searxng:latest
+    container_name: searxng
+    restart: always
+    depends_on:
+      - searxng-redis
+    networks:
+      - ki-network
+    ports:
+      - "3010:8080"
+    volumes:
+      - ./searxng_settings.yml:/etc/searxng/settings.yml:ro
+    environment:
+      - SEARXNG_SETTINGS_PATH=/etc/searxng/settings.yml
+      - SEARXNG_REDIS_URL=redis://searxng-redis:6379/0
+      - SEARXNG_SECRET_KEY=searxng_secret_placeholder_change_me
+
   open-webui:
     image: ghcr.io/open-webui/open-webui:main
     container_name: open-webui
+    restart: always
+    networks:
+      - ki-network
     ports:
       - "3000:8080"
-    add_host:
-      - "host.docker.internal:host-gateway"
     volumes:
       - open-webui:/app/backend/data
-    restart: always
+    add_host:
+      - "host.docker.internal:host-gateway"
 
   jupyter-interpreter:
     image: jupyter/datascience-notebook
     container_name: jupyter-interpreter
+    restart: always
+    networks:
+      - ki-network
     ports:
       - "3005:8888"
-    restart: always
     environment:
       - JUPYTER_TOKEN=DEIN_SICHERER_TOKEN
     command: >
@@ -27,16 +56,9 @@ services:
     volumes:
       - jupyter_data:/home/jovyan/work
 
-  searxng:
-    image: searxng/searxng:latest
-    container_name: searxng
-    ports:
-      - "3010:8080"
-    volumes:
-      - ./searxng_settings.yml:/etc/searxng/settings.yml:ro
-    restart: always
-    environment:
-      - SEARXNG_SETTINGS_PATH=/etc/searxng/settings.yml
+networks:
+  ki-network:
+    driver: bridge
 
 volumes:
   open-webui:

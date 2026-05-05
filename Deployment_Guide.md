@@ -334,26 +334,25 @@ Da OpenWebUI im Docker-Container läuft, binden wir sie als Netzwerk-Dienst (SSE
 ---
 
 ## 6. Lokale Websuche mit SearXNG
-SearXNG ist eine Metasuchmaschine, die Ergebnisse von Google, Bing und Co. bündelt und datenschutzkonform für LLMs bereitstellt.
+SearXNG ist eine Metasuchmaschine, die Ergebnisse von Google, Bing und Co. bündelt und datenschutzkonform für LLMs bereitstellt. Unser Setup nutzt **Redis** zur Beschleunigung und ist für agentische Workflows optimiert.
 
-### 6.1 SearXNG manuell starten
-Falls du Docker Compose nicht nutzt, starte SearXNG so:
+### 6.1 Schnellstart (Infrastruktur-Bundle)
+Am einfachsten startest du SearXNG zusammen mit der restlichen Infrastruktur:
 ```bash
-docker run -d \
-  -p 3010:8080 \
-  --name searxng \
-  --restart always \
-  -v $(pwd)/infrastructure/searxng_settings.yml:/etc/searxng/settings.yml \
-  searxng/searxng:latest
+cd infrastructure
+docker compose up -d
 ```
+Dies startet SearXNG, Redis (für Caching) und Open WebUI in einem gemeinsamen Netzwerk.
 
-### 6.2 Einbindung in OpenWebUI
+### 6.2 Einbindung in Open WebUI
 1. Gehe zu **Settings > Web Search**.
 2. Wähle als Suchmaschine **SearXNG**.
-3. URL: `http://host.docker.internal:3010/search?q=<query>`.
-4. Stelle sicher, dass in den SearXNG-Einstellungen das Format `json` aktiviert ist (ist in unserer `searxng_settings.yml` bereits der Fall).
+3. **SearXNG Query URL:** `http://searxng:8080/search?q=<query>` (da beide im selben Docker-Netzwerk `ki-network` laufen).
+4. Falls du SearXNG außerhalb von Docker ansprichst: `http://host.docker.internal:3010/search?q=<query>`.
+
 
 ---
+
 
 ## 7. Erweiterte Agenten-Fähigkeiten (Sub-Agenten)
 Um komplexe Aufgaben zu bewältigen, nutzen wir das **Sub-Agent Tool**.

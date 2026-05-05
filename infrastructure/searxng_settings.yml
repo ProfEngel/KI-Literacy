@@ -1,12 +1,11 @@
-# SearXNG settings
-
+# SearXNG settings - Optimized for KI-Literacy
 use_default_settings: true
 
 server:
   port: 8080
   bind_address: "0.0.0.0"
-  secret_key: "ultrasecretkey" # Sollte in Produktion geändert werden
-  base_url: false
+  secret_key: "searxng_secret_placeholder_change_me" # Matching docker-compose
+  limiter: false # Disabled for local agent access
 
 search:
   safe_search: 0
@@ -15,10 +14,16 @@ search:
     - html
     - json
 
+redis:
+  url: redis://searxng-redis:6379/0
+
 engines:
   - name: google
     engine: google
     shortcut: g
+  - name: brave
+    engine: brave
+    shortcut: br
   - name: duckduckgo
     engine: duckduckgo
     shortcut: ddg
@@ -27,9 +32,5 @@ engines:
     shortcut: w
 
 ui:
-  static_path: ""
-  templates_path: ""
   theme: simple
-  center_alignment: false
   default_locale: "de"
-  infinite_scroll: false
