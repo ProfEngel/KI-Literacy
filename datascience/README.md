@@ -5,6 +5,7 @@ Dieses Modul vermittelt die Grundlagen der KI-gestützten Datenanalyse. Wir lern
 ## Die Single Source of Truth
 
 - **[vorlesungsbegleiter.md](./vorlesungsbegleiter.md)**: Dies ist der Master-Guide für das gesamte Modul. Er enthält das vollständige technische Setup (Docker), die gesamte Theorie (Statistik, ReAct-Workflow, Evaluation) sowie alle 7 Labor-Aufgaben und einen Katalog mit fortgeschrittenen Machine-Learning-Prompts. **Starte hier!**
+- **[CheatSheet.md](./CheatSheet.md)**: Eine kompakte Schnellreferenz (Hindernisse in der EDA, Hyperparameter, Confusion Matrix & Metriken) inkl. fertiger Copy-Paste-Prompts für eigene Datensätze.
 
 ## Interaktives Sokratisches Lernen
 
