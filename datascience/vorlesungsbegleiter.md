@@ -73,6 +73,26 @@ Statistik ist nicht nur der Mittelwert, sondern auch wie stark die Daten streuen
 Bevor man KI-Modelle rechnet, sollte man mit dem bloßen Auge prüfen, ob Variablen zusammenhängen.
 > "Lade `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/bostonhousing.csv`. Erstelle ein Streudiagramm (Scatter Plot), bei dem auf der X-Achse die Anzahl der Zimmer (`rm`) und auf der Y-Achse der Preis (`medv`) steht. Lege eine rote Trendlinie durch die Punkte und erkläre mir die statistische Kernaussage dieses Bildes."
 
+### 📝 Übung 4: Mittelwert vs. Median (Ausreißer-Check)
+Der Durchschnitt ist oft irreführend, wenn es Extreme gibt (z.B. Bill Gates betritt eine Bar).
+> "Erzeuge in Python eine Liste mit 9 Gehältern à 40.000 € und einem Gehalt von 2.000.000 €. Berechne den Mittelwert (Mean) und den Median. Erkläre mir, warum ich als Manager bei solchen Daten immer nach dem Median fragen sollte."
+
+### 📝 Übung 5: Die Standardabweichung verstehen
+Wie weit weichen Daten im Schnitt vom Zentrum ab?
+> "Lade `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/bostonhousing.csv`. Berechne die Standardabweichung für das Alter der Häuser (`age`). Erkläre mir in einfachen Worten, was dieser Wert bedeutet: Sind alle Häuser ungefähr gleich alt oder gibt es eine extreme Streuung?"
+
+### 📝 Übung 6: Quantile & Perzentile (Die Top 10%)
+Wo verläuft die Grenze für die Elite?
+> "Nutze den Datensatz `bostonhousing.csv`. Berechne das 90%-Quantil für den Hauspreis (`medv`). Erkläre mir: Was sagt uns diese Zahl über den Immobilienmarkt in Boston und welche Häuser fallen in diese Kategorie?"
+
+### 📝 Übung 7: Kategorien zählen (Bar Charts)
+Häufigkeiten von Text-Kategorien (Klassifikationen) visualisieren.
+> "Lade den Datensatz `https://raw.githubusercontent.com/ProfEngel/KI-Literacy/refs/heads/main/datascience/data/GolfSpielen.csv`. Zähle, wie oft es sonnig, regnerisch oder bewölkt ist. Erstelle ein klares Balkendiagramm (Bar Chart) und gib mir die genauen Prozentzahlen dazu."
+
+### 📝 Übung 8: Gruppen vergleichen (Groupby)
+Daten nach Kategorien splitten und aggregieren (Pivot-Tabellen-Logik).
+> "Nutze den `Titanic_small.csv` Datensatz (`https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/Titanic_small.csv`). Gruppiere die Passagiere nach Geschlecht (`Sex`) und berechne die durchschnittliche Überlebensrate (`Survived`). Erstelle ein Balkendiagramm der Ergebnisse und erkläre mir den offensichtlichen Zusammenhang."
+
 ---
 
 # 🧹 PHASE 4: Datenreinigung & EDA (Explorative Datenanalyse)
