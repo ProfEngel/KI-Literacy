@@ -1,236 +1,170 @@
-# Vorlesungsbegleiter: KI-Driven Data Science (Tag 6 & 7)
+# Vorlesungsbegleiter: KI-Driven Data Science (Master Guide)
 
-Dieses Dokument ist dein interaktiver Begleiter durch die Vorlesungstage 6 und 7. Wir verzahnen Theorie, technisches Setup und praktische Laborübungen zu einem linearen Lernpfad.
-
----
-
-# 🛠️ TAG 6: Datenbändigung & Aufbereitung
-
-## 1. Intro: Die neue Rolle des "Management Translators"
-
-In der modernen Business-Welt verschwimmt die Grenze zwischen IT und Management. Als BWLer musst du kein Python-Experte sein, aber du musst die **Code Literacy** besitzen, um KI-generierte Analysen zu validieren und in Geschäftsentscheidungen zu übersetzen.
-
-### Warum Code Interpreter?
-
-Herkömmliche LLMs (wie ChatGPT ohne Tools) neigen bei Mathematik zu Halluzinationen. Der **Code Interpreter** löst dieses Problem, indem er eine echte Programmierumgebung nutzt.
+Dieses Dokument ist dein ultimativer Begleiter durch das Data-Science-Modul. Wenn du diesen Guide vollständig durchgearbeitet hast, verstehst und beherrschst du die **Basics von Statistik, Python und Data Science**. Du bist in der Lage, eigenständig eine **Explorative Datenanalyse (EDA)** durchzuführen, sowie statistische Modelle für **Klassifikation und Regression** zu trainieren und zu bewerten.
 
 ---
 
-## 2. Technisches Setup: Die Sandbox einrichten
+# 🛠️ PHASE 1: Technisches Setup & Deployment
 
-Bevor wir analysieren, bauen wir unser Labor auf. Wir nutzen eine isolierte **Docker-Sandbox**.
+Bevor wir Modelle bauen, müssen wir unser Labor einrichten. Wir nutzen eine isolierte **Docker-Sandbox (Jupyter-Kernel)**, in der die KI autonom Python-Code ausführt. Das löst das Halluzinations-Problem von normalen Chatbots bei Mathematik.
 
-### Schritt A: Container starten
-
+### Schritt 1: Container starten
 Navigiere in deinem Terminal in den Ordner `datascience/` und starte die Umgebung:
-
 ```bash
 docker-compose up -d
 ```
-
 *Dies startet einen Jupyter-Server auf Port 3005.*
 
-### Schritt B: Bibliotheken (Science-Stack) installieren
-
-Damit die KI "schlaue" Dinge tun kann, braucht sie Pakete wie Pandas, Scikit-Learn und Plotly:
-
+### Schritt 2: Data-Science-Bibliotheken installieren
+Damit die KI "schlaue" Dinge tun kann, braucht sie Pakete wie Pandas, Scikit-Learn und Plotly.
+Führe im Terminal aus:
 ```bash
 docker exec jupyter-interpreter pip install -r requirements_jupyter.txt
 ```
 
-### Schritt C: Anbindung an OpenWebUI
+### Schritt 3: Anbindung an OpenWebUI
+1. Gehe in OpenWebUI auf **Settings > Images & Web Search** (bzw. Code Interpreter).
+2. **URL:** `http://host.docker.internal:3005`
+3. **Token:** `DEIN_SICHERER_TOKEN` (wie in der `docker-compose.yml` definiert).
 
 ![Konfiguration Code Interpreter](assets/einstellungen_code_interpreter.png)
 
-1. Gehe in OpenWebUI auf **Settings > Images & Web Search**.
-2. URL: `http://host.docker.internal:3005`
-3. Token: `DEIN_SICHERER_TOKEN` (wie in der docker-compose.yml definiert).
-
 ---
 
-## 3. Theorie: Das Sandbox-Konzept & ReAct-Workflow
+# 🧠 PHASE 2: Theorie – Die KI als analytisches Werkzeug
+
+## Der Unterschied zu herkömmlichem Chat (ReAct-Workflow)
+Herkömmliche LLMs "erraten" das nächste Wort, was bei Rechnen fehlschlägt. Der **Code Interpreter** fungiert als Laborassistent:
+1. **Gedanke (Reasoning):** "Ich muss den Mittelwert berechnen."
+2. **Handlung (Action):** Die KI schreibt Python-Code und sendet ihn an Jupyter.
+3. **Beobachtung (Observation):** Jupyter führt aus und schickt das Ergebnis zurück.
+4. **Interpretation:** Die KI erklärt dir das Ergebnis.
 
 ![Metapher: Die Code-Interpreter Sandbox](assets/sandbox_metapher.png)
 
-Die Sandbox ist ein geschützter Raum. Die KI arbeitet nach dem **ReAct-Prinzip (Reason + Act)**:
+---
 
-1. **Reason:** "Ich muss den Mittelwert berechnen."
-2. **Act:** Schreibt Python-Code und führt ihn aus.
-3. **Observation:** Liest das Ergebnis des Kernels.
-4. **Output:** Erklärt dir das Ergebnis.
+# 📊 PHASE 3: Statistik & Python Grundlagen
+
+Als moderner Manager ("Management Translator") musst du den Code nicht perfekt selbst schreiben können, aber du benötigst **Code Literacy**, um die KI zu kontrollieren.
+
+## Wichtige Python-Bibliotheken
+- **Pandas (`pd`):** Datenmanipulation, Tabellen lesen und filtern.
+- **NumPy (`np`):** Mathematische Operationen auf Listen/Arrays.
+- **Matplotlib / Seaborn:** Statische, druckreife Diagramme.
+- **Plotly:** Interaktive Charts für Dashboards.
+- **Scikit-Learn (`sklearn`):** Maschinelles Lernen (Regression, Klassifikation).
+
+## Sokratisches Lernen (Python & Statistik)
+Wenn du tief in Python oder Statistik einsteigen willst, nutze die bereitgestellten interaktiven Kanäle (siehe `datascience-lernen.md` und `python-lernen.md`). Dort fungiert die KI als dein Tutor.
 
 ---
 
-## 4. Labor: Funktionstest (Mission: Fibonacci)
+# 🧹 PHASE 4: Datenreinigung & EDA (Explorative Datenanalyse)
 
-**Ziel:** Verbindung prüfen.
+Bevor Algorithmen rechnen können, müssen die Daten sauber sein. **"Garbage In, Garbage Out!"**
 
-**Prompt:**
+### Herausforderungen in der Datenvorbereitung
+- **Missing Values (Fehlende Werte):** Müssen durch *Imputation* (Mittelwert/Median einsetzen) oder durch Löschen der Zeile behandelt werden.
+- **Outlier (Ausreißer):** Extremwerte (z.B. Tippfehler bei Preisen) verzerren Modelle.
+- **Imbalanced Datasets:** Wenn eine Klasse dominiert (z.B. 99% Kaffee, 1% Cola), helfen Methoden wie **SMOTE** (Über-Sampling).
+- **Encoding:** KI braucht Zahlen. Wörter wie "sonnig" oder "regnerisch" müssen in Zahlen (0, 1) gewandelt werden.
 
-> "Berechne die ersten 15 Fibonacci-Zahlen unter Nutzung deines Code Interpreters. Erstelle anschließend ein Balkendiagramm, das die Werte zeigt. Nutze eine ästhetische Farbpalette."
-
----
-
-## 5. Theorie: Datenreinigung & EDA (Explorative Datenanalyse)
-
-Bevor man Modelle baut, muss man seine Daten kennen.
-
-* **Missing Values:** Wie gehen wir mit Lücken um? (Löschen vs. Imputation)
-* **Outlier:** Sind extreme Werte Messfehler oder wichtige Signale?
-* **Encoding:** Die KI wandelt Kategorien (z. B. Wetter: "Sonnig") in Zahlen um (0, 1, 2), damit Modelle rechnen können.
+### Typische EDA-Befehle (Python-Check)
+Achte darauf, dass die KI diese Methoden zur Überprüfung nutzt:
+- `df.info()` und `df.describe()` (Struktur und Statistik)
+- `df.isnull().sum()` (Fehlende Werte zählen)
+- `df.corr()` (Korrelationen aufzeigen)
 
 ---
 
-## 6. Labor: Datenreinigung & EDA (Live-Daten)
+# 🤖 PHASE 5: Machine Learning (Klassifikation & Regression)
 
-**Ziel:** Umgang mit unsauberen Daten aus Online-Quellen.
+In der Modellierungsphase generieren wir Wissen aus Daten.
 
-**Prompt:**
+## 1. Modelltypen
+- **Regression:** Vorhersage eines kontinuierlichen Wertes (Wie hoch wird der *Preis* sein? Wie viel *Umsatz* machen wir?).
+- **Klassifikation:** Vorhersage einer Gruppe/Kategorie (Ist diese E-Mail *Spam* oder *kein Spam*? Wird der Kunde *kaufen* oder *abwandern*?).
 
-> "Analysiere folgende zwei Datensätze direkt über ihre URLs (bitte je nur einen Datensatz betrachten):
->
+## 2. Hyperparameter & Modell-Tuning
+Ein Algorithmus wird durch externe Stellschrauben (**Hyperparameter**) gesteuert:
+- **Lernrate ($\eta$), Batch-Größe, Anzahl der Schichten.**
+- **Overfitting:** Das Modell lernt die Trainingsdaten "auswendig" und scheitert in der Praxis. **Lösung:** Regularisierung (L1/L2), Dropout.
+- **Underfitting:** Das Modell ist zu dumm/simpel. **Lösung:** Komplexere Modelle, Feature Engineering.
+
+## 3. Evaluation: Ist das Modell gut?
+### Metriken für Klassifikation
+- **Genauigkeit (Accuracy):** % der korrekten Vorhersagen (Vorsicht bei ungleich verteilten Daten!).
+- **Präzision (Precision):** Vermeidet Fehlalarme.
+- **Recall (Sensitivität):** Findet alle tatsächlichen Fälle (z.B. wichtig, um keinen Krebs zu übersehen).
+- **F1-Score:** Robuster Durchschnitt aus Präzision und Recall.
+
+### Metriken für Regression
+- **MAE (Mean Absolute Error):** Durchschnittliche Abweichung in Originaleinheit (z.B. 2.000 € daneben).
+- **MSE / RMSE:** Bestraft extreme Ausreißer stärker (quadriert).
+- **R² (R-Quadrat):** Erklärte Varianz (ab 0,7 gilt oft als gut).
+
+---
+
+# 🧪 PHASE 6: Das Data Science Labor (Praxis-Übungen)
+
+Führe diese Übungen chronologisch in OpenWebUI mit aktiviertem Jupyter-Tool durch.
+
+### Aufgabe 1: Der Funktionstest (Fibonacci & Grafik)
+**Ziel:** Verbindung zum Jupyter-Kernel testen.
+> "Berechne die ersten 15 Fibonacci-Zahlen unter Nutzung deines Code Interpreters. Erstelle ein Balkendiagramm mit einer ästhetischen Farbpalette."
+
+### Aufgabe 2: Datenreinigung (Missing Values & Encoding)
+**Ziel:** KI-gestützte Aufbereitung von realen (unsauberen) Daten.
+> "Analysiere folgende Datensätze direkt über ihre URLs:
 > 1. `https://raw.githubusercontent.com/ProfEngel/KI-Literacy/refs/heads/main/datascience/data/GolfSpielen.csv`
 > 2. `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/Schwertlilie_missingvalues.csv`
->
-> **Aufgabe:**
->
-> - Prüfe beide auf fehlende Werte und Inkonsistenzen.
-> - Bereinige die Daten (Imputation von Missing Values).
-> - Wandle kategoriale Werte (wie 'Wetter') in numerische Werte um.
-> - Zeige mir die bereinigten Header beider Tabellen."
+> **Aufgabe:** Prüfe auf fehlende Werte, wende Imputation an und wandle kategoriale Werte in Zahlen um. Zeige mir den sauberen DataFrame-Head."
 
----
+### Aufgabe 3: EDA & Korrelation
+**Ziel:** Zusammenhänge visualisieren.
+> "Erstelle eine Korrelationsmatrix für den bereinigten Golf-Datensatz. Welche Faktoren haben den größten Einfluss? Visualisiere dies als Heatmap (Seaborn)."
 
-## 7. Labor: Korrelationen visualisieren
+### Aufgabe 4: Statistische Modellierung (Klassifikation)
+**Ziel:** Modelle trainieren und vergleichen.
+> "Nutze die Golf-Daten für ein Klassifikationsmodell (Zielvariable ist `Spielen`). Teile die Daten in Train/Test-Set. Trainiere zwei Algorithmen (z.B. Decision Tree und Logistic Regression). Gib die Accuracy und die Confusion Matrix aus."
 
-**Ziel:** Muster erkennen.
+### Aufgabe 5: Business Insights & Management Summary
+**Ziel:** Den "Management Translator" spielen.
+> "Basierend auf Aufgabe 4: Erstelle ein kurzes Management Summary (max. 3 Bullets). Erkläre dem CEO in Nicht-Nerd-Sprache, unter welchen Wetterbedingungen das Marketing hochgefahren werden muss."
 
-**Prompt:**
+### Aufgabe 6: Interaktive Visualisierung
+> "Erstelle ein interaktives Diagramm mit Plotly, das den Zusammenhang zwischen Temperatur und der Spielentscheidung zeigt. Beim Hovern sollen die exakten Werte sichtbar sein."
 
-> "Erstelle eine Korrelationsmatrix für den bereinigten Golf-Datensatz. Welche Faktoren haben den größten Einfluss darauf, ob Golf gespielt wird? Visualisiere die Korrelationen in einer Heatmap (Seaborn)."
-
----
-
-# 📊 TAG 7: Analyse, Modellierung & Kommunikation
-
-## 8. Theorie: Statistische Modellierung & Business Insights
-
-Heute generieren wir Wissen aus den bereinigten Daten.
-
-### Modelltypen:
-
-* **Regression:** Vorhersage von Werten (Umsatz, Preis).
-* **Klassifikation:** Vorhersage von Gruppen (Kunde kauft vs. kauft nicht).
-
-### Der "Management-Translator":
-
-Die KI übersetzt technische Metriken (p-Werte, R²) in Business-Empfehlungen:
-
-* *Technisch:* "p-value = 0.042"
-* *Business:* "Wir können mit 95% Sicherheit sagen, dass die Temperatur den Absatz beeinflusst."
-
----
-
-## 8.5 Theorie: Herausforderungen, Hyperparameter & Metriken
-
-Bevor wir Modelle trainieren, müssen wir uns den Herausforderungen stellen und wissen, wie wir Qualität messen:
-
-### A. Herausforderungen der Datenvorbereitung
-* **Datenqualität:** Fehlende Werte (Imputation) oder Ausreißer können Modelle zerstören.
-* **Imbalanced Datasets:** Wenn Klassen ungleich verteilt sind (z.B. 99% Kaffee, 1% Cola), hilft *SMOTE* (Synthetische Datenbildung) oder Über-/Unter-Sampling.
-* **Irrelevante Merkmale:** Feature Selection reduziert "Rauschen", damit das Modell Generalisierbarkeit lernt.
-
-### B. Hyperparameter & Tuning
-* **Modell-Steuerung:** Hyperparameter (wie Lernrate $\eta$, Anzahl der Schichten, Batch-Größe) bestimmen, wie das Modell lernt.
-* **Overfitting vs. Underfitting:**
-  * *Overfitting (Auswendiglernen):* Modell ist zu komplex. Lösung: Regularisierung (L1/L2), Dropout, Modellvereinfachung.
-  * *Underfitting (Zu simpel):* Modell versteht die Daten nicht. Lösung: Komplexere Modelle, Feature Engineering.
-
-### C. Evaluation von Metriken
-Wie gut ist unser Modell wirklich?
-* **Klassifikation (Kategorien):**
-  * *Genauigkeit (Accuracy):* Gesamte korrekte Vorhersagen (Vorsicht bei Imbalanced Data!).
-  * *Präzision (Precision):* Korrekte positive Vorhersagen (Vermeidet falschen Alarm).
-  * *Recall (Sensitivität):* Erkannte tatsächliche Positive (z.B. keinen Krebs übersehen).
-  * *F1-Score:* Harmonisches Mittel aus Präzision und Recall.
-* **Regression (Werte):**
-  * *MAE:* Durchschnittlicher absoluter Fehler in Original-Einheit.
-  * *MSE / RMSE:* Durchschnittlicher quadratischer Fehler / Wurzel daraus (bestraft extreme Ausreißer hart).
-  * *R² (R-Quadrat):* Erklärte Varianz (Werte ab 0,7 sind oft sehr gut).
-
----
-
-## 9. Labor: Modellierung & Vorhersage
-
-**Ziel:** KI-gestütztes Training von Modellen.
-
-![Business Insights & Regression](assets/dashboard_analyse.png)
-
-**Prompt:**
-
-> "Nutze die Daten, um ein einfaches Klassifikationsmodell (z. B. Decision Tree oder Logistic Regression) zu trainieren. Zielvariable ist 'Spielen'.
->
-> 1. Teile die Daten in Training und Test-Set.
-> 2. Gib die Genauigkeit (Accuracy) und eine Confusion Matrix aus.
-> 3. Vergleiche mindestens zwei verschiedene Algorithmen."
-
----
-
-## 10. Theorie: Kommunikation & Interaktive Visualisierung
-
-Statische Bilder sind gut, interaktive Dashboards sind besser.
-
-* **Matplotlib:** Für Berichte.
-* **Plotly:** Für interaktives Erkunden (Hover-Effekte, Zoom).
-
----
-
-## 11. Labor: Management Summary & Dashboarding
-
-**Ziel:** Ergebnisse professionell präsentieren.
-
-**Übung A (Management Summary):**
-
-> "Basierend auf deinem Modell: Erstelle ein kurzes Management Summary (max. 3 Bulletpoints). Erkläre, unter welchen Wetterbedingungen wir das Marketing hochfahren sollten."
-
-**Übung B (Interaktive Visualisierung):**
-
-> "Erstelle ein interaktives Diagramm mit Plotly, das den Zusammenhang zwischen Temperatur und der Spielentscheidung zeigt. Nutze Hover-Effekte für Details."
-
----
-
-## 12. Die finale Data Science Untersuchung (Prüfungsrelevant)
-
-**Ziel:** Eigenständige Anwendung aller gelernten Schritte auf einen komplexen Datensatz.
-
-**Prompt:**
-
+### 🎖️ Aufgabe 7: Die finale Data Science Prüfung
 > "Führe eine vollständige Data Science Untersuchung auf folgendem Datensatz durch: `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/bostonhousing.csv`
->
-> 1. Erstelle eine **Klassifikation oder Regression** (entscheide selbst, was hier angebracht ist). Zielvariable ist `medv`.
-> 2. Entscheide selbst, welche Vorverarbeitungen (Encoding, Scaling, Handling Missing Values) nötig sind.
-> 3. Nutze mindestens **4 verschiedene Modelle** für deine Untersuchung und vergleiche die Ergebnisse.
-> 4. Zeige am Ende das am besten performende Modell auf.
-> 5. Präsentiere die typischen Metriken (neben der Verlustfunktion) und nutze Grafiken (Plots), um deine Ergebnisse zu verdeutlichen. Nicht numerische Werte bitte vorab wandeln."
+> 1. Erstelle eine **Regression**. Zielvariable ist `medv`.
+> 2. Kümmer dich um Vorverarbeitung (Scaling, Missing Values).
+> 3. Nutze **4 verschiedene Modelle** (z.B. Linear, Random Forest, XGBoost).
+> 4. Präsentiere RMSE und R² und erkläre mir, welches Modell warum gewonnen hat."
 
 ---
 
-## 13. Die mathematische Kunst (Bonus)
+# 📚 PHASE 7: Prompt-Katalog (Erweiterte Szenarien)
+Wenn du spezielle Aufgaben hast, nutze diese Vorlagen:
 
-**Ziel:** Rechenpower und Visualisierungs-Fähigkeiten testen.
-
-**Prompt:**
-
-> "Generiere eine hochauflösende Visualisierung der Mandelbrot-Menge mittels Python. Nutze eine ästhetische Farbpalette (z. B. 'magma') und speichere das Bild als PNG."
-
----
-
-## 🛡️ Troubleshooting & Best Practices
-
-1. **Der Zwei-Phasen-Vertrag:** Achte darauf, dass die KI erst den Code-Block sendet und *nach* der Ausführung die Interpretation liefert.
-2. **Plausibilitätscheck:** Frage die KI: "Warum hast du dich für dieses Modell entschieden?"
-3. **Daten-Souveränität:** Durch den lokalen Docker-Container bleiben deine Daten auf deinem Rechner, während nur der Code-Vorschlag von der KI kommt.
+- **Imbalanced Datasets (SMOTE):**
+  > "Lade `Titanic_small.csv`. Prüfe die Verteilung von `Survived`. Wende SMOTE an, um die Minderheitsklasse für das Training zu stärken."
+- **Clustering (K-Means - Unsupervised Learning):**
+  > "Lade `Schwertlilie.csv`. Führe K-Means Clustering durch, ignoriere das Label. Bestimme die optimale Clusteranzahl via Elbow-Plot."
+- **Association Rules (Warenkorbanalyse):**
+  > "Lade `shopping_trends_updated.csv`. Wende Assoziationsregeln an (z.B. Apriori), um zu finden, welche Kategorien oft zusammen gekauft werden."
+- **Text Mining & Sentiment:**
+  > "Lade `VW_Tweets_Dieselskandal_2016.xlsx`. Führe Textbereinigung durch, erstelle eine Word Cloud und eine Sentiment-Analyse."
+- **Zeitreihen & Finanzen (Yahoo Finance):**
+  > "Nutze `yfinance`, um NVIDIA (`NVDA`) Kurse zu laden. Visualisiere den 50-Tage Durchschnitt und erstelle eine Prognose für 30 Tage (ARIMA)."
 
 ---
 
+## 🛡️ Best Practices zur Validierung
+1. **Der Zwei-Phasen-Vertrag:** Die KI muss erst den Code schreiben/ausführen und darf das Ergebnis erst danach interpretieren (Phase B).
+2. **Hinterfragen:** Ein R² von 1.0 oder eine Accuracy von 100% deutet immer auf **Data Leakage** oder falsches Overfitting hin!
+3. **Daten-Souveränität:** Durch Docker bleiben die Daten lokal bei dir.
+
+---
 [[Projekt_KI_VL]]
