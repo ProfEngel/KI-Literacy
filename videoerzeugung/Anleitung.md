@@ -35,7 +35,7 @@ Nach dem Modul können die Lernenden:
 
 #### Aufgabe 1: Die First-Frame vs. Last-Frame Analyse
 
-<img src="./media/latent_drift.jpg" alt="Verständnis von Latent Drift" width="400">
+![Verständnis von Latent Drift](./media/latent_drift.jpg)
 
 Die Lernenden nehmen einen kurzen KI-Clip (z.B. 4 Sekunden) und vergleichen das allererste Bild (Startframe) direkt mit dem allerletzten Bild (Endframe).
 *   **Beobachtung:** Haben sich Details am Subjekt verändert (z.B. Anzahl der Knöpfe, Brillenform)? Ist der Hintergrund noch identisch?
@@ -62,7 +62,7 @@ Die Belastungsgrenze der KI-Modelle verstehen. Die Lernenden sollen begreifen, d
 
 ### Phase 2: Kamera- vs. Objektbewegung (Regie & Schauspiel)
 
-<img src="./media/camera_movements.png" alt="Übersicht Kamerabewegungen" width="400">
+![Übersicht Kamerabewegungen](./media/camera_movements.png)
 
 In dieser Phase lernen wir, die Regie (Kamera) vom Schauspiel (Objekt) zu trennen. Das Ziel ist es, gezielte Kontrolle über den Bildraum zu gewinnen.
 
@@ -124,7 +124,7 @@ Die größte Herausforderung bei KI-Video ist die Bewahrung der Identität über
 
 #### Das "Consistency-Bundle"
 
-<img src="./media/identity_bundle.jpg" alt="Identity Bundle Diagram" width="400">
+![Identity Bundle Diagram](./media/identity_bundle.jpg)
 
 Ein professioneller Charakter-Workflow erfordert die Bereitstellung folgender Assets:
 1.  **Character Sheet:** Mehrere Ansichten der Person (Front, Profil, Back), um die Geometrie und Proportionen zu fixieren.
@@ -163,7 +163,7 @@ Ein professioneller Charakter-Workflow erfordert die Bereitstellung folgender As
 
 Ein Video besteht selten aus nur einem Shot. In der professionellen Produktion generieren wir meist kurze Segmente von **2 bis 7 Sekunden** und verbinden diese. Es gibt zwei Wege, dies umzusetzen:
 
-<img src="./media/shot_methods.jpg" alt="Shot Methoden Vergleich" width="400">
+![Shot Methoden Vergleich](./media/shot_methods.jpg)
 
 #### Die zwei Wege der Produktion
 1.  **Methode A: Single-Shot Generierung (Manuell)**
@@ -222,7 +222,7 @@ Moderne SOTA-Modelle können heute zwar bis zu 15 Sekunden (oder mehr) am Stück
 
 Dieser Workflow führt alle bisherigen Erkenntnisse in einer strukturierten Produktionskette zusammen. Das Ziel ist der Wechsel vom "Prompt-Experiment" hin zur gezielten Filmerstellung.
 
-<img src="./media/workflow_diagram.png" alt="KI-Video Workflow" width="400">
+![KI-Video Workflow](./media/workflow_diagram.png)
 
 #### Aufgabe 13: Die komplette Produktion (Director Workflow)
 **Was passiert hier?** Die Lernenden produzieren eine zusammenhängende Sequenz (ca. 10-15 Sekunden) basierend auf einer festen Idee.
@@ -239,7 +239,7 @@ KI-Video verlässt die generative KI selten in finaler Qualität. In dieser Phas
 
 #### Aufgabe 14: KI-Upscaling (Spatial & Temporal)
 
-<img src="./media/upscaling_types.jpg" alt="Upscaling Typen" width="400">
+![Upscaling Typen](./media/upscaling_types.jpg)
 
 **Was passiert hier?** Wir verbessern die Bildqualität und die Flüssigkeit des Videos.
 *   **Spatial Upscaling:** Erhöhung der Auflösung (z.B. von 720p auf 4K) und Schärfung von Texturen.
@@ -288,10 +288,10 @@ Hier ist ein detaillierter, schrittweiser Ablauf für die Erstellung eines dynam
 > "Ich möchte ein Werbevideo mit Seedance erstellen. Dafür benötige ich zunächst deine Hilfe für ein Storyboard (gezeichnet mit den jeweiligen Sequenzen). Folgender Ablauf: AirPods fallen herunter, AirPods öffnen sich (Matrix-Kamerabewegung), die beiden AirPods Pro fliegen heraus in Richtung Ohren. Der Mensch ist glücklich, da er großartige Musik hört."
 
 *Storyboard Sketch:*
-<br><img src="./media/storyboard_sketch.png" alt="Storyboard Sketch" width="400">
+![Storyboard Sketch](./media/storyboard_sketch.png)
 
 *Generierte Bilder für das Storyboard (Optional):*
-<br><img src="./media/storyboard_genImages.png" alt="Storyboard GenImages" width="400">
+![Storyboard GenImages](./media/storyboard_genImages.png)
 
 ### 2. Multi-Shot Planung
 
