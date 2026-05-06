@@ -52,7 +52,7 @@ Zwei gegensätzliche Prompts werden verglichen, um die Belastungsgrenze der KI z
 *   **Prompt A (Low Motion):** "A statue in a park, subtle wind blowing through nearby leaves, extremely stable, cinematic."
 *   **Prompt B (High Motion):** "An athlete sprinting through a futuristic city at night, heavy motion blur, debris flying, high energy."
     *(Erstellt mit Seedance 2.0: Hinweis – Bei hoher Bewegungsintensität fehlen auf manchen Frames die Hände und Füße oder werden fehlerhaft dargestellt.)*
-    ![High Motion Example](./media/actionscence.mp4)
+    [![High Motion Example](./media/actionscence.gif)](./media/actionscence.mp4) *(Klick für MP4)*
 *   **Lernziel:** Die Studierenden lernen, dass hohe Bewegungsintensität die Wahrscheinlichkeit für morphologische Fehler (Glitching) erhöht.
 
 **Ziel der Aufgabe:**
@@ -84,10 +84,10 @@ Bevor wir animieren, brauchen wir eine hochwertige Vorlage. Erstellt dieses Bild
 *   **Ziel der Aufgabe:** Die räumliche Konsistenz der KI prüfen.
 
 *Erstellt mit Seedance 2.0 (3 Sekunden):*
-![Orbit 3s](./media/elder_man_orbit_3sec.mp4)
+[![Orbit 3s](./media/elder_man_orbit_3sec.gif)](./media/elder_man_orbit_3sec.mp4) *(Klick für MP4)*
 
 *Erstellt mit Seedance 2.0 (5 Sekunden):*
-![Orbit 5s](./media/elder_man_orbit_5sec.mp4)
+[![Orbit 5s](./media/elder_man_orbit_5sec.gif)](./media/elder_man_orbit_5sec.mp4) *(Klick für MP4)*
 
 #### Aufgabe 4: Der "Intensitäts-Dolly" (Dolly In)
 **Was passiert hier?** Die Kamera fährt physisch auf das Motiv zu. Der Bildausschnitt wird enger, die Intimität steigt.
