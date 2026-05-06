@@ -325,3 +325,8 @@ Diesen Text kopierst du direkt in das Promptfeld von Seedance:
 ```text
 Using the uploaded AirPods Pro case image as the key visual reference, create a premium photorealistic 15-second commercial sequence. Shot 1, 3 seconds: macro shot, 50mm lens, low angle, handheld, the white AirPods Pro case slips from a hand and falls in slow motion toward a clean neutral floor, subtle motion blur and realistic shadows. Cut to. Shot 2, 3 seconds: close-up, 35mm lens, Dutch angle, push in, the case hits the floor, bounces slightly, and the lid snaps open with crisp product detail. Cut to. Shot 3, 3 seconds: macro shot, 85mm lens, eye-level angle, orbit, Matrix-style 360-degree camera movement around the open case as the earbuds glow subtly and lift from the charging slots. Cut to. Shot 4, 3 seconds: medium shot, 24mm lens, low angle, track, both AirPods Pro fly out of the case in opposite arcs toward a person’s ears with elegant motion trails. Cut to. Shot 5, 3 seconds: close-up, 50mm lens, eye-level angle, push in, the AirPods settle into the ears and the person smiles with eyes closed, completely absorbed in amazing music. Photo real, natural framing. Audio: diegetic sound only — natural ambience, environmental foley, and subject-driven sound.
 ```
+
+#### Das finale Werbevideo
+
+*Das generierte 15-Sekunden-Video aus Seedance 2.0:*
+[![Finales Werbevideo](./media/finales_werbevideo_2.gif)](./media/finales_werbevideo_2.mp4) *(Klick für MP4)*
