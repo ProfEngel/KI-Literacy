@@ -16,6 +16,8 @@ Bevor ein Modell trainiert wird, müssen die Daten sauber sein. Hier sind die h�
 - **Kategoriale Daten:** Algorithmen können nicht mit Wörtern ("sonnig", "regnerisch") rechnen.
   - *Lösung:* Encoding (Umwandlung in Zahlen, z.B. 0 und 1).
 
+![Ausreißer erkennen mit Boxplots](./assets/outlier_boxplot.png)
+
 > **💡 Demo-Prompt zur Datenvorbereitung:**
 > "Lade den Datensatz `https://raw.githubusercontent.com/ProfEngel/datasets/main/Schwertlilie_missingvalues.csv`. Prüfe auf fehlende Werte und wende eine sinnvolle Imputation an. Zeige mir danach über einen Boxplot, ob es Ausreißer gibt, und wandle kategoriale Werte in Zahlen um."
 
@@ -34,6 +36,8 @@ Ein Algorithmus lernt die Muster aus den Daten, aber wir steuern *wie* er lernt,
 - **Underfitting (Unteranpassung):** Das Modell ist zu simpel und versteht das Problem gar nicht erst.
   - *Lösung:* Komplexeres Modell wählen, Feature Engineering (neue Spalten aus bestehenden Daten berechnen).
 
+![Overfitting vs Underfitting vs Optimal](./assets/overfitting_underfitting.png)
+
 > **💡 Demo-Prompt zum Tuning:**
 > "Trainiere einen Entscheidungsbaum auf `https://raw.githubusercontent.com/ProfEngel/KI-Literacy/refs/heads/main/datascience/data/GolfSpielen.csv`. Optimiere die Hyperparameter (z.B. `max_depth`), um Overfitting zu vermeiden. Zeige mir den Unterschied in der Accuracy zwischen dem Trainings- und dem Testset."
 
@@ -48,6 +52,8 @@ Nutze diese Metriken, wenn du Gruppen vorhersagst (z.B. *Käufer vs. Nicht-Käuf
 
 **Die Confusion Matrix (Wahrheitsmatrix):** 
 Stellt die tatsächlichen Klassen den vom Modell vorhergesagten gegenüber (True Positives, False Positives, False Negatives, True Negatives).
+
+![Confusion Matrix Beispiel](./assets/confusion_matrix_demo.png)
 
 - **Accuracy (Genauigkeit):** Anteil aller korrekten Vorhersagen.
   - *Wann wichtig:* Bei gut ausbalancierten Datensätzen (50% Klasse A, 50% Klasse B).
