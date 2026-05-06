@@ -51,6 +51,8 @@ Das Verständnis dafür schärfen, dass Videogenerierung ein additiver Prozess i
 Zwei gegensätzliche Prompts werden verglichen, um die Belastungsgrenze der KI zu finden.
 *   **Prompt A (Low Motion):** "A statue in a park, subtle wind blowing through nearby leaves, extremely stable, cinematic."
 *   **Prompt B (High Motion):** "An athlete sprinting through a futuristic city at night, heavy motion blur, debris flying, high energy."
+    *(Erstellt mit Seedance 2.0: Hinweis – Bei hoher Bewegungsintensität fehlen auf manchen Frames die Hände und Füße oder werden fehlerhaft dargestellt.)*
+    ![High Motion Example](./media/actionscence.mp4)
 *   **Lernziel:** Die Studierenden lernen, dass hohe Bewegungsintensität die Wahrscheinlichkeit für morphologische Fehler (Glitching) erhöht.
 
 **Ziel der Aufgabe:**
@@ -70,6 +72,9 @@ Bevor wir animieren, brauchen wir eine hochwertige Vorlage. Erstellt dieses Bild
 > [!EXAMPLE] Prompt für das Key Visual
 > Cinematic portrait of a futuristic cyber-scientist, elderly man with a well-groomed gray beard, wearing high-tech glowing glasses and a structured dark coat with metallic accents. He is standing in a library filled with glowing holographic books. Soft blue and amber lighting, high detail, realistic skin textures, 8k resolution, shot on 85mm lens.
 
+*Bild mit GPT Image 2:*
+![Key Visual Elder Man](./media/elder_man_demo.png)
+
 ---
 
 #### Aufgabe 3: Der "Statue-Orbit" (Orbit)
@@ -77,6 +82,12 @@ Bevor wir animieren, brauchen wir eine hochwertige Vorlage. Erstellt dieses Bild
 *   **Produktions-Prompt (I2V):** `camera orbit 180 degrees clockwise, slow movement, subject is perfectly still like a frozen statue, cinematic 3D parallax.`
 *   **Beobachtung:** Bleiben Gesichtszüge und Kleidung aus allen Winkeln konsistent?
 *   **Ziel der Aufgabe:** Die räumliche Konsistenz der KI prüfen.
+
+*Erstellt mit Seedance 2.0 (3 Sekunden):*
+![Orbit 3s](./media/elder_man_orbit_3sec.mp4)
+
+*Erstellt mit Seedance 2.0 (5 Sekunden):*
+![Orbit 5s](./media/elder_man_orbit_5sec.mp4)
 
 #### Aufgabe 4: Der "Intensitäts-Dolly" (Dolly In)
 **Was passiert hier?** Die Kamera fährt physisch auf das Motiv zu. Der Bildausschnitt wird enger, die Intimität steigt.
@@ -258,3 +269,59 @@ KI-Video verlässt die generative KI selten in finaler Qualität. In dieser Phas
 
 ## Hausaufgaben
 Erstelle eine 15-sekündige Sequenz, die eine konsistente Person in zwei verschiedenen Einstellungsgrößen (Close-up & Wide) zeigt. Nutze ein Voiceover.
+
+---
+
+## Praxisbeispiel: Seedance 2.0 Werbevideo-Workflow
+
+Hier ist ein detaillierter, schrittweiser Ablauf für die Erstellung eines dynamischen Werbevideos mit Seedance 2.0.
+
+### 1. Die Idee & das Storyboard
+
+**Ziel:** Ein 15-sekündiges Werbevideo für AirPods Pro.
+**Ablauf:** AirPods fallen herunter, AirPods öffnen sich (Matrix-Kamerabewegung), die beiden AirPods Pro fliegen heraus in Richtung Ohren. Der Mensch ist glücklich, da er großartige Musik hört.
+
+*Eingangsbild:*
+![Eingangsbild](./media/demo_headphone.jpg)
+
+**Prompt für das Storyboard (an ChatGPT/LLM):**
+> "Ich möchte ein Werbevideo mit Seedance erstellen. Dafür benötige ich zunächst deine Hilfe für ein Storyboard (gezeichnet mit den jeweiligen Sequenzen). Folgender Ablauf: AirPods fallen herunter, AirPods öffnen sich (Matrix-Kamerabewegung), die beiden AirPods Pro fliegen heraus in Richtung Ohren. Der Mensch ist glücklich, da er großartige Musik hört."
+
+*Storyboard Sketch:*
+![Storyboard Sketch](./media/storyboard_sketch.png)
+
+*Generierte Bilder für das Storyboard (Optional):*
+![Storyboard GenImages](./media/storyboard_genImages.png)
+
+### 2. Multi-Shot Planung
+
+**Prompt für den Multi-Shot (an ChatGPT/LLM):**
+> "Erstelle mir nun einen Multi-Shot-Prompt und sage mir, was ich alles an Eingangsbildern, Kontextbildern und so weiter für Seedance 2.0 benötige. Ich kann dort einen Prompt, einen Startframe, einen Endframe und zusätzliche Kontextbilder eingeben. Kannst du mir das hier erstellen und vorbereiten?"
+
+*(Als Basis nutzt das LLM dabei das Director-Prompt-Template für genau 15 Sekunden.)*
+
+### 3. Setup für Seedance 2.0 (LLM Output)
+
+**Videoziel:** Dynamischer, fotorealistischer Werbeclip, 15 Sekunden, AirPods Pro fallen, öffnen sich spektakulär, Earbuds fliegen zu den Ohren, Person genießt Musik.
+**Format:** 9:16 für Social Ads / Reels / TikTok
+**Look:** Fotorealistisch, clean, Apple-artig, minimalistisch, heller neutraler Hintergrund
+**Dauer:** Exakt 15 Sekunden
+**Shots:** 5 Shots à 3 Sekunden
+
+#### Benötigte Bilder
+
+*   **Startframe:** Ein Bild vom AirPods-Pro-Case kurz bevor es fällt oder gerade auf dem Boden aufkommt.
+    ![Startframe](./media/startframe.png)
+*   **Endframe:** Eine Person mit AirPods Pro in den Ohren, glücklich, Augen leicht geschlossen, lächelnd, Musikgenuss.
+    ![Endframe](./media/endframe.png)
+*   **Kontextbilder:** Produktreferenz (dein offenes Case), Earbud-Detail, Location/Boden, Personenreferenz, Ohr-Referenz.
+
+*(Hinweis: Für die Bewegung ist ein dynamischer Startframe besser als ein ruhendes Objekt. Der Endframe sollte unbedingt eine echte oder generierte Person mit sichtbaren Ohren zeigen, sonst kann Seedance beim „Flug in die Ohren“ ungenau werden.)*
+
+#### Der fertige Multi-Shot-Prompt für Seedance
+
+Diesen Text kopierst du direkt in das Promptfeld von Seedance:
+
+```text
+Using the uploaded AirPods Pro case image as the key visual reference, create a premium photorealistic 15-second commercial sequence. Shot 1, 3 seconds: macro shot, 50mm lens, low angle, handheld, the white AirPods Pro case slips from a hand and falls in slow motion toward a clean neutral floor, subtle motion blur and realistic shadows. Cut to. Shot 2, 3 seconds: close-up, 35mm lens, Dutch angle, push in, the case hits the floor, bounces slightly, and the lid snaps open with crisp product detail. Cut to. Shot 3, 3 seconds: macro shot, 85mm lens, eye-level angle, orbit, Matrix-style 360-degree camera movement around the open case as the earbuds glow subtly and lift from the charging slots. Cut to. Shot 4, 3 seconds: medium shot, 24mm lens, low angle, track, both AirPods Pro fly out of the case in opposite arcs toward a person’s ears with elegant motion trails. Cut to. Shot 5, 3 seconds: close-up, 50mm lens, eye-level angle, push in, the AirPods settle into the ears and the person smiles with eyes closed, completely absorbed in amazing music. Photo real, natural framing. Audio: diegetic sound only — natural ambience, environmental foley, and subject-driven sound.
+```
