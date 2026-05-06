@@ -59,5 +59,11 @@ Bevor du einem Ergebnis vertraust, prüfe:
 - „Führe eine Sensitivitätsanalyse für die Variable X durch.“
 - „Erkläre mir diesen Python-Code Zeile für Zeile, als wäre ich ein BWL-Student im 1. Semester.“
 
+## 6. Wichtige Data Science Kniffe & Hyperparameter
+- **Overfitting verhindern:** Regularisierung (L1/L2) nutzen, komplexe Strukturen reduzieren oder Dropout verwenden.
+- **Underfitting verhindern:** Modellkomplexität erhöhen (z. B. mehr Schichten, Feature Engineering).
+- **Hyperparameter anpassen:** Stellschrauben wie Lernrate ($\eta$), Batch-Größe, Kreuzvalidierung und die Wahl der richtigen Aktivierungs-/Verlustfunktion sind entscheidend.
+- **Datenaufbereitung (Preprocessing):** Achte auf Imbalanced Datasets (SMOTE nutzen), bereinige fehlende Werte (Imputation) und filtere irrelevante Merkmale heraus.
+
 ---
 [[Projekt_KI_VL]]

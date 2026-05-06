@@ -73,5 +73,31 @@ Daten werden erst durch Visualisierung greifbar.
 - **Garbage In, Garbage Out:** Wenn die Datenbasis falsch ist, hilft auch der beste Code nicht.
 - **Logik-Fehler:** Die KI kann Code schreiben, der technisch läuft, aber inhaltlich keinen Sinn ergibt (z. B. Korrelation mit Kausalität verwechseln).
 
+## 7. Hyperparameter & Modell-Tuning
+Ein Modell lernt nicht nur aus Daten, sondern wird durch externe Einstellungen gesteuert, den **Hyperparametern**.
+- **Beispiele:** Lernrate/Schrittgröße ($\eta$), Anzahl Neuronen/Schichten, Batch-Größe, Aktivierungsfunktion (Relu, Sigmoid) und die Wahl der Verlustfunktion (MSE für Regression, Log Loss für Klassifikation).
+- **Overfitting vs. Underfitting:**
+  - *Overfitting* (Modell lernt Daten auswendig, versagt in der Praxis): Kann durch Regularisierung (L1/L2) oder Dropout verhindert werden.
+  - *Underfitting* (Modell ist zu simpel): Erfordert komplexere Modelle oder Feature Engineering.
+
+## 8. Evaluation von Metriken (Klassifikation & Regression)
+Wie messen wir, ob ein Modell "gut" ist?
+### Klassifikation
+- **Genauigkeit (Accuracy):** Anteil der korrekten Vorhersagen (Gut bei balancierten Daten, z.B. >90%).
+- **Präzision (Precision):** Von allen positiven Vorhersagen, wie viele waren korrekt? (Vermeidet falsche Alarme, wenn "Ja" sehr wichtig ist).
+- **Recall (Sensitivität):** Von allen tatsächlich positiven Fällen, wie viele wurden erkannt? (Wichtig in der Medizin, um z.B. Krankheiten nicht zu übersehen).
+- **F1-Score:** Harmonisches Mittel aus Präzision und Recall (Sehr robust).
+
+### Regression
+- **MAE (Mean Absolute Error):** Durchschnittlicher absoluter Fehler in der realen Einheit (z.B. Euro).
+- **MSE / RMSE:** Durchschnittlicher quadratischer Fehler / Wurzel daraus (bestraft große Abweichungen stärker).
+- **$R^2$ (R-Quadrat):** Anteil der Varianz, der vom Modell erklärt wird (Ein Wert >0.7 gilt als sehr gut).
+
+## 9. Herausforderungen in der Datenvorbereitung
+In der Praxis ist die Datenaufbereitung oft der aufwendigste Teil:
+- **Datenqualität:** Unvollständige oder fehlerhafte Daten erfordern Imputation (Auffüllen) oder Deduplizierung.
+- **Imbalanced Datasets:** Wenn eine Klasse dominiert (z.B. 99% Kaffee, 1% Cola), müssen Techniken wie Über-/Unter-Sampling (SMOTE) genutzt werden.
+- **Irrelevante Merkmale:** Feature Selection und Dimensionalitätsreduktion sind nötig, um das Modell nicht mit nutzlosen Daten zu verwirren ("Garbage In, Garbage Out").
+
 ---
 [[Projekt_KI_VL]]
