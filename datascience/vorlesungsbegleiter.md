@@ -48,6 +48,8 @@ Herkömmliche LLMs "erraten" das nächste Wort, was bei Rechnen fehlschlägt. De
 
 Als moderner Manager ("Management Translator") musst du den Code nicht perfekt selbst schreiben können, aber du benötigst **Code Literacy**, um die KI zu kontrollieren.
 
+![Management Translator & Code Literacy](assets/concept_python_basics.jpg)
+
 ## Wichtige Python-Bibliotheken
 - **Pandas (`pd`):** Datenmanipulation, Tabellen lesen und filtern.
 - **NumPy (`np`):** Mathematische Operationen auf Listen/Arrays.
@@ -58,9 +60,16 @@ Als moderner Manager ("Management Translator") musst du den Code nicht perfekt s
 ## Sokratisches Lernen (Python & Statistik)
 Wenn du tief in Python oder Statistik einsteigen willst, nutze die bereitgestellten interaktiven Kanäle (siehe `datascience-lernen.md` und `python-lernen.md`). Dort fungiert die KI als dein Tutor.
 
+### 📝 Übung: Python & Statistik Check
+> "Lade den Datensatz `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/bostonhousing.csv` via Code Interpreter. Zeige mir ein Histogramm der Verteilung der Variablen `medv` (Hauspreise). Erkläre mir als Manager in einem Satz, ob die Daten normalverteilt oder schief sind."
+
+![Statistik Verteilungen](assets/stats_distributions.png)
+
 ---
 
 # 🧹 PHASE 4: Datenreinigung & EDA (Explorative Datenanalyse)
+
+![Metapher Datenreinigung](assets/concept_data_cleaning.jpg)
 
 Bevor Algorithmen rechnen können, müssen die Daten sauber sein. **"Garbage In, Garbage Out!"**
 
@@ -76,15 +85,27 @@ Achte darauf, dass die KI diese Methoden zur Überprüfung nutzt:
 - `df.isnull().sum()` (Fehlende Werte zählen)
 - `df.corr()` (Korrelationen aufzeigen)
 
+![EDA Heatmap](assets/eda_heatmap_demo.png)
+
+### 📝 Übung: Die Lücken füllen
+> "Analysiere `https://raw.githubusercontent.com/ProfEngel/datasets/main/Schwertlilie_missingvalues.csv`. Zeige mir, wie viele Daten fehlen. Nutze eine sinnvolle Methode (z.B. Mittelwert), um die Lücken zu füllen."
+
+### 📝 Übung: Ausreißer & Korrelation
+> "Analysiere `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/bostonhousing.csv`. Erstelle eine Korrelationsmatrix als Heatmap. Welche Spalte hat den stärksten Einfluss auf den Hauspreis (`medv`)?"
+
 ---
 
 # 🤖 PHASE 5: Machine Learning (Klassifikation & Regression)
+
+![Modell-Tuning & Hyperparameter](assets/concept_hyperparameter.jpg)
 
 In der Modellierungsphase generieren wir Wissen aus Daten.
 
 ## 1. Modelltypen
 - **Regression:** Vorhersage eines kontinuierlichen Wertes (Wie hoch wird der *Preis* sein? Wie viel *Umsatz* machen wir?).
 - **Klassifikation:** Vorhersage einer Gruppe/Kategorie (Ist diese E-Mail *Spam* oder *kein Spam*? Wird der Kunde *kaufen* oder *abwandern*?).
+
+![Klassifikation vs Regression](assets/class_vs_reg.png)
 
 ## 2. Hyperparameter & Modell-Tuning
 Ein Algorithmus wird durch externe Stellschrauben (**Hyperparameter**) gesteuert:
@@ -104,9 +125,17 @@ Ein Algorithmus wird durch externe Stellschrauben (**Hyperparameter**) gesteuert
 - **MSE / RMSE:** Bestraft extreme Ausreißer stärker (quadriert).
 - **R² (R-Quadrat):** Erklärte Varianz (ab 0,7 gilt oft als gut).
 
+### 📝 Übung: Überleben auf der Titanic (Klassifikation)
+> "Trainiere ein Klassifikationsmodell auf `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/Titanic_small.csv` zur Vorhersage von `Survived`. Optimiere Hyperparameter gegen Overfitting und zeige mir am Ende die Confusion Matrix und Accuracy."
+
+### 📝 Übung: Immobilienhaie (Regression)
+> "Nutze `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/bostonhousing.csv` und trainiere ein Regressionsmodell für den Preis `medv`. Zeige mir RMSE und R² und erkläre, ob wir dem Modell bei Käufen vertrauen sollten."
+
 ---
 
 # 🧪 PHASE 6: Das Data Science Labor (Praxis-Übungen)
+
+![Data Science Labor Sandbox](assets/concept_sandbox_lab.jpg)
 
 Führe diese Übungen chronologisch in OpenWebUI mit aktiviertem Jupyter-Tool durch.
 
