@@ -35,7 +35,7 @@ Nach dem Modul können die Lernenden:
 
 #### Aufgabe 1: Die First-Frame vs. Last-Frame Analyse
 
-![Verständnis von Latent Drift](./media/latent_drift.jpg)
+<img src="./media/latent_drift.jpg" alt="Verständnis von Latent Drift" width="400">
 
 Die Lernenden nehmen einen kurzen KI-Clip (z.B. 4 Sekunden) und vergleichen das allererste Bild (Startframe) direkt mit dem allerletzten Bild (Endframe).
 *   **Beobachtung:** Haben sich Details am Subjekt verändert (z.B. Anzahl der Knöpfe, Brillenform)? Ist der Hintergrund noch identisch?
@@ -52,7 +52,7 @@ Zwei gegensätzliche Prompts werden verglichen, um die Belastungsgrenze der KI z
 *   **Prompt A (Low Motion):** "A statue in a park, subtle wind blowing through nearby leaves, extremely stable, cinematic."
 *   **Prompt B (High Motion):** "An athlete sprinting through a futuristic city at night, heavy motion blur, debris flying, high energy."
     *(Erstellt mit Seedance 2.0: Hinweis – Bei hoher Bewegungsintensität fehlen auf manchen Frames die Hände und Füße oder werden fehlerhaft dargestellt.)*
-    [![High Motion Example](./media/actionscence.gif)](./media/actionscence.mp4) *(Klick für MP4)*
+    <br><a href="./media/actionscence.mp4"><img src="./media/actionscence.gif" alt="High Motion Example" width="400"></a> *(Klick für MP4)*
 *   **Lernziel:** Die Studierenden lernen, dass hohe Bewegungsintensität die Wahrscheinlichkeit für morphologische Fehler (Glitching) erhöht.
 
 **Ziel der Aufgabe:**
@@ -62,7 +62,7 @@ Die Belastungsgrenze der KI-Modelle verstehen. Die Lernenden sollen begreifen, d
 
 ### Phase 2: Kamera- vs. Objektbewegung (Regie & Schauspiel)
 
-![Übersicht Kamerabewegungen](./media/camera_movements.png)
+<img src="./media/camera_movements.png" alt="Übersicht Kamerabewegungen" width="400">
 
 In dieser Phase lernen wir, die Regie (Kamera) vom Schauspiel (Objekt) zu trennen. Das Ziel ist es, gezielte Kontrolle über den Bildraum zu gewinnen.
 
@@ -73,7 +73,7 @@ Bevor wir animieren, brauchen wir eine hochwertige Vorlage. Erstellt dieses Bild
 > Cinematic portrait of a futuristic cyber-scientist, elderly man with a well-groomed gray beard, wearing high-tech glowing glasses and a structured dark coat with metallic accents. He is standing in a library filled with glowing holographic books. Soft blue and amber lighting, high detail, realistic skin textures, 8k resolution, shot on 85mm lens.
 
 *Bild mit GPT Image 2:*
-![Key Visual Elder Man](./media/elder_man_demo.png)
+<br><img src="./media/elder_man_demo.png" alt="Key Visual Elder Man" width="400">
 
 ---
 
@@ -84,10 +84,10 @@ Bevor wir animieren, brauchen wir eine hochwertige Vorlage. Erstellt dieses Bild
 *   **Ziel der Aufgabe:** Die räumliche Konsistenz der KI prüfen.
 
 *Erstellt mit Seedance 2.0 (3 Sekunden):*
-[![Orbit 3s](./media/elder_man_orbit_3sec.gif)](./media/elder_man_orbit_3sec.mp4) *(Klick für MP4)*
+<br><a href="./media/elder_man_orbit_3sec.mp4"><img src="./media/elder_man_orbit_3sec.gif" alt="Orbit 3s" width="400"></a> *(Klick für MP4)*
 
 *Erstellt mit Seedance 2.0 (5 Sekunden):*
-[![Orbit 5s](./media/elder_man_orbit_5sec.gif)](./media/elder_man_orbit_5sec.mp4) *(Klick für MP4)*
+<br><a href="./media/elder_man_orbit_5sec.mp4"><img src="./media/elder_man_orbit_5sec.gif" alt="Orbit 5s" width="400"></a> *(Klick für MP4)*
 
 #### Aufgabe 4: Der "Intensitäts-Dolly" (Dolly In)
 **Was passiert hier?** Die Kamera fährt physisch auf das Motiv zu. Der Bildausschnitt wird enger, die Intimität steigt.
@@ -124,7 +124,7 @@ Die größte Herausforderung bei KI-Video ist die Bewahrung der Identität über
 
 #### Das "Consistency-Bundle"
 
-![Identity Bundle Diagram](./media/identity_bundle.jpg)
+<img src="./media/identity_bundle.jpg" alt="Identity Bundle Diagram" width="400">
 
 Ein professioneller Charakter-Workflow erfordert die Bereitstellung folgender Assets:
 1.  **Character Sheet:** Mehrere Ansichten der Person (Front, Profil, Back), um die Geometrie und Proportionen zu fixieren.
@@ -163,7 +163,7 @@ Ein professioneller Charakter-Workflow erfordert die Bereitstellung folgender As
 
 Ein Video besteht selten aus nur einem Shot. In der professionellen Produktion generieren wir meist kurze Segmente von **2 bis 7 Sekunden** und verbinden diese. Es gibt zwei Wege, dies umzusetzen:
 
-![Shot Methoden Vergleich](./media/shot_methods.jpg)
+<img src="./media/shot_methods.jpg" alt="Shot Methoden Vergleich" width="400">
 
 #### Die zwei Wege der Produktion
 1.  **Methode A: Single-Shot Generierung (Manuell)**
@@ -222,7 +222,7 @@ Moderne SOTA-Modelle können heute zwar bis zu 15 Sekunden (oder mehr) am Stück
 
 Dieser Workflow führt alle bisherigen Erkenntnisse in einer strukturierten Produktionskette zusammen. Das Ziel ist der Wechsel vom "Prompt-Experiment" hin zur gezielten Filmerstellung.
 
-![KI-Video Workflow](./media/workflow_diagram.png)
+<img src="./media/workflow_diagram.png" alt="KI-Video Workflow" width="400">
 
 #### Aufgabe 13: Die komplette Produktion (Director Workflow)
 **Was passiert hier?** Die Lernenden produzieren eine zusammenhängende Sequenz (ca. 10-15 Sekunden) basierend auf einer festen Idee.
@@ -239,7 +239,7 @@ KI-Video verlässt die generative KI selten in finaler Qualität. In dieser Phas
 
 #### Aufgabe 14: KI-Upscaling (Spatial & Temporal)
 
-![Upscaling Typen](./media/upscaling_types.jpg)
+<img src="./media/upscaling_types.jpg" alt="Upscaling Typen" width="400">
 
 **Was passiert hier?** Wir verbessern die Bildqualität und die Flüssigkeit des Videos.
 *   **Spatial Upscaling:** Erhöhung der Auflösung (z.B. von 720p auf 4K) und Schärfung von Texturen.
@@ -282,16 +282,16 @@ Hier ist ein detaillierter, schrittweiser Ablauf für die Erstellung eines dynam
 **Ablauf:** AirPods fallen herunter, AirPods öffnen sich (Matrix-Kamerabewegung), die beiden AirPods Pro fliegen heraus in Richtung Ohren. Der Mensch ist glücklich, da er großartige Musik hört.
 
 *Eingangsbild:*
-![Eingangsbild](./media/demo_headphone.jpg)
+<br><img src="./media/demo_headphone.jpg" alt="Eingangsbild" width="400">
 
 **Prompt für das Storyboard (an ChatGPT/LLM):**
 > "Ich möchte ein Werbevideo mit Seedance erstellen. Dafür benötige ich zunächst deine Hilfe für ein Storyboard (gezeichnet mit den jeweiligen Sequenzen). Folgender Ablauf: AirPods fallen herunter, AirPods öffnen sich (Matrix-Kamerabewegung), die beiden AirPods Pro fliegen heraus in Richtung Ohren. Der Mensch ist glücklich, da er großartige Musik hört."
 
 *Storyboard Sketch:*
-![Storyboard Sketch](./media/storyboard_sketch.png)
+<br><img src="./media/storyboard_sketch.png" alt="Storyboard Sketch" width="400">
 
 *Generierte Bilder für das Storyboard (Optional):*
-![Storyboard GenImages](./media/storyboard_genImages.png)
+<br><img src="./media/storyboard_genImages.png" alt="Storyboard GenImages" width="400">
 
 ### 2. Multi-Shot Planung
 
@@ -311,9 +311,9 @@ Hier ist ein detaillierter, schrittweiser Ablauf für die Erstellung eines dynam
 #### Benötigte Bilder
 
 *   **Startframe:** Ein Bild vom AirPods-Pro-Case kurz bevor es fällt oder gerade auf dem Boden aufkommt.
-    ![Startframe](./media/startframe.png)
+    <br><img src="./media/startframe.png" alt="Startframe" width="400">
 *   **Endframe:** Eine Person mit AirPods Pro in den Ohren, glücklich, Augen leicht geschlossen, lächelnd, Musikgenuss.
-    ![Endframe](./media/endframe.png)
+    <br><img src="./media/endframe.png" alt="Endframe" width="400">
 *   **Kontextbilder:** Produktreferenz (dein offenes Case), Earbud-Detail, Location/Boden, Personenreferenz, Ohr-Referenz.
 
 *(Hinweis: Für die Bewegung ist ein dynamischer Startframe besser als ein ruhendes Objekt. Der Endframe sollte unbedingt eine echte oder generierte Person mit sichtbaren Ohren zeigen, sonst kann Seedance beim „Flug in die Ohren“ ungenau werden.)*
@@ -329,4 +329,4 @@ Using the uploaded AirPods Pro case image as the key visual reference, create a 
 #### Das finale Werbevideo
 
 *Das generierte 15-Sekunden-Video aus Seedance 2.0:*
-[![Finales Werbevideo](./media/finales_werbevideo_2.gif)](./media/finales_werbevideo_2.mp4) *(Klick für MP4)*
+<br><a href="./media/finales_werbevideo_2.mp4"><img src="./media/finales_werbevideo_2.gif" alt="Finales Werbevideo" width="400"></a> *(Klick für MP4)*
