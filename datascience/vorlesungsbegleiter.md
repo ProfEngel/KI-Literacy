@@ -60,10 +60,18 @@ Als moderner Manager ("Management Translator") musst du den Code nicht perfekt s
 ## Sokratisches Lernen (Python & Statistik)
 Wenn du tief in Python oder Statistik einsteigen willst, nutze die bereitgestellten interaktiven Kanäle (siehe `datascience-lernen.md` und `python-lernen.md`). Dort fungiert die KI als dein Tutor.
 
-### 📝 Übung: Python & Statistik Check
+### 📝 Übung 1: Verteilungen (Histogramme)
 > "Lade den Datensatz `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/bostonhousing.csv` via Code Interpreter. Zeige mir ein Histogramm der Verteilung der Variablen `medv` (Hauspreise). Erkläre mir als Manager in einem Satz, ob die Daten normalverteilt oder schief sind."
 
 ![Statistik Verteilungen](assets/stats_distributions.png)
+
+### 📝 Übung 2: Streuung und Varianz (Boxplots)
+Statistik ist nicht nur der Mittelwert, sondern auch wie stark die Daten streuen.
+> "Nutze den Datensatz `https://raw.githubusercontent.com/ProfEngel/KI-Literacy/refs/heads/main/datascience/data/GolfSpielen.csv`. Erstelle einen Boxplot für die Temperatur. Erkläre mir als KI-Tutor ganz einfach: Was sagt mir die Box in der Mitte und was bedeuten die Enden (Whiskers)?"
+
+### 📝 Übung 3: Zusammenhänge sehen (Scatter Plots)
+Bevor man KI-Modelle rechnet, sollte man mit dem bloßen Auge prüfen, ob Variablen zusammenhängen.
+> "Lade `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/bostonhousing.csv`. Erstelle ein Streudiagramm (Scatter Plot), bei dem auf der X-Achse die Anzahl der Zimmer (`rm`) und auf der Y-Achse der Preis (`medv`) steht. Lege eine rote Trendlinie durch die Punkte und erkläre mir die statistische Kernaussage dieses Bildes."
 
 ---
 
@@ -87,11 +95,29 @@ Achte darauf, dass die KI diese Methoden zur Überprüfung nutzt:
 
 ![EDA Heatmap](assets/eda_heatmap_demo.png)
 
-### 📝 Übung: Die Lücken füllen
-> "Analysiere `https://raw.githubusercontent.com/ProfEngel/datasets/main/Schwertlilie_missingvalues.csv`. Zeige mir, wie viele Daten fehlen. Nutze eine sinnvolle Methode (z.B. Mittelwert), um die Lücken zu füllen."
+### 📝 Übung 1: Die Lücken füllen (Missing Values)
+> "Analysiere `https://raw.githubusercontent.com/ProfEngel/datasets/main/Schwertlilie_missingvalues.csv`. Zeige mir in einer Tabelle, wie viele Daten pro Spalte fehlen. Wende Imputation (Mittelwert) an, um die Lücken zu schließen, und erkläre mir kurz, warum wir leere Zeilen nicht einfach löschen sollten."
 
-### 📝 Übung: Ausreißer & Korrelation
-> "Analysiere `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/bostonhousing.csv`. Erstelle eine Korrelationsmatrix als Heatmap. Welche Spalte hat den stärksten Einfluss auf den Hauspreis (`medv`)?"
+### 📝 Übung 2: Ausreißer jagen (Outliers)
+> "Lade den Datensatz `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/bostonhousing.csv`. Erstelle einen Boxplot für die Kriminalitätsrate (`crim`). Identifiziere die Ausreißer. Erkläre mir als Manager, ob wir diese Extremwerte aus dem Datensatz entfernen sollten oder nicht."
+
+### 📝 Übung 3: Kategoriale Daten übersetzen (Encoding)
+Modelle können nicht mit Text umgehen, wir müssen Wörter in Zahlen übersetzen.
+> "Nutze `https://raw.githubusercontent.com/ProfEngel/KI-Literacy/refs/heads/main/datascience/data/GolfSpielen.csv`. Die Spalten 'Wetter' und 'Spielen' sind Text. Wandle sie mittels One-Hot-Encoding in Zahlen um und zeige mir die ersten 5 Zeilen."
+
+### 📝 Übung 4: Die Skalen angleichen (Feature Scaling)
+Wenn ein Feature von 0-1 geht und ein anderes von 0-1.000.000, dominiert das größere Feature oft das Modell.
+> "Lade erneut `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/bostonhousing.csv`. Wende einen StandardScaler auf die Spalten `tax` und `nox` an. Zeige mir in einem Histogramm, wie sich die Verteilung vor und nach dem Skalieren verändert hat."
+
+### 📝 Übung 5: Daten zusammenführen (Joins)
+> "Simuliere zwei kleine DataFrames in Python. Tabelle A enthält Kunden_ID und Name. Tabelle B enthält Kunden_ID und Umsatz. Führe einen 'Left Join' auf die Kunden_ID durch und erkläre mir das Ergebnis."
+
+### 📝 Übung 6: Das Ungleichgewicht beheben (SMOTE)
+Wenn eine Klasse extrem selten ist, wird das Modell "blind".
+> "Lade `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/Titanic_small.csv`. Prüfe die Verteilung der Zielvariable `Survived`. Wende die Methode 'SMOTE' an, um die Minderheitsklasse künstlich auszugleichen, und zeige mir ein Balkendiagramm der Verteilung vor und nach SMOTE."
+
+### 📝 Übung 7: Die stärksten Treiber finden (Korrelation)
+> "Nutze `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/bostonhousing.csv`. Erstelle eine Korrelationsmatrix als Heatmap. Welche Spalte hat den stärksten positiven und welche den stärksten negativen Einfluss auf den Hauspreis (`medv`)? Übersetze das Ergebnis in einen einfachen Management-Satz."
 
 ---
 
@@ -125,11 +151,26 @@ Ein Algorithmus wird durch externe Stellschrauben (**Hyperparameter**) gesteuert
 - **MSE / RMSE:** Bestraft extreme Ausreißer stärker (quadriert).
 - **R² (R-Quadrat):** Erklärte Varianz (ab 0,7 gilt oft als gut).
 
-### 📝 Übung: Überleben auf der Titanic (Klassifikation)
-> "Trainiere ein Klassifikationsmodell auf `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/Titanic_small.csv` zur Vorhersage von `Survived`. Optimiere Hyperparameter gegen Overfitting und zeige mir am Ende die Confusion Matrix und Accuracy."
+### 📝 Übung 1: Überleben auf der Titanic (Klassifikation)
+> "Trainiere ein Klassifikationsmodell auf `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/Titanic_small.csv` zur Vorhersage von `Survived`. Zeige mir am Ende die Confusion Matrix und Accuracy."
 
-### 📝 Übung: Immobilienhaie (Regression)
+### 📝 Übung 2: Immobilienhaie (Regression)
 > "Nutze `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/bostonhousing.csv` und trainiere ein Regressionsmodell für den Preis `medv`. Zeige mir RMSE und R² und erkläre, ob wir dem Modell bei Käufen vertrauen sollten."
+
+### 📝 Übung 3: Cross-Validation (K-Fold)
+Ein Modell auf einem einzigen Test-Set zu prüfen, ist oft nicht robust genug.
+> "Lade `https://raw.githubusercontent.com/ProfEngel/datasets/refs/heads/main/Titanic_small.csv`. Wende eine 5-Fold Cross-Validation für einen Random Forest Classifier an. Erkläre mir, warum dieser Wert verlässlicher ist als ein einzelner Train-Test-Split."
+
+### 📝 Übung 4: Hyperparameter-Tuning (GridSearch)
+Wir lassen die Maschine automatisch die besten Stellschrauben finden.
+> "Nutze den `bostonhousing.csv` Datensatz für einen Decision Tree Regressor. Führe eine GridSearchCV durch, um die optimalen Werte für `max_depth` und `min_samples_split` zu finden. Wie sehr verbessert sich das R² dadurch?"
+
+### 📝 Übung 5: Modelle gegeneinander antreten lassen (AutoML)
+> "Lade den Titanic-Datensatz. Trainiere gleichzeitig eine Logistic Regression, einen Decision Tree und einen Random Forest. Erstelle eine Tabelle, in der du Accuracy, Precision und Recall der drei Modelle vergleichst. Welches Modell gewinnt und warum?"
+
+### 📝 Übung 6: Feature Importance (Blick unter die Haube)
+Welche Variablen haben die Vorhersage am meisten beeinflusst?
+> "Nutze das beste Modell aus Übung 5 (Random Forest auf Titanic). Erstelle ein Balkendiagramm der 'Feature Importance'. Was war der wichtigste Faktor, um auf der Titanic zu überleben? Übersetze diese Erkenntnis für das Management."
 
 ---
 
