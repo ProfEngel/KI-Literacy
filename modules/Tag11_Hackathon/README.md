@@ -5,7 +5,7 @@ Willkommen zum Höhepunkt der Vorlesungsreihe! Heute verlassen wir die Theorie u
 ## 🎯 Ziel des Tages
 In Kleingruppen (3-4 Personen) ein reales Problem mittels generativer KI lösen, den Prozess dokumentieren und einen funktionierenden Prototypen (Agent, Workflow oder Analyse) präsentieren.
 
-![KI-Orchestrierung & Hackathon](./media/hackathon_orchestration.jpg)
+![KI-Orchestrierung und Hackathon](media/hackathon_orchestration.jpg)
 *(Schaubild: Die Orchestrierung verschiedener KI-Fähigkeiten im Hackathon)*
 
 ---

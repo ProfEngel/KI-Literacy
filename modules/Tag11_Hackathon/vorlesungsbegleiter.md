@@ -2,7 +2,7 @@
 
 Heute seid ihr die Architekten. Dieser Begleiter dient als Leitfaden für die Teamarbeit und enthält einige "Mini-Challenges" für den Start.
 
-![KI-Orchestrierung & Hackathon](./media/hackathon_orchestration.jpg)
+![KI-Orchestrierung und Hackathon](media/hackathon_orchestration.jpg)
 *(Schaubild: Die Orchestrierung verschiedener KI-Fähigkeiten im Hackathon)*
 
 ## 1. Warm-up: Mini-Challenges (9:30 - 10:15)
