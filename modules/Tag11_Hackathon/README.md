@@ -10,13 +10,12 @@ Entwicklung eines integrierten "KI-Unternehmens-Ökosystems", das von der strate
 
 ---
 
-## ⏱️ Zeitplan
-- **09:00 - 09:30:** Begrüßung & Team-Setup.
-- **09:30 - 11:00:** Teil 1: Governance & Prompt-Strategie.
-- **11:00 - 13:00:** Teil 2: Automation & Agenten-Bau.
-- **13:00 - 14:00:** *Mittagspause*
-- **14:00 - 15:30:** Teil 3: Data Science & Ethics-Audit.
-- **15:30 - 17:00:** Demo-Pitch (Der "Enterprise AI Reveal").
+## ⏱️ Zeitplan (Kompakt-Hackathon)
+- **09:45 - 10:00:** Begrüßung, Team-Setup & Themenwahl.
+- **10:00 - 10:45:** Teil 1: Governance & Prompt-Strategie (AUP & System-Prompts).
+- **10:45 - 12:00:** Teil 2: Automation & Data Science (n8n Workflow & EDA).
+- **12:00 - 12:30:** Teil 3: Ethics-Audit & Red Teaming (Sicherheits-Check).
+- **12:30 - 13:00:** Demo-Pitch (Der "Enterprise AI Reveal").
 
 ---
 
