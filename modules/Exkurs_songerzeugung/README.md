@@ -15,7 +15,7 @@ Dieses Modul widmet sich der systematischen Erstellung von Musik und Gesang mitt
 *   **[ElevenLabs Music](https://elevenlabs.io)**: Präzise Kontrolle über Stimmen und Soundeffekte.
 
 ## 📂 Struktur des Moduls
-*   **[Anleitung.md](./Anleitung.md)**: Der didaktische 6-Phasen-Leitfaden.
+*   **[vorlesungsbegleiter.md](./vorlesungsbegleiter.md)**: Der didaktische 6-Phasen-Leitfaden.
 *   **[PromptVorlagen.md](./PromptVorlagen.md)**: Master-Anweisungen und Vorlagen zur Song-Generierung.
 *   **[System_Prompts.md](./System_Prompts.md)**: Spezialisierte System-Instruktionen für Musik-Agenten.
 *   **[cheatsheet.md](./cheatsheet.md)**: Referenz für Genres, Stimmungen und Audio-Parameter.

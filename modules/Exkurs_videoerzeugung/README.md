@@ -4,7 +4,7 @@ Dieses Repository enthält die Materialien für ein Lehrmodul zur systematischen
 
 ## Inhalt des Ordners
 
-- **[Anleitung.md](./Anleitung.md)**: Das vollständige Unterrichtsskript inklusive Ablaufplan und didaktischen Phasen.
+- **[vorlesungsbegleiter.md](./vorlesungsbegleiter.md)**: Das vollständige Unterrichtsskript inklusive Ablaufplan und didaktischen Phasen.
 - **[VideoerzeugungVerstehen.md](./VideoerzeugungVerstehen.md)**: Technischer Überblick über Videoarchitekturen, FPS-Standards und physikalische Konzepte.
 - **[cheatsheet.md](./cheatsheet.md)**: Kompakte Referenz für Kamera- und Objektbewegungen sowie zeitliche Parameter.
 - **[multi_shot_prompts.md](./multi_shot_prompts.md)**: Agnostische Frameworks für die Planung komplexer Sequenzen mittels LLM.
@@ -30,4 +30,4 @@ Um das Modul aktuell zu halten, beziehen sich die praktischen Übungen auf die z
 *   **Video-Editing (NLE):** CapCut (mobile first), DaVinci Resolve.
 
 ## Verwendung
-Die `Anleitung.md` dient als Leitfaden. Das `cheatsheet.md` sollte den Lernenden als Werkzeug zur Verfügung gestellt werden.
+Die `vorlesungsbegleiter.md` dient als Leitfaden. Das `cheatsheet.md` sollte den Lernenden als Werkzeug zur Verfügung gestellt werden.

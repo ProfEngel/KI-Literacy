@@ -4,7 +4,7 @@ Dieses Repository enthält die Materialien für ein Lehrmodul zur systematischen
 
 ## Inhalt des Ordners
 
-- **[Anleitung.md](./Anleitung.md)**: Das vollständige Unterrichtsskript inklusive Ablaufplan, didaktischen Hinweisen und Referenzbildern.
+- **[vorlesungsbegleiter.md](./vorlesungsbegleiter.md)**: Das vollständige Unterrichtsskript inklusive Ablaufplan, didaktischen Hinweisen und Referenzbildern.
 - **[BilderzeugungVerstehen.md](./BilderzeugungVerstehen.md)**: Ein technischer und strategischer Überblick (Geschichte, Diffusion, Open vs. Closed, Hardware).
 - **[cheatsheet.md](./cheatsheet.md)**: Ein kompaktes Referenzblatt mit Prompt-Formeln, Shotgrößen und Kameraeinstellungen.
 - **[diffusion_prompts.md](./diffusion_prompts.md)**: Ein umfangreicher Katalog mit Musterprompts für 15+ Kategorien und LLM-Workflow.
@@ -27,4 +27,4 @@ Aktuelle Referenz-Modelle für dieses Modul:
 *   **Spezial-Tools:** Leonardo.ai (Konsistenz), Kie.ai (API/Playground).
 
 ## Verwendung
-Die `Anleitung.md` dient als Leitfaden für Dozierende oder zum Selbststudium. Das `cheatsheet.md` sollte den Lernenden als Werkzeug für die praktischen Übungen zur Verfügung gestellt werden.
+Die `vorlesungsbegleiter.md` dient als Leitfaden für Dozierende oder zum Selbststudium. Das `cheatsheet.md` sollte den Lernenden als Werkzeug für die praktischen Übungen zur Verfügung gestellt werden.

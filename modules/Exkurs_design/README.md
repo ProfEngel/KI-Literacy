@@ -15,6 +15,6 @@ Dieses Modul fokussiert sich auf die Anwendung von KI im Bereich Grafikdesign, U
 *   **[Midjourney / Flux (Styling Mode)](https://midjourney.com)**: Ästhetische Kontrolle für Editorial und High-End Design.
 
 ## 📂 Struktur des Moduls
-*   **[Anleitung.md](./Anleitung.md)**: Praxis-Guide für Logo- und Marken-Workflows.
+*   **[vorlesungsbegleiter.md](./vorlesungsbegleiter.md)**: Praxis-Guide für Logo- und Marken-Workflows.
 *   **[cheatsheet.md](./cheatsheet.md)**: Design-Prinzipien und Prompt-Parameter.
 *   **[DesignTheorie.md](./DesignTheorie.md)**: Grundlagen von Komposition, Farbe und Form in der KI-Ära.
