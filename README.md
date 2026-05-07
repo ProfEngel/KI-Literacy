@@ -1,11 +1,3 @@
----
-type: overview
-tags: [ki-vl, education]
-created: 2026-04-16
-updated: 2026-04-16
-project: KI_VL
----
-
 # KI-Literacy: Begleit-Repository zur Vorlesung
 
 Willkommen im offiziellen Repository zum Modul **KI-Literacy**. Dieses Projekt dient als zentrale Anlaufstelle für technische Ressourcen, Anleitungen und Laborübungen der Vorlesungsreihe.
