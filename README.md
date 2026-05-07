@@ -14,63 +14,77 @@ In diesem Kurs lernen wir, wie man LLMs versteht, kontrolliert und unabhängig v
 
 ---
 
-## 🚀 Schnellstart (Infrastruktur)
+# KI-Literacy: Begleit-Repository zur Vorlesung
 
-Um die gesamte Kurs-Umgebung (OpenWebUI, Jupyter-Interpreter, SearXNG-Suche) mit einem Klick zu starten, nutze die bereitgestellte Docker-Konfiguration:
+Willkommen im offiziellen Repository zum Modul **KI-Literacy**. Dieses Projekt ist dein digitaler Werkzeugkasten für die Vorlesung. Hier findest du alle Unterlagen, Daten für die Übungen und die technische Infrastruktur.
 
-1.  **Repository klonen** oder Dateien herunterladen.
-2.  **Docker Desktop** starten.
-3.  Im Terminal in den Ordner `deployment/` navigieren und diesen Befehl ausführen:
-    ```bash
-    docker-compose up -d
-    ```
+In diesem Kurs lernst du nicht nur, wie man KI nutzt, sondern wie du sie **verstehst, kontrollierst und souverän einsetzt** – unabhängig von großen Cloud-Anbietern.
 
-Detaillierte Anweisungen und alternative Deployment-Wege findest du im [Deployment_Guide.md](./deployment/Deployment_Guide.md).
+---
+
+## 🎓 Die Lerneinheiten (Der Weg zum KI-Profi)
+
+Die Vorlesung ist chronologisch in Module (Tage) gegliedert. Jedes Modul enthält einen **Vorlesungsbegleiter** (Theorie & Lab) sowie ein **Cheat-Sheet** mit den wichtigsten Merksätzen.
+
+- **[Tag 01: KI Basics](./modules/Tag01_ki_basics/)** – Evolution, Tokenisierung und das erste Setup.
+- **[Tag 02: Advanced Prompt Engineering](./modules/Tag02_advanced_prompt_engineering/)** – Anatomie des perfekten Prompts & Context Engineering.
+- **[Tag 03 & 04: Agents Desktop](./modules/Tag03_04_agents-desktop/)** – KI in der Profi-Umgebung (VS Code & Antigravity).
+- **[Tag 05: Agents To-Go & n8n](./modules/Tag05_agents-to-go/)** – Agenten für die Hosentasche & Low-Code Automatisierung.
+- **[Tag 06 - 08: Data Science](./modules/Tag06_08_datascience/)** – Datenanalyse mit KI (Orange3 & Python).
+- **[Tag 09: Local Deployment](./modules/Tag09_01_local_deployment/)** – Datensouveränität mit Docker & SearXNG.
+- **[Tag 09: Finetuning](./modules/Tag09_02_finetuning/)** – RAG vs. Finetuning & LoRA-Spezialisierung.
+- **[Tag 10: Ethik & Governance](./modules/Tag10_01_ethik_governance/)** – EU AI Act & Corporate Policies.
+- **[Tag 10: The Dark Side](./modules/Tag10_02_dark_side/)** – Model Collapse, Halluzinationen & Red Teaming.
+- **[Tag 11: Der KI-Hackathon](./modules/Tag11_Hackathon/)** – Das Finale: Alles Erlernte in einer Master-Challenge anwenden.
+
+### 🎨 Exkurse: Generative Medien
+Ergänzend zur Hauptvorlesung bieten diese Module vertiefendes Wissen zur Erzeugung von Medien:
+- **[Bilderzeugung](./modules/Exkurs_bilderzeugung/)** | **[Videoerzeugung](./modules/Exkurs_videoerzeugung/)** | **[Songerzeugung](./modules/Exkurs_songerzeugung/)** | **[Design & Branding](./modules/Exkurs_design/)**
 
 ---
 
 ## 📂 Ressourcen-Übersicht
 
 ### 📖 Dokumentationen & Guides
-- **[Deployment_Guide.md](./deployment/Deployment_Guide.md)** – Der vollständige Master-Guide für das Setup von Docker, OpenWebUI, Jupyter und MCP-Servern.
-- **[KI-VL-Skript_26.pdf](./docs/KI-VL-Skript_26.pdf)** – Aktuelles Vorlesungsbegleit-Skript.
-- **[Linkliste.md](./docs/Linkliste.md)** – Kuratierte Links zu Visualisierungen (Transformer, Tokenizer) und Benchmarks.
-- **[Nova_Systemprompt.md](./docs/Nova_Systemprompt.md)** – Das "Gehirn" unserer Kurs-Agentin.
+- **[KI-VL-Skript_26.pdf](./docs/KI-VL-Skript_26.pdf)** – Das offizielle Skript zur Vorlesung.
+- **[Linkliste.md](./docs/Linkliste.md)** – Interaktive Tools und Benchmarks zum Ausprobieren.
+- **[Nova_Systemprompt.md](./docs/Nova_Systemprompt.md)** – Einblick in die Konfiguration unserer Kurs-KI.
 
-### 🧪 Laborübungen & Multimodale Demodaten
-Der Ordner `labor_daten/` enthält spezielles Testmaterial für verschiedene KI-Fähigkeiten. Alle Dateien in diesem Ordner wurden mittels KI generiert und sind somit lizenzfrei für Lehrzwecke nutzbar:
-- **Vision:** Bilder für Objekterkennung und Detail-Analysen (z. B. Parkplatz-Check, Wimmelbilder).
-- **RAG & Long-Context:** Komplexe PDFs und Word-Dokumente für die "Nadel im Heuhaufen"-Suche.
-- **Audio:** Beispieldateien für Transkriptions-Tests.
-- **Data Science:** CSV-Dateien für Analysen mittels Code Interpreter.
-- **Agentik & Seminararbeit:** 
-    - **[agents_demo/](./labor_daten/agents_demo/)** – Ein vollständiges Demo-Paket für einen **OpenWebUI Seminararbeit-Agenten**. Enthält System-Prompts, Skills (didaktisch & poetisch), aktuelle Literaturquellen (RAG) und **Demoprompts** zum Testen.
-    - [demoaufgabe_agents_oui.md](./labor_daten/demodokumente/demoaufgabe_agents_oui.md) – Die ursprüngliche Schritt-für-Schritt-Anleitung zur Erstellung von Agenten. *(Falls sich diese im Ordner befand)*
-
-### 🎓 Lerneinheiten (Module)
-- **[Tag 01: KI Basics](./modules/Tag01_ki_basics/)** – Die historische Evolution, Tokenisierung und grundlegendes Setup (Cloud & Parameter).
-- **[Tag 02: Advanced Prompt Engineering](./modules/Tag02_advanced_prompt_engineering/)** – Anatomie des perfekten Prompts, Few-Shot, Chain-of-Thought und Context Engineering.
-- **[Tag 03 & 04: Agents Desktop](./modules/Tag03_04_agents-desktop/)** – KI-Agenten in der professionellen Entwicklungsumgebung (VS Code, Codex, Antigravity).
-- **[Tag 05: Agents To-Go & n8n](./modules/Tag05_agents-to-go/)** – Mobile und portable KI-Lösungen für maximale Datensouveränität sowie Low-Code Automatisierung.
-- **[Tag 06 - 08: Data Science](./modules/Tag06_08_datascience/)** – Ein umfassendes Modul für KI-gestützte Datenanalyse (Orange3 & Python). Enthält EDA, statistische Modellierung und Business Insights.
-- **[Tag 09: Local Deployment](./modules/Tag09_01_local_deployment/)** – Ein Deep Dive für Datensouveränität: Docker, OpenWebUI, Jupyter Sandbox und SearXNG (Demo).
-- **[Tag 09: Finetuning](./modules/Tag09_02_finetuning/)** – Wirtschaftlichkeit von RAG vs. Finetuning, Datensatz-Erstellung (.jsonl) und LoRA.
-- **[Tag 10: Ethik & Governance](./modules/Tag10_01_ethik_governance/)** – Der EU AI Act, Bias in Daten, Schatten-KI und das Erstellen einer Corporate AI Policy.
-- **[Tag 10: The Dark Side](./modules/Tag10_02_dark_side/)** – Model Collapse, Halluzinationen, Flash Wars und das Red Teaming (Jailbreaks & Prompt Injection).
-
-#### Exkurs: Generative Medien
-- **[Exkurs: Bilderzeugung](./modules/Exkurs_bilderzeugung/)** – Technische Einführung, Anatomie des Bildprompts, Cheat Sheet und In-/Outpainting.
-- **[Exkurs: Videoerzeugung](./modules/Exkurs_videoerzeugung/)** – Kamerasteuerung, Charakter-Konsistenz, Storyboarding und Post-Produktions-Workflows.
-- **[Exkurs: Songerzeugung](./modules/Exkurs_songerzeugung/)** – Anatomie des Klangs, Prompting-Techniken (Suno/Udio) und Vocal-Synthesis.
-- **[Exkurs: Design & Branding](./modules/Exkurs_design/)** – Gestaltgesetze und KI-Beschleunigung für UI/UX Mockups und Logo-Entwicklung.
-
-### 🛠️ Konfigurationen (`deployment/`)
-- `deployment/docker-compose.yml` – Orchestrierung aller Dienste.
-- `deployment/searxng_settings.yml` – Konfiguration für die datenschutzkonforme lokale Suche.
-- `deployment/requirements_jupyter.txt` – Notwendige Python-Bibliotheken für den Code-Interpreter.
+### 🧪 Laborübungen & Testdaten
+Im Ordner **[labor_daten/](./labor_daten/)** findest du alles, was du für die Übungen brauchst:
+- **Bilder & Dokumente:** Für Tests der Bilderkennung und Dokument-Analyse (RAG).
+- **Data Science:** CSV-Tabellen für deine ersten Analysen.
+- **[Agents-Demo](./labor_daten/agents_demo/):** Ein fertiges Paket, um einen eigenen Seminararbeit-Assistenten in OpenWebUI zu bauen.
 
 ---
-*Dieses Repository wird kontinuierlich während der Vorlesungsreihe aktualisiert.*
+
+## 🛠️ Schritt-für-Schritt: Die Technik starten (Schnellstart)
+
+Keine Sorge, du musst kein Informatiker sein, um unsere lokale KI-Umgebung zu nutzen. Wir verwenden **Docker**, ein Programm, das alle notwendigen Tools (OpenWebUI, Suche, Code-Interpreter) automatisch in einem "virtuellen Container" für dich startet.
+
+### 1. Vorbereitung (Einmalig)
+1. **Docker Desktop installieren:** Lade dir [Docker Desktop](https://www.docker.com/products/docker-desktop/) herunter und installiere es wie jedes andere Programm.
+2. **Docker starten:** Öffne Docker Desktop. Warte, bis das kleine Symbol unten links **grün** leuchtet ("Engine Running").
+
+### 2. Die Umgebung starten
+1. **Ordner öffnen:** Lade dieses Repository (als ZIP) herunter und entpacke es.
+2. **Terminal öffnen:** 
+   - **Windows:** Drücke die `Windows-Taste`, tippe `cmd` ein und drücke Enter.
+   - **Mac:** Drücke `CMD + Leertaste`, tippe `Terminal` ein und drücke Enter.
+3. **In den Ordner navigieren:** Tippe `cd ` (mit einem Leerzeichen am Ende) und ziehe den entpackten Ordner `deployment` einfach mit der Maus in das schwarze Fenster. Drücke Enter.
+4. **Befehl ausführen:** Kopiere diesen Befehl, füge ihn im Terminal ein und drücke Enter:
+   ```bash
+   docker-compose up -d
+   ```
+   *Hinweis: Beim ersten Mal dauert es ein paar Minuten, da die Programme heruntergeladen werden.*
+
+### 3. Loslegen!
+Sobald der Befehl fertig ist, kannst du die Tools in deinem Browser (Chrome/Edge/Safari) öffnen:
+- **OpenWebUI (Dein ChatGPT-Ersatz):** [http://localhost:3000](http://localhost:3000)
+- **Lokale Suche (SearXNG):** [http://localhost:8080](http://localhost:8080)
+
+Detaillierte Hilfe findest du im **[Deployment_Guide.md](./deployment/Deployment_Guide.md)**.
 
 ---
 [[Projekt_KI_VL]]
+
