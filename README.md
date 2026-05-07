@@ -99,7 +99,7 @@ Bevor du startest, prüfe kurz deine Hardware. Je nachdem, wie du die KI nutzen 
 ### 3. Loslegen!
 Sobald der Befehl fertig ist, kannst du die Tools in deinem Browser (Chrome/Edge/Safari) öffnen:
 - **OpenWebUI (Dein ChatGPT-Ersatz):** [http://localhost:3000](http://localhost:3000)
-- **Lokale Suche (SearXNG):** [http://localhost:8080](http://localhost:8080)
+- **Lokale Suche (SearXNG):** [http://localhost:3010](http://localhost:3010)
 
 Detaillierte Hilfe findest du im **[Deployment_Guide.md](./deployment/Deployment_Guide.md)**.
 
