@@ -2,7 +2,7 @@
 type: resource-list
 tags: [ki-vl, education]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-05-07
 project: KI_VL
 ---
 
@@ -125,6 +125,10 @@ Für die Laborübungen nutzen wir verschiedene Datensätze zur Evaluation:
 - [DeepSeek-V4 Collection (Hugging Face)](https://huggingface.co/collections/deepseek-ai/deepseek-v4) - DeepSeek-V4 (Flash & Pro) bricht Preis-Leistungs-Rekorde. Performance auf Frontier-Niveau bei Bruchteil der Kosten.
 - [AI agent buys itself a robot (YouTube)](https://youtu.be/woTy4dTiT20?si=aOMSOuIkomUHBKxc) - InsideAI zeigt, wie ein KI-Agent eigenständig Hardware erwirbt und dabei Expertenwarnungen vor unkontrolliertem Verhalten bestätigt.
 - [Agents of Chaos (ArXiv)](https://arxiv.org/abs/2602.20021) - Empirische Red-Teaming-Studie über die Sicherheits- und Governance-Risiken autonomer Agenten in Live-Umgebungen.
+
+## 📰 News-Briefing 07.05.2026
+- [How to run agentic 35B models with 8GB VRAM (YouTube)](https://youtu.be/xgspXqUA6Fk?si=pMl8qlUbs1abXxBJ) - Demonstration neuer Methoden, um 35B-Parameter Modelle (wie Qwen 3.6) effizient auf Consumer-Hardware mit nur 8 GB VRAM zu betreiben.
+- [Multi-token-prediction in Gemma 4 (Google Blog)](https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/) - Technischer Einblick in Multi-Token Prediction (MTP) Drafter, die Gemma 4 Modelle bei der Inferenz um bis zu 3x beschleunigen.
 
 ---
 [[Projekt_KI_VL]]
