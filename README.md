@@ -6,11 +6,19 @@ In diesem Kurs lernen wir, wie man LLMs versteht, kontrolliert und unabhängig v
 
 ---
 
-# KI-Literacy: Begleit-Repository zur Vorlesung
+# KI-Literacy: Begleit-Repository zur Vorlesung & zum Buch
 
-Willkommen im offiziellen Repository zum Modul **KI-Literacy**. Dieses Projekt ist dein digitaler Werkzeugkasten für die Vorlesung. Hier findest du alle Unterlagen, Daten für die Übungen und die technische Infrastruktur.
+Willkommen im offiziellen Repository zum Modul **KI-Literacy**. Dieses Projekt ist weit mehr als eine Anleitung für Large Language Models (LLMs). Es ist ein umfassender Werkzeugkasten für die digitale Souveränität im Zeitalter der Künstlichen Intelligenz.
 
-In diesem Kurs lernst du nicht nur, wie man KI nutzt, sondern wie du sie **verstehst, kontrollierst und souverän einsetzt** – unabhängig von großen Cloud-Anbietern.
+Dieses Repository dient als:
+1. **Begleitmaterial zur Vorlesung** von Prof. Dr. Mathias Engel.
+2. **Praxis-Plattform für das Buch** "genAI in a Brainshell - KI-Literacy für alle".
+3. **Offene Lernressource** für alle, die KI nicht nur nutzen, sondern tiefgreifend verstehen und lokal beherrschen wollen.
+
+### 📅 Ausblick 2026
+Das Projekt wird kontinuierlich erweitert. Für **Oktober 2026** ist die Veröffentlichung einer begleitenden **Lehrvideo-Reihe** geplant, die die Konzepte dieses Repositories didaktisch aufbereitet visualisiert.
+
+Hier lernst du, wie du KI-Systeme verstehst, kontrollierst und unabhängig von großen Cloud-Anbietern in eigene, agentische Ökosysteme integrierst.
 
 ---
 
