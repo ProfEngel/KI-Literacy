@@ -64,10 +64,10 @@ docker run hello-world
 Statt jeden Container einzeln zu starten, nutzen wir eine Konfigurationsdatei (`docker-compose.yml`), die alle Dienste (OpenWebUI, Jupyter, SearXNG) mit einem einzigen Befehl startet und vernetzt.
 
 ### 2.1 Vorbereitung
-Stelle sicher, dass die Dateien `docker-compose.yml` und `searxng_settings.yml` im Ordner `infrastructure/` liegen.
+Stelle sicher, dass die Dateien `docker-compose.yml` und `searxng_settings.yml` im Ordner `deployment/` liegen.
 
 ### 2.2 Starten
-Öffne dein Terminal im Ordner `infrastructure/` und gib ein:
+Öffne dein Terminal im Ordner `deployment/` und gib ein:
 ```bash
 docker-compose up -d
 ```
@@ -184,18 +184,18 @@ Gehe dazu in OpenWebUI auf dein **User-Icon > Settings > Web Search**:
 
 ---
 
-## 3.5 Deine Agentin "Nova" erstellen
+### 3.5 Deine Agentin "Nova" erstellen
 Damit wir nicht nur nackte Modelle nutzen, erstellen wir eine spezialisierte Agentin:
 1. Gehe in den Bereich **Workspace > Models > Create a Model**.
 2. **Name:** Nova (oder einen Namen nach eigenem Wunsch)
 3. **Basemodel:** Wähle zwingend das Modell: `google/gemini-3-flash-preview` (via OpenRouter).
-4. **System Prompt:** Kopiere den vollständigen Text aus der Datei [Nova_Systemprompt.md](./Nova_Systemprompt.md) hier hinein.
+4. **System Prompt:** Kopiere den vollständigen Text aus der Datei [Nova_Systemprompt.md](../docs/Nova_Systemprompt.md) hier hinein.
 5. **Capabilities:** Aktiviere **Websearch**.
 
 ---
 
 ## 3.6 Labor-Challenge I: Vision & RAG (Basics)
-In dieser Übung testen wir die Grenzen unserer lokalen Modelle und Agenten. Nutze dafür die Dateien im Ordner **`demodokumente`**.
+In dieser Übung testen wir die Grenzen unserer lokalen Modelle und Agenten. Nutze dafür die Dateien im Ordner **`../labor_daten/demodokumente`**.
 
 ### Challenge A: Die Nadel im Heuhaufen (RAG)
 1. Lade **`CON01_Jahresabschluss_Needleinthemiddle.pdf`** hoch.
@@ -205,7 +205,7 @@ In dieser Übung testen wir die Grenzen unserer lokalen Modelle und Agenten. Nut
 ### Challenge B: Bild-Analyse & Vision-Inventur
 1. Lade **`Parkplatz_Autos-Farben_und ein Biber.png`** hoch.
 
-![Parkplatz Analyse](demodokumente/Parkplatz_Autos-Farben_und%20ein%20Biber.png)
+![Parkplatz Analyse](../labor_daten/demodokumente/Parkplatz_Autos-Farben_und%20ein%20Biber.png)
 2. **Aufgabe:** 
    - Zähle alle Autos und sortiere sie nach Farben.
    - Suche den versteckten Biber! (Lösung: `LSG_Biber.png`).
@@ -213,7 +213,7 @@ In dieser Übung testen wir die Grenzen unserer lokalen Modelle und Agenten. Nut
 ### Challenge C: Das Wimmelbild der ausgestorbenen Tiere
 1. Lade **`Wimmelbild_Tiere_zweiTiere-nichtaktuell.png`** hoch.
 
-![Tier Wimmelbild](demodokumente/Wimmelbild_Tiere_zweiTiere-nichtaktuell.png)
+![Tier Wimmelbild](../labor_daten/demodokumente/Wimmelbild_Tiere_zweiTiere-nichtaktuell.png)
 2. **Aufgabe:** Suche Tiere, die es nicht mehr gibt oder nie gab (T-Rex & Einhorn).
 
 ---
@@ -241,11 +241,11 @@ docker run -d \
 ```
 
 ### 3.2 Bibliotheken im Container installieren
-Sobald der Container läuft, installieren wir die für die KI-Analyse notwendigen Bibliotheken aus der im Repo bereitgestellten `infrastructure/requirements_jupyter.txt`.
+Sobald der Container läuft, installieren wir die für die KI-Analyse notwendigen Bibliotheken aus der im Repo bereitgestellten `deployment/requirements_jupyter.txt`.
 
 **Option 1: Über das Terminal (Schnell)**
 ```bash
-docker exec jupyter-interpreter pip install -r infrastructure/requirements_jupyter.txt
+docker exec jupyter-interpreter pip install -r deployment/requirements_jupyter.txt
 ```
 
 **Option 2: Über die Jupyter-Oberfläche (Alternative)**
@@ -260,7 +260,7 @@ docker exec jupyter-interpreter pip install -r infrastructure/requirements_jupyt
 2. Trage bei der Jupyter-URL ein: `http://host.docker.internal:3005`.
 3. Gib den von dir gewählten Token (`DEIN_SICHERER_TOKEN`) ein.
 
-![Einstellungen Code Interpreter](assets/einstellungen_code_interpreter.png)
+![Einstellungen Code Interpreter](../assets/einstellungen_code_interpreter.png)
 *Beispiel der Konfiguration in OpenWebUI.*
 
 ### 3.4 Code Interpreter Prompt & Vertrag
@@ -303,7 +303,7 @@ Nutze die analytische Power deiner Jupyter-Umgebung.
 Docker Desktop bietet das **MCP Toolkit (Beta)** an.
 
 ### Was ist MCP? (Einfach erklärt)
-![MCP Explainer](assets/mcp_explainer.jpg)
+![MCP Explainer](../assets/mcp_explainer.jpg)
 
 Das **Model Context Protocol (MCP)** ist ein neuer, offener Standard, der wie ein "Universalstecker" für KIs funktioniert. Er ermöglicht es, dass verschiedene KI-Modelle und Anwendungen nahtlos mit Datenquellen und Werkzeugen kommunizieren können.
 
@@ -339,7 +339,7 @@ SearXNG ist eine Metasuchmaschine, die Ergebnisse von Google, Bing und Co. bünd
 ### 6.1 Schnellstart (Infrastruktur-Bundle)
 Am einfachsten startest du SearXNG zusammen mit der restlichen Infrastruktur:
 ```bash
-cd infrastructure
+cd deployment
 docker compose up -d
 ```
 Dies startet SearXNG, Redis (für Caching) und Open WebUI in einem gemeinsamen Netzwerk.
