@@ -62,6 +62,20 @@ Im Ordner **[labor_daten/](./labor_daten/)** findest du alles, was du für die �
 
 Keine Sorge, du musst kein Informatiker sein, um unsere lokale KI-Umgebung zu nutzen. Wir verwenden **Docker**, ein Programm, das alle notwendigen Tools (OpenWebUI, Suche, Code-Interpreter) automatisch in einem "virtuellen Container" für dich startet.
 
+### 💻 System-Voraussetzungen
+Bevor du startest, prüfe kurz deine Hardware. Je nachdem, wie du die KI nutzen möchtest, variieren die Anforderungen:
+
+*   **Option A: Cloud-Hybrid (Empfohlen für Einsteiger)**
+    *   *Nutzung:* Du lässt die Rechenarbeit auf Servern (z.B. OpenRouter oder Ollama Cloud API) erledigen.
+    *   *Hardware:* Jeder moderne Laptop/PC (ab 8 GB RAM) reicht aus. Docker benötigt hier nur minimale Ressourcen für die Benutzeroberfläche.
+*   **Option B: Voll-Lokal (Datensouveränität pur)**
+    *   *Nutzung:* Die KI-Modelle (LLMs) laufen direkt auf deinem eigenen Computer.
+    *   *Hardware:* 
+        *   **Mac:** Apple Silicon (M1/M2/M3) mit min. 16 GB RAM (besser 32 GB+).
+        *   **Windows/Linux:** Min. 16 GB RAM + eine dedizierte Grafikkarte (NVIDIA RTX mit min. 8 GB VRAM empfohlen).
+*   **Option C: High-End (Profi-Setup)**
+    *   *Hardware:* Dedizierter Linux-Server mit NVIDIA-GPU-Stack (z.B. RTX 4090 oder A-Serie) für blitzschnelle Antworten und parallele Aufgaben.
+
 ### 1. Vorbereitung (Einmalig)
 1. **Docker Desktop installieren:** Lade dir [Docker Desktop](https://www.docker.com/products/docker-desktop/) herunter und installiere es wie jedes andere Programm.
 2. **Docker starten:** Öffne Docker Desktop. Warte, bis das kleine Symbol unten links **grün** leuchtet ("Engine Running").
