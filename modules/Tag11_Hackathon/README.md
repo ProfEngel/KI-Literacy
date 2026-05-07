@@ -1,64 +1,49 @@
 # Modul: Tag 11 – Der KI-Literacy Hackathon
 
-Willkommen zum Höhepunkt der Vorlesungsreihe! Heute verlassen wir die Theorie und die geführten Laborübungen. Beim Hackathon wendet ihr alles an, was ihr in den letzten 10 Tagen gelernt habt – von der Tokenisierung bis zur agentischen Automatisierung.
+Willkommen zum Finale! Heute wendet ihr das gesamte Wissen der letzten 10 Tage in einer einzigen, umfassenden **Master-Challenge** an.
 
 ## 🎯 Ziel des Tages
-In Kleingruppen (3-4 Personen) ein reales Problem mittels generativer KI lösen, den Prozess dokumentieren und einen funktionierenden Prototypen (Agent, Workflow oder Analyse) präsentieren.
+Entwicklung eines integrierten "KI-Unternehmens-Ökosystems", das von der strategischen Planung (Governance) über die technische Umsetzung (Automation) bis zur Datenanalyse (Data Science) alle Modulinhalte abdeckt.
 
 ![KI-Orchestrierung und Hackathon](media/hackathon_orchestration.jpg)
-*(Schaubild: Die Orchestrierung verschiedener KI-Fähigkeiten im Hackathon)*
+*(Schaubild: Die Orchestrierung aller Kursinhalte in einem Projekt)*
 
 ---
 
 ## ⏱️ Zeitplan
-- **09:00 - 09:30:** Begrüßung, Themenvorstellung & Teambildung.
-- **09:30 - 11:00:** Phase 1: Problem-Definition & "Axt schärfen" (Context Engineering).
-- **11:00 - 13:00:** Phase 2: Rapid Prototyping (Prompting, n8n, Coding).
+- **09:00 - 09:30:** Begrüßung & Team-Setup.
+- **09:30 - 11:00:** Teil 1: Governance & Prompt-Strategie.
+- **11:00 - 13:00:** Teil 2: Automation & Agenten-Bau.
 - **13:00 - 14:00:** *Mittagspause*
-- **14:00 - 15:30:** Phase 3: Stress-Test & Red Teaming (Bias-Check & Fehlerkorrektur).
-- **15:30 - 17:00:** Pitch & Demo (Max. 5 Min pro Gruppe).
+- **14:00 - 15:30:** Teil 3: Data Science & Ethics-Audit.
+- **15:30 - 17:00:** Demo-Pitch (Der "Enterprise AI Reveal").
 
 ---
 
-## 🚀 Die Challenges (Wählt eine aus)
+## 🏆 Die Master-Challenge: "Enterprise AI Transformation"
 
-### Challenge A: Der "Agentic Business Assistant" (Tag 03-05, 09)
-**Szenario:** Ein fiktives Start-up im Bereich "Nachhaltige Mode" versinkt in Kundenanfragen und Material-Recherchen.
-**Aufgabe:** 
-- Baut einen autonomen Agenten (via n8n oder Antigravity/MCP), der Kunden-E-Mails liest, die Stimmung erkennt und automatisch Entwürfe für Antworten erstellt.
-- Integriert eine Wissensdatenbank (RAG-Prinzip) für Produkt-FAQs.
-- **Bonus:** Der Agent soll Preisvergleiche über eine (Dummy-)API durchführen.
+Jede Gruppe übernimmt die Rolle eines KI-Transformationsteams für ein Unternehmen ihrer Wahl (z.B. Logistik, Gesundheitswesen, E-Commerce). Euer Projekt muss folgende Meilensteine erfüllen:
 
-### Challenge B: Die "Data Insights & Ethics" Engine (Tag 06-08, 10)
-**Szenario:** Eine Versicherung möchte die Schadensabwicklung automatisieren, fürchtet aber Bias in den Daten.
-**Aufgabe:**
-- Analysiert den bereitgestellten "Insurance_Data" Datensatz.
-- Erstellt eine Vorhersage-Modellierung (Classification oder Regression) in Orange3 oder Python.
-- **Fokus:** Identifiziert systematische Benachteiligungen (Bias) im Modell und schreibt einen kurzen "AI Governance Report" dazu, wie das Modell nach EU AI Act eingestuft werden müsste.
+### Meilenstein 1: Strategie & Governance (Tag 01-02, 10)
+- Erstellt eine kurze **AI Acceptable Use Policy (AUP)** für eure Mitarbeiter.
+- Entwickelt ein Set aus **Master-System-Prompts** (nach dem 6-Elemente-Modell) für die verschiedenen Abteilungen.
 
-### Challenge C: Die "Multimodale Content Machine" (Exkurse & Tag 02)
-**Szenario:** Eine NGO möchte eine weltweite Kampagne zum Klimaschutz starten, hat aber kein Budget für Agenturen.
-**Aufgabe:**
-- Entwickelt ein konsistentes Identity-Bundle (Charakter-Fixierung).
-- Generiert eine Serie von Kampagnen-Bildern und ein kurzes 5-Sekunden Video (Storyboarding).
-- Erstellt einen begleitenden Jingle/Song.
-- **Kern:** Alles muss auf einem hochkomplexen System-Prompt basieren, der den Tone of Voice der NGO perfekt trifft.
+### Meilenstein 2: Agentic Automation (Tag 03-05)
+- Baut einen funktionsfähigen **n8n-Workflow** oder einen **MCP-basierten Assistenten**, der einen operativen Prozess automatisiert (z.B. automatische Angebotserstellung aus Kundenanfragen).
+
+### Meilenstein 3: Data-Driven Insights (Tag 06-08)
+- Nutzt einen relevanten Datensatz (z.B. Verkaufsdaten), führt eine **EDA (Explorative Datenanalyse)** durch und visualisiert die wichtigsten Business-Ergebnisse.
+
+### Meilenstein 4: Souveränität & Sicherheit (Tag 09-10)
+- Erstellt einen Plan für das **lokale Deployment** (Docker) zum Schutz der Daten.
+- Führt ein **Red Teaming** auf eure eigenen Prompts durch (Suchen nach Jailbreak-Schwachstellen) und identifiziert potenzielle Bias-Risiken in eurer Datenanalyse.
 
 ---
 
 ## 🏆 Bewertungskriterien
-1. **Technische Umsetzung:** Funktioniert der Prototyp? Wie kreativ wurden Tools (n8n, MCP, Python) kombiniert?
-2. **Didaktik & Prozess:** Wurden Frameworks wie der ReAct-Loop oder das 6-Elemente-Modell erkennbar genutzt?
-3. **Kritisches Denken:** Wurden Risiken (Halluzinationen, Bias) proaktiv adressiert und Guardrails eingebaut?
-4. **Präsentation:** War die Demo verständlich und der Nutzwert für das Business klar erkennbar?
-
----
-
-## 🛠️ Benötigte Werkzeuge
-- Lokale IDE (VS Code / Antigravity)
-- n8n (lokal oder Cloud)
-- Orange3 / Jupyter Notebooks
-- Zugang zu den im Kurs erstellten Vorlesungsbegleitern & Cheatsheets.
+- **Integration:** Wie nahtlos greifen die verschiedenen Teile (Prompting -> Automation -> Data) ineinander?
+- **Handhabbarkeit:** Ist die Lösung praxistauglich für ein echtes Unternehmen?
+- **Kritische Reflexion:** Wurden ethische Fallstricke und Sicherheitsrisiken proaktiv gelöst?
 
 ---
 [[Projekt_KI_VL]]

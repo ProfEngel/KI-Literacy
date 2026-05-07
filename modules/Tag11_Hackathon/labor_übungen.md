@@ -1,35 +1,30 @@
-# Laborübungen: Hackathon-Challenges
+# Laborübung: Die "Enterprise AI Transformation" (Master-Challenge)
 
-Hier findet ihr die detaillierten Aufgabenbeschreibungen für eure Projekte. Wählt **eine** Challenge aus.
+In dieser Übung setzt ihr alles zusammen. Ziel ist es, ein Unternehmen durch KI-Integration fit für die Zukunft zu machen.
 
-## Challenge A: Der "Agentic Business Assistant"
-**Ziel:** Ein KI-System bauen, das kognitive Arbeit (Verstehen) mit operativer Arbeit (Handeln) verbindet.
+## Der Projektauftrag
 
-1. **Setup:** Erstellt eine n8n-Instanz oder nutzt Antigravity.
-2. **Datenbasis:** Nutzt den Ordner `labor_daten/demodokumente/` als Wissensbasis für euren Agenten (z.B. mittels RAG).
-3. **Workflow:**
-   - E-Mail-Eingang simulieren (Webhook).
-   - KI-Knoten: Intent-Classification & Sentiment-Analyse.
-   - Routing: Kritische Beschwerden an einen Menschen (Slack/E-Mail), Standardanfragen automatisch beantworten.
-4. **Validierung:** Zeigt in der Demo, wie der Agent auf eine "wütende" Reklamation anders reagiert als auf eine "freundliche" Frage.
+### Teil 1: Governance & Context (Tag 01, 02 & 10)
+1. Definiert euer Unternehmen (Name, Branche, Hauptprodukt).
+2. Erstellt eine **Acceptable Use Policy (AUP)** (max. 10 Punkte), die regelt, wie Mitarbeiter KI nutzen dürfen.
+3. Entwickelt einen **Expert-System-Prompt** für einen internen Firmen-Assistenten.
 
-## Challenge B: Die "Data Insights & Ethics" Engine
-**Ziel:** Daten analysieren und gleichzeitig die ethische Verantwortung (Bias) prüfen.
+### Teil 2: Intelligente Automation (Tag 03 - 05)
+1. Erstellt einen **n8n Workflow**, der mindestens einen manuellen Schritt überflüssig macht.
+   - *Beispiel:* Webhook empfängt Kundenbewertung -> KI analysiert Sentiment -> Wenn negativ: Alert an Support + Antwortentwurf generieren.
+2. Dokumentiert den Einsatz von Werkzeugen (Tools) innerhalb des Workflows.
 
-1. **Daten:** Nutzt die Datei `labor_daten/datascience/GolfSpielen.csv` oder einen eigenen Datensatz.
-2. **Analyse:** Führt eine explorative Datenanalyse (EDA) in Orange3 durch. Erstellt mindestens 3 aussagekräftige Visualisierungen.
-3. **Modellierung:** Trainiert ein Modell (z.B. Random Forest), um eine Zielvariable vorherzusagen.
-4. **Ethics-Audit:** 
-   - Untersucht das Modell auf "Hidden Bias". Werden bestimmte Merkmale (z.B. Alter/Geschlecht) übervorteilt?
-   - Schreibt eine 1-seitige Bewertung gemäß der **EU AI Act Risikopyramide**.
+### Teil 3: Business Intelligence & Ethics (Tag 06 - 08 & 10)
+1. Nehmt einen Beispieldatensatz (z.B. `labor_daten/datascience/GolfSpielen.csv` oder einen eigenen).
+2. Führt eine Analyse durch und präsentiert eine Grafik, die einen Geschäftswert aufzeigt.
+3. **Wichtig:** Führt eine Risikoanalyse eures gesamten Systems nach dem **EU AI Act** durch. In welche Risikoklasse fällt euer Projekt?
 
-## Challenge C: Die "Multimodale Content Machine"
-**Ziel:** Ein konsistentes Marken-Erlebnis über verschiedene Medienformate hinweg erschaffen.
-
-1. **Konzept:** Definiert eine fiktive Marke oder Kampagne.
-2. **Identity Bundle:** Erstellt einen "Master-Character" Prompt. Nutzt diesen, um 3 Bilder in verschiedenen Szenen zu generieren (z.B. im Büro, im Wald, im Labor), wobei die Person erkennbar dieselbe bleibt.
-3. **Bewegtbild:** Nutzt eines der Bilder als Startframe für eine 5-sekündige Videosequenz (Kamerafahrt/Orbit).
-4. **Branding:** Erstellt ein Logo-Konzept und einen passenden Jingle-Prompt (Suno/Udio).
+### Teil 4: Deployment & Souveränität (Tag 09)
+1. Beschreibt kurz, warum ihr dieses System **lokal via Docker** (statt als Cloud-Only) betreiben würdet.
+2. Diskutiert: Würde ein **Fine-Tuning** (LoRA) für euren spezifischen Tone of Voice einen Mehrwert bieten?
 
 ---
-Viel Erfolg beim Hacken!
+Präsentiert euren Prototypen am Ende des Tages in einer 5-minütigen Demo.
+
+---
+[[Projekt_KI_VL]]

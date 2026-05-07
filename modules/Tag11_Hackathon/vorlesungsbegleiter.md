@@ -1,50 +1,37 @@
 # Vorlesungsbegleiter: KI-Hackathon (Tag 11)
 
-Heute seid ihr die Architekten. Dieser Begleiter dient als Leitfaden für die Teamarbeit und enthält einige "Mini-Challenges" für den Start.
+Heute seid ihr die Architekten einer neuen Arbeitswelt. Dieser Begleiter führt euch durch die Phasen der Master-Challenge.
 
 ![KI-Orchestrierung und Hackathon](media/hackathon_orchestration.jpg)
-*(Schaubild: Die Orchestrierung verschiedener KI-Fähigkeiten im Hackathon)*
+*(Schaubild: Die Orchestrierung aller Kursinhalte in einem Projekt)*
 
-## 1. Warm-up: Mini-Challenges (9:30 - 10:15)
-Bevor ihr euch in die großen Projekte stürzt, schärfen wir die Axt:
+## 1. Die Strategie-Phase (Vormittag)
+Bevor ihr programmiert, müsst ihr die "Axt schärfen" (Context Engineering).
 
-- **Übung 1: Der "Zero-Shot Fail" (Tag 02):** Findet eine komplexe Aufgabe, bei der ein Standard-Modell (z.B. Llama 3) ohne Kontext scheitert. Optimiert den Prompt mittels "Few-Shot" oder "Chain-of-Thought", bis er perfekt funktioniert.
-- **Übung 2: JSON-Parsing (Tag 05):** Schreibt einen System-Prompt, der eine unstrukturierte Geschichte liest und daraus ein valides JSON-Objekt mit den Schlüsseln `hauptcharakter`, `konflikt` und `ort` extrahiert. Testet die Validität.
-- **Übung 3: Bias-Jagd (Tag 10):** Lasst eine KI 10 Namen für "erfolgreiche Investmentbanker" und 10 Namen für "zuverlässige Haushaltshilfen" generieren. Analysiert die Verteilung von Geschlecht und Herkunft.
+- **Team-Diskussion:** Welches Unternehmen wählen wir? Wo brennt es dort am meisten (Zeitfresser-Prozesse)?
+- **Prompting-Architektur:** Schreibt nicht nur "einen Chatbot". Definiert klare Rollenverteilungen zwischen verschiedenen Agenten. Nutzt Few-Shot Beispiele für den Tone of Voice.
 
-## 2. Projekt-Leitfaden (Phase 1 & 2)
-Wenn ihr euch für eine Challenge (A, B oder C) entschieden habt, geht methodisch vor:
+## 2. Die Bau-Phase (Mittag)
+Verbindet das "Gehirn" mit den "Händen".
 
-### Schritt 1: Problem-Definition (Context Engineering)
-- Was ist das exakte Ziel?
-- Welche Rollen (Personas) braucht die KI?
-- Welche Ressourcen (Dokumente, Daten) müssen in den Kontext?
-- **Ergebnis:** Erstellt eine Datei `projekt_konfiguration.md` in eurem Team-Ordner.
+- **n8n / MCP:** Nutzt die in Tag 05 gelernten Webhooks. Wenn eine neue Datei/E-Mail reinkommt, soll die KI diese nicht nur lesen, sondern eine Handlung auslösen (z.B. einen Kalendereintrag erstellen oder ein PDF generieren).
+- **Daten-Check:** Nutzt die Data Science Tools aus Tag 06-08, um zu beweisen, dass eure Automatisierung auf validen Business-Daten basiert.
 
-### Schritt 2: Architektur-Skizze
-- Zeichnet den Workflow (auf Papier oder digital). 
-- Wo ist die KI? Wo ist die API? Wo ist die menschliche Kontrolle?
-- Nutzt die n8n-Knoten-Logik oder den ReAct-Loop als Blaupause.
+## 3. Die Audit-Phase (Nachmittag)
+Kein System geht ohne Sicherheits-Check live.
 
-### Schritt 3: Implementierung
-- Baut den Prototypen.
-- **Tipp:** Arbeitet modular! Testet erst den Prompt, dann die Verbindung zur Datenbank/API, dann den gesamten Loop.
-
-## 3. Stress-Test (Phase 3)
-Bevor ihr präsentiert, stellt eure Lösung auf die Probe:
-- Was passiert bei unerwartetem Input? (Halluzinationen?)
-- Sind die Daten geschützt?
-- Könnte man das System durch eine "Prompt Injection" manipulieren?
-
----
+- **Bias-Check:** Schaut in eure Datenanalyse. Benachteiligt euer Algorithmus bestimmte Gruppen?
+- **Jailbreak-Test:** Versucht, euren eigenen Firmen-Agenten dazu zu bringen, Firmengeheimnisse preiszugeben oder die AUP zu verletzen. Baut dann Guardrails ein, um dies zu verhindern.
 
 ## 📅 Abgabe-Checkliste
-- [ ] Ordner im Lab-Verzeichnis angelegt.
-- [ ] Alle genutzten Prompts dokumentiert.
-- [ ] Kurzes Fazit: Was war die größte technische Hürde?
-- [ ] Pitch-Folien (oder Demo-Skript) bereit.
+- [ ] Ordner `Team_[Name]` im Lab-Verzeichnis angelegt.
+- [ ] Dokument `strategie_und_governance.md` (AUP & Prompts).
+- [ ] Screenshot / Export des n8n Workflows.
+- [ ] Data Science Report (Visualisierungen).
+- [ ] Kurzes Fazit zum Red Teaming.
 
-Viel Erfolg! Die KI ist euer Werkzeug, aber die Kreativität kommt von euch.
+---
+Viel Erfolg! Zeigt uns, wie die Zukunft der Arbeit aussieht.
 
 ---
 [[Projekt_KI_VL]]
