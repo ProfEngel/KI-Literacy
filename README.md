@@ -73,8 +73,12 @@ Bevor du startest, prüfe kurz deine Hardware. Je nachdem, wie du die KI nutzen 
     *   *Hardware:* 
         *   **Mac:** Apple Silicon (M1/M2/M3) mit min. 16 GB RAM (besser 32 GB+).
         *   **Windows/Linux:** Min. 16 GB RAM + eine dedizierte Grafikkarte (NVIDIA RTX mit min. 8 GB VRAM empfohlen).
-*   **Option C: High-End (Profi-Setup)**
-    *   *Hardware:* Dedizierter Linux-Server mit NVIDIA-GPU-Stack (z.B. RTX 4090 oder A-Serie) für blitzschnelle Antworten und parallele Aufgaben.
+*   **Option C: High-End (Profi- & Enterprise-Setup)**
+    *   *Einsatz:* Bereitstellung von KI-Diensten für Teams und ganze Organisationen via **vLLM** und quantisierten MoE-Modellen (z.B. Qwen 2.5 35B MoE).
+    *   *Skalierungs-Klassen:*
+        *   **1-10 Nutzer:** Dedizierter Linux-Server mit 1x NVIDIA RTX 6000 Ada oder RTX L40S.
+        *   **10-30 Nutzer:** Server mit 2x NVIDIA RTX 5000/6000 Ada.
+        *   **30-100 Nutzer:** Enterprise-Setup (z.B. XEON-Server mit 4x NVIDIA RTX 5000 Ada, Kostenpunkt ca. 40.000 €). Dieses Setup erlaubt den parallelen Betrieb mächtiger Modelle für eine gesamte Abteilung.
 
 ### 1. Vorbereitung (Einmalig)
 1. **Docker Desktop installieren:** Lade dir [Docker Desktop](https://www.docker.com/products/docker-desktop/) herunter und installiere es wie jedes andere Programm.
