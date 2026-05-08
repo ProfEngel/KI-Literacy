@@ -10,6 +10,42 @@ project: KI_VL
 
 Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG und geschlossenen Wissensräumen.
 
+## 📰 News-Briefings
+
+### News-Briefing 07.05.2026
+- [How to run agentic 35B models with 8GB VRAM (YouTube)](https://youtu.be/xgspXqUA6Fk?si=pMl8qlUbs1abXxBJ) - Demonstration neuer Methoden, um 35B-Parameter Modelle (wie Qwen 3.6) effizient auf Consumer-Hardware mit nur 8 GB VRAM zu betreiben.
+- [Multi-token-prediction in Gemma 4 (Google Blog)](https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/) - Technischer Einblick in Multi-Token Prediction (MTP) Drafter, die Gemma 4 Modelle bei der Inferenz um bis zu 3x beschleunigen.
+
+### News-Briefing 30.04.2026
+- [Introducing GPT-5.5 (OpenAI)](https://openai.com/de-DE/index/introducing-gpt-5-5/) - OpenAI stellt GPT-5.5 vor. Massive Steigerung in Reasoning-Fähigkeiten und native "System 2" Architektur für komplexe Problemlösungen.
+- [Our Principles (OpenAI)](https://openai.com/index/our-principles/) - Sam Altman definiert die Kernprinzipien für die Zukunft: Demokratisierung, Empowerment, allgemeiner Wohlstand und gesellschaftliche Resilienz als Leitplanken für AGI.
+- [Introducing ChatGPT Images 2.0 (OpenAI)](https://openai.com/de-DE/index/introducing-chatgpt-images-2-0/) - Evolution der Bilderzeugung. DALL-E 4 Integration mit präzisem Inpainting, lokaler Konsistenz und direkter Bearbeitung im Chat-Interface.
+- [DeepSeek-V4 Collection (Hugging Face)](https://huggingface.co/collections/deepseek-ai/deepseek-v4) - DeepSeek-V4 (Flash & Pro) bricht Preis-Leistungs-Rekorde. Performance auf Frontier-Niveau bei Bruchteil der Kosten.
+- [AI agent buys itself a robot (YouTube)](https://youtu.be/woTy4dTiT20?si=aOMSOuIkomUHBKxc) - InsideAI zeigt, wie ein KI-Agent eigenständig Hardware erwirbt und dabei Expertenwarnungen vor unkontrolliertem Verhalten bestätigt.
+- [Agents of Chaos (ArXiv)](https://arxiv.org/abs/2602.20021) - Empirische Red-Teaming-Studie über die Sicherheits- und Governance-Risiken autonomer Agenten in Live-Umgebungen.
+
+### News-Briefing 23.04.2026
+- [How I Created OpenClaw, the Breakthrough AI Agent (Peter Steinberger | TED)](https://youtu.be/7rzYDM6vMtI?si=ECg5srfNSYlsAJYE) - Peter Steinberger stellt die Vision hinter OpenClaw vor, einem revolutionären Framework für autonome KI-Agenten.
+- [Qwen 3.6 27B (Alibaba Cloud)](https://qwen.ai/blog?id=qwen3.6-27b) - Neues, hocheffizientes Modell von Alibaba; bietet Performance auf dem Niveau von 72B-Modellen bei deutlich reduzierten Hardwareanforderungen.
+- [Qwen 3.6 35B A3B (Alibaba Cloud)](https://qwen.ai/blog?id=qwen3.6-35b-a3b) - Ein "Sparse Mixture-of-Experts" (MoE) Modell mit nur 3 Mrd. aktiven Parametern pro Token; spezialisiert auf **Agentic Coding** und technisches Reasoning.
+- [Kimi K2.6 (Moonshot AI)](https://huggingface.co/moonshotai/Kimi-K2.6) - Natives multimodales Modell, optimiert für "Long-Horizon Coding" und die Steuerung von Agenten-Schwärmen (bis zu 300 koordinierte Sub-Agenten).
+
+### News-Briefing 16.04.2026
+- [Milla Jovovich goes Open Source (Forbes)](https://www.forbes.com/sites/joshpearce/2026/04/09/milla-jovovich-goes-open-source-guns-blazing-with--top-ai-memory-code/) - Bericht über die Open-Source-Initiative der Schauspielerin (Resident Evil, Das fünfte Element). Ihr "AI Memory Code" gilt aktuell als die leistungsfähigste Lösung ihrer Art für LLMs.
+- [Google Gemini Agents Overview](https://gemini.google/overview/agent/) - Google stellt seine neuen KI-Agenten vor (Rollout in Deutschland steht kurz bevor).
+- [Ace_step.15 XL Audio (YouTube)](https://youtu.be/UAlLD5fS7-c?si=JMSCEnDUxLBBxvu5) - Demonstration von Ace_step.15 XL zur Erstellung von Audioinhalten in Studioqualität auf lokaler Hardware.
+- [Suno AI](https://suno.com/) - Suno AI – Musik-Generierung auf Profi-Niveau.
+
+### News-Briefing 09.04.2026
+- [Claude Code Source Leak (Ars Technica)](https://arstechnica.com/ai/2026/04/heres-what-that-claude-code-source-leak-reveals-about-anthropics-plans/) - Einblick in Anthropics Zukunftspläne und neue Features basierend auf einem Source-Code-Leak.
+- [Gemma 4 (Google DeepMind)](https://deepmind.google/models/gemma/gemma-4/) - Offizielle Vorstellung von DeepMinds Gemma-4, starken offenen Modellen basierend auf der Gemini 3 Architektur.
+- [Google AI Edge Gallery (GitHub)](https://github.com/google-ai-edge/gallery) - Eine offizielle GitHub Collection rund um Edge und On-Device KI-Modelle.
+- [Perplexity Daten-Leak (t3n)](https://t3n.de/news/perplexity-soll-millionen-chats-an-meta-und-google-weitergegeben-haben-selbst-im-inkognito-modus-1737436/) - Bericht über mutmaßliche Privacy-Verstöße, bei denen Chatverläufe an Meta und Google flossen.
+- [Perplexity LLM-Suche](https://www.perplexity.ai/search/was-kannst-du-mir-zu-den-llm-m-L3NwvHbESzmBkTaUNsOvqQ) - Eine exemplarische Suchanfrage zu Eigenschaften aktueller Sprachmodelle.
+- [Claude Code & Obsidian als Zweites Gehirn (YouTube)](https://youtu.be/B_SbI0F0h4o?si=cnM9yxqQj7e2uzav) - Ein Tutorial, wie man das Obsidian-Vault mit Claude Code als RAG-Wissensbasis nutzt.
+
+---
+
 ## 🧰 Tools & Plattformen
 - [NotebookLM](https://notebooklm.google.com/) - Das primäre Tool für geschlossene Wissensräume.
 - [OpenWebUI](https://openwebui.com/) - Lokales Interface für LLMs (ideal für Docker-Setups).
@@ -81,23 +117,6 @@ Für die Laborübungen nutzen wir verschiedene Datensätze zur Evaluation:
 - [AI in Conflict (Gaza Research)](https://www.qmul.ac.uk/media/news/2024/hss/gaza-war-israel-using-ai-to-identify-human-targets-raising-fears-that-innocents-are-being-caught-in-the-net.html) - Ethische Analyse von KI-Einsätzen.
 - [KI-Drohnen im Donbas (News-Bericht)](https://www.bild.de/politik/ausland-und-internationales/ki-drohnen-im-donbas-revolutionaere-technologie-der-ukraine-enthuellt-69329c8abdb9c3d5970e4999) - Autonome Waffensysteme.
 
-## 📰 News-Briefing 09.04.2026
-- [Claude Code Source Leak (Ars Technica)](https://arstechnica.com/ai/2026/04/heres-what-that-claude-code-source-leak-reveals-about-anthropics-plans/) - Einblick in Anthropics Zukunftspläne und neue Features basierend auf einem Source-Code-Leak.
-- [Gemma 4 (Google DeepMind)](https://deepmind.google/models/gemma/gemma-4/) - Offizielle Vorstellung von DeepMinds Gemma-4, starken offenen Modellen basierend auf der Gemini 3 Architektur.
-- [Google AI Edge Gallery (GitHub)](https://github.com/google-ai-edge/gallery) - Eine offizielle GitHub Collection rund um Edge und On-Device KI-Modelle.
-- [Perplexity Daten-Leak (t3n)](https://t3n.de/news/perplexity-soll-millionen-chats-an-meta-und-google-weitergegeben-haben-selbst-im-inkognito-modus-1737436/) - Bericht über mutmaßliche Privacy-Verstöße, bei denen Chatverläufe an Meta und Google flossen.
-- [Perplexity LLM-Suche](https://www.perplexity.ai/search/was-kannst-du-mir-zu-den-llm-m-L3NwvHbESzmBkTaUNsOvqQ) - Eine exemplarische Suchanfrage zu Eigenschaften aktueller Sprachmodelle.
-- [Claude Code & Obsidian als Zweites Gehirn (YouTube)](https://youtu.be/B_SbI0F0h4o?si=cnM9yxqQj7e2uzav) - Ein Tutorial, wie man das Obsidian-Vault mit Claude Code als RAG-Wissensbasis nutzt.
-## 📰 News-Briefing 16.04.2026
-- [Milla Jovovich goes Open Source (Forbes)](https://www.forbes.com/sites/joshpearce/2026/04/09/milla-jovovich-goes-open-source-guns-blazing-with--top-ai-memory-code/) - Bericht über die Open-Source-Initiative der Schauspielerin (Resident Evil, Das fünfte Element). Ihr "AI Memory Code" gilt aktuell als die leistungsfähigste Lösung ihrer Art für LLMs.
-- [Google Gemini Agents Overview](https://gemini.google/overview/agent/) - Google stellt seine neuen KI-Agenten vor (Rollout in Deutschland steht kurz bevor).
-- [Ace_step.15 XL Audio (YouTube)](https://youtu.be/UAlLD5fS7-c?si=JMSCEnDUxLBBxvu5) - Demonstration von Ace_step.15 XL zur Erstellung von Audioinhalten in Studioqualität auf lokaler Hardware.
-- [Suno AI](https://suno.com/) - Suno AI – Musik-Generierung auf Profi-Niveau.
-## 📰 News-Briefing 23.04.2026
-- [How I Created OpenClaw, the Breakthrough AI Agent (Peter Steinberger | TED)](https://youtu.be/7rzYDM6vMtI?si=ECg5srfNSYlsAJYE) - Peter Steinberger stellt die Vision hinter OpenClaw vor, einem revolutionären Framework für autonome KI-Agenten.
-- [Qwen 3.6 27B (Alibaba Cloud)](https://qwen.ai/blog?id=qwen3.6-27b) - Neues, hocheffizientes Modell von Alibaba; bietet Performance auf dem Niveau von 72B-Modellen bei deutlich reduzierten Hardwareanforderungen.
-- [Qwen 3.6 35B A3B (Alibaba Cloud)](https://qwen.ai/blog?id=qwen3.6-35b-a3b) - Ein "Sparse Mixture-of-Experts" (MoE) Modell mit nur 3 Mrd. aktiven Parametern pro Token; spezialisiert auf **Agentic Coding** und technisches Reasoning.
-- [Kimi K2.6 (Moonshot AI)](https://huggingface.co/moonshotai/Kimi-K2.6) - Natives multimodales Modell, optimiert für "Long-Horizon Coding" und die Steuerung von Agenten-Schwärmen (bis zu 300 koordinierte Sub-Agenten).
 
 ---
 
@@ -118,17 +137,5 @@ Für die Laborübungen nutzen wir verschiedene Datensätze zur Evaluation:
 - **ComfyUI AceStep1.5 XL** – Lokale Node-basierte Audio-Generierung.
 
 ---
-## 📰 News-Briefing 30.04.2026
-- [Introducing GPT-5.5 (OpenAI)](https://openai.com/de-DE/index/introducing-gpt-5-5/) - OpenAI stellt GPT-5.5 vor. Massive Steigerung in Reasoning-Fähigkeiten und native "System 2" Architektur für komplexe Problemlösungen.
-- [Our Principles (OpenAI)](https://openai.com/index/our-principles/) - Sam Altman definiert die Kernprinzipien für die Zukunft: Demokratisierung, Empowerment, allgemeiner Wohlstand und gesellschaftliche Resilienz als Leitplanken für AGI.
-- [Introducing ChatGPT Images 2.0 (OpenAI)](https://openai.com/de-DE/index/introducing-chatgpt-images-2-0/) - Evolution der Bilderzeugung. DALL-E 4 Integration mit präzisem Inpainting, lokaler Konsistenz und direkter Bearbeitung im Chat-Interface.
-- [DeepSeek-V4 Collection (Hugging Face)](https://huggingface.co/collections/deepseek-ai/deepseek-v4) - DeepSeek-V4 (Flash & Pro) bricht Preis-Leistungs-Rekorde. Performance auf Frontier-Niveau bei Bruchteil der Kosten.
-- [AI agent buys itself a robot (YouTube)](https://youtu.be/woTy4dTiT20?si=aOMSOuIkomUHBKxc) - InsideAI zeigt, wie ein KI-Agent eigenständig Hardware erwirbt und dabei Expertenwarnungen vor unkontrolliertem Verhalten bestätigt.
-- [Agents of Chaos (ArXiv)](https://arxiv.org/abs/2602.20021) - Empirische Red-Teaming-Studie über die Sicherheits- und Governance-Risiken autonomer Agenten in Live-Umgebungen.
-
-## 📰 News-Briefing 07.05.2026
-- [How to run agentic 35B models with 8GB VRAM (YouTube)](https://youtu.be/xgspXqUA6Fk?si=pMl8qlUbs1abXxBJ) - Demonstration neuer Methoden, um 35B-Parameter Modelle (wie Qwen 3.6) effizient auf Consumer-Hardware mit nur 8 GB VRAM zu betreiben.
-- [Multi-token-prediction in Gemma 4 (Google Blog)](https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/) - Technischer Einblick in Multi-Token Prediction (MTP) Drafter, die Gemma 4 Modelle bei der Inferenz um bis zu 3x beschleunigen.
-
 ---
 [[Projekt_KI_VL]]

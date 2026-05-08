@@ -1,24 +1,19 @@
-# KI-Literacy: Begleit-Repository zur Vorlesung
-
-Willkommen im offiziellen Repository zum Modul **KI-Literacy**. Dieses Projekt dient als zentrale Anlaufstelle für technische Ressourcen, Anleitungen und Laborübungen der Vorlesungsreihe.
-
-In diesem Kurs lernen wir, wie man LLMs versteht, kontrolliert und unabhängig von großen Cloud-Anbietern in eigene, agentische Ökosysteme integriert.
-
----
-
 # KI-Literacy: Begleit-Repository zur Vorlesung & zum Buch
 
-Willkommen im offiziellen Repository zum Modul **KI-Literacy**. Dieses Projekt ist weit mehr als eine Anleitung für Large Language Models (LLMs). Es ist ein umfassender Werkzeugkasten für die digitale Souveränität im Zeitalter der Künstlichen Intelligenz.
+Willkommen im offiziellen Repository zum Modul **KI-Literacy**. Dieses Projekt ist weit mehr als eine Anleitung für Large Language Models (LLMs). Es ist ein umfassender Werkzeugkasten für die digitale Souveränität im Zeitalter der Künstlichen Intelligenz. Es dient als zentrale Anlaufstelle für technische Ressourcen, Anleitungen und Laborübungen der Vorlesungsreihe.
+
+Hier lernst du, wie du KI-Systeme verstehst, kontrollierst und unabhängig von großen Cloud-Anbietern in eigene, agentische Ökosysteme integrierst.
 
 Dieses Repository dient als:
 1. **Begleitmaterial zur Vorlesung** von Prof. Dr. Mathias Engel.
 2. **Praxis-Plattform für das Buch** "genAI in a Brainshell - KI-Literacy für alle".
 3. **Offene Lernressource** für alle, die KI nicht nur nutzen, sondern tiefgreifend verstehen und lokal beherrschen wollen.
 
+> **📰 WICHTIG: [Linkliste & News-Briefings](./docs/Linkliste.md)**  
+> *Hier findest du unsere wöchentlichen News-Updates, spannende Fundstücke sowie interaktive Tools und Benchmarks zum Ausprobieren.*
+
 ### 📅 Ausblick 2026
 Das Projekt wird kontinuierlich erweitert. Für **Oktober 2026** ist die Veröffentlichung einer begleitenden **Lehrvideo-Reihe** geplant, die die Konzepte dieses Repositories didaktisch aufbereitet visualisiert.
-
-Hier lernst du, wie du KI-Systeme verstehst, kontrollierst und unabhängig von großen Cloud-Anbietern in eigene, agentische Ökosysteme integrierst.
 
 ---
 
@@ -37,9 +32,9 @@ Die Vorlesung ist chronologisch in Module (Tage) gegliedert. Jedes Modul enthäl
 - **[Tag 10: The Dark Side](./modules/Tag10_02_dark_side/)** – Model Collapse, Halluzinationen & Red Teaming.
 - **[Tag 11: Der KI-Hackathon](./modules/Tag11_Hackathon/)** – Das Finale: Alles Erlernte in einer Master-Challenge anwenden.
 
-### 🎨 Exkurse: Generative Medien
-Ergänzend zur Hauptvorlesung bieten diese Module vertiefendes Wissen zur Erzeugung von Medien:
-- **[Bilderzeugung](./modules/Exkurs_bilderzeugung/)** | **[Videoerzeugung](./modules/Exkurs_videoerzeugung/)** | **[Songerzeugung](./modules/Exkurs_songerzeugung/)** | **[Design & Branding](./modules/Exkurs_design/)**
+### 🎨 Exkurse: Generative Medien & Systemarchitektur
+Ergänzend zur Hauptvorlesung bieten diese Module vertiefendes Wissen zur Erzeugung von Medien und dem System-Deployment:
+- **[Bilderzeugung](./modules/Exkurs_bilderzeugung/)** | **[Videoerzeugung](./modules/Exkurs_videoerzeugung/)** | **[Songerzeugung](./modules/Exkurs_songerzeugung/)** | **[Design & Branding](./modules/Exkurs_design/)** | **[Deployment & Consulting](./modules/Exkurs_deployment/)**
 
 ---
 
@@ -47,7 +42,6 @@ Ergänzend zur Hauptvorlesung bieten diese Module vertiefendes Wissen zur Erzeug
 
 ### 📖 Dokumentationen & Guides
 - **[KI-VL-Skript_26.pdf](./docs/KI-VL-Skript_26.pdf)** – Das offizielle Skript zur Vorlesung.
-- **[Linkliste.md](./docs/Linkliste.md)** – Interaktive Tools und Benchmarks zum Ausprobieren.
 - **[Nova_Systemprompt.md](./docs/Nova_Systemprompt.md)** – Einblick in die Konfiguration unserer Kurs-KI.
 
 ### 🧪 Laborübungen & Testdaten
