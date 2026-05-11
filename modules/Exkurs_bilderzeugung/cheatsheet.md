@@ -9,6 +9,20 @@ Dieses Cheat Sheet bietet eine kompakte Übersicht über die wichtigsten Prompt-
 Die optimale Reihenfolge für einen stabilen Prompt:
 **Subjekt/Szene → Komposition/Kamera → Licht → Look/Farbe → Constraints**
 
+![Panel: Prompt-Grundformel](./media/personas/cheatsheet_promptformel_panel.jpg)
+
+| Deutsch | Englisch | Funktion im Prompt |
+|---|---|---|
+| Subjekt | subject | Hauptmotiv: Person, Objekt, Ort oder Szene |
+| Szene | scene / setting | Umgebung, Hintergrund, Kontext |
+| Aktion / Pose | action / pose | Handlung, Haltung, Bewegung |
+| Komposition | composition | Bildaufbau, Platzierung, Vorder-/Hintergrund |
+| Kamera | camera | Shotgröße, Perspektive, Brennweite |
+| Licht | lighting | Lichtquelle, Richtung, Qualität |
+| Look / Farbe | look / color palette | Farbstimmung, Kontrast, Atmosphäre |
+| Stil / Medium | style / medium | Foto, Illustration, Comic, Aquarell usw. |
+| Constraints | constraints / negative prompt | Ausschlüsse und Qualitätsgrenzen |
+
 ### Struktur-Template
 - **Subject:** Hauptmotiv (Was?)
 - **Scene:** Umgebung/Hintergrund (Wo?)
@@ -61,6 +75,8 @@ no extra objects, no text, no watermark, no duplicate items, no anatomy errors, 
 
 ## 3. Technische Parameter
 
+![Panel: Shotgrößen und Perspektiven](./media/personas/cheatsheet_kamera_panel.jpg)
+
 ### Shotgrößen
 - **Extreme close-up:** Sehr nah, Details dominieren.
 - **Close-up:** Gesicht oder Objekt im Fokus.
@@ -76,6 +92,20 @@ no extra objects, no text, no watermark, no duplicate items, no anatomy errors, 
 - **Bird’s-eye:** Grafisch, ordnend aus der Luft.
 - **Dutch angle:** Schräg gestellt, instabil, dynamisch.
 
+| Deutsch | Englisch | Typischer Einsatz |
+|---|---|---|
+| Extreme Nahaufnahme | extreme close-up | Details, Texturen, Augen, Material |
+| Nahaufnahme | close-up | Gesicht, Objekt, Emotion |
+| Halbnah | medium shot | Oberkörper, Handlung mit Kontext |
+| Totale | wide shot | ganze Person oder ganze Szene |
+| Augenhöhe | eye-level | neutral, natürlich |
+| Aufsicht | high angle | Überblick, verletzlicher/kleiner wirkend |
+| Untersicht | low angle | dominant, heroisch, monumental |
+| Draufsicht | top-down / bird's-eye | ordnend, grafisch, Flat Lay |
+| Schräglage | dutch angle | Spannung, Dynamik, Instabilität |
+
+![Panel: Brennweite, Blende und Negativprompt](./media/personas/cheatsheet_parameter_panel.jpg)
+
 ### Brennweiten & Blende
 - **24mm:** Weitwinkel (viel Raum, starke Perspektive).
 - **35mm:** Reportage-Look (natürlich).
@@ -84,9 +114,23 @@ no extra objects, no text, no watermark, no duplicate items, no anatomy errors, 
 - **f/1.4 - f/2.8:** Starke Unschärfe im Hintergrund (Bokeh).
 - **f/8 - f/11:** Hohe Schärfentiefe (alles scharf).
 
+| Parameter | Englisch | Wirkung |
+|---|---|---|
+| 24 mm | wide-angle lens | viel Raum, stärkere Perspektive |
+| 35 mm | documentary lens / reportage lens | natürlich, szenisch |
+| 50 mm | standard lens | neutral, universell |
+| 85 mm | portrait lens | schmeichelnde Porträtdistanz, Hintergrundtrennung |
+| f/1.8 | wide aperture | geringe Schärfentiefe, weicher Hintergrund |
+| f/8 | small aperture | mehr Schärfentiefe, mehr Kontext |
+| Tiefenschärfe | depth of field | steuert, was scharf erscheint |
+| Bokeh | bokeh | ästhetische Unschärfe/Lichtpunkte |
+| Negativprompt | negative prompt | verhindert Artefakte, falsche Elemente, ungewollte Stile |
+
 ---
 
 ## 4. Licht & Stil
+
+![Panel: Licht und Stil](./media/personas/cheatsheet_licht_stil_panel.jpg)
 
 ### Licht-Setups
 - **Softbox:** Weich, modern, kontrolliert.
@@ -101,6 +145,18 @@ no extra objects, no text, no watermark, no duplicate items, no anatomy errors, 
 - **Cinematic live-action still frame**
 - **Anime illustration / Pixar-like 3D animation**
 - **Oil painting / Watercolor illustration**
+
+| Deutsch | Englisch | Wirkung |
+|---|---|---|
+| Softbox | softbox lighting | weich, kontrolliert, studioartig |
+| Fensterlicht | window light | natürlich, ruhig, glaubwürdig |
+| Rembrandt-Licht | Rembrandt lighting | dramatisch, modellierend |
+| Kantenlicht | rim light | trennt Motiv vom Hintergrund |
+| Low Key | low-key lighting | dunkel, kontrastreich, filmisch |
+| Produktfoto | product photography | klar, sauber, kommerziell |
+| Dokumentarisch | documentary style | realistisch, beobachtend |
+| Comic | comic illustration | grafisch, vereinfacht, expressiv |
+| Aquarell | watercolor illustration | weich, analog, luftig |
 
 ---
 

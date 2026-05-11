@@ -7,6 +7,10 @@ Dieses Repository enthält die Materialien für ein Lehrmodul zur systematischen
 - **[vorlesungsbegleiter.md](./vorlesungsbegleiter.md)**: Das vollständige Unterrichtsskript inklusive Ablaufplan, didaktischen Hinweisen und Referenzbildern.
 - **[BilderzeugungVerstehen.md](./BilderzeugungVerstehen.md)**: Ein technischer und strategischer Überblick (Geschichte, Diffusion, Open vs. Closed, Hardware).
 - **[cheatsheet.md](./cheatsheet.md)**: Ein kompaktes Referenzblatt mit Prompt-Formeln, Shotgrößen und Kameraeinstellungen.
+- **[cheatsheet_personas_frau.md](./cheatsheet_personas_frau.md)**: Prompt-Bausteine und Panelgrafiken für weiblich gelesene Personas.
+- **[cheatsheet_personas_mann.md](./cheatsheet_personas_mann.md)**: Prompt-Bausteine und Panelgrafiken für männlich gelesene Personas.
+- **[cheatsheet_personas_diversitaet.md](./cheatsheet_personas_diversitaet.md)**: Sensibles Prompting zu Hautfarbe, Herkunft, Alter, Kleidung, Haltung und Zusatzmerkmalen.
+- **[cheatsheet_personas_emotionen_posen.md](./cheatsheet_personas_emotionen_posen.md)**: Zweisprachige Prompt-Bausteine und Panelgrafiken für Emotionen, Blickrichtung, Posen und Gesten.
 - **[diffusion_prompts.md](./diffusion_prompts.md)**: Ein umfangreicher Katalog mit Musterprompts für 15+ Kategorien und LLM-Workflow.
 - **media/**: Enthält alle im Modul verwendeten Beispielbilder.
 
