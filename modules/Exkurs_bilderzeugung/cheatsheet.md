@@ -146,6 +146,27 @@ no extra objects, no text, no watermark, no duplicate items, no anatomy errors, 
 - **Anime illustration / Pixar-like 3D animation**
 - **Oil painting / Watercolor illustration**
 
+### Bildstile
+
+![Panel: Bildstile für KI-Bildprompts](./media/personas/cheatsheet_bildstil_panel.jpg)
+
+| Deutsch | Englisch | Wirkung / Einsatz |
+|---|---|---|
+| Fotorealistisch | photorealistic | glaubwürdig, realitätsnah, für Personen, Produkte und Szenen |
+| Dokumentarisch | documentary style | beobachtend, ungestellt, alltagsnah |
+| Cinematisch | cinematic still / cinematic look | filmische Lichtstimmung, dramatischere Komposition |
+| Produktfoto | product photography | sauber, kommerziell, kontrollierter Hintergrund |
+| Comic | comic illustration | klare Konturen, vereinfachte Formen, erzählerisch |
+| Pixar-Stil | Pixar-like 3D animation style | freundlicher hochwertiger 3D-Animationslook, keine konkreten Markenfiguren |
+| Anime | anime illustration | japanisch geprägte Bildsprache, expressive Figuren |
+| Aquarell | watercolor illustration | weich, analog, luftig, pastellig |
+| Ölgemälde | oil painting | malerisch, strukturiert, klassisch |
+| 3D Render | 3D render | modelliert, plastisch, kontrollierte Materialien |
+| Isometrisch | isometric illustration | technische Übersicht, UI-/Prozessdarstellung |
+| Skizze | pencil sketch / line drawing | reduziert, konzeptuell, frühe Entwurfsphase |
+
+**Prompt-Tipp:** Den Bildstil früh im Prompt setzen und mit Licht/Farbe kombinieren: `photorealistic documentary photo, soft window light, muted natural colors` oder `Pixar-like 3D animation style, friendly character design, soft pastel lighting`.
+
 | Deutsch | Englisch | Wirkung |
 |---|---|---|
 | Softbox | softbox lighting | weich, kontrolliert, studioartig |
