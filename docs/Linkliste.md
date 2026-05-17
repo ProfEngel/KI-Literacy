@@ -2,7 +2,7 @@
 type: resource-list
 tags: [ki-vl, education]
 created: 2026-04-16
-updated: 2026-05-07
+updated: 2026-05-17
 project: KI_VL
 ---
 
@@ -11,6 +11,12 @@ project: KI_VL
 Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG und geschlossenen Wissensräumen.
 
 ## 📰 News-Briefings
+
+### News-Briefing 21.05.2026
+- [Marvel Star Evangeline Lilly Slams Disney for "Disgusting" Layoffs, Blames AI (IGN)](https://www.ign.com/articles/marvel-star-evangeline-lilly-slams-disney-for-disgusting-layoffs-blames-ai) - Schauspielerin Evangeline Lilly kritisiert Disney scharf für Massenentlassungen bei Marvel und äußert die Sorge, dass langjährige Künstler durch generative KI ersetzt und ihre Werke ungefragt als Trainingsdaten genutzt werden.
+- [Lucebox Hub Megakernel (GitHub)](https://github.com/Luce-Org/lucebox-hub/tree/main/megakernel) - Ein Open-Source-Projekt von Luce-Org, das einen persistenten CUDA-Megakernel für Qwen 3.5-0.8B implementiert. Durch die Verschmelzung aller 24 Layer in einen einzigen Dispatch werden CPU-zu-GPU-Laufzeit-Overheads eliminiert, was die Energieeffizienz (tok/J) auf Consumer-GPUs massiv steigert.
+- [How Boris Cherny (Head of Claude Code) uses AI to ship 49 features in 2 days (X Post)](https://x.com/eng_khairallah1/status/2052763325105365066) - Ein X-Post, der einen Vortrag von Boris Cherny (Head of Claude Code bei Anthropic) beleuchtet, in dem er zeigt, wie er mithilfe von Claude Code in 2 Tagen 49 komplette Features ausgeliefert hat und seit Monaten keinen Code mehr manuell schreibt.
+- [Local Deep Research (GitHub)](https://github.com/LearningCircuit/local-deep-research) - Ein datenschutzfreundliches, komplett lokales Open-Source-Forschungs-Tool von LearningCircuit. Es ermöglicht strukturierte, agentische Recherchen auf eigener Hardware unter Verwendung von LLMs (wie Qwen via Ollama) ohne Telemetrie.
 
 ### News-Briefing 07.05.2026
 - [How to run agentic 35B models with 8GB VRAM (YouTube)](https://youtu.be/xgspXqUA6Fk?si=pMl8qlUbs1abXxBJ) - Demonstration neuer Methoden, um 35B-Parameter Modelle (wie Qwen 3.6) effizient auf Consumer-Hardware mit nur 8 GB VRAM zu betreiben.
