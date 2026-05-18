@@ -4,6 +4,20 @@ Dieses Dokument ist dein ultimativer Begleiter durch das Modul "Agents Desktop".
 
 ---
 
+## 🌟 Best Practice: Das AI-Ecosystem Engel
+
+Bevor wir in das Setup einsteigen, möchte ich euch mein persönliches KI-Ökosystem vorstellen. Dies dient als Inspiration und "Best Practice" für euren eigenen Workflow. Es zeigt, dass man für unterschiedliche Aufgabenstellungen auch unterschiedliche Werkzeuge benötigt – vom schnellen Cloud-Chatbot bis zum komplett lokalen, autonomen Backend.
+
+![Best Practice: AI Ecosystem Engel](assets/bestpractice_engel.png)
+
+> **🖥️ Factbox: Der Hardware-Backbone (Infrastruktur)**
+> Um ein lokales Ökosystem (wie Trinity und ComfyUI) reibungslos zu betreiben, setze ich auf einen dedizierten Homeserver. 
+> - **System:** Windows 11 Pro, Intel i7 (13. Gen.), 64 GB DDR4 RAM
+> - **GPU 1 (Multimedia):** RTX 4070 (12 GB VRAM) für lokales ComfyUI (Flux2.Klein 9B, LTX 2.3, Acestep 1.5 XL). Generiert Bilder (1536px) in ~40 Sek, Videos in ~7 Sek/4 Min, Songs in ~3 Min/2 Min.
+> - **GPU 2 (Inferenz):** RTX 5060 TI (16 GB VRAM) betreibt aktuell **Gemma 4 26B** (MoE, Agentenfähigkeit, Bilderkennung) mit extrem schnellen ~100 Tokens/Sekunde.
+
+---
+
 # 🛠️ PHASE 1: Setup & Tooling – Dein Agenten-Workspace
 
 Bevor wir komplexe Projekte umsetzen, müssen wir unsere Arbeitsumgebung einrichten. Wir teilen diesen Bereich in zwei Tracks auf. Wähle den Track, der zu deinen Lizenzen und Präferenzen passt.

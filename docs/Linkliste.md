@@ -2,7 +2,7 @@
 type: resource-list
 tags: [ki-vl, education]
 created: 2026-04-16
-updated: 2026-05-17
+updated: 2026-05-18
 project: KI_VL
 ---
 
@@ -17,6 +17,9 @@ Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG u
 - [Lucebox Hub Megakernel (GitHub)](https://github.com/Luce-Org/lucebox-hub/tree/main/megakernel) - Ein Open-Source-Projekt von Luce-Org, das einen persistenten CUDA-Megakernel für Qwen 3.5-0.8B implementiert. Durch die Verschmelzung aller 24 Layer in einen einzigen Dispatch werden CPU-zu-GPU-Laufzeit-Overheads eliminiert, was die Energieeffizienz (tok/J) auf Consumer-GPUs massiv steigert.
 - [How Boris Cherny (Head of Claude Code) uses AI to ship 49 features in 2 days (X Post)](https://x.com/eng_khairallah1/status/2052763325105365066) - Ein X-Post, der einen Vortrag von Boris Cherny (Head of Claude Code bei Anthropic) beleuchtet, in dem er zeigt, wie er mithilfe von Claude Code in 2 Tagen 49 komplette Features ausgeliefert hat und seit Monaten keinen Code mehr manuell schreibt.
 - [Local Deep Research (GitHub)](https://github.com/LearningCircuit/local-deep-research) - Ein datenschutzfreundliches, komplett lokales Open-Source-Forschungs-Tool von LearningCircuit. Es ermöglicht strukturierte, agentische Recherchen auf eigener Hardware unter Verwendung von LLMs (wie Qwen via Ollama) ohne Telemetrie.
+- [System Prompts and Models of AI Tools (GitHub)](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Eine umfassende Sammlung von System-Prompts und Modell-Konfigurationen bekannter KI-Tools und Assistenten, die wertvolle Einblicke in deren Funktionsweise und Sicherheits-Leitplanken bietet.
+- [OpenHuman (GitHub)](https://github.com/tinyhumansai/openhuman) - Ein Open-Source-Projekt von TinyHumans AI, das darauf abzielt, datenschutzfreundliche und lokal ausführbare menschenähnliche Agenten und Interaktions-Schnittstellen bereitzustellen.
+- [Trinity Lecture Assistant (GitHub)](https://github.com/ProfEngel/TrinityLectureAssisitant) - Das offizielle Repository des Trinity Lecture Assistants – ein hochentwickelter, akademischer persönlicher Concierge zur Unterstützung und Echtzeit-Begleitung von Vorlesungen und Lehrveranstaltungen.
 
 ### News-Briefing 07.05.2026
 - [How to run agentic 35B models with 8GB VRAM (YouTube)](https://youtu.be/xgspXqUA6Fk?si=pMl8qlUbs1abXxBJ) - Demonstration neuer Methoden, um 35B-Parameter Modelle (wie Qwen 3.6) effizient auf Consumer-Hardware mit nur 8 GB VRAM zu betreiben.
