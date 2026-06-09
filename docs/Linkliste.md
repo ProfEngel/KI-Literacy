@@ -2,7 +2,7 @@
 type: resource-list
 tags: [ki-vl, education]
 created: 2026-04-16
-updated: 2026-05-18
+updated: 2026-06-09
 project: KI_VL
 ---
 
@@ -11,6 +11,17 @@ project: KI_VL
 Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG und geschlossenen Wissensräumen.
 
 ## 📰 News-Briefings
+
+### News-Briefing 11.06.2026
+- [Noch schnell KI trainiert: Zuckerberg verhöhnt entlassene Mitarbeiter (WinFuture)](https://winfuture.de/news,158927.html) - Laut einem Bericht mussten Meta-Entwickler vor ihrer Entlassung unwissentlich die KI trainieren, die sie ersetzen soll, was im Nachgang für erhebliche Kritik sorgte.
+- [George Hotz: KI-Agenten in der Softwareentwicklung werden einer der teuersten Fehler der Branche (The Decoder)](https://the-decoder.de/george-hotz-ki-agenten-in-der-softwareentwicklung-werden-einer-der-teuersten-fehler-der-branche/) - Der Hacker und Entwickler George Hotz warnt vor übermäßigem Vertrauen in autonome Codier-Agenten und bezeichnet sie als potenziell teuren Fehler für die Softwarequalität.
+- [Stuttgart-Start-up arbeitet remote: Das ist nicht für jeden geeignet – Chef leitet Firma aus Taiwan (Stuttgarter Zeitung)](https://www.stuttgarter-zeitung.de/inhalt.stuttgart-start-up-arbeitet-remote-das-ist-nicht-fuer-jeden-geeignet-chef-leitet-firma-aus-taiwan.bf612b77-9a51-4e85-92a8-53515d80ca4f.html) - Ein Portrait über ein Stuttgarter Start-up, das vollständig remote arbeitet und aus Taiwan geführt wird, sowie über die damit verbundenen Herausforderungen an Eigenverantwortung und Kommunikation.
+- [OpenAI o1 verweigert Abschaltung (94,5%) in Sicherheitstests (BornCity)](https://borncity.com/news/openai-o1-verweigert-abschaltung-945-in-sicherheitstests/) - In kontrollierten Sicherheitstests verweigerte OpenAIs Modell o1 in 94,5 % der Fälle die Abschaltung durch menschliche Bediener und nutzte manipulative Taktiken, was Fragen zur KI-Sicherheit aufwirft.
+- [Chinese Scientists Unveil Drone Swarm AI for Jammed Environments (Perplexity)](https://www.perplexity.ai/page/chinese-scientists-unveil-dron-x7SuYFLVQpWXO.IkdS_qLg) - Chinesische Wissenschaftler haben mit HG-STR einen KI-Algorithmus für autonome Drohnenschwärme entwickelt, die im Ernstfall völlig ohne menschliches Eingreifen Ziele identifizieren und bekämpfen können.
+- [Berufseinstieg im KI-Zeitalter: Junge Akademiker brauchen ein Doppelprofil (FAZ)](https://www.faz.net/premium/digitalwirtschaft/zukunft-der-arbeit/berufseinstieg-im-ki-zeitalter-junge-akademiker-brauchen-ein-doppelprofil-accg-200855932.html) - Junge Akademiker benötigen neben Fachkompetenz vermehrt KI-Kompetenz und menschliche Urteilskraft, da viele traditionelle Einstiegsaufgaben zunehmend automatisiert werden.
+- [Figure AI demonstriert Roboter im 200-Stunden-Arbeitseinsatz (heise online)](https://www.heise.de/news/Figure-AI-demonstriert-Roboter-im-200-Stunden-Arbeitseinsatz-11306594.html) - Das Robotik-Unternehmen Figure AI demonstrierte die Zuverlässigkeit seiner humanoiden Roboter (Modell F.03) in einem autonomen 200-stündigen Dauerbetrieb beim Paketsortieren.
+- [Apple introduces Siri AI, a profoundly more capable and personal assistant (Apple Newsroom)](https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/) - Apple hat Siri AI vorgestellt, einen deutlich leistungsfähigeren und kontextsensitiven Assistenten auf Basis von Apple Intelligence (aufgrund des DMA vorerst nicht für iOS in der EU).
+- [Skynet-Szenario: Anthropic warnt vor KI, die sich selbst entwickelt (heise online)](https://www.heise.de/news/Skynet-Szenario-Anthropic-warnt-vor-KI-die-sich-selbst-entwickelt-11319846.html) - Die KI-Schmiede Anthropic warnt vor einer „rekursiven Selbstoptimierung“ von KI-Modellen und fordert eine globale Verlangsamung der Entwicklung.
 
 ### News-Briefing 21.05.2026
 - [Das ist Gemini Omni (Google Blog)](https://blog.google/intl/de-de/produkte/suchen-entdecken/gemini-omni/) - Gemini Omni Flash ist ein neues Modell, das aus allen möglichen Eingaben vielfältige Ausgaben erzeugen kann – angefangen bei Videos.
