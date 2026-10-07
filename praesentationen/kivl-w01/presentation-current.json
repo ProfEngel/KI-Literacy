@@ -1,0 +1,192 @@
+{
+  "revision": "2026-10-07",
+  "entryFile": "AA_W01_Einstieg.html",
+  "durationMinutes": 180,
+  "slideCount": 30,
+  "template": {
+    "id": "ki-literacy-basics-reference",
+    "name": "KI Literacy Basics – vom Nutzer gewähltes Referenzlayout"
+  },
+  "slides": [
+    {
+      "id": "w01-cover",
+      "title": "KI & Data Science",
+      "time": "00–01",
+      "duration": 0
+    },
+    {
+      "id": "w01-access",
+      "title": "Die Präsentation für Ihren Laptop",
+      "time": "01–03",
+      "duration": 0
+    },
+    {
+      "id": "w01-question",
+      "title": "Wie bauen wir eine nützliche und verlässliche KI-Anwendung?",
+      "time": "03–04",
+      "duration": 0
+    },
+    {
+      "id": "w01-menti",
+      "title": "Wo stehen wir heute?",
+      "time": "04–10",
+      "duration": 0
+    },
+    {
+      "id": "w01-course-rules",
+      "title": "Was Sie für diese Veranstaltung brauchen",
+      "time": "10–16",
+      "duration": 0
+    },
+    {
+      "id": "w01-sei-hier",
+      "title": "Sei hier: Aufmerksamkeit ist Teil der Arbeit",
+      "time": "16–20",
+      "duration": 0
+    },
+    {
+      "id": "w01-expectations",
+      "title": "Warum bin ich hier – was erwarte ich?",
+      "time": "20–35",
+      "duration": 15
+    },
+    {
+      "id": "w01-06",
+      "title": "Unser Semester: zwei eigene Werkstücke",
+      "time": "35–40",
+      "duration": 0
+    },
+    {
+      "id": "w01-rhythm",
+      "title": "Wissen wird durch eigenes Arbeiten nutzbar",
+      "time": "40–43",
+      "duration": 0
+    },
+    {
+      "id": "w01-01",
+      "title": "Mit KI Anwendungen bauen: Arbeit, Wissen, Medien",
+      "time": "43–45",
+      "duration": 0
+    },
+    {
+      "id": "w01-trinity",
+      "title": "TrinityHUB: digitale Arbeit organisieren",
+      "time": "45–51",
+      "duration": 0
+    },
+    {
+      "id": "w01-opentune",
+      "title": "OpenTuneWeaver: aus Dokumenten Lernmaterial machen",
+      "time": "51–56",
+      "duration": 0
+    },
+    {
+      "id": "w01-lichtbruch",
+      "title": "Lichtbruch: eine Idee erhält eine eigene Bild- und Klangwelt",
+      "time": "56–60",
+      "duration": 0
+    },
+    {
+      "id": "w01-agent-experience",
+      "title": "Wo begegnen Ihnen Agenten und ihre Ergebnisse?",
+      "time": "60–75",
+      "duration": 15
+    },
+    {
+      "id": "w01-harness",
+      "title": "Das Modell ist der Motor. Der Harness organisiert die Fahrt.",
+      "time": "75–82",
+      "duration": 0
+    },
+    {
+      "id": "w01-model-choice",
+      "title": "Ein Modell hat mehrere Eigenschaften",
+      "time": "82–87",
+      "duration": 0
+    },
+    {
+      "id": "w01-task-cost",
+      "title": "Entscheidend sind die Kosten des ganzen Auftrags",
+      "time": "87–90",
+      "duration": 0
+    },
+    {
+      "id": "w01-pause",
+      "title": "Pause",
+      "time": "90–105",
+      "duration": 15
+    },
+    {
+      "id": "w01-artificialanalysis",
+      "title": "Artificial Analysis: Qualität und Aufwand gemeinsam betrachten",
+      "time": "105–110",
+      "duration": 0
+    },
+    {
+      "id": "w01-huggingface",
+      "title": "Hugging Face: Modelle und ihre Dokumentation finden",
+      "time": "110–114",
+      "duration": 0
+    },
+    {
+      "id": "w01-profengel",
+      "title": "GitHub: von der Idee zum nachvollziehbaren Projekt",
+      "time": "114–118",
+      "duration": 0
+    },
+    {
+      "id": "w01-desktop-intro",
+      "title": "Jetzt richten wir ChatGPT Desktop gemeinsam ein",
+      "time": "118–120",
+      "duration": 0
+    },
+    {
+      "id": "w01-desktop-exercise",
+      "title": "Ihr erster gemeinsamer Funktionstest",
+      "time": "120–140",
+      "duration": 20
+    },
+    {
+      "id": "w01-projects",
+      "title": "Zwei Projekte – zwei überprüfbare Ergebnisse",
+      "time": "140–144",
+      "duration": 0
+    },
+    {
+      "id": "w01-02",
+      "title": "Ein Angebotsassistent macht Preise vergleichbar",
+      "time": "144–148",
+      "duration": 0
+    },
+    {
+      "id": "w01-project-catalog",
+      "title": "Wo finden Sie Projektideen?",
+      "time": "148–150",
+      "duration": 0
+    },
+    {
+      "id": "w01-project-exercise",
+      "title": "Zu zweit: Ihre erste Projektkarte",
+      "time": "150–170",
+      "duration": 20
+    },
+    {
+      "id": "w01-outlook",
+      "title": "Das werden wir Schritt für Schritt vertiefen",
+      "time": "170–174",
+      "duration": 0
+    },
+    {
+      "id": "w01-bigpicture",
+      "title": "Vom Einstieg zum eigenen Werkstück",
+      "time": "174–178",
+      "duration": 0
+    },
+    {
+      "id": "w01-sources",
+      "title": "Quellenverzeichnis",
+      "time": "178–180",
+      "duration": 0
+    }
+  ]
+}

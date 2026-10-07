@@ -1,103 +1,104 @@
-# KI-Literacy: Begleit-Repository zur Vorlesung & zum Buch
+# KI-Literacy · Vorlesungen, Praxis und Orientierung
 
-Willkommen im offiziellen Repository zum Modul **KI-Literacy**. Dieses Projekt ist weit mehr als eine Anleitung für Large Language Models (LLMs). Es ist ein umfassender Werkzeugkasten für die digitale Souveränität im Zeitalter der Künstlichen Intelligenz. Es dient als zentrale Anlaufstelle für technische Ressourcen, Anleitungen und Laborübungen der Vorlesungsreihe.
+Willkommen im Lehr- und Lernrepository von **Prof. Dr. Mathias Engel**. Hier findest du News-Briefings und Linklisten, HTML-Vorlesungspräsentationen, Begleitmaterial, Projektideen, Übungen, Daten und weiterführende Module rund um KI, Data Science und digitale Inhalte.
 
-Hier lernst du, wie du KI-Systeme verstehst, kontrollierst und unabhängig von großen Cloud-Anbietern in eigene, agentische Ökosysteme integrierst.
+**[Zur Kurs-Website auf GitHub Pages](https://profengel.github.io/KI-Literacy/)** · **[Woche 1: Data Science und KI starten](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w01/AA_W01_Einstieg.html)** · **[News & Linkliste](docs/Linkliste.md)** · **[Projektideen](docs/Projektideen_KI_DataScience_2026.md)**
 
-Dieses Repository dient als:
-1. **Begleitmaterial zur Vorlesung** von Prof. Dr. Mathias Engel.
-2. **Praxis-Plattform für das Buch** "genAI in a Brainshell - KI-Literacy für alle".
-3. **Offene Lernressource** für alle, die KI nicht nur nutzen, sondern tiefgreifend verstehen und lokal beherrschen wollen.
+Die Website zeigt die Präsentationen direkt im Browser. Auf GitHub findest du die Dateien zum Lesen, Herunterladen und Weiterarbeiten. Über **Code → Download ZIP** kannst du das Repository herunterladen; für die HTML-Folien benötigst du keinen Build-Schritt.
 
-> **📰 WICHTIG: [Linkliste & News-Briefings](./docs/Linkliste.md)**  
-> *Hier findest du unsere wöchentlichen News-Updates, spannende Fundstücke sowie interaktive Tools und Benchmarks zum Ausprobieren.*
+## Die Vorlesungen
 
-### 📅 Ausblick 2026
-Das Projekt wird kontinuierlich erweitert. Für **Oktober 2026** ist die Veröffentlichung einer begleitenden **Lehrvideo-Reihe** geplant, die die Konzepte dieses Repositories didaktisch aufbereitet visualisiert.
+| Veranstaltung | Umfang | Worum es geht |
+|---|---|---|
+| **Data Science und KI** | **4 SWS** | KI verstehen, mit Modellen und Werkzeugen arbeiten, eine KI-Anwendung entwickeln und Daten in einem Dashboard erklären. |
+| **HR/WF Analytics** | **4 SWS** | Personal- und Workforce-Fragen mit Daten untersuchen, Kennzahlen interpretieren und Ergebnisse verantwortungsvoll verwenden. |
+| **Digital Content Management** | **4 SWS** | Digitale Inhalte planen, erstellen, prüfen und veröffentlichen; Text, Bild, Audio und Video verbinden. |
+| **Data Science – externer Bachelor** | Externes Bachelorangebot | Daten aufbereiten, explorieren und modellieren sowie Analyseergebnisse verständlich kommunizieren. |
 
----
+Die Materialien werden schrittweise den Veranstaltungen zugeordnet. Bereits veröffentlicht ist der **Woche-1-Einstieg für Data Science und KI**. Weitere Veranstaltungen und Wochen folgen; die vorhandenen Vertiefungsmodule sind bereits nutzbar. Die älteren Bezeichnungen „Tag 01“ bis „Tag 11“ sind Ordnernamen der Materialsammlung und entsprechen **nicht** automatisch der neuen 14-Wochen-Reihenfolge.
 
-## 🎓 Die Lerneinheiten (Der Weg zum KI-Profi)
+## Dein Einstieg
 
-Die Vorlesung ist chronologisch in Module (Tage) gegliedert. Jedes Modul enthält einen **Vorlesungsbegleiter** (Theorie & Lab) sowie ein **Cheat-Sheet** mit den wichtigsten Merksätzen.
+1. **Orientieren:** Öffne die [Kurs-Website](https://profengel.github.io/KI-Literacy/) und die Präsentation deiner Veranstaltung.
+2. **Aktuell bleiben:** Nutze die [Linkliste mit News-Briefings, Fundstücken und Werkzeugen](docs/Linkliste.md).
+3. **Mitmachen:** Für Data Science und KI findest du Vorschläge im [Projektkatalog](docs/Projektideen_KI_DataScience_2026.md). Eigene Ideen sind nach Rücksprache willkommen.
+4. **Vertiefen:** Wähle die passenden Module und Laborbeispiele aus der Übersicht.
+5. **Optional lokal arbeiten:** Nutze die Anleitungen weiter unten. Im Woche-1-Kurseinstieg richten wir gemeinsam ChatGPT Desktop ein.
 
-- **[Tag 01: KI Basics](./modules/Tag01_ki_basics/)** – Evolution, Tokenisierung und das erste Setup.
-- **[Tag 02: Advanced Prompt Engineering](./modules/Tag02_advanced_prompt_engineering/)** – Anatomie des perfekten Prompts & Context Engineering.
-- **[Tag 03 & 04: Agents Desktop](./modules/Tag03_04_agents-desktop/)** – KI in der Profi-Umgebung (VS Code & Antigravity).
-- **[Tag 05: Agents To-Go & n8n](./modules/Tag05_agents-to-go/)** – Agenten für die Hosentasche & Low-Code Automatisierung.
-- **[Tag 06 - 08: Data Science](./modules/Tag06_08_datascience/)** – Datenanalyse mit KI (Orange3 & Python).
-- **[Tag 09: Local Deployment](./modules/Tag09_01_local_deployment/)** – Datensouveränität mit Docker & SearXNG.
-- **[Tag 09: Finetuning](./modules/Tag09_02_finetuning/)** – RAG vs. Finetuning & LoRA-Spezialisierung.
-- **[Tag 10: Ethik & Governance](./modules/Tag10_01_ethik_governance/)** – EU AI Act & Corporate Policies.
-- **[Tag 10: The Dark Side](./modules/Tag10_02_dark_side/)** – Model Collapse, Halluzinationen & Red Teaming.
-- **[Tag 11: Der KI-Hackathon](./modules/Tag11_Hackathon/)** – Das Finale: Alles Erlernte in einer Master-Challenge anwenden.
+## Weiterführende Module
 
-### 🎨 Exkurse: Generative Medien & Systemarchitektur
-Ergänzend zur Hauptvorlesung bieten diese Module vertiefendes Wissen zur Erzeugung von Medien und dem System-Deployment:
-- **[Bilderzeugung](./modules/Exkurs_bilderzeugung/)** | **[Videoerzeugung](./modules/Exkurs_videoerzeugung/)** | **[Songerzeugung](./modules/Exkurs_songerzeugung/)** | **[Design & Branding](./modules/Exkurs_design/)** | **[Deployment & Consulting](./modules/Exkurs_deployment/)**
+Die Sammlung enthält Erklärtexte, Vorlesungsbegleiter, Cheat-Sheets, Bilder und – je nach Modul – Laboraufgaben oder technische Anleitungen.
 
----
+| Modul | Inhalte |
+|---|---|
+| [KI Basics](modules/Tag01_ki_basics/) | Entwicklung der KI, Grundbegriffe, Tokenisierung und Einstieg. |
+| [Advanced Prompt Engineering](modules/Tag02_advanced_prompt_engineering/) | Präzise Aufgaben, Beispiele, Kontext und Ergebnisprüfung. |
+| [Agents Desktop](modules/Tag03_04_agents-desktop/) | Agentenarbeit am Computer, Arbeitsumgebungen und wiederkehrende Abläufe. |
+| [Agents To-Go und n8n](modules/Tag05_agents-to-go/) | Mobile Agenten und Low-Code-Automatisierung. |
+| [Data Science](modules/Tag06_08_datascience/) | Datenhygiene, explorative Analyse, Python, Orange3 und Statistik. |
+| [Lokales Deployment](modules/Tag09_01_local_deployment/) | Lokale Inferenz, Docker, OpenWebUI und Suche. |
+| [Finetuning](modules/Tag09_02_finetuning/) | RAG, Modellanpassung, LoRA und Spezialisierung. |
+| [Ethik und Governance](modules/Tag10_01_ethik_governance/) | Verantwortlicher Einsatz, EU AI Act und organisatorische Regeln. |
+| [Grenzen und Risiken](modules/Tag10_02_dark_side/) | Halluzinationen, Model Collapse und Red Teaming. |
+| [KI-Hackathon](modules/Tag11_Hackathon/) | Wissen und Werkzeuge in einer eigenen Anwendung zusammenführen. |
 
-## 📂 Ressourcen-Übersicht
+**Medien und Gestaltung:** [Bilderzeugung](modules/Exkurs_bilderzeugung/) · [Videoerzeugung](modules/Exkurs_videoerzeugung/) · [Songerzeugung](modules/Exkurs_songerzeugung/) · [Design und Branding](modules/Exkurs_design/) · [Deployment und Consulting](modules/Exkurs_deployment/).
 
-### 📖 Dokumentationen & Guides
-- **[KI-VL-Skript_26.pdf](./docs/KI-VL-Skript_26.pdf)** – Das offizielle Skript zur Vorlesung.
-- **[Nova_Systemprompt.md](./docs/Nova_Systemprompt.md)** – Einblick in die Konfiguration unserer Kurs-KI.
+Einzelne Materialien dokumentieren frühere Werkzeugstände. Prüfe für Installation und Produktfunktionen zusätzlich die aktuelle Anbieterdokumentation. Modellgewichte, Softwarelizenz, Hardwarebedarf und Cloud-Zugriff sind jeweils getrennte Fragen.
 
-### 🧪 Laborübungen & Testdaten
-Im Ordner **[labor_daten/](./labor_daten/)** findest du alles, was du für die Übungen brauchst:
-- **Bilder & Dokumente:** Für Tests der Bilderkennung und Dokument-Analyse (RAG).
-- **Data Science:** CSV-Tabellen für deine ersten Analysen.
-- **[Agents-Demo](./labor_daten/agents_demo/):** Ein fertiges Paket, um einen eigenen Seminararbeit-Assistenten in OpenWebUI zu bauen.
+## Ressourcen-Übersicht
 
----
+- **[HTML-Präsentationen](praesentationen/):** portable Foliensätze mit Bildern, Übungen, Quellen und Dozentenleitfaden. Live-Webseiten und Online-Videos benötigen Internet.
+- **[News-Briefings und Linkliste](docs/Linkliste.md):** Entwicklungen, Benchmarks und praktische Werkzeuge.
+- **[Projektkatalog](docs/Projektideen_KI_DataScience_2026.md):** KI-WebUI-Anwendungen und Data-Science-Dashboards.
+- **[Bisheriges Vorlesungsskript](docs/KI-VL-Skript_26.pdf):** ergänzende Materialbasis.
+- **[Nova-Systemprompt](docs/Nova_Systemprompt.md):** dokumentierter Arbeitsauftrag als Beispiel.
+- **[Labor-Daten](labor_daten/):** Dokumentanalyse, Bilderkennung und Datenanalyse; darunter die [Agents-Demo](labor_daten/agents_demo/).
+- **[Deployment-Dateien](deployment/):** Docker-Compose-Labor mit OpenWebUI, Jupyter und SearXNG.
+- **[Modulsammlung](modules/):** vertiefende Erklärungen, Anleitungen und Übungen.
 
-## 🛠️ Schritt-für-Schritt: Die Technik starten (Schnellstart)
+## Schritt für Schritt: lokale KI selbst einrichten
 
-Keine Sorge, du musst kein Informatiker sein, um unsere lokale KI-Umgebung zu nutzen. Wir verwenden **Docker**, ein Programm, das alle notwendigen Tools (OpenWebUI, Suche, Code-Interpreter) automatisch in einem "virtuellen Container" für dich startet.
+Wähle zunächst **einen** Weg. Der Hardwarebedarf hängt von Modell, Quantisierung, Kontext und parallelen Anfragen ab. Eine bestimmte RAM- oder GPU-Zahl garantiert keine ausreichende Geschwindigkeit. Beginne mit einem zu deinem Gerät passenden Modell und einem kleinen Testauftrag.
 
-### 💻 System-Voraussetzungen
-Bevor du startest, prüfe kurz deine Hardware. Je nachdem, wie du die KI nutzen möchtest, variieren die Anforderungen:
+### A · Ollama
 
-*   **Option A: Cloud-Hybrid (Empfohlen für Einsteiger)**
-    *   *Nutzung:* Du lässt die Rechenarbeit auf Servern (z.B. OpenRouter oder Ollama Cloud API) erledigen.
-    *   *Hardware:* Jeder moderne Laptop/PC (ab 8 GB RAM) reicht aus. Docker benötigt hier nur minimale Ressourcen für die Benutzeroberfläche.
-*   **Option B: Voll-Lokal (Datensouveränität pur)**
-    *   *Nutzung:* Die KI-Modelle (LLMs) laufen direkt auf deinem eigenen Computer.
-    *   *Hardware:* 
-        *   **Mac:** Apple Silicon (M1/M2/M3) mit min. 16 GB RAM (besser 32 GB+).
-        *   **Windows/Linux:** Min. 16 GB RAM + eine dedizierte Grafikkarte (NVIDIA RTX mit min. 8 GB VRAM empfohlen).
-*   **Option C: High-End (Profi- & Enterprise-Setup)**
-    *   *Einsatz:* Bereitstellung von KI-Diensten für Teams und ganze Organisationen via **vLLM** und quantisierten MoE-Modellen (z.B. Qwen 2.5 35B MoE).
-    *   *Skalierungs-Klassen:*
-        *   **1-10 Nutzer:** Dedizierter Linux-Server mit 1x NVIDIA RTX 6000 Ada oder RTX L40S.
-        *   **10-30 Nutzer:** Server mit 2x NVIDIA RTX 5000/6000 Ada.
-        *   **30-100 Nutzer:** Enterprise-Setup (z.B. XEON-Server mit 4x NVIDIA RTX 5000 Ada, Kostenpunkt ca. 40.000 €). Dieses Setup erlaubt den parallelen Betrieb mächtiger Modelle für eine gesamte Abteilung.
+1. Installiere [Ollama für dein Betriebssystem](https://ollama.com/download).
+2. Wähle ein Modell aus der [Modellbibliothek](https://ollama.com/library). Prüfe Größe, Lizenz und Anforderungen.
+3. Für den Terminalweg: `ollama run <modellname>`; ersetze den Platzhalter durch den tatsächlichen Namen.
+4. Stelle eine kurze Testfrage und prüfe Antwort, Geschwindigkeit und Ressourcenverbrauch.
+5. Für weitere Oberflächen und Schnittstellen nutze die [offizielle Dokumentation](https://docs.ollama.com/).
 
-### 1. Vorbereitung (Einmalig)
-1. **Docker Desktop installieren:** Lade dir [Docker Desktop](https://www.docker.com/products/docker-desktop/) herunter und installiere es wie jedes andere Programm.
-2. **Docker starten:** Öffne Docker Desktop. Warte, bis das kleine Symbol unten links **grün** leuchtet ("Engine Running").
+### B · LM Studio
 
-### 2. Die Umgebung starten
-1. **Ordner öffnen:** Lade dieses Repository (als ZIP) herunter und entpacke es.
-2. **Terminal öffnen:** 
-   - **Windows:** Drücke die `Windows-Taste`, tippe `cmd` ein und drücke Enter.
-   - **Mac:** Drücke `CMD + Leertaste`, tippe `Terminal` ein und drücke Enter.
-3. **In den Ordner navigieren:** Tippe `cd ` (mit einem Leerzeichen am Ende) und ziehe den entpackten Ordner `deployment` einfach mit der Maus in das schwarze Fenster. Drücke Enter.
-4. **Befehl ausführen:** Kopiere diesen Befehl, füge ihn im Terminal ein und drücke Enter:
-   ```bash
-   docker-compose up -d
-   ```
-   *Hinweis: Beim ersten Mal dauert es ein paar Minuten, da die Programme heruntergeladen werden.*
+1. Installiere [LM Studio](https://lmstudio.ai/).
+2. Suche in der App ein kompatibles Modell und lade es herunter. Beachte Lizenz und Arbeitsspeicher.
+3. Lade das Modell in den Chat und bearbeite denselben Testauftrag wie bei Ollama.
+4. Für andere Programme: aktiviere bei Bedarf den lokalen Server und notiere die angezeigte Adresse.
+5. Nutze die [LM-Studio-Dokumentation](https://lmstudio.ai/docs/app) für Einrichtung und Schnittstellen.
 
-### 3. Loslegen!
-Sobald der Befehl fertig ist, kannst du die Tools in deinem Browser (Chrome/Edge/Safari) öffnen:
-- **OpenWebUI (Dein ChatGPT-Ersatz):** [http://localhost:3000](http://localhost:3000)
-- **Code-Interpreter (Jupyter):** [http://localhost:3005](http://localhost:3005)
-- **Lokale Suche (SearXNG):** [http://localhost:3010](http://localhost:3010)
+### C · vLLM
 
-Detaillierte Hilfe findest du im **[Deployment_Guide.md](./deployment/Deployment_Guide.md)**.
+Dieser Weg richtet sich an technisch erfahrene Lernende und Serverbetreiber.
 
----
-[[Projekt_KI_VL]]
+1. Prüfe Plattform, Beschleuniger und Installationsweg im [offiziellen Quickstart](https://docs.vllm.ai/en/latest/getting_started/quickstart/).
+2. Lege eine getrennte Python-Umgebung an und installiere die dafür vorgesehene vLLM-Version.
+3. Starte einen Testdienst mit `vllm serve <modell-id>`; verwende eine tatsächlich unterstützte Modell-ID.
+4. Prüfe lokal mit einem einfachen Auftrag, bevor du Parallelität und Kontext erhöhst.
+5. Dokumentiere für einen Teamdienst Zugänge, Modellversion, Limits und Messwerte.
 
+### D · Vorhandenes Docker-Labor
+
+1. Installiere und starte [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+2. Lade dieses Repository herunter und öffne ein Terminal im Ordner `deployment`.
+3. Prüfe die Konfiguration und starte sie mit `docker compose up -d`.
+4. Öffne OpenWebUI unter `http://localhost:3000`, Jupyter unter `http://localhost:3005` und SearXNG unter `http://localhost:3010`.
+5. Die Anmeldung für Jupyter und die Anbindung eines Modellservers entnimmst du der Konfiguration und dem [Deployment-Guide](deployment/Deployment_Guide.md). Ein gestartetes OpenWebUI enthält noch nicht automatisch ein Sprachmodell.
+
+## Begleitbücher und bisherige Materialien
+
+Das Repository ergänzt die Bucharbeit **„KI & Data Science – AI in a Brainshell“** mit Beispielen, Daten, Modulen und Werkzeughinweisen. Geplant sind ein KI-&-Data-Science-Vorlesungsbegleiter, ein eigener Begleiter für Digital Content Management und später ein umfassenderes KI-Fachbuch. Die Manuskripte befinden sich in Arbeit; dieses Repository enthält derzeit Begleitmaterial und das bisherige Skript, keine zugesicherte vollständige Buchausgabe.
+
+Die bestehenden Daten, Module und Installationsanleitungen bleiben als Vertiefungsbestand erhalten. Der Einstieg erfolgt über die Veranstaltungen, die Kurs-Website und die Präsentationen.
+
+Prof. Dr. Mathias Engel · Stand: **7. Oktober 2026**

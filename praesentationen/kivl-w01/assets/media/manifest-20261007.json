@@ -1,0 +1,155 @@
+{
+  "revision": "2026-10-07",
+  "assets": [
+    {
+      "file": "slide-01-human-ai-hero-kie.png",
+      "sha256": "fcf5d721886fa422444a0bb8093478bb7039eba58e60259ad67006e44c4376dc",
+      "slideIds": [
+        "w01-cover"
+      ],
+      "inspection": "Am 07.10.2026 tatsächlich geöffnet bzw. QR-Code technisch geprüft; vollständig und unverzerrt darstellen.",
+      "type": "author/reference asset",
+      "source": "KI Literacy Basics",
+      "license": "Vom Lehrenden bereitgestellte Vortragsmedien; HFWU-Logo als institutionelle Kennzeichnung"
+    },
+    {
+      "file": "hfwu_logo.png",
+      "sha256": "be564f01fdf5bd5163e877c0bf40950203b8715458b84afa08649bd1073f1590",
+      "slideIds": [
+        "w01-cover"
+      ],
+      "inspection": "Am 07.10.2026 tatsächlich geöffnet bzw. QR-Code technisch geprüft; vollständig und unverzerrt darstellen.",
+      "type": "author/reference asset",
+      "source": "KI Literacy Basics",
+      "license": "Vom Lehrenden bereitgestellte Vortragsmedien; HFWU-Logo als institutionelle Kennzeichnung"
+    },
+    {
+      "file": "qr-presentation-20261007.png",
+      "sha256": "5e4613febe660bb2f211d8267f063d0030dc7679dab42a6684a00ac810207878",
+      "slideIds": [
+        "w01-access"
+      ],
+      "inspection": "Am 07.10.2026 tatsächlich geöffnet bzw. QR-Code technisch geprüft; vollständig und unverzerrt darstellen.",
+      "type": "generated QR",
+      "payload": "https://profengel.github.io/KI-Literacy/praesentationen/kivl-w01/AA_W01_Einstieg.html",
+      "license": "Technisch erzeugter QR-Code"
+    },
+    {
+      "file": "qr-repository-20261007.png",
+      "sha256": "26ef5ebc7a73fb50f4703528d5c80e113000c255ef422796847ef00676a600fc",
+      "slideIds": [
+        "w01-access"
+      ],
+      "inspection": "Am 07.10.2026 tatsächlich geöffnet bzw. QR-Code technisch geprüft; vollständig und unverzerrt darstellen.",
+      "type": "generated QR",
+      "payload": "https://github.com/ProfEngel/KI-Literacy",
+      "license": "Technisch erzeugter QR-Code"
+    },
+    {
+      "file": "lichtbruch-band.png",
+      "sha256": "306e6affd916927f0f4b3e53b17f5552ebd27eda44d0f6c223a3116dadd6c088",
+      "slideIds": [
+        "w01-sei-hier",
+        "w01-lichtbruch"
+      ],
+      "inspection": "Am 07.10.2026 tatsächlich geöffnet bzw. QR-Code technisch geprüft; vollständig und unverzerrt darstellen.",
+      "type": "author/reference asset",
+      "source": "Vorhandenes Projektmedium des Lehrenden",
+      "license": "Vom Lehrenden bereitgestellte Vortragsmedien; HFWU-Logo als institutionelle Kennzeichnung"
+    },
+    {
+      "file": "trinity-public-preview.png",
+      "sha256": "379983793089a93ab91d0005ad07c5b0c81443bae289e5e5dc880b403dee4358",
+      "slideIds": [
+        "w01-trinity"
+      ],
+      "inspection": "Am 07.10.2026 tatsächlich geöffnet bzw. QR-Code technisch geprüft; vollständig und unverzerrt darstellen.",
+      "type": "public webpage capture",
+      "date": "2026-10-07",
+      "license": "Quellengebundene didaktische Webseitenvorschau; keine Eigentumsbehauptung",
+      "source": "https://profengel.github.io/trinity-hub/"
+    },
+    {
+      "file": "otw-pipeline.png",
+      "sha256": "27f6987270b9e653038203a21c0c4a11f84e4931121779e24fb3e59d389aab6e",
+      "slideIds": [
+        "w01-opentune"
+      ],
+      "inspection": "Am 07.10.2026 tatsächlich geöffnet bzw. QR-Code technisch geprüft; vollständig und unverzerrt darstellen.",
+      "type": "author/reference asset",
+      "source": "Vorhandenes Projektmedium des Lehrenden",
+      "license": "Vom Lehrenden bereitgestellte Vortragsmedien; HFWU-Logo als institutionelle Kennzeichnung"
+    },
+    {
+      "file": "harness-20261007.png",
+      "sha256": "1d83e95b5e852c7d72114cee4f59e01206dfa97d59d554b81349b7bf6e200c1b",
+      "slideIds": [
+        "w01-harness"
+      ],
+      "inspection": "Am 07.10.2026 tatsächlich geöffnet bzw. QR-Code technisch geprüft; vollständig und unverzerrt darstellen.",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "promptFile": "../prompts/revision-20261007.json",
+      "promptKey": "harness-20261007",
+      "inputs": [],
+      "license": "KI-generierte didaktische Abbildung; keine fremde empirische Grafik",
+      "type": "generated metaphor"
+    },
+    {
+      "file": "artificialanalysis-preview.png",
+      "sha256": "b28793362f9025f0b15c22c842c7bdb80f932adfa53d2e9557fa7fdae25cde6b",
+      "slideIds": [
+        "w01-artificialanalysis"
+      ],
+      "inspection": "Am 07.10.2026 tatsächlich geöffnet bzw. QR-Code technisch geprüft; vollständig und unverzerrt darstellen.",
+      "type": "public webpage capture",
+      "date": "2026-10-07",
+      "license": "Quellengebundene didaktische Webseitenvorschau; keine Eigentumsbehauptung",
+      "source": "https://artificialanalysis.ai/"
+    },
+    {
+      "file": "huggingface-preview.png",
+      "sha256": "c5b78510ac2476517e5ff6eca71446eff2221744df7911be20b6cc8aaa67f163",
+      "slideIds": [
+        "w01-huggingface"
+      ],
+      "inspection": "Am 07.10.2026 tatsächlich geöffnet bzw. QR-Code technisch geprüft; vollständig und unverzerrt darstellen.",
+      "type": "public webpage capture",
+      "date": "2026-10-07",
+      "license": "Quellengebundene didaktische Webseitenvorschau; keine Eigentumsbehauptung",
+      "source": "https://huggingface.co/models"
+    },
+    {
+      "file": "profengel-preview.png",
+      "sha256": "83434be2a38bd346b0436e9ceba8c76bcd79dcc4e0bb89be987c4e084bf80cb4",
+      "slideIds": [
+        "w01-profengel"
+      ],
+      "inspection": "Am 07.10.2026 tatsächlich geöffnet bzw. QR-Code technisch geprüft; vollständig und unverzerrt darstellen.",
+      "type": "public webpage capture",
+      "date": "2026-10-07",
+      "license": "Quellengebundene didaktische Webseitenvorschau; keine Eigentumsbehauptung",
+      "source": "https://github.com/ProfEngel"
+    },
+    {
+      "file": "bigpicture-v2-20261007.png",
+      "sha256": "8e2b390892d3124cbf102751d69046db75c0adf7012a63907a011eeb0709f8bb",
+      "slideIds": [
+        "w01-bigpicture"
+      ],
+      "inspection": "Am 07.10.2026 tatsächlich geöffnet bzw. QR-Code technisch geprüft; vollständig und unverzerrt darstellen.",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "promptFile": "../prompts/revision-20261007.json",
+      "promptKey": "bigpicture-v2-20261007",
+      "inputs": [],
+      "license": "KI-generierte didaktische Abbildung; keine fremde empirische Grafik",
+      "type": "generated metaphor"
+    }
+  ],
+  "rejected": [
+    "bigpicture-20261007.png: fehlerhafte Labels, nicht verwendet",
+    "trinity-hub.jpeg: private Sitzungsnamen, nur lokales Backup",
+    "2026-06-29_spezialisten_grosse_kleine_llm.jpg: pauschale Größen-/Spezialisten-Zuordnung, nicht verwendet"
+  ]
+}

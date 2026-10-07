@@ -1,0 +1,18 @@
+{
+  "title": "KI & Data Science – Woche 1",
+  "template": {
+    "id": "ki-literacy-basics-reference",
+    "name": "KI Literacy Basics – vom Nutzer gewähltes Referenzlayout"
+  },
+  "status": "revised_20261007",
+  "language": "de",
+  "durationMinutes": 180,
+  "knowledgeMinutes": 75,
+  "exerciseMinutes": 75,
+  "breakMinutes": 15,
+  "closingMinutes": 15,
+  "slidesPlanned": 30,
+  "format": "16:9 HTML, offline mit optionalen Online-Einbettungen",
+  "visualDirection": "Bildstarker Referenzaufbau KI Literacy Basics; reale öffentliche Projektansichten und neu generierte didaktische Metaphern",
+  "integration": "Erster Abschnitt einer einzigen Semesterpräsentation; IDs w01-*"
+}

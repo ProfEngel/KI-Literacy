@@ -1,0 +1,271 @@
+[
+  {
+    "id": "K1",
+    "author": "Prof. Dr. Mathias Engel",
+    "title": "Modulplan KI & Data Science, 14 Wochen",
+    "url": "kursplan.html",
+    "type": "curriculum",
+    "evidence": "Vorgegebener Kursplan",
+    "claim": "Semesterfolge, Projekte in W07/W13, Feedback W14.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-access",
+      "w01-06",
+      "w01-profengel",
+      "w01-projects",
+      "w01-outlook",
+      "w01-bigpicture"
+    ]
+  },
+  {
+    "id": "K2",
+    "author": "Prof. Dr. Mathias Engel",
+    "title": "Bestätigter Änderungsauftrag für Woche 1 vom 07.10.2026",
+    "url": "kursregeln.md",
+    "type": "course instructions",
+    "evidence": "Direkte Vorgaben des Lehrenden",
+    "claim": "Anwesenheit, Computer, ChatGPT-Abo, vier Übungen und Zweiergruppen.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-menti",
+      "w01-course-rules",
+      "w01-expectations",
+      "w01-rhythm",
+      "w01-agent-experience",
+      "w01-pause",
+      "w01-desktop-exercise",
+      "w01-projects",
+      "w01-project-catalog",
+      "w01-project-exercise",
+      "w01-outlook",
+      "w01-bigpicture"
+    ]
+  },
+  {
+    "id": "K3",
+    "author": "Prof. Dr. Mathias Engel",
+    "title": "Projektideen für KI-Anwendungen und Data-Science-Dashboards",
+    "url": "../projektideen.html",
+    "type": "project catalog",
+    "evidence": "Projektideen; keine zugesicherten Datensätze",
+    "claim": "Auswahlideen und erste Projektkarte.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-project-catalog",
+      "w01-project-exercise"
+    ]
+  },
+  {
+    "id": "A1",
+    "author": "Artificial Analysis",
+    "title": "Model & API analysis; methodology and cost per task",
+    "url": "https://artificialanalysis.ai/",
+    "type": "benchmark documentation",
+    "evidence": "Aktuell geöffnete Primärquelle des Benchmark-Anbieters",
+    "claim": "Orientierung über Qualität, Offenheit, Tokenverbrauch und Kosten; keine universelle Rangfolge.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-model-choice",
+      "w01-task-cost",
+      "w01-artificialanalysis"
+    ]
+  },
+  {
+    "id": "H1",
+    "author": "Hugging Face",
+    "title": "Models – task filters and model cards",
+    "url": "https://huggingface.co/models",
+    "type": "model directory",
+    "evidence": "Aktuell geöffnete Anbieterquelle",
+    "claim": "Modellsuche und Verweis auf Modellkarten; Lizenz und Eignung gesondert prüfen.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-model-choice",
+      "w01-huggingface"
+    ]
+  },
+  {
+    "id": "G1",
+    "author": "ProfEngel / GitHub",
+    "title": "Öffentliches Profil ProfEngel",
+    "url": "https://github.com/ProfEngel",
+    "type": "project directory",
+    "evidence": "Öffentliches Profil; Screenshot geprüft",
+    "claim": "Eigene Projekte und öffentliche Materialsammlung.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-profengel"
+    ]
+  },
+  {
+    "id": "O1",
+    "author": "OpenAI",
+    "title": "ChatGPT desktop app",
+    "url": "https://learn.chatgpt.com/docs/app",
+    "type": "official documentation",
+    "evidence": "Aktuell geöffnete offizielle Dokumentation",
+    "claim": "Installation und Nutzung der Desktop-App; kontobezogene Verfügbarkeit vor Ort prüfen.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-harness",
+      "w01-desktop-intro",
+      "w01-desktop-exercise"
+    ]
+  },
+  {
+    "id": "O2",
+    "author": "OpenAI",
+    "title": "ChatGPT Settings",
+    "url": "https://learn.chatgpt.com/docs/reference/settings",
+    "type": "official documentation",
+    "evidence": "Aktuell geöffnete offizielle Dokumentation",
+    "claim": "Einstellungen und Personalisierung; Menüfolge kann sich ändern.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-desktop-intro",
+      "w01-desktop-exercise"
+    ]
+  },
+  {
+    "id": "R1",
+    "author": "ProfEngel",
+    "title": "TrinityHUB, öffentliches README v0.14.0 und Projektseite",
+    "url": "https://github.com/ProfEngel/trinity-hub",
+    "type": "project documentation",
+    "evidence": "Öffentliches README erneut gelesen; kein unabhängiger Leistungstest",
+    "claim": "Organisation von Modellen, Werkzeugen, Worker- und Werkstattabläufen.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-01",
+      "w01-trinity",
+      "w01-harness"
+    ]
+  },
+  {
+    "id": "R2",
+    "author": "ProfEngel",
+    "title": "OpenTuneWeaver, öffentliches README",
+    "url": "https://github.com/ProfEngel/OpenTuneWeaver",
+    "type": "project documentation",
+    "evidence": "README erneut gelesen und vorhandener Screenshot visuell geprüft",
+    "claim": "Dokumentpipeline, strukturierte Inhalte und QA-Datensätze.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-01",
+      "w01-opentune"
+    ]
+  },
+  {
+    "id": "R3",
+    "author": "Lichtbruch / Mathias Engel",
+    "title": "Lichtbruch – Sei hier; vorhandenes Bandmotiv",
+    "url": "https://www.youtube.com/watch?v=_oQWLZ5w0sY",
+    "type": "author media",
+    "evidence": "Vom Lehrenden angegebene Medienquelle; keine externe Wirkungsmessung",
+    "claim": "Musikalischer Impuls und Beispiel gestalterischer Produktion.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-sei-hier",
+      "w01-01",
+      "w01-lichtbruch"
+    ]
+  },
+  {
+    "id": "Y1",
+    "author": "Google / YouTube",
+    "title": "YouTube embedded players and player parameters",
+    "url": "https://developers.google.com/youtube/player_parameters",
+    "type": "official documentation",
+    "evidence": "Aktuell geöffnete technische Dokumentation",
+    "claim": "iframe-Einbettung mit Controls ohne Autoplay; Abspielbarkeit vom Anbieter abhängig.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-sei-hier"
+    ]
+  },
+  {
+    "id": "E1",
+    "author": "Redaktion / Lehrender",
+    "title": "Frei gewählte Lehrbeispiele: Angebote und Auftragskosten",
+    "url": "lehrbeispiele.md",
+    "type": "synthetic examples",
+    "evidence": "Rechnungen erneut deterministisch geprüft",
+    "claim": "2.220 € gegenüber 2.130 €; 0,0123 $ gegenüber 0,0080 $. Keine realen Anbieterpreise.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-task-cost",
+      "w01-02"
+    ]
+  },
+  {
+    "id": "M1",
+    "author": "Präsentation KI Literacy Basics / Lehrender",
+    "title": "Titelmotiv und HFWU-Logo aus der Referenz",
+    "url": "mediennachweis.html",
+    "type": "reference visuals",
+    "evidence": "Tatsächlich als Bild geöffnet; illustration, keine Kursaufnahme",
+    "claim": "Gestaltungsreferenz für den bildstarken Einstieg.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-cover"
+    ]
+  },
+  {
+    "id": "M2",
+    "author": "Lehrender / eigene Projekte",
+    "title": "Vorhandene OpenTuneWeaver- und Lichtbruch-Medien",
+    "url": "mediennachweis.html",
+    "type": "author visuals",
+    "evidence": "Tatsächlich als Bilder geöffnet; Quelle im Medienmanifest",
+    "claim": "Konkrete Projektansichten ohne erfundene Erfolgsmesswerte.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-opentune",
+      "w01-lichtbruch"
+    ]
+  },
+  {
+    "id": "M3",
+    "author": "Kie.ai / Nano Banana 2",
+    "title": "Harness-Metapher und Big-Picture-Lernlandkarte",
+    "url": "mediennachweis.html",
+    "type": "AI illustration",
+    "evidence": "KI-generierte didaktische Metaphern; visuell geprüft",
+    "claim": "Bildhafte Synthese der erklärten Lernstationen, keine empirischen Daten.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-harness",
+      "w01-bigpicture"
+    ]
+  },
+  {
+    "id": "V1",
+    "author": "Ollama / LM Studio / vLLM",
+    "title": "Offizielle Einstiegspunkte für lokale Inferenz",
+    "url": "https://docs.vllm.ai/en/latest/getting_started/quickstart/",
+    "type": "official documentation",
+    "evidence": "Aktuelle Anbieterquellen geprüft",
+    "claim": "Lokale Ausführung hängt von Modell, Plattform und Arbeitslast ab; lokale Vertiefung im README.",
+    "year": "2026",
+    "accessed": "2026-10-07",
+    "slideIds": [
+      "w01-model-choice"
+    ]
+  }
+]
