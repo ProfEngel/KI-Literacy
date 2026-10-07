@@ -2,7 +2,7 @@
 type: resource-list
 tags: [ki-vl, education]
 created: 2026-04-16
-updated: 2026-06-09
+updated: 2026-10-07
 project: KI_VL
 ---
 
@@ -11,6 +11,38 @@ project: KI_VL
 Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG und geschlossenen Wissensräumen.
 
 ## 📰 News-Briefings
+
+### News-Briefing 08.10.2026
+
+*Ausgabe für den Lehrtermin am 8. Oktober · Quellenprüfung: 07.10.2026. Das Briefing bündelt aktuelle Entwicklungen und weiterhin relevante Beiträge; die Quelldaten stehen bei den einzelnen Meldungen.*
+
+#### 1. Mistral Large 4: europäisches Spitzenmodell – offene Gewichte noch angekündigt
+
+[The Decoder, 06.10.2026](https://the-decoder.de/mistral-large-4-soll-das-staerkste-offene-ki-modell-aus-europa-und-den-usa-sein/) berichtet über die öffentliche Vorschau von Mistral Large 4. Mistral beschreibt ein multimodales Mixture-of-Experts-Modell mit rund einer Billion Parametern und beansprucht die Spitzenposition unter Open-Weight-Modellen aus Europa und den USA. **Das ist eine Anbieterbehauptung mit regionaler Eingrenzung, kein allgemeiner Weltranglistenplatz.** Die API-Vorschau ist verfügbar; die Veröffentlichung der Gewichte ist erst für Ende Oktober angekündigt. Lizenzbedingungen und tatsächliche lokale Nutzbarkeit sind deshalb vor einem Einsatz erneut zu prüfen. [Primärquelle: Mistrals Ankündigung](https://mistral.ai/news/mistral-large-4/), [Modelldokumentation](https://docs.mistral.ai/models/mistral-large-4-0).
+
+**Für die Vorlesung:** Modellqualität, offene Gewichte, Lizenz und Betriebsort sind getrennte Auswahlfragen. Auch ein offenes Modell benötigt passende Infrastruktur und einen Test am eigenen Anwendungsfall.
+
+#### 2. KI vor dem UN-Sicherheitsrat: Sicherheitswarnungen und Interessen der Anbieter
+
+[tagesschau, 24.09.2026](https://www.tagesschau.de/ausland/amerika/ki-un-sicherheitsrat-100.html) berichtet über die Warnungen von Sam Altman und Dario Amodei vor Kontrollverlust, Machtkonzentration und Missbrauch von KI. Beide bieten eine Zusammenarbeit bei stärkerer Regulierung an; der Beitrag nennt unter anderem internationale Sicherheitsstandards und ein Meldesystem für schwerwiegende KI-Vorfälle. Er thematisiert zugleich das Interesse der Unternehmen, solche Regeln mitzugestalten. **Berichtet werden Warnungen und politische Forderungen – keine bereits beschlossene weltweite KI-Regulierung.** Der September-Beitrag bleibt als Hintergrund für die Sitzung am 8. Oktober relevant.
+
+**Für die Vorlesung:** Wer legt Sicherheitsmaßstäbe fest, wer prüft sie unabhängig und wer trägt Verantwortung? Warnungen ernst nehmen, aber Prognosen, belegte Vorfälle und wirtschaftliche Interessen auseinanderhalten.
+
+#### 3. Laya versus Jev: kleine Entscheidungsmodelle statt freier Textgenerierung
+
+[Vishal Mysore auf DEV Community, 26.09.2026](https://dev.to/vishalmysore/what-is-laya-laya-vs-jev-with-live-demo-4j6e) stellt Laya und die proprietäre Jev-API gegenüber. Laya beantwortet vorgegebene Auswahl-, Skalen- und Ja/Nein-Fragen mit Modellwahrscheinlichkeiten, statt einen freien Antworttext zu erzeugen. Der englische Checkpoint umfasst 421 Millionen Parameter; die Gewichte stehen unter Apache-2.0. Eine [Browser-Demo mit spezialisierten Entscheidungsköpfen](https://vishalmysore.github.io/layaMOE/) zeigt das Prinzip. [Primärquelle: Laya-Modellkarte](https://huggingface.co/convaiinnovations/laya), [Demo-Code](https://github.com/vishalmysore/layaMOE).
+
+**Einordnung:** Eine hohe Modellkonfidenz garantiert keine richtige Entscheidung. Domänenanpassung und Kalibrierung müssen auf eigenen Testdaten geprüft werden; die Demo ist ein Autorenexperiment, kein Produktionsnachweis. Laya ist zudem ein gelerntes Modell, **kein deterministisches Regelwerk**.
+
+**Für die Vorlesung:** Nicht jeder Arbeitsschritt benötigt ein großes generatives LLM. Ein kleines Modell kann beispielsweise ein Supportticket zuordnen; anschließend entscheiden nachvollziehbare Regeln über Zuständigkeit und menschliche Freigabe. Das passt zur Arbeitsteilung spezialisierter Worker und Werkstätten.
+
+#### 4. FLUX 3 Image: Bildaufbau gezielt steuern
+
+[Black Forest Labs: FLUX 3 Image](https://bfl.ai/models/flux-3-image) stellt die Kontrolle über die Bildkomposition in den Mittelpunkt. Nach Anbieterangaben können Elemente über beschriebene Begrenzungsrechtecke (*Bounding Boxes*) positioniert und anschließend gezielt bearbeitet werden. Die Seite zeigt außerdem Text-to-Image, Referenzbilder und native 4K-Ausgabe. Zugang erfolgt über Playground und API; für eigenen Betrieb wird eine kommerzielle Gewichts-Lizenz angeboten. **Die Produktseite ist eine Primärquelle für Anbieterangaben, aber kein unabhängiger Qualitätsvergleich.** Ein Veröffentlichungsdatum ist dort nicht ausgewiesen; geprüft am 07.10.2026.
+
+**Für die Vorlesung:** Interessant für Digital Content Management und die Gestaltung von Lehrgrafiken: erst die Anordnung planen, dann Inhalte erzeugen und einzelne Bereiche überarbeiten. Textlesbarkeit, fachliche Richtigkeit und die Einhaltung des gewünschten Layouts bleiben zu prüfen; Lizenz und Nutzungskosten gehören ebenfalls zum Briefing.
+
+**Gemeinsame Leitfrage:** Welche Aufgaben lösen große Modelle, welche kleine Spezialisten oder feste Werkzeuge – und wie behalten wir die Kontrolle über das Ergebnis?
 
 ### News-Briefing 11.06.2026
 - [Noch schnell KI trainiert: Zuckerberg verhöhnt entlassene Mitarbeiter (WinFuture)](https://winfuture.de/news,158927.html) - Laut einem Bericht mussten Meta-Entwickler vor ihrer Entlassung unwissentlich die KI trainieren, die sie ersetzen soll, was im Nachgang für erhebliche Kritik sorgte.
