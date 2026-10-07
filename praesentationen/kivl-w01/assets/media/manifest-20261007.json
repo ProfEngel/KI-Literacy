@@ -61,6 +61,7 @@
       "file": "trinity-public-preview.png",
       "sha256": "379983793089a93ab91d0005ad07c5b0c81443bae289e5e5dc880b403dee4358",
       "slideIds": [
+        "w01-01",
         "w01-trinity"
       ],
       "inspection": "Am 07.10.2026 tatsächlich geöffnet bzw. QR-Code technisch geprüft; vollständig und unverzerrt darstellen.",
@@ -73,12 +74,25 @@
       "file": "otw-pipeline.png",
       "sha256": "27f6987270b9e653038203a21c0c4a11f84e4931121779e24fb3e59d389aab6e",
       "slideIds": [
+        "w01-01",
         "w01-opentune"
       ],
       "inspection": "Am 07.10.2026 tatsächlich geöffnet bzw. QR-Code technisch geprüft; vollständig und unverzerrt darstellen.",
       "type": "author/reference asset",
       "source": "Vorhandenes Projektmedium des Lehrenden",
       "license": "Vom Lehrenden bereitgestellte Vortragsmedien; HFWU-Logo als institutionelle Kennzeichnung"
+    },
+    {
+      "file": "lichtbruch-video-preview.png",
+      "sha256": "026e14859a0c1c2f3d90ffc82299e38e51a3b94712db75f81c8e385b3a845697",
+      "slideIds": [
+        "w01-01"
+      ],
+      "inspection": "Am 07.10.2026 tatsächlich geöffnet bzw. QR-Code technisch geprüft; vollständig und unverzerrt darstellen.",
+      "type": "public webpage capture",
+      "date": "2026-10-07",
+      "license": "Quellengebundene didaktische Webseitenvorschau; keine Eigentumsbehauptung",
+      "source": "https://www.youtube.com/watch?v=_oQWLZ5w0sY"
     },
     {
       "file": "harness-20261007.png",
