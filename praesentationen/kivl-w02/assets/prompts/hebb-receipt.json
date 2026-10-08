@@ -1,0 +1,7 @@
+{
+  "taskId": "ed57d63bc06f9a58ceeb0982962c7b06",
+  "provider": "Kie.ai",
+  "model": "nano-banana-2",
+  "promptFile": "images.json",
+  "promptKey": "hebb"
+}

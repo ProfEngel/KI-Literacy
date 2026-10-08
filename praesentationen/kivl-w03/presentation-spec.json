@@ -1,0 +1,364 @@
+{
+  "title": "KI & Data Science · Woche 3",
+  "templateId": "trinity-klar",
+  "templateName": "Trinity Klar – bewährter Standard",
+  "status": "awaiting_explicit_FREIGABE",
+  "language": "de",
+  "aspectRatio": "16:9",
+  "timing": {
+    "durationMinutes": 180,
+    "desiredSlideCount": 29
+  },
+  "audience": "BWL-Bachelorstudierende",
+  "references": [
+    "../KI Literacy Basics",
+    "../KI Data Science W01 Einstieg 2026",
+    "../KI Data Science W02 Fundamente 2026",
+    "reference-material/Kapitel_02.md"
+  ],
+  "requiredOutputs": [
+    "presentation.html",
+    "presentation.de.html",
+    "review.html",
+    "dozentenleitfaden.html",
+    "dozentenleitfaden.md",
+    "arbeitsblatt.html",
+    "loesungen.html"
+  ],
+  "slides": [
+    {
+      "id": "w03-01",
+      "time": "00–05",
+      "title": "Ein Sprachmodell verarbeitet Text in Tokens.",
+      "visual": "Wortbausteine/Setzkasten; künstliches Vokabular sichtbar kennzeichnen.",
+      "sources": [
+        "P1",
+        "B1"
+      ],
+      "intent": "Begriffe Token und Wort trennen."
+    },
+    {
+      "id": "w03-02",
+      "time": "05–10",
+      "title": "Token-IDs sind Kennungen; Embeddings sind Zahlenvektoren.",
+      "visual": "Artikelnummer → Katalogzeile → Zahlenliste.",
+      "sources": [
+        "P1",
+        "P5"
+      ],
+      "intent": "Kennung nicht als Bedeutung missverstehen."
+    },
+    {
+      "id": "w03-03",
+      "time": "10–15",
+      "title": "Die Ausgabe entsteht Token für Token.",
+      "visual": "Vorhandener Scheinwerfer auf Satzfortsetzung; Beispielwerte markieren.",
+      "sources": [
+        "P5",
+        "M1",
+        "E1"
+      ],
+      "intent": "Ein Klick fügt eine Fortsetzung an; nächster Schritt erhält neuen Kontext."
+    },
+    {
+      "id": "w03-04",
+      "time": "15–25",
+      "title": "Übung: Zerlegen Sie Text mit zwei Vokabularen.",
+      "visual": "Tokenkarten: Liefer/fristen versus Lieferfristen; 10-Minuten-Timer.",
+      "sources": [
+        "P1",
+        "E1"
+      ],
+      "intent": "Erst vorhersagen, dann vergleichen; ergänzend dokumentierter echter Tokenizer-Snapshot nach Implementierungsprüfung."
+    },
+    {
+      "id": "w03-05",
+      "time": "25–30",
+      "title": "Derselbe Text kann verschieden viele Tokens ergeben.",
+      "visual": "Zwei Zerlegungen nebeneinander, identischer Ausgangstext.",
+      "sources": [
+        "P1",
+        "E1"
+      ],
+      "intent": "Abweichung erklären; keine universelle Zeichen-pro-Token-Regel."
+    },
+    {
+      "id": "w03-06",
+      "time": "30–35",
+      "title": "Kontext ist das Material für den aktuellen Modellaufruf.",
+      "visual": "Mise-en-Place-Bild aus Literacy Basics; Auftrag, Angebote, Regel rechts.",
+      "sources": [
+        "B1",
+        "M1"
+      ],
+      "intent": "Vorbereitung erklären: nur tatsächlich verfügbare Information kann einfließen."
+    },
+    {
+      "id": "w03-07",
+      "time": "35–40",
+      "title": "Attention kombiniert Informationen aus dem Kontext.",
+      "visual": "Scheinwerfer/Verbindungslinien auf Bezugsmenge und Lieferfrist; vereinfachtes Gewichtungsbeispiel.",
+      "sources": [
+        "P5",
+        "B1",
+        "E1"
+      ],
+      "intent": "Berechnete Gewichtung, nicht Gedankenlesen; keine gemessenen Attentionwerte behaupten."
+    },
+    {
+      "id": "w03-08",
+      "time": "40–45",
+      "title": "Ein großer Kontext ersetzt keine passende Auswahl.",
+      "visual": "Schreibtisch als Arbeitsfläche, Archiv daneben; keine erfundene Modellkapazität.",
+      "sources": [
+        "B1"
+      ],
+      "intent": "Kontextumfang von dauerhaftem Wissen trennen; RAG erst W05 vertiefen."
+    },
+    {
+      "id": "w03-09",
+      "time": "45–55",
+      "title": "Übung: Packen Sie den Kontext für einen Angebotsvergleich.",
+      "visual": "Aus acht Dokumentkarten nötige Unterlagen und Regeln wählen; Timer 10 Minuten.",
+      "sources": [
+        "B1",
+        "E1"
+      ],
+      "intent": "Auswahl begründen, wichtige Lieferbedingungen nicht wegkürzen."
+    },
+    {
+      "id": "w03-10",
+      "time": "55–60",
+      "title": "Zum Auftrag gehören Preise, Einheiten und Lieferbedingungen.",
+      "visual": "Muster-Arbeitsfläche mit ausgewählten Karten.",
+      "sources": [
+        "B1",
+        "E1"
+      ],
+      "intent": "Unnötiges weglassen, entscheidende Informationen behalten."
+    },
+    {
+      "id": "w03-11",
+      "time": "60–65",
+      "title": "Temperature verändert die Auswahlwahrscheinlichkeiten.",
+      "visual": "Interaktive drei Balken aus festen Scores [2,1,0], T 0.5/1/2.",
+      "sources": [
+        "P2",
+        "E1"
+      ],
+      "intent": "Niedrig: stärker konzentriert; höher: flacher. Berechnete Demo, kein Modellbenchmark."
+    },
+    {
+      "id": "w03-12",
+      "time": "65–70",
+      "title": "Top-P begrenzt die Menge möglicher Fortsetzungen.",
+      "visual": "Kandidatenkarten, kumulierte Wahrscheinlichkeit und Auswahlschwelle.",
+      "sources": [
+        "P2",
+        "E1"
+      ],
+      "intent": "Temperature und Kandidatenbegrenzung unterscheiden."
+    },
+    {
+      "id": "w03-13",
+      "time": "70–75",
+      "title": "Wahrscheinlich formuliert heißt nicht sachlich richtig.",
+      "visual": "Zwei Prüfstationen: Auswahl im Modell versus Quellen-/Rechenprüfung.",
+      "sources": [
+        "P2",
+        "B1",
+        "E1"
+      ],
+      "intent": "Temperature ist kein Wahrheitsregler."
+    },
+    {
+      "id": "w03-14",
+      "time": "75–85",
+      "title": "Übung: Temperature-Casino – Vielfalt beobachten.",
+      "visual": "Offline-Sampling aus fester Verteilung, Wiederholungen zählen; Timer 10 Minuten.",
+      "sources": [
+        "P2",
+        "E1"
+      ],
+      "intent": "Nur T ändern; Durchläufe, Streuung und Grenzen notieren."
+    },
+    {
+      "id": "w03-15",
+      "time": "85–90",
+      "title": "Mehr Vielfalt ist noch kein Qualitätsgewinn.",
+      "visual": "Wahrscheinlichkeit versus beobachtete Häufigkeit; keine erwarteten Resultate vortäuschen.",
+      "sources": [
+        "P2",
+        "E1"
+      ],
+      "intent": "Zufallsstreuung und Aufgabengüte getrennt besprechen."
+    },
+    {
+      "id": "w03-16",
+      "time": "90–105",
+      "title": "Pause",
+      "visual": "Ruhige 15-Minuten-Pausenfolie.",
+      "sources": [
+        "B2"
+      ],
+      "intent": "Keine Bonusaufgabe."
+    },
+    {
+      "id": "w03-17",
+      "time": "105–110",
+      "title": "Reasoning bearbeitet eine Aufgabe in mehreren Schritten.",
+      "visual": "Direktantwort versus Rechenweg mit Zwischenergebnis und Prüfung.",
+      "sources": [
+        "B1",
+        "P3"
+      ],
+      "intent": "System 1/2 als Einstieg, nicht menschliche Denksysteme im Modell behaupten."
+    },
+    {
+      "id": "w03-18",
+      "time": "110–115",
+      "title": "Eine Begründung muss sich überprüfen lassen.",
+      "visual": "Belegkarte: Eingabewert → Formel → Ergebnis → offene Annahme.",
+      "sources": [
+        "P3",
+        "B1"
+      ],
+      "intent": "Prüfbare Erklärung statt vermeintlichem Gedankenprotokoll."
+    },
+    {
+      "id": "w03-19",
+      "time": "115–120",
+      "title": "B kostet 90 Euro weniger – der Liefertermin bleibt offen.",
+      "visual": "A 120×18+60=2220; B 12×170+90=2130; Bestelleingang versus technische Freigabe.",
+      "sources": [
+        "B1",
+        "E1"
+      ],
+      "intent": "Rechnung abgeschlossen, Beschaffungsentscheidung noch nicht."
+    },
+    {
+      "id": "w03-20",
+      "time": "120–130",
+      "title": "Übung: Prüfen und korrigieren Sie die Empfehlung.",
+      "visual": "Absichtlich fehlerhafte Antwort mit fehlender Einheit/Terminannahme; Timer 10 Minuten.",
+      "sources": [
+        "B1",
+        "E1"
+      ],
+      "intent": "Fehler markieren, knapp nachrechnen, konkrete Rückfrage formulieren."
+    },
+    {
+      "id": "w03-21",
+      "time": "130–135",
+      "title": "Eine korrekte Antwort trennt Ergebnis und fehlende Angaben.",
+      "visual": "Lösungstabelle: bekannt, berechnet, noch zu klären.",
+      "sources": [
+        "B1",
+        "E1"
+      ],
+      "intent": "Keine fehlenden Fristen oder Freigaben erfinden."
+    },
+    {
+      "id": "w03-22",
+      "time": "135–140",
+      "title": "Die Lunchbox enthält nur das Nötige für den Auftrag.",
+      "visual": "Neue klare Lunchbox mit Auftragskarte, passenden Unterlagen und Werkzeugen; kein Cloud-Käfig.",
+      "sources": [
+        "B1",
+        "P4",
+        "E1"
+      ],
+      "intent": "Begrenzte Teilaufgabe ermöglicht gezielte Ausstattung."
+    },
+    {
+      "id": "w03-23",
+      "time": "140–145",
+      "title": "Modellgröße, Kontext und Rechenzeit sind drei verschiedene Größen.",
+      "visual": "Fachkraft/Arbeitsfläche/Bearbeitungszeit als dreiteilige Metapher.",
+      "sources": [
+        "B1"
+      ],
+      "intent": "Nicht großes Modell mit großem Gedächtnis oder langer Antwort gleichsetzen."
+    },
+    {
+      "id": "w03-24",
+      "time": "145–150",
+      "title": "Klare Rechnungen gehören ins Werkzeug; Sonderfälle zur Prüfung.",
+      "visual": "Extraktion → Rechentool → Bewertung; Eskalation bei unklaren Angaben.",
+      "sources": [
+        "B1",
+        "P4",
+        "E1"
+      ],
+      "intent": "Kleine Modelle als Testkandidaten, nicht als pauschale Sieger."
+    },
+    {
+      "id": "w03-25",
+      "time": "150–160",
+      "title": "Übung: Wählen Sie Modell, Werkzeug und Eskalation.",
+      "visual": "Drei konkrete Auftragskarten; Testkriterium je Wahl; Timer 10 Minuten.",
+      "sources": [
+        "B1",
+        "P4",
+        "E1"
+      ],
+      "intent": "Aufgabe und Risiko begründen die Ausstattung."
+    },
+    {
+      "id": "w03-26",
+      "time": "160–165",
+      "title": "Die passende Lösung besteht den Test für ihren Auftrag.",
+      "visual": "Vergleichsmatrix: Eingabefehler, Qualität, Zeit, Kosten; ohne erfundene Messwerte.",
+      "sources": [
+        "B1",
+        "P4",
+        "E1"
+      ],
+      "intent": "Tool-first und Modellwahl fachlich überprüfen."
+    },
+    {
+      "id": "w03-27",
+      "time": "165–175",
+      "title": "Wissenscheck: fünf Aussagen zur Modellmechanik.",
+      "visual": "Aufdeckbare Fragen; 10-Minuten-Timer, keine Rangliste.",
+      "sources": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "E1"
+      ],
+      "intent": "Abruf und Begründung statt bloß Wiedererkennen."
+    },
+    {
+      "id": "w03-28",
+      "time": "175–178",
+      "title": "Nächster Schritt: Aufgaben präzise formulieren.",
+      "visual": "Text → Kontext → Auswahl → Prüfung → Anwendung; Übergang W04.",
+      "sources": [
+        "B1",
+        "B2"
+      ],
+      "intent": "Lernweg zusammenführen."
+    },
+    {
+      "id": "w03-29",
+      "time": "178–180",
+      "title": "Quellenverzeichnis",
+      "visual": "Lesbare Kurzbelege, Fundstellen und Link zum lokalen Quellenregister.",
+      "sources": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "B1",
+        "B2",
+        "E1",
+        "M1"
+      ],
+      "intent": "Nachlesen ermöglichen; Quellen als letzte Folie."
+    }
+  ]
+}

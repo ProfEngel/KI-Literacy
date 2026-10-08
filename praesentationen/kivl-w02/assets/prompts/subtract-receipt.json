@@ -1,0 +1,7 @@
+{
+  "taskId": "5b80563d68a1db7c91454e78fba74f18",
+  "provider": "Kie.ai",
+  "model": "nano-banana-2",
+  "promptFile": "images.json",
+  "promptKey": "subtract"
+}

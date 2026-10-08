@@ -1,0 +1,17 @@
+{
+  "title": "KI-Fundamente – Die Magie entzaubern",
+  "status": "built_after_freigabe",
+  "templateId": "trinity-klar",
+  "templateName": "Trinity Klar – bewährter Standard",
+  "locale": "de",
+  "timing": {
+    "durationMinutes": 180,
+    "desiredSlideCount": 29
+  },
+  "week": 2,
+  "bookChapter": 1,
+  "slidePrefix": "w02-",
+  "styleReference": "../KI Data Science W01 Einstieg 2026",
+  "scope": "Standalone review module for eventual single semester HTML",
+  "created": "2026-09-19"
+}

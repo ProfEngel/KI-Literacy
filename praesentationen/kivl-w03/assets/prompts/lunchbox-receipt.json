@@ -1,0 +1,7 @@
+{
+  "taskId": "e08e227aa17f23ad2faeb56aefe8e020",
+  "provider": "Kie.ai",
+  "model": "nano-banana-2",
+  "promptFile": "images.json",
+  "promptKey": "lunchbox"
+}

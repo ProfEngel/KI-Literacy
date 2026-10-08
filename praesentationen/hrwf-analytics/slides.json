@@ -1,0 +1,498 @@
+[
+  {
+    "id": "hrwf-01",
+    "index": 0,
+    "title": "HR/WF Analytics",
+    "sourceSlide": 1,
+    "originalPrintedNumber": "1",
+    "paragraphs": [
+      "HR/WF Analytics",
+      "15-Wochen Fahrplan"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-materialien",
+    "index": 1,
+    "title": "Materialien",
+    "sourceSlide": null,
+    "paragraphs": [
+      "Materialien zum Mitnehmen",
+      "Diese Präsentation",
+      "Materialien & Repository"
+    ],
+    "sources": []
+  },
+  {
+    "id": "hrwf-02",
+    "index": 2,
+    "title": "Modulübersicht",
+    "sourceSlide": 2,
+    "originalPrintedNumber": "2",
+    "paragraphs": [
+      "Modulübersicht",
+      "• Umfang: 4 SWS (180 Min pro Woche) über 15 Wochen",
+      "• Teilnehmende: 22 Studierende (+/- 2)",
+      "• Gruppenstruktur: 6 Gruppen à 3-4 Personen",
+      "• Modultyp: Projektmodul (P-Modul) mit selbstgesteuertem Lernen"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-03",
+    "index": 3,
+    "title": "Phase 1: Woche 1",
+    "sourceSlide": 3,
+    "originalPrintedNumber": "6",
+    "paragraphs": [
+      "Phase 1: Woche 1",
+      "Kickoff, Gruppenbildung & FlemoBoxen-Kreativworkshop",
+      "Block 1 (90 Min): Organisatorisches",
+      "• Modulvorstellung und Prüfungsleistungen",
+      "• Gruppenbildung: 6 Gruppen à 3-4 Personen",
+      "• Themenvergabe für Theorie-Sessions (Wochen 2-7)",
+      "Block 2 (90 Min): FlemoBoxen-Workshop",
+      "• Kreative Auseinandersetzung mit Themen",
+      "• Gruppenarbeit mit FlemoBoxen (60 Min)",
+      "• Kurze Präsentation je Gruppe (je 2 Min)"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-04",
+    "index": 4,
+    "title": "Phasenübersicht",
+    "sourceSlide": 4,
+    "originalPrintedNumber": "3",
+    "paragraphs": [
+      "Phasenübersicht",
+      "• Phase 1: Kickoff mit FlemoBoxen (Woche 1)",
+      "• Phase 2: Theorie-Sessions durch Studierende (Wochen 2-7)",
+      "• Phase 3: Business War Game Entwicklung (Wochen 8-11)",
+      "• Phase 4: Durchführung & Evaluation (Wochen 12-14)",
+      "• Phase 5: Finale Präsentationen (Woche 15)"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-05",
+    "index": 5,
+    "title": "Gruppenzuordnung & Themen",
+    "sourceSlide": 5,
+    "originalPrintedNumber": "4",
+    "paragraphs": [
+      "Gruppenzuordnung & Themen",
+      "Gruppe 1 (Woche 2): KI-Literacy & KI-gestützte Analyse",
+      "Gruppe 2 (Woche 3): Business War Game - Konzeption & Durchführung",
+      "Gruppe 3 (Woche 4): HR/WF Analytics Grundlagen + Analytics-Arten",
+      "Gruppe 4 (Woche 5): Datengrundlagen & Dateninterpretation",
+      "Gruppe 5 (Woche 6): Business Intelligence & Anwendungsbereiche",
+      "Gruppe 6 (Woche 7): Soziale Netzwerkanalyse & Ethik"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-06",
+    "index": 6,
+    "title": "Bewertungsstruktur",
+    "sourceSlide": 6,
+    "originalPrintedNumber": "5",
+    "paragraphs": [
+      "Bewertungsstruktur",
+      "• Theorie-Session (Vorbereitung, Durchführung, Materialien): 15%",
+      "• Entwicklung und Umsetzung des Business War Games: 50%",
+      "• Durchführung und Evaluation des War Games: 15%",
+      "• Abschlusspräsentation und Reflexion: 20%"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-07",
+    "index": 7,
+    "title": "FlemoBoxen-Aufgaben",
+    "sourceSlide": 7,
+    "originalPrintedNumber": "7",
+    "paragraphs": [
+      "FlemoBoxen-Aufgaben",
+      "Gruppe 1: Gestaltet den idealen KI-Assistenten für HR-Manager",
+      "Gruppe 2: Baut ein physisches Modell eines Business War Games",
+      "Gruppe 3: Erstellt eine visuelle Journey eines HR-Problems - von rohen Daten über deskriptive, predictive bis zu prescriptive Analytics",
+      "Gruppe 4: Baut eine physische Daten-Pipeline von Sammlung bis Interpretation",
+      "Gruppe 5: Gestaltet ein innovatives HR-Dashboard der Zukunft",
+      "Gruppe 6: Baut ein 3D-Netzwerk von Mitarbeiterbeziehungen mit ethischen Dilemmata",
+      "Hausaufgaben: Jede Gruppe: 3 konkrete Case-Ideen für Business War Game ausarbeiten (je 1 Seite)"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-08",
+    "index": 8,
+    "title": "Phase 2: Theorie-Sessions",
+    "sourceSlide": 8,
+    "originalPrintedNumber": "8",
+    "paragraphs": [
+      "Phase 2: Theorie-Sessions",
+      "Struktur jeder Session (Wochen 2-7):",
+      "Theorie-Input (40-50 Min)",
+      "• Je 10 Min Input pro Student (4-5 Studierende)",
+      "• Jeder Student präsentiert einen Teilaspekt des Themas",
+      "Doing-Sessions (80-100 Min)",
+      "• Nach jedem 10-Min-Input: 20 Min praktische Übung",
+      "• Alle Studierenden arbeiten aktiv mit",
+      "Feedback & Evaluation (20-30 Min)",
+      "• Peer-Feedback: 2-3 Studierende bewerten",
+      "• Reflexion und Verbesserungsvorschläge"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-09",
+    "index": 9,
+    "title": "Woche 2: KI-Literacy & KI-gestützte Analyse",
+    "sourceSlide": 9,
+    "originalPrintedNumber": "9",
+    "paragraphs": [
+      "Woche 2: KI-Literacy & KI-gestützte Analyse",
+      "Gruppe 1 führt Session durch",
+      "Inhalte (4-5 x 10 Min Input + je 20 Min Doing)",
+      "• KI-Grundlagen: Was ist KI, Machine Learning, Large Language Models?",
+      "• KI-Tools im HR-Kontext: ChatGPT, Hölderlin und weitere Tools",
+      "• Prompting-Techniken: Effektive Prompts für Datenanalyse",
+      "• Hands-on: Alle arbeiten mit KI-Tools an HR-Beispielen",
+      "Hausaufgaben",
+      "• Alle Gruppen: Case-Ideen weiter konkretisieren",
+      "• Gruppe 2: Vorbereitung für Woche 3"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-10",
+    "index": 10,
+    "title": "Woche 3: Business War Game - Konzeption",
+    "sourceSlide": 10,
+    "originalPrintedNumber": "10",
+    "paragraphs": [
+      "Woche 3: Business War Game - Konzeption",
+      "Gruppe 2 führt Session durch",
+      "Inhalte (4-5 x 10 Min Input + je 20 Min Doing)",
+      "• Was ist ein Business War Game? Definitionen und Beispiele",
+      "• Spielmechanik: Rollen, Entscheidungspunkte, Feedback-Loops",
+      "• Design-Prinzipien: Lernziele integrieren, Komplexität balancieren",
+      "• HR/Analytics-Kontext: Analytics-Kenntnisse im Game",
+      "• Praxis: Mini-War Game durchspielen und analysieren",
+      "Meilenstein & Hausaufgaben",
+      "• Jede Gruppe pitcht Case-Idee (je 5 Min = 30 Min)",
+      "• Detailliertes Case-Konzept erstellen (3-5 Seiten)"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-11",
+    "index": 11,
+    "title": "Woche 4: HR/WF Analytics Grundlagen + Analytics-Arten",
+    "sourceSlide": 11,
+    "originalPrintedNumber": "11",
+    "paragraphs": [
+      "Woche 4: HR/WF Analytics Grundlagen + Analytics-Arten",
+      "Gruppe 3 führt Session durch",
+      "Inhalte (4-5 x 10 Min Input + je 20 Min Doing)",
+      "• Was ist HR Analytics vs. Workforce Analytics?",
+      "• Bedeutung für Unternehmen: Business Value und strategische Relevanz",
+      "• Analytics-Arten: Deskriptive, Predictive, Prescriptive Analytics",
+      "• Unterschiede und Anwendungsfälle der drei Analytics-Arten",
+      "• Praxis: Analyse von HR-Kennzahlen + Case Studies",
+      "Hausaufgaben",
+      "• Case-Konzept überarbeiten basierend auf Feedback"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-12",
+    "index": 12,
+    "title": "Woche 5: Datengrundlagen & Dateninterpretation",
+    "sourceSlide": 12,
+    "originalPrintedNumber": "12",
+    "paragraphs": [
+      "Woche 5: Datengrundlagen & Dateninterpretation",
+      "Gruppe 4 führt Session durch",
+      "Inhalte (4-5 x 10 Min Input + je 20 Min Doing)",
+      "• Datenerhebung: Quellen, Methoden, Tools",
+      "• Datenverarbeitung: Cleaning, Transformation, Integration",
+      "• Statistische Grundlagen: Kennzahlen, Verteilungen, Tests",
+      "• Dateninterpretation: Trends und Muster erkennen",
+      "• Praxis: Arbeit mit echten HR-Datensätzen",
+      "Meilenstein",
+      "• Detaillierte Case-Konzepte einreichen (Ende der Woche)"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-13",
+    "index": 13,
+    "title": "Woche 6: Business Intelligence & Anwendungsbereiche",
+    "sourceSlide": 13,
+    "originalPrintedNumber": "13",
+    "paragraphs": [
+      "Woche 6: Business Intelligence & Anwendungsbereiche",
+      "Gruppe 5 führt Session durch",
+      "Inhalte (4-5 x 10 Min Input + je 20 Min Doing)",
+      "• BI-Grundlagen: Architektur, Data Warehousing, OLAP",
+      "• Visualisierung: Dashboards, Berichte, Best Practices",
+      "• BI-Tools: Power BI, Tableau oder ähnliche",
+      "• Anwendungsbereiche: Konkrete HR/WF-Use Cases",
+      "• Praxis: Dashboard-Erstellung mit BI-Tool",
+      "Hausaufgaben",
+      "• Case-Konzepte finalisieren basierend auf Feedback"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-14",
+    "index": 14,
+    "title": "Woche 7: Soziale Netzwerkanalyse & Ethik",
+    "sourceSlide": 14,
+    "originalPrintedNumber": "14",
+    "paragraphs": [
+      "Woche 7: Soziale Netzwerkanalyse & Ethik",
+      "Gruppe 6 führt Session durch",
+      "Inhalte (4-5 x 10 Min Input + je 20 Min Doing)",
+      "• SNA-Grundlagen: Knoten, Kanten, Metriken (Zentralität, Dichte)",
+      "• Anwendung im HR: Analyse von Mitarbeiterbeziehungen, Kommunikation",
+      "• Ethische Herausforderungen: Datenschutz, DSGVO, Transparenz",
+      "• Verantwortungsvoller Umgang mit sensiblen Mitarbeiterdaten",
+      "• Praxis: SNA-Analyse + Diskussion ethischer Dilemmata",
+      "Meilenstein",
+      "• Alle Gruppen präsentieren finale Case-Konzepte (je 10 Min)",
+      "• Freigabe für Entwicklungsphase"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-15",
+    "index": 15,
+    "title": "Woche 8: War Game Design Workshop",
+    "sourceSlide": 15,
+    "originalPrintedNumber": "15",
+    "paragraphs": [
+      "Woche 8: War Game Design Workshop",
+      "Interdisziplinärer Workshop durch Fachexperten",
+      "Workshop-Gestaltung (60 Min)",
+      "• Studierende aus allen Gruppen als Fachexperten",
+      "• Best Practices für War Games interdisziplinär vermitteln",
+      "• Methodische Hinweise zu Spielmechanik und Lernzielen",
+      "Gruppenarbeit (120 Min)",
+      "• Detailplanung: Spielmechanik, Rollen, Daten, Szenarien",
+      "• Rollenverteilung innerhalb der Gruppe",
+      "• Entwicklungsplan mit Meilensteinen erstellen",
+      "• Erste Prototypen skizzieren",
+      "• Jede Gruppe präsentiert Entwicklungsplan (je 8 Min)"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-16",
+    "index": 16,
+    "title": "Woche 9: Entwicklungsphase - Sprint 1",
+    "sourceSlide": 16,
+    "originalPrintedNumber": "16",
+    "paragraphs": [
+      "Woche 9: Entwicklungsphase - Sprint 1",
+      "Fortsetzung interdisziplinäre Zusammenarbeit",
+      "Fachexperten-Support (30 Min)",
+      "• Studierende als Fachexperten bieten gegenseitige Beratung",
+      "• Technische und methodische Fragen klären",
+      "Intensive Gruppenarbeit (120 Min)",
+      "• War Game Entwicklung vorantreiben",
+      "• Gegenseitiges Peer-Coaching zwischen Gruppen",
+      "Zwischenstände & Feedback (30 Min)",
+      "• Plenum: Updates zu Fortschritten und Herausforderungen",
+      "• Peer-Feedback und Lösungsansätze",
+      "• Ziel: Spielbare Beta-Version erstellen"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-17",
+    "index": 17,
+    "title": "Woche 10: Zwischenpräsentationen",
+    "sourceSlide": 17,
+    "originalPrintedNumber": "17",
+    "paragraphs": [
+      "Woche 10: Zwischenpräsentationen",
+      "Meilenstein: Zwischenpräsentation (90 Min)",
+      "• Jede Gruppe präsentiert aktuellen Stand (je 15 Min)",
+      "• Spielmechanik und Lernziele vorstellen",
+      "• Herausforderungen und Lösungsansätze diskutieren",
+      "Peer-Feedback (30 Min)",
+      "• Jede Gruppe erhält Feedback von 2 anderen Gruppen",
+      "• Konstruktive Verbesserungsvorschläge",
+      "Überarbeitung (60 Min)",
+      "• Intensive Überarbeitung basierend auf Feedback",
+      "• Ziel: Finale Version vorbereiten"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-18",
+    "index": 18,
+    "title": "Woche 11: Finalisierung & Testläufe",
+    "sourceSlide": 18,
+    "originalPrintedNumber": "18",
+    "paragraphs": [
+      "Woche 11: Finalisierung & Testläufe",
+      "Finale Überarbeitung (90 Min)",
+      "• Letzte Anpassungen und Feinschliff",
+      "• Alle Materialien finalisieren (Spielanleitung, Daten, Templates)",
+      "Interne Testläufe (60 Min)",
+      "• Gruppen testen gegenseitig ihre War Games",
+      "• Letzte Optimierungen vornehmen",
+      "Fertigstellungsbestätigung (30 Min)",
+      "• Kurz-Check: Ist alles einsatzbereit? (je 5 Min pro Gruppe)",
+      "• Ziel: War Games vollständig einsatzbereit"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-19",
+    "index": 19,
+    "title": "Woche 12: War Game Durchführung - Teil 1",
+    "sourceSlide": 19,
+    "originalPrintedNumber": "19",
+    "paragraphs": [
+      "Woche 12: War Game Durchführung - Teil 1",
+      "Gruppen 1 & 2",
+      "Durchführung (je ca. 85 Min)",
+      "• Gruppe 1 + 2: War Game durchführen",
+      "• Alle anderen: Aktiv mitspielen",
+      "Debriefing (je 10 Min)",
+      "• Reflexion nach jedem Game",
+      "Feedback & Evaluation (je 10 Min)",
+      "• Feedback-Gespräch mit durchführender Gruppe",
+      "• Evaluations-Bögen ausfüllen",
+      "• Hausaufgaben: Evaluationen auswerten für Abschlusspräsentation"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-20",
+    "index": 20,
+    "title": "Woche 13: War Game Durchführung - Teil 2",
+    "sourceSlide": 20,
+    "originalPrintedNumber": "20",
+    "paragraphs": [
+      "Woche 13: War Game Durchführung - Teil 2",
+      "Gruppen 3 & 4",
+      "Durchführung (je ca. 85 Min)",
+      "• Gruppe 3 + 4: War Game durchführen",
+      "• Alle anderen: Aktive Teilnahme",
+      "Debriefing (je 10 Min)",
+      "• Reflexion nach jedem Game",
+      "Feedback & Evaluation (je 10 Min)",
+      "• Feedback-Gespräch mit durchführender Gruppe",
+      "• Evaluations-Bögen ausfüllen",
+      "• Hausaufgaben: Evaluationen auswerten für Abschlusspräsentation"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-21",
+    "index": 21,
+    "title": "Woche 14: War Game Durchführung - Teil 3 & Gesamtauswertung",
+    "sourceSlide": 21,
+    "originalPrintedNumber": "21",
+    "paragraphs": [
+      "Woche 14: War Game Durchführung - Teil 3 & Gesamtauswertung",
+      "Gruppen 5 & 6",
+      "Durchführung (je ca. 85 Min)",
+      "• Gruppe 5 + 6: War Game durchführen",
+      "• Alle: Aktive Teilnahme, Debriefings",
+      "Gemeinsame Auswertung (40 Min)",
+      "• Vergleich aller War Games",
+      "• Learnings und Best Practices identifizieren",
+      "Gemeinsame Reflexion (20 Min)",
+      "• Was haben wir gelernt?",
+      "• Hausaufgaben: Abschlusspräsentationen vorbereiten (20 Min + Q&A)"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-22",
+    "index": 22,
+    "title": "Woche 15: Finale Präsentationen & Modulabschluss",
+    "sourceSlide": 22,
+    "originalPrintedNumber": "22",
+    "paragraphs": [
+      "Woche 15: Finale Präsentationen & Modulabschluss",
+      "Abschlusspräsentationen (180 Min)",
+      "• Alle Gruppen: je 20 Min Präsentation + 10 Min Q&A",
+      "• Inhalte: War Game Konzept, Design-Entscheidungen, Analytics-Integration, Learnings, Evaluationsergebnisse",
+      "Feedback & Reflexion (30 Min)",
+      "• Kurzes Peer-Feedback nach jeder Präsentation (je 3-4 Min)",
+      "• Gemeinsame Modul-Reflexion: Key Learnings",
+      "• Abschluss: Noten und schriftliches Feedback in den nächsten 2 Wochen"
+    ],
+    "sources": [
+      "U1"
+    ]
+  },
+  {
+    "id": "hrwf-23",
+    "index": 23,
+    "title": "Wichtige Hinweise",
+    "sourceSlide": 23,
+    "originalPrintedNumber": "23",
+    "paragraphs": [
+      "Wichtige Hinweise",
+      "• FlemoBoxen-Material wird in Woche 1 bereitgestellt",
+      "• Feedback-Kultur: Konstruktives Peer-Feedback nach jeder Session",
+      "• Kontinuierliche Dokumentation eurer Fortschritte empfohlen",
+      "• Bei Fragen oder Herausforderungen: Peer-Support nutzen",
+      "• Alle Materialien werden auf gemeinsamer Plattform geteilt"
+    ],
+    "sources": [
+      "U1"
+    ]
+  }
+]

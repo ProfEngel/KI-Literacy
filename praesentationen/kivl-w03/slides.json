@@ -1,0 +1,580 @@
+[
+  {
+    "id": "w03-cover",
+    "title": "Sprachmodelle verstehen",
+    "time": "00–01",
+    "notes": "Begrüßen Sie die Studierenden. Das Themenbild eröffnet die Sitzung: Von Tokens zur geprüften Antwort. Noch keine Fachdetails vorwegnehmen; anschließend den Ablauf zeigen.",
+    "sources": [
+      "M2"
+    ],
+    "tag": "RAHMEN",
+    "why": "Begrüßen Sie die Studierenden. Das Themenbild eröffnet die Sitzung: Von Tokens zur geprüften Antwort. Noch keine Fachdetails vorwegnehmen; anschließend den Ablauf zeigen.",
+    "explain": "Begrüßen Sie die Studierenden. Das Themenbild eröffnet die Sitzung: Von Tokens zur geprüften Antwort. Noch keine Fachdetails vorwegnehmen; anschließend den Ablauf zeigen.",
+    "question": "Wie wird aus Text eine verlässliche Antwort?",
+    "pitfall": "Übersicht als Orientierung nutzen; Details auf den Fachfolien erklären."
+  },
+  {
+    "id": "w03-agenda",
+    "title": "Unser Weg durch die heutige Sitzung",
+    "time": "01–02",
+    "notes": "Die fünf Stationen knapp nennen. Jede wird durch Wissen und praktische Bearbeitung erschlossen. Auf die Pause und die gemeinsame Zusammenfassung hinweisen. Nicht schon die Lösungen erklären.",
+    "sources": [
+      "B2"
+    ],
+    "tag": "RAHMEN",
+    "why": "Die fünf Stationen knapp nennen. Jede wird durch Wissen und praktische Bearbeitung erschlossen. Auf die Pause und die gemeinsame Zusammenfassung hinweisen. Nicht schon die Lösungen erklären.",
+    "explain": "Die fünf Stationen knapp nennen. Jede wird durch Wissen und praktische Bearbeitung erschlossen. Auf die Pause und die gemeinsame Zusammenfassung hinweisen. Nicht schon die Lösungen erklären.",
+    "question": "Wie wird aus Text eine verlässliche Antwort?",
+    "pitfall": "Übersicht als Orientierung nutzen; Details auf den Fachfolien erklären."
+  },
+  {
+    "id": "w03-question",
+    "title": "Wie wird aus Text eine verlässliche Antwort?",
+    "time": "02–03",
+    "notes": "Die Frage langsam stellen, kurz Stille zulassen und zwei spontane Vermutungen sammeln. Nicht auflösen. Beim Big Picture am Ende dieselbe Frage wieder aufnehmen und anhand der fünf Stationen beantworten.",
+    "sources": [],
+    "tag": "RAHMEN",
+    "why": "Die Frage langsam stellen, kurz Stille zulassen und zwei spontane Vermutungen sammeln. Nicht auflösen. Beim Big Picture am Ende dieselbe Frage wieder aufnehmen und anhand der fünf Stationen beantworten.",
+    "explain": "Die Frage langsam stellen, kurz Stille zulassen und zwei spontane Vermutungen sammeln. Nicht auflösen. Beim Big Picture am Ende dieselbe Frage wieder aufnehmen und anhand der fünf Stationen beantworten.",
+    "question": "Wie wird aus Text eine verlässliche Antwort?",
+    "pitfall": "Übersicht als Orientierung nutzen; Details auf den Fachfolien erklären."
+  },
+  {
+    "id": "w03-01",
+    "time": "03–07",
+    "title": "Ein Sprachmodell verarbeitet Text in Tokens.",
+    "visual": "Wortbausteine/Setzkasten; künstliches Vokabular sichtbar kennzeichnen.",
+    "sources": [
+      "P1",
+      "B1",
+      "M2"
+    ],
+    "intent": "Begriffe Token und Wort trennen.",
+    "notes": "Zeigen Sie zuerst das ganze Wort Lieferfristen. Danach auf die drei Bausteine weisen: Liefer, frist, en. Der Setzkasten illustriert wiederverwendbare Einheiten unterschiedlicher Größe. In unserem frei gewählten Vokabular entstehen drei Tokens; andere Vokabulare können das Wort anders zerlegen. Ein Tokenizer ist ein konkretes Verfahren mit Vokabular, kein kleines lesendes Wesen im Modell. Auch Satzzeichen oder Leerzeichen können zum Zuschnitt gehören. Der folgende Ablauf ist Tokenisierung, ID-Zuordnung, Vektorverarbeitung und Ausgabeauswahl.",
+    "why": "Die technische Einheit wird vor jeder Modellmetapher sauber eingeführt.",
+    "explain": "Zeigen Sie zuerst das ganze Wort Lieferfristen. Danach auf die drei Bausteine weisen: Liefer, frist, en. Der Setzkasten illustriert wiederverwendbare Einheiten unterschiedlicher Größe. In unserem frei gewählten Vokabular entstehen drei Tokens; andere Vokabulare können das Wort anders zerlegen. Ein Tokenizer ist ein konkretes Verfahren mit Vokabular, kein kleines lesendes Wesen im Modell. Auch Satzzeichen oder Leerzeichen können zum Zuschnitt gehören. Der folgende Ablauf ist Tokenisierung, ID-Zuordnung, Vektorverarbeitung und Ausgabeauswahl.",
+    "question": "Wie viele Wörter sehen Sie, und wie viele Tokens hat unser Lehrbeispiel? Ein Wort, drei Tokens.",
+    "pitfall": "Die drei Stücke nicht als gemessene ChatGPT-Tokenisierung ausgeben.",
+    "tag": "WOCHE 3 · WISSEN"
+  },
+  {
+    "id": "w03-02",
+    "time": "07–11",
+    "title": "Token-IDs sind Kennungen; Embeddings sind Zahlenvektoren.",
+    "visual": "Artikelnummer → Katalogzeile → Zahlenliste.",
+    "sources": [
+      "P1",
+      "P5"
+    ],
+    "intent": "Kennung nicht als Bedeutung missverstehen.",
+    "notes": "Gehen Sie die drei Kästen durch. Die Zeichenfolge verweist im Tokenizer-Vokabular auf eine Kennung. Wie bei einer Artikelnummer sagt die Höhe der ID nichts über den Wert oder die Bedeutung. Danach wird die Kennung einem gelernten Vektor zugeordnet. Unser Beispielvektor hat nur drei Koordinaten zur Illustration; reale Dimensionen sind modellspezifisch. Weitere Modellschichten verändern Repräsentationen kontextabhängig. Embeddings für Dokumentensuche kommen später in Woche 5.",
+    "why": "Die oft vermischten Begriffe Kennung und numerische Repräsentation werden getrennt.",
+    "explain": "Gehen Sie die drei Kästen durch. Die Zeichenfolge verweist im Tokenizer-Vokabular auf eine Kennung. Wie bei einer Artikelnummer sagt die Höhe der ID nichts über den Wert oder die Bedeutung. Danach wird die Kennung einem gelernten Vektor zugeordnet. Unser Beispielvektor hat nur drei Koordinaten zur Illustration; reale Dimensionen sind modellspezifisch. Weitere Modellschichten verändern Repräsentationen kontextabhängig. Embeddings für Dokumentensuche kommen später in Woche 5.",
+    "question": "Ist Token 900 automatisch ähnlicher zu 901 als zu 7? Nein; die IDs allein sagen das nicht.",
+    "pitfall": "Den einzelnen Vektorkoordinaten keine erfundenen festen Bedeutungen wie teuer oder zuverlässig zuordnen.",
+    "tag": "WOCHE 3 · WISSEN"
+  },
+  {
+    "id": "w03-03",
+    "time": "11–15",
+    "title": "Die Ausgabe entsteht Token für Token.",
+    "visual": "Vorhandener Scheinwerfer auf Satzfortsetzung; Beispielwerte markieren.",
+    "sources": [
+      "P5",
+      "M1",
+      "E1"
+    ],
+    "intent": "Ein Klick fügt eine Fortsetzung an; nächster Schritt erhält neuen Kontext.",
+    "notes": "Das Scheinwerferbild enthält drei erfundene Fortsetzungen. Erklären Sie, dass das Modell Werte für mögliche nächste Tokens berechnet und ein Decodierverfahren auswählt. Mit dem Knopf wird eine feste Lehrfolge erweitert. Der neue Teil gehört nun zur bisherigen Eingabe für die Fortsetzung. Auch frühere Satzteile und weitere bereitgestellte Informationen können einfließen, nicht nur das letzte Wort. Die Klickfolge ist bewusst kein laufendes Sprachmodell; ihre Schritte zeigen den Ablauf.",
+    "why": "Die Studierenden sehen eine fortlaufende Erzeugung statt einer fertigen Antwort aus einer Schublade.",
+    "explain": "Das Scheinwerferbild enthält drei erfundene Fortsetzungen. Erklären Sie, dass das Modell Werte für mögliche nächste Tokens berechnet und ein Decodierverfahren auswählt. Mit dem Knopf wird eine feste Lehrfolge erweitert. Der neue Teil gehört nun zur bisherigen Eingabe für die Fortsetzung. Auch frühere Satzteile und weitere bereitgestellte Informationen können einfließen, nicht nur das letzte Wort. Die Klickfolge ist bewusst kein laufendes Sprachmodell; ihre Schritte zeigen den Ablauf.",
+    "question": "Was ändert sich für den nächsten Schritt, sobald Sofa ausgegeben wurde? Der verfügbare bisherige Text ist länger.",
+    "pitfall": "Die Grafik stellt Wörter als leicht lesbare Kandidaten dar. Ein reales Wort kann mehrere Tokens benötigen; 85 Prozent ist kein gemessener Modellwert.",
+    "tag": "WOCHE 3 · WISSEN"
+  },
+  {
+    "id": "w03-04",
+    "time": "15–25",
+    "title": "Übung: Zerlegen Sie Text mit zwei Vokabularen.",
+    "visual": "Tokenkarten: Liefer/fristen versus Lieferfristen; 10-Minuten-Timer.",
+    "sources": [
+      "P1",
+      "E1"
+    ],
+    "intent": "Erst vorhersagen, dann vergleichen; ergänzend dokumentierter echter Tokenizer-Snapshot nach Implementierungsprüfung.",
+    "notes": "Timer erst starten, nachdem beide Vokabulare und die Längste-passende-Einheit-Regel verstanden sind. Die Studierenden zerlegen beide Wörter und notieren die Anzahl. Die Daten sind absichtlich klein: Wir untersuchen einen Mechanismus, nicht einen Wettbewerb zwischen Produkten. Wer früher fertig ist, erklärt, warum eine bloße Zeichenanzahl das Ergebnis nicht bestimmt. Die Lösungen noch nicht zeigen.",
+    "why": "Ein kontrolliertes Papierexperiment zeigt den Einfluss des Vokabulars ohne Konto oder technische Hürde.",
+    "explain": "Timer erst starten, nachdem beide Vokabulare und die Längste-passende-Einheit-Regel verstanden sind. Die Studierenden zerlegen beide Wörter und notieren die Anzahl. Die Daten sind absichtlich klein: Wir untersuchen einen Mechanismus, nicht einen Wettbewerb zwischen Produkten. Wer früher fertig ist, erklärt, warum eine bloße Zeichenanzahl das Ergebnis nicht bestimmt. Die Lösungen noch nicht zeigen.",
+    "question": "Welche Information müssten Sie kennen, bevor Sie eine reale Tokenzahl angeben? Das konkrete Tokenizer-Verfahren und Vokabular.",
+    "pitfall": "Diese Übung ist kein vollständiger BPE-Trainingsalgorithmus und keine produktive Tokenizer-Messung.",
+    "tag": "WOCHE 3 · ÜBUNG"
+  },
+  {
+    "id": "w03-05",
+    "time": "25–30",
+    "title": "Derselbe Text kann verschieden viele Tokens ergeben.",
+    "visual": "Zwei Zerlegungen nebeneinander, identischer Ausgangstext.",
+    "sources": [
+      "P1",
+      "E1"
+    ],
+    "intent": "Abweichung erklären; keine universelle Zeichen-pro-Token-Regel.",
+    "notes": "Zeigen Sie beide Zerlegungen gleichzeitig. Lieferfristen ist in A drei, in B ein Token. Lieferfrist ist in A zwei, in B ein Token. Gleicher Text, unterschiedliche Vokabulare. In einer echten Messung werden Eingabe und Toolversion dokumentiert. Großschreibung, Leerzeichen, Eigennamen oder Fachbegriffe können den Zuschnitt beeinflussen. Keine feste Deutsch-Englisch-Quote ableiten. Eine Chatantwort, die eine Tokenzahl behauptet, ist nicht selbst die Messung.",
+    "why": "Aus dem Versuch wird eine präzise, begrenzte Aussage abgeleitet.",
+    "explain": "Zeigen Sie beide Zerlegungen gleichzeitig. Lieferfristen ist in A drei, in B ein Token. Lieferfrist ist in A zwei, in B ein Token. Gleicher Text, unterschiedliche Vokabulare. In einer echten Messung werden Eingabe und Toolversion dokumentiert. Großschreibung, Leerzeichen, Eigennamen oder Fachbegriffe können den Zuschnitt beeinflussen. Keine feste Deutsch-Englisch-Quote ableiten. Eine Chatantwort, die eine Tokenzahl behauptet, ist nicht selbst die Messung.",
+    "question": "Würde vier Zeichen pro Token diese beiden Vokabulare korrekt beschreiben? Nein.",
+    "pitfall": "Nicht von diesem künstlichen Beispiel auf Kosten eines realen Anbieters hochrechnen.",
+    "tag": "WOCHE 3 · AUSWERTUNG"
+  },
+  {
+    "id": "w03-06",
+    "time": "30–35",
+    "title": "Kontext ist das Material für den aktuellen Modellaufruf.",
+    "visual": "Mise-en-Place-Bild aus Literacy Basics; Auftrag, Angebote, Regel rechts.",
+    "sources": [
+      "B1",
+      "M1"
+    ],
+    "intent": "Vorbereitung erklären: nur tatsächlich verfügbare Information kann einfließen.",
+    "notes": "Beim Kochen helfen bereitgelegte Zutaten, eine Aufgabe geordnet zu erledigen. Im Modellaufruf entsprechen ihnen Auftrag, Daten und Regeln. Das Bild links dient nur als Vorbereitungsmetapher, nicht als historische Aussage über die abgebildete Person. Für den Vergleich müssen beide Angebote und der Mengenbedarf verfügbar sein. Eine auf dem Rechner gespeicherte Datei ist nicht automatisch Teil des Aufrufs. Auch sichtbarer Chatverlauf und tatsächlich übermittelter Kontext sind nicht zwingend deckungsgleich.",
+    "why": "Die bekannte Vorbereitungsmetapher verbindet den technischen Kontext mit dem Angebotsfall.",
+    "explain": "Beim Kochen helfen bereitgelegte Zutaten, eine Aufgabe geordnet zu erledigen. Im Modellaufruf entsprechen ihnen Auftrag, Daten und Regeln. Das Bild links dient nur als Vorbereitungsmetapher, nicht als historische Aussage über die abgebildete Person. Für den Vergleich müssen beide Angebote und der Mengenbedarf verfügbar sein. Eine auf dem Rechner gespeicherte Datei ist nicht automatisch Teil des Aufrufs. Auch sichtbarer Chatverlauf und tatsächlich übermittelter Kontext sind nicht zwingend deckungsgleich.",
+    "question": "Wenn das zweite Angebot nur im Archiv liegt: Kann der aktuelle Aufruf dessen Versandkosten zuverlässig berücksichtigen? Nicht ohne Bereitstellung oder Abruf.",
+    "pitfall": "Kontextvorbereitung nicht als neues Training der Gewichte erklären.",
+    "tag": "WOCHE 3 · WISSEN"
+  },
+  {
+    "id": "w03-07",
+    "time": "35–40",
+    "title": "Attention kombiniert Informationen aus dem Kontext.",
+    "visual": "Scheinwerfer/Verbindungslinien auf Bezugsmenge und Lieferfrist; vereinfachtes Gewichtungsbeispiel.",
+    "sources": [
+      "P5",
+      "B1",
+      "E1"
+    ],
+    "intent": "Berechnete Gewichtung, nicht Gedankenlesen; keine gemessenen Attentionwerte behaupten.",
+    "notes": "Zuerst den Sachbezug zeigen: Die Frage nach Packungen verbindet Bedarf und Packungsgröße. Das Diagramm ist eine menschlich erklärte Relevanzstruktur, keine aus einem Modell ausgelesene Heatmap. Technisch werden Repräsentationen mit berechneten Gewichten kombiniert. Das Zahlenbeispiel macht nur diese Operation sichtbar: 5 plus 5 plus 10 ergibt 20. In echten Netzen sind Values Vektoren, es gibt mehrere Köpfe und weitere Rechenschritte. Bei kausaler Generierung sind zukünftige Ausgaben noch nicht verfügbar.",
+    "why": "Attention wird als Informationskombination erklärt und nicht bloß als suggestive Aufmerksamkeit.",
+    "explain": "Zuerst den Sachbezug zeigen: Die Frage nach Packungen verbindet Bedarf und Packungsgröße. Das Diagramm ist eine menschlich erklärte Relevanzstruktur, keine aus einem Modell ausgelesene Heatmap. Technisch werden Repräsentationen mit berechneten Gewichten kombiniert. Das Zahlenbeispiel macht nur diese Operation sichtbar: 5 plus 5 plus 10 ergibt 20. In echten Netzen sind Values Vektoren, es gibt mehrere Köpfe und weitere Rechenschritte. Bei kausaler Generierung sind zukünftige Ausgaben noch nicht verfügbar.",
+    "question": "Muss das gewichtete Ergebnis dem stärksten einzelnen Wert entsprechen? Nein; hier ist es 20 statt 10.",
+    "pitfall": "Attention nicht als vollständigen Beweis dafür lesen, warum das Modell eine Entscheidung traf.",
+    "tag": "WOCHE 3 · WISSEN"
+  },
+  {
+    "id": "w03-08",
+    "time": "40–45",
+    "title": "Ein großer Kontext ersetzt keine passende Auswahl.",
+    "visual": "Schreibtisch als Arbeitsfläche, Archiv daneben; keine erfundene Modellkapazität.",
+    "sources": [
+      "B1",
+      "M2"
+    ],
+    "intent": "Kontextumfang von dauerhaftem Wissen trennen; RAG erst W05 vertiefen.",
+    "notes": "Zeigen Sie die vielen Ordner im Hintergrund und die wenigen Blätter auf dem Tisch. Die Aufgabe braucht eine gezielte Auswahl; mehr Material kann auch alte oder widersprüchliche Angaben enthalten. Das Kontextfenster beschreibt eine Kapazität des Aufrufs, nicht automatischen Zugriff auf die ganze Organisation. Die Anwendung stellt den Kontext zusammen. In Woche 5 wird der Dokumentabruf vertieft. Hier genügt, benötigte Angaben nicht mit überflüssigen Duplikaten zu verwechseln.",
+    "why": "Archiv, aktiver Kontext und Auswahl werden an einer konkreten Arbeitsfläche unterschieden.",
+    "explain": "Zeigen Sie die vielen Ordner im Hintergrund und die wenigen Blätter auf dem Tisch. Die Aufgabe braucht eine gezielte Auswahl; mehr Material kann auch alte oder widersprüchliche Angaben enthalten. Das Kontextfenster beschreibt eine Kapazität des Aufrufs, nicht automatischen Zugriff auf die ganze Organisation. Die Anwendung stellt den Kontext zusammen. In Woche 5 wird der Dokumentabruf vertieft. Hier genügt, benötigte Angaben nicht mit überflüssigen Duplikaten zu verwechseln.",
+    "question": "Welche Information darf bei unserem Einkauf auf keinen Fall fehlen? Packungsgröße, Versand, Lieferbedingung und gewünschte Menge.",
+    "pitfall": "Keine bestimmte Seitenzahl als universelle Kontextkapazität nennen.",
+    "tag": "WOCHE 3 · WISSEN"
+  },
+  {
+    "id": "w03-09",
+    "time": "45–55",
+    "title": "Übung: Packen Sie den Kontext für einen Angebotsvergleich.",
+    "visual": "Aus acht Dokumentkarten nötige Unterlagen und Regeln wählen; Timer 10 Minuten.",
+    "sources": [
+      "B1",
+      "E1"
+    ],
+    "intent": "Auswahl begründen, wichtige Lieferbedingungen nicht wegkürzen.",
+    "notes": "Die acht Karten gemeinsam kurz lesen. Gefordert ist genau die Auswahl für diesen Vergleich. In fünf Minuten Tandemarbeit sollen die Gruppen auch erklären, warum eine Karte nicht gebraucht wird. Die aktuellen Angebote enthalten ihre Lieferbedingungen vollständig; diese müssen beim Auswählen erhalten bleiben. Im letzten Teil prüft das Gegenüber, ob ein entscheidender Bestandteil fehlt. Kein echtes Dokument hochladen.",
+    "why": "Die Studierenden müssen Informationsbedarf begründen statt pauschal möglichst viel hochzuladen.",
+    "explain": "Die acht Karten gemeinsam kurz lesen. Gefordert ist genau die Auswahl für diesen Vergleich. In fünf Minuten Tandemarbeit sollen die Gruppen auch erklären, warum eine Karte nicht gebraucht wird. Die aktuellen Angebote enthalten ihre Lieferbedingungen vollständig; diese müssen beim Auswählen erhalten bleiben. Im letzten Teil prüft das Gegenüber, ob ein entscheidender Bestandteil fehlt. Kein echtes Dokument hochladen.",
+    "question": "Was verlieren Sie, wenn Sie aus dem Angebot nur den großen Preis herauskopieren?",
+    "pitfall": "Die Beschränkung auf vier Karten ist Teil des kontrollierten Falls, keine universelle RAG-Regel.",
+    "tag": "WOCHE 3 · ÜBUNG"
+  },
+  {
+    "id": "w03-10",
+    "time": "55–60",
+    "title": "Zum Auftrag gehören Preise, Einheiten und Lieferbedingungen.",
+    "visual": "Muster-Arbeitsfläche mit ausgewählten Karten.",
+    "sources": [
+      "B1",
+      "E1"
+    ],
+    "intent": "Unnötiges weglassen, entscheidende Informationen behalten.",
+    "notes": "A und B liefern die Angebotsdaten. C definiert den Auftrag mit Menge und Terminprüfung. D sorgt für dieselbe Vergleichsbasis. E und H sind fachfremd, F veraltet, G ein Duplikat. Mit A bis D kann die Prüfung erfolgen. Falls eine relevante Angabe in den Angeboten fehlt, kann die richtige Antwort dennoch eine Rückfrage sein. Auswahl ist also nicht gleich Vollständigkeitsgarantie.",
+    "why": "Die Auswahl wird fachlich begründet und von einer fertigen Entscheidung abgegrenzt.",
+    "explain": "A und B liefern die Angebotsdaten. C definiert den Auftrag mit Menge und Terminprüfung. D sorgt für dieselbe Vergleichsbasis. E und H sind fachfremd, F veraltet, G ein Duplikat. Mit A bis D kann die Prüfung erfolgen. Falls eine relevante Angabe in den Angeboten fehlt, kann die richtige Antwort dennoch eine Rückfrage sein. Auswahl ist also nicht gleich Vollständigkeitsgarantie.",
+    "question": "Warum ist die alte Preisliste hier schlechter als das aktuelle Angebot? Sie kann widersprüchliche Bedingungen hineinbringen.",
+    "pitfall": "Die Musterlösung gilt unter den angegebenen Karteninhalten; sinnvolle Rückfragen ausdrücklich zulassen.",
+    "tag": "WOCHE 3 · AUSWERTUNG"
+  },
+  {
+    "id": "w03-11",
+    "time": "60–65",
+    "title": "Temperature verändert die Auswahlwahrscheinlichkeiten.",
+    "visual": "Interaktive drei Balken aus festen Scores [2,1,0], T 0.5/1/2.",
+    "sources": [
+      "P2",
+      "E1"
+    ],
+    "intent": "Niedrig: stärker konzentriert; höher: flacher. Berechnete Demo, kein Modellbenchmark.",
+    "notes": "Alle drei Scores bleiben fest bei 2, 1 und 0. Nur Temperature ändert sich. Bei T gleich 1 ergeben sich etwa 66,52, 24,47 und 9,00 Prozent. Bei 0,5 steigt A auf etwa 86,68 Prozent; bei 2 sinkt A auf etwa 50,65 Prozent. Die Rangfolge bleibt bei diesen Scores gleich, aber die Verteilung wird konzentrierter oder flacher. Das zeigt Auswahlverhalten, nicht neues Wissen. Die Formel ist ein optionaler Rechenanker; für das Lernziel reichen die Balken.",
+    "why": "Der Parameter erhält eine sichtbare mechanische Wirkung statt eines Kreativitäts-Etiketts.",
+    "explain": "Alle drei Scores bleiben fest bei 2, 1 und 0. Nur Temperature ändert sich. Bei T gleich 1 ergeben sich etwa 66,52, 24,47 und 9,00 Prozent. Bei 0,5 steigt A auf etwa 86,68 Prozent; bei 2 sinkt A auf etwa 50,65 Prozent. Die Rangfolge bleibt bei diesen Scores gleich, aber die Verteilung wird konzentrierter oder flacher. Das zeigt Auswahlverhalten, nicht neues Wissen. Die Formel ist ein optionaler Rechenanker; für das Lernziel reichen die Balken.",
+    "question": "Welcher Kandidat gewinnt relativ, wenn wir T erhöhen? Die bisher schwächeren B und C.",
+    "pitfall": "Temperature nicht mit Nachtraining oder garantierter sachlicher Genauigkeit verwechseln.",
+    "tag": "WOCHE 3 · WISSEN"
+  },
+  {
+    "id": "w03-12",
+    "time": "65–70",
+    "title": "Top-P begrenzt die Menge möglicher Fortsetzungen.",
+    "visual": "Kandidatenkarten, kumulierte Wahrscheinlichkeit und Auswahlschwelle.",
+    "sources": [
+      "P2",
+      "E1"
+    ],
+    "intent": "Temperature und Kandidatenbegrenzung unterscheiden.",
+    "notes": "Die vier Wahrscheinlichkeiten sind ein eigenes, leicht rechenbares Beispiel. Für die Schwelle 0,80 reicht A mit 60 Prozent nicht. Mit B sind 85 Prozent erreicht, daher bilden A und B den Kern. Innerhalb dieses Kerns wird neu normiert: ungefähr 70,6 und 29,4 Prozent. Die Anzahl ausgewählter Kandidaten ist nicht überall gleich; sie hängt von der Verteilung ab. Für unsere Casino-Übung bleibt Top-P unverändert, damit nur eine Stellschraube untersucht wird.",
+    "why": "Top-P wird von der Formung der Verteilung durch Temperature abgegrenzt.",
+    "explain": "Die vier Wahrscheinlichkeiten sind ein eigenes, leicht rechenbares Beispiel. Für die Schwelle 0,80 reicht A mit 60 Prozent nicht. Mit B sind 85 Prozent erreicht, daher bilden A und B den Kern. Innerhalb dieses Kerns wird neu normiert: ungefähr 70,6 und 29,4 Prozent. Die Anzahl ausgewählter Kandidaten ist nicht überall gleich; sie hängt von der Verteilung ab. Für unsere Casino-Übung bleibt Top-P unverändert, damit nur eine Stellschraube untersucht wird.",
+    "question": "Welche Kandidaten wären bei Top-P 0,90 nötig? A, B und C, zusammen 95 Prozent.",
+    "pitfall": "Top-P 0,8 bedeutet nicht die besten 80 Prozent aller Tokenarten.",
+    "tag": "WOCHE 3 · WISSEN"
+  },
+  {
+    "id": "w03-13",
+    "time": "70–75",
+    "title": "Wahrscheinlich formuliert heißt nicht sachlich richtig.",
+    "visual": "Zwei Prüfstationen: Auswahl im Modell versus Quellen-/Rechenprüfung.",
+    "sources": [
+      "P2",
+      "B1",
+      "E1"
+    ],
+    "intent": "Temperature ist kein Wahrheitsregler.",
+    "notes": "Ein Satz kann sprachlich hervorragend passen und dennoch falsche Versandkosten nennen. Zeigen Sie zuerst die Behauptung, dann den widersprechenden Angebotsbeleg. Eine niedrigere Temperature konzentriert die Auswahl auf favorisierte Fortsetzungen; falls eine falsche Fortsetzung favorisiert wird, ist damit nichts berichtigt. Temperature 0 wird häufig als Greedy-Auswahl umgesetzt, ist aber kein generelles Versprechen identischer Ausgaben in jeder Infrastruktur. Für diese Vorlesung zählt der fachliche Abgleich.",
+    "why": "Modellwahrscheinlichkeit und fachliche Richtigkeit werden am gleichen Geschäftsvorgang getrennt.",
+    "explain": "Ein Satz kann sprachlich hervorragend passen und dennoch falsche Versandkosten nennen. Zeigen Sie zuerst die Behauptung, dann den widersprechenden Angebotsbeleg. Eine niedrigere Temperature konzentriert die Auswahl auf favorisierte Fortsetzungen; falls eine falsche Fortsetzung favorisiert wird, ist damit nichts berichtigt. Temperature 0 wird häufig als Greedy-Auswahl umgesetzt, ist aber kein generelles Versprechen identischer Ausgaben in jeder Infrastruktur. Für diese Vorlesung zählt der fachliche Abgleich.",
+    "question": "Welcher Nachweis entscheidet den Versandfall: die flüssige Formulierung oder das Angebot? Das Angebot und dessen gültige Bedingungen.",
+    "pitfall": "Keine spezielle Produkteinstellung oder reproduzierbare API-Funktion behaupten.",
+    "tag": "WOCHE 3 · WISSEN"
+  },
+  {
+    "id": "w03-14",
+    "time": "75–85",
+    "title": "Übung: Temperature-Casino – Vielfalt beobachten.",
+    "visual": "Offline-Sampling aus fester Verteilung, Wiederholungen zählen; Timer 10 Minuten.",
+    "sources": [
+      "P2",
+      "E1"
+    ],
+    "intent": "Nur T ändern; Durchläufe, Streuung und Grenzen notieren.",
+    "notes": "Den ersten Versuch gemeinsam vorbereiten: T einstellen, zurücksetzen, hundert Ziehungen ausführen, Häufigkeiten notieren. Dasselbe bei den beiden anderen Werten. Beim T-Wechsel werden die Zähler zurückgesetzt, damit Bedingungen nicht vermischt werden. Die Zufallszahlen kommen lokal aus dem Browser; kein Sprachmodell und keine kostenpflichtige API werden aufgerufen. Wiederholen Sie bei Zeit zwei Versuche unter derselben Bedingung und vergleichen Sie die Abweichung.",
+    "why": "Die Studierenden beobachten Zufallsstreuung bei konstantem Modellbeispiel.",
+    "explain": "Den ersten Versuch gemeinsam vorbereiten: T einstellen, zurücksetzen, hundert Ziehungen ausführen, Häufigkeiten notieren. Dasselbe bei den beiden anderen Werten. Beim T-Wechsel werden die Zähler zurückgesetzt, damit Bedingungen nicht vermischt werden. Die Zufallszahlen kommen lokal aus dem Browser; kein Sprachmodell und keine kostenpflichtige API werden aufgerufen. Wiederholen Sie bei Zeit zwei Versuche unter derselben Bedingung und vergleichen Sie die Abweichung.",
+    "question": "Warum sehen zwei Gruppen bei T gleich 1 nicht notwendigerweise dieselben Zählerstände? Die Ziehungen sind zufällig.",
+    "pitfall": "100 Ziehungen erlauben eine Illustration, aber keine generelle Aussage über die Qualität eines realen Modells.",
+    "tag": "WOCHE 3 · ÜBUNG"
+  },
+  {
+    "id": "w03-15",
+    "time": "85–90",
+    "title": "Mehr Vielfalt ist noch kein Qualitätsgewinn.",
+    "visual": "Wahrscheinlichkeit versus beobachtete Häufigkeit; keine erwarteten Resultate vortäuschen.",
+    "sources": [
+      "P2",
+      "E1"
+    ],
+    "intent": "Zufallsstreuung und Aufgabengüte getrennt besprechen.",
+    "notes": "Lassen Sie zuerst zwei Gruppen ihre notierten Zähler nennen. Vergleichen Sie dann mit den theoretischen Wahrscheinlichkeiten. Eine moderate Abweichung ist kein Implementierungsfehler. Niedrige T konzentriert sich stärker auf A, hohe T verteilt sich breiter. Der Versuch enthielt keine Wahrheitslabels, daher kann man daraus keine sachliche Genauigkeit berechnen. Für kreative Überschriften könnte Vielfalt ein Ziel sein, für Extraktion dagegen korrekte Felder. Die Bewertungsregel kommt aus der Aufgabe.",
+    "why": "Erwartungswert, beobachtete Häufigkeit und Qualität werden auseinandergehalten.",
+    "explain": "Lassen Sie zuerst zwei Gruppen ihre notierten Zähler nennen. Vergleichen Sie dann mit den theoretischen Wahrscheinlichkeiten. Eine moderate Abweichung ist kein Implementierungsfehler. Niedrige T konzentriert sich stärker auf A, hohe T verteilt sich breiter. Der Versuch enthielt keine Wahrheitslabels, daher kann man daraus keine sachliche Genauigkeit berechnen. Für kreative Überschriften könnte Vielfalt ein Ziel sein, für Extraktion dagegen korrekte Felder. Die Bewertungsregel kommt aus der Aufgabe.",
+    "question": "Welche zusätzliche Information bräuchten wir, um fachliche Genauigkeit zu messen? Ein überprüftes Ziel bzw. gültige Lösungen.",
+    "pitfall": "Nicht aus einem einzelnen ungewöhnlichen Lauf eine Gesetzmäßigkeit ableiten.",
+    "tag": "WOCHE 3 · AUSWERTUNG"
+  },
+  {
+    "id": "w03-16",
+    "time": "90–105",
+    "title": "Pause",
+    "visual": "Ruhige 15-Minuten-Pausenfolie.",
+    "sources": [
+      "B2"
+    ],
+    "intent": "Keine Bonusaufgabe.",
+    "notes": "Die konkrete Rückkehrzeit nennen und die vollen fünfzehn Minuten freilassen. Keine zusätzlichen Pflichtaufgaben aufgeben. Nach der Rückkehr kurz das Ziel nennen: Nicht wie überzeugend ein Text klingt, sondern ob sein Ergebnis prüfbar ist.",
+    "why": "Die Pause bleibt ein echter Abstand zwischen Modellmechanik und Anwendung.",
+    "explain": "Die konkrete Rückkehrzeit nennen und die vollen fünfzehn Minuten freilassen. Keine zusätzlichen Pflichtaufgaben aufgeben. Nach der Rückkehr kurz das Ziel nennen: Nicht wie überzeugend ein Text klingt, sondern ob sein Ergebnis prüfbar ist.",
+    "question": "Keine Aktivierungsfrage während der Pause.",
+    "pitfall": "Den Pause-Timer nicht als weitere zehnminütige Übung behandeln.",
+    "tag": "WOCHE 3 · PAUSE"
+  },
+  {
+    "id": "w03-17",
+    "time": "105–110",
+    "title": "Reasoning bearbeitet eine Aufgabe in mehreren Schritten.",
+    "visual": "Direktantwort versus Rechenweg mit Zwischenergebnis und Prüfung.",
+    "sources": [
+      "B1",
+      "P3"
+    ],
+    "intent": "System 1/2 als Einstieg, nicht menschliche Denksysteme im Modell behaupten.",
+    "notes": "Eine Direktantwort kann korrekt sein. Bei unserem Einkauf müssen jedoch Mengen, Einheiten und Bedingungen zusammengeführt werden. Zusätzliche Bearbeitung kann Zwischenrechnungen, Varianten oder Prüfungen enthalten. System 1 und System 2 dienen hier nur als eingängige Analogie. Verfahren, Trainingsmethoden und konkrete Produkte unterscheiden sich. Der Prüfmaßstab bleibt, ob die zusätzliche Bearbeitung die Lösung für diese Aufgabe verbessert, nicht ob sie besonders lang wirkt.",
+    "why": "Reasoning wird funktional als zusätzliche Bearbeitung vorgestellt.",
+    "explain": "Eine Direktantwort kann korrekt sein. Bei unserem Einkauf müssen jedoch Mengen, Einheiten und Bedingungen zusammengeführt werden. Zusätzliche Bearbeitung kann Zwischenrechnungen, Varianten oder Prüfungen enthalten. System 1 und System 2 dienen hier nur als eingängige Analogie. Verfahren, Trainingsmethoden und konkrete Produkte unterscheiden sich. Der Prüfmaßstab bleibt, ob die zusätzliche Bearbeitung die Lösung für diese Aufgabe verbessert, nicht ob sie besonders lang wirkt.",
+    "question": "Wann wäre ein langer Modelltext unnötig? Wenn validierte Zahlen nur in eine feste Formel eingesetzt werden müssen.",
+    "pitfall": "Nicht behaupten, eine Aufforderung zum schrittweisen Denken sei gleichbedeutend mit jeder technischen Reasoning-Methode.",
+    "tag": "WOCHE 3 · WISSEN"
+  },
+  {
+    "id": "w03-18",
+    "time": "110–115",
+    "title": "Eine Begründung muss sich überprüfen lassen.",
+    "visual": "Belegkarte: Eingabewert → Formel → Ergebnis → offene Annahme.",
+    "sources": [
+      "P3",
+      "B1"
+    ],
+    "intent": "Prüfbare Erklärung statt vermeintlichem Gedankenprotokoll.",
+    "notes": "Jede Karte nennt einen überprüfbaren Bestandteil: Preis pro Packung, benötigte Anzahl, Gesamtkosten und eine offene Bedingung. Diese Angaben können am Original und mit einem Taschenrechner kontrolliert werden. Turpin et al. zeigen in bestimmten damaligen Experimenten, dass Erklärungen verzerrende Eingabehinweise nicht immer offenlegen. Daraus folgt nicht, dass Erklärungen nutzlos sind; sie müssen fachlich geprüft werden. Verlangen Sie knappe Belege statt eines vermeintlich authentischen internen Gedankenprotokolls.",
+    "why": "Eine Erklärung wird als kontrollierbares Arbeitsprodukt behandelt.",
+    "explain": "Jede Karte nennt einen überprüfbaren Bestandteil: Preis pro Packung, benötigte Anzahl, Gesamtkosten und eine offene Bedingung. Diese Angaben können am Original und mit einem Taschenrechner kontrolliert werden. Turpin et al. zeigen in bestimmten damaligen Experimenten, dass Erklärungen verzerrende Eingabehinweise nicht immer offenlegen. Daraus folgt nicht, dass Erklärungen nutzlos sind; sie müssen fachlich geprüft werden. Verlangen Sie knappe Belege statt eines vermeintlich authentischen internen Gedankenprotokolls.",
+    "question": "An welcher Stelle könnten Sie einen Fehler lokalisieren, wenn B plötzlich 20.490 Euro kostet? Wahrscheinlich bei Stück versus Packung.",
+    "pitfall": "Die wissenschaftliche Studie nicht als pauschale Aussage über alle heutigen Modelle darstellen.",
+    "tag": "WOCHE 3 · WISSEN"
+  },
+  {
+    "id": "w03-19",
+    "time": "115–120",
+    "title": "B kostet 90 Euro weniger – der Liefertermin bleibt offen.",
+    "visual": "A 120×18+60=2220; B 12×170+90=2130; Bestelleingang versus technische Freigabe.",
+    "sources": [
+      "B1",
+      "E1"
+    ],
+    "intent": "Rechnung abgeschlossen, Beschaffungsentscheidung noch nicht.",
+    "notes": "120 Stück zu 18 Euro ergeben 2160 Euro, plus 60 Euro Versand gleich 2220. Bei B werden zwölf Zehnerpackungen benötigt: 2040 plus 90 gleich 2130. B spart 90 Euro. Beide Fristen dauern zehn Tage, beginnen aber nicht zum gleichen Ereignis. Ohne Datum der technischen Freigabe lässt sich B nicht auf denselben Liefertermin setzen. Diese Trennung ist die Pointe: Kostenrechnung korrekt, Gesamtempfehlung noch nicht abgeschlossen.",
+    "why": "Der wiederkehrende Fall wird vollständig vorgerechnet und um die Lieferbedingung erweitert.",
+    "explain": "120 Stück zu 18 Euro ergeben 2160 Euro, plus 60 Euro Versand gleich 2220. Bei B werden zwölf Zehnerpackungen benötigt: 2040 plus 90 gleich 2130. B spart 90 Euro. Beide Fristen dauern zehn Tage, beginnen aber nicht zum gleichen Ereignis. Ohne Datum der technischen Freigabe lässt sich B nicht auf denselben Liefertermin setzen. Diese Trennung ist die Pointe: Kostenrechnung korrekt, Gesamtempfehlung noch nicht abgeschlossen.",
+    "question": "Welche Rückfrage fehlt vor einer termingebundenen Bestellung? Wann ist die technische Freigabe erteilt?",
+    "pitfall": "Kalendertage oder Werktage nicht eigenständig ergänzen; die Beispielangabe ist insoweit nicht spezifiziert.",
+    "tag": "WOCHE 3 · WISSEN"
+  },
+  {
+    "id": "w03-20",
+    "time": "120–130",
+    "title": "Übung: Prüfen und korrigieren Sie die Empfehlung.",
+    "visual": "Absichtlich fehlerhafte Antwort mit fehlender Einheit/Terminannahme; Timer 10 Minuten.",
+    "sources": [
+      "B1",
+      "E1"
+    ],
+    "intent": "Fehler markieren, knapp nachrechnen, konkrete Rückfrage formulieren.",
+    "notes": "Die Antwort enthält absichtlich richtige Gesamtsummen und drei problematische Schlussfolgerungen. Dadurch reicht pauschales Ablehnen nicht. Nach der Einzelprüfung schreiben die Tandems eine bessere Antwort von maximal vier Sätzen. Die Angaben stehen auf dem Arbeitsblatt, damit keine Navigation nötig ist. Neben dem Prozentfehler müssen der Fristbeginn und die fehlende Kaufautorisierung erkannt werden.",
+    "why": "Die Übung verlangt eine kurze belastbare Korrektur statt bloßer Skepsis.",
+    "explain": "Die Antwort enthält absichtlich richtige Gesamtsummen und drei problematische Schlussfolgerungen. Dadurch reicht pauschales Ablehnen nicht. Nach der Einzelprüfung schreiben die Tandems eine bessere Antwort von maximal vier Sätzen. Die Angaben stehen auf dem Arbeitsblatt, damit keine Navigation nötig ist. Neben dem Prozentfehler müssen der Fristbeginn und die fehlende Kaufautorisierung erkannt werden.",
+    "question": "Welche Teile würden Sie unverändert übernehmen? Die beiden korrekt berechneten Gesamtkosten und den absoluten Unterschied von 90 Euro.",
+    "pitfall": "Eine Antwort mit einem Fehler nicht automatisch vollständig verwerfen.",
+    "tag": "WOCHE 3 · ÜBUNG"
+  },
+  {
+    "id": "w03-21",
+    "time": "130–135",
+    "title": "Eine korrekte Antwort trennt Ergebnis und fehlende Angaben.",
+    "visual": "Lösungstabelle: bekannt, berechnet, noch zu klären.",
+    "sources": [
+      "B1",
+      "E1"
+    ],
+    "intent": "Keine fehlenden Fristen oder Freigaben erfinden.",
+    "notes": "Der absolute Preisvorteil beträgt 90 Euro; relativ zu A sind es 90 geteilt durch 2220, also rund 4,05 Prozent. Der Liefertermin von B bleibt ohne Freigabedatum offen. Eine knappe Musterantwort lautet: B kostet bei 120 Stück netto 2130 Euro und damit 90 Euro weniger als A. Beide Fristen beginnen unterschiedlich. Bitte klären Sie die technische Freigabe und den benötigten Liefertermin, bevor bestellt wird.",
+    "why": "Das Ergebnis zeigt unterschiedliche Status: bekannt, berechnet und offen.",
+    "explain": "Der absolute Preisvorteil beträgt 90 Euro; relativ zu A sind es 90 geteilt durch 2220, also rund 4,05 Prozent. Der Liefertermin von B bleibt ohne Freigabedatum offen. Eine knappe Musterantwort lautet: B kostet bei 120 Stück netto 2130 Euro und damit 90 Euro weniger als A. Beide Fristen beginnen unterschiedlich. Bitte klären Sie die technische Freigabe und den benötigten Liefertermin, bevor bestellt wird.",
+    "question": "Warum nennen wir die Bezugsgröße A bei 4,05 Prozent? Ein Prozentsatz braucht eine eindeutig definierte Basis.",
+    "pitfall": "Nicht den Hinweis auf offene Termine als Ausrede zum Weglassen der bereits möglichen Rechnung verwenden.",
+    "tag": "WOCHE 3 · AUSWERTUNG"
+  },
+  {
+    "id": "w03-22",
+    "time": "135–140",
+    "title": "Die Lunchbox enthält nur das Nötige für den Auftrag.",
+    "visual": "Neue klare Lunchbox mit Auftragskarte, passenden Unterlagen und Werkzeugen; kein Cloud-Käfig.",
+    "sources": [
+      "B1",
+      "P4",
+      "E1",
+      "M2"
+    ],
+    "intent": "Begrenzte Teilaufgabe ermöglicht gezielte Ausstattung.",
+    "notes": "Auf die drei Fächer zeigen: Der Auftrag begrenzt die Handlung, die Unterlagen liefern das relevante Wissen, die Werkzeuge führen klar beschriebene Schritte aus. Die Box ist keine Metapher für ein grundsätzlich dummes Modell, sondern für eine bewusst vorbereitete Arbeitsumgebung. Das kann den Einsatz spezialisierter oder kleinerer Modelle erleichtern. Ob es genügt, muss an realistischen Testfällen geprüft werden. Nicht aus Bild oder Metapher einen Benchmark ableiten.",
+    "why": "Die Lunchbox verbindet aufgabenbezogenes Wissen und Werkzeugauswahl mit dem bisherigen Stoff.",
+    "explain": "Auf die drei Fächer zeigen: Der Auftrag begrenzt die Handlung, die Unterlagen liefern das relevante Wissen, die Werkzeuge führen klar beschriebene Schritte aus. Die Box ist keine Metapher für ein grundsätzlich dummes Modell, sondern für eine bewusst vorbereitete Arbeitsumgebung. Das kann den Einsatz spezialisierter oder kleinerer Modelle erleichtern. Ob es genügt, muss an realistischen Testfällen geprüft werden. Nicht aus Bild oder Metapher einen Benchmark ableiten.",
+    "question": "Was gehört nicht in die Box des Angebotsvergleichs? Das Teamfoto oder der vollständige alte Chatverlauf ohne Bezug zum Auftrag.",
+    "pitfall": "Modellgröße und lokalen Betrieb nicht gleichsetzen; auch kleine Modelle können als Dienst laufen.",
+    "tag": "WOCHE 3 · WISSEN"
+  },
+  {
+    "id": "w03-23",
+    "time": "140–145",
+    "title": "Modellgröße, Kontext und Rechenzeit sind drei verschiedene Größen.",
+    "visual": "Fachkraft/Arbeitsfläche/Bearbeitungszeit als dreiteilige Metapher.",
+    "sources": [
+      "B1"
+    ],
+    "intent": "Nicht großes Modell mit großem Gedächtnis oder langer Antwort gleichsetzen.",
+    "notes": "Parameter sind gelernte Zahlen des Modells; Kontext ist das im aktuellen Aufruf bereitgestellte Material; Inferenzaufwand ist die Berechnung bei der Bearbeitung. Die Bilder Fachkraft, Arbeitsfläche und Zeit sind nur eine didaktische Analogie. Ein Modell mit mehr Parametern muss nicht die größere Kontextkapazität besitzen. Ein längerer Kontext ändert die Gewichte nicht. Mehr ausgegebener Text ist kein hinreichendes Maß für korrekte zusätzliche Arbeit.",
+    "why": "Drei häufig vermischte Stellgrößen erhalten unterscheidbare Funktionen.",
+    "explain": "Parameter sind gelernte Zahlen des Modells; Kontext ist das im aktuellen Aufruf bereitgestellte Material; Inferenzaufwand ist die Berechnung bei der Bearbeitung. Die Bilder Fachkraft, Arbeitsfläche und Zeit sind nur eine didaktische Analogie. Ein Modell mit mehr Parametern muss nicht die größere Kontextkapazität besitzen. Ein längerer Kontext ändert die Gewichte nicht. Mehr ausgegebener Text ist kein hinreichendes Maß für korrekte zusätzliche Arbeit.",
+    "question": "Welche Größe verändern wir, wenn wir ein weiteres Angebot in den Aufruf aufnehmen? Den Kontext, nicht die Parameterzahl.",
+    "pitfall": "Keinen dieser Werte als alleinige Qualitätsrangliste verwenden.",
+    "tag": "WOCHE 3 · WISSEN"
+  },
+  {
+    "id": "w03-24",
+    "time": "145–150",
+    "title": "Klare Rechnungen gehören ins Werkzeug; Sonderfälle zur Prüfung.",
+    "visual": "Extraktion → Rechentool → Bewertung; Eskalation bei unklaren Angaben.",
+    "sources": [
+      "B1",
+      "P4",
+      "E1",
+      "I3"
+    ],
+    "intent": "Kleine Modelle als Testkandidaten, nicht als pauschale Sieger.",
+    "notes": "Sprachverarbeitung extrahiert aus dem Angebot Datenfelder. Code prüft Pflichtfelder, rechnet Einheiten um und summiert. Ein Widerspruch in einer Klausel wird anschließend explizit zur Prüfung gegeben. Das entspricht dem Trinity-Prinzip spezialisierter Worker und koordinierter Werkstätten. Eigenes SQLite-Wissen, gemeinsame Regeln und Projektmaterial sind unterschiedliche Ablagen, von denen passende Teile in den Kontext kommen. Eine Datenbank allein löst den Abruf nicht. Der Positionsbeitrag von Belcak motiviert kleinere Modelle für enge Teilaufgaben; er ersetzt keinen Test.",
+    "why": "Die abstrakte Modellwahl wird in konkrete Arbeitsschritte aufgelöst.",
+    "explain": "Sprachverarbeitung extrahiert aus dem Angebot Datenfelder. Code prüft Pflichtfelder, rechnet Einheiten um und summiert. Ein Widerspruch in einer Klausel wird anschließend explizit zur Prüfung gegeben. Das entspricht dem Trinity-Prinzip spezialisierter Worker und koordinierter Werkstätten. Eigenes SQLite-Wissen, gemeinsame Regeln und Projektmaterial sind unterschiedliche Ablagen, von denen passende Teile in den Kontext kommen. Eine Datenbank allein löst den Abruf nicht. Der Positionsbeitrag von Belcak motiviert kleinere Modelle für enge Teilaufgaben; er ersetzt keinen Test.",
+    "question": "Warum ist ein richtiger Taschenrechner allein noch keine korrekte Anwendung? Falsch extrahierte Eingaben ergeben trotz korrekter Rechnung einen falschen Vergleich.",
+    "pitfall": "Keine aktuelle Trinity-Funktion als getestet darstellen; hier geht es um das dokumentierte Architekturprinzip.",
+    "tag": "WOCHE 3 · WISSEN"
+  },
+  {
+    "id": "w03-25",
+    "time": "150–160",
+    "title": "Übung: Wählen Sie Modell, Werkzeug und Eskalation.",
+    "visual": "Drei konkrete Auftragskarten; Testkriterium je Wahl; Timer 10 Minuten.",
+    "sources": [
+      "B1",
+      "P4",
+      "E1"
+    ],
+    "intent": "Aufgabe und Risiko begründen die Ausstattung.",
+    "notes": "Fall A erlaubt den Test eines kleineren Extraktionsmodells mit festen Feldern. Fall B enthält nach Validierung nur eine klare Rechenregel. Fall C braucht transparente Aufbereitung und eine Rückfrage, eventuell fachliche Entscheidung. Diese Hinweise nicht vorab als Lösung verteilen. Jedes Tandem muss außerdem einen Test und eine Eskalationsbedingung angeben. Eine reine Nennung von Modellmarken ist keine ausreichende Antwort.",
+    "why": "Die Lernenden müssen die Systementscheidung anhand von Aufgabe und Fehlerfolgen begründen.",
+    "explain": "Fall A erlaubt den Test eines kleineren Extraktionsmodells mit festen Feldern. Fall B enthält nach Validierung nur eine klare Rechenregel. Fall C braucht transparente Aufbereitung und eine Rückfrage, eventuell fachliche Entscheidung. Diese Hinweise nicht vorab als Lösung verteilen. Jedes Tandem muss außerdem einen Test und eine Eskalationsbedingung angeben. Eine reine Nennung von Modellmarken ist keine ausreichende Antwort.",
+    "question": "Was tun Sie, wenn bei A plötzlich die Packungsgröße fehlt? Nicht raten; Rückfrage oder definierter Ausnahmeweg.",
+    "pitfall": "Nicht automatisch das größte Modell als Ersatz für fehlende Information auswählen.",
+    "tag": "WOCHE 3 · ÜBUNG"
+  },
+  {
+    "id": "w03-26",
+    "time": "160–165",
+    "title": "Die passende Lösung besteht den Test für ihren Auftrag.",
+    "visual": "Vergleichsmatrix: Eingabefehler, Qualität, Zeit, Kosten; ohne erfundene Messwerte.",
+    "sources": [
+      "B1",
+      "P4",
+      "E1"
+    ],
+    "intent": "Tool-first und Modellwahl fachlich überprüfen.",
+    "notes": "Die Tabelle ist ein begründeter Startpunkt, kein einzig zulässiges Design. Für A kann ein größerer Kandidat gewinnen, wenn der kleinere an wichtigen Fällen scheitert. B bleibt eine Codeaufgabe, wenn Daten und Formel feststehen. C benötigt die fehlende Information unabhängig von Modellgröße. Vergleichen Sie dieselben Fälle und erfassen Sie Gesamtzeit einschließlich Korrektur. Kleine Modelle können Kosten und Laufzeit reduzieren, aber nur ausreichende Qualität macht das sinnvoll.",
+    "why": "Die Musterlösung macht Architektur überprüfbar statt dogmatisch.",
+    "explain": "Die Tabelle ist ein begründeter Startpunkt, kein einzig zulässiges Design. Für A kann ein größerer Kandidat gewinnen, wenn der kleinere an wichtigen Fällen scheitert. B bleibt eine Codeaufgabe, wenn Daten und Formel feststehen. C benötigt die fehlende Information unabhängig von Modellgröße. Vergleichen Sie dieselben Fälle und erfassen Sie Gesamtzeit einschließlich Korrektur. Kleine Modelle können Kosten und Laufzeit reduzieren, aber nur ausreichende Qualität macht das sinnvoll.",
+    "question": "Welcher Testfall könnte eine gute Durchschnittsleistung entlarven? Ein Angebot mit ungewohnter Einheit oder fehlender Versandangabe.",
+    "pitfall": "Keine ungemessenen Qualitäts-, Kosten- oder Geschwindigkeitssieger benennen.",
+    "tag": "WOCHE 3 · AUSWERTUNG"
+  },
+  {
+    "id": "w03-27",
+    "time": "165–175",
+    "title": "Wissenscheck: fünf Aussagen zur Modellmechanik.",
+    "visual": "Aufdeckbare Fragen; 10-Minuten-Timer, keine Rangliste.",
+    "sources": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "E1"
+    ],
+    "intent": "Abruf und Begründung statt bloß Wiedererkennen.",
+    "notes": "Erst individuell urteilen, dann in kurzen Begründungen diskutieren. Die fünf Aussagen sind absichtlich falsch formuliert; deshalb gehört zu jeder Antwort die Korrektur. Details erst im Plenum öffnen. Wer alles mit Nein beantwortet, muss mindestens an einem Beispiel erklären können, warum. Keine Benotung oder Rangliste. Offene Fragen werden als Lernauftrag mitgenommen.",
+    "why": "Abruf und Erklärung sichern die fünf Kerngedanken.",
+    "explain": "Erst individuell urteilen, dann in kurzen Begründungen diskutieren. Die fünf Aussagen sind absichtlich falsch formuliert; deshalb gehört zu jeder Antwort die Korrektur. Details erst im Plenum öffnen. Wer alles mit Nein beantwortet, muss mindestens an einem Beispiel erklären können, warum. Keine Benotung oder Rangliste. Offene Fragen werden als Lernauftrag mitgenommen.",
+    "question": "Welche falsche Aussage hätten Sie zu Beginn am ehesten akzeptiert?",
+    "pitfall": "Die Zahl richtiger Klicks nicht mit umfassender Kompetenz gleichsetzen.",
+    "tag": "WOCHE 3 · ABSCHLUSS"
+  },
+  {
+    "id": "w03-28",
+    "time": "175–176",
+    "title": "Nächster Schritt: Aufgaben präzise formulieren.",
+    "visual": "Text → Kontext → Auswahl → Prüfung → Anwendung; Übergang W04.",
+    "sources": [
+      "B1",
+      "B2"
+    ],
+    "intent": "Lernweg zusammenführen.",
+    "notes": "Den Weg Text, Material, Ausgabe und Ergebnis noch einmal durchgehen. Tokens und Vektoren ermöglichen Verarbeitung; Kontext bestimmt verfügbare Informationen; Auswahlparameter beeinflussen Fortsetzungen; Prüfung verbindet die Ausgabe mit einer fachlichen Aufgabe. Woche 4 setzt hier an und gestaltet präzise Aufträge mit Kontext, Beispielen und Ausgabeformat. Ein offener Satz als Exit-Ticket genügt.",
+    "why": "Die Mechanik wird als Vorbereitung auf besseres Auftragen zusammengeführt.",
+    "explain": "Den Weg Text, Material, Ausgabe und Ergebnis noch einmal durchgehen. Tokens und Vektoren ermöglichen Verarbeitung; Kontext bestimmt verfügbare Informationen; Auswahlparameter beeinflussen Fortsetzungen; Prüfung verbindet die Ausgabe mit einer fachlichen Aufgabe. Woche 4 setzt hier an und gestaltet präzise Aufträge mit Kontext, Beispielen und Ausgabeformat. Ein offener Satz als Exit-Ticket genügt.",
+    "question": "Was würden Sie nach heute an einem Auftrag an einen Angebotsassistenten ändern?",
+    "pitfall": "Keine neue Prompting-Lektion in die letzten drei Minuten schieben.",
+    "tag": "WOCHE 3 · ABSCHLUSS"
+  },
+  {
+    "id": "w03-bigpicture",
+    "title": "Das Big Picture der Woche",
+    "time": "176–178",
+    "notes": "Die Initialfrage erneut mündlich stellen: Wie wird aus Text eine verlässliche Antwort? Die Infografik entlang der nummerierten Stationen zusammenfassen. Text verarbeiten: Tokens → IDs → Embeddings → Fortsetzung. Kontext auswählen: Arbeitsfläche statt Archiv; Attention kombiniert. Ausgabe steuern: Temperature + Top-P verändern die Auswahl. Antwort kontrollieren: Belege · Rechnung · Lieferbedingungen prüfen. Arbeit passend verteilen: Klarer Auftrag + relevante Daten + Tools; Modell testen. Einen Zusammenhang von Studierenden erklären lassen; anschließend auf die Quellen verweisen. Keine neuen Inhalte einführen.",
+    "sources": [
+      "B1",
+      "B2",
+      "E1",
+      "I3",
+      "M1",
+      "M2",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "tag": "RAHMEN",
+    "why": "Die Initialfrage erneut mündlich stellen: Wie wird aus Text eine verlässliche Antwort? Die Infografik entlang der nummerierten Stationen zusammenfassen. Text verarbeiten: Tokens → IDs → Embeddings → Fortsetzung. Kontext auswählen: Arbeitsfläche statt Archiv; Attention kombiniert. Ausgabe steuern: Temperature + Top-P verändern die Auswahl. Antwort kontrollieren: Belege · Rechnung · Lieferbedingungen prüfen. Arbeit passend verteilen: Klarer Auftrag + relevante Daten + Tools; Modell testen. Einen Zusammenhang von Studierenden erklären lassen; anschließend auf die Quellen verweisen. Keine neuen Inhalte einführen.",
+    "explain": "Die Initialfrage erneut mündlich stellen: Wie wird aus Text eine verlässliche Antwort? Die Infografik entlang der nummerierten Stationen zusammenfassen. Text verarbeiten: Tokens → IDs → Embeddings → Fortsetzung. Kontext auswählen: Arbeitsfläche statt Archiv; Attention kombiniert. Ausgabe steuern: Temperature + Top-P verändern die Auswahl. Antwort kontrollieren: Belege · Rechnung · Lieferbedingungen prüfen. Arbeit passend verteilen: Klarer Auftrag + relevante Daten + Tools; Modell testen. Einen Zusammenhang von Studierenden erklären lassen; anschließend auf die Quellen verweisen. Keine neuen Inhalte einführen.",
+    "question": "Wie wird aus Text eine verlässliche Antwort?",
+    "pitfall": "Übersicht als Orientierung nutzen; Details auf den Fachfolien erklären."
+  },
+  {
+    "id": "w03-29",
+    "time": "178–180",
+    "title": "Quellenverzeichnis",
+    "visual": "Lesbare Kurzbelege, Fundstellen und Link zum lokalen Quellenregister.",
+    "sources": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "B1",
+      "B2",
+      "E1",
+      "M1",
+      "M2",
+      "I3"
+    ],
+    "intent": "Nachlesen ermöglichen; Quellen als letzte Folie.",
+    "notes": "Die Grundlagen stammen aus Forschungsarbeiten und dem geprüften Buchmanuskript. Belcak ist ein Positionsbeitrag; die Übungswerte sind didaktisch konstruiert. Die Bildquellen sind von den Fachbelegen getrennt dokumentiert. Der Link öffnet das lokale vollständige Register. Nicht sämtliche Titel vorlesen: zwei passende Nachleseempfehlungen nennen und die Folie stehen lassen.",
+    "why": "Die Quellen sollen auffindbar bleiben und Evidenzarten erkennbar sein.",
+    "explain": "Die Grundlagen stammen aus Forschungsarbeiten und dem geprüften Buchmanuskript. Belcak ist ein Positionsbeitrag; die Übungswerte sind didaktisch konstruiert. Die Bildquellen sind von den Fachbelegen getrennt dokumentiert. Der Link öffnet das lokale vollständige Register. Nicht sämtliche Titel vorlesen: zwei passende Nachleseempfehlungen nennen und die Folie stehen lassen.",
+    "question": "Für Tokens: Sennrich; für Decodierung: Holtzman; für den Zusammenhang: Kapitel 2.",
+    "pitfall": "Eine Illustration oder der Modulplan ist kein eigenständiger empirischer Beweis.",
+    "tag": "WOCHE 3 · ABSCHLUSS"
+  }
+]

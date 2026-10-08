@@ -1,0 +1,398 @@
+[
+  {
+    "id": "B1",
+    "author": "Projektmanuskript",
+    "year": "2026",
+    "title": "Kapitel 1 – Die Entzauberung der Magie",
+    "type": "internal manuscript",
+    "url": null,
+    "pages": "Abschnitte 1.1–1.14; Übungen und Lösungen",
+    "evidence": "Didaktische Hauptquelle; kein Ersatz für Primärbelege.",
+    "claim": "Kapitelbezug, Lehrbeispiele, Metaphern und Transfer",
+    "localPath": "internal-reference-not-published",
+    "accessed": "2026-09-19",
+    "slideIds": [
+      "w02-02",
+      "w02-03",
+      "w02-06",
+      "w02-07",
+      "w02-08",
+      "w02-09",
+      "w02-10",
+      "w02-11",
+      "w02-17",
+      "w02-21",
+      "w02-22",
+      "w02-23",
+      "w02-25",
+      "w02-26",
+      "w02-28",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "B2",
+    "author": "Projektverbund",
+    "year": "2026",
+    "title": "Modulplan 14 Wochen NextGen und Zielbild Drei Bücher",
+    "type": "curriculum",
+    "url": null,
+    "evidence": "Verbindliche interne Strukturentscheidung",
+    "claim": "W02 Fundamente; W03 LLM-Vertiefung",
+    "localPath": "internal-reference-not-published",
+    "accessed": "2026-09-19",
+    "slideIds": [
+      "w02-16",
+      "w02-28",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "P1",
+    "author": "OECD",
+    "year": "2024",
+    "title": "Explanatory memorandum on the updated OECD definition of an AI system",
+    "type": "official memorandum",
+    "url": "https://www.oecd.org/en/publications/explanatory-memorandum-on-the-updated-oecd-definition-of-an-ai-system_623da898-en.html",
+    "pages": "Dokument/PDF S. 6–7",
+    "evidence": "Offizielle Quelle; lokale Original-PDF textlich gegengeprüft.",
+    "claim": "KI-Systemdefinition, Ausgaben, Autonomie und Anpassung",
+    "localPath": "internal-reference-not-published",
+    "accessed": "2026-09-19",
+    "slideIds": [
+      "w02-01",
+      "w02-11",
+      "w02-12",
+      "w02-14",
+      "w02-15",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "P2",
+    "author": "McCarthy, Minsky, Rochester, Shannon",
+    "year": "1955",
+    "title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+    "type": "historical primary source",
+    "url": "https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
+    "pages": "Antragsdatum 31.08.1955; Einleitung nennt Sommer 1956",
+    "evidence": "Original-HTML geöffnet und geprüft.",
+    "claim": "Unterschied zwischen Antrag 1955 und Veranstaltung 1956",
+    "accessed": "2026-09-19",
+    "slideIds": [
+      "w02-03",
+      "w02-04",
+      "w02-05",
+      "w02-27",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "P3",
+    "author": "Institute for the Future",
+    "year": "2016",
+    "title": "Caregiving 2031: Scenario Toolkit",
+    "type": "institutional report",
+    "url": "https://legacy.iftf.org/fileadmin/user_upload/downloads/hh/IFTF_Caregiving2031_ScenarioToolkit_SR-1853a.pdf",
+    "pages": "Dokument S. 7 / PDF S. 9",
+    "evidence": "Lokale PDF und Online-Dokument geprüft. Sekundärbeleg der Amara-Zuschreibung, kein historischer Erstbeleg.",
+    "claim": "Amaras kurz-/langfristige Erwartungsheuristik; kein Naturgesetz",
+    "localPath": "internal-reference-not-published",
+    "accessed": "2026-09-19",
+    "slideIds": [
+      "w02-22",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "P4",
+    "author": "Adams, Converse, Hales, Klotz",
+    "year": "2021",
+    "title": "People systematically overlook subtractive changes",
+    "type": "peer-reviewed experiment",
+    "url": "https://www.nature.com/articles/s41586-021-03380-y",
+    "doi": "10.1038/s41586-021-03380-y",
+    "pages": "Nature 592, S. 258–261; Experiment 1 und Tabelle 1 S. 259 / PDF S. 2",
+    "evidence": "Verlagsseite beim Öffnen zugriffsbeschränkt; vorhandenes Original-PDF S. 259 direkt geprüft.",
+    "claim": "Experiment 1: 40/98 Kontrolle, 60/99 mit Subtraktionshinweis; begrenzte Übertragbarkeit",
+    "localPath": "internal-reference-not-published",
+    "accessed": "2026-09-19",
+    "slideIds": [
+      "w02-17",
+      "w02-18",
+      "w02-19",
+      "w02-20",
+      "w02-27",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "P5",
+    "author": "Anthropic",
+    "year": "2024",
+    "title": "Building effective agents",
+    "type": "engineering guidance",
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "pages": "Abschnitte What are agents?, When (and when not) to use agents, Agents",
+    "evidence": "Live-Seite geprüft; nachträglich aktualisiert. Anbieter-Erfahrung, keine kontrollierte Vergleichsstudie.",
+    "claim": "Vordefinierte Workflows versus modellgesteuerte Abläufe; einfachste ausreichende Lösung, Toolfeedback und Prüfgrenzen",
+    "accessed": "2026-09-19",
+    "slideIds": [
+      "w02-01",
+      "w02-11",
+      "w02-12",
+      "w02-13",
+      "w02-14",
+      "w02-15",
+      "w02-19",
+      "w02-23",
+      "w02-27",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "P6",
+    "author": "Turing",
+    "year": "1950",
+    "title": "Computing Machinery and Intelligence",
+    "url": "https://doi.org/10.1093/mind/LIX.236.433",
+    "pages": "S. 433 / PDF S. 2",
+    "claim": "Imitation Game; historischer Anker.",
+    "evidence": "Lokales Original-PDF textlich geprüft.",
+    "accessed": "2026-09-19",
+    "type": "publication",
+    "slideIds": [
+      "w02-03",
+      "w02-04",
+      "w02-05",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "P7",
+    "author": "Krizhevsky, Sutskever, Hinton",
+    "year": "2012",
+    "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+    "url": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+    "pages": "S. 1",
+    "claim": "Bildklassifikation 2012.",
+    "evidence": "Lokales Original-PDF und Publikationsmetadaten geprüft.",
+    "accessed": "2026-09-19",
+    "type": "publication",
+    "slideIds": [
+      "w02-03",
+      "w02-04",
+      "w02-05",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "P8",
+    "author": "Vaswani et al.",
+    "year": "2017",
+    "title": "Attention Is All You Need",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "pages": "S. 1",
+    "claim": "Transformer-Architektur 2017.",
+    "evidence": "Lokales Original-PDF und arXiv-Metadaten geprüft.",
+    "accessed": "2026-09-19",
+    "type": "publication",
+    "slideIds": [
+      "w02-03",
+      "w02-04",
+      "w02-05",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "P9",
+    "author": "LeCun, Bengio, Hinton",
+    "year": "2015",
+    "title": "Deep learning",
+    "url": "https://doi.org/10.1038/nature14539",
+    "pages": "Nature 521, S. 436–438",
+    "claim": "Repräsentationslernen, überwachte Lernverfahren.",
+    "evidence": "Lokales Original-PDF geprüft.",
+    "accessed": "2026-09-19",
+    "type": "publication",
+    "slideIds": [
+      "w02-06",
+      "w02-08",
+      "w02-10",
+      "w02-11",
+      "w02-27",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "P10",
+    "author": "Donald O. Hebb",
+    "year": "1949",
+    "title": "The Organization of Behavior",
+    "url": "https://pure.mpg.de/pubman/item/item_2346268_3/component/file_2346267/Hebb_1949_The_Organization_of_Behavior.pdf",
+    "pages": "Buch S. 62",
+    "claim": "Wirksamkeitssteigerung einer Verbindung bei wiederholtem Aktivierungsbeitrag.",
+    "evidence": "Originalabruf erneut 403; Fundstelle über bereits geprüftes Buch-Evidenzprotokoll. Paraphrase, kein aktuell verifiziertes Direktzitat.",
+    "accessed": "2026-09-19",
+    "type": "publication",
+    "slideIds": [
+      "w02-07",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "I3",
+    "author": "ProfEngel / TrinityHub",
+    "year": "2026",
+    "title": "TrinityHub Worker-Vertrag",
+    "url": "internal-reference-not-published",
+    "pages": "Snapshot wie W01",
+    "claim": "Rollen, Tools, eigenes SQLite-Gedächtnis; Organisationsanalogie.",
+    "evidence": "Interne Projektdokumentation, kein aktueller Live-Funktionstest und keine Überlegenheitsstudie.",
+    "accessed": "2026-09-19",
+    "type": "internal didactic source",
+    "slideIds": [
+      "w02-13",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "E1",
+    "author": "Lehrkonzeption W02",
+    "year": "2026",
+    "title": "Synthetische Übungen und Schemagrafiken",
+    "url": "../arbeitsblatt.html",
+    "pages": "",
+    "claim": "Unterrichtsaufgaben und Annahmen.",
+    "evidence": "Didaktisch, nicht empirisch.",
+    "accessed": "2026-09-19",
+    "type": "internal didactic source",
+    "slideIds": [
+      "w02-01",
+      "w02-04",
+      "w02-05",
+      "w02-09",
+      "w02-10",
+      "w02-11",
+      "w02-12",
+      "w02-13",
+      "w02-14",
+      "w02-15",
+      "w02-19",
+      "w02-20",
+      "w02-21",
+      "w02-23",
+      "w02-24",
+      "w02-25",
+      "w02-26",
+      "w02-27",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "M1",
+    "author": "Projekt KI und Wir / Kie.ai",
+    "year": "2026",
+    "title": "Chronologie und Amara",
+    "url": "../assets/media/manifest.json",
+    "pages": "",
+    "claim": "Vorhandene symbolische Illustrationen.",
+    "evidence": "Visuell geprüft; Kie.ai/Nano Banana 2 laut Originalmanifest.",
+    "accessed": "2026-09-19",
+    "type": "illustration",
+    "slideIds": [
+      "w02-02",
+      "w02-22",
+      "w02-29",
+      "w02-cover",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "M2",
+    "author": "Kie.ai / Nano Banana 2",
+    "year": "2026",
+    "title": "Regeln/Lernen, Hebb-Pfad, Ergänzen/Vereinfachen",
+    "url": "../assets/media/manifest.json",
+    "pages": "",
+    "claim": "Neue didaktische Illustrationen.",
+    "evidence": "Generierte Metaphern, keine wissenschaftlichen Originalbilder.",
+    "accessed": "2026-09-19",
+    "type": "illustration",
+    "slideIds": [
+      "w02-06",
+      "w02-07",
+      "w02-17",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "M3",
+    "author": "W01 / Kie.ai / Nano Banana 2",
+    "year": "2026",
+    "title": "Mitarbeiter-Arbeitsplatz",
+    "url": "../assets/media/manifest.json",
+    "pages": "",
+    "claim": "Projektanalogie, kein Produkt-Screenshot.",
+    "evidence": "Unverändert übernommen, visuell geprüft.",
+    "accessed": "2026-09-19",
+    "type": "illustration",
+    "slideIds": [
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "R4",
+    "author": "Mathias Engel / KI Literacy Basics",
+    "year": "2026",
+    "title": "KI Literacy Basics: visuell geprüfte Lehrschaubilder",
+    "type": "provided teaching illustrations",
+    "url": "internal-reference-not-published",
+    "accessed": "2026-09-19",
+    "evidence": "Originalbilder multimodal geöffnet",
+    "claim": "Bilder zu Generalisierung, Neuron, Synapse, Perzeptron und Agenten-Orchestrierung als didaktische Anschauung.",
+    "limits": "Illustrationen, keine empirische Evidenz. Roboter/Mensch-Bild steht für Lernstrategien, nicht exklusive Fähigkeiten. Bilder unverändert; nur lokale Lehrfassung.",
+    "slideIds": [
+      "w02-06",
+      "w02-07",
+      "w02-08",
+      "w02-13",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  },
+  {
+    "id": "P11",
+    "author": "Dale Purves et al. (Hrsg.)",
+    "year": "2001",
+    "title": "Neuroscience, 2nd ed.: Chemical Synapses; Neural Signaling",
+    "type": "textbook",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK11009/",
+    "accessed": "2026-09-19",
+    "evidence": "Volltext der beiden HTML-Abschnitte geöffnet",
+    "pages": "Chemical Synapses, Absätze 1–5, Abb. 5.3; Neural Signaling, Einleitung. HTML ohne Seitenzählung.",
+    "claim": "Chemische Synapsen vermitteln Signale über Neurotransmitter und postsynaptische Rezeptoren.",
+    "limits": "Biologische Analogie, kein Nachweis für identische Lernmechanismen moderner LLMs.",
+    "slideIds": [
+      "w02-07",
+      "w02-29",
+      "w02-bigpicture"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-08",
+  "generation": "deterministic QR encoding",
+  "provider": "Apple Core Image / CIQRCodeGenerator",
+  "verification": "Apple Vision / VNDetectBarcodesRequest, payload compared with target URL",
+  "aiGenerated": false,
+  "slideId": "hrwf-materialien",
+  "files": [
+    {
+      "file": "qr-presentation.png",
+      "url": "https://profengel.github.io/KI-Literacy/praesentationen/hrwf-analytics/AA_HR_WF_Analytics_Leitfaden_WS2526.html"
+    },
+    {
+      "file": "qr-repository.png",
+      "url": "https://github.com/ProfEngel/KI-Literacy"
+    }
+  ]
+}

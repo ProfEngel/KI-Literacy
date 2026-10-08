@@ -1,0 +1,173 @@
+{
+  "revision": "2026-09-21",
+  "entryFile": "AA_W03_Sprachmodelle.html",
+  "durationMinutes": 180,
+  "slideCount": 33,
+  "slides": [
+    {
+      "id": "w03-cover",
+      "title": "Sprachmodelle verstehen",
+      "time": "00–01"
+    },
+    {
+      "id": "w03-agenda",
+      "title": "Unser Weg durch die heutige Sitzung",
+      "time": "01–02"
+    },
+    {
+      "id": "w03-question",
+      "title": "Wie wird aus Text eine verlässliche Antwort?",
+      "time": "02–03"
+    },
+    {
+      "id": "w03-01",
+      "title": "Ein Sprachmodell verarbeitet Text in Tokens.",
+      "time": "03–07"
+    },
+    {
+      "id": "w03-02",
+      "title": "Token-IDs sind Kennungen; Embeddings sind Zahlenvektoren.",
+      "time": "07–11"
+    },
+    {
+      "id": "w03-03",
+      "title": "Die Ausgabe entsteht Token für Token.",
+      "time": "11–15"
+    },
+    {
+      "id": "w03-04",
+      "title": "Übung: Zerlegen Sie Text mit zwei Vokabularen.",
+      "time": "15–25"
+    },
+    {
+      "id": "w03-05",
+      "title": "Derselbe Text kann verschieden viele Tokens ergeben.",
+      "time": "25–30"
+    },
+    {
+      "id": "w03-06",
+      "title": "Kontext ist das Material für den aktuellen Modellaufruf.",
+      "time": "30–35"
+    },
+    {
+      "id": "w03-07",
+      "title": "Attention kombiniert Informationen aus dem Kontext.",
+      "time": "35–40"
+    },
+    {
+      "id": "w03-08",
+      "title": "Ein großer Kontext ersetzt keine passende Auswahl.",
+      "time": "40–45"
+    },
+    {
+      "id": "w03-09",
+      "title": "Übung: Packen Sie den Kontext für einen Angebotsvergleich.",
+      "time": "45–55"
+    },
+    {
+      "id": "w03-10",
+      "title": "Zum Auftrag gehören Preise, Einheiten und Lieferbedingungen.",
+      "time": "55–60"
+    },
+    {
+      "id": "w03-11",
+      "title": "Temperature verändert die Auswahlwahrscheinlichkeiten.",
+      "time": "60–65"
+    },
+    {
+      "id": "w03-12",
+      "title": "Top-P begrenzt die Menge möglicher Fortsetzungen.",
+      "time": "65–70"
+    },
+    {
+      "id": "w03-13",
+      "title": "Wahrscheinlich formuliert heißt nicht sachlich richtig.",
+      "time": "70–75"
+    },
+    {
+      "id": "w03-14",
+      "title": "Übung: Temperature-Casino – Vielfalt beobachten.",
+      "time": "75–85"
+    },
+    {
+      "id": "w03-15",
+      "title": "Mehr Vielfalt ist noch kein Qualitätsgewinn.",
+      "time": "85–90"
+    },
+    {
+      "id": "w03-16",
+      "title": "Pause",
+      "time": "90–105"
+    },
+    {
+      "id": "w03-17",
+      "title": "Reasoning bearbeitet eine Aufgabe in mehreren Schritten.",
+      "time": "105–110"
+    },
+    {
+      "id": "w03-18",
+      "title": "Eine Begründung muss sich überprüfen lassen.",
+      "time": "110–115"
+    },
+    {
+      "id": "w03-19",
+      "title": "B kostet 90 Euro weniger – der Liefertermin bleibt offen.",
+      "time": "115–120"
+    },
+    {
+      "id": "w03-20",
+      "title": "Übung: Prüfen und korrigieren Sie die Empfehlung.",
+      "time": "120–130"
+    },
+    {
+      "id": "w03-21",
+      "title": "Eine korrekte Antwort trennt Ergebnis und fehlende Angaben.",
+      "time": "130–135"
+    },
+    {
+      "id": "w03-22",
+      "title": "Die Lunchbox enthält nur das Nötige für den Auftrag.",
+      "time": "135–140"
+    },
+    {
+      "id": "w03-23",
+      "title": "Modellgröße, Kontext und Rechenzeit sind drei verschiedene Größen.",
+      "time": "140–145"
+    },
+    {
+      "id": "w03-24",
+      "title": "Klare Rechnungen gehören ins Werkzeug; Sonderfälle zur Prüfung.",
+      "time": "145–150"
+    },
+    {
+      "id": "w03-25",
+      "title": "Übung: Wählen Sie Modell, Werkzeug und Eskalation.",
+      "time": "150–160"
+    },
+    {
+      "id": "w03-26",
+      "title": "Die passende Lösung besteht den Test für ihren Auftrag.",
+      "time": "160–165"
+    },
+    {
+      "id": "w03-27",
+      "title": "Wissenscheck: fünf Aussagen zur Modellmechanik.",
+      "time": "165–175"
+    },
+    {
+      "id": "w03-28",
+      "title": "Nächster Schritt: Aufgaben präzise formulieren.",
+      "time": "175–176"
+    },
+    {
+      "id": "w03-bigpicture",
+      "title": "Das Big Picture der Woche",
+      "time": "176–178"
+    },
+    {
+      "id": "w03-29",
+      "title": "Quellenverzeichnis",
+      "time": "178–180"
+    }
+  ]
+}

@@ -1,0 +1,523 @@
+[
+  {
+    "id": "w02-cover",
+    "title": "Fundamente der KI",
+    "time": "00–01",
+    "notes": "Begrüßen Sie die Studierenden. Das Themenbild eröffnet die Sitzung: Lernen, Handeln und Nutzen verstehen. Noch keine Fachdetails vorwegnehmen; anschließend den Ablauf zeigen.",
+    "sources": [
+      "M1"
+    ],
+    "tag": "RAHMEN",
+    "why": "Begrüßen Sie die Studierenden. Das Themenbild eröffnet die Sitzung: Lernen, Handeln und Nutzen verstehen. Noch keine Fachdetails vorwegnehmen; anschließend den Ablauf zeigen.",
+    "explain": "Begrüßen Sie die Studierenden. Das Themenbild eröffnet die Sitzung: Lernen, Handeln und Nutzen verstehen. Noch keine Fachdetails vorwegnehmen; anschließend den Ablauf zeigen.",
+    "question": "Wie wird aus lernender Technik eine nützliche KI-Anwendung?",
+    "pitfall": "Übersicht als Orientierung nutzen; Details auf den Fachfolien erklären."
+  },
+  {
+    "id": "w02-agenda",
+    "title": "Unser Weg durch die heutige Sitzung",
+    "time": "01–02",
+    "notes": "Die fünf Stationen knapp nennen. Jede wird durch Wissen und praktische Bearbeitung erschlossen. Auf die Pause und die gemeinsame Zusammenfassung hinweisen. Nicht schon die Lösungen erklären.",
+    "sources": [
+      "I1"
+    ],
+    "tag": "RAHMEN",
+    "why": "Die fünf Stationen knapp nennen. Jede wird durch Wissen und praktische Bearbeitung erschlossen. Auf die Pause und die gemeinsame Zusammenfassung hinweisen. Nicht schon die Lösungen erklären.",
+    "explain": "Die fünf Stationen knapp nennen. Jede wird durch Wissen und praktische Bearbeitung erschlossen. Auf die Pause und die gemeinsame Zusammenfassung hinweisen. Nicht schon die Lösungen erklären.",
+    "question": "Wie wird aus lernender Technik eine nützliche KI-Anwendung?",
+    "pitfall": "Übersicht als Orientierung nutzen; Details auf den Fachfolien erklären."
+  },
+  {
+    "id": "w02-question",
+    "title": "Wie wird aus lernender Technik eine nützliche KI-Anwendung?",
+    "time": "02–03",
+    "notes": "Die Frage langsam stellen, kurz Stille zulassen und zwei spontane Vermutungen sammeln. Nicht auflösen. Beim Big Picture am Ende dieselbe Frage wieder aufnehmen und anhand der fünf Stationen beantworten.",
+    "sources": [],
+    "tag": "RAHMEN",
+    "why": "Die Frage langsam stellen, kurz Stille zulassen und zwei spontane Vermutungen sammeln. Nicht auflösen. Beim Big Picture am Ende dieselbe Frage wieder aufnehmen und anhand der fünf Stationen beantworten.",
+    "explain": "Die Frage langsam stellen, kurz Stille zulassen und zwei spontane Vermutungen sammeln. Nicht auflösen. Beim Big Picture am Ende dieselbe Frage wieder aufnehmen und anhand der fünf Stationen beantworten.",
+    "question": "Wie wird aus lernender Technik eine nützliche KI-Anwendung?",
+    "pitfall": "Übersicht als Orientierung nutzen; Details auf den Fachfolien erklären."
+  },
+  {
+    "id": "w02-01",
+    "title": "KI erkennt Muster, erzeugt Inhalte und steuert Aktionen.",
+    "tag": "WISSEN 1 · KI-FUNDAMENTE",
+    "minutes": 5,
+    "time": "03–07",
+    "notes": "An einem durchgehenden E-Mail-Beispiel erklären: Erst wird Werbung erkannt. Dann wird für eine echte Terminanfrage eine Antwort formuliert. Schließlich kann ein Agent über ein Kalenderwerkzeug einen Termin eintragen. Drei konkrete Leistungen, die ein System kombinieren kann. Das Sprachmodell allein schreibt nur Text; eine Aktion benötigt Werkzeugzugang und entsprechende Berechtigungen. Nicht behaupten, jeder Chatbot habe automatisch Kalenderzugriff.",
+    "sources": [
+      "P1",
+      "P5",
+      "E1"
+    ],
+    "cls": "concrete",
+    "intent": "Drei konkrete Ergebnisse ersetzen die abstrakten Verben ohne Anschauung.",
+    "cue": "Frage: Welche Ausgabe verändert den Kalender? Nur der tatsächlich ausgeführte Werkzeugaufruf."
+  },
+  {
+    "id": "w02-02",
+    "title": "Schrift speichert Wissen. Computer automatisieren Rechnen.",
+    "tag": "WISSEN 1 · KULTURTECHNIKEN",
+    "minutes": 5,
+    "time": "07–11",
+    "notes": "Vier sichtbare Anker auswählen, nicht jede kleine Szene erklären: Schrift hält Information außerhalb des Gedächtnisses fest. Buchdruck vervielfältigt Texte. Computer führen formale Rechenregeln aus. Generative KI erzeugt neue Inhalte auf Grundlage gelernter Muster. Die Illustration ist eine Symbolcollage, keine datierte Zeitleiste; ihre frühe Bildreihenfolge ist nicht archäologisch korrekt. Das ist eine Bildgrenze, keine Kernaussage. Historische KI-Daten folgen auf Folie 3.",
+    "sources": [
+      "B1",
+      "M1"
+    ],
+    "cls": "concrete",
+    "intent": "Jede Kulturtechnik bekommt eine konkrete Funktion, statt nur Verdichtung zu behaupten.",
+    "cue": "Frage: Was ist der Unterschied zwischen dem Kopieren eines Textes und dem Generieren eines neuen Textes?"
+  },
+  {
+    "id": "w02-03",
+    "title": "Vier Meilensteine: Turing, Dartmouth, AlexNet, Transformer.",
+    "tag": "WISSEN 1 · VIER HISTORISCHE ANKER",
+    "minutes": 5,
+    "time": "11–15",
+    "notes": "Je Anker etwa eine Minute. Turing: verhaltensorientierte Testidee, kein Bewusstseinsnachweis. Dartmouth-Antrag 31.8.1955 schlägt Sommer 1956 vor. AlexNet ist ein wichtiger Bildklassifikationsbeitrag, nicht Erfindung neuronaler Netze. Transformer 2017; Funktionsweise erst W03. Historische Anker, keine erfundenen Verbreitungswerte. Die Anker markieren unterschiedliche Problemstellungen: Turing fragt nach beobachtbarem Verhalten; Dartmouth formuliert ein Forschungsprogramm; AlexNet zeigt leistungsfähige gelernte Bildmerkmale; Transformer verändern die Sequenzverarbeitung. Dazwischen liegen symbolische Systeme, Expertensysteme, neuronale Ansätze und Rückschläge. Diese Verfahren verschwinden nicht einfach, wenn eine neue Architektur erscheint. Zeigen Sie den Unterschied zwischen Forschungsfrage, Methode und Anwendung. Nicht 'jede Generation ist intelligenter', sondern 'andere Aufgaben und technische Voraussetzungen'.",
+    "sources": [
+      "P2",
+      "P6",
+      "P7",
+      "P8",
+      "B1"
+    ],
+    "cls": ""
+  },
+  {
+    "id": "w02-04",
+    "title": "Übung: Vier KI-Meilensteine zeitlich einordnen.",
+    "tag": "ÜBUNG 1 · 10 MINUTEN",
+    "minutes": 10,
+    "time": "15–25",
+    "notes": "Erst ohne Folie 3 zurückzuspringen ordnen. Papierkarten im Arbeitsblatt. Keine Abfrage aller Kulturtechnikdaten. Auf die Begründung achten, nicht Jahreszahlenwissen benoten. Danach gemeinsam zur Auswertung wechseln. Die Übung trennt Erinnern von Quellenkritik. Die Studierenden müssen nicht alle Jahreszahlen auswendig kennen: Entscheidend ist, Antrag und Veranstaltung sowie Illustration und Messung auseinanderzuhalten. Nach zehn Minuten sammeln Sie zwei begründete Antworten; nicht bloß die richtige Jahreszahl.",
+    "sources": [
+      "P2",
+      "P6",
+      "P7",
+      "P8",
+      "E1"
+    ],
+    "cls": ""
+  },
+  {
+    "id": "w02-05",
+    "title": "Dartmouth: Antrag 1955, Workshop 1956.",
+    "tag": "AUSWERTUNG 1",
+    "minutes": 5,
+    "time": "25–30",
+    "notes": "Zwei Gruppen begründen lassen, dann aufdecken. Aus einer zeitlichen Abfolge folgt nicht automatisch Kausalität. Optional fragen: Welche zusätzliche Information bräuchte eine echte Wachstumsbehauptung? Messgröße und Zeitreihe. Eine Zeitleiste kann korrekt sein und trotzdem eine falsche Erklärung nahelegen. Zeitliche Nähe ist kein Kausalnachweis. Wer exponentielle Entwicklung behauptet, muss eine messbare Größe, einen Zeitraum und vergleichbare Daten nennen. Nachfrage: Was würden wir überhaupt messen – Rechenleistung, Kosten, Veröffentlichungen oder Alltagsnutzung? Diese Größen können unterschiedlich verlaufen.",
+    "sources": [
+      "P2",
+      "P6",
+      "P7",
+      "P8",
+      "E1"
+    ],
+    "cls": ""
+  },
+  {
+    "id": "w02-06",
+    "title": "Maschinelles Lernen passt ein Modell an Beispielen an.",
+    "tag": "WISSEN 2 · REGELN UND LERNEN",
+    "minutes": 5,
+    "time": "30–35",
+    "notes": "Links beschreibt der Mensch unmittelbar die Entscheidungsvorschrift. Rechts liefert er zu Beispielen die gewünschte Zuordnung; ein Lernverfahren passt die Parameter so an, dass die Vorhersagen besser zu den Zielwerten passen. Ein Modell kann dabei unerwünschte Zusammenhänge lernen, etwa Hintergrundfarbe statt Fruchtsorte. Deshalb prüfen wir unbekannte Fälle. Reales maschinelles Lernen ist ein algorithmisches Verfahren, kein kleiner Mensch. Als zusätzliche technische Ansicht dient das Perzeptron im lokalen Bildlink. Es kombiniert gewichtete Eingaben zu einer Vorhersage; der Trainingsfehler führt zur Anpassung der Gewichte.",
+    "sources": [
+      "P9",
+      "B1",
+      "M2",
+      "R4"
+    ],
+    "cls": "concrete",
+    "intent": "Die Kernaussage lautet: Maschinelles Lernen passt ein Modell an Beispielen an.",
+    "cue": "Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Maschinelles Lernen passt ein Modell an Beispielen an."
+  },
+  {
+    "id": "w02-07",
+    "title": "Hebbs Regel: Gemeinsame Aktivität kann Verbindungen stärken.",
+    "tag": "WISSEN 2 · HEBBS BIOLOGISCHE INSPIRATION",
+    "minutes": 5,
+    "time": "35–40",
+    "notes": "Zuerst erläutern, was verbunden wird: Nervenzellen verarbeiten Signale. Bei einer chemischen Synapse werden Botenstoffe freigesetzt; sie binden an Rezeptoren der nächsten Zelle und beeinflussen deren Aktivität. Dann Hebbs Lernpostulat paraphrasieren: Wiederholte Beteiligung von A an der Aktivierung von B kann die Wirksamkeit erhöhen. Das Pfadbild illustriert diese Änderung. Bei künstlichen Netzen sind Gewichte Zahlen; Training mit Fehlergradienten ist nicht identisch mit dieser biologischen Lernregel. Optional die zwei verlinkten Anatomiebilder zur Erklärung öffnen. Kein wörtliches Hebb-Zitat.",
+    "sources": [
+      "P10",
+      "P11",
+      "B1",
+      "M2",
+      "R4"
+    ],
+    "cls": "concrete",
+    "intent": "Die Kernaussage lautet: Hebbs Regel: Gemeinsame Aktivität kann Verbindungen stärken.",
+    "cue": "Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Hebbs Regel: Gemeinsame Aktivität kann Verbindungen stärken."
+  },
+  {
+    "id": "w02-08",
+    "title": "Generalisierung heißt: auch neue Fälle richtig lösen.",
+    "tag": "WISSEN 2 · DREI VERSCHIEDENE MOMENTE",
+    "minutes": 5,
+    "time": "40–45",
+    "notes": "Links wird ein einzelnes Blatt zur engen Schablone; rechts steht das Baumkonzept für Übertragung auf verschiedene Formen. Die Figuren stehen für zwei Lernstrategien, nicht für eine Grenze zwischen Maschine und Mensch: Auch KI kann generalisieren und Menschen können auswendig lernen. Technisch werden im Training Parameter angepasst; auf separaten Testdaten wird die Übertragbarkeit geprüft. Beispiel: Ein Spamfilter soll auch neue Formulierungen erkennen und nicht nur bereits gesehene Nachrichten wiederfinden. Im Einsatz werden die Parameter durch einen neuen Chatinhalt nicht automatisch neu trainiert.",
+    "sources": [
+      "P9",
+      "B1",
+      "R4"
+    ],
+    "cls": "concrete",
+    "intent": "Die Kernaussage lautet: Generalisierung heißt: auch neue Fälle richtig lösen.",
+    "cue": "Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Generalisierung heißt: auch neue Fälle richtig lösen."
+  },
+  {
+    "id": "w02-09",
+    "title": "Übung: Zwei Regeln für dieselben Trainingsdaten finden.",
+    "tag": "ÜBUNG 2 · 10 MINUTEN",
+    "minutes": 10,
+    "time": "45–55",
+    "notes": "Synthetische Trainingskarten, bewusst redundante und vollständig korrelierte Merkmale. 3 Min eigene Regel, 4 Min andere Regel, 3 Min begründen. Keine reale Klassifikation und keine Mindestzahl für Training ableiten. Erwartete Alternativen Farbe grün oder Form rund. Testfälle nicht vorzeitig zeigen. Die sechs Karten wurden absichtlich so gewählt, dass Farbe und Form zusammenfallen. Sowohl 'grün' als auch 'rund' passen perfekt. Damit wird sichtbar, dass Trainingsdaten allein mehrere Erklärungen zulassen können. Diese kleine Aufgabe ist keine Simulation eines neuronalen Netzes, sondern ein kontrolliertes Beispiel für Generalisierung. Erst individuelle Regel, dann zweite mögliche Regel notieren. Die unbekannten Kombinationen auf der nächsten Folie noch nicht zeigen.",
+    "sources": [
+      "E1",
+      "B1"
+    ],
+    "cls": ""
+  },
+  {
+    "id": "w02-10",
+    "title": "Gleiche Trainingsdaten können verschiedene Regeln ergeben.",
+    "tag": "AUSWERTUNG 2 · JETZT DEN TEST ÖFFNEN",
+    "minutes": 5,
+    "time": "55–60",
+    "notes": "Erst Vorhersagen abfragen, dann Auflösung. Wichtig: Keine heimliche wahre Regel behaupten! Zieldefinition und Testlabels fehlen absichtlich. Die Übung zeigt Unterbestimmtheit und Generalisierungsrisiko, nicht automatisch eine gemessene Überanpassungskurve. Der Test enthält neue Merkmalskombinationen. Die beiden Regeln treffen jetzt unterschiedliche Vorhersagen. Weil wahre Zielwerte fehlen, lässt sich noch keine Genauigkeit bestimmen. Genau diese Grenze ist die Pointe: Neue Daten reichen nicht; die Zuordnung zum fachlichen Ziel muss ebenfalls bekannt sein. Fragen Sie: Welche zusätzlichen gelabelten Fälle würden helfen, zwischen den Regeln zu unterscheiden?",
+    "sources": [
+      "E1",
+      "B1",
+      "P9"
+    ],
+    "cls": ""
+  },
+  {
+    "id": "w02-11",
+    "title": "KI, Machine Learning und generative KI bezeichnen Verschiedenes.",
+    "tag": "WISSEN 3 · DIE BEGRIFFSLANDKARTE",
+    "minutes": 5,
+    "time": "60–65",
+    "notes": "Von außen nach innen erklären. KI ist der breite Begriff; auch wissensbasierte Ansätze gehören dazu. Machine Learning entwickelt Verhalten aus Daten. Moderne generative Modelle erzeugen neue Inhalte und gehören typischerweise zu den gelernten Systemen. Agentisch liegt auf einer anderen Achse: Ein Modell kann nächste Schritte und Werkzeugaufrufe wählen. Daher kann derselbe Agent ein generatives Modell verwenden, und ein Spamfilter ist ML, ohne Text zu generieren. Nicht jede triviale Wenn-dann-Regel ist bereits ein KI-System.",
+    "sources": [
+      "P1",
+      "P5",
+      "P9",
+      "B1",
+      "E1"
+    ],
+    "cls": "concrete",
+    "intent": "Die Kernaussage lautet: KI, Machine Learning und generative KI bezeichnen Verschiedenes.",
+    "cue": "Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: KI, Machine Learning und generative KI bezeichnen Verschiedenes."
+  },
+  {
+    "id": "w02-12",
+    "title": "Ein Agent wählt Schritte und ruft Werkzeuge auf.",
+    "tag": "WISSEN 3 · GENERIEREN UND HANDELN",
+    "minutes": 5,
+    "time": "65–70",
+    "notes": "Durchlauf mit fehlender Uhrzeit erzählen: Der Agent prüft den Kalender, erkennt mehrere Möglichkeiten und fragt nach. Nach Rückmeldung kann er einen weiteren Schritt wählen. Das unterscheidet dynamische Steuerung von einem fest programmierten Ablauf. Der Agent kann nur die bereitgestellten Werkzeuge innerhalb ihrer Berechtigungen nutzen. Ein Modellaufruf, der Text erzeugt, verändert noch keinen Kalender. Freigabe und Werkzeugausführung sind explizite Systemschritte. Der Loop braucht ein Ziel, Rückmeldungen und Abbruchbedingungen.",
+    "sources": [
+      "P5",
+      "P1",
+      "E1"
+    ],
+    "cls": "concrete",
+    "intent": "Die Kernaussage lautet: Ein Agent wählt Schritte und ruft Werkzeuge auf.",
+    "cue": "Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Ein Agent wählt Schritte und ruft Werkzeuge auf."
+  },
+  {
+    "id": "w02-13",
+    "title": "Eine Werkstatt verteilt Teilaufgaben an spezialisierte Agenten.",
+    "tag": "WISSEN 3 · BRÜCKE ZU TRINITY",
+    "minutes": 5,
+    "time": "70–75",
+    "notes": "Das Bild zeigt Rollen einer Redaktion. Nicht jeder Schritt braucht ein LLM: Quellenlisten, Formatprüfung, Speichern und Export können durch Code erfolgen. Ein Recherche-Agent benötigt andere Werkzeuge als ein Text-Agent. Die Werkstatt legt Übergaben und Prüfungen fest; die Projektakte enthält das Material dieser Ausgabe. Das Bild ist eine Organisationsanalogie, kein Beweis für die aktuelle Implementierung eines Produkts. Ein kleineres Modell kann für einen begrenzten Auftrag reichen; das wird anhand von Testfällen entschieden, nicht anhand eines pauschalen Größenarguments.",
+    "sources": [
+      "P5",
+      "I3",
+      "R4",
+      "E1"
+    ],
+    "cls": "concrete",
+    "intent": "Die Kernaussage lautet: Eine Werkstatt verteilt Teilaufgaben an spezialisierte Agenten.",
+    "cue": "Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Eine Werkstatt verteilt Teilaufgaben an spezialisierte Agenten."
+  },
+  {
+    "id": "w02-14",
+    "title": "Übung: Regeln, Modelle, Workflows und Agenten unterscheiden.",
+    "tag": "ÜBUNG 3 · 10 MINUTEN",
+    "minutes": 10,
+    "time": "75–85",
+    "notes": "2 Min still lesen, 5 Min Tandemzuordnung, 3 Min Freigabepunkte. D kann ein generatives Teilmodul enthalten, Ablauf bleibt fest. E beschreibt dynamischen Loop. Keine echte Aktion. Arbeitsblatt enthält alle Fälle. Die Fälle sind absichtlich mehrdimensional. C kann ein einzelner generativer Aufruf sein. D enthält möglicherweise ebenfalls generative Teilschritte, ist aber fest orchestriert. E entscheidet abhängig von Beobachtungen über nächste Schritte. F generiert Text und archiviert anschließend nach fester Vorgabe. Fordern Sie pro Zuordnung eine kurze Begründung und einen möglichen Fehlerfall.",
+    "sources": [
+      "P1",
+      "P5",
+      "E1"
+    ],
+    "cls": ""
+  },
+  {
+    "id": "w02-15",
+    "title": "Ein System kann generativ und zugleich agentisch sein.",
+    "tag": "AUSWERTUNG 3",
+    "minutes": 5,
+    "time": "85–90",
+    "notes": "Bei E: dynamische Planung unter Auftrag und Stopbedingungen; keineswegs freier Wille. Bei F: generativer Inhalt beweist keine autonome Prozesssteuerung. Gute andere Begründungen zulassen, wenn Annahmen offenliegen. Die Lösung prüft Begriffe und Annahmen. 'Agent' ist keine Garantie für große Autonomie, Zuverlässigkeit oder Bewusstsein. Die Reichweite einer Aktion bestimmt den Prüfbedarf: Ein Entwurf und eine verbindliche externe Bestellung haben unterschiedliche Folgen. Akzeptieren Sie alternative Einordnungen, wenn der unterstellte Ablauf ausdrücklich beschrieben wird.",
+    "sources": [
+      "P1",
+      "P5",
+      "E1"
+    ],
+    "cls": ""
+  },
+  {
+    "id": "w02-16",
+    "title": "Kurz Luft holen.",
+    "tag": "PAUSE",
+    "minutes": 15,
+    "time": "90–105",
+    "notes": "Pause vollständig lassen. Timer optional starten. Keine versteckten Zusatzaufgaben. Eine echte Pause trennt die lerntechnische Hälfte von Kreativität und betrieblicher Bewertung. Sie ist kein Puffer für zusätzlichen Stoff. Nennen Sie die konkrete Rückkehrzeit und lassen Sie die Pause ungestört.",
+    "sources": [
+      "B2"
+    ],
+    "cls": "pause-slide"
+  },
+  {
+    "id": "w02-17",
+    "title": "Additiv heißt ergänzen. Subtraktiv heißt weglassen.",
+    "tag": "WISSEN 4 · ZWEI KREATIVE SUCHRICHTUNGEN",
+    "minutes": 5,
+    "time": "105–110",
+    "notes": "Beide Varianten erreichen ein Ziel auf unterschiedlichem Weg. Die zusätzliche Ablage ist sinnvoll, wenn alles gebraucht wird. Entfernen hilft, wenn Überflüssiges das Problem verursacht. Nicht behaupten, eine Strategie gehöre exklusiv Menschen oder KI. Die Unterscheidung beschreibt die Lösungssuche, nicht den technischen Unterschied zwischen autoregressiven und Diffusionsmodellen. Als Transfer ein Anmeldeformular nehmen: verständliche Hilfe ergänzen oder eine unnötige Wiederholung entfernen.",
+    "sources": [
+      "P4",
+      "B1",
+      "M2"
+    ],
+    "cls": "concrete",
+    "intent": "Die Kernaussage lautet: Additiv heißt ergänzen. Subtraktiv heißt weglassen.",
+    "cue": "Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Additiv heißt ergänzen. Subtraktiv heißt weglassen."
+  },
+  {
+    "id": "w02-18",
+    "title": "Menschen übersehen oft Lösungen durch Weglassen.",
+    "tag": "WISSEN 4 · ADAMS ET AL. 2021",
+    "minutes": 5,
+    "time": "110–115",
+    "notes": "Adams und Kollegen untersuchten menschliche Lösungssuche. In Experiment 1 lösten 40 von 98 Personen ohne Hinweis die Lego-Aufgabe subtraktiv; mit Hinweis waren es 60 von 99. Das sind gerundet 41 und 61 Prozent. Entfernen war kostenlos, Ergänzen kostete Geld. Der Hinweis machte die Entfernungsmöglichkeit ausdrücklich verfügbar. Die Balken zeigen eine konkrete experimentelle Bedingung, keine allgemeine Quote aller Menschen. Überleitung: In der eigenen Gestaltung ausdrücklich nach Entfernungsoptionen suchen.",
+    "sources": [
+      "P4"
+    ],
+    "cls": ""
+  },
+  {
+    "id": "w02-19",
+    "title": "Mehr Agenten bedeuten auch mehr Übergaben.",
+    "tag": "WISSEN 4 · TRANSFER ZUR KI-NUTZUNG",
+    "minutes": 5,
+    "time": "115–120",
+    "notes": "Ein zweiter Agent kann eine sinnvolle unabhängige Prüfung übernehmen. Wenn er nur dieselbe Zusammenfassung wiederholt, entstehen dagegen mehr Laufzeit und Abgleichbedarf. Eine Aufgabe präzise abgrenzen und passende Werkzeuge einsetzen. Die Adams-Studie motiviert eine Suchfrage für das Design, sie beweist keine optimale Agentenzahl. In der Übung beide Entwürfe anhand gleicher Anforderungen vergleichen.",
+    "sources": [
+      "P4",
+      "P5",
+      "E1"
+    ],
+    "cls": "concrete",
+    "intent": "Die Kernaussage lautet: Mehr Agenten bedeuten auch mehr Übergaben.",
+    "cue": "Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Mehr Agenten bedeuten auch mehr Übergaben."
+  },
+  {
+    "id": "w02-20",
+    "title": "Übung: Eine Anmeldung ergänzen oder vereinfachen.",
+    "tag": "ÜBUNG 4 · 10 MINUTEN",
+    "minutes": 10,
+    "time": "120–130",
+    "notes": "2 Min Prozess verstehen, 3 Min additiver Entwurf, 3 Min subtraktiver Entwurf, 2 Min Vergleich. Bewusste Übung beider Richtungen, keine wissenschaftliche Replikation. Synthetische Daten, keine echten Anmeldungen. Nicht zur Erhebung persönlicher Kursdaten verwenden. Die Aufgabe zwingt beide Suchrichtungen unter denselben Qualitätsmaßstab. Der Ist-Prozess enthält absichtlich Mehrfacheingaben. Ein zusätzliches Hilfefeld und die Abschaffung redundanter Übertragung lösen unterschiedliche Probleme und können kombiniert werden. Zehn Minuten sichtbar laufen lassen. Nach fünf Minuten an den Wechsel zur zweiten Suchrichtung erinnern.",
+    "sources": [
+      "E1",
+      "P4"
+    ],
+    "cls": ""
+  },
+  {
+    "id": "w02-21",
+    "title": "Einmal erfassen statt mehrfach abschreiben.",
+    "tag": "AUSWERTUNG 4",
+    "minutes": 5,
+    "time": "130–135",
+    "notes": "Keine starre Musterlösung. Wenn zweite Liste für begründeten Zweck erforderlich wäre, Annahme dokumentieren statt blind löschen. Maßstab bleibt Qualität, nicht bloß Klickzahl. Brücke zu UI/UX in späterer Woche. Die Musterlösung trennt vermeidbare Arbeit von notwendiger Kontrolle. Eine Liste kann redundant sein; sie kann aber auch einen begründeten Zweck erfüllen. Ohne Kontext darf man sie nicht blind entfernen. Verbesserung muss an korrekter Anmeldung, verständlicher Rückmeldung und Zugriffsschutz gemessen werden. Fordern Sie zu jedem gestrichenen Schritt die Antwort: Welche Funktion übernimmt ihn jetzt – oder warum wird sie nicht mehr gebraucht?",
+    "sources": [
+      "E1",
+      "B1"
+    ],
+    "cls": ""
+  },
+  {
+    "id": "w02-22",
+    "title": "Amaras Gesetz: kurzfristig überschätzen, langfristig unterschätzen.",
+    "tag": "WISSEN 5 · AMARA’S LAW",
+    "minutes": 5,
+    "time": "135–140",
+    "notes": "Zuerst Amaras Aussage sinngemäß nennen: Kurzfristig wird die Wirkung neuer Technologie häufig überschätzt und langfristig unterschätzt. Dann das Bild erklären: Feuerwerk ist sichtbar und schnell, Wurzelwachstum braucht Zeit. Beispiel Support: Eine Antwortdemo dauert Minuten, die Anbindung an aktuelle Handbücher und den Freigabeprozess dauert länger. Amaras Aussage ist eine Heuristik, keine Erfolgsgarantie. Der Nachweis der Zuschreibung liegt bei IFTF auf Dokumentseite 7.",
+    "sources": [
+      "P3",
+      "B1",
+      "M1"
+    ],
+    "cls": "concrete",
+    "intent": "Die Kernaussage lautet: Amaras Gesetz: kurzfristig überschätzen, langfristig unterschätzen.",
+    "cue": "Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Amaras Gesetz: kurzfristig überschätzen, langfristig unterschätzen."
+  },
+  {
+    "id": "w02-23",
+    "title": "Ein gutes Modell braucht einen funktionierenden Arbeitsablauf.",
+    "tag": "WISSEN 5 · DREI ENTWICKLUNGEN",
+    "minutes": 5,
+    "time": "140–145",
+    "notes": "Die drei Ebenen an derselben Supportanfrage erläutern: Ein Modell kann flüssig formulieren, aber die aktuelle Lieferfrist fehlt. Eine Dokumentanbindung liefert sie, eine Freigabe kontrolliert die Zusage, und der Ticketprozess übernimmt die Antwort. Erst die gemessene Gesamtzeit und Antwortqualität sagen etwas über den Nutzen aus. Die früheren schematischen Kurven entfallen: Sie erzeugten keine zusätzliche Erklärung.",
+    "sources": [
+      "B1",
+      "P5",
+      "E1"
+    ],
+    "cls": "concrete",
+    "intent": "Die Kernaussage lautet: Ein gutes Modell braucht einen funktionierenden Arbeitsablauf.",
+    "cue": "Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Ein gutes Modell braucht einen funktionierenden Arbeitsablauf."
+  },
+  {
+    "id": "w02-24",
+    "title": "200 Minuten Zeitgewinn können durch Nacharbeit verschwinden.",
+    "tag": "WISSEN 5 · FIKTIVER SUPPORT-FALL",
+    "minutes": 5,
+    "time": "145–150",
+    "notes": "Jeden Balken vollständig rechnen. Ohne Assistenz ergeben 100 Fälle zu sechs Minuten 600 Minuten. Mit zwei Minuten Entwurf und zwei Minuten Prüfung sind es 400. Zwei weitere Minuten Nacharbeit pro Fall addieren 200 Minuten, wodurch der ursprüngliche Vorteil verschwindet. Diese Annahmen sind didaktisch gewählt, keine Messdaten. Zusätzlich müssen Qualität und Kosten bewertet werden. In der nächsten Übung entwickeln die Studierenden einen eigenen Test.",
+    "sources": [
+      "E1"
+    ],
+    "cls": "concrete",
+    "intent": "Die Kernaussage lautet: 200 Minuten Zeitgewinn können durch Nacharbeit verschwinden.",
+    "cue": "Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: 200 Minuten Zeitgewinn können durch Nacharbeit verschwinden."
+  },
+  {
+    "id": "w02-25",
+    "title": "Übung: Zeitgewinn und Qualität einer KI-Hilfe testen.",
+    "tag": "ÜBUNG 5 · 10 MINUTEN",
+    "minutes": 10,
+    "time": "150–160",
+    "notes": "2 Min Auftrag, 6 Min Tandemplan, 2 Min gegenseitige Rückfrage. Beispielwerte selbst als Annahmen markieren. Keine Kundendaten nutzen. Ein Pilot braucht Qualität und Sicherheit neben Geschwindigkeit. Ein Pilotversuch operationalisiert ein Versprechen. Man braucht vergleichbare Aufgaben, dokumentierte Ausgangswerte, vorab definierte Erfolgskriterien und eine Fehlergrenze. Synthetische Fälle erlauben einen sicheren Lernversuch, bilden aber nicht die ganze Realität ab. Prüfen Sie in den Tandems besonders, ob Gesamtzeit einschließlich Kontrolle gemeint ist.",
+    "sources": [
+      "E1",
+      "B1"
+    ],
+    "cls": ""
+  },
+  {
+    "id": "w02-26",
+    "title": "Vor dem Pilotversuch: Erfolg und Abbruch festlegen.",
+    "tag": "AUSWERTUNG 5",
+    "minutes": 5,
+    "time": "160–165",
+    "notes": "20 % und 20 Fälle sind bewusst gewählte Übungswerte, keine Forschungsgrenzwerte. Reihenfolge/Lerneffekte beachten, ähnliche Fallpaare oder ausbalancierte Reihenfolge wählen. Musterlösung darf begründet verändert werden. Die Beispielvereinbarung ist keine wissenschaftlich ausreichende Evaluation. 20 Fälle und 20 Prozent sind Lehrannahmen. Lern- und Reihenfolgeeffekte können den Vergleich verzerren; ähnliche Fallpaare oder wechselnde Reihenfolge helfen. Ein eindeutiger kritischer Fehler kann trotz Zeitvorteil zum Abbruch führen. Fragen Sie, welche Behauptung man nach diesem kleinen Pilot noch nicht veröffentlichen dürfte.",
+    "sources": [
+      "E1",
+      "B1"
+    ],
+    "cls": ""
+  },
+  {
+    "id": "w02-27",
+    "title": "Wissenscheck: fünf Aussagen begründen.",
+    "tag": "ABSCHLUSS · 10 MINUTEN",
+    "minutes": 10,
+    "time": "165–175",
+    "notes": "5 Min urteilen und Antworten begründen, 3 Min aufdecken, 2 Min offene Fragen. Kein Punktevergleich und keine Benotung. Lösungen sind offline vorhanden. Letzte Folie anschließend ruhig lassen. Die Aussagen greifen die Fehlvorstellungen vom Einstieg wieder auf. Lassen Sie erst urteilen und begründen, dann aufdecken. Ziel ist eine nachvollziehbare Erklärung, nicht das Erkennen, dass zufällig alle Aussagen falsch sind. Bei Unsicherheit auf die konkrete frühere Folie zurückverweisen, nicht nur die Lösung vorlesen.",
+    "sources": [
+      "P2",
+      "P4",
+      "P5",
+      "P9",
+      "E1"
+    ],
+    "cls": ""
+  },
+  {
+    "id": "w02-28",
+    "title": "KI verstehen heißt: Verfahren, Handlung und Nutzen unterscheiden.",
+    "tag": "ABSCHLUSS · NÄCHSTE STATION",
+    "minutes": 3,
+    "time": "175–176",
+    "notes": "Exit-Ticket: ein neuer Gedanke, eine offene Frage. Lesehinweis Kapitel 1 besonders 1.6–1.14; nicht neues Zusatzkapitel verlangen. Für W03 persönliche Beobachtung eines missverständlichen Modelloutputs ohne private Daten mitbringen. Keine automatische Buchänderung aus Feedback. Die Synthese bündelt drei Handlungen: Mechanismus unterscheiden, Autonomie begrenzen, Nutzen prüfen. Damit wird Woche 2 zur Grundlage für die Mechanik der Sprachmodelle in Woche 3. Lassen Sie ein Exit-Ticket mit einem neuen Gedanken und einer offenen Frage schreiben.",
+    "sources": [
+      "B1",
+      "B2"
+    ],
+    "cls": ""
+  },
+  {
+    "id": "w02-bigpicture",
+    "title": "Das Big Picture der Woche",
+    "time": "176–178",
+    "notes": "Die Initialfrage erneut mündlich stellen: Wie wird aus lernender Technik eine nützliche KI-Anwendung? Die Infografik entlang der nummerierten Stationen zusammenfassen. Entwicklung einordnen: Kulturtechniken → Computer → moderne KI. Lernen verstehen: Beispiele → Modell → Prüfung an neuen Fällen. Systeme unterscheiden: KI · ML · generativ; Agenten und Werkstätten. Einfacher gestalten: Ergänzen oder weglassen; Übergaben prüfen. Wirkung messen: Amara: Erwartungen ≠ Nutzen; Qualität + Zeit testen. Einen Zusammenhang von Studierenden erklären lassen; anschließend auf die Quellen verweisen. Keine neuen Inhalte einführen.",
+    "sources": [
+      "B1",
+      "B2",
+      "E1",
+      "I3",
+      "M1",
+      "M2",
+      "M3",
+      "P1",
+      "P10",
+      "P11",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "R4"
+    ],
+    "tag": "RAHMEN",
+    "why": "Die Initialfrage erneut mündlich stellen: Wie wird aus lernender Technik eine nützliche KI-Anwendung? Die Infografik entlang der nummerierten Stationen zusammenfassen. Entwicklung einordnen: Kulturtechniken → Computer → moderne KI. Lernen verstehen: Beispiele → Modell → Prüfung an neuen Fällen. Systeme unterscheiden: KI · ML · generativ; Agenten und Werkstätten. Einfacher gestalten: Ergänzen oder weglassen; Übergaben prüfen. Wirkung messen: Amara: Erwartungen ≠ Nutzen; Qualität + Zeit testen. Einen Zusammenhang von Studierenden erklären lassen; anschließend auf die Quellen verweisen. Keine neuen Inhalte einführen.",
+    "explain": "Die Initialfrage erneut mündlich stellen: Wie wird aus lernender Technik eine nützliche KI-Anwendung? Die Infografik entlang der nummerierten Stationen zusammenfassen. Entwicklung einordnen: Kulturtechniken → Computer → moderne KI. Lernen verstehen: Beispiele → Modell → Prüfung an neuen Fällen. Systeme unterscheiden: KI · ML · generativ; Agenten und Werkstätten. Einfacher gestalten: Ergänzen oder weglassen; Übergaben prüfen. Wirkung messen: Amara: Erwartungen ≠ Nutzen; Qualität + Zeit testen. Einen Zusammenhang von Studierenden erklären lassen; anschließend auf die Quellen verweisen. Keine neuen Inhalte einführen.",
+    "question": "Wie wird aus lernender Technik eine nützliche KI-Anwendung?",
+    "pitfall": "Übersicht als Orientierung nutzen; Details auf den Fachfolien erklären."
+  },
+  {
+    "id": "w02-29",
+    "title": "Quellenverzeichnis",
+    "tag": "WOCHE 2 · NACHLESEN UND PRÜFEN",
+    "minutes": 2,
+    "time": "178–180",
+    "notes": "Quellenfolie auf Nutzerwunsch am Ende jeder Woche. Zentrale Fundstellen zeigen; vollständiges lokales Register ist klickbar. Keine zusätzliche Stoffeinheit. Hebb-Einschränkung transparent lassen. Das Quellenverzeichnis trennt wissenschaftliche Belege, interne Lehrkonzeption und Bildmetaphern. Die verlinkte Übersicht enthält die genauen Fundstellen und Einschränkungen. Die Quellenfolie ist Teil jeder Woche, nicht Ersatz für Belege direkt auf der jeweiligen Fachfolie. Weisen Sie auf die transparente Hebb-Einschränkung hin und nennen Sie das lokale Register als Ausgangspunkt zum Nachlesen.",
+    "sources": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "B1",
+      "B2",
+      "I3",
+      "M1",
+      "M2",
+      "M3",
+      "E1",
+      "R4",
+      "P11"
+    ],
+    "cls": "source-slide"
+  }
+]

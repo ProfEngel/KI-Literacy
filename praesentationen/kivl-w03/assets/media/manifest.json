@@ -1,0 +1,82 @@
+{
+  "date": "2026-09-20",
+  "usage": "Lokale Lehrveranstaltung; keine öffentliche Veröffentlichung vorgenommen.",
+  "images": [
+    {
+      "file": "tokens.png",
+      "slides": [
+        "w03-01"
+      ],
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "prompt": "../prompts/images.json#tokens",
+      "receipt": "../prompts/tokens-receipt.json",
+      "inspection": "Sichtprüfung: Setzkasten, verschieden breite Bausteine und drei zusammengesetzte Teile. Keine gemessene Tokenisierung.",
+      "dimensions": [
+        2752,
+        1536
+      ]
+    },
+    {
+      "file": "context.png",
+      "slides": [
+        "w03-08"
+      ],
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "prompt": "../prompts/images.json#context",
+      "receipt": "../prompts/context-receipt.json",
+      "inspection": "Sichtprüfung: ausgewählte Blätter und Rechner auf Arbeitsfläche, Archiv dahinter. Keine reale Person behauptet.",
+      "dimensions": [
+        2752,
+        1536
+      ]
+    },
+    {
+      "file": "lunchbox.png",
+      "slides": [
+        "w03-22"
+      ],
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "prompt": "../prompts/images.json#lunchbox",
+      "receipt": "../prompts/lunchbox-receipt.json",
+      "inspection": "Sichtprüfung: Auftragskarte, Dokumente, Rechner und Werkzeug in getrennter Box. Didaktische Metapher.",
+      "dimensions": [
+        2752,
+        1536
+      ]
+    },
+    {
+      "file": "next-token.jpg",
+      "slides": [
+        "w03-03"
+      ],
+      "source": "KI Literacy Basics/assets/media/2026-06-29_funktionsweise_llm_u_ziel.jpg",
+      "inspection": "Vollständig sichtbar, einschließlich vorhandener Beschriftung. 85/10/5 Prozent ausdrücklich synthetisch.",
+      "rights": "Vom Nutzer bereitgestelltes Projektmaterial; keine neue externe Veröffentlichungslizenz behauptet."
+    },
+    {
+      "file": "preparation.jpg",
+      "slides": [
+        "w03-06"
+      ],
+      "source": "KI Literacy Basics/assets/media/context_engineering.jpg",
+      "inspection": "Vorbereitung und Mise en Place; keine historische Zuschreibung, kein Lincoln-Zitat.",
+      "rights": "Vom Nutzer bereitgestelltes Projektmaterial; keine neue externe Veröffentlichungslizenz behauptet."
+    }
+  ],
+  "html_diagrams": "Tokenfolge, ID-Embedding-Pipeline, Attention-Schema, Auswahlkarten, Softmax-Balken, Arbeitsschritte und Modellgrößenvergleich sind eigenständig beschriftete HTML/CSS-Lehrgrafiken; E1.",
+  "rendering": "Alle Rasterbilder unverzerrt und vollständig mit contain dargestellt; per Klick Originalansicht.",
+  "frameRevision20260921": {
+    "reusedImage": "tokens.png",
+    "slides": [
+      "w03-cover",
+      "w03-bigpicture"
+    ],
+    "inspection": "Bild am 21.09.2026 tatsächlich geöffnet; vollständig und unverzerrt wiederverwendet.",
+    "infographic": "Neue statische HTML/CSS-Infografik mit fünf beschrifteten Stationen; Synthese vorhandener Inhalte, kein neuer empirischer Befund.",
+    "audio": false,
+    "video": false
+  }
+}

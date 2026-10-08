@@ -1,0 +1,205 @@
+{
+  "templateId": "trinity-klar",
+  "templateName": "Trinity Klar – bewährter Standard",
+  "status": "approved_targeted_revision_20261008",
+  "language": "de",
+  "timing": {
+    "desiredSlideCount": 24
+  },
+  "entryFile": "AA_HR_WF_Analytics_Leitfaden_WS2526.html",
+  "preserveContents": true,
+  "preserveOrder": true,
+  "addExercises": false,
+  "slides": [
+    {
+      "id": "hrwf-01",
+      "title": "HR/WF Analytics",
+      "sourceSlide": 1,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-materialien",
+      "title": "Materialien",
+      "sourceSlide": null,
+      "sources": []
+    },
+    {
+      "id": "hrwf-02",
+      "title": "Modulübersicht",
+      "sourceSlide": 2,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-03",
+      "title": "Phase 1: Woche 1",
+      "sourceSlide": 3,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-04",
+      "title": "Phasenübersicht",
+      "sourceSlide": 4,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-05",
+      "title": "Gruppenzuordnung & Themen",
+      "sourceSlide": 5,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-06",
+      "title": "Bewertungsstruktur",
+      "sourceSlide": 6,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-07",
+      "title": "FlemoBoxen-Aufgaben",
+      "sourceSlide": 7,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-08",
+      "title": "Phase 2: Theorie-Sessions",
+      "sourceSlide": 8,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-09",
+      "title": "Woche 2: KI-Literacy & KI-gestützte Analyse",
+      "sourceSlide": 9,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-10",
+      "title": "Woche 3: Business War Game - Konzeption",
+      "sourceSlide": 10,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-11",
+      "title": "Woche 4: HR/WF Analytics Grundlagen + Analytics-Arten",
+      "sourceSlide": 11,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-12",
+      "title": "Woche 5: Datengrundlagen & Dateninterpretation",
+      "sourceSlide": 12,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-13",
+      "title": "Woche 6: Business Intelligence & Anwendungsbereiche",
+      "sourceSlide": 13,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-14",
+      "title": "Woche 7: Soziale Netzwerkanalyse & Ethik",
+      "sourceSlide": 14,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-15",
+      "title": "Woche 8: War Game Design Workshop",
+      "sourceSlide": 15,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-16",
+      "title": "Woche 9: Entwicklungsphase - Sprint 1",
+      "sourceSlide": 16,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-17",
+      "title": "Woche 10: Zwischenpräsentationen",
+      "sourceSlide": 17,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-18",
+      "title": "Woche 11: Finalisierung & Testläufe",
+      "sourceSlide": 18,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-19",
+      "title": "Woche 12: War Game Durchführung - Teil 1",
+      "sourceSlide": 19,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-20",
+      "title": "Woche 13: War Game Durchführung - Teil 2",
+      "sourceSlide": 20,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-21",
+      "title": "Woche 14: War Game Durchführung - Teil 3 & Gesamtauswertung",
+      "sourceSlide": 21,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-22",
+      "title": "Woche 15: Finale Präsentationen & Modulabschluss",
+      "sourceSlide": 22,
+      "sources": [
+        "U1"
+      ]
+    },
+    {
+      "id": "hrwf-23",
+      "title": "Wichtige Hinweise",
+      "sourceSlide": 23,
+      "sources": [
+        "U1"
+      ]
+    }
+  ]
+}

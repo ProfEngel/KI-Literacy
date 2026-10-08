@@ -1,0 +1,7 @@
+{
+  "taskId": "bccbba9970c115cc83e68fbeb7e520e7",
+  "provider": "Kie.ai",
+  "model": "nano-banana-2",
+  "promptFile": "images.json",
+  "promptKey": "rules"
+}

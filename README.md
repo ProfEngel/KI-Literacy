@@ -2,20 +2,43 @@
 
 Willkommen im Lehr- und Lernrepository von **Prof. Dr. Mathias Engel**. Hier findest du News-Briefings und Linklisten, HTML-Vorlesungspräsentationen, Begleitmaterial, Projektideen, Übungen, Daten und weiterführende Module rund um KI, Data Science und digitale Inhalte.
 
-**[Zur Kurs-Website auf GitHub Pages](https://profengel.github.io/KI-Literacy/)** · **[Woche 1: Data Science und KI starten](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w01/AA_W01_Einstieg.html)** · **[News & Linkliste](docs/Linkliste.md)** · **[Projektideen](docs/Projektideen_KI_DataScience_2026.md)**
+**[Zur Kurs-Website auf GitHub Pages](https://profengel.github.io/KI-Literacy/)** · **[News & Linkliste](docs/Linkliste.md)** · **[Projektideen](docs/Projektideen_KI_DataScience_2026.md)**
 
 Die Website zeigt die Präsentationen direkt im Browser. Auf GitHub findest du die Dateien zum Lesen, Herunterladen und Weiterarbeiten. Über **Code → Download ZIP** kannst du das Repository herunterladen; für die HTML-Folien benötigst du keinen Build-Schritt.
 
 ## Die Vorlesungen
 
-| Veranstaltung | Umfang | Worum es geht |
-|---|---|---|
-| **Data Science und KI** | **4 SWS** | KI verstehen, mit Modellen und Werkzeugen arbeiten, eine KI-Anwendung entwickeln und Daten in einem Dashboard erklären. |
-| **HR/WF Analytics** | **4 SWS** | Personal- und Workforce-Fragen mit Daten untersuchen, Kennzahlen interpretieren und Ergebnisse verantwortungsvoll verwenden. |
-| **Digital Content Management** | **4 SWS** | Digitale Inhalte planen, erstellen, prüfen und veröffentlichen; Text, Bild, Audio und Video verbinden. |
-| **Data Science – externer Bachelor** | Externes Bachelorangebot | Daten aufbereiten, explorieren und modellieren sowie Analyseergebnisse verständlich kommunizieren. |
+### Data Science und KI · 4 SWS
 
-Die Materialien werden schrittweise den Veranstaltungen zugeordnet. Bereits veröffentlicht ist der **Woche-1-Einstieg für Data Science und KI**. Weitere Veranstaltungen und Wochen folgen; die vorhandenen Vertiefungsmodule sind bereits nutzbar. Die älteren Bezeichnungen „Tag 01“ bis „Tag 11“ sind Ordnernamen der Materialsammlung und entsprechen **nicht** automatisch der neuen 14-Wochen-Reihenfolge.
+KI verstehen, mit Modellen und Werkzeugen arbeiten, eine KI-Anwendung entwickeln und Daten in einem Dashboard erklären.
+
+HTML-Präsentationen direkt auf GitHub Pages:
+
+- [Woche 1 · Einstieg](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w01/AA_W01_Einstieg.html)
+- [Woche 2 · Fundamente](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w02/AA_W02_Fundamente.html)
+- [Woche 3 · Sprachmodelle](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w03/AA_W03_Sprachmodelle.html)
+
+### HR/WF Analytics · 4 SWS
+
+Personal- und Workforce-Fragen mit Daten untersuchen, Kennzahlen interpretieren und Ergebnisse verantwortungsvoll verwenden.
+
+- [HR/WF Analytics · Leitfaden und 15-Wochen-Fahrplan](https://profengel.github.io/KI-Literacy/praesentationen/hrwf-analytics/AA_HR_WF_Analytics_Leitfaden_WS2526.html) – HTML-Präsentation mit Materialien, Links und QR-Codes auf Folie 2.
+
+Der Leitfaden gibt den Veranstaltungsüberblick; separate Wochenpräsentationen folgen. Die ursprünglichen Semesterangaben sind unverändert übernommen, siehe Prüfvermerk bei der Präsentation.
+
+### Digital Content Management · 4 SWS
+
+Digitale Inhalte planen, erstellen, prüfen und veröffentlichen; Text, Bild, Audio und Video verbinden.
+
+Noch keine eigenen Wochenpräsentationen veröffentlicht. Bereits verfügbar: [Bilderzeugung](modules/Exkurs_bilderzeugung/), [Videoerzeugung](modules/Exkurs_videoerzeugung/), [Songerzeugung](modules/Exkurs_songerzeugung/) und [Design](modules/Exkurs_design/).
+
+### Data Science · externer Bachelor
+
+Daten aufbereiten, explorieren und modellieren sowie Analyseergebnisse verständlich kommunizieren.
+
+Noch keine eigenen Wochenpräsentationen veröffentlicht. Bereits verfügbar: [Data-Science-Materialien](modules/Tag06_08_datascience/).
+
+Weitere Wochenlinks werden unter der jeweiligen Veranstaltung ergänzt. Die älteren Bezeichnungen „Tag 01“ bis „Tag 11“ sind Ordnernamen der Vertiefungsmaterialien und entsprechen **nicht** automatisch der neuen Wochenreihenfolge.
 
 ## Dein Einstieg
 
@@ -101,4 +124,4 @@ Das Repository ergänzt die Bucharbeit **„KI & Data Science – AI in a Brains
 
 Die bestehenden Daten, Module und Installationsanleitungen bleiben als Vertiefungsbestand erhalten. Der Einstieg erfolgt über die Veranstaltungen, die Kurs-Website und die Präsentationen.
 
-Prof. Dr. Mathias Engel · Stand: **7. Oktober 2026**
+Prof. Dr. Mathias Engel · Stand: **8. Oktober 2026**

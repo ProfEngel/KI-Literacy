@@ -1,0 +1,7 @@
+{
+  "taskId": "857116c3ff858e2472d12fc10f1da259",
+  "provider": "Kie.ai",
+  "model": "nano-banana-2",
+  "promptFile": "images.json",
+  "promptKey": "tokens"
+}

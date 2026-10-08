@@ -1,0 +1,173 @@
+{
+  "revision": "2026-09-21",
+  "entryFile": "AA_W02_Fundamente.html",
+  "durationMinutes": 180,
+  "slideCount": 33,
+  "slides": [
+    {
+      "id": "w02-cover",
+      "title": "Fundamente der KI",
+      "time": "00–01"
+    },
+    {
+      "id": "w02-agenda",
+      "title": "Unser Weg durch die heutige Sitzung",
+      "time": "01–02"
+    },
+    {
+      "id": "w02-question",
+      "title": "Wie wird aus lernender Technik eine nützliche KI-Anwendung?",
+      "time": "02–03"
+    },
+    {
+      "id": "w02-01",
+      "title": "KI erkennt Muster, erzeugt Inhalte und steuert Aktionen.",
+      "time": "03–07"
+    },
+    {
+      "id": "w02-02",
+      "title": "Schrift speichert Wissen. Computer automatisieren Rechnen.",
+      "time": "07–11"
+    },
+    {
+      "id": "w02-03",
+      "title": "Vier Meilensteine: Turing, Dartmouth, AlexNet, Transformer.",
+      "time": "11–15"
+    },
+    {
+      "id": "w02-04",
+      "title": "Übung: Vier KI-Meilensteine zeitlich einordnen.",
+      "time": "15–25"
+    },
+    {
+      "id": "w02-05",
+      "title": "Dartmouth: Antrag 1955, Workshop 1956.",
+      "time": "25–30"
+    },
+    {
+      "id": "w02-06",
+      "title": "Maschinelles Lernen passt ein Modell an Beispielen an.",
+      "time": "30–35"
+    },
+    {
+      "id": "w02-07",
+      "title": "Hebbs Regel: Gemeinsame Aktivität kann Verbindungen stärken.",
+      "time": "35–40"
+    },
+    {
+      "id": "w02-08",
+      "title": "Generalisierung heißt: auch neue Fälle richtig lösen.",
+      "time": "40–45"
+    },
+    {
+      "id": "w02-09",
+      "title": "Übung: Zwei Regeln für dieselben Trainingsdaten finden.",
+      "time": "45–55"
+    },
+    {
+      "id": "w02-10",
+      "title": "Gleiche Trainingsdaten können verschiedene Regeln ergeben.",
+      "time": "55–60"
+    },
+    {
+      "id": "w02-11",
+      "title": "KI, Machine Learning und generative KI bezeichnen Verschiedenes.",
+      "time": "60–65"
+    },
+    {
+      "id": "w02-12",
+      "title": "Ein Agent wählt Schritte und ruft Werkzeuge auf.",
+      "time": "65–70"
+    },
+    {
+      "id": "w02-13",
+      "title": "Eine Werkstatt verteilt Teilaufgaben an spezialisierte Agenten.",
+      "time": "70–75"
+    },
+    {
+      "id": "w02-14",
+      "title": "Übung: Regeln, Modelle, Workflows und Agenten unterscheiden.",
+      "time": "75–85"
+    },
+    {
+      "id": "w02-15",
+      "title": "Ein System kann generativ und zugleich agentisch sein.",
+      "time": "85–90"
+    },
+    {
+      "id": "w02-16",
+      "title": "Kurz Luft holen.",
+      "time": "90–105"
+    },
+    {
+      "id": "w02-17",
+      "title": "Additiv heißt ergänzen. Subtraktiv heißt weglassen.",
+      "time": "105–110"
+    },
+    {
+      "id": "w02-18",
+      "title": "Menschen übersehen oft Lösungen durch Weglassen.",
+      "time": "110–115"
+    },
+    {
+      "id": "w02-19",
+      "title": "Mehr Agenten bedeuten auch mehr Übergaben.",
+      "time": "115–120"
+    },
+    {
+      "id": "w02-20",
+      "title": "Übung: Eine Anmeldung ergänzen oder vereinfachen.",
+      "time": "120–130"
+    },
+    {
+      "id": "w02-21",
+      "title": "Einmal erfassen statt mehrfach abschreiben.",
+      "time": "130–135"
+    },
+    {
+      "id": "w02-22",
+      "title": "Amaras Gesetz: kurzfristig überschätzen, langfristig unterschätzen.",
+      "time": "135–140"
+    },
+    {
+      "id": "w02-23",
+      "title": "Ein gutes Modell braucht einen funktionierenden Arbeitsablauf.",
+      "time": "140–145"
+    },
+    {
+      "id": "w02-24",
+      "title": "200 Minuten Zeitgewinn können durch Nacharbeit verschwinden.",
+      "time": "145–150"
+    },
+    {
+      "id": "w02-25",
+      "title": "Übung: Zeitgewinn und Qualität einer KI-Hilfe testen.",
+      "time": "150–160"
+    },
+    {
+      "id": "w02-26",
+      "title": "Vor dem Pilotversuch: Erfolg und Abbruch festlegen.",
+      "time": "160–165"
+    },
+    {
+      "id": "w02-27",
+      "title": "Wissenscheck: fünf Aussagen begründen.",
+      "time": "165–175"
+    },
+    {
+      "id": "w02-28",
+      "title": "KI verstehen heißt: Verfahren, Handlung und Nutzen unterscheiden.",
+      "time": "175–176"
+    },
+    {
+      "id": "w02-bigpicture",
+      "title": "Das Big Picture der Woche",
+      "time": "176–178"
+    },
+    {
+      "id": "w02-29",
+      "title": "Quellenverzeichnis",
+      "time": "178–180"
+    }
+  ]
+}

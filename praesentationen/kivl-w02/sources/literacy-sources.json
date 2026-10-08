@@ -1,0 +1,27 @@
+[
+  {
+    "id": "R4",
+    "author": "Mathias Engel / KI Literacy Basics",
+    "year": "2026",
+    "title": "KI Literacy Basics: visuell geprüfte Lehrschaubilder",
+    "type": "provided teaching illustrations",
+    "url": "internal-reference-not-published",
+    "accessed": "2026-09-19",
+    "evidence": "Originalbilder multimodal geöffnet",
+    "claim": "Bilder zu Generalisierung, Neuron, Synapse, Perzeptron und Agenten-Orchestrierung als didaktische Anschauung.",
+    "limits": "Illustrationen, keine empirische Evidenz. Roboter/Mensch-Bild steht für Lernstrategien, nicht exklusive Fähigkeiten. Bilder unverändert; nur lokale Lehrfassung."
+  },
+  {
+    "id": "P11",
+    "author": "Dale Purves et al. (Hrsg.)",
+    "year": "2001",
+    "title": "Neuroscience, 2nd ed.: Chemical Synapses; Neural Signaling",
+    "type": "textbook",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK11009/",
+    "accessed": "2026-09-19",
+    "evidence": "Volltext der beiden HTML-Abschnitte geöffnet",
+    "pages": "Chemical Synapses, Absätze 1–5, Abb. 5.3; Neural Signaling, Einleitung. HTML ohne Seitenzählung.",
+    "claim": "Chemische Synapsen vermitteln Signale über Neurotransmitter und postsynaptische Rezeptoren.",
+    "limits": "Biologische Analogie, kein Nachweis für identische Lernmechanismen moderner LLMs."
+  }
+]
