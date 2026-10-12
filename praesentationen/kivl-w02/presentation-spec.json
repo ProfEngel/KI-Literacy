@@ -1,17 +1,19 @@
 {
-  "title": "KI-Fundamente – Die Magie entzaubern",
-  "status": "built_after_freigabe",
   "templateId": "trinity-klar",
   "templateName": "Trinity Klar – bewährter Standard",
-  "locale": "de",
+  "title": "W02 – Fundamente der KI: Build & Check",
+  "languages": [
+    "de"
+  ],
+  "aspectRatio": "16:9",
   "timing": {
     "durationMinutes": 180,
-    "desiredSlideCount": 29
+    "desiredSlideCount": 40,
+    "allocation": "180 Minuten: Input13/16/12/11/8 Minuten; je15 Minuten Bauen +5 Wrap-up; Pause15; Abschluss5. Einstieg/Video in Input1 enthalten. Stationen 00–33,33–69,69–101,Pause101–116,116–147,147–175,Abschluss175–180."
   },
-  "week": 2,
-  "bookChapter": 1,
-  "slidePrefix": "w02-",
-  "styleReference": "../KI Data Science W01 Einstieg 2026",
-  "scope": "Standalone review module for eventual single semester HTML",
-  "created": "2026-09-19"
+  "approval": "FREIGABE und anschließender konkreter Review-Auftrag im Nutzerchat, 12.10.2026",
+  "references": [
+    "KI Literacy Basics",
+    "KI und Wir"
+  ]
 }

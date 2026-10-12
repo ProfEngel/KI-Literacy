@@ -15,8 +15,7 @@ KI verstehen, mit Modellen und Werkzeugen arbeiten, eine KI-Anwendung entwickeln
 HTML-Präsentationen direkt auf GitHub Pages:
 
 - [Woche 1 · Einstieg](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w01/AA_W01_Einstieg.html)
-- [Woche 2 · Fundamente](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w02/AA_W02_Fundamente.html)
-- [Woche 3 · Sprachmodelle](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w03/AA_W03_Sprachmodelle.html)
+- [Woche 2 · Fundamente: Build & Check](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w02/AA_W02_Fundamente.html) – fünf praktische Stationen mit Prompts, Schaubildern und Übungen.
 
 ### HR/WF Analytics · 4 SWS
 

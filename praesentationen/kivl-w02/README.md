@@ -1,38 +1,13 @@
-# Woche 2 – KI-Fundamente
+# W02 – Fundamente der KI: Build & Check
 
-Fertiger lokaler HTML-Foliensatz: 29 Folien, 180 Minuten. Freigegebener Plan plus nachträglich gewünschte Quellenfolie. Deutsch, 16:9, Stil von W01.
+Start: AA_W02_Fundamente.html. 40 Folien, 180 Minuten. Pfeile/Home/Ende, Hell/Dunkel/System. Alle Bilder und Nutzerclip Eve_Zukunft_KI.mp4 (66,75 Sekunden, H.264/AAC) lokal, kein Autoplay, Pause bei Folienwechsel.
 
-## Start
+Prompts als TXT/Lesefassung; fünf Bau15 und fünf Wrap-up5-Timer plus Pause15. Vier HTML-Aufgaben, eine echte XLSX-Aufgabe in ChatGPT. Isometrisches Spiel ist 2,5D und deterministisch; kein echtes Agentensystem, kein SQLite. 2–5 Minuten gewünschte Erstgenerierung, keine Garantie. Excel-Rückfall ist ausdrücklich HTML-Rechner.
 
-`presentation.html` per Doppelklick öffnen. Immer den ganzen Ordner zusammenhalten: Bilder und Skripte liegen lokal in `assets/`. Internet ist für die Vorlesung nicht nötig; externe Literaturseiten brauchen beim Anklicken eine Verbindung. `presentation.de.html` ist die identische deutsche Fassung.
+180 Minuten: Input13/16/12/11/8 Minuten; je15 Minuten Bauen +5 Wrap-up; Pause15; Abschluss5. Einstieg/Video in Input1 enthalten. Stationen 00–33,33–69,69–101,Pause101–116,116–147,147–175,Abschluss175–180.
 
-- Pfeiltasten / Leertaste: weiter; Home / Ende: erste / letzte Folie.
-- Auswahlfeld: direkt springen. Notizen oder N: Moderationshinweise.
-- Timer: 15 Minuten starten, pausieren, zurücksetzen.
-- Hell / Dunkel / Auto. Drucken: alle Folien und Quellenanhang, einschließlich Lösungen.
-- `review.html`: foliengenau kommentieren, dann „JSON sichern“. Diese Datei für Überarbeitungen zurückgeben.
-- `arbeitsblatt.html`: Aufgaben ohne Testauflösung; ausdrucken oder am Bildschirm lesen.
-- `loesungen.html`: separate Musterlösungen. Nicht vor der Übung verteilen.
-- `speaker-notes.md`: vollständiger Moderationsleitfaden.
+Dozentenleitfaden/Review separat. Neuron, Synapse, künstliches Neuron wieder aufgenommen. LEGO-Versuchsaufbau vor Ergebnissen erklärt. Historische Symbolchronologie nicht als maßstäbliche Zeitachse. Video als Nutzerimpuls, nicht fachliche Evidenz; Veröffentlichung/Rechte separat prüfen. Zwischenablage kann bei file:// blockiert sein: Volltextdialog oder TXT verwenden. Fünf neue Kie.ai/Nano-Banana-2-Übungsbilder, GitHub-Veröffentlichung am 12.10.2026 beauftragt, keine Buchänderung.
 
-## Ablauf
+Weiterer Nutzerreview: Timeline-Jahre/Titel/Beschreibung exakt auf gleicher Höhe; Titel Regeln – Beispiele getrennt; vier Transmitterstichworte; vorhandenes Perzeptronbild. Alle Aufgaben/Prompts/Wrap-ups mit Produktgrafik und kleinem Timer rechts oben. Bauzeit auf Aufgabe und Prompt gemeinsam synchronisiert, keine neue15-Minuten-Phase beim Wechsel. Worker bewegen sich per requestAnimationFrame zum festen Arbeitsplatz; Memory erst nach Ankunft, sicherer Reset.
 
-Fünf Paare aus 15 Minuten Wissen und 15 Minuten Übung. Übungen jeweils 10 Minuten Bearbeitung plus 5 Minuten Auswertung. Pause 90–105, Abschluss 165–180. Quellenverzeichnis ist die letzte Folie, ab Minute 178. W02 gehört später als Baustein in die einzige Gesamt-HTML des Semesters.
-
-## Quellen und Medien
-
-Vollständige Nachweise mit Fundstellen: `sources/source-overview.html` und `sources/sources.json`. Grundtext ist Kapitel 1; Modulplan und Zielbild bestimmen die Auswahl. Es wurde kein Buchinhalt geändert und nichts veröffentlicht.
-
-Medienmanifest: `assets/media/manifest.json`. `chronology.png` und `amara.png` sind unveränderte Projektillustrationen aus „KI und Wir“; `worker.png` stammt aus W01. Die drei neuen Motive `rules-v2.png`, `hebb.png`, `subtract.png` wurden tatsächlich mit Kie.ai / Nano Banana 2 erzeugt. Prompts und auftragsbezogene Belege stehen in `assets/prompts/`; keine Zugangsschlüssel enthalten. Alle Bilder vollständig, ohne Verzerrung angezeigt. Providerbedingungen gelten; öffentliche Weiterveröffentlichung ist nicht beauftragt. `rules.png` ist die verworfene Erstvariante und wird nicht angezeigt.
-
-Historische Symbolcollage ist keine korrekte maßstäbliche Zeitachse. Schemakurven sind keine Messdaten. Adams-Zahlen stammen aus Experiment 1 / Tabelle 1. Hebb wird paraphrasiert: frühere Buchprüfung dokumentiert, aktueller Originalabruf gesperrt. Trinity-Analogie ist keine Live-Demo oder Behauptung einer vollständigen aktuellen Implementierung.
-
-## Prüfung und Grenzen
-
-Prüfbericht: `QA.md`; technische Ergebnisse und Screenshots unter `qa/`. Getestet in lokalem Chrome, offline. Kein physischer Beamer-, Safari- oder Firefox-Test. Review-Speicherung benötigt erlaubten Browserspeicher; JSON regelmäßig sichern. Auswertungsfolien zeigen die Lösung direkt, Quizantworten werden per Klick aufgedeckt.
-
-Erstellung nach Vorlesungswerkstatt und HTML-Präsentationswerkstatt: Quellenprüfung, Freigabe, metaphorische Bildauswahl, Offline-/Review-Prüfung. W01 wurde separat nur um seine Quellenfolie ergänzt.
-
-## Rahmenrevision 21.09.2026
-
-Freigegebener Nutzerauftrag: Titel, Agenda, reine Initialfrage und statisches Big Picture ergänzt. Keine Audio-/Videoinhalte auf den neuen Folien. 33 Folien; weiterhin 180 Minuten. Startdatei: [AA_W02_Fundamente.html](AA_W02_Fundamente.html). presentation.html und presentation.de.html bleiben vollständige Kompatibilitätsfassungen. Alle bisherigen Folien-IDs bleiben bestehen. Neu: w02-cover, w02-agenda, w02-question, w02-bigpicture.
+Öffentliche Fassung: enthält Folien, Prompts, lokale Medien, fünf Rückfallbeispiele, Review und Dozentenleitfaden. Interne Referenzdateien, Paper-PDFs und Provider-Task-Receipts bleiben privat. Bildprompts und Provider-/Modellnachweise sind im Medienmanifest enthalten.

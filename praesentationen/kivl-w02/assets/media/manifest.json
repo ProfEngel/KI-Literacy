@@ -1,184 +1,229 @@
 {
-  "created": "2026-09-19",
-  "scope": "Lokale Lehrpräsentation",
-  "generated": [
-    {
-      "file": "rules-v2.png",
-      "provider": "Kie.ai",
-      "model": "nano-banana-2",
-      "promptFile": "../prompts/rules-v2.json",
-      "promptKey": "rules-v2",
-      "receiptFile": "../prompts/rules-v2-receipt.json",
-      "inputReferences": [],
-      "language": "text-free; HTML labels de",
-      "slideIds": [
-        "w02-06"
-      ],
-      "alt": "Zwei Obstsortierszenen: explizite Bildvorgabe gegenüber Beispielunterricht; keine Schrift im Bild.",
-      "inspection": "Zwei Obstsortierszenen: explizite Bildvorgabe gegenüber Beispielunterricht; keine Schrift im Bild.",
-      "license": "Generiertes Projektasset; Providerbedingungen gelten. Keine öffentliche Weiterveröffentlichung beauftragt.",
-      "fit": "contain"
-    },
-    {
-      "file": "hebb.png",
-      "provider": "Kie.ai",
-      "model": "nano-banana-2",
-      "promptFile": "../prompts/images.json",
-      "promptKey": "hebb",
-      "receiptFile": "../prompts/hebb-receipt.json",
-      "inputReferences": [],
-      "language": "text-free; HTML labels de",
-      "slideIds": [
-        "w02-07"
-      ],
-      "alt": "Drei vorhandene Pfade werden zunehmend deutlicher; keine Schrift.",
-      "inspection": "Drei vorhandene Pfade werden zunehmend deutlicher; keine Schrift.",
-      "license": "Generiertes Projektasset; Providerbedingungen gelten. Keine öffentliche Weiterveröffentlichung beauftragt.",
-      "fit": "contain"
-    },
-    {
-      "file": "subtract.png",
-      "provider": "Kie.ai",
-      "model": "nano-banana-2",
-      "promptFile": "../prompts/images.json",
-      "promptKey": "subtract",
-      "receiptFile": "../prompts/subtract-receipt.json",
-      "inputReferences": [],
-      "language": "text-free; HTML labels de",
-      "slideIds": [
-        "w02-17"
-      ],
-      "alt": "Links Regal hinzufügen, rechts überflüssige Ordner entfernen; dekorative Bildschirmstriche ohne didaktische Textlast.",
-      "inspection": "Links Regal hinzufügen, rechts überflüssige Ordner entfernen; dekorative Bildschirmstriche ohne didaktische Textlast.",
-      "license": "Generiertes Projektasset; Providerbedingungen gelten. Keine öffentliche Weiterveröffentlichung beauftragt.",
-      "fit": "contain"
-    }
-  ],
+  "created": "2026-10-12",
+  "scope": "Öffentliche Lehrfassung W02, lokale Medien und dokumentierte Bildprompts.",
   "reused": [
     {
-      "file": "chronology.png",
-      "inventoryId": "V1",
+      "file": "timeline.png",
+      "source": "KI Literacy Basics/assets/media/human_innovation_timeline.png",
+      "alt": "Symbolische Innovationsfolge; nicht maßstäblich.",
       "slideIds": [
-        "w02-02"
+        "w02-cover",
+        "w02-history-01"
       ],
-      "source": "../../reference-material/slide-03-innovation-timeline-symbols-kie.png",
-      "originalManifest": "../../reference-material/ki-und-wir-manifest.json",
-      "provider": "Kie.ai",
-      "model": "nano-banana-2",
-      "license": "Generiertes Projektasset laut Originalmanifest",
-      "decision": "Symbolcollage übernehmen; keine Datierung aus frühen Bildpositionen"
+      "fit": "contain",
+      "provider": "Nicht neu erzeugt; siehe unverändertes Originalmanifest, keine neue Providerbehauptung",
+      "license": "Vom Autor bereitgestelltes Lehrmaterial; Veröffentlichung separat prüfen"
     },
-    {
-      "file": "amara.png",
-      "inventoryId": "V2",
-      "slideIds": [
-        "w02-22"
-      ],
-      "source": "../../reference-material/slide-04-amaras-law-metaphor-kie.png",
-      "originalManifest": "../../reference-material/ki-und-wir-manifest.json",
-      "provider": "Kie.ai",
-      "model": "nano-banana-2",
-      "license": "Generiertes Projektasset laut Originalmanifest",
-      "decision": "übernehmen, contain"
-    },
-    {
-      "file": "worker.png",
-      "inventoryId": "V5",
-      "slideIds": [
-        "w02-13"
-      ],
-      "source": "W01/assets/media/worker.png",
-      "originalManifest": "../../reference-material/w01-media-manifest.json",
-      "promptFile": "../../reference-material/w01-image-prompts.json",
-      "promptKey": "worker",
-      "provider": "Kie.ai",
-      "model": "nano-banana-2",
-      "license": "Generiertes Projektasset, Providerbedingungen gelten",
-      "decision": "übernehmen, contain"
-    }
-  ],
-  "rejected": [
     {
       "file": "rules.png",
-      "reason": "Unerwünschte englische Beschriftung und falsche Fruchtpfeile; nicht im Foliensatz eingesetzt.",
-      "promptFile": "../prompts/images.json",
-      "promptKey": "rules",
-      "provider": "Kie.ai",
-      "model": "nano-banana-2"
-    }
-  ],
-  "nativeVisuals": "Zeitleiste, Übungstabellen und schematische Wirkungskurven sind HTML/SVG. Studie: Balken beruhen auf 40/98 und 60/99; gleicher 0–100%-Bezugsraum.",
-  "revision20260919Literacy": [
-    {
-      "file": "generalization.png",
-      "source": "KI Literacy Basics/assets/media/memorize_vs_generalize.png",
+      "source": "KI und Wir/assets/media/slide-10-fixed-rules-vs-learning-kie.png",
+      "alt": "Regelablauf gegenüber Musterlernen.",
       "slideIds": [
-        "w02-08"
+        "w02-learning-01"
       ],
-      "inspection": "Blattvorlage und übertragbares Baumkonzept; Strategien nicht Spezies.",
-      "sha256": "ca07b6daf66d28c999eef2c3fb82d8ee09b916bbfe0b66268e8fc4fa46111a38",
-      "decision": "reuse unchanged",
-      "license": "Nutzerprojekt; nur lokale Lehrfassung, keine öffentliche Rechtefreigabe abgeleitet",
-      "provider": "Vorhandenes Asset; in dieser Revision keine Bildgenerierung"
-    },
-    {
-      "file": "neuron.png",
-      "source": "KI Literacy Basics/assets/media/neuron_anatomy.png",
-      "slideIds": [
-        "w02-07"
-      ],
-      "inspection": "Neuron mit Dendriten, Soma, Axon und Endigungen. Zusatzansicht.",
-      "sha256": "19e898a6007d2a79bbebe7d70df7878e8f3aafdac28de85e419dd0d230bdf117",
-      "decision": "reuse unchanged",
-      "license": "Nutzerprojekt; nur lokale Lehrfassung, keine öffentliche Rechtefreigabe abgeleitet",
-      "provider": "Vorhandenes Asset; in dieser Revision keine Bildgenerierung"
-    },
-    {
-      "file": "synapse.png",
-      "source": "KI Literacy Basics/assets/media/synapse_neurotransmitters.png",
-      "slideIds": [
-        "w02-07"
-      ],
-      "inspection": "Botenstoffe zwischen prä- und postsynaptischem Bereich. Zusatzansicht.",
-      "sha256": "fa93a46a66becb259e4e1f52f1a6d9c20e771359ed857f1ffb7651151400f4ec",
-      "decision": "reuse unchanged",
-      "license": "Nutzerprojekt; nur lokale Lehrfassung, keine öffentliche Rechtefreigabe abgeleitet",
-      "provider": "Vorhandenes Asset; in dieser Revision keine Bildgenerierung"
-    },
-    {
-      "file": "perceptron.jpg",
-      "source": "KI Literacy Basics/assets/media/2026-06-29_funktionsweise_ki_u_ziel.jpg",
-      "slideIds": [
-        "w02-06"
-      ],
-      "inspection": "Gewichtete Eingaben, Vorhersage, Fehlerrückführung. Zusatzansicht.",
-      "sha256": "cea653fc4f3b5e906a871ec8a0e933e7c96bd0241d445fcd76f46fdaf48c8ee8",
-      "decision": "reuse unchanged",
-      "license": "Nutzerprojekt; nur lokale Lehrfassung, keine öffentliche Rechtefreigabe abgeleitet",
-      "provider": "Vorhandenes Asset; in dieser Revision keine Bildgenerierung"
+      "fit": "contain",
+      "provider": "Nicht neu erzeugt; siehe unverändertes Originalmanifest, keine neue Providerbehauptung",
+      "license": "Vom Autor bereitgestelltes Lehrmaterial; Veröffentlichung separat prüfen"
     },
     {
       "file": "orchestration.jpg",
       "source": "KI Literacy Basics/assets/media/2026-06-29_agenten_orchestrierung.jpg",
+      "alt": "Team mit Recherche, Strategie, Text, Bildern und Qualität.",
       "slideIds": [
-        "w02-13"
+        "w02-agents-03"
       ],
-      "inspection": "Redaktionsteam, Aufgaben und QS. Organisationsanalogie.",
-      "sha256": "358ac0f0535a1d40ff5eca73d2e954896ed655d9e67f1fae0f153df2ddfb9c9a",
-      "decision": "reuse unchanged",
-      "license": "Nutzerprojekt; nur lokale Lehrfassung, keine öffentliche Rechtefreigabe abgeleitet",
-      "provider": "Vorhandenes Asset; in dieser Revision keine Bildgenerierung"
+      "fit": "contain",
+      "provider": "Nicht neu erzeugt; siehe unverändertes Originalmanifest, keine neue Providerbehauptung",
+      "license": "Vom Autor bereitgestelltes Lehrmaterial; Veröffentlichung separat prüfen"
+    },
+    {
+      "file": "amara.png",
+      "source": "KI und Wir/assets/media/slide-04-amaras-law-metaphor-kie.png",
+      "alt": "Feuerwerk gegenüber verwurzelter Infrastruktur.",
+      "slideIds": [
+        "w02-value-01"
+      ],
+      "fit": "contain",
+      "provider": "Nicht neu erzeugt; siehe unverändertes Originalmanifest, keine neue Providerbehauptung",
+      "license": "Vom Autor bereitgestelltes Lehrmaterial; Veröffentlichung separat prüfen"
+    },
+    {
+      "file": "generalization.png",
+      "source": "KI Literacy Basics/assets/media/memorize_vs_generalize.png",
+      "alt": "Ein Beispiel gegenüber mehreren Baumformen; beide Lernstrategien sind auch für KI möglich.",
+      "slideIds": [
+        "w02-learning-03"
+      ],
+      "fit": "contain",
+      "provider": "Nicht neu erzeugt; siehe unverändertes Originalmanifest, keine neue Providerbehauptung",
+      "license": "Vom Autor bereitgestelltes Lehrmaterial; Veröffentlichung separat prüfen"
+    },
+    {
+      "file": "hebb.png",
+      "source": "internal-reference-not-published",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "provenance": "Unverändert vorhandenes W02-Projektasset; Originalmanifest als Referenz beigelegt",
+      "fit": "contain",
+      "slideIds": [
+        "w02-learning-02"
+      ]
+    },
+    {
+      "file": "subtract.png",
+      "source": "internal-reference-not-published",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "provenance": "Unverändert vorhandenes W02-Projektasset; Originalmanifest als Referenz beigelegt",
+      "fit": "contain",
+      "slideIds": [
+        "w02-subtraction-01"
+      ]
+    },
+    {
+      "file": "neuron.png",
+      "source": "KI Literacy Basics/assets/media/neuron_anatomy.png",
+      "fit": "contain",
+      "language": "de",
+      "provider": "Vorhandene Autorenreferenz; nicht neu generiert",
+      "slideIds": [
+        "w02-neuron"
+      ]
+    },
+    {
+      "file": "synapse.png",
+      "source": "KI Literacy Basics/assets/media/synapse_neurotransmitters.png",
+      "fit": "contain",
+      "language": "de",
+      "provider": "Vorhandene Autorenreferenz; nicht neu generiert",
+      "slideIds": [
+        "w02-synapse"
+      ]
+    },
+    {
+      "file": "Eve_Zukunft_KI.mp4",
+      "source": "internal-reference-not-published",
+      "fit": "contain",
+      "language": "de",
+      "provider": "Vorhandene Autorenreferenz; nicht neu generiert",
+      "slideIds": [
+        "w02-history-video"
+      ]
+    },
+    {
+      "file": "Eve_poster.png",
+      "source": "Eve_Zukunft_KI.mp4, Frame bei8 Sekunden",
+      "provider": "Lokal mit ffmpeg extrahiert, keine KI-Bildgenerierung",
+      "slideIds": [
+        "w02-history-video"
+      ]
+    },
+    {
+      "file": "perceptron.jpg",
+      "source": "internal-reference-not-published",
+      "fit": "contain",
+      "slideIds": [
+        "w02-artificial-neuron"
+      ],
+      "inspection": "Bild tatsächlich geöffnet; Inputs/Gewichte, Modell/Vorhersage und schematische Fehler-Rückkopplung sichtbar."
     }
   ],
-  "frameRevision20260921": {
-    "reusedImage": "chronology.png",
-    "slides": [
-      "w02-cover",
-      "w02-bigpicture"
-    ],
-    "inspection": "Bild am 21.09.2026 tatsächlich geöffnet; vollständig und unverzerrt wiederverwendet.",
-    "infographic": "Neue statische HTML/CSS-Infografik mit fünf beschrifteten Stationen; Synthese vorhandener Inhalte, kein neuer empirischer Befund.",
-    "audio": false,
-    "video": false
-  }
+  "generated": [
+    {
+      "file": "exercise-history-de.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "promptFile": "../prompts/uebungen-de.json",
+      "promptKey": "exercise-history-de",
+      "receiptFile": "local-provider-receipt-not-published",
+      "inputReferences": [],
+      "language": "de",
+      "slideIds": [
+        "w02-history-task",
+        "w02-history-prompt",
+        "w02-history-wrap"
+      ],
+      "alt": "Interaktive Zeitreise auf einem Laptop mit historischen Symbolen und Zuordnungskarten.",
+      "fit": "contain",
+      "license": "Generiertes Lehrprojektasset; Providerbedingungen, keine neue öffentliche Veröffentlichung",
+      "inspection": "Tatsächlich visuell geöffnet; symbolische Produktvorschau, keine empirische Datengrafik oder exakter Screenshot. Beim Pilotbild Balken nur Symbolik, die Formeln/Werte stehen im Auftrag."
+    },
+    {
+      "file": "exercise-learning.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "promptFile": "../prompts/uebungen-v2.json",
+      "promptKey": "exercise-learning",
+      "receiptFile": "local-provider-receipt-not-published",
+      "inputReferences": [],
+      "language": "textfrei",
+      "slideIds": [
+        "w02-learning-task",
+        "w02-learning-prompt",
+        "w02-learning-wrap"
+      ],
+      "alt": "Trainingskarten, zwei konkurrierende Regelpfade und Gegenproben mit neuen Farben.",
+      "fit": "contain",
+      "license": "Generiertes Lehrprojektasset; Providerbedingungen, keine neue öffentliche Veröffentlichung",
+      "inspection": "Tatsächlich visuell geöffnet; symbolische Produktvorschau, keine empirische Datengrafik oder exakter Screenshot. Beim Pilotbild Balken nur Symbolik, die Formeln/Werte stehen im Auftrag."
+    },
+    {
+      "file": "exercise-agents-final.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "promptFile": "../prompts/uebungen-final.json",
+      "promptKey": "exercise-agents-final",
+      "receiptFile": "local-provider-receipt-not-published",
+      "inputReferences": [],
+      "language": "textfrei",
+      "slideIds": [
+        "w02-agents-task",
+        "w02-agents-prompt",
+        "w02-agents-wrap"
+      ],
+      "alt": "Isometrisches Werkstattspiel mit Aufträgen, Skills, Memory, Budget und Freigabe.",
+      "fit": "contain",
+      "license": "Generiertes Lehrprojektasset; Providerbedingungen, keine neue öffentliche Veröffentlichung",
+      "inspection": "Tatsächlich visuell geöffnet; symbolische Produktvorschau, keine empirische Datengrafik oder exakter Screenshot. Beim Pilotbild Balken nur Symbolik, die Formeln/Werte stehen im Auftrag."
+    },
+    {
+      "file": "exercise-subtraction-final.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "promptFile": "../prompts/uebungen-final.json",
+      "promptKey": "exercise-subtraction-final",
+      "receiptFile": "local-provider-receipt-not-published",
+      "inputReferences": [],
+      "language": "weitgehend textfrei; UI-Platzhalter Title",
+      "slideIds": [
+        "w02-subtraction-task",
+        "w02-subtraction-prompt",
+        "w02-subtraction-wrap"
+      ],
+      "alt": "Anmelde-Mockup mit Bausteinpalette, Drag-and-drop, Entfernen und Kriteriencheck.",
+      "fit": "contain",
+      "license": "Generiertes Lehrprojektasset; Providerbedingungen, keine neue öffentliche Veröffentlichung",
+      "inspection": "Tatsächlich visuell geöffnet; symbolische Produktvorschau, keine empirische Datengrafik oder exakter Screenshot. Beim Pilotbild Balken nur Symbolik, die Formeln/Werte stehen im Auftrag."
+    },
+    {
+      "file": "exercise-value-final.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "promptFile": "../prompts/uebungen-final.json",
+      "promptKey": "exercise-value-final",
+      "receiptFile": "local-provider-receipt-not-published",
+      "inputReferences": [],
+      "language": "textfrei",
+      "slideIds": [
+        "w02-value-task",
+        "w02-value-prompt",
+        "w02-value-wrap"
+      ],
+      "alt": "Tabellenmodell mit Eingaben, Berechnung, Zeitvergleich und Qualitätskontrolle.",
+      "fit": "contain",
+      "license": "Generiertes Lehrprojektasset; Providerbedingungen, keine neue öffentliche Veröffentlichung",
+      "inspection": "Tatsächlich visuell geöffnet; symbolische Produktvorschau, keine empirische Datengrafik oder exakter Screenshot. Beim Pilotbild Balken nur Symbolik, die Formeln/Werte stehen im Auftrag."
+    }
+  ],
+  "publicationAuthorized": "12.10.2026: Autorauftrag, keine Änderung der zugrundeliegenden Lizenzen."
 }

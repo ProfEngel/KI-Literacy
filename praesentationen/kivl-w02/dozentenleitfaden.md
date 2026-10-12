@@ -1,673 +1,483 @@
-# Dozentenleitfaden · Woche 2
+# W02 · Dozentenleitfaden
 
-Zu jeder Folie: didaktische Absicht, Erklärung, Moderation und Übergang. Nicht als zusätzlicher Folientext gedacht. Quellenangaben beziehen sich auf das lokale Quellenregister.
+180 Minuten: Input13/16/12/11/8 Minuten; je15 Minuten Bauen +5 Wrap-up; Pause15; Abschluss5. Einstieg/Video in Input1 enthalten. Stationen 00–33,33–69,69–101,Pause101–116,116–147,147–175,Abschluss175–180.
 
-## w02-cover · Fundamente der KI
+## 01 · Fundamente der KI
 
-Zeit: 00–01 Minuten.
+ID: `w02-cover`
 
-### Absicht und Moderation
+**Absicht und fachliche Erklärung:** Heute werden Grundlagen nicht nur wiederholt, sondern in überprüfbare Artefakte übersetzt. Noch kein Prompting-Lehrgang; die Bauaufträge sind vorgegeben.
 
-Begrüßen Sie die Studierenden. Das Themenbild eröffnet die Sitzung: Lernen, Handeln und Nutzen verstehen. Noch keine Fachdetails vorwegnehmen; anschließend den Ablauf zeigen.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-## w02-agenda · Unser Weg durch die heutige Sitzung
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-Zeit: 01–02 Minuten.
+**Übergang:** Nächster Schritt: Fünf Stationen. Fünf eigene Artefakte.
 
-### Absicht und Moderation
+## 02 · Fünf Stationen. Fünf eigene Artefakte.
 
-Die fünf Stationen knapp nennen. Jede wird durch Wissen und praktische Bearbeitung erschlossen. Auf die Pause und die gemeinsame Zusammenfassung hinweisen. Nicht schon die Lösungen erklären.
+ID: `w02-agenda`
 
-## w02-question · Wie wird aus lernender Technik eine nützliche KI-Anwendung?
+**Absicht und fachliche Erklärung:** Fünf Build-&-Check-Stationen, jeweils15 Minuten Bau und5 Minuten Wrap-up. Mehr Input für Lernmechanismen:13/16/12/11/8 Minuten. Pause15, Abschluss5. Insgesamt180 Minuten. Rahmen und Video im ersten Input enthalten.
 
-Zeit: 02–03 Minuten.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-### Absicht und Moderation
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-Die Frage langsam stellen, kurz Stille zulassen und zwei spontane Vermutungen sammeln. Nicht auflösen. Beim Big Picture am Ende dieselbe Frage wieder aufnehmen und anhand der fünf Stationen beantworten.
+**Übergang:** Nächster Schritt: Unser Lernweg bis zur ersten Teilprüfung.
 
-## w02-01 · KI erkennt Muster, erzeugt Inhalte und steuert Aktionen.
+## 03 · Unser Lernweg bis zur ersten Teilprüfung.
 
-**Zeit:** 03–07 Minuten.
+ID: `w02-learning-path`
 
-### Warum diese Folie?
+**Absicht und fachliche Erklärung:** Vom gemeinsamen Einstieg zum ersten Projekt. Woche2 liefert Begriffe und Kriterien für die folgenden Wochen. Aus der Einordnung folgt die Initialfrage: Wie prüfen wir Leistung, ohne Erkennen, Erzeugen und Handeln zu verwechseln?
 
-Drei konkrete Ergebnisse ersetzen die abstrakten Verben ohne Anschauung.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-### So lässt sich die Folie erklären
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-An einem durchgehenden E-Mail-Beispiel erklären: Erst wird Werbung erkannt. Dann wird für eine echte Terminanfrage eine Antwort formuliert. Schließlich kann ein Agent über ein Kalenderwerkzeug einen Termin eintragen. Drei konkrete Leistungen, die ein System kombinieren kann. Das Sprachmodell allein schreibt nur Text; eine Aktion benötigt Werkzeugzugang und entsprechende Berechtigungen. Nicht behaupten, jeder Chatbot habe automatisch Kalenderzugriff.
+**Übergang:** Nächster Schritt: Wie prüfen wir, was KI wirklich leistet?
 
-### Frage, Aktivierung und typische Stolperstelle
+## 04 · Wie prüfen wir, was KI wirklich leistet?
 
-Frage: Welche Ausgabe verändert den Kalender? Nur der tatsächlich ausgeführte Werkzeugaufruf.
+ID: `w02-question`
 
-### Übergang
+**Absicht und fachliche Erklärung:** Die vorherige Lernwegfolie begründet die Frage: Einordnen heißt, Fähigkeiten und Grenzen zu unterscheiden. Nur die Frage auf der Fläche; am Ende anhand der fünf Stationen beantworten.
 
-Als Nächstes: Schrift speichert Wissen. Computer automatisieren Rechnen.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-**Quellen:** P1, P5, E1
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-## w02-02 · Schrift speichert Wissen. Computer automatisieren Rechnen.
+**Übergang:** Nächster Schritt: Die Menschheit verändert ihre Umwelt – mit neuen Werkzeugen.
 
-**Zeit:** 07–11 Minuten.
+## 05 · Die Menschheit verändert ihre Umwelt – mit neuen Werkzeugen.
 
-### Warum diese Folie?
+ID: `w02-history-01`
 
-Jede Kulturtechnik bekommt eine konkrete Funktion, statt nur Verdichtung zu behaupten.
+**Absicht und fachliche Erklärung:** Bild erklärt die menschliche Werkzeuggeschichte, nicht einen KI-Rechenmechanismus. Verdichtung im Symbolbild keine Messung exponentieller Beschleunigung. Frühe Anordnung der Symbole nicht archäologisch interpretieren.
 
-### So lässt sich die Folie erklären
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-Vier sichtbare Anker auswählen, nicht jede kleine Szene erklären: Schrift hält Information außerhalb des Gedächtnisses fest. Buchdruck vervielfältigt Texte. Computer führen formale Rechenregeln aus. Generative KI erzeugt neue Inhalte auf Grundlage gelernter Muster. Die Illustration ist eine Symbolcollage, keine datierte Zeitleiste; ihre frühe Bildreihenfolge ist nicht archäologisch korrekt. Das ist eine Bildgrenze, keine Kernaussage. Historische KI-Daten folgen auf Folie 3.
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-### Frage, Aktivierung und typische Stolperstelle
+**Übergang:** Nächster Schritt: KI entwickelt sich nicht in einer geraden Linie.
 
-Frage: Was ist der Unterschied zwischen dem Kopieren eines Textes und dem Generieren eines neuen Textes?
+## 06 · KI entwickelt sich nicht in einer geraden Linie.
 
-### Übergang
+ID: `w02-history-02`
 
-Als Nächstes: Vier Meilensteine: Turing, Dartmouth, AlexNet, Transformer.
+**Absicht und fachliche Erklärung:** Dartmouth-Daten trennen. AlexNet steht für Bildklassifikation, Transformer für eine Architektur, ChatGPT für eine Benutzeranwendung. Keine Behauptung, jede Stufe ersetze die vorherige.
 
-**Quellen:** B1, M1
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-## w02-03 · Vier Meilensteine: Turing, Dartmouth, AlexNet, Transformer.
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-**Zeit:** 11–15 Minuten.
+**Übergang:** Nächster Schritt: Eve: KI-Geschichte als Videoimpuls.
 
-### Warum diese Folie?
+## 07 · Eve: KI-Geschichte als Videoimpuls.
 
-Die Anker markieren unterschiedliche Problemstellungen: Turing fragt nach beobachtbarem Verhalten; Dartmouth formuliert ein Forschungsprogramm; AlexNet zeigt leistungsfähige gelernte Bildmerkmale; Transformer verändern die Sequenzverarbeitung. Dazwischen liegen symbolische Systeme, Expertensysteme, neuronale Ansätze und Rückschläge. Diese Verfahren verschwinden nicht einfach, wenn eine neue Architektur erscheint.
+ID: `w02-history-video`
 
-### So lässt sich die Folie erklären
+**Absicht und fachliche Erklärung:** Nutzerclip, 66,75 Sekunden, lokal H.264/AAC. Kein Autoplay. Als Gesprächsimpuls, nicht als Primärbeleg behandeln; konkrete Aussagen mit Zeitleistenquellen vergleichen. Clip innerhalb des ersten Inputbudgets.
 
-Je Anker etwa eine Minute. Turing: verhaltensorientierte Testidee, kein Bewusstseinsnachweis. Dartmouth-Antrag 31.8.1955 schlägt Sommer 1956 vor. AlexNet ist ein wichtiger Bildklassifikationsbeitrag, nicht Erfindung neuronaler Netze. Transformer 2017; Funktionsweise erst W03. Historische Anker, keine erfundenen Verbreitungswerte. Die Anker markieren unterschiedliche Problemstellungen: Turing fragt nach beobachtbarem Verhalten; Dartmouth formuliert ein Forschungsprogramm; AlexNet zeigt leistungsfähige gelernte Bildmerkmale; Transformer verändern die Sequenzverarbeitung. Dazwischen liegen symbolische Systeme, Expertensysteme, neuronale Ansätze und Rückschläge. Diese Verfahren verschwinden nicht einfach, wenn eine neue Architektur erscheint. Zeigen Sie den Unterschied zwischen Forschungsfrage, Methode und Anwendung. Nicht 'jede Generation ist intelligenter', sondern 'andere Aufgaben und technische Voraussetzungen'.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-### Frage, Aktivierung und typische Stolperstelle
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-Zeigen Sie den Unterschied zwischen Forschungsfrage, Methode und Anwendung. Nicht 'jede Generation ist intelligenter', sondern 'andere Aufgaben und technische Voraussetzungen'.
+**Übergang:** Nächster Schritt: Baut eine interaktive Zeitreise.
 
-### Übergang
+## 08 · Baut eine interaktive Zeitreise.
 
-Als Nächstes: Übung: Vier KI-Meilensteine zeitlich einordnen.
+ID: `w02-history-task`
 
-**Quellen:** P2, P6, P7, P8, B1
+**Absicht und fachliche Erklärung:** Erwartung vor dem Generieren schriftlich festhalten. 15 Minuten umfassen Erwartung, Generierung und ersten Funktionstest. Erst nach Klarheit Timer starten. Nicht fehlerhafte Generierung als eigenen Lernfehler behandeln. Bei Problemen Rückfallbeispiel analysieren.
 
-## w02-04 · Übung: Vier KI-Meilensteine zeitlich einordnen.
+**Moderation:** Vor dem Bauen erwarten wir: Eine richtige Zeitleiste erklärt Unterschiede, nicht nur Jahreszahlen.
 
-**Zeit:** 15–25 Minuten.
+**Stolperstelle und Prüfung:** Prüft 1955/1956 und zwei falsche Zuordnungen im Spiel.
 
-### Warum diese Folie?
+**Übergang:** Nächster Schritt: Euer Bauauftrag für ChatGPT
 
-Die Übung trennt Erinnern von Quellenkritik. Die Studierenden müssen nicht alle Jahreszahlen auswendig kennen: Entscheidend ist, Antrag und Veranstaltung sowie Illustration und Messung auseinanderzuhalten.
+## 09 · Euer Bauauftrag für ChatGPT
 
-### So lässt sich die Folie erklären
+ID: `w02-history-prompt`
 
-Erst ohne Folie 3 zurückzuspringen ordnen. Papierkarten im Arbeitsblatt. Keine Abfrage aller Kulturtechnikdaten. Auf die Begründung achten, nicht Jahreszahlenwissen benoten. Danach gemeinsam zur Auswertung wechseln. Die Übung trennt Erinnern von Quellenkritik. Die Studierenden müssen nicht alle Jahreszahlen auswendig kennen: Entscheidend ist, Antrag und Veranstaltung sowie Illustration und Messung auseinanderzuhalten. Nach zehn Minuten sammeln Sie zwei begründete Antworten; nicht bloß die richtige Jahreszahl.
+**Absicht und fachliche Erklärung:** Diese Folie teilt das 15-Minuten-Budget mit dem Auftrag. Kein zweiter Bautimer. Volltext/Lesefassung statt kleiner Schrift auf der Projektionsfläche. Nicht echte Agenten oder SQLite aus einem statischen Mockup ableiten. Diskreter Bautimer rechts oben: derselbe Zustand wie auf der Aufgabenfolie, kein neues15-Minuten-Budget. Gestaltungsvorgaben nur im vollständigen Prompt; Grafik zeigt das Zielprodukt.
 
-### Frage, Aktivierung und typische Stolperstelle
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-Nach zehn Minuten sammeln Sie zwei begründete Antworten; nicht bloß die richtige Jahreszahl.
+**Stolperstelle und Prüfung:** Prüft 1955/1956 und zwei falsche Zuordnungen im Spiel.
 
-### Übergang
+**Übergang:** Nächster Schritt: Zeigen. Prüfen. Verbessern.
 
-Als Nächstes: Dartmouth: Antrag 1955, Workshop 1956.
+## 10 · Zeigen. Prüfen. Verbessern.
 
-**Quellen:** P2, P6, P7, P8, E1
+ID: `w02-history-wrap`
 
-## w02-05 · Dartmouth: Antrag 1955, Workshop 1956.
+**Absicht und fachliche Erklärung:** Fünf Minuten insgesamt: zwei Minuten Partnerprüfung, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.
 
-**Zeit:** 25–30 Minuten.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-### Warum diese Folie?
+**Stolperstelle und Prüfung:** Prüft 1955/1956 und zwei falsche Zuordnungen im Spiel.
 
-Eine Zeitleiste kann korrekt sein und trotzdem eine falsche Erklärung nahelegen. Zeitliche Nähe ist kein Kausalnachweis. Wer exponentielle Entwicklung behauptet, muss eine messbare Größe, einen Zeitraum und vergleichbare Daten nennen.
+**Übergang:** Nächster Schritt: Software 1.0: Regeln – Software 2.0: Beispiele.
 
-### So lässt sich die Folie erklären
+## 11 · Software 1.0: Regeln – Software 2.0: Beispiele.
 
-Zwei Gruppen begründen lassen, dann aufdecken. Aus einer zeitlichen Abfolge folgt nicht automatisch Kausalität. Optional fragen: Welche zusätzliche Information bräuchte eine echte Wachstumsbehauptung? Messgröße und Zeitreihe. Eine Zeitleiste kann korrekt sein und trotzdem eine falsche Erklärung nahelegen. Zeitliche Nähe ist kein Kausalnachweis. Wer exponentielle Entwicklung behauptet, muss eine messbare Größe, einen Zeitraum und vergleichbare Daten nennen. Nachfrage: Was würden wir überhaupt messen – Rechenleistung, Kosten, Veröffentlichungen oder Alltagsnutzung? Diese Größen können unterschiedlich verlaufen.
+ID: `w02-learning-01`
 
-### Frage, Aktivierung und typische Stolperstelle
+**Absicht und fachliche Erklärung:** Gelerntes Modell benötigt weiterhin programmierte Infrastruktur, Lernziel und Daten. Das Bild zeigt keine exakten Rechenschritte. Software-1/2-Begriffe als didaktische Unterscheidung, nicht trennscharfe universelle Taxonomie.
 
-Nachfrage: Was würden wir überhaupt messen – Rechenleistung, Kosten, Veröffentlichungen oder Alltagsnutzung? Diese Größen können unterschiedlich verlaufen.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-### Übergang
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-Als Nächstes: Maschinelles Lernen passt ein Modell an Beispielen an.
+**Übergang:** Nächster Schritt: Ein Neuron empfängt, verarbeitet und leitet Signale weiter.
 
-**Quellen:** P2, P6, P7, P8, E1
+## 12 · Ein Neuron empfängt, verarbeitet und leitet Signale weiter.
 
-## w02-06 · Maschinelles Lernen passt ein Modell an Beispielen an.
+ID: `w02-neuron`
 
-**Zeit:** 30–35 Minuten.
+**Absicht und fachliche Erklärung:** Vereinfachte Nervenzellenschemata. Elektrische Signale benötigen Ionen-/Membrandynamik, die ein künstliches Netz nicht biologisch nachbildet. Kein neuronales Aktionspotenzial mit einem Token verwechseln.
 
-### Warum diese Folie?
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-Die Kernaussage lautet: Maschinelles Lernen passt ein Modell an Beispielen an.
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-### So lässt sich die Folie erklären
+**Übergang:** Nächster Schritt: An der chemischen Synapse wird aus elektrisch chemisch.
 
-Links beschreibt der Mensch unmittelbar die Entscheidungsvorschrift. Rechts liefert er zu Beispielen die gewünschte Zuordnung; ein Lernverfahren passt die Parameter so an, dass die Vorhersagen besser zu den Zielwerten passen. Ein Modell kann dabei unerwünschte Zusammenhänge lernen, etwa Hintergrundfarbe statt Fruchtsorte. Deshalb prüfen wir unbekannte Fälle. Reales maschinelles Lernen ist ein algorithmisches Verfahren, kein kleiner Mensch. Als zusätzliche technische Ansicht dient das Perzeptron im lokalen Bildlink. Es kombiniert gewichtete Eingaben zu einer Vorhersage; der Trainingsfehler führt zur Anpassung der Gewichte.
+## 13 · An der chemischen Synapse wird aus elektrisch chemisch.
 
-### Frage, Aktivierung und typische Stolperstelle
+ID: `w02-synapse`
 
-Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Maschinelles Lernen passt ein Modell an Beispielen an.
+**Absicht und fachliche Erklärung:** Transmitter sind chemische Botenstoffe, keine Datentokens. Signalübertragung nicht mit Lernen gleichsetzen. Plastizität verändert Wirksamkeit; neben chemischen gibt es elektrische Synapsen. Vier stichwortartige Beispiele; keine Eins-zu-eins-Zuordnung eines Stoffes zu einem Gefühl. Glutamat/GABA häufige erregende/hemmende Rollen, Dopamin kein bloßes Glückshormon.
 
-### Übergang
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-Als Nächstes: Hebbs Regel: Gemeinsame Aktivität kann Verbindungen stärken.
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-**Quellen:** P9, B1, M2, R4
+**Übergang:** Nächster Schritt: Hebb: Wiederholtes Zusammenspiel kann Verbindungen stärken.
 
-## w02-07 · Hebbs Regel: Gemeinsame Aktivität kann Verbindungen stärken.
+## 14 · Hebb: Wiederholtes Zusammenspiel kann Verbindungen stärken.
 
-**Zeit:** 35–40 Minuten.
+ID: `w02-learning-02`
 
-### Warum diese Folie?
+**Absicht und fachliche Erklärung:** Hebb 1949 S.62 als Paraphrase; kein neu verifiziertes Direktzitat. Die drei Labels sind im selben Breitenkontext wie die vollständige Grafik. Funktionelle Verstärkung vorhandener Verbindung, nicht „keine Verbindung“ → „neue Leitung“.
 
-Die Kernaussage lautet: Hebbs Regel: Gemeinsame Aktivität kann Verbindungen stärken.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-### So lässt sich die Folie erklären
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-Zuerst erläutern, was verbunden wird: Nervenzellen verarbeiten Signale. Bei einer chemischen Synapse werden Botenstoffe freigesetzt; sie binden an Rezeptoren der nächsten Zelle und beeinflussen deren Aktivität. Dann Hebbs Lernpostulat paraphrasieren: Wiederholte Beteiligung von A an der Aktivierung von B kann die Wirksamkeit erhöhen. Das Pfadbild illustriert diese Änderung. Bei künstlichen Netzen sind Gewichte Zahlen; Training mit Fehlergradienten ist nicht identisch mit dieser biologischen Lernregel. Optional die zwei verlinkten Anatomiebilder zur Erklärung öffnen. Kein wörtliches Hebb-Zitat.
+**Übergang:** Nächster Schritt: Das künstliche Neuron rechnet mit Zahlen, nicht mit Transmittern.
 
-### Frage, Aktivierung und typische Stolperstelle
+## 15 · Das künstliche Neuron rechnet mit Zahlen, nicht mit Transmittern.
 
-Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Hebbs Regel: Gemeinsame Aktivität kann Verbindungen stärken.
+ID: `w02-artificial-neuron`
 
-### Übergang
+**Absicht und fachliche Erklärung:** Nur Mechanismus, keine Gradientenrechnung. Modellrepräsentation von Merkmalen; Gewichte bestimmen Einfluss. Nicht jedes trainierte Modell ist ein neuronales Netz. Details zur LLM-Mechanik erst W03. Nutzerbild als stark vereinfachtes Schema übernommen; Bias/Aktivierungsfunktion links ergänzen, da im Bild nicht explizit beschriftet.
 
-Als Nächstes: Generalisierung heißt: auch neue Fälle richtig lösen.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-**Quellen:** P10, P11, B1, M2, R4
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-## w02-08 · Generalisierung heißt: auch neue Fälle richtig lösen.
+**Übergang:** Nächster Schritt: Trainingsleistung ist noch keine Generalisierung.
 
-**Zeit:** 40–45 Minuten.
+## 16 · Trainingsleistung ist noch keine Generalisierung.
 
-### Warum diese Folie?
+ID: `w02-learning-03`
 
-Die Kernaussage lautet: Generalisierung heißt: auch neue Fälle richtig lösen.
+**Absicht und fachliche Erklärung:** Roboter/Mensch ist eine Lernmetapher, keine Behauptung menschlicher Exklusivität. Auch KI kann generalisieren und Menschen können überanpassen. Testdaten nicht nachträglich zur Regeloptimierung benutzen ohne neue Prüfmenge.
 
-### So lässt sich die Folie erklären
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-Links wird ein einzelnes Blatt zur engen Schablone; rechts steht das Baumkonzept für Übertragung auf verschiedene Formen. Die Figuren stehen für zwei Lernstrategien, nicht für eine Grenze zwischen Maschine und Mensch: Auch KI kann generalisieren und Menschen können auswendig lernen. Technisch werden im Training Parameter angepasst; auf separaten Testdaten wird die Übertragbarkeit geprüft. Beispiel: Ein Spamfilter soll auch neue Formulierungen erkennen und nicht nur bereits gesehene Nachrichten wiederfinden. Im Einsatz werden die Parameter durch einen neuen Chatinhalt nicht automatisch neu trainiert.
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-### Frage, Aktivierung und typische Stolperstelle
+**Übergang:** Nächster Schritt: Baut einen Sortierer – und bringt ihn zum Scheitern.
 
-Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Generalisierung heißt: auch neue Fälle richtig lösen.
+## 17 · Baut einen Sortierer – und bringt ihn zum Scheitern.
 
-### Übergang
+ID: `w02-learning-task`
 
-Als Nächstes: Übung: Zwei Regeln für dieselben Trainingsdaten finden.
+**Absicht und fachliche Erklärung:** Erwartung vor dem Generieren schriftlich festhalten. 15 Minuten umfassen Erwartung, Generierung und ersten Funktionstest. Erst nach Klarheit Timer starten. Nicht fehlerhafte Generierung als eigenen Lernfehler behandeln. Bei Problemen Rückfallbeispiel analysieren.
 
-**Quellen:** P9, B1, R4
+**Moderation:** Vor dem Bauen erwarten wir: Zwei Regeln können gleich gut zu den Trainingsdaten passen.
 
-## w02-09 · Übung: Zwei Regeln für dieselben Trainingsdaten finden.
+**Stolperstelle und Prüfung:** Welche Regel scheitert bei Grün? Warum war das vorher nicht erkennbar?
 
-**Zeit:** 45–55 Minuten.
+**Übergang:** Nächster Schritt: Euer Bauauftrag für ChatGPT
 
-### Warum diese Folie?
+## 18 · Euer Bauauftrag für ChatGPT
 
-Die sechs Karten wurden absichtlich so gewählt, dass Farbe und Form zusammenfallen. Sowohl 'grün' als auch 'rund' passen perfekt. Damit wird sichtbar, dass Trainingsdaten allein mehrere Erklärungen zulassen können. Diese kleine Aufgabe ist keine Simulation eines neuronalen Netzes, sondern ein kontrolliertes Beispiel für Generalisierung.
+ID: `w02-learning-prompt`
 
-### So lässt sich die Folie erklären
+**Absicht und fachliche Erklärung:** Diese Folie teilt das 15-Minuten-Budget mit dem Auftrag. Kein zweiter Bautimer. Volltext/Lesefassung statt kleiner Schrift auf der Projektionsfläche. Nicht echte Agenten oder SQLite aus einem statischen Mockup ableiten. Diskreter Bautimer rechts oben: derselbe Zustand wie auf der Aufgabenfolie, kein neues15-Minuten-Budget. Gestaltungsvorgaben nur im vollständigen Prompt; Grafik zeigt das Zielprodukt.
 
-Synthetische Trainingskarten, bewusst redundante und vollständig korrelierte Merkmale. 3 Min eigene Regel, 4 Min andere Regel, 3 Min begründen. Keine reale Klassifikation und keine Mindestzahl für Training ableiten. Erwartete Alternativen Farbe grün oder Form rund. Testfälle nicht vorzeitig zeigen. Die sechs Karten wurden absichtlich so gewählt, dass Farbe und Form zusammenfallen. Sowohl 'grün' als auch 'rund' passen perfekt. Damit wird sichtbar, dass Trainingsdaten allein mehrere Erklärungen zulassen können. Diese kleine Aufgabe ist keine Simulation eines neuronalen Netzes, sondern ein kontrolliertes Beispiel für Generalisierung. Erst individuelle Regel, dann zweite mögliche Regel notieren. Die unbekannten Kombinationen auf der nächsten Folie noch nicht zeigen.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-### Frage, Aktivierung und typische Stolperstelle
+**Stolperstelle und Prüfung:** Welche Regel scheitert bei Grün? Warum war das vorher nicht erkennbar?
 
-Erst individuelle Regel, dann zweite mögliche Regel notieren. Die unbekannten Kombinationen auf der nächsten Folie noch nicht zeigen.
+**Übergang:** Nächster Schritt: Zeigen. Prüfen. Verbessern.
 
-### Übergang
+## 19 · Zeigen. Prüfen. Verbessern.
 
-Als Nächstes: Gleiche Trainingsdaten können verschiedene Regeln ergeben.
+ID: `w02-learning-wrap`
 
-**Quellen:** E1, B1
+**Absicht und fachliche Erklärung:** Fünf Minuten insgesamt: zwei Minuten Partnerprüfung, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.
 
-## w02-10 · Gleiche Trainingsdaten können verschiedene Regeln ergeben.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-**Zeit:** 55–60 Minuten.
+**Stolperstelle und Prüfung:** Welche Regel scheitert bei Grün? Warum war das vorher nicht erkennbar?
 
-### Warum diese Folie?
+**Übergang:** Nächster Schritt: Ein System kann erkennen, erzeugen und handeln.
 
-Der Test enthält neue Merkmalskombinationen. Die beiden Regeln treffen jetzt unterschiedliche Vorhersagen. Weil wahre Zielwerte fehlen, lässt sich noch keine Genauigkeit bestimmen. Genau diese Grenze ist die Pointe: Neue Daten reichen nicht; die Zuordnung zum fachlichen Ziel muss ebenfalls bekannt sein.
+## 20 · Ein System kann erkennen, erzeugen und handeln.
 
-### So lässt sich die Folie erklären
+ID: `w02-agents-01`
 
-Erst Vorhersagen abfragen, dann Auflösung. Wichtig: Keine heimliche wahre Regel behaupten! Zieldefinition und Testlabels fehlen absichtlich. Die Übung zeigt Unterbestimmtheit und Generalisierungsrisiko, nicht automatisch eine gemessene Überanpassungskurve. Der Test enthält neue Merkmalskombinationen. Die beiden Regeln treffen jetzt unterschiedliche Vorhersagen. Weil wahre Zielwerte fehlen, lässt sich noch keine Genauigkeit bestimmen. Genau diese Grenze ist die Pointe: Neue Daten reichen nicht; die Zuordnung zum fachlichen Ziel muss ebenfalls bekannt sein. Fragen Sie: Welche zusätzlichen gelabelten Fälle würden helfen, zwischen den Regeln zu unterscheiden?
+**Absicht und fachliche Erklärung:** Gleiche Kundenanfrage durch alle drei Dimensionen führen. ML ist Teilgebiet von KI, GenAI Ausgabefähigkeit, Agentik Ablaufsteuerung. Das Schaubild ist keine Stufenleiter und kein Anspruch, jeder Chatbot könne Versandtools benutzen.
 
-### Frage, Aktivierung und typische Stolperstelle
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-Fragen Sie: Welche zusätzlichen gelabelten Fälle würden helfen, zwischen den Regeln zu unterscheiden?
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-### Übergang
+**Übergang:** Nächster Schritt: Ein digitaler Mitarbeiter braucht mehr als ein Modell.
 
-Als Nächstes: KI, Machine Learning und generative KI bezeichnen Verschiedenes.
+## 21 · Ein digitaler Mitarbeiter braucht mehr als ein Modell.
 
-**Quellen:** E1, B1, P9
+ID: `w02-agents-02`
 
-## w02-11 · KI, Machine Learning und generative KI bezeichnen Verschiedenes.
+**Absicht und fachliche Erklärung:** Nutzerarchitektur. Skills allein beweisen keine Fähigkeit. Dauerhaftes Memory vom aktiven Kontext trennen. Pensum ist Laufzeit-/Schrittbudget, keine Ermüdung. Zahlen didaktisch, nicht Benchmarkwerte.
 
-**Zeit:** 60–65 Minuten.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-### Warum diese Folie?
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-Die Kernaussage lautet: KI, Machine Learning und generative KI bezeichnen Verschiedenes.
+**Übergang:** Nächster Schritt: Die Werkstatt verbindet Mitarbeiter, Wissen und Arbeitsumgebung.
 
-### So lässt sich die Folie erklären
+## 22 · Die Werkstatt verbindet Mitarbeiter, Wissen und Arbeitsumgebung.
 
-Von außen nach innen erklären. KI ist der breite Begriff; auch wissensbasierte Ansätze gehören dazu. Machine Learning entwickelt Verhalten aus Daten. Moderne generative Modelle erzeugen neue Inhalte und gehören typischerweise zu den gelernten Systemen. Agentisch liegt auf einer anderen Achse: Ein Modell kann nächste Schritte und Werkzeugaufrufe wählen. Daher kann derselbe Agent ein generatives Modell verwenden, und ein Spamfilter ist ML, ohne Text zu generieren. Nicht jede triviale Wenn-dann-Regel ist bereits ein KI-System.
+ID: `w02-agents-03`
 
-### Frage, Aktivierung und typische Stolperstelle
+**Absicht und fachliche Erklärung:** Organisationsanalogie von Trinity, kein aktueller Live-Funktionstest. Deterministische Tools für klare Schritte, LLM gezielt für offene Aufgaben. Kleinere Modelle erst nach fachlicher Evaluation; kein universeller Zuverlässigkeitsvorteil.
 
-Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: KI, Machine Learning und generative KI bezeichnen Verschiedenes.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-### Übergang
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-Als Nächstes: Ein Agent wählt Schritte und ruft Werkzeuge auf.
+**Übergang:** Nächster Schritt: Baut ein isometrisches Werkstattspiel.
 
-**Quellen:** P1, P5, P9, B1, E1
+## 23 · Baut ein isometrisches Werkstattspiel.
 
-## w02-12 · Ein Agent wählt Schritte und ruft Werkzeuge auf.
+ID: `w02-agents-task`
 
-**Zeit:** 65–70 Minuten.
+**Absicht und fachliche Erklärung:** Neue Aufgabenfassung ausdrücklich vom Nutzer gewünscht. 15-Minuten-Timer gilt für Erwartung, Generierung und Tests zusammen; 2–5 Minuten nur gewünschter erster Generierungsdurchlauf. Optionalen Funktionsumfang erst nach funktionierender Basis.
 
-### Warum diese Folie?
+**Moderation:** Vor dem Bauen erwarten wir: Ohne passenden Kontext oder Budget muss ein Worker eskalieren.
 
-Die Kernaussage lautet: Ein Agent wählt Schritte und ruft Werkzeuge auf.
+**Stolperstelle und Prüfung:** Entzieht Wissen oder Zeit. Stoppt das System, statt Kulanz zu erfinden?
 
-### So lässt sich die Folie erklären
+**Übergang:** Nächster Schritt: Euer Bauauftrag für ChatGPT
 
-Durchlauf mit fehlender Uhrzeit erzählen: Der Agent prüft den Kalender, erkennt mehrere Möglichkeiten und fragt nach. Nach Rückmeldung kann er einen weiteren Schritt wählen. Das unterscheidet dynamische Steuerung von einem fest programmierten Ablauf. Der Agent kann nur die bereitgestellten Werkzeuge innerhalb ihrer Berechtigungen nutzen. Ein Modellaufruf, der Text erzeugt, verändert noch keinen Kalender. Freigabe und Werkzeugausführung sind explizite Systemschritte. Der Loop braucht ein Ziel, Rückmeldungen und Abbruchbedingungen.
+## 24 · Euer Bauauftrag für ChatGPT
 
-### Frage, Aktivierung und typische Stolperstelle
+ID: `w02-agents-prompt`
 
-Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Ein Agent wählt Schritte und ruft Werkzeuge auf.
+**Absicht und fachliche Erklärung:** Diese Folie teilt das 15-Minuten-Budget mit dem Auftrag. Kein zweiter Bautimer. Volltext/Lesefassung statt kleiner Schrift auf der Projektionsfläche. Nicht echte Agenten oder SQLite aus einem statischen Mockup ableiten. Diskreter Bautimer rechts oben: derselbe Zustand wie auf der Aufgabenfolie, kein neues15-Minuten-Budget. Gestaltungsvorgaben nur im vollständigen Prompt; Grafik zeigt das Zielprodukt.
 
-### Übergang
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-Als Nächstes: Eine Werkstatt verteilt Teilaufgaben an spezialisierte Agenten.
+**Stolperstelle und Prüfung:** Entzieht Wissen oder Zeit. Stoppt das System, statt Kulanz zu erfinden?
 
-**Quellen:** P5, P1, E1
+**Übergang:** Nächster Schritt: Zeigen. Prüfen. Verbessern.
 
-## w02-13 · Eine Werkstatt verteilt Teilaufgaben an spezialisierte Agenten.
+## 25 · Zeigen. Prüfen. Verbessern.
 
-**Zeit:** 70–75 Minuten.
+ID: `w02-agents-wrap`
 
-### Warum diese Folie?
+**Absicht und fachliche Erklärung:** Fünf Minuten insgesamt: zwei Minuten Partnerprüfung, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.
 
-Die Kernaussage lautet: Eine Werkstatt verteilt Teilaufgaben an spezialisierte Agenten.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-### So lässt sich die Folie erklären
+**Stolperstelle und Prüfung:** Vergebt einen Auftrag mit fehlendem Skill. Nach Upgrade erneut testen. Wächst Memory nur nach erfolgreicher Arbeit?
 
-Das Bild zeigt Rollen einer Redaktion. Nicht jeder Schritt braucht ein LLM: Quellenlisten, Formatprüfung, Speichern und Export können durch Code erfolgen. Ein Recherche-Agent benötigt andere Werkzeuge als ein Text-Agent. Die Werkstatt legt Übergaben und Prüfungen fest; die Projektakte enthält das Material dieser Ausgabe. Das Bild ist eine Organisationsanalogie, kein Beweis für die aktuelle Implementierung eines Produkts. Ein kleineres Modell kann für einen begrenzten Auftrag reichen; das wird anhand von Testfällen entschieden, nicht anhand eines pauschalen Größenarguments.
+**Übergang:** Nächster Schritt: Kurz Luft holen.
 
-### Frage, Aktivierung und typische Stolperstelle
+## 26 · Kurz Luft holen.
 
-Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Eine Werkstatt verteilt Teilaufgaben an spezialisierte Agenten.
+ID: `w02-break`
 
-### Übergang
+**Absicht und fachliche Erklärung:** Pause nach drei Stationen bei Minute101–116. Pausentimer unabhängig von den zehn Übungstimern.
 
-Als Nächstes: Übung: Regeln, Modelle, Workflows und Agenten unterscheiden.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-**Quellen:** P5, I3, R4, E1
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-## w02-14 · Übung: Regeln, Modelle, Workflows und Agenten unterscheiden.
+**Übergang:** Nächster Schritt: Ergänzen und Weglassen sind zwei Wege zur Verbesserung.
 
-**Zeit:** 75–85 Minuten.
+## 27 · Ergänzen und Weglassen sind zwei Wege zur Verbesserung.
 
-### Warum diese Folie?
+ID: `w02-subtraction-01`
 
-Die Fälle sind absichtlich mehrdimensional. C kann ein einzelner generativer Aufruf sein. D enthält möglicherweise ebenfalls generative Teilschritte, ist aber fest orchestriert. E entscheidet abhängig von Beobachtungen über nächste Schritte. F generiert Text und archiviert anschließend nach fester Vorgabe.
+**Absicht und fachliche Erklärung:** Keine technische Einteilung Text-KI/Bild-KI. Beide Strategien stehen Menschen und KI-unterstützter Arbeit offen. Datenminimierung im fiktiven Anmeldefall didaktisch behandeln, keine Rechtsbewertung.
 
-### So lässt sich die Folie erklären
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-2 Min still lesen, 5 Min Tandemzuordnung, 3 Min Freigabepunkte. D kann ein generatives Teilmodul enthalten, Ablauf bleibt fest. E beschreibt dynamischen Loop. Keine echte Aktion. Arbeitsblatt enthält alle Fälle. Die Fälle sind absichtlich mehrdimensional. C kann ein einzelner generativer Aufruf sein. D enthält möglicherweise ebenfalls generative Teilschritte, ist aber fest orchestriert. E entscheidet abhängig von Beobachtungen über nächste Schritte. F generiert Text und archiviert anschließend nach fester Vorgabe. Fordern Sie pro Zuordnung eine kurze Begründung und einen möglichen Fehlerfall.
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-### Frage, Aktivierung und typische Stolperstelle
+**Übergang:** Nächster Schritt: Das LEGO-Experiment: stabilisieren – aber wie?
 
-Fordern Sie pro Zuordnung eine kurze Begründung und einen möglichen Fehlerfall.
+## 28 · Das LEGO-Experiment: stabilisieren – aber wie?
 
-### Übergang
+ID: `w02-subtraction-study`
 
-Als Nächstes: Ein System kann generativ und zugleich agentisch sein.
+**Absicht und fachliche Erklärung:** Adams et al. S.259 erneut im Original gelesen. Plattform überFigur mit schwerem Stein; eineEckstütze. Wegnahme senktPlattformaufuntereSchicht. Eigene Seitenansicht starkvereinfacht, Figur/Stein nicht als Originalabbildung ausgegeben. Anzahl ergänzterStützen nur beispielhaft, keine zusätzlicheStudienzahl.
 
-**Quellen:** P1, P5, E1
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-## w02-15 · Ein System kann generativ und zugleich agentisch sein.
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-**Zeit:** 85–90 Minuten.
+**Übergang:** Nächster Schritt: Ein expliziter Hinweis lenkt die Suche aufs Weglassen.
 
-### Warum diese Folie?
+## 29 · Ein expliziter Hinweis lenkt die Suche aufs Weglassen.
 
-Die Lösung prüft Begriffe und Annahmen. 'Agent' ist keine Garantie für große Autonomie, Zuverlässigkeit oder Bewusstsein. Die Reichweite einer Aktion bestimmt den Prüfbedarf: Ein Entwurf und eine verbindliche externe Bestellung haben unterschiedliche Folgen.
+ID: `w02-subtraction-02`
 
-### So lässt sich die Folie erklären
+**Absicht und fachliche Erklärung:** Anweisung beiderGruppen erlaubtÄnderungen; KontrollebetontHinzufügekosten, andereGruppe zusätzlichkostenlosesEntfernen. ZahlenRatenexperiment1, gerundet. KeineuniverselleGehirntypologie. KI-/UI-Transferdidaktisch.
 
-Bei E: dynamische Planung unter Auftrag und Stopbedingungen; keineswegs freier Wille. Bei F: generativer Inhalt beweist keine autonome Prozesssteuerung. Gute andere Begründungen zulassen, wenn Annahmen offenliegen. Die Lösung prüft Begriffe und Annahmen. 'Agent' ist keine Garantie für große Autonomie, Zuverlässigkeit oder Bewusstsein. Die Reichweite einer Aktion bestimmt den Prüfbedarf: Ein Entwurf und eine verbindliche externe Bestellung haben unterschiedliche Folgen. Akzeptieren Sie alternative Einordnungen, wenn der unterstellte Ablauf ausdrücklich beschrieben wird.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-### Frage, Aktivierung und typische Stolperstelle
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-Akzeptieren Sie alternative Einordnungen, wenn der unterstellte Ablauf ausdrücklich beschrieben wird.
+**Übergang:** Nächster Schritt: Gestaltet eine Anmeldung neu.
 
-### Übergang
+## 30 · Gestaltet eine Anmeldung neu.
 
-Als Nächstes: Kurz Luft holen.
+ID: `w02-subtraction-task`
 
-**Quellen:** P1, P5, E1
+**Absicht und fachliche Erklärung:** Erwartung vor dem Generieren schriftlich festhalten. 15 Minuten umfassen Erwartung, Generierung und ersten Funktionstest. Erst nach Klarheit Timer starten. Nicht fehlerhafte Generierung als eigenen Lernfehler behandeln. Bei Problemen Rückfallbeispiel analysieren.
 
-## w02-16 · Kurz Luft holen.
+**Moderation:** Vor dem Bauen erwarten wir: Eine einfachere Anmeldung behält alle notwendigen Informationen.
 
-**Zeit:** 90–105 Minuten.
+**Stolperstelle und Prüfung:** Entfernt das E-Mail-Feld. Erkennt der Check den Fehler? Prüft eine kontrastarme Farbe.
 
-### Warum diese Folie?
+**Übergang:** Nächster Schritt: Euer Bauauftrag für ChatGPT
 
-Eine echte Pause trennt die lerntechnische Hälfte von Kreativität und betrieblicher Bewertung. Sie ist kein Puffer für zusätzlichen Stoff.
+## 31 · Euer Bauauftrag für ChatGPT
 
-### So lässt sich die Folie erklären
+ID: `w02-subtraction-prompt`
 
-Pause vollständig lassen. Timer optional starten. Keine versteckten Zusatzaufgaben. Eine echte Pause trennt die lerntechnische Hälfte von Kreativität und betrieblicher Bewertung. Sie ist kein Puffer für zusätzlichen Stoff. Nennen Sie die konkrete Rückkehrzeit und lassen Sie die Pause ungestört.
+**Absicht und fachliche Erklärung:** Diese Folie teilt das 15-Minuten-Budget mit dem Auftrag. Kein zweiter Bautimer. Volltext/Lesefassung statt kleiner Schrift auf der Projektionsfläche. Nicht echte Agenten oder SQLite aus einem statischen Mockup ableiten. Diskreter Bautimer rechts oben: derselbe Zustand wie auf der Aufgabenfolie, kein neues15-Minuten-Budget. Gestaltungsvorgaben nur im vollständigen Prompt; Grafik zeigt das Zielprodukt.
 
-### Frage, Aktivierung und typische Stolperstelle
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-Nennen Sie die konkrete Rückkehrzeit und lassen Sie die Pause ungestört.
+**Stolperstelle und Prüfung:** Entfernt das E-Mail-Feld. Erkennt der Check den Fehler? Prüft eine kontrastarme Farbe.
 
-### Übergang
+**Übergang:** Nächster Schritt: Zeigen. Prüfen. Verbessern.
 
-Als Nächstes: Additiv heißt ergänzen. Subtraktiv heißt weglassen.
+## 32 · Zeigen. Prüfen. Verbessern.
 
-**Quellen:** B2
+ID: `w02-subtraction-wrap`
 
-## w02-17 · Additiv heißt ergänzen. Subtraktiv heißt weglassen.
+**Absicht und fachliche Erklärung:** Fünf Minuten insgesamt: zwei Minuten Partnerprüfung, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.
 
-**Zeit:** 105–110 Minuten.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-### Warum diese Folie?
+**Stolperstelle und Prüfung:** Entfernt das E-Mail-Feld. Erkennt der Check den Fehler? Prüft eine kontrastarme Farbe.
 
-Die Kernaussage lautet: Additiv heißt ergänzen. Subtraktiv heißt weglassen.
+**Übergang:** Nächster Schritt: Amara: Zwischen Begeisterung und Alltagswirkung liegt Arbeit.
 
-### So lässt sich die Folie erklären
+## 33 · Amara: Zwischen Begeisterung und Alltagswirkung liegt Arbeit.
 
-Beide Varianten erreichen ein Ziel auf unterschiedlichem Weg. Die zusätzliche Ablage ist sinnvoll, wenn alles gebraucht wird. Entfernen hilft, wenn Überflüssiges das Problem verursacht. Nicht behaupten, eine Strategie gehöre exklusiv Menschen oder KI. Die Unterscheidung beschreibt die Lösungssuche, nicht den technischen Unterschied zwischen autoregressiven und Diffusionsmodellen. Als Transfer ein Anmeldeformular nehmen: verständliche Hilfe ergänzen oder eine unnötige Wiederholung entfernen.
+ID: `w02-value-01`
 
-### Frage, Aktivierung und typische Stolperstelle
+**Absicht und fachliche Erklärung:** Amara-Zuschreibung aus IFTF S.7 als institutioneller Sekundärbeleg. Heuristik, keine Prognosekurve und kein Naturgesetz. Bild ohne empirische Zeit-/Wertachse.
 
-Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Additiv heißt ergänzen. Subtraktiv heißt weglassen.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-### Übergang
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-Als Nächstes: Menschen übersehen oft Lösungen durch Weglassen.
+**Übergang:** Nächster Schritt: Nacharbeit kann den Zeitgewinn aufzehren.
 
-**Quellen:** P4, B1, M2
+## 34 · Nacharbeit kann den Zeitgewinn aufzehren.
 
-## w02-18 · Menschen übersehen oft Lösungen durch Weglassen.
+ID: `w02-value-02`
 
-**Zeit:** 110–115 Minuten.
+**Absicht und fachliche Erklärung:** 100 Fälle,8 vorher,2 KI,3 Prüfung,25% mit8Nacharbeit,120 Einrichtung. Erster Zeitraum -20 Minuten, anschließend +100. Kritische Fehler können das Projekt unabhängig von Zeitgewinnen unzulässig machen.
 
-### Warum diese Folie?
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-Die Versuchsanordnung ist entscheidend: Eine Plattform mit einseitiger Stütze sollte eine Last tragen. Zusätzliche Stützen kosteten Geld; Entfernen der vorhandenen Stütze erlaubte eine günstigere Stabilisierung. Der ausdrückliche Hinweis auf kostenloses Entfernen erhöhte die beobachtete Subtraktionsrate von 40/98 auf 60/99. Das sind rund 20 Prozentpunkte, nicht 20 Prozent relative Steigerung.
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-### So lässt sich die Folie erklären
+**Übergang:** Nächster Schritt: Baut ein Excel-Modell für einen KI-Pilot.
 
-Adams und Kollegen untersuchten menschliche Lösungssuche. In Experiment 1 lösten 40 von 98 Personen ohne Hinweis die Lego-Aufgabe subtraktiv; mit Hinweis waren es 60 von 99. Das sind gerundet 41 und 61 Prozent. Entfernen war kostenlos, Ergänzen kostete Geld. Der Hinweis machte die Entfernungsmöglichkeit ausdrücklich verfügbar. Die Balken zeigen eine konkrete experimentelle Bedingung, keine allgemeine Quote aller Menschen. Überleitung: In der eigenen Gestaltung ausdrücklich nach Entfernungsoptionen suchen.
+## 35 · Baut ein Excel-Modell für einen KI-Pilot.
 
-### Frage, Aktivierung und typische Stolperstelle
+ID: `w02-value-task`
 
-Die acht Experimente des Papers untersuchen verschiedene Bedingungen. Zeigen Sie hier bewusst nur Experiment 1 und seine konkreten Gruppen, nicht eine angebliche universelle Quote.
+**Absicht und fachliche Erklärung:** Erwartung vor dem Generieren schriftlich festhalten. 15 Minuten umfassen Erwartung, Generierung und ersten Funktionstest. Erst nach Klarheit Timer starten. Nicht fehlerhafte Generierung als eigenen Lernfehler behandeln. Bei Problemen Rückfallbeispiel analysieren.
 
-### Übergang
+**Moderation:** Vor dem Bauen erwarten wir: Mehr Prüfaufwand kann den scheinbaren Vorteil umkehren.
 
-Als Nächstes: Mehr Agenten bedeuten auch mehr Übergaben.
+**Stolperstelle und Prüfung:** Erhöht die Prüfzeit auf 5 Minuten: erste Woche −220 min, Folgewochen −100 min.
 
-**Quellen:** P4
+**Übergang:** Nächster Schritt: Euer Bauauftrag für ChatGPT
 
-## w02-19 · Mehr Agenten bedeuten auch mehr Übergaben.
+## 36 · Euer Bauauftrag für ChatGPT
 
-**Zeit:** 115–120 Minuten.
+ID: `w02-value-prompt`
 
-### Warum diese Folie?
+**Absicht und fachliche Erklärung:** Diese Folie teilt das 15-Minuten-Budget mit dem Auftrag. Kein zweiter Bautimer. Volltext/Lesefassung statt kleiner Schrift auf der Projektionsfläche. Nicht echte Agenten oder SQLite aus einem statischen Mockup ableiten. Diskreter Bautimer rechts oben: derselbe Zustand wie auf der Aufgabenfolie, kein neues15-Minuten-Budget. Gestaltungsvorgaben nur im vollständigen Prompt; Grafik zeigt das Zielprodukt.
 
-Die Kernaussage lautet: Mehr Agenten bedeuten auch mehr Übergaben.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-### So lässt sich die Folie erklären
+**Stolperstelle und Prüfung:** Erhöht die Prüfzeit auf 5 Minuten: erste Woche −220 min, Folgewochen −100 min.
 
-Ein zweiter Agent kann eine sinnvolle unabhängige Prüfung übernehmen. Wenn er nur dieselbe Zusammenfassung wiederholt, entstehen dagegen mehr Laufzeit und Abgleichbedarf. Eine Aufgabe präzise abgrenzen und passende Werkzeuge einsetzen. Die Adams-Studie motiviert eine Suchfrage für das Design, sie beweist keine optimale Agentenzahl. In der Übung beide Entwürfe anhand gleicher Anforderungen vergleichen.
+**Übergang:** Nächster Schritt: Zeigen. Prüfen. Verbessern.
 
-### Frage, Aktivierung und typische Stolperstelle
+## 37 · Zeigen. Prüfen. Verbessern.
 
-Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Mehr Agenten bedeuten auch mehr Übergaben.
+ID: `w02-value-wrap`
 
-### Übergang
+**Absicht und fachliche Erklärung:** Fünf Minuten insgesamt: zwei Minuten Partnerprüfung, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.
 
-Als Nächstes: Übung: Eine Anmeldung ergänzen oder vereinfachen.
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-**Quellen:** P4, P5, E1
+**Stolperstelle und Prüfung:** Erhöht die Prüfzeit auf 5 Minuten: erste Woche −220 min, Folgewochen −100 min.
 
-## w02-20 · Übung: Eine Anmeldung ergänzen oder vereinfachen.
+**Übergang:** Nächster Schritt: Was hält einer Gegenprobe stand?
 
-**Zeit:** 120–130 Minuten.
+## 38 · Was hält einer Gegenprobe stand?
 
-### Warum diese Folie?
+ID: `w02-check`
 
-Die Aufgabe zwingt beide Suchrichtungen unter denselben Qualitätsmaßstab. Der Ist-Prozess enthält absichtlich Mehrfacheingaben. Ein zusätzliches Hilfefeld und die Abschaffung redundanter Übertragung lösen unterschiedliche Probleme und können kombiniert werden.
+**Absicht und fachliche Erklärung:** Zwei Minuten Wissenscheck:1955 Antrag/1956 Sommerprojekt; Training nicht Test; Werkzeugzugriff nicht Freigabe; weniger Felder nicht immer besser; Zeitgewinn kein Qualitätsbeweis.
 
-### So lässt sich die Folie erklären
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-2 Min Prozess verstehen, 3 Min additiver Entwurf, 3 Min subtraktiver Entwurf, 2 Min Vergleich. Bewusste Übung beider Richtungen, keine wissenschaftliche Replikation. Synthetische Daten, keine echten Anmeldungen. Nicht zur Erhebung persönlicher Kursdaten verwenden. Die Aufgabe zwingt beide Suchrichtungen unter denselben Qualitätsmaßstab. Der Ist-Prozess enthält absichtlich Mehrfacheingaben. Ein zusätzliches Hilfefeld und die Abschaffung redundanter Übertragung lösen unterschiedliche Probleme und können kombiniert werden. Zehn Minuten sichtbar laufen lassen. Nach fünf Minuten an den Wechsel zur zweiten Suchrichtung erinnern.
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-### Frage, Aktivierung und typische Stolperstelle
+**Übergang:** Nächster Schritt: Vom Staunen zum überprüfbaren Ergebnis.
 
-Zehn Minuten sichtbar laufen lassen. Nach fünf Minuten an den Wechsel zur zweiten Suchrichtung erinnern.
+## 39 · Vom Staunen zum überprüfbaren Ergebnis.
 
-### Übergang
+ID: `w02-bigpicture`
 
-Als Nächstes: Einmal erfassen statt mehrfach abschreiben.
+**Absicht und fachliche Erklärung:** Zwei Minuten: Initialfrage anhand Entwicklung,Lernen,Systemen,Gestaltung,Messung beantworten. Statische Gesamtschau; W03 vertieft LLM-Mechanik.
 
-**Quellen:** E1, P4
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-## w02-21 · Einmal erfassen statt mehrfach abschreiben.
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-**Zeit:** 130–135 Minuten.
+**Übergang:** Nächster Schritt: Quellen und Materialien.
 
-### Warum diese Folie?
+## 40 · Quellen und Materialien.
 
-Die Musterlösung trennt vermeidbare Arbeit von notwendiger Kontrolle. Eine Liste kann redundant sein; sie kann aber auch einen begründeten Zweck erfüllen. Ohne Kontext darf man sie nicht blind entfernen. Verbesserung muss an korrekter Anmeldung, verständlicher Rückmeldung und Zugriffsschutz gemessen werden.
+ID: `w02-sources`
 
-### So lässt sich die Folie erklären
+**Absicht und fachliche Erklärung:** Eine Minute: lokale Primärquellen, Bildprovenienz und vollständige Aufgaben zugänglich machen. Aussagegrenzen erhalten.
 
-Keine starre Musterlösung. Wenn zweite Liste für begründeten Zweck erforderlich wäre, Annahme dokumentieren statt blind löschen. Maßstab bleibt Qualität, nicht bloß Klickzahl. Brücke zu UI/UX in späterer Woche. Die Musterlösung trennt vermeidbare Arbeit von notwendiger Kontrolle. Eine Liste kann redundant sein; sie kann aber auch einen begründeten Zweck erfüllen. Ohne Kontext darf man sie nicht blind entfernen. Verbesserung muss an korrekter Anmeldung, verständlicher Rückmeldung und Zugriffsschutz gemessen werden. Fordern Sie zu jedem gestrichenen Schritt die Antwort: Welche Funktion übernimmt ihn jetzt – oder warum wird sie nicht mehr gebraucht?
+**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
-### Frage, Aktivierung und typische Stolperstelle
+**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
 
-Fordern Sie zu jedem gestrichenen Schritt die Antwort: Welche Funktion übernimmt ihn jetzt – oder warum wird sie nicht mehr gebraucht?
-
-### Übergang
-
-Als Nächstes: Amaras Gesetz: kurzfristig überschätzen, langfristig unterschätzen.
-
-**Quellen:** E1, B1
-
-## w02-22 · Amaras Gesetz: kurzfristig überschätzen, langfristig unterschätzen.
-
-**Zeit:** 135–140 Minuten.
-
-### Warum diese Folie?
-
-Die Kernaussage lautet: Amaras Gesetz: kurzfristig überschätzen, langfristig unterschätzen.
-
-### So lässt sich die Folie erklären
-
-Zuerst Amaras Aussage sinngemäß nennen: Kurzfristig wird die Wirkung neuer Technologie häufig überschätzt und langfristig unterschätzt. Dann das Bild erklären: Feuerwerk ist sichtbar und schnell, Wurzelwachstum braucht Zeit. Beispiel Support: Eine Antwortdemo dauert Minuten, die Anbindung an aktuelle Handbücher und den Freigabeprozess dauert länger. Amaras Aussage ist eine Heuristik, keine Erfolgsgarantie. Der Nachweis der Zuschreibung liegt bei IFTF auf Dokumentseite 7.
-
-### Frage, Aktivierung und typische Stolperstelle
-
-Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Amaras Gesetz: kurzfristig überschätzen, langfristig unterschätzen.
-
-### Übergang
-
-Als Nächstes: Ein gutes Modell braucht einen funktionierenden Arbeitsablauf.
-
-**Quellen:** P3, B1, M1
-
-## w02-23 · Ein gutes Modell braucht einen funktionierenden Arbeitsablauf.
-
-**Zeit:** 140–145 Minuten.
-
-### Warum diese Folie?
-
-Die Kernaussage lautet: Ein gutes Modell braucht einen funktionierenden Arbeitsablauf.
-
-### So lässt sich die Folie erklären
-
-Die drei Ebenen an derselben Supportanfrage erläutern: Ein Modell kann flüssig formulieren, aber die aktuelle Lieferfrist fehlt. Eine Dokumentanbindung liefert sie, eine Freigabe kontrolliert die Zusage, und der Ticketprozess übernimmt die Antwort. Erst die gemessene Gesamtzeit und Antwortqualität sagen etwas über den Nutzen aus. Die früheren schematischen Kurven entfallen: Sie erzeugten keine zusätzliche Erklärung.
-
-### Frage, Aktivierung und typische Stolperstelle
-
-Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: Ein gutes Modell braucht einen funktionierenden Arbeitsablauf.
-
-### Übergang
-
-Als Nächstes: 200 Minuten Zeitgewinn können durch Nacharbeit verschwinden.
-
-**Quellen:** B1, P5, E1
-
-## w02-24 · 200 Minuten Zeitgewinn können durch Nacharbeit verschwinden.
-
-**Zeit:** 145–150 Minuten.
-
-### Warum diese Folie?
-
-Die Kernaussage lautet: 200 Minuten Zeitgewinn können durch Nacharbeit verschwinden.
-
-### So lässt sich die Folie erklären
-
-Jeden Balken vollständig rechnen. Ohne Assistenz ergeben 100 Fälle zu sechs Minuten 600 Minuten. Mit zwei Minuten Entwurf und zwei Minuten Prüfung sind es 400. Zwei weitere Minuten Nacharbeit pro Fall addieren 200 Minuten, wodurch der ursprüngliche Vorteil verschwindet. Diese Annahmen sind didaktisch gewählt, keine Messdaten. Zusätzlich müssen Qualität und Kosten bewertet werden. In der nächsten Übung entwickeln die Studierenden einen eigenen Test.
-
-### Frage, Aktivierung und typische Stolperstelle
-
-Das Bild bzw. den Ablauf von links nach rechts erklären. Anschließend am konkreten Beispiel prüfen lassen: 200 Minuten Zeitgewinn können durch Nacharbeit verschwinden.
-
-### Übergang
-
-Als Nächstes: Übung: Zeitgewinn und Qualität einer KI-Hilfe testen.
-
-**Quellen:** E1
-
-## w02-25 · Übung: Zeitgewinn und Qualität einer KI-Hilfe testen.
-
-**Zeit:** 150–160 Minuten.
-
-### Warum diese Folie?
-
-Ein Pilotversuch operationalisiert ein Versprechen. Man braucht vergleichbare Aufgaben, dokumentierte Ausgangswerte, vorab definierte Erfolgskriterien und eine Fehlergrenze. Synthetische Fälle erlauben einen sicheren Lernversuch, bilden aber nicht die ganze Realität ab.
-
-### So lässt sich die Folie erklären
-
-2 Min Auftrag, 6 Min Tandemplan, 2 Min gegenseitige Rückfrage. Beispielwerte selbst als Annahmen markieren. Keine Kundendaten nutzen. Ein Pilot braucht Qualität und Sicherheit neben Geschwindigkeit. Ein Pilotversuch operationalisiert ein Versprechen. Man braucht vergleichbare Aufgaben, dokumentierte Ausgangswerte, vorab definierte Erfolgskriterien und eine Fehlergrenze. Synthetische Fälle erlauben einen sicheren Lernversuch, bilden aber nicht die ganze Realität ab. Prüfen Sie in den Tandems besonders, ob Gesamtzeit einschließlich Kontrolle gemeint ist.
-
-### Frage, Aktivierung und typische Stolperstelle
-
-Prüfen Sie in den Tandems besonders, ob Gesamtzeit einschließlich Kontrolle gemeint ist.
-
-### Übergang
-
-Als Nächstes: Vor dem Pilotversuch: Erfolg und Abbruch festlegen.
-
-**Quellen:** E1, B1
-
-## w02-26 · Vor dem Pilotversuch: Erfolg und Abbruch festlegen.
-
-**Zeit:** 160–165 Minuten.
-
-### Warum diese Folie?
-
-Die Beispielvereinbarung ist keine wissenschaftlich ausreichende Evaluation. 20 Fälle und 20 Prozent sind Lehrannahmen. Lern- und Reihenfolgeeffekte können den Vergleich verzerren; ähnliche Fallpaare oder wechselnde Reihenfolge helfen. Ein eindeutiger kritischer Fehler kann trotz Zeitvorteil zum Abbruch führen.
-
-### So lässt sich die Folie erklären
-
-20 % und 20 Fälle sind bewusst gewählte Übungswerte, keine Forschungsgrenzwerte. Reihenfolge/Lerneffekte beachten, ähnliche Fallpaare oder ausbalancierte Reihenfolge wählen. Musterlösung darf begründet verändert werden. Die Beispielvereinbarung ist keine wissenschaftlich ausreichende Evaluation. 20 Fälle und 20 Prozent sind Lehrannahmen. Lern- und Reihenfolgeeffekte können den Vergleich verzerren; ähnliche Fallpaare oder wechselnde Reihenfolge helfen. Ein eindeutiger kritischer Fehler kann trotz Zeitvorteil zum Abbruch führen. Fragen Sie, welche Behauptung man nach diesem kleinen Pilot noch nicht veröffentlichen dürfte.
-
-### Frage, Aktivierung und typische Stolperstelle
-
-Fragen Sie, welche Behauptung man nach diesem kleinen Pilot noch nicht veröffentlichen dürfte.
-
-### Übergang
-
-Als Nächstes: Wissenscheck: fünf Aussagen begründen.
-
-**Quellen:** E1, B1
-
-## w02-27 · Wissenscheck: fünf Aussagen begründen.
-
-**Zeit:** 165–175 Minuten.
-
-### Warum diese Folie?
-
-Die Aussagen greifen die Fehlvorstellungen vom Einstieg wieder auf. Lassen Sie erst urteilen und begründen, dann aufdecken. Ziel ist eine nachvollziehbare Erklärung, nicht das Erkennen, dass zufällig alle Aussagen falsch sind.
-
-### So lässt sich die Folie erklären
-
-5 Min urteilen und Antworten begründen, 3 Min aufdecken, 2 Min offene Fragen. Kein Punktevergleich und keine Benotung. Lösungen sind offline vorhanden. Letzte Folie anschließend ruhig lassen. Die Aussagen greifen die Fehlvorstellungen vom Einstieg wieder auf. Lassen Sie erst urteilen und begründen, dann aufdecken. Ziel ist eine nachvollziehbare Erklärung, nicht das Erkennen, dass zufällig alle Aussagen falsch sind. Bei Unsicherheit auf die konkrete frühere Folie zurückverweisen, nicht nur die Lösung vorlesen.
-
-### Frage, Aktivierung und typische Stolperstelle
-
-Bei Unsicherheit auf die konkrete frühere Folie zurückverweisen, nicht nur die Lösung vorlesen.
-
-### Übergang
-
-Als Nächstes: KI verstehen heißt: Verfahren, Handlung und Nutzen unterscheiden.
-
-**Quellen:** P2, P4, P5, P9, E1
-
-## w02-28 · KI verstehen heißt: Verfahren, Handlung und Nutzen unterscheiden.
-
-**Zeit:** 175–176 Minuten.
-
-### Warum diese Folie?
-
-Die Synthese bündelt drei Handlungen: Mechanismus unterscheiden, Autonomie begrenzen, Nutzen prüfen. Damit wird Woche 2 zur Grundlage für die Mechanik der Sprachmodelle in Woche 3.
-
-### So lässt sich die Folie erklären
-
-Exit-Ticket: ein neuer Gedanke, eine offene Frage. Lesehinweis Kapitel 1 besonders 1.6–1.14; nicht neues Zusatzkapitel verlangen. Für W03 persönliche Beobachtung eines missverständlichen Modelloutputs ohne private Daten mitbringen. Keine automatische Buchänderung aus Feedback. Die Synthese bündelt drei Handlungen: Mechanismus unterscheiden, Autonomie begrenzen, Nutzen prüfen. Damit wird Woche 2 zur Grundlage für die Mechanik der Sprachmodelle in Woche 3. Lassen Sie ein Exit-Ticket mit einem neuen Gedanken und einer offenen Frage schreiben.
-
-### Frage, Aktivierung und typische Stolperstelle
-
-Lassen Sie ein Exit-Ticket mit einem neuen Gedanken und einer offenen Frage schreiben.
-
-### Übergang
-
-Als Nächstes: Quellenverzeichnis
-
-**Quellen:** B1, B2
-
-## w02-bigpicture · Das Big Picture der Woche
-
-Zeit: 176–178 Minuten.
-
-### Absicht und Moderation
-
-Die Initialfrage erneut mündlich stellen: Wie wird aus lernender Technik eine nützliche KI-Anwendung? Die Infografik entlang der nummerierten Stationen zusammenfassen. Entwicklung einordnen: Kulturtechniken → Computer → moderne KI. Lernen verstehen: Beispiele → Modell → Prüfung an neuen Fällen. Systeme unterscheiden: KI · ML · generativ; Agenten und Werkstätten. Einfacher gestalten: Ergänzen oder weglassen; Übergaben prüfen. Wirkung messen: Amara: Erwartungen ≠ Nutzen; Qualität + Zeit testen. Einen Zusammenhang von Studierenden erklären lassen; anschließend auf die Quellen verweisen. Keine neuen Inhalte einführen.
-
-## w02-29 · Quellenverzeichnis
-
-**Zeit:** 178–180 Minuten.
-
-### Warum diese Folie?
-
-Das Quellenverzeichnis trennt wissenschaftliche Belege, interne Lehrkonzeption und Bildmetaphern. Die verlinkte Übersicht enthält die genauen Fundstellen und Einschränkungen. Die Quellenfolie ist Teil jeder Woche, nicht Ersatz für Belege direkt auf der jeweiligen Fachfolie.
-
-### So lässt sich die Folie erklären
-
-Quellenfolie auf Nutzerwunsch am Ende jeder Woche. Zentrale Fundstellen zeigen; vollständiges lokales Register ist klickbar. Keine zusätzliche Stoffeinheit. Hebb-Einschränkung transparent lassen. Das Quellenverzeichnis trennt wissenschaftliche Belege, interne Lehrkonzeption und Bildmetaphern. Die verlinkte Übersicht enthält die genauen Fundstellen und Einschränkungen. Die Quellenfolie ist Teil jeder Woche, nicht Ersatz für Belege direkt auf der jeweiligen Fachfolie. Weisen Sie auf die transparente Hebb-Einschränkung hin und nennen Sie das lokale Register als Ausgangspunkt zum Nachlesen.
-
-### Frage, Aktivierung und typische Stolperstelle
-
-Weisen Sie auf die transparente Hebb-Einschränkung hin und nennen Sie das lokale Register als Ausgangspunkt zum Nachlesen.
-
-### Übergang
-
-Als Nächstes: Ende der Sitzung; offene Fragen und Literaturhinweise.
-
-**Quellen:** P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, B1, B2, I3, M1, M2, M3, E1, R4, P11
+**Übergang:** W03: Sprachmodelle und ihre Mechanik.

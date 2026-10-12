@@ -1,20 +1,5 @@
-# Änderungen W02
+# Neubau und Nutzerreview 12.10.2026
 
-## 19.09.2026
+Ursprünglich34 Folien, nach freigegebenem Review40. Stabile Bestands-IDs erhalten. Lernweg vor Initialfrage; menschliche Werkzeuggeschichte passend zum Symbolbild; gleich hohe Meilensteine und lokales Eve-Video direkt danach. Neuron/Synapse/künstliches Neuron ergänzt, Hebb-Labels an Grafikbreite gekoppelt. Alle Fachfolien mit Mechanismus, konkreten Beispielen und Grenzen vertieft. Agenten/Werkstatt als Fallablauf und Mitarbeiterprofil veranschaulicht. Spielprompt und echtes lokales isometrisches2,5D-Rückfallspiel mit Skill-Upgrades, Auftrag/Memory/Budget/Freigabe. LEGO-Versuchsaufbau vor Zahlen erläutert. 180 Minuten neu verteilt, Bau15/Wrap-up5 unverändert. Dozentenleitfaden/Review/Quellen aktualisiert. Fünf neue Kie.ai/Nano-Banana-2-Übungsbilder, keine Buchänderung, kein Git-Push. Vorherige Fassung unter backups/vor-review-20261012, Nutzungspakete recoverbar archiviert.
 
-- Explizite Nutzerfreigabe umgesetzt; vollständiger W02-Foliensatz gebaut.
-- Nutzerergänzung: Quellenverzeichnis als letzte Folie; deshalb 29 statt 28 Folien, unverändert 180 Minuten. Synthese 175–178, Quellen 178–180.
-- Drei Kie.ai/Nano Banana 2 Illustrationen eingebaut; erste Regeln/Lernen-Variante wegen unerwünschter Beschriftung verworfen.
-- Arbeitsblatt, separate Musterlösungen, Sprecherhinweise und lokale Quellenübersicht.
-- Hebb-Originalzugriff erneut gesperrt; Paraphrase mit transparenter Sekundärverifikation, kein Direktzitat.
-- W01 separat nur um abschließende Quellenfolie ergänzt; neue dauerhafte Regel in Vorlesungs-AGENTS.md.
-## 19.09.2026 · Zweite Revision nach Nutzerpräzisierung
-
-- Beide Wochensätze an der Inhalts- und Bildqualität von KI Literacy Basics ausgerichtet.
-- Konkrete Definitionen, erklärte Schaubilder, echte Projektansichten und vollständig gerechnete Beispiele eingebaut; Dozentenleitfäden aktualisiert.
-- Übungstimer erhalten, konkurrierenden globalen Timer auf Übungsfolien ausgeblendet.
-- Details, Bildprovenienz, Prüfungen und Grenzen: [Revisionsbericht](REVISION_LITERACY_20260919.md).
-
-## Rahmenrevision 21.09.2026
-
-Freigegebener Nutzerauftrag: Titel, Agenda, reine Initialfrage und statisches Big Picture ergänzt. Keine Audio-/Videoinhalte auf den neuen Folien. 33 Folien; weiterhin 180 Minuten. Startdatei: [AA_W02_Fundamente.html](AA_W02_Fundamente.html). presentation.html und presentation.de.html bleiben vollständige Kompatibilitätsfassungen. Alle bisherigen Folien-IDs bleiben bestehen. Neu: w02-cover, w02-agenda, w02-question, w02-bigpicture.
+Weiterer Nutzerreview: Timeline-Jahre/Titel/Beschreibung exakt auf gleicher Höhe; Titel Regeln – Beispiele getrennt; vier Transmitterstichworte; vorhandenes Perzeptronbild. Alle Aufgaben/Prompts/Wrap-ups mit Produktgrafik und kleinem Timer rechts oben. Bauzeit auf Aufgabe und Prompt gemeinsam synchronisiert, keine neue15-Minuten-Phase beim Wechsel. Worker bewegen sich per requestAnimationFrame zum festen Arbeitsplatz; Memory erst nach Ankunft, sicherer Reset.

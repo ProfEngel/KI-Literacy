@@ -1,55 +1,5 @@
 [
   {
-    "id": "B1",
-    "author": "Projektmanuskript",
-    "year": "2026",
-    "title": "Kapitel 1 – Die Entzauberung der Magie",
-    "type": "internal manuscript",
-    "url": null,
-    "pages": "Abschnitte 1.1–1.14; Übungen und Lösungen",
-    "evidence": "Didaktische Hauptquelle; kein Ersatz für Primärbelege.",
-    "claim": "Kapitelbezug, Lehrbeispiele, Metaphern und Transfer",
-    "localPath": "internal-reference-not-published",
-    "accessed": "2026-09-19",
-    "slideIds": [
-      "w02-02",
-      "w02-03",
-      "w02-06",
-      "w02-07",
-      "w02-08",
-      "w02-09",
-      "w02-10",
-      "w02-11",
-      "w02-17",
-      "w02-21",
-      "w02-22",
-      "w02-23",
-      "w02-25",
-      "w02-26",
-      "w02-28",
-      "w02-29",
-      "w02-bigpicture"
-    ]
-  },
-  {
-    "id": "B2",
-    "author": "Projektverbund",
-    "year": "2026",
-    "title": "Modulplan 14 Wochen NextGen und Zielbild Drei Bücher",
-    "type": "curriculum",
-    "url": null,
-    "evidence": "Verbindliche interne Strukturentscheidung",
-    "claim": "W02 Fundamente; W03 LLM-Vertiefung",
-    "localPath": "internal-reference-not-published",
-    "accessed": "2026-09-19",
-    "slideIds": [
-      "w02-16",
-      "w02-28",
-      "w02-29",
-      "w02-bigpicture"
-    ]
-  },
-  {
     "id": "P1",
     "author": "OECD",
     "year": "2024",
@@ -57,18 +7,11 @@
     "type": "official memorandum",
     "url": "https://www.oecd.org/en/publications/explanatory-memorandum-on-the-updated-oecd-definition-of-an-ai-system_623da898-en.html",
     "pages": "Dokument/PDF S. 6–7",
-    "evidence": "Offizielle Quelle; lokale Original-PDF textlich gegengeprüft.",
+    "evidence": "Offizielle Quelle; lokale Original-PDF textlich gegengeprüft. Online-Seite am 12.10.2026 erneut geöffnet.",
     "claim": "KI-Systemdefinition, Ausgaben, Autonomie und Anpassung",
-    "localPath": "internal-reference-not-published",
-    "accessed": "2026-09-19",
+    "accessed": "2026-10-12",
     "slideIds": [
-      "w02-01",
-      "w02-11",
-      "w02-12",
-      "w02-14",
-      "w02-15",
-      "w02-29",
-      "w02-bigpicture"
+      "w02-agents-01"
     ]
   },
   {
@@ -79,16 +22,11 @@
     "type": "historical primary source",
     "url": "https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
     "pages": "Antragsdatum 31.08.1955; Einleitung nennt Sommer 1956",
-    "evidence": "Original-HTML geöffnet und geprüft.",
+    "evidence": "Original-HTML geöffnet und geprüft. Online-Seite am 12.10.2026 erneut geöffnet.",
     "claim": "Unterschied zwischen Antrag 1955 und Veranstaltung 1956",
-    "accessed": "2026-09-19",
+    "accessed": "2026-10-12",
     "slideIds": [
-      "w02-03",
-      "w02-04",
-      "w02-05",
-      "w02-27",
-      "w02-29",
-      "w02-bigpicture"
+      "w02-history-02"
     ]
   },
   {
@@ -101,12 +39,9 @@
     "pages": "Dokument S. 7 / PDF S. 9",
     "evidence": "Lokale PDF und Online-Dokument geprüft. Sekundärbeleg der Amara-Zuschreibung, kein historischer Erstbeleg.",
     "claim": "Amaras kurz-/langfristige Erwartungsheuristik; kein Naturgesetz",
-    "localPath": "internal-reference-not-published",
     "accessed": "2026-09-19",
     "slideIds": [
-      "w02-22",
-      "w02-29",
-      "w02-bigpicture"
+      "w02-value-01"
     ]
   },
   {
@@ -118,18 +53,13 @@
     "url": "https://www.nature.com/articles/s41586-021-03380-y",
     "doi": "10.1038/s41586-021-03380-y",
     "pages": "Nature 592, S. 258–261; Experiment 1 und Tabelle 1 S. 259 / PDF S. 2",
-    "evidence": "Verlagsseite beim Öffnen zugriffsbeschränkt; vorhandenes Original-PDF S. 259 direkt geprüft.",
+    "evidence": "Verlagsabruf am 12.10.2026 zugriffsbeschränkt; vorhandenes Original-PDF S.259/Tabelle1 erneut textlich geprüft: 40/98 und 60/99.",
     "claim": "Experiment 1: 40/98 Kontrolle, 60/99 mit Subtraktionshinweis; begrenzte Übertragbarkeit",
-    "localPath": "internal-reference-not-published",
-    "accessed": "2026-09-19",
+    "accessed": "2026-10-12",
     "slideIds": [
-      "w02-17",
-      "w02-18",
-      "w02-19",
-      "w02-20",
-      "w02-27",
-      "w02-29",
-      "w02-bigpicture"
+      "w02-subtraction-01",
+      "w02-subtraction-study",
+      "w02-subtraction-02"
     ]
   },
   {
@@ -140,39 +70,13 @@
     "type": "engineering guidance",
     "url": "https://www.anthropic.com/engineering/building-effective-agents",
     "pages": "Abschnitte What are agents?, When (and when not) to use agents, Agents",
-    "evidence": "Live-Seite geprüft; nachträglich aktualisiert. Anbieter-Erfahrung, keine kontrollierte Vergleichsstudie.",
+    "evidence": "Live-Seite geprüft; nachträglich aktualisiert. Anbieter-Erfahrung, keine kontrollierte Vergleichsstudie. Online-Seite am 12.10.2026 erneut geöffnet.",
     "claim": "Vordefinierte Workflows versus modellgesteuerte Abläufe; einfachste ausreichende Lösung, Toolfeedback und Prüfgrenzen",
-    "accessed": "2026-09-19",
+    "accessed": "2026-10-12",
     "slideIds": [
-      "w02-01",
-      "w02-11",
-      "w02-12",
-      "w02-13",
-      "w02-14",
-      "w02-15",
-      "w02-19",
-      "w02-23",
-      "w02-27",
-      "w02-29",
-      "w02-bigpicture"
-    ]
-  },
-  {
-    "id": "P6",
-    "author": "Turing",
-    "year": "1950",
-    "title": "Computing Machinery and Intelligence",
-    "url": "https://doi.org/10.1093/mind/LIX.236.433",
-    "pages": "S. 433 / PDF S. 2",
-    "claim": "Imitation Game; historischer Anker.",
-    "evidence": "Lokales Original-PDF textlich geprüft.",
-    "accessed": "2026-09-19",
-    "type": "publication",
-    "slideIds": [
-      "w02-03",
-      "w02-04",
-      "w02-05",
-      "w02-29",
+      "w02-agents-01",
+      "w02-agents-02",
+      "w02-agents-03",
       "w02-bigpicture"
     ]
   },
@@ -184,15 +88,11 @@
     "url": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
     "pages": "S. 1",
     "claim": "Bildklassifikation 2012.",
-    "evidence": "Lokales Original-PDF und Publikationsmetadaten geprüft.",
-    "accessed": "2026-09-19",
+    "evidence": "Lokales Original-PDF und Publikationsmetadaten geprüft. Online-Seite am 12.10.2026 erneut geöffnet.",
+    "accessed": "2026-10-12",
     "type": "publication",
     "slideIds": [
-      "w02-03",
-      "w02-04",
-      "w02-05",
-      "w02-29",
-      "w02-bigpicture"
+      "w02-history-02"
     ]
   },
   {
@@ -203,15 +103,11 @@
     "url": "https://arxiv.org/abs/1706.03762",
     "pages": "S. 1",
     "claim": "Transformer-Architektur 2017.",
-    "evidence": "Lokales Original-PDF und arXiv-Metadaten geprüft.",
-    "accessed": "2026-09-19",
+    "evidence": "Lokales Original-PDF und arXiv-Metadaten geprüft. Online-Seite am 12.10.2026 erneut geöffnet.",
+    "accessed": "2026-10-12",
     "type": "publication",
     "slideIds": [
-      "w02-03",
-      "w02-04",
-      "w02-05",
-      "w02-29",
-      "w02-bigpicture"
+      "w02-history-02"
     ]
   },
   {
@@ -226,13 +122,9 @@
     "accessed": "2026-09-19",
     "type": "publication",
     "slideIds": [
-      "w02-06",
-      "w02-08",
-      "w02-10",
-      "w02-11",
-      "w02-27",
-      "w02-29",
-      "w02-bigpicture"
+      "w02-learning-01",
+      "w02-artificial-neuron",
+      "w02-learning-03"
     ]
   },
   {
@@ -247,9 +139,7 @@
     "accessed": "2026-09-19",
     "type": "publication",
     "slideIds": [
-      "w02-07",
-      "w02-29",
-      "w02-bigpicture"
+      "w02-learning-02"
     ]
   },
   {
@@ -257,16 +147,15 @@
     "author": "ProfEngel / TrinityHub",
     "year": "2026",
     "title": "TrinityHub Worker-Vertrag",
-    "url": "internal-reference-not-published",
+    "url": "https://github.com/ProfEngel/trinity-hub",
     "pages": "Snapshot wie W01",
     "claim": "Rollen, Tools, eigenes SQLite-Gedächtnis; Organisationsanalogie.",
-    "evidence": "Interne Projektdokumentation, kein aktueller Live-Funktionstest und keine Überlegenheitsstudie.",
+    "evidence": "Nutzerdefinierte Zielarchitektur, kein aktueller Trinity-Funktionstest",
     "accessed": "2026-09-19",
     "type": "internal didactic source",
     "slideIds": [
-      "w02-13",
-      "w02-29",
-      "w02-bigpicture"
+      "w02-agents-02",
+      "w02-agents-03"
     ]
   },
   {
@@ -274,32 +163,37 @@
     "author": "Lehrkonzeption W02",
     "year": "2026",
     "title": "Synthetische Übungen und Schemagrafiken",
-    "url": "../arbeitsblatt.html",
+    "url": "../prompts.html",
     "pages": "",
     "claim": "Unterrichtsaufgaben und Annahmen.",
-    "evidence": "Didaktisch, nicht empirisch.",
+    "evidence": "Synthetische Lehrkonzeption, keine empirische Messung",
     "accessed": "2026-09-19",
     "type": "internal didactic source",
     "slideIds": [
-      "w02-01",
-      "w02-04",
-      "w02-05",
-      "w02-09",
-      "w02-10",
-      "w02-11",
-      "w02-12",
-      "w02-13",
-      "w02-14",
-      "w02-15",
-      "w02-19",
-      "w02-20",
-      "w02-21",
-      "w02-23",
-      "w02-24",
-      "w02-25",
-      "w02-26",
-      "w02-27",
-      "w02-29",
+      "w02-agenda",
+      "w02-learning-path",
+      "w02-history-01",
+      "w02-history-task",
+      "w02-history-prompt",
+      "w02-history-wrap",
+      "w02-artificial-neuron",
+      "w02-learning-task",
+      "w02-learning-prompt",
+      "w02-learning-wrap",
+      "w02-agents-01",
+      "w02-agents-02",
+      "w02-agents-task",
+      "w02-agents-prompt",
+      "w02-agents-wrap",
+      "w02-subtraction-study",
+      "w02-subtraction-task",
+      "w02-subtraction-prompt",
+      "w02-subtraction-wrap",
+      "w02-value-02",
+      "w02-value-task",
+      "w02-value-prompt",
+      "w02-value-wrap",
+      "w02-check",
       "w02-bigpicture"
     ]
   },
@@ -311,70 +205,22 @@
     "url": "../assets/media/manifest.json",
     "pages": "",
     "claim": "Vorhandene symbolische Illustrationen.",
-    "evidence": "Visuell geprüft; Kie.ai/Nano Banana 2 laut Originalmanifest.",
+    "evidence": "Vorhandene Bilder tatsächlich geöffnet; kein neues Bild generiert",
     "accessed": "2026-09-19",
     "type": "illustration",
     "slideIds": [
-      "w02-02",
-      "w02-22",
-      "w02-29",
       "w02-cover",
-      "w02-bigpicture"
-    ]
-  },
-  {
-    "id": "M2",
-    "author": "Kie.ai / Nano Banana 2",
-    "year": "2026",
-    "title": "Regeln/Lernen, Hebb-Pfad, Ergänzen/Vereinfachen",
-    "url": "../assets/media/manifest.json",
-    "pages": "",
-    "claim": "Neue didaktische Illustrationen.",
-    "evidence": "Generierte Metaphern, keine wissenschaftlichen Originalbilder.",
-    "accessed": "2026-09-19",
-    "type": "illustration",
-    "slideIds": [
-      "w02-06",
-      "w02-07",
-      "w02-17",
-      "w02-29",
-      "w02-bigpicture"
-    ]
-  },
-  {
-    "id": "M3",
-    "author": "W01 / Kie.ai / Nano Banana 2",
-    "year": "2026",
-    "title": "Mitarbeiter-Arbeitsplatz",
-    "url": "../assets/media/manifest.json",
-    "pages": "",
-    "claim": "Projektanalogie, kein Produkt-Screenshot.",
-    "evidence": "Unverändert übernommen, visuell geprüft.",
-    "accessed": "2026-09-19",
-    "type": "illustration",
-    "slideIds": [
-      "w02-29",
-      "w02-bigpicture"
-    ]
-  },
-  {
-    "id": "R4",
-    "author": "Mathias Engel / KI Literacy Basics",
-    "year": "2026",
-    "title": "KI Literacy Basics: visuell geprüfte Lehrschaubilder",
-    "type": "provided teaching illustrations",
-    "url": "internal-reference-not-published",
-    "accessed": "2026-09-19",
-    "evidence": "Originalbilder multimodal geöffnet",
-    "claim": "Bilder zu Generalisierung, Neuron, Synapse, Perzeptron und Agenten-Orchestrierung als didaktische Anschauung.",
-    "limits": "Illustrationen, keine empirische Evidenz. Roboter/Mensch-Bild steht für Lernstrategien, nicht exklusive Fähigkeiten. Bilder unverändert; nur lokale Lehrfassung.",
-    "slideIds": [
-      "w02-06",
-      "w02-07",
-      "w02-08",
-      "w02-13",
-      "w02-29",
-      "w02-bigpicture"
+      "w02-history-01",
+      "w02-history-video",
+      "w02-learning-01",
+      "w02-neuron",
+      "w02-synapse",
+      "w02-learning-02",
+      "w02-artificial-neuron",
+      "w02-learning-03",
+      "w02-agents-03",
+      "w02-subtraction-01",
+      "w02-value-01"
     ]
   },
   {
@@ -385,14 +231,70 @@
     "type": "textbook",
     "url": "https://www.ncbi.nlm.nih.gov/books/NBK11009/",
     "accessed": "2026-09-19",
-    "evidence": "Volltext der beiden HTML-Abschnitte geöffnet",
+    "evidence": "Volltextprüfung vom 19.09.2026 erhalten. Abruf 12.10.2026 durch CAPTCHA blockiert; aktueller NCBI-Suchtreffer bestätigt Vesikel, Transmitter und Rezeptorwirkung. Neural Signaling: https://www.ncbi.nlm.nih.gov/books/NBK10882/; HTML ohne Seitenzählung.",
     "pages": "Chemical Synapses, Absätze 1–5, Abb. 5.3; Neural Signaling, Einleitung. HTML ohne Seitenzählung.",
     "claim": "Chemische Synapsen vermitteln Signale über Neurotransmitter und postsynaptische Rezeptoren.",
     "limits": "Biologische Analogie, kein Nachweis für identische Lernmechanismen moderner LLMs.",
     "slideIds": [
-      "w02-07",
-      "w02-29",
-      "w02-bigpicture"
+      "w02-neuron",
+      "w02-synapse"
+    ]
+  },
+  {
+    "id": "P12",
+    "author": "OpenAI",
+    "year": "2022",
+    "title": "Introducing ChatGPT",
+    "type": "official announcement",
+    "url": "https://openai.com/index/chatgpt/",
+    "accessed": "2026-10-12",
+    "evidence": "Offizielle historische Ankündigung; am 12.10.2026 geprüft",
+    "claim": "Veröffentlichung am 30.11.2022",
+    "slideIds": [
+      "w02-history-02"
+    ]
+  },
+  {
+    "id": "P13",
+    "author": "Kayt Sukel / Dana Foundation",
+    "year": "2020",
+    "title": "Neurotransmission: Neurotransmitters",
+    "type": "institutional educational fact sheet",
+    "url": "https://dana.org/app/uploads/2023/09/fact-sheet-neurotransmission-neurotransmitters-baw-2020-1.pdf",
+    "pages": "PDF S.2–3",
+    "accessed": "2026-10-12",
+    "evidence": "PDF tatsächlich geöffnet; verwendete Stichworte zu Glutamat/GABA/Dopamin/Acetylcholin geprüft. Vereinfachte Einordnung, rezeptor-/schaltkreisabhängige Effekte.",
+    "claim": "Häufige Funktionen ausgewählter Neurotransmitter; keine simplen Gefühls-Stoff-Zuordnungen.",
+    "slideIds": [
+      "w02-synapse"
+    ]
+  },
+  {
+    "id": "M4",
+    "author": "Kie.ai / Nano Banana 2",
+    "year": "2026",
+    "title": "Fünf generierte Produktvorschauen für Build & Check",
+    "type": "generated didactic illustrations",
+    "url": "../assets/media/manifest.json",
+    "accessed": "2026-10-12",
+    "evidence": "Tatsächlich über vorhandene lokale Kie-Pipeline erzeugt, Prompts und Task-Receipts vorhanden, Bilder visuell geprüft.",
+    "claim": "Illustrative Vorschau der Übungsprodukte, keine Garantie exakt identischer Ergebnisse.",
+    "slideIds": [
+      "w02-history-task",
+      "w02-history-prompt",
+      "w02-history-wrap",
+      "w02-learning-task",
+      "w02-learning-prompt",
+      "w02-learning-wrap",
+      "w02-agents-task",
+      "w02-agents-prompt",
+      "w02-agents-wrap",
+      "w02-subtraction-task",
+      "w02-subtraction-prompt",
+      "w02-subtraction-wrap",
+      "w02-value-task",
+      "w02-value-prompt",
+      "w02-value-wrap"
     ]
   }
 ]
