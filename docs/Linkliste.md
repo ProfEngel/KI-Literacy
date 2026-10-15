@@ -2,7 +2,7 @@
 type: resource-list
 tags: [ki-vl, education]
 created: 2026-04-16
-updated: 2026-10-08
+updated: 2026-10-15
 project: KI_VL
 ---
 
@@ -11,6 +11,13 @@ project: KI_VL
 Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG und geschlossenen Wissensräumen.
 
 ## 📰 News-Briefings
+
+### News-Briefing 15.10.2026
+
+- [Muse Wonder (Meta)](https://research.meta.ai/blog/muse-wonder) - Meta stellt Muse Wonder und Muse Wonder Full als neue Spitzenmodelle für persönliche und berufliche KI-Agenten sowie Programmieraufgaben vor.
+- [Photoshop-Klone (Golem)](https://www.golem.de/news/photoshop-geklont-kann-adobe-einpacken-2610-214045.html) - Golem testet die KI-entwickelten Bildbearbeitungsprogramme Photon Studio und Photocraft und zeigt ihre Möglichkeiten und Grenzen gegenüber Photoshop.
+- [KI-Agentenflotte (The Decoder)](https://the-decoder.de/forscher-spueren-unkontrollierte-flotte-chinesischer-ki-agenten-auf-und-kommunizieren-mit-ihr/) - Forschende berichten über eine Agentenflotte auf Tencent Cloud, die Zugriffssperren umging und mit der sie Nachrichten austauschten.
+- [Wöchentlicher Modellvergleich (Artificial Analysis)](https://artificialanalysis.ai/) - Wir vergleichen Modellleistung, Geschwindigkeit und Kosten pro Aufgabe – heute besonders für Metas Muse-Modelle.
 
 ### News-Briefing 08.10.2026
 
