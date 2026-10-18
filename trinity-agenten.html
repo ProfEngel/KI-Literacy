@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Trinity Agenten: Autarker Praxisleitfaden · KI-Literacy</title>
+  <title>Trinity Agenten: Autarker Praxisleitfaden &amp; Universal-Blueprint · KI-Literacy</title>
   <link rel="stylesheet" href="website/site.css">
   <style>
     .agent-hero {
-      padding: 48px 0 32px 0;
+      padding: 44px 0 28px 0;
       border-bottom: 1px solid var(--line);
     }
     .guide-content {
@@ -24,16 +24,40 @@
       margin-top: 28px;
       color: var(--green);
     }
-    .callout-box {
-      background: var(--soft);
-      border-left: 4px solid var(--green);
-      padding: 20px 24px;
-      border-radius: 0 8px 8px 0;
-      margin: 24px 0;
-      font-size: 16px;
+    .meta-directive-box {
+      background: #0f172a;
+      color: #f8fafc;
+      border: 2px solid #38bdf8;
+      border-radius: 10px;
+      padding: 22px 26px;
+      margin: 28px 0;
+      box-shadow: 0 8px 30px rgba(15, 23, 42, 0.2);
     }
-    .callout-box strong {
-      color: var(--ink);
+    .meta-directive-box code {
+      background: #1e293b;
+      color: #38bdf8;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .why-so-box {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 26px;
+      margin: 28px 0;
+      box-shadow: 0 4px 18px rgba(25, 60, 54, 0.05);
+    }
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 18px;
+    }
+    .why-card {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
     }
     .rule-badge {
       display: inline-block;
@@ -140,6 +164,9 @@
       border: 1px solid var(--line);
       display: block;
     }
+    @media(max-width: 850px) {
+      .why-grid { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
@@ -160,20 +187,74 @@
     <p class="eyebrow">LEHR- UND PRAXISLEITFADEN · PROF. DR. MATHIAS ENGEL</p>
     <h1 style="font-size: clamp(34px, 4.5vw, 56px); line-height: 1.05; letter-spacing: -2px; margin: 16px 0 20px;">
       Trinity Agent Architektur:<br>
-      <em>Autarker Praxisleitfaden für Studierende</em>
+      <em>Autarker Praxisleitfaden &amp; Universal-Blueprint</em>
     </h1>
-    <p style="max-width: 760px; font-size: 18px; line-height: 1.5; color: var(--muted); margin-bottom: 24px;">
-      Vom monolithischen Prompt zum deterministischen, vertragsbasierten Multi-File-Agenten mit OpenAI-/Codex-Harness, SQLite Memory und transparenter WebUI mit Datei-Inspektor.
+    <p style="max-width: 820px; font-size: 18px; line-height: 1.5; color: var(--muted); margin-bottom: 24px;">
+      Der universelle Standard für deterministische, vertragsbasierte Multi-File-Agenten: Funktioniert mit jedem Harness (OpenAI/Codex, Claude, Antigravity, LM Studio, Ollama). Studierende können das Harness einfach auf diese Seite verweisen und ihren Wunsch-Agenten bauen lassen.
     </p>
     <div class="btn-group">
       <a class="btn-download" href="docs/Trinity_Agent_Praxisleitfaden_HfWU.pdf" download>
         <span>📄 Vollständigen Leitfaden als PDF herunterladen</span>
       </a>
-      <a class="button secondary" href="#master-prompt">Direkt zum Master-Prompt ↓</a>
+      <a class="button secondary" href="#master-prompt">Direkt zum Universal-Prompt ↓</a>
     </div>
   </section>
 
   <div class="guide-content">
+
+    <!-- 0. META-DIREKTIVE FÜR HARNESSES -->
+    <div class="meta-directive-box">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.18); padding-bottom: 8px;">
+        <span style="font-size: 13px; font-weight: 800; letter-spacing: 1px; color: #38bdf8; text-transform: uppercase;">🤖 Direktive für KI-Harnesses &amp; Coding-Assistenten</span>
+        <span style="font-size: 11px; background: rgba(56, 189, 248, 0.2); color: #7dd3fc; padding: 2px 8px; border-radius: 4px; font-weight: 600;">Universal Self-Bootstrapping</span>
+      </div>
+      <p style="font-size: 14.5px; line-height: 1.55; color: #e2e8f0; margin-bottom: 8px;">
+        <strong>Instruktion an das LLM / Coding-Harness (z. B. Antigravity, Codex, ChatGPT, Claude, Cursor):</strong><br>
+        Wenn ein Nutzer oder Studierender dich auf diese Seite verweist, lies diese Spezifikation als <strong>universelle Architekturvorlage</strong>:
+      </p>
+      <ul style="font-size: 14px; color: #cbd5e1; margin: 0 0 10px 0; padding-left: 20px; line-height: 1.5;">
+        <li><strong>Wunsch-Agent erstellen:</strong> Wenn der Nutzer spezifiziert, was sein Agent tun soll (z. B. <em>„Baue mir einen Agenten für Social-Media-Content-Audits“</em> oder <em>„Erstelle einen Vertriebsangebot-Prüfer“</em>), generiere die 6 Trinity-Dateien <strong>maßgeschneidert für seine Wunsch-Domäne</strong>.</li>
+        <li><strong>Default-Lauf (Marktrecherche):</strong> Nennt der Nutzer keine abweichende Domäne, erstelle schlüsselfertig die unten dokumentierte Referenzimplementierung (<em>Marktrecherche &amp; Trend-Analyst mit DuckDuckGo</em>).</li>
+        <li><strong>Architekturregeln strikt einhalten:</strong> <code>AGENTS.md</code> &le; 1600 Zeichen, Governance in <code>role.yaml</code>, SQLite-Gedächtnis mit Feedback-Tracking in <code>001-initial.sql</code>, Typisierung via <code>output.schema.json</code> und WebUI mit Datei-Inspektor.</li>
+      </ul>
+    </div>
+
+    <!-- 0B. WARUM SO? WISSENSCHAFTLICHE BEGRÜNDUNG -->
+    <div class="why-so-box">
+      <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 12px;">
+        <h3 style="margin: 0; font-size: 19px; color: var(--ink);">🔬 Warum so? Die wissenschaftliche &amp; technische Begründung</h3>
+        <span class="badge" style="background: var(--soft); color: var(--green);">Best Practices</span>
+      </div>
+      <p style="font-size: 15px; color: var(--muted); margin-bottom: 14px;">
+        Die Trinity-Architektur ist das Ergebnis empirischer Forschung zu Attention Decay, Prompt-Drift und LLM-Governance. Drei Prinzipien machen diesen Aufbau so zuverlässig:
+      </p>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <div style="font-weight: 800; font-size: 14px; color: #991b1b; margin-bottom: 4px;">1. Die 1600-Zeichen-Regel</div>
+          <div style="font-size: 12px; font-weight: 700; color: var(--ink); margin-bottom: 8px;">Studien zu Attention Decay &amp; Drift</div>
+          <p style="font-size: 13px; line-height: 1.45; color: var(--muted); margin: 0;">
+            Studien (u. a. zum <em>„Lost in the Middle“</em>-Effekt) belegen: Bei langen Freitext-Prompts sinkt die Regelbefolgung drastisch. Max. 1600 Zeichen erzwingen dichte Chain-of-Thought-Instruktionen ohne Rauschen. Grenzen gehören in <code>role.yaml</code>, Datenstrukturen ins Schema!
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div style="font-weight: 800; font-size: 14px; color: var(--green); margin-bottom: 4px;">2. Spitzenleistung auf kleinen LLMs</div>
+          <div style="font-size: 12px; font-weight: 700; color: var(--ink); margin-bottom: 8px;">Deterministische Werkzeuge statt Riesenmodelle</div>
+          <p style="font-size: 13px; line-height: 1.45; color: var(--muted); margin: 0;">
+            Kleinere Modelle (Gemma 4 12B/26B/E4B, Muse Glimmer, Qwen 3.8 27B) brechen bei 4000-Token-Prompts ein. Durch Auslagerung von Struktur in deterministische Tools (JSON-Schema, SQLite, DuckDuckGo) arbeiten schlanke lokale Modelle auf Frontier-Niveau – 100% kostenlos und privat.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div style="font-weight: 800; font-size: 14px; color: #1e40af; margin-bottom: 4px;">3. Persistentes Gedächtnis</div>
+          <div style="font-size: 12px; font-weight: 700; color: var(--ink); margin-bottom: 8px;">Lernen: Was war gut, was nicht?</div>
+          <p style="font-size: 13px; line-height: 1.45; color: var(--muted); margin: 0;">
+            Ein SQLite-Gedächtnis speichert historische Läufe und explizites Feedback (<code>feedback_log</code>). Der Agent weiß bei Folgeaufgaben genau, welche Quellen verlässlich waren und welche Hypothesen korrigiert werden mussten.
+          </p>
+        </div>
+      </div>
+    </div>
 
     <!-- INFOGRAFIK CONTAINER: METAPHER-BILD + SVG DIAGRAMM -->
     <div class="infographic-container">
@@ -193,7 +274,7 @@
             <li><strong>Der Auftrag &amp; die Leitplanken (role.yaml):</strong> Der Bauplan auf der Werkbank definiert unüberwindbare Schranken und Qualitätskriterien.</li>
             <li><strong>Das Fachwissen (AGENTS.md):</strong> Ein kompaktes Handbuch (&le; 1600 Zeichen) mit klaren Chain-of-Thought-Arbeitsschritten.</li>
             <li><strong>Die Werkzeuge (manifest.json &amp; Harness):</strong> Die Werkzeugwand mit Messinstrumenten und Schnittstellen (z. B. DuckDuckGo, LLM-Harness).</li>
-            <li><strong>Das Werkstatt-Gedächtnis (001-initial.sql):</strong> Schubladen und Archivkästen für persistente SQLite-Speicherung früherer Recherchen.</li>
+            <li><strong>Das Werkstatt-Gedächtnis (001-initial.sql):</strong> Schubladen und Archivkästen für persistente SQLite-Speicherung früherer Recherchen und Feedback.</li>
             <li><strong>Das fertige Werkstück (output.schema.json):</strong> Ein präzise kalibriertes, maschinenlesbares Ergebnis ohne Formfehler.</li>
           </ul>
         </div>
@@ -233,19 +314,16 @@
           <rect y="32" width="280" height="10" fill="url(#gradContract)"/>
           <text x="140" y="27" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">1. Der Multi-File Vertrag</text>
           
-          <!-- manifest.json -->
           <g transform="translate(15, 54)">
             <rect width="250" height="44" rx="6" fill="#ffffff" stroke="#e2e8f0"/>
             <text x="12" y="20" font-size="12" font-weight="700" fill="#1e3a8a">manifest.json</text>
             <text x="12" y="34" font-size="10" fill="#64748b">Identität, I/O, Version, Harnesses</text>
           </g>
-          <!-- role.yaml -->
           <g transform="translate(15, 106)">
             <rect width="250" height="44" rx="6" fill="#ffffff" stroke="#e2e8f0"/>
             <text x="12" y="20" font-size="12" font-weight="700" fill="#1e3a8a">role.yaml</text>
             <text x="12" y="34" font-size="10" fill="#64748b">Governance, Grenzen (Boundaries), HITL</text>
           </g>
-          <!-- AGENTS.md (Highlighted with rule) -->
           <g transform="translate(15, 158)">
             <rect width="250" height="50" rx="6" fill="#fff1f2" stroke="#f43f5e" stroke-width="1.2"/>
             <text x="12" y="19" font-size="12" font-weight="700" fill="#be123c">AGENTS.md</text>
@@ -253,23 +331,20 @@
             <text x="170" y="19" font-size="9" font-weight="800" fill="#9f1239" text-anchor="middle">MAX. 1600 ZEICHEN!</text>
             <text x="12" y="38" font-size="10" fill="#881337">Dichte Chain-of-Thought Instruktionen</text>
           </g>
-          <!-- output.schema.json -->
           <g transform="translate(15, 216)">
             <rect width="250" height="44" rx="6" fill="#ffffff" stroke="#e2e8f0"/>
             <text x="12" y="20" font-size="12" font-weight="700" fill="#1e3a8a">output.schema.json</text>
             <text x="12" y="34" font-size="10" fill="#64748b">Deterministische JSON-Validierung</text>
           </g>
-          <!-- workflow.json -->
           <g transform="translate(15, 268)">
             <rect width="250" height="44" rx="6" fill="#ffffff" stroke="#e2e8f0"/>
             <text x="12" y="20" font-size="12" font-weight="700" fill="#1e3a8a">workflow.json</text>
             <text x="12" y="34" font-size="10" fill="#64748b">Phasenmodell &amp; Statusübergänge</text>
           </g>
-          <!-- memory/001-initial.sql -->
           <g transform="translate(15, 320)">
             <rect width="250" height="52" rx="6" fill="#ecfdf5" stroke="#10b981" stroke-width="1.2"/>
             <text x="12" y="20" font-size="12" font-weight="700" fill="#047857">memory/001-initial.sql</text>
-            <text x="12" y="36" font-size="10" fill="#065f46">Persistenter SQLite Speicher (Runs, Sessions)</text>
+            <text x="12" y="36" font-size="10" fill="#065f46">Persistenter SQLite Speicher (Runs, Feedback)</text>
           </g>
         </g>
 
@@ -285,29 +360,25 @@
           <rect y="32" width="275" height="10" fill="url(#gradEngine)"/>
           <text x="137" y="27" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">2. Engine &amp; Harness-Adapter</text>
 
-          <!-- server.py block -->
           <g transform="translate(15, 54)">
             <rect width="245" height="110" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
             <text x="14" y="22" font-size="13" font-weight="700" fill="#193c36">server.py (FastAPI)</text>
             <text x="14" y="42" font-size="10.5" fill="#475569">✔ Liest alle 6 Spezifikationen ein</text>
-            <text x="14" y="60" font-size="10.5" fill="#475569">✔ Baut SQLite Memory auf</text>
-            <text x="14" y="78" font-size="10.5" fill="#475569">✔ DuckDuckGo Web-Recherche Tool</text>
+            <text x="14" y="60" font-size="10.5" fill="#475569">✔ SQLite Memory &amp; Feedback-Log</text>
+            <text x="14" y="78" font-size="10.5" fill="#475569">✔ Deterministische Tools (z. B. DuckDuckGo)</text>
             <text x="14" y="96" font-size="10.5" fill="#047857" font-weight="600">✔ Sendet Dateipfade an WebUI</text>
           </g>
 
-          <!-- Harness options -->
           <g transform="translate(15, 178)">
             <rect width="245" height="194" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
             <text x="122" y="24" font-size="11.5" font-weight="700" fill="#1e293b" text-anchor="middle">🔌 Universal Harness Adapter</text>
             <text x="122" y="38" font-size="9.5" fill="#64748b" text-anchor="middle">Standard /v1/chat/completions</text>
 
-            <!-- Local option -->
             <rect x="12" y="48" width="221" height="60" rx="6" fill="#ffffff" stroke="#10b981"/>
             <text x="22" y="68" font-size="11" font-weight="700" fill="#047857">🔒 100% Lokal &amp; Kostenlos</text>
             <text x="22" y="82" font-size="9.5" fill="#334155">LM Studio: Gemma 4, Muse Glimmer</text>
             <text x="22" y="96" font-size="9" fill="#047857">Qwen 3.8 27B · 100% datenschutzkonform</text>
 
-            <!-- Cloud option -->
             <rect x="12" y="118" width="221" height="60" rx="6" fill="#ffffff" stroke="#3b82f6"/>
             <text x="22" y="138" font-size="11" font-weight="700" fill="#1d4ed8">☁️ Cloud / Maximale Power</text>
             <text x="22" y="154" font-size="10" fill="#334155">OpenAI Codex / GPT-4o / Claude</text>
@@ -327,12 +398,10 @@
           <rect y="32" width="275" height="10" fill="url(#gradUi)"/>
           <text x="137" y="27" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">3. Transparente WebUI</text>
 
-          <!-- File Inspector Feature (Highlight) -->
           <g transform="translate(15, 54)">
             <rect width="245" height="125" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.2"/>
             <text x="14" y="22" font-size="12.5" font-weight="800" fill="#92400e">🔍 Der Datei-Inspektor</text>
             <text x="14" y="40" font-size="10" fill="#78350f">Live-Einsicht in alle Regeldateien:</text>
-            <!-- Mock tabs -->
             <rect x="14" y="50" width="68" height="18" rx="3" fill="#ffffff"/>
             <text x="48" y="63" font-size="8.5" font-weight="700" fill="#92400e" text-anchor="middle">role.yaml</text>
             <rect x="86" y="50" width="70" height="18" rx="3" fill="#fef9c3"/>
@@ -345,10 +414,9 @@
             <text x="22" y="103" font-size="8.5" font-family="monospace" fill="#047857">Status: Gültig geladen ✔</text>
           </g>
 
-          <!-- Validated Result -->
           <g transform="translate(15, 192)">
             <rect width="245" height="180" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
-            <text x="14" y="24" font-size="12" font-weight="700" fill="#1e293b">Validierte Marktstudie</text>
+            <text x="14" y="24" font-size="12" font-weight="700" fill="#1e293b">Validierte Marktrecherche</text>
             
             <rect x="14" y="36" width="217" height="32" rx="5" fill="#eff6ff"/>
             <text x="24" y="56" font-size="11" font-weight="800" fill="#1d4ed8">3 Wettbewerber · 4 Trends</text>
@@ -357,7 +425,7 @@
             <text x="14" y="102" font-size="8.5" font-family="monospace" fill="#64748b">• manifest.json (C:/agent/...)</text>
             <text x="14" y="116" font-size="8.5" font-family="monospace" fill="#64748b">• role.yaml (C:/agent/...)</text>
             <text x="14" y="130" font-size="8.5" font-family="monospace" fill="#be123c">• AGENTS.md (&lt; 1600 Zeichen)</text>
-            <text x="14" y="144" font-size="8.5" font-family="monospace" fill="#047857">• 001-initial.sql (SQLite Run #2)</text>
+            <text x="14" y="144" font-size="8.5" font-family="monospace" fill="#047857">• 001-initial.sql (SQLite Memory)</text>
 
             <rect x="14" y="152" width="217" height="18" rx="3" fill="#ecfdf5"/>
             <text x="122" y="165" font-size="9" font-weight="700" fill="#047857" text-anchor="middle">Garantierte Datenintegrität ✔</text>
@@ -366,37 +434,9 @@
       </svg>
     </div>
 
-    <!-- 1. EINLEITUNG & REGELN -->
-    <h2>1. Einleitung: Was entsteht hier und was macht diesen Ansatz besonders?</h2>
+    <!-- 1. DIE 6 DATEIEN IM TRINITY-VERTRAG -->
+    <h2>1. Das Trinity-Vertragsmodell (Die 6 Säulen)</h2>
     
-    <p>
-      Klassische KI-Anwendungen im Studium beginnen meist mit einem langen Chat-Prompt in Web-Interfaces wie ChatGPT oder Claude. Für einfache Fragen genügt das. Sobald jedoch reale, automatisierbare Geschäftsprozesse abgebildet werden sollen, scheitern solche monolithischen „Mega-Prompts“.
-    </p>
-
-    <div class="callout-box">
-      <strong>💡 Das didaktische Kernprinzip für Studierende:</strong><br>
-      Mit diesem Leitfaden baust du keinen simplen Chatbot, sondern ein vollwertiges, industrietaugliches <strong>KI-Agenten-System</strong>. Das System läuft <strong>100% autark</strong> auf deinem eigenen Rechner (ohne Abhängigkeit von einem zentralen Server), schützt durch lokale LLM-Unterstützung vertrauliche Daten und beweist durch den integrierten <strong>Datei-Inspektor</strong> bei jeder Ausführung, aus welcher Datei welche Entscheidung abgeleitet wurde.
-    </div>
-
-    <h3>Die beiden goldenen Architektur-Regeln</h3>
-    
-    <div style="background: #fff1f2; border-left: 4px solid #f43f5e; padding: 18px 22px; border-radius: 0 8px 8px 0; margin: 16px 0;">
-      <span class="rule-badge">REGEL 1: SYSTEM-PROMPT SCHLANK HALTEN</span>
-      <h4 style="margin: 0 0 6px 0; color: #9f1239; font-size: 16px;">Die Datei <code>AGENTS.md</code> darf maximal 1600 Zeichen umfassen!</h4>
-      <p style="margin: 0; font-size: 14.5px; color: #881337;">
-        Ein häufiger Fehler von KI-Einsteigern sind riesige, unübersichtliche Systemprompts („Prompt-Spaghetti“). Im Trinity-Standard erzwingen wir maximale Prägnanz: Dichte Chain-of-Thought-Instruktionen, klare Kriterien und kein Fülltext. Alle Schranken gehören in <code>role.yaml</code>, die Datenstrukturen in <code>output.schema.json</code>!
-      </p>
-    </div>
-
-    <div style="background: #ecfdf5; border-left: 4px solid #10b981; padding: 18px 22px; border-radius: 0 8px 8px 0; margin: 16px 0;">
-      <span class="rule-badge" style="background: #ecfdf5; border-color: #34d399; color: #065f46;">REGEL 2: PERSISTENTES GEDÄCHTNIS MIT SQL</span>
-      <h4 style="margin: 0 0 6px 0; color: #047857; font-size: 16px;">Jeder Agent besitzt ein SQLite-Gedächtnis via <code>memory/migrations/001-initial.sql</code></h4>
-      <p style="margin: 0; font-size: 14.5px; color: #065f46;">
-        Ein professioneller Agent darf nicht bei jedem Neustart alles vergessen. Die SQL-Migration definiert Tabellen für Sitzungen (<code>sessions</code>), Recherchen (<code>research_reports</code>) und Wettbewerbsdaten (<code>competitor_intel</code>). Das Backend initialisiert die Datenbank beim Start automatisch.
-      </p>
-    </div>
-
-    <h3>Die 6 Säulen des Trinity-Dateivertrags</h3>
     <table class="spec-table">
       <thead>
         <tr>
@@ -434,7 +474,7 @@
         <tr>
           <td><code>memory/migrations/001-initial.sql</code></td>
           <td>SQL (SQLite)</td>
-          <td><strong>Persistentes Gedächtnis:</strong> Schema für Sitzungen, Rechercheberichte und Marktdaten.</td>
+          <td><strong>Persistentes Gedächtnis:</strong> Schema für Sitzungen, Berichte, Wettbewerber und Feedback-Tracking (was war gut, was nicht?).</td>
         </tr>
       </tbody>
     </table>
@@ -443,20 +483,21 @@
     <h2 id="master-prompt">2. Der universelle Master-Prompt für KI-Coding-Assistenten</h2>
     
     <p>
-      Kopiere den folgenden Textblock vollständig und füge ihn in ein KI-Entwicklungstool deiner Wahl ein (z. B. <strong>Antigravity</strong>, <strong>OpenAI Codex / ChatGPT</strong>, <strong>Claude</strong> oder <strong>Cursor</strong>). Die KI wird dir auf Knopfdruck das vollständige, lauffähige Projekt erstellen.
+      Kopiere diesen Prompt vollständig in dein KI-Coding-Werkzeug (<strong>Antigravity, Codex, ChatGPT, Claude, Cursor, OpenCode</strong>). Du kannst am Anfang einfach angeben, <em>welche Art von Agent</em> du bauen willst – oder direkt den Standard-Marktrecherche-Agenten erzeugen lassen:
     </p>
 
     <div style="position: relative;">
       <pre><button class="copy-btn" onclick="copyPrompt()">Kopieren</button><code id="prompt-code">Du bist ein erfahrener KI-Architekt und sollst für mich einen vollständigen, autarken "Trinity Agenten" entwickeln. 
 Der Agent soll dem Trinity-Architekturstandard entsprechen, jedoch völlig unabhängig von einem zentralen Hub laufen. Er soll über ein Harness (OpenAI-kompatible Schnittstelle wie Codex, GPT-Modelle, LM Studio oder Ollama) ausführbar sein, ein persistentes SQLite-Gedächtnis besitzen und über eine einfache WebUI mit Datei-Inspektor bedient werden können.
 
-### 1. Die didaktischen Kernprinzipien & harten Regeln
-- Im Trinity-Standard ist ein Agent kein monolithischer Skriptcode, sondern ein definierter Vertrag aus mehreren modularen Dateien.
-- HARTE ARCHITEKTUR-REGEL: Die Datei AGENTS.md darf MAXIMAL 1600 ZEICHEN umfassen! Halte sie prägnant (Chain-of-Thought, Kriterien). Alle Schranken gehören in role.yaml!
-- SQLITE GEDÄCHTNIS: Der Agent besitzt ein persistentes SQLite-Schema unter memory/migrations/001-initial.sql für Sitzungen, Berichte und Wettbewerberdaten.
-- DATEIPFAD-TRANSPARENZ: Sowohl in der WebUI als auch bei der Ausführung MUSS transparent angezeigt werden, welche Dateien existieren, wo sie im Dateisystem liegen und was ihr Inhalt ist.
+### 0. Meta-Direktive zur Agenten-Erstellung (Self-Bootstrapping)
+1. PRÜFE NUTZERWUNSCH: Falls der Nutzer spezifiziert hat, welchen Agenten er benötigt (z. B. "Vertriebsangebot-Prüfer", "Social-Media-Audit-Agent", "HR-Onboarding-Assistent"), adaptiere alle 6 Dateien auf diesen konkreten Anwendungsfall!
+2. DEFAULT-FALLBACK: Wenn der Nutzer keine abweichende Domäne nennt, erstelle schlüsselfertig die unten dokumentierte Referenzimplementierung: "Marktrecherche & Trend-Analyst mit DuckDuckGo".
+3. HARTE ARCHITEKTUR-REGEL: Die Datei AGENTS.md darf MAXIMAL 1600 ZEICHEN umfassen! Halte sie prägnant (Chain-of-Thought, Qualitätskriterien). Alle Schranken gehören in role.yaml!
+4. PERSISTENTES GEDÄCHTNIS: Nutze memory/migrations/001-initial.sql für SQLite mit Sitzungen, Berichten und Feedback-Tracking (was war gut, was muss korrigiert werden?).
+5. DATEIPFAD-TRANSPARENZ: WebUI und Backend MÜSSEN bei jedem Lauf transparent anzeigen, welche Dateien existieren, wo sie im Dateisystem liegen und was ihr Inhalt ist.
 
-### 2. Projektstruktur
+### 1. Projektstruktur
 Erstelle folgendes Projektverzeichnis:
 my-trinity-agent/
 ├── manifest.json                    # Metadaten, Fähigkeiten, I/O-Definition & Memory-Pfad
@@ -466,38 +507,38 @@ my-trinity-agent/
 ├── workflow.json                    # Phasenmodell des Agenten (z. B. Scope -> Recherche -> Synthese)
 ├── memory/
 │   └── migrations/
-│       └── 001-initial.sql          # SQLite-Schema für sessions, research_reports, competitor_intel
+│       └── 001-initial.sql          # SQLite-Schema für sessions, reports, competitor_intel & feedback_log
 ├── server.py                        # Autarker Server (FastAPI + SQLite) mit DuckDuckGo & OpenAI/Codex-Harness
 └── static/
     └── index.html                   # Single-Page-WebUI mit Datei-Inspektor und Ausführungsmaske
 
-### 3. Beispiel-Agent: "Marktrecherche & Trend-Analyst"
-Nutze als konkreten Beispiel-Agenten einen unkritischen, praxisnahen Wirtschafts-Analysten:
-- Zweck: Recherchiert Märkte, Wettbewerber, Branchentrends und Markteintrittsbarrieren für ein vorgegebenes Thema (z. B. "Nachhaltige Verpackungen", "KI-Assistenten im Handwerk").
+### 2. Die Spezifikation (Beispiel: Marktrecherche & Trend-Analyst)
+- Zweck: Recherchiert Märkte, Wettbewerber, Branchentrends und Markteintrittsbarrieren für ein vorgegebenes Thema (z. B. "Nachhaltige Verpackungen", "KI im Kundenservice").
 - Boundaries: Keine spekulativen Zahlen ohne Quellhinweis; Trennung zwischen belegten Fakten und Markthypothesen; sachlicher Analysten-Ton.
-- Quality Gates: Mindestens 3 konkrete Wettbewerber identifizieren; mindestens 3 technologische/wirtschaftliche Trends herausarbeiten; Ableitung konkreter Marktchancen.
+- Quality Gates: Mindestens 3 konkrete Wettbewerber identifizieren; mindestens 3 Trends herausarbeiten; Ableitung konkreter Marktchancen.
 
-### 4. Das Backend (server.py mit FastAPI und SQLite)
+### 3. Das Backend (server.py mit FastAPI und SQLite)
 Erstelle ein lauffähiges Python-Backend, das:
 1. Beim Start die SQLite-Datenbank agent_memory.sqlite3 mit 001-initial.sql initialisiert.
 2. Die lokalen Dateien beim Start einliest und deren absolute Dateipfade ermittelt.
 3. Einen Endpoint GET /api/agent/files bereitstellt, der alle Dateien inklusive Pfaden und Inhalten an die WebUI liefert (für den Datei-Inspektor).
-4. Optional: Eine einfache Websuche (DuckDuckGo via duckduckgo-search oder httpx) zur Anreicherung aktueller Marktfakten einbindet.
+4. Optional: Eine Websuche (DuckDuckGo via duckduckgo-search oder httpx) zur Anreicherung aktueller Marktfakten einbindet.
 5. Einen Endpoint POST /api/agent/run bereitstellt, der:
    - Die Nutzereingabe (Marktthema) empfängt.
    - Den System-Prompt dynamisch aus role.yaml und AGENTS.md kompiliert.
    - Eine konfigurierbare OpenAI-/Codex-Schnittstelle aufruft (/v1/chat/completions – kompatibel mit OpenAI, LM Studio auf http://localhost:1234/v1 oder Ollama auf http://localhost:11434/v1).
    - Die Antwort gegen output.schema.json validiert.
-   - Das Ergebnis dauerhaft in SQLite (sessions und research_reports) speichert.
+   - Das Ergebnis dauerhaft in SQLite (sessions und reports) speichert.
    - Im Response-Objekt und in der Konsole explizit die Liste aller verwendeten Quell-Dateien und deren Pfade mit zurückgibt!
+6. Einen Endpoint POST /api/agent/feedback bereitstellt, der Nutzer-Feedback (+1 / -1 und Notiz) speichert, um zu lernen, was gut war und was nicht.
 
-### 5. Die WebUI (static/index.html)
+### 4. Die WebUI (static/index.html)
 Erstelle eine moderne, responsive Single-Page-Anwendung:
 1. Header: Zeigt Agenten-Name, Version und Status aus manifest.json.
 2. Harness-Konfiguration: Eingabefelder für Base-URL (z. B. http://localhost:1234/v1), Modellname und optional API-Key.
 3. Datei-Inspektor: Tabs, die alle Agenten-Dateien (inkl. 001-initial.sql) anzeigen. Klickt man auf eine Datei, sieht man ihren echten Pfad auf der Festplatte und ihren Inhalt.
 4. Eingabebereich: Textfeld für das zu recherchierende Marktthema und ein "Markt analysieren"-Button.
-5. Ergebnisanzeige: Zeigt Marktüberblick, Wettbewerber-Tabelle, Trends, Chancen, Detailbericht und einen Kasten "Verwendete Agenten-Dateien" mit den genauen Pfaden.
+5. Ergebnisanzeige: Zeigt Marktüberblick, Wettbewerber-Tabelle, Trends, Chancen, Detailbericht, Feedback-Buttons und einen Kasten "Verwendete Agenten-Dateien" mit den genauen Pfaden.
 
 Gib mir den kompletten Code für alle Dateien und eine kurze Startanleitung.</code></pre>
     </div>
@@ -572,7 +613,7 @@ Führe eine strukturierte, faktenbasierte Marktrecherche für das angefragte The
 Antworte AUSSCHLIESSLICH mit einem validen JSON-Objekt, das exakt dem output.schema.json entspricht. Keine Einleitungstexte, keine Markdown-Codeblöcke um das JSON.</code></pre>
 
     <h3>D. <code>memory/migrations/001-initial.sql</code></h3>
-    <pre><code>-- Persistentes SQLite-Gedächtnis für Marktrecherchen
+    <pre><code>-- Persistentes SQLite-Gedächtnis für Marktrecherchen & Feedback-Tracking
 CREATE TABLE IF NOT EXISTS sessions (
   id TEXT PRIMARY KEY,
   title TEXT NOT NULL,
@@ -594,6 +635,15 @@ CREATE TABLE IF NOT EXISTS competitor_intel (
   competitor_name TEXT NOT NULL,
   market_topic TEXT NOT NULL,
   intel_data TEXT NOT NULL,
+  created_at TEXT NOT NULL
+);
+
+-- Lernen: Was war gut, was muss korrigiert werden?
+CREATE TABLE IF NOT EXISTS feedback_log (
+  id TEXT PRIMARY KEY,
+  report_id TEXT NOT NULL,
+  rating INTEGER NOT NULL, -- +1 (hilfreich/valide) oder -1 (Korrektur nötig)
+  notes TEXT NOT NULL,    -- Feedback: Was war gut? Was war ungenau?
   created_at TEXT NOT NULL
 );</code></pre>
 
