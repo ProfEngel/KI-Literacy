@@ -2,7 +2,7 @@
 
 Willkommen im Lehr- und Lernrepository von **Prof. Dr. Mathias Engel**. Hier findest du News-Briefings und Linklisten, HTML-Vorlesungspräsentationen, Begleitmaterial, Projektideen, Übungen, Daten und weiterführende Module rund um KI, Data Science und digitale Inhalte.
 
-**[Zur Kurs-Website auf GitHub Pages](https://profengel.github.io/KI-Literacy/)** · **[News & Linkliste](docs/Linkliste.md)** · **[Projektideen](docs/Projektideen_KI_DataScience_2026.md)**
+**[Zur Kurs-Website auf GitHub Pages](https://profengel.github.io/KI-Literacy/)** · **[Trinity Agenten-Leitfaden](https://profengel.github.io/KI-Literacy/trinity-agenten.html)** · **[PDF-Leitfaden](docs/Trinity_Agent_Praxisleitfaden_HfWU.pdf)** · **[News & Linkliste](docs/Linkliste.md)** · **[Projektideen](docs/Projektideen_KI_DataScience_2026.md)**
 
 Die Website zeigt die Präsentationen direkt im Browser. Auf GitHub findest du die Dateien zum Lesen, Herunterladen und Weiterarbeiten. Über **Code → Download ZIP** kannst du das Repository herunterladen; für die HTML-Folien benötigst du keinen Build-Schritt.
 
