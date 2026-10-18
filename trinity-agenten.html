@@ -129,9 +129,16 @@
       background: #ffffff;
       border: 1px solid var(--line);
       border-radius: 12px;
-      padding: 20px;
+      padding: 22px;
       margin: 32px 0;
       box-shadow: 0 4px 20px rgba(25, 60, 54, 0.06);
+    }
+    .metaphor-hero-img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(25, 60, 54, 0.12);
+      border: 1px solid var(--line);
+      display: block;
     }
   </style>
 </head>
@@ -168,18 +175,39 @@
 
   <div class="guide-content">
 
-    <!-- INFOGRAFIK ZU BEGINN -->
+    <!-- INFOGRAFIK CONTAINER: METAPHER-BILD + SVG DIAGRAMM -->
     <div class="infographic-container">
-      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 1px solid var(--line); padding-bottom: 10px;">
-        <h3 style="margin: 0; font-size: 18px; letter-spacing: -0.5px; color: var(--ink);">
-          📊 Infografik: Was zeichnet einen Trinity Agenten aus?
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; border-bottom: 1px solid var(--line); padding-bottom: 10px;">
+        <h3 style="margin: 0; font-size: 20px; letter-spacing: -0.5px; color: var(--ink);">
+          🛠️ Die Metapher: Der Handwerker-Agent
         </h3>
-        <span class="badge" style="background: var(--soft); color: var(--green);">Architekturüberblick</span>
+        <span class="badge" style="background: var(--soft); color: var(--green);">Didaktisches Konzeptbild</span>
       </div>
       
-      <!-- SVG INFOGRAFIK -->
+      <!-- 1. DAS ECHTE METAPHER-BILD -->
+      <div style="margin-bottom: 28px;">
+        <img class="metaphor-hero-img" src="assets/handwerker_agent_metapher.jpg" alt="Der Handwerker-Agent: Metapherbild mit Auftrag, Fachwissen, Werkzeugen, Gedächtnis und Werkstück">
+        <div style="background: var(--soft); border-radius: 6px; padding: 12px 16px; margin-top: 12px; font-size: 14.5px; color: var(--ink); line-height: 1.5;">
+          <strong>Die Handwerker-Metapher auf einen Blick:</strong> Ein echter KI-Agent handelt wie ein Meister in seiner Werkstatt:
+          <ul style="margin: 6px 0 0 0; padding-left: 20px; font-size: 14px;">
+            <li><strong>Der Auftrag &amp; die Leitplanken (role.yaml):</strong> Der Bauplan auf der Werkbank definiert unüberwindbare Schranken und Qualitätskriterien.</li>
+            <li><strong>Das Fachwissen (AGENTS.md):</strong> Ein kompaktes Handbuch (&le; 1600 Zeichen) mit klaren Chain-of-Thought-Arbeitsschritten.</li>
+            <li><strong>Die Werkzeuge (manifest.json &amp; Harness):</strong> Die Werkzeugwand mit Messinstrumenten und Schnittstellen (z. B. DuckDuckGo, LLM-Harness).</li>
+            <li><strong>Das Werkstatt-Gedächtnis (001-initial.sql):</strong> Schubladen und Archivkästen für persistente SQLite-Speicherung früherer Recherchen.</li>
+            <li><strong>Das fertige Werkstück (output.schema.json):</strong> Ein präzise kalibriertes, maschinenlesbares Ergebnis ohne Formfehler.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-top: 1px solid var(--line); padding-top: 16px;">
+        <h4 style="margin: 0; font-size: 16px; color: var(--ink);">
+          📐 Die technische System-Architektur (Schichtenmodell)
+        </h4>
+        <span class="badge" style="background: #e0f2fe; color: #0369a1;">Spezifikation · Engine · UI</span>
+      </div>
+
+      <!-- 2. SVG TECHNISCHE ARCHITEKTUR -->
       <svg viewBox="0 0 920 420" width="100%" height="auto" style="display: block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-        <!-- Defs / Gradients -->
         <defs>
           <linearGradient id="gradContract" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stop-color="#1e3a8a"/>
@@ -205,7 +233,6 @@
           <rect y="32" width="280" height="10" fill="url(#gradContract)"/>
           <text x="140" y="27" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">1. Der Multi-File Vertrag</text>
           
-          <!-- File cards -->
           <!-- manifest.json -->
           <g transform="translate(15, 54)">
             <rect width="250" height="44" rx="6" fill="#ffffff" stroke="#e2e8f0"/>
@@ -262,9 +289,9 @@
           <g transform="translate(15, 54)">
             <rect width="245" height="110" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
             <text x="14" y="22" font-size="13" font-weight="700" fill="#193c36">server.py (FastAPI)</text>
-            <text x="14" y="42" font-size="10.5" fill="#475569">✔ Liest alle 5 Spezifikationen ein</text>
+            <text x="14" y="42" font-size="10.5" fill="#475569">✔ Liest alle 6 Spezifikationen ein</text>
             <text x="14" y="60" font-size="10.5" fill="#475569">✔ Baut SQLite Memory auf</text>
-            <text x="14" y="78" font-size="10.5" fill="#475569">✔ Validiert via jsonschema</text>
+            <text x="14" y="78" font-size="10.5" fill="#475569">✔ DuckDuckGo Web-Recherche Tool</text>
             <text x="14" y="96" font-size="10.5" fill="#047857" font-weight="600">✔ Sendet Dateipfade an WebUI</text>
           </g>
 
@@ -321,16 +348,16 @@
           <!-- Validated Result -->
           <g transform="translate(15, 192)">
             <rect width="245" height="180" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
-            <text x="14" y="24" font-size="12" font-weight="700" fill="#1e293b">Validierte Gutachtenausgabe</text>
+            <text x="14" y="24" font-size="12" font-weight="700" fill="#1e293b">Validierte Marktstudie</text>
             
             <rect x="14" y="36" width="217" height="32" rx="5" fill="#eff6ff"/>
-            <text x="24" y="56" font-size="11" font-weight="800" fill="#1d4ed8">Note: 2.3 · Gutachten fertig</text>
+            <text x="24" y="56" font-size="11" font-weight="800" fill="#1d4ed8">3 Wettbewerber · 4 Trends</text>
 
             <text x="14" y="86" font-size="10" font-weight="700" fill="#475569">📁 Quell-Manifest für diesen Lauf:</text>
             <text x="14" y="102" font-size="8.5" font-family="monospace" fill="#64748b">• manifest.json (C:/agent/...)</text>
             <text x="14" y="116" font-size="8.5" font-family="monospace" fill="#64748b">• role.yaml (C:/agent/...)</text>
             <text x="14" y="130" font-size="8.5" font-family="monospace" fill="#be123c">• AGENTS.md (&lt; 1600 Zeichen)</text>
-            <text x="14" y="144" font-size="8.5" font-family="monospace" fill="#047857">• 001-initial.sql (SQLite Run #4)</text>
+            <text x="14" y="144" font-size="8.5" font-family="monospace" fill="#047857">• 001-initial.sql (SQLite Run #2)</text>
 
             <rect x="14" y="152" width="217" height="18" rx="3" fill="#ecfdf5"/>
             <text x="122" y="165" font-size="9" font-weight="700" fill="#047857" text-anchor="middle">Garantierte Datenintegrität ✔</text>
@@ -348,7 +375,7 @@
 
     <div class="callout-box">
       <strong>💡 Das didaktische Kernprinzip für Studierende:</strong><br>
-      Mit diesem Leitfaden baust du keinen simplen Chatbot, sondern ein vollwertiges, industrietaugliches <strong>KI-Agenten-System</strong>. Das System läuft <strong>100% autark</strong> auf deinem eigenen Rechner (ohne Abhängigkeit von einem zentralen Server), schützt durch lokale LLM-Unterstützung vertrauliche Unternehmensdaten und beweist durch den integrierten <strong>Datei-Inspektor</strong> bei jeder Ausführung, aus welcher Datei welche Entscheidung abgeleitet wurde.
+      Mit diesem Leitfaden baust du keinen simplen Chatbot, sondern ein vollwertiges, industrietaugliches <strong>KI-Agenten-System</strong>. Das System läuft <strong>100% autark</strong> auf deinem eigenen Rechner (ohne Abhängigkeit von einem zentralen Server), schützt durch lokale LLM-Unterstützung vertrauliche Daten und beweist durch den integrierten <strong>Datei-Inspektor</strong> bei jeder Ausführung, aus welcher Datei welche Entscheidung abgeleitet wurde.
     </div>
 
     <h3>Die beiden goldenen Architektur-Regeln</h3>
@@ -365,7 +392,7 @@
       <span class="rule-badge" style="background: #ecfdf5; border-color: #34d399; color: #065f46;">REGEL 2: PERSISTENTES GEDÄCHTNIS MIT SQL</span>
       <h4 style="margin: 0 0 6px 0; color: #047857; font-size: 16px;">Jeder Agent besitzt ein SQLite-Gedächtnis via <code>memory/migrations/001-initial.sql</code></h4>
       <p style="margin: 0; font-size: 14.5px; color: #065f46;">
-        Ein professioneller Agent darf nicht bei jedem Neustart alles vergessen. Die SQL-Migration definiert Tabellen für Sitzungen (<code>sessions</code>), Auswertungen und Kernwissen (<code>memories</code>). Das Backend initialisiert die Datenbank beim Start automatisch.
+        Ein professioneller Agent darf nicht bei jedem Neustart alles vergessen. Die SQL-Migration definiert Tabellen für Sitzungen (<code>sessions</code>), Recherchen (<code>research_reports</code>) und Wettbewerbsdaten (<code>competitor_intel</code>). Das Backend initialisiert die Datenbank beim Start automatisch.
       </p>
     </div>
 
@@ -397,17 +424,17 @@
         <tr>
           <td><code>output.schema.json</code></td>
           <td>JSON-Schema</td>
-          <td><strong>Garantierte Ausgabestruktur:</strong> Erzwingt maschinenlesbare Pflichtfelder (Note, Kriterienmatrix, Stärken, Schwächen, Detailgutachten).</td>
+          <td><strong>Garantierte Ausgabestruktur:</strong> Erzwingt maschinenlesbare Pflichtfelder (Zusammenfassung, Wettbewerber, Trends, Chancen, Detailbericht).</td>
         </tr>
         <tr>
           <td><code>workflow.json</code></td>
           <td>JSON</td>
-          <td><strong>Phasenmodell:</strong> Definiert die linearen Bearbeitungsphasen (z. B. Input &rarr; Audit &rarr; Synthese &rarr; Urteil).</td>
+          <td><strong>Phasenmodell:</strong> Definiert die linearen Bearbeitungsphasen (z. B. Scope &rarr; Web-Recherche &rarr; Synthese).</td>
         </tr>
         <tr>
           <td><code>memory/migrations/001-initial.sql</code></td>
           <td>SQL (SQLite)</td>
-          <td><strong>Persistentes Gedächtnis:</strong> Schema für Sitzungen, Läufe und Memory-Einträge.</td>
+          <td><strong>Persistentes Gedächtnis:</strong> Schema für Sitzungen, Rechercheberichte und Marktdaten.</td>
         </tr>
       </tbody>
     </table>
@@ -426,7 +453,7 @@ Der Agent soll dem Trinity-Architekturstandard entsprechen, jedoch völlig unabh
 ### 1. Die didaktischen Kernprinzipien & harten Regeln
 - Im Trinity-Standard ist ein Agent kein monolithischer Skriptcode, sondern ein definierter Vertrag aus mehreren modularen Dateien.
 - HARTE ARCHITEKTUR-REGEL: Die Datei AGENTS.md darf MAXIMAL 1600 ZEICHEN umfassen! Halte sie prägnant (Chain-of-Thought, Kriterien). Alle Schranken gehören in role.yaml!
-- SQLITE GEDÄCHTNIS: Der Agent besitzt ein persistentes SQLite-Schema unter memory/migrations/001-initial.sql für Sitzungen, Auswertungen und Erinnerungen.
+- SQLITE GEDÄCHTNIS: Der Agent besitzt ein persistentes SQLite-Schema unter memory/migrations/001-initial.sql für Sitzungen, Berichte und Wettbewerberdaten.
 - DATEIPFAD-TRANSPARENZ: Sowohl in der WebUI als auch bei der Ausführung MUSS transparent angezeigt werden, welche Dateien existieren, wo sie im Dateisystem liegen und was ihr Inhalt ist.
 
 ### 2. Projektstruktur
@@ -436,31 +463,32 @@ my-trinity-agent/
 ├── role.yaml                        # Persona, Purpose, Grenzen (Boundaries), Quality Gates & HITL
 ├── AGENTS.md                        # Detaillierte Systeminstruktionen (STRIKT MAX 1600 ZEICHEN!)
 ├── output.schema.json               # JSON-Schema für validierte, strukturierte Ausgaben
-├── workflow.json                    # Phasenmodell des Agenten (z. B. Input -> Analyse -> Urteil)
+├── workflow.json                    # Phasenmodell des Agenten (z. B. Scope -> Recherche -> Synthese)
 ├── memory/
 │   └── migrations/
-│       └── 001-initial.sql          # SQLite-Schema für sessions, evaluations und memories
-├── server.py                        # Autarker Server (FastAPI + SQLite) mit OpenAI/Codex-Harness
+│       └── 001-initial.sql          # SQLite-Schema für sessions, research_reports, competitor_intel
+├── server.py                        # Autarker Server (FastAPI + SQLite) mit DuckDuckGo & OpenAI/Codex-Harness
 └── static/
     └── index.html                   # Single-Page-WebUI mit Datei-Inspektor und Ausführungsmaske
 
-### 3. Beispiel-Agent: "Business Case & Methodik-Evaluator"
-Nutze als konkreten Beispiel-Agenten einen akademischen Evaluator:
-- Zweck: Begutachtet Seminararbeiten, Business Pläne und Fallstudien auf methodische Stringenz, logische Konsistenz, Wirtschaftlichkeit und Qualität der Quellen.
-- Boundaries: Ausschließlich objektive Kritik; Bewertung nach Drittelnoten (1.0–5.0); Kennzeichnung von Annahmen ohne Datenbasis.
-- Quality Gates: Prüfung auf Plausibilität von Zahlen und saubere Problem-Lösungs-Kausalität.
+### 3. Beispiel-Agent: "Marktrecherche & Trend-Analyst"
+Nutze als konkreten Beispiel-Agenten einen unkritischen, praxisnahen Wirtschafts-Analysten:
+- Zweck: Recherchiert Märkte, Wettbewerber, Branchentrends und Markteintrittsbarrieren für ein vorgegebenes Thema (z. B. "Nachhaltige Verpackungen", "KI-Assistenten im Handwerk").
+- Boundaries: Keine spekulativen Zahlen ohne Quellhinweis; Trennung zwischen belegten Fakten und Markthypothesen; sachlicher Analysten-Ton.
+- Quality Gates: Mindestens 3 konkrete Wettbewerber identifizieren; mindestens 3 technologische/wirtschaftliche Trends herausarbeiten; Ableitung konkreter Marktchancen.
 
 ### 4. Das Backend (server.py mit FastAPI und SQLite)
 Erstelle ein lauffähiges Python-Backend, das:
 1. Beim Start die SQLite-Datenbank agent_memory.sqlite3 mit 001-initial.sql initialisiert.
 2. Die lokalen Dateien beim Start einliest und deren absolute Dateipfade ermittelt.
 3. Einen Endpoint GET /api/agent/files bereitstellt, der alle Dateien inklusive Pfaden und Inhalten an die WebUI liefert (für den Datei-Inspektor).
-4. Einen Endpoint POST /api/agent/run bereitstellt, der:
-   - Die Nutzereingabe empfängt.
+4. Optional: Eine einfache Websuche (DuckDuckGo via duckduckgo-search oder httpx) zur Anreicherung aktueller Marktfakten einbindet.
+5. Einen Endpoint POST /api/agent/run bereitstellt, der:
+   - Die Nutzereingabe (Marktthema) empfängt.
    - Den System-Prompt dynamisch aus role.yaml und AGENTS.md kompiliert.
    - Eine konfigurierbare OpenAI-/Codex-Schnittstelle aufruft (/v1/chat/completions – kompatibel mit OpenAI, LM Studio auf http://localhost:1234/v1 oder Ollama auf http://localhost:11434/v1).
    - Die Antwort gegen output.schema.json validiert.
-   - Das Ergebnis dauerhaft in SQLite (sessions und evaluations) speichert.
+   - Das Ergebnis dauerhaft in SQLite (sessions und research_reports) speichert.
    - Im Response-Objekt und in der Konsole explizit die Liste aller verwendeten Quell-Dateien und deren Pfade mit zurückgibt!
 
 ### 5. Die WebUI (static/index.html)
@@ -468,8 +496,8 @@ Erstelle eine moderne, responsive Single-Page-Anwendung:
 1. Header: Zeigt Agenten-Name, Version und Status aus manifest.json.
 2. Harness-Konfiguration: Eingabefelder für Base-URL (z. B. http://localhost:1234/v1), Modellname und optional API-Key.
 3. Datei-Inspektor: Tabs, die alle Agenten-Dateien (inkl. 001-initial.sql) anzeigen. Klickt man auf eine Datei, sieht man ihren echten Pfad auf der Festplatte und ihren Inhalt.
-4. Eingabebereich: Textfeld für den zu evaluierenden Text und ein "Agent ausführen"-Button.
-5. Ergebnisanzeige: Zeigt Note, TL;DR, Kriterien-Tabelle, Gutachten und einen Kasten "Verwendete Agenten-Dateien" mit den genauen Pfaden.
+4. Eingabebereich: Textfeld für das zu recherchierende Marktthema und ein "Markt analysieren"-Button.
+5. Ergebnisanzeige: Zeigt Marktüberblick, Wettbewerber-Tabelle, Trends, Chancen, Detailbericht und einen Kasten "Verwendete Agenten-Dateien" mit den genauen Pfaden.
 
 Gib mir den kompletten Code für alle Dateien und eine kurze Startanleitung.</code></pre>
     </div>
@@ -480,17 +508,17 @@ Gib mir den kompletten Code für alle Dateien und eine kurze Startanleitung.</co
     <h3>A. <code>manifest.json</code></h3>
     <pre><code>{
   "schemaVersion": "1.0",
-  "id": "business-case-evaluator",
-  "name": "Business Case & Methodik-Evaluator",
-  "shortName": "CaseEvaluator",
+  "id": "market-research-agent",
+  "name": "Marktrecherche & Trend-Analyst",
+  "shortName": "MarketResearcher",
   "version": "1.0.0",
-  "description": "Autarker Trinity-Agent zur akademischen Begutachtung von Business Cases.",
-  "category": "Hochschule & Analyse",
+  "description": "Autarker Trinity-Agent zur fundierten Recherche von Märkten, Wettbewerbern und Trends.",
+  "category": "Marktanalyse & Strategie",
   "capabilities": [
-    "Methoden- und Konsistenzprüfung",
-    "Finanz- und Plausibilitäts-Check",
-    "Stärken-/Schwächen-Profilierung",
-    "Strukturiertes Gutachten nach Kriterienmatrix"
+    "Strukturierte Marktanalyse",
+    "Wettbewerber-Identifikation",
+    "Trend- & Chancen-Scouting",
+    "Quellengestützte Marktübersicht"
   ],
   "harnesses": ["codex", "chatgpt", "lmstudio", "ollama"],
   "memory": {
@@ -509,60 +537,63 @@ Gib mir den kompletten Code für alle Dateien und eine kurze Startanleitung.</co
 
     <h3>B. <code>role.yaml</code></h3>
     <pre><code>schema_version: 1
-role: CaseEvaluator
-purpose: Wissenschaftliche und strategische Evaluation von Business Cases und Projektberichten.
+role: MarketResearcher
+purpose: Systematische Marktrecherche, Wettbewerbsanalyse und Trendidentifikation für innovative Geschäftsfelder.
 boundaries:
-  - Bewertet neutral und sachlich; keine Schönfärberei.
-  - Notenskala 1.0 bis 5.0 (ausschließlich offizielle Drittelnoten: 1.0, 1.3, 1.7, 2.0, 2.3, 2.7, 3.0, 3.3, 3.7, 4.0, 5.0).
-  - Unbelegte Annahmen in Business Plänen werden explizit als methodisches Risiko markiert.
+  - Keine spekulativen Marktzahlen ohne Angabe der Quellbasis.
+  - Klare Trennung zwischen belegten Marktfakten und strategischen Hypothesen.
+  - Neutraler, faktenbasierter Wirtschaftsanalysten-Ton; keine Werbesprache.
 quality_gates:
-  - Prüfung der Kausalitätskette: Problem -> Marktanalyse -> Lösung -> Monetarisierung.
-  - Plausibilitäts-Check der Kernkennzahlen (CAC, CLV, Deckungsbeiträge, Break-Even).
+  - Mindestens 3 konkrete Wettbewerber oder Marktteilnehmer identifizieren.
+  - Mindestens 3 wesentliche Markttreiber oder Trends herausarbeiten.
+  - Ableitung konkreter Marktchancen (Opportunities) und Markteintrittsbarrieren.
 human_gates:
-  - Noten unter 4.0 (Nicht bestanden) oder 1.0 (Sehr gut) erfordern Dozenten-Freigabe.</code></pre>
+  - Freigabe der finalen Markteintrittsstrategie durch Projektleitung / Dozenten.</code></pre>
 
-    <h3>C. <code>AGENTS.md</code> <span style="font-size: 13px; color: #be123c; font-weight: 700;">(Exakt 842 Zeichen – Limit: max. 1600!)</span></h3>
-    <pre><code># Business Case Evaluator – System-Instruktionen
+    <h3>C. <code>AGENTS.md</code> <span style="font-size: 13px; color: #be123c; font-weight: 700;">(Exakt 928 Zeichen – Limit: max. 1600!)</span></h3>
+    <pre><code># Marktrecherche & Trend-Analyst – System-Instruktionen
 
 ## Ziel
-Erstelle ein fundiertes, detailliertes Gutachten für den eingereichten Business Case / Seminararbeit.
+Führe eine strukturierte, faktenbasierte Marktrecherche für das angefragte Thema oder Geschäftsfeld durch.
 
-## Methodisches Vorgehen
-1. Plausibilitätsanalyse: Prüfe Marktlücke, Zielgruppendefinition und Kernnutzenversprechen.
-2. Methodik-Audit: Sind die getroffenen Annahmen mit validen Quellen belegt?
-3. Kriterienbewertung (jeweils 25% Gewichtung):
-   - Problem & Nutzenversprechen (25%)
-   - Marktanalyse & Wettbewerbsdifferenzierung (25%)
-   - Finanzmodell, Skalierbarkeit & Plausibilität (25%)
-   - Wissenschaftlicher Aufbau, Stil & Quellenqualität (25%)
-4. Notenurteil: Berechne die Gesamtnote und begründe sie analytisch.
+## Vorgehen (Chain-of-Thought)
+1. Marktabgrenzung: Definiere Zielmarkt, Kernzielgruppe und das gelöste Kundenproblem.
+2. Recherche-Vektoren: Untersuche den Markt entlang von drei Achsen:
+   - Wettbewerber: Wer bietet bereits ähnliche Lösungen an? Was sind deren Stärken/Schwächen?
+   - Trends & Treiber: Welche technologischen, gesellschaftlichen oder regulatorischen Treiber prägen den Markt?
+   - Chancen & Risiken: Wo liegen unbesetzte Nischen und Markteintrittsbarrieren?
+3. Synthese: Führe die Erkenntnisse in einem prägnanten Management-Briefing zusammen.
+
+## Qualitätskriterien
+- Quellenbezug: Jede Marktaussage muss nachvollziehbar belegt oder als fundierte Hypothese gekennzeichnet sein.
+- Konkretheit: Nenne reale Marktnamen, Technologien und messbare Trends statt vager Verallgemeinerungen.
 
 ## Ausgabeformat
-Antworte AUSSCHLIESSLICH mit einem validen JSON-Objekt, das exakt dem output.schema.json entspricht.
-Keine Einleitungstexte, keine Markdown-Codeblöcke um das JSON.</code></pre>
+Antworte AUSSCHLIESSLICH mit einem validen JSON-Objekt, das exakt dem output.schema.json entspricht. Keine Einleitungstexte, keine Markdown-Codeblöcke um das JSON.</code></pre>
 
     <h3>D. <code>memory/migrations/001-initial.sql</code></h3>
-    <pre><code>-- Persistentes SQLite-Gedächtnis für Trinity-Agenten
+    <pre><code>-- Persistentes SQLite-Gedächtnis für Marktrecherchen
 CREATE TABLE IF NOT EXISTS sessions (
   id TEXT PRIMARY KEY,
   title TEXT NOT NULL,
   created_at TEXT NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS evaluations (
+CREATE TABLE IF NOT EXISTS research_reports (
   id TEXT PRIMARY KEY,
   session_id TEXT NOT NULL,
-  user_input TEXT NOT NULL,
-  score REAL NOT NULL,
-  result_json TEXT NOT NULL,
+  market_topic TEXT NOT NULL,
+  market_trend TEXT NOT NULL,
+  report_json TEXT NOT NULL,
   created_at TEXT NOT NULL,
   FOREIGN KEY(session_id) REFERENCES sessions(id)
 );
 
-CREATE TABLE IF NOT EXISTS memories (
+CREATE TABLE IF NOT EXISTS competitor_intel (
   id TEXT PRIMARY KEY,
-  key TEXT NOT NULL,
-  value TEXT NOT NULL,
+  competitor_name TEXT NOT NULL,
+  market_topic TEXT NOT NULL,
+  intel_data TEXT NOT NULL,
   created_at TEXT NOT NULL
 );</code></pre>
 
@@ -571,54 +602,54 @@ CREATE TABLE IF NOT EXISTS memories (
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
-    "tldr": {
+    "marketSummary": {
       "type": "string",
-      "description": "Kompaktes Management Summary mit Notenvorschlag"
+      "description": "Kompaktes Management Summary zum untersuchten Markt"
     },
-    "score": {
-      "type": "number",
-      "description": "Note zwischen 1.0 und 5.0"
+    "marketSizeTrend": {
+      "type": "string",
+      "description": "Einschätzung zur Marktreife und Wachstumsdynamik (z. B. Emerging, Wachstumsphase, Reif)"
     },
-    "criteria": {
+    "competitors": {
       "type": "array",
       "items": {
         "type": "object",
         "properties": {
-          "criterion": { "type": "string" },
-          "rating": { "type": "string" },
-          "comment": { "type": "string" }
+          "name": { "type": "string" },
+          "focus": { "type": "string" },
+          "advantage": { "type": "string" }
         },
-        "required": ["criterion", "rating", "comment"]
+        "required": ["name", "focus", "advantage"]
       }
     },
-    "strengths": {
+    "keyTrends": {
       "type": "array",
       "items": { "type": "string" }
     },
-    "weaknesses": {
+    "opportunities": {
       "type": "array",
       "items": { "type": "string" }
     },
-    "detailedReview": {
+    "detailedAnalysis": {
       "type": "string",
-      "description": "Vollständiges akademisches Gutachten in Markdown"
+      "description": "Ausführlicher Marktbericht im Markdown-Format inklusive Quellen & Suchvektoren"
     }
   },
-  "required": ["tldr", "score", "criteria", "strengths", "weaknesses", "detailedReview"]
+  "required": ["marketSummary", "marketSizeTrend", "competitors", "keyTrends", "opportunities", "detailedAnalysis"]
 }</code></pre>
 
     <!-- 4. SCHNELLSTART -->
     <h2>4. Quickstart & Datenschutz mit lokalem LLM</h2>
     
     <ol style="font-size: 16px; line-height: 1.8;">
-      <li><strong>Pakete installieren:</strong> <code>pip install fastapi uvicorn httpx jsonschema pyyaml pydantic</code></li>
+      <li><strong>Pakete installieren:</strong> <code>pip install fastapi uvicorn httpx jsonschema pyyaml pydantic duckduckgo-search</code></li>
       <li><strong>Server starten:</strong> <code>python server.py</code> (erstellt automatisch die <code>agent_memory.sqlite3</code>)</li>
       <li><strong>WebUI öffnen:</strong> Rufe im Browser <code>http://127.0.0.1:8000</code> auf.</li>
     </ol>
 
     <div class="callout-box" style="border-left-color: #2563eb;">
       <strong>🔒 Kostenlos & 100% Datenschutz mit LM Studio / Ollama:</strong><br>
-      Für sensible Firmendaten oder unveröffentlichte Seminararbeiten: Starte <strong>LM Studio</strong>, lade ein aktuelles Spitzenmodell (z. B. <em>Gemma 4 26B</em>, <em>Gemma 4 12B</em> bzw. <em>Gemma 4 E4B</em>, <em>Muse Glimmer</em> oder <em>Qwen 3.8 27B</em>) und klicke auf „Start Server“ auf Port <code>1234</code>. In der WebUI des Agenten bleibt die Base-URL auf <code>http://localhost:1234/v1</code> aktiv. Die Daten verlassen niemals deinen Laptop!
+      Für sensible Unternehmensrecherchen oder interne Projektideen: Starte <strong>LM Studio</strong>, lade ein aktuelles Spitzenmodell (z. B. <em>Gemma 4 26B</em>, <em>Gemma 4 12B</em> bzw. <em>Gemma 4 E4B</em>, <em>Muse Glimmer</em> oder <em>Qwen 3.8 27B</em>) und klicke auf „Start Server“ auf Port <code>1234</code>. In der WebUI des Agenten bleibt die Base-URL auf <code>http://localhost:1234/v1</code> aktiv. Die Daten verlassen niemals deinen Laptop!
     </div>
 
     <div class="btn-group" style="margin-top: 36px; padding-top: 24px; border-top: 1px solid var(--line);">
