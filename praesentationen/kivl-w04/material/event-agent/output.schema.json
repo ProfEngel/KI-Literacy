@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "event_id",
+    "summary",
+    "proposal",
+    "needs_human",
+    "sources",
+    "missing_info"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "proposal": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "needs_human": {
+      "const": true
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "missing_info": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

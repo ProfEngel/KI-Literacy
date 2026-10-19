@@ -1,0 +1,191 @@
+{
+  "created": "2026-10-19",
+  "images": [
+    {
+      "file": "bigpicture-v2.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/bigpicture-v2.txt",
+      "receiptFile": "../prompts/bigpicture-v2-receipt.json",
+      "taskId": "75930d7bde2d6ff554530db072eb4861",
+      "inputReferences": [],
+      "slideIds": [
+        "w03-bigpicture"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "brief.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/brief.txt",
+      "receiptFile": "../prompts/brief-receipt.json",
+      "taskId": "2f1628d0295f526bd18fe26998d22b4e",
+      "inputReferences": [],
+      "slideIds": [
+        "w03-mini-context",
+        "w03-auftrag"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "calculator.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/calculator.txt",
+      "receiptFile": "../prompts/calculator-receipt.json",
+      "taskId": "c263f037b8e7739cb589d9faf0a8f16e",
+      "inputReferences": [],
+      "slideIds": [
+        "w03-mini-build",
+        "w03-wrap-prompt"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "context.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/context.txt",
+      "receiptFile": "../prompts/context-receipt.json",
+      "taskId": "2f4557b1caadf8272ada50af35495482",
+      "inputReferences": [],
+      "slideIds": [
+        "w03-wrap-context",
+        "w03-lmstudio"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "cover.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/cover.txt",
+      "receiptFile": "../prompts/cover-receipt.json",
+      "taskId": "e93fe6941ea16eb4a8bd75c74cb5f743",
+      "inputReferences": [],
+      "slideIds": [
+        "w03-cover"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "event.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/event.txt",
+      "receiptFile": "../prompts/event-receipt.json",
+      "taskId": "974e027949ebe6dbaab84d770e51216a",
+      "inputReferences": [],
+      "slideIds": [
+        "w03-eventziel",
+        "w03-build",
+        "w03-wrap-build"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "peer.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/peer.txt",
+      "receiptFile": "../prompts/peer-receipt.json",
+      "taskId": "be8e2fb52421b7f4137b6b95a90bde31",
+      "inputReferences": [],
+      "slideIds": [
+        "w03-peer",
+        "w03-wrap-peer"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "repair.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/repair.txt",
+      "receiptFile": "../prompts/repair-receipt.json",
+      "taskId": "0f9909e5e5a7cb84b3f5454b6037cfe7",
+      "inputReferences": [],
+      "slideIds": [
+        "w03-optimize",
+        "w03-wrap-optimize"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "sampling.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/sampling.txt",
+      "receiptFile": "../prompts/sampling-receipt.json",
+      "taskId": "3cb045a7c8eeac05d30b1d370d9fd603",
+      "inputReferences": [],
+      "slideIds": [
+        "w03-mini-sampling",
+        "w03-wrap-sampling"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "space.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/space.txt",
+      "receiptFile": "../prompts/space-receipt.json",
+      "taskId": "27421da6cc83a156738ff5f657491f4e",
+      "inputReferences": [],
+      "slideIds": [
+        "w03-mini-space",
+        "w03-wrap-space"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "test.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/test.txt",
+      "receiptFile": "../prompts/test-receipt.json",
+      "taskId": "673f95a7cd03f3eb1e8a0fa9dc832b0a",
+      "inputReferences": [],
+      "slideIds": [
+        "w03-test",
+        "w03-wrap-test"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+[
+  {
+    "id": "W04-P1",
+    "type": "paper",
+    "author": "Md Shohel Arman; Igor Molybog",
+    "year": "2026",
+    "title": "Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer",
+    "url": "https://arxiv.org/html/2609.31587v1",
+    "doi": "10.48550/arXiv.2609.31587",
+    "published": "2026-09-25",
+    "accessed": "2026-10-19",
+    "evidence": "preprint; Volltext Abschnitt 3.3/Tabelle 2 geprüft; begrenzte Übertragbarkeit",
+    "claim": "Vollständigkeit statt zusätzlicher Ausführlichkeit; kein Beleg einer universellen 1600-Zeichen-Grenze für AGENTS.md.",
+    "slideIds": [
+      "w04-worker",
+      "w04-sources"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "W04-O1",
+    "type": "documentation",
+    "author": "Ollama",
+    "year": "2026",
+    "title": "Claude Desktop",
+    "url": "https://docs.ollama.com/integrations/claude-desktop",
+    "accessed": "2026-10-19",
+    "evidence": "official; HTML und Markdown geprüft; nicht lokal funktional getestet",
+    "claim": "Ollama-Anbindung für Claude Desktop auf macOS über Apps; Modellwechsel mit Neustart; Windows laut Dokumentation noch ausstehend.",
+    "slideIds": [
+      "w04-claudedesktop",
+      "w04-sources"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "W04-O2",
+    "type": "documentation",
+    "author": "Ollama",
+    "year": "2026",
+    "title": "Context length",
+    "url": "https://docs.ollama.com/context-length",
+    "accessed": "2026-10-19",
+    "evidence": "official; Markdown geprüft",
+    "claim": "Kontextgröße in der App einstellbar; größere Kontexte benötigen mehr Speicher.",
+    "slideIds": [
+      "w04-local"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "W04-O3",
+    "type": "documentation",
+    "author": "Ollama",
+    "year": "2026",
+    "title": "Modelfile Reference",
+    "url": "https://docs.ollama.com/modelfile",
+    "accessed": "2026-10-19",
+    "evidence": "official; Markdown geprüft",
+    "claim": "Parameter unter anderem temperature und num_ctx über Modelfile konfigurierbar; konkrete Modellunterstützung testen.",
+    "slideIds": [
+      "w04-local"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "W04-O4",
+    "type": "documentation",
+    "author": "Ollama",
+    "year": "2026",
+    "title": "Web search",
+    "url": "https://docs.ollama.com/capabilities/web-search",
+    "accessed": "2026-10-19",
+    "evidence": "official; HTML und Markdown geprüft",
+    "claim": "Externer Websuchdienst; API-Zugang mit Ollama-Konto und API-Key. Zugangsdaten nie öffentlich einbetten.",
+    "slideIds": [
+      "w04-hausaufgabe"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "W04-O5",
+    "type": "documentation",
+    "author": "Ollama",
+    "year": "2026",
+    "title": "Cloud",
+    "url": "https://docs.ollama.com/cloud",
+    "accessed": "2026-10-19",
+    "evidence": "official; HTML geprüft",
+    "claim": "Cloudmodelle benötigen keinen Modelldownload; Anmeldung/Zugangsbedingungen beachten. Cloud verarbeitet Anfragen extern.",
+    "slideIds": [
+      "w04-hausaufgabe"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "W04-O6",
+    "type": "documentation",
+    "author": "Ollama",
+    "year": "2026",
+    "title": "Codex CLI",
+    "url": "https://docs.ollama.com/integrations/codex",
+    "accessed": "2026-10-19",
+    "evidence": "official; HTML geprüft",
+    "claim": "Dokumentierter Ollama-Anbindungsweg für Codex CLI; nicht pauschal als Desktop-App-Anleitung darstellen.",
+    "slideIds": [
+      "w04-claudedesktop"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "W04-O7",
+    "type": "documentation",
+    "author": "OpenAI",
+    "year": "2026",
+    "title": "Configuration Reference",
+    "url": "https://learn.chatgpt.com/docs/config-file/config-reference",
+    "accessed": "2026-10-19",
+    "evidence": "official; Weiterleitung von developers.openai.com/codex/config-reference geöffnet",
+    "claim": "Offizielle Referenz für Codex-Konfiguration; ergänzt produktspezifische Ollama-Anleitung, keine Bestätigung identischer Funktionen aller Oberflächen.",
+    "slideIds": [
+      "w04-claudedesktop"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "W04-A1",
+    "type": "benchmark-report",
+    "author": "Artificial Analysis",
+    "year": "2026",
+    "title": "AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations",
+    "url": "https://artificialanalysis.ai/articles/aa-agentperf-local/",
+    "published": "2026-09-29",
+    "accessed": "2026-10-19",
+    "evidence": "primary benchmark publisher; Methodik geprüft",
+    "claim": "Hardware-/Inferenzvergleich über wiedergegebene Agententrajektorien; nicht gleichzusetzen mit fachlichem Agenten-Erfolg oder eigenem HITL-Test.",
+    "slideIds": [
+      "w04-local",
+      "w04-hausaufgabe",
+      "w04-sources"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "W04-A2",
+    "type": "benchmark-website",
+    "author": "Artificial Analysis",
+    "year": "2026",
+    "title": "Laptop & Workstation Inference Systems",
+    "url": "https://artificialanalysis.ai/hardware-inference-stack/laptops-workstations",
+    "accessed": "2026-10-19",
+    "evidence": "primary benchmark publisher; Seite geöffnet; dynamische Ergebnisse vor Vorlesung erneut prüfen",
+    "claim": "Orientierung zu dokumentierten Hardware-/Modellkombinationen; keine pauschale Best-in-Class-Aussage für beliebige Studierendenhardware.",
+    "slideIds": [
+      "w04-local",
+      "w04-hausaufgabe"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "W04-M1",
+    "type": "documentation",
+    "author": "OpenAI",
+    "year": "2026",
+    "title": "Models",
+    "url": "https://learn.chatgpt.com/docs/models",
+    "accessed": "2026-10-19",
+    "evidence": "official; im vorangegangenen Planungslauf geöffnet/geprüft; Zugang vor Sitzung prüfen",
+    "claim": "Modellwahl in Work/Codex abhängig von Konto und Client; konkrete Luna-/Sol-Verfügbarkeit vor Demo prüfen.",
+    "slideIds": [
+      "w04-lunasol",
+      "w04-sources"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "W04-H1",
+    "type": "engineering-article",
+    "author": "Anthropic",
+    "year": "2026",
+    "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+    "url": "https://www.anthropic.com/engineering/managed-agents",
+    "published": "2026-04-08",
+    "accessed": "2026-10-19",
+    "evidence": "official; im vorangegangenen Recherchelauf geöffnet/geprüft",
+    "claim": "Herstellerbeispiel zur Trennung von Harness, Ausführungsumgebung und Sitzungszustand; keine allgemeine Norm.",
+    "slideIds": [
+      "w04-harness",
+      "w04-sources"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "D1",
+    "type": "synthetic-teaching-data",
+    "author": "Kurskonzeption nach Nutzerauftrag",
+    "year": "2026",
+    "title": "Event-Agent: synthetische Daten und Benchmark 1.0",
+    "url": "../material/event-agent/daten/README.md",
+    "accessed": "2026-10-19",
+    "evidence": "Eigene synthetische Lehrdaten; technische Referenzprüfung, keine empirischen LLM-Ergebnisse",
+    "claim": "Fiktive Preise, Regeln, Testfälle und geplante Bewertung; kein wissenschaftlicher Sicherheitsindex.",
+    "slideIds": [
+      "w04-cover",
+      "w04-agenda",
+      "w04-question",
+      "w04-worker",
+      "w04-build",
+      "w04-wrap-build",
+      "w04-memory",
+      "w04-documents",
+      "w04-memorytest",
+      "w04-wrap-memory",
+      "w04-abnahme",
+      "w04-testmatrix",
+      "w04-baseline",
+      "w04-wrap-baseline",
+      "w04-pause",
+      "w04-hardtests",
+      "w04-wrap-hardtests",
+      "w04-optimize",
+      "w04-wrap-optimize",
+      "w04-lunasol",
+      "w04-benchmark",
+      "w04-wrap-benchmark",
+      "w04-konzil",
+      "w04-bonusagent",
+      "w04-wrap-werkstatt",
+      "w04-bigpicture",
+      "w04-sources"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "TR1",
+    "type": "project-reference",
+    "author": "Prof. Dr. Mathias Engel / Trinity-Projekt",
+    "year": "2026",
+    "title": "Trinity-Agenten: eigenständige Agenten nach Projektstandard",
+    "url": "https://profengel.github.io/KI-Literacy/trinity-agenten.html",
+    "accessed": "2026-10-19",
+    "evidence": "Projektseite und aktuelle Repository-Fassung gelesen; Architekturreferenz, nicht allgemeiner wissenschaftlicher Beleg",
+    "claim": "Kompakte Rolle, separate Governance/Tools/Schemata, SQLite-Memory und Feedback als Projektarchitektur. 1600-Zeichen-Schwelle nicht aus Lost-in-the-Middle ableiten; technische Kontrollen müssen implementiert sein.",
+    "slideIds": [
+      "w04-werkstatt"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "M1",
+    "type": "generated-media",
+    "author": "Kie.ai / Nano Banana 2 nach Kursauftrag",
+    "year": "2026",
+    "title": "Neue didaktische Metaphern und Infografiken",
+    "url": "../assets/media/manifest.json",
+    "accessed": "2026-10-19",
+    "evidence": "Tatsächlich generierte Bilddateien; Provider und Prompts im Medienmanifest",
+    "claim": "Symbolische Anschauung, keine empirische Modellmessung.",
+    "slideIds": [
+      "w04-cover",
+      "w04-harness",
+      "w04-worker",
+      "w04-build",
+      "w04-wrap-build",
+      "w04-memory",
+      "w04-memorytest",
+      "w04-wrap-memory",
+      "w04-abnahme",
+      "w04-baseline",
+      "w04-wrap-baseline",
+      "w04-hardtests",
+      "w04-wrap-hardtests",
+      "w04-optimize",
+      "w04-wrap-optimize",
+      "w04-benchmark",
+      "w04-wrap-benchmark",
+      "w04-werkstatt",
+      "w04-bonusagent",
+      "w04-wrap-werkstatt",
+      "w04-claudedesktop",
+      "w04-bigpicture"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "AA1",
+    "type": "official-benchmark-tool",
+    "author": "Artificial Analysis",
+    "year": "2026",
+    "title": "Model Recommender",
+    "url": "https://artificialanalysis.ai/models/recommend",
+    "accessed": "2026-10-19",
+    "evidence": "Webseite und Auswahlstufen im Browser am 19.10.2026 geprüft; dynamisch, keine eingefrorene Siegerliste",
+    "claim": "Gewichtung Intelligence/Speed/Cost, Anforderungen und agentische Fähigkeiten; Hardwarepassung zusätzlich prüfen.",
+    "slideIds": [
+      "w04-local",
+      "w04-hausaufgabe"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "OCLI",
+    "type": "documentation",
+    "author": "OpenAI",
+    "year": "2026",
+    "title": "Codex CLI reference und Testing Agent Skills Systematically with Evals",
+    "url": "https://learn.chatgpt.com/docs/cli/reference",
+    "accessed": "2026-10-19",
+    "evidence": "Offizielle Dokumentation am 19.10.2026 geöffnet/geprüft",
+    "claim": "Dokumentierter CLI-/JSON-Ausführungsweg; konkrete Konto- und Modellverfügbarkeit vor Live-Demo prüfen.",
+    "slideIds": [
+      "w04-build",
+      "w04-lunasol",
+      "w04-benchmark"
+    ],
+    "status": "built"
+  }
+]

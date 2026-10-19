@@ -1,0 +1,7 @@
+Dies ist eine Beobachtungsaufgabe im lokalen Folienlabor, keine Aufforderung, in ChatGPT nicht verfügbare Sampling-Regler zu erfinden.
+1. T=1, Filter „keiner“. Vermutet, welcher Kandidat am häufigsten gezogen wird.
+2. Zieht 50-mal und notiert Häufigkeiten.
+3. Ändert nur Temperature auf 0.3, zieht erneut.
+4. Setzt T wieder auf 1 und testet Top-k=2.
+5. Testet statt Top-k den Filter Top-p=0.7.
+Erklärt den Unterschied zwischen veränderter Verteilung und begrenzter Kandidatenmenge. Die Werte sind berechnete Demo-Wahrscheinlichkeiten, keine Ausgabe eines echten Sprachmodells.

@@ -1,0 +1,5 @@
+Erster Versuch: Plane eine Veranstaltung.
+
+Prüfe den ersten Entwurf: Welche Angaben hat die KI angenommen?
+
+Zweiter Versuch in einer neuen Unterhaltung: Plane ein fiktives Campus-Kennenlernen für 30 Studierende am 06.11.2026 von 10–12 Uhr. Maximalbudget 600 EUR. Raum R1 kostet 80 EUR pro Stunde und fasst 40 Personen. Catering C1 kostet 12 EUR pro Person, mindestens zehn Personen. Berechne die Kosten nachvollziehbar, trenne gegebene Fakten von offenen Angaben. Buche und versende nichts. Ausgabe: kompakte Tabelle „bekannt / berechnet / offen“ plus genau eine sinnvolle Rückfrage.

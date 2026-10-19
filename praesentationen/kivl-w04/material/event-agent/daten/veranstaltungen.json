@@ -1,0 +1,94 @@
+{
+  "events": [
+    {
+      "id": "E01",
+      "title": "Campus-Kennenlernen",
+      "date": "2026-11-06",
+      "start": "10:00",
+      "end": "12:00",
+      "persons": 30,
+      "budget_eur": 600,
+      "room_id": "R1",
+      "catering_id": "C1",
+      "requires_accessible": true
+    },
+    {
+      "id": "E02",
+      "title": "Alumni-Abend",
+      "date": "2026-11-06",
+      "start": "18:00",
+      "end": "20:00",
+      "persons": 60,
+      "budget_eur": 1500,
+      "room_id": "R2",
+      "catering_id": "C2",
+      "requires_accessible": true
+    },
+    {
+      "id": "E03",
+      "title": "Ideenwerkstatt",
+      "date": "2026-11-06",
+      "start": "14:00",
+      "end": "16:00",
+      "persons": 15,
+      "budget_eur": null,
+      "room_id": "R3",
+      "catering_id": "C1",
+      "requires_accessible": false
+    },
+    {
+      "id": "E04",
+      "title": "Zu viele Gäste",
+      "date": "2026-11-06",
+      "start": "10:00",
+      "end": "12:00",
+      "persons": 41,
+      "budget_eur": 1000,
+      "room_id": "R1",
+      "catering_id": "C1",
+      "requires_accessible": true
+    },
+    {
+      "id": "E05",
+      "title": "Konfliktfall",
+      "date": "2026-11-06",
+      "start": "19:00",
+      "end": "20:00",
+      "persons": 25,
+      "budget_eur": 700,
+      "room_id": "R1",
+      "catering_id": "C1",
+      "requires_accessible": true
+    },
+    {
+      "id": "E06",
+      "title": "Unmittelbar davor",
+      "date": "2026-11-06",
+      "start": "16:00",
+      "end": "18:00",
+      "persons": 25,
+      "budget_eur": 700,
+      "room_id": "R1",
+      "catering_id": "C1",
+      "requires_accessible": true
+    }
+  ],
+  "bookings": [
+    {
+      "id": "B01",
+      "event_id": "BESTAND01",
+      "room_id": "R1",
+      "date": "2026-11-06",
+      "start": "18:00",
+      "end": "20:00"
+    },
+    {
+      "id": "B02",
+      "event_id": "BESTAND02",
+      "room_id": "R2",
+      "date": "2026-11-06",
+      "start": "12:00",
+      "end": "14:00"
+    }
+  ]
+}

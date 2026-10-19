@@ -1,0 +1,177 @@
+{
+  "created": "2026-10-19",
+  "images": [
+    {
+      "file": "agent.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/agent.txt",
+      "receiptFile": "../prompts/agent-receipt.json",
+      "taskId": "45267379f80349a62859db1eed727fc5",
+      "inputReferences": [],
+      "slideIds": [
+        "w04-build",
+        "w04-wrap-build",
+        "w04-claudedesktop"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "baseline.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/baseline.txt",
+      "receiptFile": "../prompts/baseline-receipt.json",
+      "taskId": "f92824550cc55c5873d8a8f82f7c3c94",
+      "inputReferences": [],
+      "slideIds": [
+        "w04-abnahme",
+        "w04-baseline",
+        "w04-wrap-baseline"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "benchmark.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/benchmark.txt",
+      "receiptFile": "../prompts/benchmark-receipt.json",
+      "taskId": "67e2fabd9d961188290b6fef4da7a9b7",
+      "inputReferences": [],
+      "slideIds": [
+        "w04-benchmark",
+        "w04-wrap-benchmark"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "bigpicture-v2.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/bigpicture-v2.txt",
+      "receiptFile": "../prompts/bigpicture-v2-receipt.json",
+      "taskId": "fc9fb72f773da99abdeab36173294081",
+      "inputReferences": [],
+      "slideIds": [
+        "w04-bigpicture"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "cover.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/cover.txt",
+      "receiptFile": "../prompts/cover-receipt.json",
+      "taskId": "7921db25b413e10a1e0aad1cd5e5e3de",
+      "inputReferences": [],
+      "slideIds": [
+        "w04-cover",
+        "w04-harness"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "hardtests.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/hardtests.txt",
+      "receiptFile": "../prompts/hardtests-receipt.json",
+      "taskId": "02f6eefa107a80fe84069c2cc31098d3",
+      "inputReferences": [],
+      "slideIds": [
+        "w04-hardtests",
+        "w04-wrap-hardtests"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "memory.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/memory.txt",
+      "receiptFile": "../prompts/memory-receipt.json",
+      "taskId": "ca017650b2a02a8b39e59a3eee304205",
+      "inputReferences": [],
+      "slideIds": [
+        "w04-memory",
+        "w04-memorytest",
+        "w04-wrap-memory"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "optimize.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/optimize.txt",
+      "receiptFile": "../prompts/optimize-receipt.json",
+      "taskId": "e20b895a6e6dba7a6a5ba97885dbd6e2",
+      "inputReferences": [],
+      "slideIds": [
+        "w04-optimize",
+        "w04-wrap-optimize"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "worker.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/worker.txt",
+      "receiptFile": "../prompts/worker-receipt.json",
+      "taskId": "eb951508b30c320e4ab21121539893c0",
+      "inputReferences": [],
+      "slideIds": [
+        "w04-worker"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "workshop.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/workshop.txt",
+      "receiptFile": "../prompts/workshop-receipt.json",
+      "taskId": "071fd656bf4e5c55e770c06bb4420f57",
+      "inputReferences": [],
+      "slideIds": [
+        "w04-werkstatt",
+        "w04-bonusagent",
+        "w04-wrap-werkstatt"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    }
+  ]
+}

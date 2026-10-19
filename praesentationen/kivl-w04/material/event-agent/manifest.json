@@ -1,0 +1,10 @@
+{
+  "id": "campus-event-agent",
+  "version": "v1",
+  "datasetVersion": "event-data-1.0",
+  "entry": "AGENTS.md",
+  "tools": "event_tools.py",
+  "uiOptional": true,
+  "memory": "memory/agent.sqlite3",
+  "externalActions": false
+}

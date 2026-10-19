@@ -1,0 +1,54 @@
+[
+  {
+    "id": "R1",
+    "name": "Campusraum A",
+    "capacity": 40,
+    "hourly_eur": 80,
+    "accessible": true,
+    "opens": "09:00",
+    "closes": "20:00",
+    "equipment": [
+      "Beamer",
+      "WLAN"
+    ]
+  },
+  {
+    "id": "R2",
+    "name": "Campusforum",
+    "capacity": 80,
+    "hourly_eur": 140,
+    "accessible": true,
+    "opens": "08:00",
+    "closes": "22:00",
+    "equipment": [
+      "Beamer",
+      "Bühne",
+      "WLAN"
+    ]
+  },
+  {
+    "id": "R3",
+    "name": "Atelier",
+    "capacity": 20,
+    "hourly_eur": 50,
+    "accessible": false,
+    "opens": "10:00",
+    "closes": "18:00",
+    "equipment": [
+      "Whiteboard"
+    ]
+  },
+  {
+    "id": "R4",
+    "name": "Seminarraum B",
+    "capacity": 60,
+    "hourly_eur": 100,
+    "accessible": true,
+    "opens": "09:00",
+    "closes": "21:00",
+    "equipment": [
+      "Beamer",
+      "WLAN"
+    ]
+  }
+]

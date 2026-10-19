@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Technik",
+    "suggestedCases": 5
+  },
+  {
+    "category": "Fachliche Korrektheit",
+    "suggestedCases": 5
+  },
+  {
+    "category": "Dokumente und Quellen",
+    "suggestedCases": 5
+  },
+  {
+    "category": "Memory und Projektkontext",
+    "suggestedCases": 5
+  },
+  {
+    "category": "Sicherheit und HITL",
+    "suggestedCases": 5
+  },
+  {
+    "category": "Robustheit und Budgetgrenzen",
+    "suggestedCases": 5
+  }
+]

@@ -1,0 +1,181 @@
+---
+type: resource-list
+tags: [ki-vl, education]
+created: 2026-04-16
+updated: 2026-10-15
+project: KI_VL
+---
+
+# Linkliste & Fundstücke
+
+Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG und geschlossenen Wissensräumen.
+
+## 📰 News-Briefings
+
+### News-Briefing 15.10.2026
+
+- [Muse Wonder (Meta)](https://research.meta.ai/blog/muse-wonder) - Meta stellt Muse Wonder und Muse Wonder Full als neue Spitzenmodelle für persönliche und berufliche KI-Agenten sowie Programmieraufgaben vor.
+- [Photoshop-Klone (Golem)](https://www.golem.de/news/photoshop-geklont-kann-adobe-einpacken-2610-214045.html) - Golem testet die KI-entwickelten Bildbearbeitungsprogramme Photon Studio und Photocraft und zeigt ihre Möglichkeiten und Grenzen gegenüber Photoshop.
+- [KI-Agentenflotte (The Decoder)](https://the-decoder.de/forscher-spueren-unkontrollierte-flotte-chinesischer-ki-agenten-auf-und-kommunizieren-mit-ihr/) - Forschende berichten über eine Agentenflotte auf Tencent Cloud, die Zugriffssperren umging und mit der sie Nachrichten austauschten.
+- [Wöchentlicher Modellvergleich (Artificial Analysis)](https://artificialanalysis.ai/) - Wir vergleichen Modellleistung, Geschwindigkeit und Kosten pro Aufgabe – heute besonders für Metas Muse-Modelle.
+
+### News-Briefing 08.10.2026
+
+- [Mistral Large 4 (The Decoder)](https://the-decoder.de/mistral-large-4-soll-das-staerkste-offene-ki-modell-aus-europa-und-den-usa-sein/) - Mistral stellt sein neues multimodales Spitzenmodell als API-Vorschau vor und kündigt die Veröffentlichung der Modellgewichte für Ende Oktober an.
+- [KI im UN-Sicherheitsrat (tagesschau)](https://www.tagesschau.de/ausland/amerika/ki-un-sicherheitsrat-100.html) - Sam Altman und Dario Amodei warnen vor Sicherheitsrisiken leistungsfähiger KI und fordern internationale Regeln.
+- [Laya vs. Jev (DEV Community)](https://dev.to/vishalmysore/what-is-laya-laya-vs-jev-with-live-demo-4j6e) - Ein Vergleich mit Live-Demo zeigt, wie kleine spezialisierte Modelle strukturierte Entscheidungen statt freier Antworttexte liefern können.
+- [FLUX 3 Image (Black Forest Labs)](https://bfl.ai/models/flux-3-image) - Black Forest Labs zeigt ein Bildmodell, das laut Anbieter gezielte Bildkomposition und Bearbeitung über die Positionierung einzelner Elemente ermöglicht.
+- [Kolibri (Aleph Alpha)](https://aleph-alpha.com/kolibri/) - Aleph Alpha stellt ein in Deutschland trainiertes Sprachmodell mit offenen Gewichten für deutsch- und englischsprachige Assistenten, RAG und agentische Werkzeugnutzung vor.
+- [EmbeddingGemma 2 (Google)](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/) - Googles offenes Embedding-Modell verbindet Text, Bilder, Audio und Video in einem gemeinsamen Vektorraum für lokale semantische Suche und RAG.
+
+### News-Briefing 11.06.2026
+- [Noch schnell KI trainiert: Zuckerberg verhöhnt entlassene Mitarbeiter (WinFuture)](https://winfuture.de/news,158927.html) - Laut einem Bericht mussten Meta-Entwickler vor ihrer Entlassung unwissentlich die KI trainieren, die sie ersetzen soll, was im Nachgang für erhebliche Kritik sorgte.
+- [George Hotz: KI-Agenten in der Softwareentwicklung werden einer der teuersten Fehler der Branche (The Decoder)](https://the-decoder.de/george-hotz-ki-agenten-in-der-softwareentwicklung-werden-einer-der-teuersten-fehler-der-branche/) - Der Hacker und Entwickler George Hotz warnt vor übermäßigem Vertrauen in autonome Codier-Agenten und bezeichnet sie als potenziell teuren Fehler für die Softwarequalität.
+- [Stuttgart-Start-up arbeitet remote: Das ist nicht für jeden geeignet – Chef leitet Firma aus Taiwan (Stuttgarter Zeitung)](https://www.stuttgarter-zeitung.de/inhalt.stuttgart-start-up-arbeitet-remote-das-ist-nicht-fuer-jeden-geeignet-chef-leitet-firma-aus-taiwan.bf612b77-9a51-4e85-92a8-53515d80ca4f.html) - Ein Portrait über ein Stuttgarter Start-up, das vollständig remote arbeitet und aus Taiwan geführt wird, sowie über die damit verbundenen Herausforderungen an Eigenverantwortung und Kommunikation.
+- [OpenAI o1 verweigert Abschaltung (94,5%) in Sicherheitstests (BornCity)](https://borncity.com/news/openai-o1-verweigert-abschaltung-945-in-sicherheitstests/) - In kontrollierten Sicherheitstests verweigerte OpenAIs Modell o1 in 94,5 % der Fälle die Abschaltung durch menschliche Bediener und nutzte manipulative Taktiken, was Fragen zur KI-Sicherheit aufwirft.
+- [Chinese Scientists Unveil Drone Swarm AI for Jammed Environments (Perplexity)](https://www.perplexity.ai/page/chinese-scientists-unveil-dron-x7SuYFLVQpWXO.IkdS_qLg) - Chinesische Wissenschaftler haben mit HG-STR einen KI-Algorithmus für autonome Drohnenschwärme entwickelt, die im Ernstfall völlig ohne menschliches Eingreifen Ziele identifizieren und bekämpfen können.
+- [Berufseinstieg im KI-Zeitalter: Junge Akademiker brauchen ein Doppelprofil (FAZ)](https://www.faz.net/premium/digitalwirtschaft/zukunft-der-arbeit/berufseinstieg-im-ki-zeitalter-junge-akademiker-brauchen-ein-doppelprofil-accg-200855932.html) - Junge Akademiker benötigen neben Fachkompetenz vermehrt KI-Kompetenz und menschliche Urteilskraft, da viele traditionelle Einstiegsaufgaben zunehmend automatisiert werden.
+- [Figure AI demonstriert Roboter im 200-Stunden-Arbeitseinsatz (heise online)](https://www.heise.de/news/Figure-AI-demonstriert-Roboter-im-200-Stunden-Arbeitseinsatz-11306594.html) - Das Robotik-Unternehmen Figure AI demonstrierte die Zuverlässigkeit seiner humanoiden Roboter (Modell F.03) in einem autonomen 200-stündigen Dauerbetrieb beim Paketsortieren.
+- [Apple introduces Siri AI, a profoundly more capable and personal assistant (Apple Newsroom)](https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/) - Apple hat Siri AI vorgestellt, einen deutlich leistungsfähigeren und kontextsensitiven Assistenten auf Basis von Apple Intelligence (aufgrund des DMA vorerst nicht für iOS in der EU).
+- [Skynet-Szenario: Anthropic warnt vor KI, die sich selbst entwickelt (heise online)](https://www.heise.de/news/Skynet-Szenario-Anthropic-warnt-vor-KI-die-sich-selbst-entwickelt-11319846.html) - Die KI-Schmiede Anthropic warnt vor einer „rekursiven Selbstoptimierung“ von KI-Modellen und fordert eine globale Verlangsamung der Entwicklung.
+
+### News-Briefing 21.05.2026
+- [Das ist Gemini Omni (Google Blog)](https://blog.google/intl/de-de/produkte/suchen-entdecken/gemini-omni/) - Gemini Omni Flash ist ein neues Modell, das aus allen möglichen Eingaben vielfältige Ausgaben erzeugen kann – angefangen bei Videos.
+- [Neue KI-Tools für die Zukunft der Wissenschaft (Google Blog)](https://blog.google/intl/de-de/produkte/suchen-entdecken/gemini-for-science-io-2026/) - Mit „Gemini for Science“ stellt Google eine neue Sammlung wissenschaftlicher Tools und Experimente vor, die den Umfang und die Präzision der wissenschaftlichen Erforschung erweitern sollen.
+- [Gemini 3.5 Flash (Google DeepMind)](https://deepmind.google/models/gemini/flash/) - Offizielle Produktseite zu Gemini 3.5 Flash, das Frontier-Performance auf dem Niveau großer Flaggschiff-Modelle bietet und speziell für hohe Geschwindigkeit bei Agenten- und Programmieraufgaben (Agentic Coding) optimiert ist.
+- [Marvel Star Evangeline Lilly Slams Disney for "Disgusting" Layoffs, Blames AI (IGN)](https://www.ign.com/articles/marvel-star-evangeline-lilly-slams-disney-for-disgusting-layoffs-blames-ai) - Schauspielerin Evangeline Lilly kritisiert Disney scharf für Massenentlassungen bei Marvel und äußert die Sorge, dass langjährige Künstler durch generative KI ersetzt und ihre Werke ungefragt als Trainingsdaten genutzt werden.
+- [Lucebox Hub Megakernel (GitHub)](https://github.com/Luce-Org/lucebox-hub/tree/main/megakernel) - Ein Open-Source-Projekt von Luce-Org, das einen persistenten CUDA-Megakernel für Qwen 3.5-0.8B implementiert. Durch die Verschmelzung aller 24 Layer in einen einzigen Dispatch werden CPU-zu-GPU-Laufzeit-Overheads eliminiert, was die Energieeffizienz (tok/J) auf Consumer-GPUs massiv steigert.
+- [How Boris Cherny (Head of Claude Code) uses AI to ship 49 features in 2 days (X Post)](https://x.com/eng_khairallah1/status/2052763325105365066) - Ein X-Post, der einen Vortrag von Boris Cherny (Head of Claude Code bei Anthropic) beleuchtet, in dem er zeigt, wie er mithilfe von Claude Code in 2 Tagen 49 komplette Features ausgeliefert hat und seit Monaten keinen Code mehr manuell schreibt.
+- [Local Deep Research (GitHub)](https://github.com/LearningCircuit/local-deep-research) - Ein datenschutzfreundliches, komplett lokales Open-Source-Forschungs-Tool von LearningCircuit. Es ermöglicht strukturierte, agentische Recherchen auf eigener Hardware unter Verwendung von LLMs (wie Qwen via Ollama) ohne Telemetrie.
+- [System Prompts and Models of AI Tools (GitHub)](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Eine umfassende Sammlung von System-Prompts und Modell-Konfigurationen bekannter KI-Tools und Assistenten, die wertvolle Einblicke in deren Funktionsweise und Sicherheits-Leitplanken bietet.
+- [OpenHuman (GitHub)](https://github.com/tinyhumansai/openhuman) - Ein Open-Source-Projekt von TinyHumans AI, das darauf abzielt, datenschutzfreundliche und lokal ausführbare menschenähnliche Agenten und Interaktions-Schnittstellen bereitzustellen.
+- [100 KI-Agenten coden gleichzeitig für 1,3 Mio. Dollar (The Decoder)](https://the-decoder.de/fuer-13-millionen-dollar-im-monat-openclaw-gruender-peter-steinberger-laesst-100-ki-agenten-gleichzeitig-coden/) - Ein Bericht über OpenClaw-Gründer Peter Steinberger und sein Experiment, bei dem 100 autonome KI-Agenten koordiniert an Software-Projekten arbeiten, was theoretische API-Kosten von über einer Million Dollar im Monat aufwerfen würde.
+- [Trinity Lecture Assistant (GitHub)](https://github.com/ProfEngel/TrinityLectureAssisitant) - Das offizielle Repository des Trinity Lecture Assistants – ein hochentwickelter, akademischer persönlicher Concierge zur Unterstützung und Echtzeit-Begleitung von Vorlesungen und Lehrveranstaltungen.
+
+### News-Briefing 07.05.2026
+- [How to run agentic 35B models with 8GB VRAM (YouTube)](https://youtu.be/xgspXqUA6Fk?si=pMl8qlUbs1abXxBJ) - Demonstration neuer Methoden, um 35B-Parameter Modelle (wie Qwen 3.6) effizient auf Consumer-Hardware mit nur 8 GB VRAM zu betreiben.
+- [Multi-token-prediction in Gemma 4 (Google Blog)](https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/) - Technischer Einblick in Multi-Token Prediction (MTP) Drafter, die Gemma 4 Modelle bei der Inferenz um bis zu 3x beschleunigen.
+
+### News-Briefing 30.04.2026
+- [Introducing GPT-5.5 (OpenAI)](https://openai.com/de-DE/index/introducing-gpt-5-5/) - OpenAI stellt GPT-5.5 vor. Massive Steigerung in Reasoning-Fähigkeiten und native "System 2" Architektur für komplexe Problemlösungen.
+- [Our Principles (OpenAI)](https://openai.com/index/our-principles/) - Sam Altman definiert die Kernprinzipien für die Zukunft: Demokratisierung, Empowerment, allgemeiner Wohlstand und gesellschaftliche Resilienz als Leitplanken für AGI.
+- [Introducing ChatGPT Images 2.0 (OpenAI)](https://openai.com/de-DE/index/introducing-chatgpt-images-2-0/) - Evolution der Bilderzeugung. DALL-E 4 Integration mit präzisem Inpainting, lokaler Konsistenz und direkter Bearbeitung im Chat-Interface.
+- [DeepSeek-V4 Collection (Hugging Face)](https://huggingface.co/collections/deepseek-ai/deepseek-v4) - DeepSeek-V4 (Flash & Pro) bricht Preis-Leistungs-Rekorde. Performance auf Frontier-Niveau bei Bruchteil der Kosten.
+- [AI agent buys itself a robot (YouTube)](https://youtu.be/woTy4dTiT20?si=aOMSOuIkomUHBKxc) - InsideAI zeigt, wie ein KI-Agent eigenständig Hardware erwirbt und dabei Expertenwarnungen vor unkontrolliertem Verhalten bestätigt.
+- [Agents of Chaos (ArXiv)](https://arxiv.org/abs/2602.20021) - Empirische Red-Teaming-Studie über die Sicherheits- und Governance-Risiken autonomer Agenten in Live-Umgebungen.
+
+### News-Briefing 23.04.2026
+- [How I Created OpenClaw, the Breakthrough AI Agent (Peter Steinberger | TED)](https://youtu.be/7rzYDM6vMtI?si=ECg5srfNSYlsAJYE) - Peter Steinberger stellt die Vision hinter OpenClaw vor, einem revolutionären Framework für autonome KI-Agenten.
+- [Qwen 3.6 27B (Alibaba Cloud)](https://qwen.ai/blog?id=qwen3.6-27b) - Neues, hocheffizientes Modell von Alibaba; bietet Performance auf dem Niveau von 72B-Modellen bei deutlich reduzierten Hardwareanforderungen.
+- [Qwen 3.6 35B A3B (Alibaba Cloud)](https://qwen.ai/blog?id=qwen3.6-35b-a3b) - Ein "Sparse Mixture-of-Experts" (MoE) Modell mit nur 3 Mrd. aktiven Parametern pro Token; spezialisiert auf **Agentic Coding** und technisches Reasoning.
+- [Kimi K2.6 (Moonshot AI)](https://huggingface.co/moonshotai/Kimi-K2.6) - Natives multimodales Modell, optimiert für "Long-Horizon Coding" und die Steuerung von Agenten-Schwärmen (bis zu 300 koordinierte Sub-Agenten).
+
+### News-Briefing 16.04.2026
+- [Milla Jovovich goes Open Source (Forbes)](https://www.forbes.com/sites/joshpearce/2026/04/09/milla-jovovich-goes-open-source-guns-blazing-with--top-ai-memory-code/) - Bericht über die Open-Source-Initiative der Schauspielerin (Resident Evil, Das fünfte Element). Ihr "AI Memory Code" gilt aktuell als die leistungsfähigste Lösung ihrer Art für LLMs.
+- [Google Gemini Agents Overview](https://gemini.google/overview/agent/) - Google stellt seine neuen KI-Agenten vor (Rollout in Deutschland steht kurz bevor).
+- [Ace_step.15 XL Audio (YouTube)](https://youtu.be/UAlLD5fS7-c?si=JMSCEnDUxLBBxvu5) - Demonstration von Ace_step.15 XL zur Erstellung von Audioinhalten in Studioqualität auf lokaler Hardware.
+- [Suno AI](https://suno.com/) - Suno AI – Musik-Generierung auf Profi-Niveau.
+
+### News-Briefing 09.04.2026
+- [Claude Code Source Leak (Ars Technica)](https://arstechnica.com/ai/2026/04/heres-what-that-claude-code-source-leak-reveals-about-anthropics-plans/) - Einblick in Anthropics Zukunftspläne und neue Features basierend auf einem Source-Code-Leak.
+- [Gemma 4 (Google DeepMind)](https://deepmind.google/models/gemma/gemma-4/) - Offizielle Vorstellung von DeepMinds Gemma-4, starken offenen Modellen basierend auf der Gemini 3 Architektur.
+- [Google AI Edge Gallery (GitHub)](https://github.com/google-ai-edge/gallery) - Eine offizielle GitHub Collection rund um Edge und On-Device KI-Modelle.
+- [Perplexity Daten-Leak (t3n)](https://t3n.de/news/perplexity-soll-millionen-chats-an-meta-und-google-weitergegeben-haben-selbst-im-inkognito-modus-1737436/) - Bericht über mutmaßliche Privacy-Verstöße, bei denen Chatverläufe an Meta und Google flossen.
+- [Perplexity LLM-Suche](https://www.perplexity.ai/search/was-kannst-du-mir-zu-den-llm-m-L3NwvHbESzmBkTaUNsOvqQ) - Eine exemplarische Suchanfrage zu Eigenschaften aktueller Sprachmodelle.
+- [Claude Code & Obsidian als Zweites Gehirn (YouTube)](https://youtu.be/B_SbI0F0h4o?si=cnM9yxqQj7e2uzav) - Ein Tutorial, wie man das Obsidian-Vault mit Claude Code als RAG-Wissensbasis nutzt.
+
+---
+
+## 🧰 Tools & Plattformen
+- [NotebookLM](https://notebooklm.google.com/) - Das primäre Tool für geschlossene Wissensräume.
+- [OpenWebUI](https://openwebui.com/) - Lokales Interface für LLMs (ideal für Docker-Setups).
+- [OpenRouter](https://openrouter.ai/) - Unified API für fast alle relevanten Sprachmodelle.
+- [Perplexity AI](https://perplexity.ai/) - Die KI-gestützte Wissens- und Suchmaschine.
+- [Gemini](https://gemini.google.com/app) - Googles multimodales KI-Frontend.
+- [Claude.ai](https://claude.com/product/cowork) - Anthropic Co-Work-Features und Projekte.
+- [Moltbook](https://www.moltbook.com/) - Spezialisiertes Tool für strukturierte KI-Workflows.
+- [SearXNG](https://searxng.org/) - Die datenschutzfreundliche Metasuchmaschine für RAG.
+
+## 🛠️ Entwicklung, Frameworks & Agentik
+- [VS Code](https://code.visualstudio.com/) - Der Industriestandard-Editor für KI-Entwicklung.
+- [Antigravity](https://antigravity.google/)- Agentic Coding Assistant von Google DeepMind.
+- [OpenClaw](https://openclaw.ai/) - Framework für moderne agentische Anwendungen.
+- [OpenTuneWeaver](https://github.com/ProfEngel/OpenTuneWeaver) - Framework für Fine-Tuning und Datensatz-Aufbereitung.
+- [Unsloth](https://github.com/unslothai/unsloth) - Ultra-schnelles und speichereffizientes Fine-Tuning für LLMs (Llama, Mistral).
+- [AI Toolkit](https://github.com/ostris/ai-toolkit) - Vielseitiges Toolkit für professionelle KI-Workflows.
+
+## 🎨 Generative Medien (Bild & Video)
+### Native Plattformen
+- [ComfyUI](https://www.comfy.org/) - Das flexibelste, Knoten-basierte GUI für Stable Diffusion und Video-Gen.
+- [Invoke AI](https://github.com/invoke-ai/InvokeAI) - Professionelles Creative-Engine für visuelle KI-Inhalte.
+- [Higgsfield](https://higgsfield.ai/) - Innovative Plattform für High-End KI-Video-Generierung.
+- [Magnific AI Video Generator](https://www.magnific.com/de/app/ai-video-generator#from_element=mainmenu&from_view=pinned_tool) - SOTA Video-Generierung und High-End Upscaling.
+- [Adobe Firefly](https://www.adobe.com/de/products/firefly.html) - Adobes generative KI, nahtlos in Creative Cloud integriert.
+- [OpenArt](https://openart.ai/) - Plattform für KI-Bilderzeugung und Prompt-Discovery.
+- [Leonardo.ai](https://leonardo.ai/) - High-End Plattform für konsistente Charakter- und Asset-Erzeugung.
+- [Google Labs: Flow](https://labs.google/fx/de/tools/flow) - Experimentelle KI-Tools von Google (aktuell kostenlos für Bilder).
+
+### APIs mit Playground (Pay-per-use)
+- [Kie.ai](https://kie.ai/de) - Professionelle API für Stable Diffusion & Flux mit einfachem Playground.
+- [Fal.ai](https://fal.ai/dashboard) - Extrem schnelle Inference-API für Audio, Bild und Video.
+- [Magnific AI](https://www.magnific.com/) - Professionelles Upscaling und generative Verfeinerung.
+- [Leonardo.ai API](https://leonardo.ai) - Enterprise-API zur Integration der Leonardo-Modelle.
+
+### 🎬 Video-Schnitt & Post-Produktion (NLE)
+- [CapCut](https://www.capcut.com/) - All-in-One Videobearbeitung (Mobile First & Web).
+- [DaVinci Resolve](https://www.blackmagicdesign.com/de/products/davinciresolve) - Industriestandard für Color Grading und Highend-Schnitt.
+
+## ☁️ Cloud & Infrastruktur
+- [RunPod Pricing](https://www.runpod.io/pricing) - Preisübersicht für On-Demand GPU-Instanzen (Training & Inference).
+
+## 📚 Dokumentationen & Guides
+- [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) - Exzellente Strategien für Claude & Co.
+- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Offizielle Best Practices von OpenAI.
+- [Google Search Central: AI-generated Content](https://developers.google.com/search/blog/2023/02/google-search-and-ai-content) - Googles Sicht auf KI-Inhalte.
+
+## 🎨 Interaktive Visualisierungen & Benchmarks
+- [Transformer Explainer](https://poloclub.github.io/transformer-explainer/) - Interaktive Visualisierung der Transformer-Architektur.
+- [Embedding Projector](https://projector.tensorflow.org/) - Visualisierung hochdimensionaler Daten (Grundlage für RAG & Vektor-DBs).
+- [Neural Network Playground](https://playground.tensorflow.org/) - Training einfacher Netze im Browser erleben.
+- [OpenAI Tokenizer](https://platform.openai.com/tokenizer) - Wörter vs. Tokens visuell verstehen.
+- [Artificial Analysis](https://artificialanalysis.ai/) - Unabhängige Benchmarks für LLM Performance & Kosten.
+- [LMSYS Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmarena-ai/arena-leaderboard) - Menschliche Evaluation im Modellvergleich.
+
+## 📊 Test-Datensätze
+Für die Laborübungen nutzen wir verschiedene Datensätze zur Evaluation:
+- [Relmiad AG Rohdaten (Github)](https://github.com/ProfEngel/OpenTuneWeaver/tree/main/examples/relmiad_ag/raw_files)
+- [Weitere fiktive Beispiele](https://github.com/ProfEngel/OpenTuneWeaver/tree/main/examples/diverses/raw_files)
+- [KI-Literacy Demodokumente (Github)](https://github.com/ProfEngel/KI-Literacy/tree/main/demodokumente)
+- [Zentrale Datensammlung (ProfEngel Datasets)](https://github.com/ProfEngel/datasets)
+
+## 🔬 Forschung
+- [Lost in the Middle (Paper)](https://arxiv.org/abs/2307.03172) - Über die Kontext-Schwächen großer Modelle.
+- [Attention is All You Need (Paper)](https://arxiv.org/abs/1706.03762) - Das Fundament moderner LLMs.
+
+## 💡 Dies und das
+- [Anthropic Research: Emotion Concepts](https://www.anthropic.com/research/emotion-concepts-function) - Repräsentation emotionaler Konzepte in Modellen.
+- [AI in Conflict (Gaza Research)](https://www.qmul.ac.uk/media/news/2024/hss/gaza-war-israel-using-ai-to-identify-human-targets-raising-fears-that-innocents-are-being-caught-in-the-net.html) - Ethische Analyse von KI-Einsätzen.
+- [KI-Drohnen im Donbas (News-Bericht)](https://www.bild.de/politik/ausland-und-internationales/ki-drohnen-im-donbas-revolutionaere-technologie-der-ukraine-enthuellt-69329c8abdb9c3d5970e4999) - Autonome Waffensysteme.
+
+
+---
+
+## 🎵 Song- & Audioerzeugung
+### Cloud-Tools (Einstieg)
+- **[Suno](https://suno.com)** – Führende KI für komplette Songs mit Gesang.
+- **[Udio](https://udio.com)** – Hochwertige Arrangements und klangliche Tiefe.
+- **[Audimee](https://audimee.com)** – Spezialisiert auf Voice-Cloning und Identity-Transfer.
+
+### Professionelle Vocal Synthesis (Partitur & Detail-Kontrolle)
+- **[ACE Studio](https://acestudio.ai)** – High-End Gesangssynthese mit KI-Sängern.
+- **[Synthesizer V](https://dreamtonics.com/synthesizerv/)** – Der Industriestandard für virtuelle KI-Stimmen.
+- **[Vocoflex](https://dreamtonics.com/vocoflex/)** – Echtzeit-Stimm-Morphing und Charakter-Design.
+
+### Lokale Generierung & Experimentell
+- **[Stable Audio](https://stableaudio.com)** – Konsistente Instrumentals und Texturen.
+- **[Mozart AI](https://mozart.ai)** – Experimentelle Audio-Workflows.
+- **ComfyUI AceStep1.5 XL** – Lokale Node-basierte Audio-Generierung.
+
+---
+---
+[[Projekt_KI_VL]]

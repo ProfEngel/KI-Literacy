@@ -16,10 +16,13 @@ HTML-Präsentationen direkt auf GitHub Pages:
 
 - [Woche 1 · Einstieg](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w01/AA_W01_Einstieg.html)
 - [Woche 2 · Fundamente: Build & Check](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w02/AA_W02_Fundamente.html) – fünf praktische Stationen mit Prompts, Schaubildern und Übungen.
+- [Woche 3 · LLM und Prompting](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w03/AA_W03_LLM_und_Prompting.html) – interaktive LLM-Hebel, präzise Aufträge und eine lokal lauffähige HTML-Anwendung.
+- [Woche 4 · Agenten und Werkstätten](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w04/AA_W04_Agenten_und_Werkstaetten.html) – Harnesses, Memory, Werkzeuge, Härtetests und nachvollziehbarer Modell-/Versionsvergleich.
 
 Begleitmaterial für die Agentenwerkstatt:
 
 - [Event-Agent · Daten und Benchmark](https://profengel.github.io/KI-Literacy/materialien/w04-event-agent/) – synthetische Eventdaten, Werkzeuge, UI-freier Codex-Start, 30 Abnahmefälle und ein leeres Benchmark-Template für eigene Agenten. Noch keine vorgegebenen Modell-Ergebnisse oder Produktivfreigabe.
+- Direkt öffnen: [Benchmark-Cockpit · 30 Fälle](https://profengel.github.io/KI-Literacy/materialien/w04-event-agent/benchmark/index.html) · [Leeres Benchmark-Template](https://profengel.github.io/KI-Literacy/materialien/w04-event-agent/benchmark-template/index.html) · [Event-Agent herunterladen · ZIP](https://profengel.github.io/KI-Literacy/materialien/w04-event-agent/event-agent.zip).
 
 ### HR/WF Analytics · 4 SWS
 

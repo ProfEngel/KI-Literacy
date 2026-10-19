@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Folienreview</title><link rel="stylesheet" href="review-assets/review.css"><link rel="stylesheet" href="review-assets/theme.css"></head>
+<body>
+  <header class="reviewbar"><div class="identity"><strong id="deckName">Folienreview</strong><span id="slideLabel">Folie wird erkannt …</span></div><div class="review-controls"><label>Folie <select id="slideSelect" aria-label="Zu prüfende Folie"></select></label><label class="note-label">Anmerkung <input id="note" placeholder="Was soll hier anders werden?"></label><label>Priorität <select id="priority"><option value="Muss">Muss</option><option value="Soll" selected>Soll</option><option value="Idee">Idee</option></select></label><button id="saveNote">Hinweis merken</button><details id="cropTools" class="crop-tools" hidden><summary>Bild zuschneiden</summary><div class="crop-panel"><label>Bild<select id="cropImage"></select></label><label>Horizontal<input id="cropX" type="range" min="0" max="100" value="50"></label><label>Vertikal<input id="cropY" type="range" min="0" max="100" value="50"></label><label>Zoom<input id="cropZoom" type="range" min="100" max="200" value="100"></label><div><button id="saveCrop" type="button">Ausschnitt merken</button><button id="resetCrop" type="button">zurücksetzen</button></div></div></details><button id="themeToggle">◐ System</button><button id="printDeck">Drucken / PDF</button><button id="copyPrompt" class="primary">KI-Prompt erzeugen</button></div></header>
+  <aside class="note-tray" aria-label="Gespeicherte Hinweise"><div><strong>Änderungsliste</strong><span id="noteCount">0 Hinweise</span></div><ol id="notes"></ol><div class="tray-actions"><button id="downloadJson">JSON sichern</button><button id="clearNotes">Liste leeren</button></div></aside>
+  <main><iframe id="deck" title="Zu prüfende HTML-Präsentation" src="presentation.html"></iframe></main>
+  <template id="empty"><p class="empty">Noch keine Hinweise. Prüfe die Folien in Ruhe – die aktuelle Folie wird automatisch erkannt.</p></template>
+  <script src="review-assets/review.js"></script>
+</body>
+</html>

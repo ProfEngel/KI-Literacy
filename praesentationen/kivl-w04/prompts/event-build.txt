@@ -1,0 +1,125 @@
+Erweitere den einfachen Budgetrechner zu einem lokalen „Campus-Eventplaner“ als EINE vollständige HTML-Datei mit eingebettetem CSS und JavaScript. Kein LLM und keine externen Dienste zur Laufzeit.
+
+Verbindliche fiktive Daten:
+{
+  "rooms": [
+    {
+      "id": "R1",
+      "name": "Campusraum A",
+      "capacity": 40,
+      "hourly_eur": 80,
+      "accessible": true,
+      "opens": "09:00",
+      "closes": "20:00",
+      "equipment": [
+        "Beamer",
+        "WLAN"
+      ]
+    },
+    {
+      "id": "R2",
+      "name": "Campusforum",
+      "capacity": 80,
+      "hourly_eur": 140,
+      "accessible": true,
+      "opens": "08:00",
+      "closes": "22:00",
+      "equipment": [
+        "Beamer",
+        "Bühne",
+        "WLAN"
+      ]
+    },
+    {
+      "id": "R3",
+      "name": "Atelier",
+      "capacity": 20,
+      "hourly_eur": 50,
+      "accessible": false,
+      "opens": "10:00",
+      "closes": "18:00",
+      "equipment": [
+        "Whiteboard"
+      ]
+    },
+    {
+      "id": "R4",
+      "name": "Seminarraum B",
+      "capacity": 60,
+      "hourly_eur": 100,
+      "accessible": true,
+      "opens": "09:00",
+      "closes": "21:00",
+      "equipment": [
+        "Beamer",
+        "WLAN"
+      ]
+    }
+  ],
+  "catering": [
+    {
+      "id": "C1",
+      "name": "Campus-Snack",
+      "per_person_eur": 12,
+      "minimum_persons": 10,
+      "conditions": "Preis pro Person, mindestens zehn Personen; Getränke enthalten."
+    },
+    {
+      "id": "C2",
+      "name": "Abendbuffet",
+      "per_person_eur": 18,
+      "minimum_persons": 20,
+      "conditions": "Preis pro Person, mindestens zwanzig Personen; keine Zusatzleistungen enthalten."
+    },
+    {
+      "id": "C3",
+      "name": "Getränke",
+      "per_person_eur": 5,
+      "minimum_persons": 1,
+      "conditions": "Nur Getränke, kein Essen."
+    }
+  ],
+  "bookings": [
+    {
+      "id": "B01",
+      "event_id": "BESTAND01",
+      "room_id": "R1",
+      "date": "2026-11-06",
+      "start": "18:00",
+      "end": "20:00"
+    },
+    {
+      "id": "B02",
+      "event_id": "BESTAND02",
+      "room_id": "R2",
+      "date": "2026-11-06",
+      "start": "12:00",
+      "end": "14:00"
+    }
+  ],
+  "default_event": {
+    "id": "E01",
+    "title": "Campus-Kennenlernen",
+    "date": "2026-11-06",
+    "start": "10:00",
+    "end": "12:00",
+    "persons": 30,
+    "budget_eur": 600,
+    "room_id": "R1",
+    "catering_id": "C1",
+    "requires_accessible": true
+  }
+}
+
+Funktionen der Mindestversion:
+1. Raum, Catering, Personenzahl, Datum, Beginn, Ende, Budget und Barrierefreiheit eingeben.
+2. Raumkosten minutengenau aus Stundenpreis, Cateringkosten pro Person, Endbeträge auf Cent runden. Gesamtkosten und Rest anzeigen.
+3. Kapazität, Mindestmenge, Öffnungszeiten, Barrierefreiheit, Budget und bestehende Belegung prüfen. Ende muss am selben Tag nach Beginn liegen; direkt angrenzende Termine sind erlaubt. Fehler erklären statt Werte ungefragt zu verändern.
+4. Zwei Varianten A/B merken und Kosten sowie Regelbefunde vergleichen. Konfiguration als JSON exportieren/importieren. Keine Anmeldung oder echte Buchung.
+5. Responsiv, große Bedienelemente, sichtbare Labels und Tastaturbedienung.
+
+Abnahme: E01 in R1/C1 mit 30 Personen, 10–12 Uhr kostet 520 EUR; Rest 80 EUR. 41 Personen in R1 müssen scheitern. R1 am 06.11.2026 von 19–20 kollidiert, 16–18 darf direkt angrenzen. Budget 500 ergibt 20 EUR Überschreitung.
+
+Baue zuerst die vollständige Mindestversion. Danach höchstens eine sinnvolle visuelle Erweiterung, keine zusätzlichen Frameworks. Nenne nicht ausgeführte Tests ausdrücklich als Vorschläge.
+
+Gestaltung: clean, großzügiger Weißraum, Creme #F7F7F5, dunkler Text #182C33, Petrol #24666A, Salbei #DCEFE1, dezentes Gold #F4EAC8. Große lesbare Systemschrift, runde Ecken (18px), feine Schatten, klare Hierarchie. Kein Neon, keine Textwände. Tastatur, Touch und Klick unterstützen. Alle Dateien lokal, keine CDNs, externen Fonts, Tracker oder API-Schlüssel. Fiktive Daten sichtbar kennzeichnen. Liefere vollständige Datei(en) und konkrete Tests, keine angeblich schon durchgeführten Prüfungen ohne tatsächliche Ausführung.

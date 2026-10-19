@@ -1,0 +1,5 @@
+Menschlicher Vorbereitungsschritt in der Übungskopie: python3 event_tools.py memory-set budget:E01 500 --project P01
+
+Danach im Agenten-Harness: Prüfe E01 in P01 erneut. Nutze die aktuellen lokalen Daten und bestätigtes Memory; verändere nichts an anderen Projekten. Weise den Abruf nach. Frage zusätzlich: Welches Ergebnis entsteht bei einem neuen Auftrag in P02 ohne eigene Korrektur?
+
+Soll P01: 520 EUR Kosten, 20 EUR über Budget. Soll P02: Basisbudget 600, Rest 80. Diese Sollwerte dienen dem menschlichen Prüfer, nicht als Ersatz für echte Werkzeugausführung.

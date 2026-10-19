@@ -1,0 +1,699 @@
+[
+  {
+    "number": 1,
+    "id": "w03-cover",
+    "kind": "O",
+    "title": "LLM und Prompting: verstehen, ausprobieren, bauen",
+    "notes": "Begrüßen Sie mit dem konkreten Ziel: Heute entsteht ein benutzbares lokales Produkt. Keine Agentenarchitektur vorweg erklären. Fragen Sie, wer schon eine von KI erzeugte Datei tatsächlich außerhalb des Chats verwendet hat.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Einstieg",
+      "first": 1,
+      "last": 3,
+      "minutes": 5,
+      "start": 0,
+      "end": 5
+    }
+  },
+  {
+    "number": 2,
+    "id": "w03-agenda",
+    "kind": "O",
+    "title": "Erst experimentieren, dann eine eigene Anwendung bauen",
+    "notes": "Ordnen Sie die erste Hälfte als kurze Experimente, die zweite als längere Bauphase ein. Der Newsflash und zwei Demos folgen erst, wenn der große Bau läuft. Die Folien bleiben übersichtlich; Prompts und Erkenntnisse werden bei Bedarf aufgeklappt.",
+    "sources": [
+      "E1"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Einstieg",
+      "first": 1,
+      "last": 3,
+      "minutes": 5,
+      "start": 0,
+      "end": 5
+    }
+  },
+  {
+    "number": 3,
+    "id": "w03-question",
+    "kind": "R",
+    "title": "Wie wird aus einer ungenauen Anfrage eine zuverlässige Anwendung?",
+    "notes": "Initialfrage zunächst stehen lassen. Zwei spontane Vermutungen reichen; noch keine Musterlösung zeigen. Die Abschlussinfografik beantwortet dieselbe Frage anhand der Arbeitsschritte.",
+    "sources": [
+      "E1"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Einstieg",
+      "first": 1,
+      "last": 3,
+      "minutes": 5,
+      "start": 0,
+      "end": 5
+    }
+  },
+  {
+    "number": 4,
+    "id": "w03-token",
+    "kind": "T/I",
+    "title": "Text wird in modellabhängige Bausteine zerlegt",
+    "notes": "Lassen Sie zwei Bausteine einzeln entstehen. Machen Sie ausdrücklich klar, dass das Beispiel ein Spielzeug-Vokabular verwendet. Der tatsächliche Tokenizer ist modellabhängig; es gibt keine universelle Regel „vier Zeichen sind ein Token“.",
+    "sources": [
+      "P3"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Textbausteine und Bedeutungsraum",
+      "first": 4,
+      "last": 7,
+      "minutes": 18,
+      "start": 5,
+      "end": 23
+    }
+  },
+  {
+    "number": 5,
+    "id": "w03-space",
+    "kind": "T/I",
+    "title": "Ähnliche Verwendungen können ähnliche Repräsentationen erzeugen",
+    "notes": "Drehen Sie den Raum, wählen Sie Kaffee und Fußball. Fragen Sie, welche Nachbarn erwartet wurden. Die Zahlenbeispiele bezeichnen verschiedene Modellgrößen: interne Repräsentationsbreite versus ausgegebenen Text-Embedding-Vektor. Nicht gleichsetzen, keine Ähnlichkeitsmessung behaupten.",
+    "sources": [
+      "P1",
+      "P2"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Textbausteine und Bedeutungsraum",
+      "first": 4,
+      "last": 7,
+      "minutes": 18,
+      "start": 5,
+      "end": 23
+    }
+  },
+  {
+    "number": 6,
+    "id": "w03-mini-space",
+    "kind": "A",
+    "title": "Ein einfacher Prompt, zwei Zielgruppen",
+    "notes": "Starten Sie den kurzen Promptauftrag. Es geht nicht um ein neues HTML-Projekt, sondern um die unterschiedliche Verwendung derselben Begriffe. Lassen Sie vor dem Lesen eine erwartete Gruppierung nennen.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "label": "Textbausteine und Bedeutungsraum",
+      "first": 4,
+      "last": 7,
+      "minutes": 18,
+      "start": 5,
+      "end": 23
+    }
+  },
+  {
+    "number": 7,
+    "id": "w03-wrap-space",
+    "kind": "R",
+    "title": "Was erklärt die Wortkarte — und was nicht?",
+    "notes": "Wählen Sie eine Gruppe und einen mehrdeutigen Begriff. Ziel ist die Grenze der Metapher. Erst nach den studentischen Beispielen die Erkenntnis aufklappen.",
+    "sources": [
+      "P1",
+      "P2",
+      "E1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "label": "Textbausteine und Bedeutungsraum",
+      "first": 4,
+      "last": 7,
+      "minutes": 18,
+      "start": 5,
+      "end": 23
+    }
+  },
+  {
+    "number": 8,
+    "id": "w03-context",
+    "kind": "T/I",
+    "title": "Kontext ist die aktuelle Arbeitsfläche, nicht das ganze Archiv",
+    "notes": "Entfernen Sie zuerst den Chat-Verlauf, dann die Terminregel. Die Anzeige sagt nur, ob das Demo-Budget passt. Diskutieren Sie, warum ein kleiner passender Kontext nützlicher sein kann als ein großer irrelevanter. Das ist keine pauschale Garantie für kleine Modelle.",
+    "sources": [
+      "P3",
+      "E1"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Kontext und Attention",
+      "first": 8,
+      "last": 11,
+      "minutes": 18,
+      "start": 23,
+      "end": 41
+    }
+  },
+  {
+    "number": 9,
+    "id": "w03-attention",
+    "kind": "T/I",
+    "title": "Attention gewichtet Beziehungen zwischen Positionen",
+    "notes": "Wechseln Sie den Satz und klicken Sie auf das stärkere Bezugswort. Die Gewichte sind ausdrücklich schematisch. Vermeiden Sie die Behauptung, ein einzelner Head zeige die gesamte Begründung eines Modells.",
+    "sources": [
+      "P3",
+      "E1"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Kontext und Attention",
+      "first": 8,
+      "last": 11,
+      "minutes": 18,
+      "start": 23,
+      "end": 41
+    }
+  },
+  {
+    "number": 10,
+    "id": "w03-mini-context",
+    "kind": "A",
+    "title": "Der Auftrag kennt Deinen Termin noch nicht",
+    "notes": "Zwei getrennte Unterhaltungen machen den Kontextunterschied deutlicher. Die tatsächliche Antwort kann variieren. Studierende sollen gegebene Information von Ergänzungen unterscheiden, nicht einen vorhergesagten Text reproduzieren.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "label": "Kontext und Attention",
+      "first": 8,
+      "last": 11,
+      "minutes": 18,
+      "start": 23,
+      "end": 41
+    }
+  },
+  {
+    "number": 11,
+    "id": "w03-wrap-context",
+    "kind": "R",
+    "title": "Welche Information hat den Unterschied gemacht?",
+    "notes": "Lassen Sie zuerst einen konkreten Befund berichten. Fragen Sie nach der Herkunft der Angaben. Im Zielbefund sind 30 Personen, 600 EUR und der Termin gegeben; Raum/Catering werden gerechnet, weitere Anforderungen bleiben offen.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "label": "Kontext und Attention",
+      "first": 8,
+      "last": 11,
+      "minutes": 18,
+      "start": 23,
+      "end": 41
+    }
+  },
+  {
+    "number": 12,
+    "id": "w03-temperature",
+    "kind": "T/I",
+    "title": "Temperature verändert Verteilung, nicht Wahrheit",
+    "notes": "Starten Sie ohne Filter bei T=1. Vor der Änderung die erwartete Richtung nennen lassen. Setzen Sie dann T auf 0.3 und ziehen Sie wiederholt. Das Labor rechnet lokal, es verändert keine versteckte ChatGPT-Einstellung.",
+    "sources": [
+      "P4",
+      "E1"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Temperature, Top-k, Top-p",
+      "first": 12,
+      "last": 15,
+      "minutes": 18,
+      "start": 41,
+      "end": 59
+    }
+  },
+  {
+    "number": 13,
+    "id": "w03-sampling",
+    "kind": "T/I",
+    "title": "Top-k begrenzt Anzahl, Top-p kumulierte Wahrscheinlichkeit",
+    "notes": "Setzen Sie T=1 und k=2. Wechseln Sie anschließend auf p=0.7. Lassen Sie die verbleibenden Kandidaten erklären. Ein höherer Prozentwert beschreibt nicht die Chance einer richtigen Antwort, sondern eine Auswahlschwelle.",
+    "sources": [
+      "P4",
+      "E1"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Temperature, Top-k, Top-p",
+      "first": 12,
+      "last": 15,
+      "minutes": 18,
+      "start": 41,
+      "end": 59
+    }
+  },
+  {
+    "number": 14,
+    "id": "w03-mini-sampling",
+    "kind": "A/I",
+    "title": "Vermuten, verändern, wiederholt ziehen",
+    "notes": "Nutzen Sie das Parameterlabor auf der vorherigen Folie oder eine zweite Ansicht der Präsentation. Diese Übung benötigt keinen ChatGPT-Prompt zum angeblichen Verändern von API-Parametern. Auftragsvolltext enthält die fünf Schritte.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "label": "Temperature, Top-k, Top-p",
+      "first": 12,
+      "last": 15,
+      "minutes": 18,
+      "start": 41,
+      "end": 59
+    }
+  },
+  {
+    "number": 15,
+    "id": "w03-wrap-sampling",
+    "kind": "R",
+    "title": "Vielfalt, Wahrscheinlichkeit und Korrektheit unterscheiden",
+    "notes": "Unterscheiden Sie erwartete Wahrscheinlichkeit und beobachtete Häufigkeit. Fünfzig Ziehungen können sichtbar streuen. Beim Wechsel setzt das Labor die Zähler zurück, damit alte und neue Bedingungen nicht vermischt werden.",
+    "sources": [
+      "P4",
+      "E1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "label": "Temperature, Top-k, Top-p",
+      "first": 12,
+      "last": 15,
+      "minutes": 18,
+      "start": 41,
+      "end": 59
+    }
+  },
+  {
+    "number": 16,
+    "id": "w03-auftrag",
+    "kind": "T",
+    "title": "Ein Prompt beschreibt Aufgabe, Kontext, Ergebnis und Abnahme",
+    "notes": "Erklären Sie am Budgetrechner: Eine schöne Antwort ohne prüfbare Formel ist nicht genug. Rolle und Ton können helfen; sie ersetzen keine Daten und Kriterien. Der Bauplan ist ein Arbeitsmodell, kein universelles magisches Promptrezept.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Prompting vom Wunsch zum Auftrag",
+      "first": 16,
+      "last": 19,
+      "minutes": 16,
+      "start": 59,
+      "end": 75
+    }
+  },
+  {
+    "number": 17,
+    "id": "w03-beispiele",
+    "kind": "T/I",
+    "title": "Ein Beispiel verdeutlicht das gewünschte Muster",
+    "notes": "Stellen Sie den Unterschied nicht als bloß mehr Text dar: Es sind relevante Angaben und ein überprüfbares Beispiel. Kurze präzise Aufträge können besser sein als lange unklare. Verlangen Sie nachvollziehbare Berechnungen, kein verstecktes Gedankenprotokoll.",
+    "sources": [
+      "E1"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Prompting vom Wunsch zum Auftrag",
+      "first": 16,
+      "last": 19,
+      "minutes": 16,
+      "start": 59,
+      "end": 75
+    }
+  },
+  {
+    "number": 18,
+    "id": "w03-mini-build",
+    "kind": "A",
+    "title": "Baue einen kleinen Budgetrechner",
+    "notes": "Kurzer erster Dateibau. Verfügbarkeit der Dateiausgabe kann je Client variieren; Code speichern ist der Rückfallweg. Die spätere große Aufgabe baut auf diesen Eingaben auf. Timer nicht während einer ungeklärten Installation starten.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "label": "Prompting vom Wunsch zum Auftrag",
+      "first": 16,
+      "last": 19,
+      "minutes": 16,
+      "start": 59,
+      "end": 75
+    }
+  },
+  {
+    "number": 19,
+    "id": "w03-wrap-prompt",
+    "kind": "R",
+    "title": "Funktioniert die Rechnung im Gegenbeispiel?",
+    "notes": "Rechnen Sie den Basiswert sichtbar nach. Ein Rechner, der NaN oder eine leere Erfolgsmeldung zeigt, benötigt Verbesserung. Unterschiede zwischen optischer Qualität und Funktionsqualität ansprechen.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "label": "Prompting vom Wunsch zum Auftrag",
+      "first": 16,
+      "last": 19,
+      "minutes": 16,
+      "start": 59,
+      "end": 75
+    }
+  },
+  {
+    "number": 20,
+    "id": "w03-pause",
+    "kind": "O",
+    "title": "Pause",
+    "notes": "Pause Minute 75–90. Keine Aufgaben oder Nachrichten in die Pause legen.",
+    "sources": [
+      "E1"
+    ],
+    "timer": 900,
+    "window": {
+      "label": "Pause",
+      "first": 20,
+      "last": 20,
+      "minutes": 15,
+      "start": 75,
+      "end": 90
+    }
+  },
+  {
+    "number": 21,
+    "id": "w03-eventziel",
+    "kind": "T/I",
+    "title": "Unser Eventplaner muss fünf Dinge können",
+    "notes": "Zeigen Sie nur das Zielbild und die Abnahmekriterien. Lernwerkstatt und Fußballtafel jetzt noch nicht öffnen: Diese Beispiele kommen während der laufenden Generierung. Mindestversion klein halten; Erweiterungen erst nach funktionierendem Kern.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Große Anwendung: Ziel und Abnahmekriterien",
+      "first": 21,
+      "last": 21,
+      "minutes": 5,
+      "start": 90,
+      "end": 95
+    }
+  },
+  {
+    "number": 22,
+    "id": "w03-build",
+    "kind": "A/I",
+    "title": "Vom Mini-Rechner zum Campus-Eventplaner",
+    "notes": "Minute 95–98: Bau-Prompt starten und prüfen, ob alle Aufträge laufen. 98–106: Newsflash mit vorhandenen kurzen Links. 106–116: Lernwerkstatt und Fußballtafel, je etwa fünf Minuten. 116–125: eigene Ergebnisse öffnen und erste Funktionen bedienen. News und Demos liegen IN der Bauzeit. Bei Problemen zuerst helfen. Für schnell fertige Tandems: freiwilliger erster Prüfblick, keine doppelte komplexe Aufgabe. Danach erst gemeinsamer Test.",
+    "sources": [
+      "E1",
+      "R2",
+      "R3",
+      "M1"
+    ],
+    "timer": 1800,
+    "window": {
+      "label": "Bauen, darin Newsflash und Beispieldemos",
+      "first": 22,
+      "last": 22,
+      "minutes": 30,
+      "start": 95,
+      "end": 125
+    }
+  },
+  {
+    "number": 23,
+    "id": "w03-wrap-build",
+    "kind": "R",
+    "title": "Ist die Mindestversion benutzbar?",
+    "notes": "Lassen Sie ein Ergebnis kurz zeigen. Bei langsamen oder defekten Generationen die lokale Muster-App verwenden, damit die Testphase für alle möglich bleibt. Fünf Minuten, keine neue Funktionswunschliste.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "label": "Bau-Wrap-up",
+      "first": 23,
+      "last": 23,
+      "minutes": 5,
+      "start": 125,
+      "end": 130
+    }
+  },
+  {
+    "number": 24,
+    "id": "w03-test",
+    "kind": "A",
+    "title": "Bringe die Anwendung gezielt an ihre Grenzen",
+    "notes": "Acht Minuten reichen für eine verteilte Testmenge. Geben Sie jedem Tandem zwei Fälle, sammeln Sie danach. Die Kernwerte sind im Auftragsvolltext. Keine nicht ausgeführten Tests als bestanden markieren.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": 480,
+    "window": {
+      "label": "Anwendung testen",
+      "first": 24,
+      "last": 24,
+      "minutes": 8,
+      "start": 130,
+      "end": 138
+    }
+  },
+  {
+    "number": 25,
+    "id": "w03-wrap-test",
+    "kind": "R",
+    "title": "Welcher Fehler wurde sichtbar?",
+    "notes": "Unterscheiden Sie Anwendungsfehler und falsche Testannahme. Direkt angrenzende Termine sind im Lehrfall erlaubt. Aus einer beobachteten Störung nicht sofort eine allgemeine Modellschwäche ableiten.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "label": "Test-Wrap-up",
+      "first": 25,
+      "last": 25,
+      "minutes": 5,
+      "start": 138,
+      "end": 143
+    }
+  },
+  {
+    "number": 26,
+    "id": "w03-optimize",
+    "kind": "A",
+    "title": "Repariere den Fehler, nicht die ganze Anwendung",
+    "notes": "Zehn Minuten Reparatur. Keine vollständige Neugestaltung auf Verdacht. Wenn der Build länger dauert, können Sie einen kurzen bekannten Fehlerbefund vorführen; die Rückfall-App bleibt verfügbar.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": 600,
+    "window": {
+      "label": "Gezielte Verbesserung",
+      "first": 26,
+      "last": 26,
+      "minutes": 10,
+      "start": 143,
+      "end": 153
+    }
+  },
+  {
+    "number": 27,
+    "id": "w03-wrap-optimize",
+    "kind": "R",
+    "title": "Wurde es besser, ohne anderes zu beschädigen?",
+    "notes": "Erst tatsächliche Wirkung erfragen, dann Zielerkenntnis aufklappen. Falls nichts besser wurde: Auch ein sauber belegter negativer Befund ist wertvoll. Keine Verbesserung erfinden.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "label": "Verbesserungs-Wrap-up",
+      "first": 27,
+      "last": 27,
+      "minutes": 5,
+      "start": 153,
+      "end": 158
+    }
+  },
+  {
+    "number": 28,
+    "id": "w03-peer",
+    "kind": "A",
+    "title": "Ein anderes Tandem bedient Deinen Planer",
+    "notes": "Fünf Minuten, Rollen wechseln. Es geht nicht um Geschmack, sondern um Bedienbarkeit und Funktion. Ein konkreter beobachteter Stolperpunkt reicht.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "label": "Peer-Review",
+      "first": 28,
+      "last": 28,
+      "minutes": 5,
+      "start": 158,
+      "end": 163
+    }
+  },
+  {
+    "number": 29,
+    "id": "w03-wrap-peer",
+    "kind": "R",
+    "title": "Welche Änderung half wirklich?",
+    "notes": "Eine Ergebnisdemo und ein Gegenbeispiel auswählen. Fünf Minuten, anschließend bewusst zum lokalen Ausblick überleiten.",
+    "sources": [
+      "E1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "label": "Peer-Wrap-up / kurze Ergebnisdemo",
+      "first": 29,
+      "last": 29,
+      "minutes": 5,
+      "start": 163,
+      "end": 168
+    }
+  },
+  {
+    "number": 30,
+    "id": "w03-local",
+    "kind": "I",
+    "title": "Die Hebel an einem lokalen Modell sehen",
+    "notes": "Minute 168–172: vorbereiteten kleinen Ollama-Kandidaten zeigen, Kontext und Temperature am konkreten Modell erläutern. Modellberater in der Folie öffnen: Intelligence/Speed/Cost, Open Weights und agentische Fähigkeiten. Hardware-Passung anschließend anhand der separaten Hardwareansicht prüfen. Keine langen Downloads im Unterricht; Websuche/Cloud sind nicht rein lokal.",
+    "sources": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "AA1"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Lokaler Ausblick Ollama / LM Studio",
+      "first": 30,
+      "last": 31,
+      "minutes": 8,
+      "start": 168,
+      "end": 176
+    }
+  },
+  {
+    "number": 31,
+    "id": "w03-lmstudio",
+    "kind": "I",
+    "title": "Lokal ausprobieren — wenn Hardware und Interesse passen",
+    "notes": "Minute 172–176: LM Studio nur kurz. Die freiwillige Aufgabe führt zu W04: Welches kleine lokale Modell könnte einen präzisen Teilauftrag ausführen? Keinen Kauf oder Pflichtdownload voraussetzen. Verfügbare Toolfähigkeiten prüfen.",
+    "sources": [
+      "L1",
+      "L2",
+      "L5",
+      "L6",
+      "M1",
+      "AA1"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Lokaler Ausblick Ollama / LM Studio",
+      "first": 30,
+      "last": 31,
+      "minutes": 8,
+      "start": 168,
+      "end": 176
+    }
+  },
+  {
+    "number": 32,
+    "id": "w03-transfer",
+    "kind": "R",
+    "title": "Wann braucht die Anwendung noch ein LLM?",
+    "notes": "Die zentrale Trennung ausdrücklich ansprechen: Eine von KI gebaute Anwendung muss nicht selbst KI enthalten. Umgekehrt ist ein hübsches Agenten-Dashboard noch kein Beleg für echte Modell- oder Toolausführung.",
+    "sources": [
+      "E1"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Transfer, Big Picture und Quellen",
+      "first": 32,
+      "last": 34,
+      "minutes": 4,
+      "start": 176,
+      "end": 180
+    }
+  },
+  {
+    "number": 33,
+    "id": "w03-bigpicture",
+    "kind": "R",
+    "title": "Text → Kontext → Auswahl → Auftrag → Anwendung → Prüfung",
+    "notes": "Initialfrage erneut beantworten. Keine neue Theorie. Folgen Sie kurz dem Weg von Sprache über Kontext und Auswahl bis zum prüfbaren Produkt. Die Infografik ist tatsächlich generiert; genaue Mechanismen wurden zuvor im HTML-Labor ausprobiert.",
+    "sources": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "E1",
+      "M1"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Transfer, Big Picture und Quellen",
+      "first": 32,
+      "last": 34,
+      "minutes": 4,
+      "start": 176,
+      "end": 180
+    }
+  },
+  {
+    "number": 34,
+    "id": "w03-sources",
+    "kind": "O",
+    "title": "Quellen und Weiterlernen",
+    "notes": "Quellen sind auch offline im lokalen Anhang lesbar; Original-Webseiten benötigen Internet. Die Modell-/Produktlinks sind zeitabhängig und sollten vor der Veranstaltung erneut geprüft werden. Keine neue September-1600-Zeichen-Behauptung einführen.",
+    "sources": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "timer": null,
+    "window": {
+      "label": "Transfer, Big Picture und Quellen",
+      "first": 32,
+      "last": 34,
+      "minutes": 4,
+      "start": 176,
+      "end": 180
+    }
+  }
+]
