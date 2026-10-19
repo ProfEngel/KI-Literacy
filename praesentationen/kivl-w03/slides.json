@@ -11,12 +11,12 @@
     ],
     "timer": null,
     "window": {
-      "label": "Einstieg",
       "first": 1,
       "last": 3,
-      "minutes": 5,
       "start": 0,
-      "end": 5
+      "end": 5,
+      "minutes": 5,
+      "label": "Einstieg"
     }
   },
   {
@@ -30,12 +30,12 @@
     ],
     "timer": null,
     "window": {
-      "label": "Einstieg",
       "first": 1,
       "last": 3,
-      "minutes": 5,
       "start": 0,
-      "end": 5
+      "end": 5,
+      "minutes": 5,
+      "label": "Einstieg"
     }
   },
   {
@@ -49,12 +49,12 @@
     ],
     "timer": null,
     "window": {
-      "label": "Einstieg",
       "first": 1,
       "last": 3,
-      "minutes": 5,
       "start": 0,
-      "end": 5
+      "end": 5,
+      "minutes": 5,
+      "label": "Einstieg"
     }
   },
   {
@@ -64,16 +64,17 @@
     "title": "Text wird in modellabhängige Bausteine zerlegt",
     "notes": "Lassen Sie zwei Bausteine einzeln entstehen. Machen Sie ausdrücklich klar, dass das Beispiel ein Spielzeug-Vokabular verwendet. Der tatsächliche Tokenizer ist modellabhängig; es gibt keine universelle Regel „vier Zeichen sind ein Token“.",
     "sources": [
-      "P3"
+      "P3",
+      "REV-TOK"
     ],
     "timer": null,
     "window": {
-      "label": "Textbausteine und Bedeutungsraum",
       "first": 4,
       "last": 7,
-      "minutes": 18,
       "start": 5,
-      "end": 23
+      "end": 20,
+      "minutes": 15,
+      "label": "Textbausteine / Bedeutungsraum"
     }
   },
   {
@@ -88,12 +89,12 @@
     ],
     "timer": null,
     "window": {
-      "label": "Textbausteine und Bedeutungsraum",
       "first": 4,
       "last": 7,
-      "minutes": 18,
       "start": 5,
-      "end": 23
+      "end": 20,
+      "minutes": 15,
+      "label": "Textbausteine / Bedeutungsraum"
     }
   },
   {
@@ -108,12 +109,12 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Textbausteine und Bedeutungsraum",
       "first": 4,
       "last": 7,
-      "minutes": 18,
       "start": 5,
-      "end": 23
+      "end": 20,
+      "minutes": 15,
+      "label": "Textbausteine / Bedeutungsraum"
     }
   },
   {
@@ -130,12 +131,12 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Textbausteine und Bedeutungsraum",
       "first": 4,
       "last": 7,
-      "minutes": 18,
       "start": 5,
-      "end": 23
+      "end": 20,
+      "minutes": 15,
+      "label": "Textbausteine / Bedeutungsraum"
     }
   },
   {
@@ -143,19 +144,25 @@
     "id": "w03-context",
     "kind": "T/I",
     "title": "Kontext ist die aktuelle Arbeitsfläche, nicht das ganze Archiv",
-    "notes": "Entfernen Sie zuerst den Chat-Verlauf, dann die Terminregel. Die Anzeige sagt nur, ob das Demo-Budget passt. Diskutieren Sie, warum ein kleiner passender Kontext nützlicher sein kann als ein großer irrelevanter. Das ist keine pauschale Garantie für kleine Modelle.",
+    "notes": "Zuerst 32k auswählen: Restbudget mit A4/Tesla vergleichen. Dann 128k/1M. Die Zahlen sind nicht gleichbedeutend mit dem Limit des eigenen Produkts. Tesla-Messmethodik und explizite Buchannahme über Info öffnen; Text- und Bildkosten unterscheiden. Danach zur Arbeitsfläche wechseln.",
     "sources": [
       "P3",
-      "E1"
+      "E1",
+      "REV-GEM",
+      "REV-CTX",
+      "REV-CODEX",
+      "REV-CHAT",
+      "REV-TSLA",
+      "REV-HP"
     ],
     "timer": null,
     "window": {
-      "label": "Kontext und Attention",
       "first": 8,
       "last": 11,
-      "minutes": 18,
-      "start": 23,
-      "end": 41
+      "start": 20,
+      "end": 35,
+      "minutes": 15,
+      "label": "Kontext / Attention"
     }
   },
   {
@@ -163,19 +170,19 @@
     "id": "w03-attention",
     "kind": "T/I",
     "title": "Attention gewichtet Beziehungen zwischen Positionen",
-    "notes": "Wechseln Sie den Satz und klicken Sie auf das stärkere Bezugswort. Die Gewichte sind ausdrücklich schematisch. Vermeiden Sie die Behauptung, ein einzelner Head zeige die gesamte Begründung eines Modells.",
+    "notes": "Zwei unterschiedlich lange deutsche Bank-Sätze wechseln. Im Kreditsatz steht das stärkste Bezugswort früh, im Parksatz spät. Zielwort Bank ist petrol umrandet; warme Markierung zeigt das jeweils stärkste Bezugswort. Gewichte sind frei gesetzte Lehrwerte, keine aus einem Modell gemessene Erklärung.",
     "sources": [
       "P3",
       "E1"
     ],
     "timer": null,
     "window": {
-      "label": "Kontext und Attention",
       "first": 8,
       "last": 11,
-      "minutes": 18,
-      "start": 23,
-      "end": 41
+      "start": 20,
+      "end": 35,
+      "minutes": 15,
+      "label": "Kontext / Attention"
     }
   },
   {
@@ -190,12 +197,12 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Kontext und Attention",
       "first": 8,
       "last": 11,
-      "minutes": 18,
-      "start": 23,
-      "end": 41
+      "start": 20,
+      "end": 35,
+      "minutes": 15,
+      "label": "Kontext / Attention"
     }
   },
   {
@@ -210,12 +217,12 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Kontext und Attention",
       "first": 8,
       "last": 11,
-      "minutes": 18,
-      "start": 23,
-      "end": 41
+      "start": 20,
+      "end": 35,
+      "minutes": 15,
+      "label": "Kontext / Attention"
     }
   },
   {
@@ -226,16 +233,17 @@
     "notes": "Starten Sie ohne Filter bei T=1. Vor der Änderung die erwartete Richtung nennen lassen. Setzen Sie dann T auf 0.3 und ziehen Sie wiederholt. Das Labor rechnet lokal, es verändert keine versteckte ChatGPT-Einstellung.",
     "sources": [
       "P4",
-      "E1"
+      "E1",
+      "P3"
     ],
     "timer": null,
     "window": {
-      "label": "Temperature, Top-k, Top-p",
       "first": 12,
       "last": 15,
-      "minutes": 18,
-      "start": 41,
-      "end": 59
+      "start": 35,
+      "end": 50,
+      "minutes": 15,
+      "label": "Sampling"
     }
   },
   {
@@ -250,12 +258,12 @@
     ],
     "timer": null,
     "window": {
-      "label": "Temperature, Top-k, Top-p",
       "first": 12,
       "last": 15,
-      "minutes": 18,
-      "start": 41,
-      "end": 59
+      "start": 35,
+      "end": 50,
+      "minutes": 15,
+      "label": "Sampling"
     }
   },
   {
@@ -270,12 +278,12 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Temperature, Top-k, Top-p",
       "first": 12,
       "last": 15,
-      "minutes": 18,
-      "start": 41,
-      "end": 59
+      "start": 35,
+      "end": 50,
+      "minutes": 15,
+      "label": "Sampling"
     }
   },
   {
@@ -291,12 +299,12 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Temperature, Top-k, Top-p",
       "first": 12,
       "last": 15,
-      "minutes": 18,
-      "start": 41,
-      "end": 59
+      "start": 35,
+      "end": 50,
+      "minutes": 15,
+      "label": "Sampling"
     }
   },
   {
@@ -307,16 +315,18 @@
     "notes": "Erklären Sie am Budgetrechner: Eine schöne Antwort ohne prüfbare Formel ist nicht genug. Rolle und Ton können helfen; sie ersetzen keine Daten und Kriterien. Der Bauplan ist ein Arbeitsmodell, kein universelles magisches Promptrezept.",
     "sources": [
       "E1",
+      "REV-PROMPT",
+      "REV-ROCKET",
       "M1"
     ],
     "timer": null,
     "window": {
-      "label": "Prompting vom Wunsch zum Auftrag",
       "first": 16,
       "last": 19,
-      "minutes": 16,
-      "start": 59,
-      "end": 75
+      "start": 50,
+      "end": 65,
+      "minutes": 15,
+      "label": "Prompting"
     }
   },
   {
@@ -326,16 +336,17 @@
     "title": "Ein Beispiel verdeutlicht das gewünschte Muster",
     "notes": "Stellen Sie den Unterschied nicht als bloß mehr Text dar: Es sind relevante Angaben und ein überprüfbares Beispiel. Kurze präzise Aufträge können besser sein als lange unklare. Verlangen Sie nachvollziehbare Berechnungen, kein verstecktes Gedankenprotokoll.",
     "sources": [
-      "E1"
+      "E1",
+      "REV-PROMPT"
     ],
     "timer": null,
     "window": {
-      "label": "Prompting vom Wunsch zum Auftrag",
       "first": 16,
       "last": 19,
-      "minutes": 16,
-      "start": 59,
-      "end": 75
+      "start": 50,
+      "end": 65,
+      "minutes": 15,
+      "label": "Prompting"
     }
   },
   {
@@ -350,12 +361,12 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Prompting vom Wunsch zum Auftrag",
       "first": 16,
       "last": 19,
-      "minutes": 16,
-      "start": 59,
-      "end": 75
+      "start": 50,
+      "end": 65,
+      "minutes": 15,
+      "label": "Prompting"
     }
   },
   {
@@ -370,35 +381,16 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Prompting vom Wunsch zum Auftrag",
       "first": 16,
       "last": 19,
-      "minutes": 16,
-      "start": 59,
-      "end": 75
+      "start": 50,
+      "end": 65,
+      "minutes": 15,
+      "label": "Prompting"
     }
   },
   {
     "number": 20,
-    "id": "w03-pause",
-    "kind": "O",
-    "title": "Pause",
-    "notes": "Pause Minute 75–90. Keine Aufgaben oder Nachrichten in die Pause legen.",
-    "sources": [
-      "E1"
-    ],
-    "timer": 900,
-    "window": {
-      "label": "Pause",
-      "first": 20,
-      "last": 20,
-      "minutes": 15,
-      "start": 75,
-      "end": 90
-    }
-  },
-  {
-    "number": 21,
     "id": "w03-eventziel",
     "kind": "T/I",
     "title": "Unser Eventplaner muss fünf Dinge können",
@@ -409,34 +401,59 @@
     ],
     "timer": null,
     "window": {
-      "label": "Große Anwendung: Ziel und Abnahmekriterien",
-      "first": 21,
-      "last": 21,
+      "first": 20,
+      "last": 20,
+      "start": 80,
+      "end": 85,
       "minutes": 5,
-      "start": 90,
-      "end": 95
+      "label": "Fünf Fähigkeiten"
     }
   },
   {
-    "number": 22,
+    "number": 21,
     "id": "w03-build",
     "kind": "A/I",
     "title": "Vom Mini-Rechner zum Campus-Eventplaner",
-    "notes": "Minute 95–98: Bau-Prompt starten und prüfen, ob alle Aufträge laufen. 98–106: Newsflash mit vorhandenen kurzen Links. 106–116: Lernwerkstatt und Fußballtafel, je etwa fünf Minuten. 116–125: eigene Ergebnisse öffnen und erste Funktionen bedienen. News und Demos liegen IN der Bauzeit. Bei Problemen zuerst helfen. Für schnell fertige Tandems: freiwilliger erster Prüfblick, keine doppelte komplexe Aufgabe. Danach erst gemeinsamer Test.",
+    "notes": "85–88 Bau starten und Setup prüfen. 88–94 kurzer Newsflash. 94–102 Lernwerkstatt/Fußballtafel, je vier Minuten, erst während des Baus. 102–110 eigene Mindestversion öffnen. Noch kein blindes Publishing; eigener Repo-/Pages-Schritt folgt mit separater Freigabe. Bei technischen Problemen News kürzen.",
     "sources": [
       "E1",
       "R2",
       "R3",
+      "REV-PWA",
+      "REV-SW",
       "M1"
     ],
-    "timer": 1800,
+    "timer": 1500,
     "window": {
-      "label": "Bauen, darin Newsflash und Beispieldemos",
+      "first": 21,
+      "last": 21,
+      "start": 85,
+      "end": 110,
+      "minutes": 25,
+      "label": "Bau mit Newsflash und Demos"
+    }
+  },
+  {
+    "number": 22,
+    "id": "w03-deploy",
+    "kind": "A/I",
+    "title": "Vom Projektordner zur installierbaren Offline-App",
+    "notes": "110–120: Zeigen Sie den sicheren Ablauf Account → Login → Repo-/Dateiprüfung → explizite Veröffentlichungsfreigabe → Pages → Installation → Offline-Neustart. Keine Passwörter/Tokens an KI geben. Ohne Zugang die vorbereitete PWA prüfen; Konto ggf. anschließend selbst anlegen. Ein statisches Pages-Repo führt keinen Python-Agentenserver aus.",
+    "sources": [
+      "E1",
+      "REV-PWA",
+      "REV-SW",
+      "REV-GH",
+      "M1"
+    ],
+    "timer": 600,
+    "window": {
       "first": 22,
       "last": 22,
-      "minutes": 30,
-      "start": 95,
-      "end": 125
+      "start": 110,
+      "end": 120,
+      "minutes": 10,
+      "label": "GitHub / Pages / Offline-PWA"
     }
   },
   {
@@ -451,12 +468,12 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Bau-Wrap-up",
       "first": 23,
       "last": 23,
+      "start": 120,
+      "end": 125,
       "minutes": 5,
-      "start": 125,
-      "end": 130
+      "label": "Bau-Wrap-up"
     }
   },
   {
@@ -464,19 +481,19 @@
     "id": "w03-test",
     "kind": "A",
     "title": "Bringe die Anwendung gezielt an ihre Grenzen",
-    "notes": "Acht Minuten reichen für eine verteilte Testmenge. Geben Sie jedem Tandem zwei Fälle, sammeln Sie danach. Die Kernwerte sind im Auftragsvolltext. Keine nicht ausgeführten Tests als bestanden markieren.",
+    "notes": "Acht Minuten reichen für eine verteilte Testmenge. Geben Sie jedem Person zwei Fälle, sammeln Sie danach. Die Kernwerte sind im Auftragsvolltext. Keine nicht ausgeführten Tests als bestanden markieren.",
     "sources": [
       "E1",
       "M1"
     ],
     "timer": 480,
     "window": {
-      "label": "Anwendung testen",
       "first": 24,
       "last": 24,
+      "start": 125,
+      "end": 133,
       "minutes": 8,
-      "start": 130,
-      "end": 138
+      "label": "Anwendung testen"
     }
   },
   {
@@ -489,14 +506,14 @@
       "E1",
       "M1"
     ],
-    "timer": 300,
+    "timer": 180,
     "window": {
-      "label": "Test-Wrap-up",
       "first": 25,
       "last": 25,
-      "minutes": 5,
-      "start": 138,
-      "end": 143
+      "start": 133,
+      "end": 136,
+      "minutes": 3,
+      "label": "Test-Wrap-up"
     }
   },
   {
@@ -509,14 +526,14 @@
       "E1",
       "M1"
     ],
-    "timer": 600,
+    "timer": 480,
     "window": {
-      "label": "Gezielte Verbesserung",
       "first": 26,
       "last": 26,
-      "minutes": 10,
-      "start": 143,
-      "end": 153
+      "start": 136,
+      "end": 144,
+      "minutes": 8,
+      "label": "Gezielte Verbesserung"
     }
   },
   {
@@ -529,34 +546,34 @@
       "E1",
       "M1"
     ],
-    "timer": 300,
+    "timer": 180,
     "window": {
-      "label": "Verbesserungs-Wrap-up",
       "first": 27,
       "last": 27,
-      "minutes": 5,
-      "start": 153,
-      "end": 158
+      "start": 144,
+      "end": 147,
+      "minutes": 3,
+      "label": "Verbesserungs-Wrap-up"
     }
   },
   {
     "number": 28,
     "id": "w03-peer",
     "kind": "A",
-    "title": "Ein anderes Tandem bedient Deinen Planer",
-    "notes": "Fünf Minuten, Rollen wechseln. Es geht nicht um Geschmack, sondern um Bedienbarkeit und Funktion. Ein konkreter beobachteter Stolperpunkt reicht.",
+    "title": "Eine andere Person testet Deine App",
+    "notes": "147–152: Jede Person holt Rückmeldung einer anderen Person ein. Keine vorgeschriebene Zweiergruppe und kein gemeinsamer Entwicklungsauftrag. Erst beobachten, dann gezielt nachfragen. Keine Namen erfassen.",
     "sources": [
       "E1",
       "M1"
     ],
     "timer": 300,
     "window": {
-      "label": "Peer-Review",
       "first": 28,
       "last": 28,
+      "start": 147,
+      "end": 152,
       "minutes": 5,
-      "start": 158,
-      "end": 163
+      "label": "Test durch andere Person"
     }
   },
   {
@@ -564,27 +581,27 @@
     "id": "w03-wrap-peer",
     "kind": "R",
     "title": "Welche Änderung half wirklich?",
-    "notes": "Eine Ergebnisdemo und ein Gegenbeispiel auswählen. Fünf Minuten, anschließend bewusst zum lokalen Ausblick überleiten.",
+    "notes": "152–155: Eine konkrete Beobachtung aus dem Fragebogen berichten lassen und erst dann die Erkenntnis aufklappen.",
     "sources": [
       "E1",
       "M1"
     ],
-    "timer": 300,
+    "timer": 180,
     "window": {
-      "label": "Peer-Wrap-up / kurze Ergebnisdemo",
       "first": 29,
       "last": 29,
-      "minutes": 5,
-      "start": 163,
-      "end": 168
+      "start": 152,
+      "end": 155,
+      "minutes": 3,
+      "label": "Feedback-Wrap-up"
     }
   },
   {
     "number": 30,
     "id": "w03-local",
     "kind": "I",
-    "title": "Die Hebel an einem lokalen Modell sehen",
-    "notes": "Minute 168–172: vorbereiteten kleinen Ollama-Kandidaten zeigen, Kontext und Temperature am konkreten Modell erläutern. Modellberater in der Folie öffnen: Intelligence/Speed/Cost, Open Weights und agentische Fähigkeiten. Hardware-Passung anschließend anhand der separaten Hardwareansicht prüfen. Keine langen Downloads im Unterricht; Websuche/Cloud sind nicht rein lokal.",
+    "title": "Offene Gewichte: selbst betreiben und passend begrenzen",
+    "notes": "155–165: Warum Anbieter Gewichte freigeben: Verbreitung, Forschung, Anpassung und Ökosystem; Motive unterscheiden sich. Open Weight ist nicht automatisch Open Source oder kostenloser Betrieb. Kandidat in AA wählen, Hardware/Quantisierung/Kontext prüfen, dann bekannten Test in Ollama ausführen. Nicht pauschal kleinere Modelle als schlechter oder besser bezeichnen.",
     "sources": [
       "L1",
       "L2",
@@ -592,40 +609,44 @@
       "L4",
       "L5",
       "L6",
-      "AA1"
+      "REV-OSS",
+      "AA1",
+      "M1"
     ],
     "timer": null,
     "window": {
-      "label": "Lokaler Ausblick Ollama / LM Studio",
       "first": 30,
       "last": 31,
-      "minutes": 8,
-      "start": 168,
-      "end": 176
+      "start": 155,
+      "end": 175,
+      "minutes": 20,
+      "label": "Open Weights / Cloud / lokal"
     }
   },
   {
     "number": 31,
     "id": "w03-lmstudio",
     "kind": "I",
-    "title": "Lokal ausprobieren — wenn Hardware und Interesse passen",
-    "notes": "Minute 172–176: LM Studio nur kurz. Die freiwillige Aufgabe führt zu W04: Welches kleine lokale Modell könnte einen präzisen Teilauftrag ausführen? Keinen Kauf oder Pflichtdownload voraussetzen. Verfügbare Toolfähigkeiten prüfen.",
+    "title": "Cloud und lokal: Stärken, Grenzen und passender Einsatz",
+    "notes": "165–175: Dieselbe Aufgabe in Cloud und vorbereitetem lokalem Modell vergleichen. Kontext und Temperature in Ollama zeigen; Cloud-/Websuche als externe Verarbeitung benennen. LM Studio am Ende kurz als alternative lokale Oberfläche. Freiwilliger Heimtest, keine Kauf-/Installationspflicht.",
     "sources": [
       "L1",
       "L2",
       "L5",
       "L6",
+      "REV-OSS",
+      "REV-CTX",
       "M1",
       "AA1"
     ],
     "timer": null,
     "window": {
-      "label": "Lokaler Ausblick Ollama / LM Studio",
       "first": 30,
       "last": 31,
-      "minutes": 8,
-      "start": 168,
-      "end": 176
+      "start": 155,
+      "end": 175,
+      "minutes": 20,
+      "label": "Open Weights / Cloud / lokal"
     }
   },
   {
@@ -639,12 +660,12 @@
     ],
     "timer": null,
     "window": {
-      "label": "Transfer, Big Picture und Quellen",
       "first": 32,
       "last": 34,
-      "minutes": 4,
-      "start": 176,
-      "end": 180
+      "start": 175,
+      "end": 180,
+      "minutes": 5,
+      "label": "Transfer / Big Picture / Quellen"
     }
   },
   {
@@ -663,12 +684,12 @@
     ],
     "timer": null,
     "window": {
-      "label": "Transfer, Big Picture und Quellen",
       "first": 32,
       "last": 34,
-      "minutes": 4,
-      "start": 176,
-      "end": 180
+      "start": 175,
+      "end": 180,
+      "minutes": 5,
+      "label": "Transfer / Big Picture / Quellen"
     }
   },
   {
@@ -688,12 +709,12 @@
     ],
     "timer": null,
     "window": {
-      "label": "Transfer, Big Picture und Quellen",
       "first": 32,
       "last": 34,
-      "minutes": 4,
-      "start": 176,
-      "end": 180
+      "start": 175,
+      "end": 180,
+      "minutes": 5,
+      "label": "Transfer / Big Picture / Quellen"
     }
   }
 ]

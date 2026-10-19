@@ -6,8 +6,6 @@ Prompts als TXT/Lesefassung; fünf Bau15 und fünf Wrap-up5-Timer plus Pause15. 
 
 180 Minuten: Input13/16/12/11/8 Minuten; je15 Minuten Bauen +5 Wrap-up; Pause15; Abschluss5. Einstieg/Video in Input1 enthalten. Stationen 00–33,33–69,69–101,Pause101–116,116–147,147–175,Abschluss175–180.
 
-Dozentenleitfaden/Review separat. Neuron, Synapse, künstliches Neuron wieder aufgenommen. LEGO-Versuchsaufbau vor Ergebnissen erklärt. Historische Symbolchronologie nicht als maßstäbliche Zeitachse. Video als Nutzerimpuls, nicht fachliche Evidenz; Veröffentlichung/Rechte separat prüfen. Zwischenablage kann bei file:// blockiert sein: Volltextdialog oder TXT verwenden. Fünf neue Kie.ai/Nano-Banana-2-Übungsbilder, GitHub-Veröffentlichung am 12.10.2026 beauftragt, keine Buchänderung.
+Dozentenleitfaden/Review separat. Neuron, Synapse, künstliches Neuron wieder aufgenommen. LEGO-Versuchsaufbau vor Ergebnissen erklärt. Historische Symbolchronologie nicht als maßstäbliche Zeitachse. Video als Nutzerimpuls, nicht fachliche Evidenz; Veröffentlichung/Rechte separat prüfen. Zwischenablage kann bei file:// blockiert sein: Volltextdialog oder TXT verwenden. Fünf neue Kie.ai/Nano-Banana-2-Übungsbilder, kein Git-Push, keine Buchänderung.
 
 Weiterer Nutzerreview: Timeline-Jahre/Titel/Beschreibung exakt auf gleicher Höhe; Titel Regeln – Beispiele getrennt; vier Transmitterstichworte; vorhandenes Perzeptronbild. Alle Aufgaben/Prompts/Wrap-ups mit Produktgrafik und kleinem Timer rechts oben. Bauzeit auf Aufgabe und Prompt gemeinsam synchronisiert, keine neue15-Minuten-Phase beim Wechsel. Worker bewegen sich per requestAnimationFrame zum festen Arbeitsplatz; Memory erst nach Ankunft, sicherer Reset.
-
-Öffentliche Fassung: enthält Folien, Prompts, lokale Medien, fünf Rückfallbeispiele, Review und Dozentenleitfaden. Interne Referenzdateien, Paper-PDFs und Provider-Task-Receipts bleiben privat. Bildprompts und Provider-/Modellnachweise sind im Medienmanifest enthalten.

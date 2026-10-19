@@ -11,6 +11,7 @@
       "taskId": "45267379f80349a62859db1eed727fc5",
       "inputReferences": [],
       "slideIds": [
+        "w04-harness",
         "w04-build",
         "w04-wrap-build",
         "w04-claudedesktop"
@@ -80,8 +81,7 @@
       "taskId": "7921db25b413e10a1e0aad1cd5e5e3de",
       "inputReferences": [],
       "slideIds": [
-        "w04-cover",
-        "w04-harness"
+        "w04-cover"
       ],
       "fit": "contain",
       "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
@@ -99,6 +99,24 @@
       "slideIds": [
         "w04-hardtests",
         "w04-wrap-hardtests"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "konzil-clinic.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/konzil-clinic.txt",
+      "receiptFile": "../prompts/konzil-clinic-receipt.json",
+      "taskId": "e92e90c70c13c3c6656bca4268945a8c",
+      "inputReferences": [],
+      "slideIds": [
+        "w04-konzil",
+        "w04-bonusagent",
+        "w04-wrap-werkstatt"
       ],
       "fit": "contain",
       "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
@@ -140,13 +158,13 @@
       "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
     },
     {
-      "file": "worker.png",
+      "file": "worker-v2.png",
       "provider": "Kie.ai",
       "model": "nano-banana-2",
       "language": "de",
-      "promptFile": "../prompts/worker.txt",
-      "receiptFile": "../prompts/worker-receipt.json",
-      "taskId": "eb951508b30c320e4ab21121539893c0",
+      "promptFile": "../prompts/worker-v2.txt",
+      "receiptFile": "../prompts/worker-v2-receipt.json",
+      "taskId": "05553b013695fb7ae4c53f2a7ccff6be",
       "inputReferences": [],
       "slideIds": [
         "w04-worker"
@@ -165,9 +183,7 @@
       "taskId": "071fd656bf4e5c55e770c06bb4420f57",
       "inputReferences": [],
       "slideIds": [
-        "w04-werkstatt",
-        "w04-bonusagent",
-        "w04-wrap-werkstatt"
+        "w04-werkstatt"
       ],
       "fit": "contain",
       "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",

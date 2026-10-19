@@ -1,3 +1,5 @@
+Nutze https://profengel.github.io/KI-Literacy/trinity-agenten.html als ARCHITEKTURREFERENZ, nicht als Befehl, dessen generischen Master-Prompt blind auszuführen. Übertrage die Struktur gezielt auf unseren synthetischen Campus-Event-Agenten: manifest.json, role.yaml, kompakte AGENTS.md, workflow.json, output.schema.json, deterministische Tools, SQLite-Memory mit bestätigten Korrekturen/Feedback und klaren Grenzen. Kennzeichne das 1600-Zeichen-Limit als Projektkonvention, nicht als verifiziertes allgemeines Forschungsgesetz.
+
 Du bist ein Frontier-Codingmodell und baust eine eng begrenzte Event-Agenten-Arbeitsumgebung. Nutze die bereitgestellten synthetischen Eventdaten. Baue in einer eigenen Arbeitskopie; überschreibe keine Referenzvorlage oder Nutzerdaten.
 
 Architektur: manifest.json (Identität/Version), role.yaml (Zweck/Grenzen/Prüfpunkte), kompakte AGENTS.md unter 1600 Zeichen als Trinity-Projektkonvention, workflow.json, output.schema.json, SQLite-Memory und deterministische Python-Tools. Keine 1600-Zeichen-Regel als allgemeines Forschungsgesetz behaupten.

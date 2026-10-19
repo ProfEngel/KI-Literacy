@@ -114,7 +114,7 @@ ID: `w02-history-prompt`
 
 ID: `w02-history-wrap`
 
-**Absicht und fachliche Erklärung:** Fünf Minuten insgesamt: zwei Minuten Partnerprüfung, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.
+**Absicht und fachliche Erklärung:** Fünf Minuten insgesamt: zwei Minuten eigene Gegenprobe, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.
 
 **Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
@@ -222,7 +222,7 @@ ID: `w02-learning-prompt`
 
 ID: `w02-learning-wrap`
 
-**Absicht und fachliche Erklärung:** Fünf Minuten insgesamt: zwei Minuten Partnerprüfung, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.
+**Absicht und fachliche Erklärung:** Fünf Minuten insgesamt: zwei Minuten eigene Gegenprobe, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.
 
 **Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
@@ -294,27 +294,15 @@ ID: `w02-agents-prompt`
 
 ID: `w02-agents-wrap`
 
-**Absicht und fachliche Erklärung:** Fünf Minuten insgesamt: zwei Minuten Partnerprüfung, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.
+**Absicht und fachliche Erklärung:** Fünf Minuten insgesamt: zwei Minuten eigene Gegenprobe, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.
 
 **Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
 **Stolperstelle und Prüfung:** Vergebt einen Auftrag mit fehlendem Skill. Nach Upgrade erneut testen. Wächst Memory nur nach erfolgreicher Arbeit?
 
-**Übergang:** Nächster Schritt: Kurz Luft holen.
-
-## 26 · Kurz Luft holen.
-
-ID: `w02-break`
-
-**Absicht und fachliche Erklärung:** Pause nach drei Stationen bei Minute101–116. Pausentimer unabhängig von den zehn Übungstimern.
-
-**Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
-
-**Stolperstelle und Prüfung:** Metapher, Simulation und Beleg auseinanderhalten; keine unbelegte Verallgemeinerung.
-
 **Übergang:** Nächster Schritt: Ergänzen und Weglassen sind zwei Wege zur Verbesserung.
 
-## 27 · Ergänzen und Weglassen sind zwei Wege zur Verbesserung.
+## 26 · Ergänzen und Weglassen sind zwei Wege zur Verbesserung.
 
 ID: `w02-subtraction-01`
 
@@ -326,7 +314,7 @@ ID: `w02-subtraction-01`
 
 **Übergang:** Nächster Schritt: Das LEGO-Experiment: stabilisieren – aber wie?
 
-## 28 · Das LEGO-Experiment: stabilisieren – aber wie?
+## 27 · Das LEGO-Experiment: stabilisieren – aber wie?
 
 ID: `w02-subtraction-study`
 
@@ -338,7 +326,7 @@ ID: `w02-subtraction-study`
 
 **Übergang:** Nächster Schritt: Ein expliziter Hinweis lenkt die Suche aufs Weglassen.
 
-## 29 · Ein expliziter Hinweis lenkt die Suche aufs Weglassen.
+## 28 · Ein expliziter Hinweis lenkt die Suche aufs Weglassen.
 
 ID: `w02-subtraction-02`
 
@@ -350,7 +338,7 @@ ID: `w02-subtraction-02`
 
 **Übergang:** Nächster Schritt: Gestaltet eine Anmeldung neu.
 
-## 30 · Gestaltet eine Anmeldung neu.
+## 29 · Gestaltet eine Anmeldung neu.
 
 ID: `w02-subtraction-task`
 
@@ -362,7 +350,7 @@ ID: `w02-subtraction-task`
 
 **Übergang:** Nächster Schritt: Euer Bauauftrag für ChatGPT
 
-## 31 · Euer Bauauftrag für ChatGPT
+## 30 · Euer Bauauftrag für ChatGPT
 
 ID: `w02-subtraction-prompt`
 
@@ -374,11 +362,11 @@ ID: `w02-subtraction-prompt`
 
 **Übergang:** Nächster Schritt: Zeigen. Prüfen. Verbessern.
 
-## 32 · Zeigen. Prüfen. Verbessern.
+## 31 · Zeigen. Prüfen. Verbessern.
 
 ID: `w02-subtraction-wrap`
 
-**Absicht und fachliche Erklärung:** Fünf Minuten insgesamt: zwei Minuten Partnerprüfung, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.
+**Absicht und fachliche Erklärung:** Fünf Minuten insgesamt: zwei Minuten eigene Gegenprobe, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.
 
 **Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
@@ -386,7 +374,7 @@ ID: `w02-subtraction-wrap`
 
 **Übergang:** Nächster Schritt: Amara: Zwischen Begeisterung und Alltagswirkung liegt Arbeit.
 
-## 33 · Amara: Zwischen Begeisterung und Alltagswirkung liegt Arbeit.
+## 32 · Amara: Zwischen Begeisterung und Alltagswirkung liegt Arbeit.
 
 ID: `w02-value-01`
 
@@ -398,7 +386,7 @@ ID: `w02-value-01`
 
 **Übergang:** Nächster Schritt: Nacharbeit kann den Zeitgewinn aufzehren.
 
-## 34 · Nacharbeit kann den Zeitgewinn aufzehren.
+## 33 · Nacharbeit kann den Zeitgewinn aufzehren.
 
 ID: `w02-value-02`
 
@@ -410,7 +398,7 @@ ID: `w02-value-02`
 
 **Übergang:** Nächster Schritt: Baut ein Excel-Modell für einen KI-Pilot.
 
-## 35 · Baut ein Excel-Modell für einen KI-Pilot.
+## 34 · Baut ein Excel-Modell für einen KI-Pilot.
 
 ID: `w02-value-task`
 
@@ -422,7 +410,7 @@ ID: `w02-value-task`
 
 **Übergang:** Nächster Schritt: Euer Bauauftrag für ChatGPT
 
-## 36 · Euer Bauauftrag für ChatGPT
+## 35 · Euer Bauauftrag für ChatGPT
 
 ID: `w02-value-prompt`
 
@@ -434,11 +422,11 @@ ID: `w02-value-prompt`
 
 **Übergang:** Nächster Schritt: Zeigen. Prüfen. Verbessern.
 
-## 37 · Zeigen. Prüfen. Verbessern.
+## 36 · Zeigen. Prüfen. Verbessern.
 
 ID: `w02-value-wrap`
 
-**Absicht und fachliche Erklärung:** Fünf Minuten insgesamt: zwei Minuten Partnerprüfung, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.
+**Absicht und fachliche Erklärung:** Fünf Minuten insgesamt: zwei Minuten eigene Gegenprobe, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.
 
 **Moderation:** Kernaussage am sichtbaren Beispiel erläutern; eine begründete Rückfrage zulassen.
 
@@ -446,7 +434,7 @@ ID: `w02-value-wrap`
 
 **Übergang:** Nächster Schritt: Was hält einer Gegenprobe stand?
 
-## 38 · Was hält einer Gegenprobe stand?
+## 37 · Was hält einer Gegenprobe stand?
 
 ID: `w02-check`
 
@@ -458,7 +446,7 @@ ID: `w02-check`
 
 **Übergang:** Nächster Schritt: Vom Staunen zum überprüfbaren Ergebnis.
 
-## 39 · Vom Staunen zum überprüfbaren Ergebnis.
+## 38 · Vom Staunen zum überprüfbaren Ergebnis.
 
 ID: `w02-bigpicture`
 
@@ -470,7 +458,7 @@ ID: `w02-bigpicture`
 
 **Übergang:** Nächster Schritt: Quellen und Materialien.
 
-## 40 · Quellen und Materialien.
+## 39 · Quellen und Materialien.
 
 ID: `w02-sources`
 

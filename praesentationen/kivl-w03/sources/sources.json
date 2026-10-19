@@ -49,6 +49,7 @@
       "w03-token",
       "w03-context",
       "w03-attention",
+      "w03-temperature",
       "w03-bigpicture",
       "w03-sources"
     ],
@@ -126,7 +127,7 @@
     "author": "Kursplanung nach Nutzerauftrag",
     "year": "2026",
     "title": "Campus-Eventplaner und didaktische Simulationen",
-    "url": null,
+    "url": "",
     "accessed": "2026-10-19",
     "evidence": "original; geplant, keine Messdaten und kein gebautes Produkt",
     "claim": "Fiktiver Lehrfall, Wortlandschaft, Attention-Schema und Sampling-Demo; keine echten Modellmessungen vortäuschen.",
@@ -148,9 +149,9 @@
       "w03-beispiele",
       "w03-mini-build",
       "w03-wrap-prompt",
-      "w03-pause",
       "w03-eventziel",
       "w03-build",
+      "w03-deploy",
       "w03-wrap-build",
       "w03-test",
       "w03-wrap-test",
@@ -259,6 +260,206 @@
     "status": "built"
   },
   {
+    "id": "REV-ROCKET",
+    "title": "Anatomie eines Prompts: vorhandene Raketenmetapher",
+    "url": "../assets/media/manifest.json",
+    "claim": "Vom Nutzer bereitgestellte Referenzgrafik anatomie_prompt.jpg nach tatsächlicher visueller Prüfung unverändert übernommen. Keine neue Generierung behauptet.",
+    "author": "Nutzerbestand KI Literacy Basics",
+    "type": "provided-reference-image",
+    "year": "2026",
+    "accessed": "2026-10-19",
+    "evidence": "Primärquelle am 19.10.2026 geöffnet; Grenzen im Quellenanhang",
+    "slideIds": [
+      "w03-auftrag"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "REV-TOK",
+    "title": "OpenAI Tokenizer",
+    "url": "https://platform.openai.com/tokenizer",
+    "claim": "Tokenizer ist modell-/Encoding-abhängig. Lokale Pseudo-IDs sind frei erfunden und ausdrücklich keine OpenAI-Token-IDs.",
+    "author": "OpenAI",
+    "type": "documentation",
+    "year": "2026",
+    "accessed": "2026-10-19",
+    "evidence": "Primärquelle am 19.10.2026 geöffnet; Grenzen im Quellenanhang",
+    "slideIds": [
+      "w03-token"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "REV-GEM",
+    "title": "Gemini Apps: limits and feature availability",
+    "url": "https://support.google.com/gemini/answer/16275805?hl=en",
+    "claim": "Gemini ohne AI-Abo: 32k, AI Plus: 128k, AI Pro/Ultra: 1M Tokens. Tarif- und produktabhängig; kein universeller Modellwert.",
+    "author": "Google",
+    "type": "documentation",
+    "year": "2026",
+    "accessed": "2026-10-19",
+    "evidence": "Primärquelle am 19.10.2026 geöffnet; Grenzen im Quellenanhang",
+    "slideIds": [
+      "w03-context"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "REV-CTX",
+    "title": "GPT-6.1 Sol: API model specifications",
+    "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+    "claim": "1.050.000 Tokens API-Kontext; nicht mit einem garantierten ChatGPT- oder Codex-Produktlimit gleichsetzen.",
+    "author": "OpenAI",
+    "type": "documentation",
+    "year": "2026",
+    "accessed": "2026-10-19",
+    "evidence": "Primärquelle am 19.10.2026 geöffnet; Grenzen im Quellenanhang",
+    "slideIds": [
+      "w03-context",
+      "w03-lmstudio"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "REV-CODEX",
+    "title": "Codex configuration reference",
+    "url": "https://learn.chatgpt.com/docs/config-file/config-reference",
+    "claim": "model_context_window und Kompaktierung hängen von Modell/Konfiguration ab; aktuelle Laufzeitanzeige beachten. API-Modellmaximum nicht automatisch aktives Harness-Fenster.",
+    "author": "OpenAI",
+    "type": "documentation",
+    "year": "2026",
+    "accessed": "2026-10-19",
+    "evidence": "Primärquelle am 19.10.2026 geöffnet; Grenzen im Quellenanhang",
+    "slideIds": [
+      "w03-context"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "REV-CHAT",
+    "title": "GPT-6 and other models in ChatGPT",
+    "url": "https://help.openai.com/en/articles/20001354-gpt-6-and-other-models-in-chatgpt",
+    "claim": "Aktuelle ChatGPT-Hilfe bestätigt Modell-/Tarifabhängigkeit, nennt aber im geprüften Artikel keine allgemeine numerische Chat-Kontextgrenze. Keine erfundene einheitliche Grenze.",
+    "author": "OpenAI",
+    "type": "documentation",
+    "year": "2026",
+    "accessed": "2026-10-19",
+    "evidence": "Primärquelle am 19.10.2026 geöffnet; Grenzen im Quellenanhang",
+    "slideIds": [
+      "w03-context"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "REV-TSLA",
+    "title": "Tesla 2025 Form 10-K",
+    "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026003952/tsla-20251231-gen.pdf",
+    "claim": "139 PDF-Seiten. Eigene pageweise Textmessung mit PyPDF/o200k_base: 146.585 Tokens, Ø 1.054,57/Seite. Ohne Bilder/OCR; nicht ChatGPT-Ingestionsmessung.",
+    "author": "Tesla / eigene reproduzierbare Messung",
+    "type": "annual-report",
+    "year": "2026",
+    "accessed": "2026-10-19",
+    "evidence": "Primärquelle am 19.10.2026 geöffnet; Grenzen im Quellenanhang",
+    "slideIds": [
+      "w03-context"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "REV-HP",
+    "title": "Harry-Potter-FAQ: Seitenzahlen",
+    "url": "https://www.carlsen.de/harry-potter/faq",
+    "claim": "Carlsen nennt 336 Seiten für Band 1. Tokenbedarf nur Modellrechnung mit offengelegter angenommener Textdichte, kein vermessener Buchvolltext.",
+    "author": "Carlsen",
+    "type": "publisher-reference",
+    "year": "2026",
+    "accessed": "2026-10-19",
+    "evidence": "Primärquelle am 19.10.2026 geöffnet; Grenzen im Quellenanhang",
+    "slideIds": [
+      "w03-context"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "REV-PROMPT",
+    "title": "Prompt engineering: instructions and few-shot examples",
+    "url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+    "claim": "Klarer Auftrag und passende Beispiele. Zero-shot: kein Beispiel, One-shot: ein Beispiel, Few-shot: mehrere Beispiele; Multi-shot wird hier nicht als zusätzliche eigene Methode verkauft.",
+    "author": "OpenAI",
+    "type": "documentation",
+    "year": "2026",
+    "accessed": "2026-10-19",
+    "evidence": "Primärquelle am 19.10.2026 geöffnet; Grenzen im Quellenanhang",
+    "slideIds": [
+      "w03-auftrag",
+      "w03-beispiele"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "REV-PWA",
+    "title": "Making PWAs installable",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable",
+    "claim": "Manifest, passende Icons, HTTPS/localhost und browser-/plattformabhängiger Installationsweg. Service Worker für die hier zugesagte Offlinefunktion; file:// ist kein PWA-Installationsweg.",
+    "author": "MDN",
+    "type": "documentation",
+    "year": "2026",
+    "accessed": "2026-10-19",
+    "evidence": "Primärquelle am 19.10.2026 geöffnet; Grenzen im Quellenanhang",
+    "slideIds": [
+      "w03-build",
+      "w03-deploy"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "REV-SW",
+    "title": "Offline and background operation",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Offline_and_background_operation",
+    "claim": "Offline-Cache wird nach erfolgreichem Erstladen aufgebaut. Speicher kann geräumt werden; Offlinefunktion und Updates tatsächlich testen.",
+    "author": "MDN",
+    "type": "documentation",
+    "year": "2026",
+    "accessed": "2026-10-19",
+    "evidence": "Primärquelle am 19.10.2026 geöffnet; Grenzen im Quellenanhang",
+    "slideIds": [
+      "w03-build",
+      "w03-deploy"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "REV-GH",
+    "title": "Creating a GitHub Pages site",
+    "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site",
+    "claim": "Kontoregistrierung und Anmeldung durch Menschen, Repo-/Sichtbarkeitsfreigabe ausdrücklich, Pages als statisches Hosting. Kein API-Key oder produktiver Datensatz in öffentliche Dateien.",
+    "author": "GitHub",
+    "type": "documentation",
+    "year": "2026",
+    "accessed": "2026-10-19",
+    "evidence": "Primärquelle am 19.10.2026 geöffnet; Grenzen im Quellenanhang",
+    "slideIds": [
+      "w03-deploy"
+    ],
+    "status": "built"
+  },
+  {
+    "id": "REV-OSS",
+    "title": "Run gpt-oss locally with Ollama",
+    "url": "https://developers.openai.com/cookbook/articles/gpt-oss/run-locally-ollama",
+    "claim": "Beispiel für lokal ausführbare offene Gewichte; Hardware-/Quantisierungsbedarf, Toolunterstützung und Lizenz konkret prüfen. Offene Gewichte sind nicht automatisch vollständig offener Trainingsprozess.",
+    "author": "OpenAI",
+    "type": "documentation",
+    "year": "2026",
+    "accessed": "2026-10-19",
+    "evidence": "Primärquelle am 19.10.2026 geöffnet; Grenzen im Quellenanhang",
+    "slideIds": [
+      "w03-local",
+      "w03-lmstudio"
+    ],
+    "status": "built"
+  },
+  {
     "id": "M1",
     "type": "generated-media",
     "author": "Kie.ai / Nano Banana 2 nach Kursauftrag",
@@ -281,6 +482,7 @@
       "w03-wrap-prompt",
       "w03-eventziel",
       "w03-build",
+      "w03-deploy",
       "w03-wrap-build",
       "w03-test",
       "w03-wrap-test",
@@ -288,6 +490,7 @@
       "w03-wrap-optimize",
       "w03-peer",
       "w03-wrap-peer",
+      "w03-local",
       "w03-lmstudio",
       "w03-bigpicture"
     ],

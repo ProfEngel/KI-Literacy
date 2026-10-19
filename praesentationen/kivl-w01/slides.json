@@ -93,7 +93,7 @@
     "title": "Warum bin ich hier – was erwarte ich?",
     "time": "20–35",
     "body": "<div class=\"paper-cards\"><article class=\"paper-card\"><b>Warum bin ich<br>in diesem Kurs?</b><p>Ein persönlicher Grund.<br>Ein konkretes Interesse.</p></article><article class=\"paper-card\"><b>Was erwarte ich<br>von diesem Kurs?</b><p>Eine Fähigkeit oder ein Ergebnis,<br>das Sie am Ende mitnehmen möchten.</p></article></div>",
-    "notes": "Geben Sie jeder Person zwei Karten. Auf der ersten steht der Grund für die Teilnahme, auf der zweiten eine konkrete Erwartung. Drei Minuten Einzelarbeit, fünf Minuten Austausch zu zweit und sieben Minuten gemeinsame Bündelung. Fragen Sie bei abstrakten Erwartungen nach einem Beispiel. Bewahren Sie die Themen als Parkplatz für spätere Wochen auf. Der sichtbare Countdown wird manuell gestartet.",
+    "notes": "Geben Sie jeder Person zwei Karten. Auf der ersten steht der Grund für die Teilnahme, auf der zweiten eine konkrete Erwartung. Drei Minuten Einzelarbeit, fünf Minuten freiwilliger Austausch und sieben Minuten gemeinsame Bündelung. Fragen Sie bei abstrakten Erwartungen nach einem Beispiel. Bewahren Sie die Themen als Parkplatz für spätere Wochen auf. Der sichtbare Countdown wird manuell gestartet.",
     "sources": [
       "K2"
     ],
@@ -202,8 +202,8 @@
     "id": "w01-agent-experience",
     "title": "Wo begegnen Ihnen Agenten und ihre Ergebnisse?",
     "time": "60–75",
-    "body": "<div><p class=\"eyebrow\">ERFAHRUNGSRUNDE</p><h2 class=\"display\">Schon <em>in Berührung?</em></h2><p class=\"lede\">Denken Sie an Studium, Arbeit, Kundenservice, Medien und eigene Tools.</p></div><div class=\"instruction\"><div class=\"facts\"><div class=\"fact\"><span class=\"icon\" aria-hidden=\"true\">✦</span><div><strong>Ein konkreter Kontakt</strong><p>Was hat das System getan oder erzeugt?</p></div></div><div class=\"fact\"><span class=\"icon\" aria-hidden=\"true\">✦</span><div><strong>Einordnen</strong><p>Nur eine Antwort, ein Werkzeugaufruf oder mehrere koordinierte Schritte?</p></div></div><div class=\"fact\"><span class=\"icon\" aria-hidden=\"true\">✦</span><div><strong>Im Tandem besprechen</strong><p>Was war hilfreich? Was haben Sie selbst kontrolliert?</p></div></div></div></div>",
-    "notes": "Nach den drei Showcases folgt die vom Nutzer gewünschte Fragerunde. Lassen Sie zunächst drei Minuten konkrete Kontakte notieren, dann sieben Minuten im Tandem einordnen und fünf Minuten gemeinsam besprechen. Akzeptieren Sie Unsicherheit darüber, ob ein System wirklich agentisch ist: Von einem Ergebnis allein lässt sich die interne Architektur oft nicht erkennen. Sammeln Sie zwei Beispiele als spätere Bezugspunkte.",
+    "body": "<div><p class=\"eyebrow\">ERFAHRUNGSRUNDE</p><h2 class=\"display\">Schon <em>in Berührung?</em></h2><p class=\"lede\">Denken Sie an Studium, Arbeit, Kundenservice, Medien und eigene Tools.</p></div><div class=\"instruction\"><div class=\"facts\"><div class=\"fact\"><span class=\"icon\" aria-hidden=\"true\">✦</span><div><strong>Ein konkreter Kontakt</strong><p>Was hat das System getan oder erzeugt?</p></div></div><div class=\"fact\"><span class=\"icon\" aria-hidden=\"true\">✦</span><div><strong>Einordnen</strong><p>Nur eine Antwort, ein Werkzeugaufruf oder mehrere koordinierte Schritte?</p></div></div><div class=\"fact\"><span class=\"icon\" aria-hidden=\"true\">✦</span><div><strong>Eigene Beobachtungen festhalten</strong><p>Was war hilfreich? Was haben Sie selbst kontrolliert?</p></div></div></div></div>",
+    "notes": "Nach den drei Showcases folgt die vom Nutzer gewünschte Fragerunde. Lassen Sie zunächst drei Minuten konkrete Kontakte notieren, dann sieben Minuten eigenständig einordnen und fünf Minuten gemeinsam besprechen. Akzeptieren Sie Unsicherheit darüber, ob ein System wirklich agentisch ist: Von einem Ergebnis allein lässt sich die interne Architektur oft nicht erkennen. Sammeln Sie zwei Beispiele als spätere Bezugspunkte.",
     "sources": [
       "K2"
     ],
@@ -261,21 +261,6 @@
     "layout": "",
     "duration": 0,
     "pitfall": "Tokenpreis, Kosten pro Anfrage und Kosten eines erfolgreich erledigten Auftrags nicht gleichsetzen.",
-    "transition": ""
-  },
-  {
-    "id": "w01-pause",
-    "title": "Pause",
-    "time": "90–105",
-    "body": "<p class=\"eyebrow\">DURCHATMEN</p><h2 class=\"display\">15 Minuten</h2><p class=\"lede\">Danach schauen wir auf die Modelllandschaft und richten Ihren Arbeitsplatz ein.</p>",
-    "notes": "Geben Sie die Rückkehrzeit bekannt und starten Sie bei Bedarf den 15-Minuten-Timer. Die Pause steht den Studierenden vollständig zur Verfügung; keine zusätzlichen Pflichtinhalte parallel erklären.",
-    "sources": [
-      "K2"
-    ],
-    "cls": "paused",
-    "layout": "",
-    "duration": 15,
-    "pitfall": "",
     "transition": ""
   },
   {
@@ -345,7 +330,7 @@
     "title": "Ihr erster gemeinsamer Funktionstest",
     "time": "120–140",
     "body": "<div class=\"steps\"><article class=\"step\"><h3>App und Konto</h3><p>Installieren, öffnen und mit dem eigenen Konto anmelden.</p></article><article class=\"step\"><h3>Modell und Einstellungen</h3><p>Verfügbare Modelle, Personalisierung und Datenkontrollen gemeinsam ansehen.</p></article><article class=\"step\"><h3>Eine kleine Aufgabe</h3><p>Eine synthetische Tabelle oder einen kurzen Beispieltext bearbeiten lassen.</p></article><article class=\"step\"><h3>Ergebnis kontrollieren</h3><p>Eine Angabe und eine Rechnung selbst prüfen. Eine Rückfrage stellen.</p></article></div><p class=\"takeaway\">Am Ende: ein funktionsfähiger Zugang und ein selbst geprüftes Ergebnis.</p>",
-    "notes": "Reservieren Sie fünf Minuten für Installation und Anmeldung, fünf für den gemeinsamen Rundgang durch Modelle und Einstellungen, fünf für eine kleine Aufgabe und fünf für Prüfung und Rückfragen. Lassen Sie zum Beispiel drei frei gewählte Artikelpreise addieren und das Ergebnis unabhängig kontrollieren. Erklären Sie nur sichtbare Einstellungen der verwendeten Version. Unterstützen Sie technische Probleme im Tandem. Der Timer beträgt 20 Minuten.",
+    "notes": "Reservieren Sie fünf Minuten für Installation und Anmeldung, fünf für den gemeinsamen Rundgang durch Modelle und Einstellungen, fünf für eine kleine Aufgabe und fünf für Prüfung und Rückfragen. Lassen Sie zum Beispiel drei frei gewählte Artikelpreise addieren und das Ergebnis unabhängig kontrollieren. Erklären Sie nur sichtbare Einstellungen der verwendeten Version. Unterstützen Sie bei technischen Problemen; gegenseitige Hilfe ist freiwillig. Der Timer beträgt 20 Minuten.",
     "sources": [
       "O1",
       "O2",
@@ -406,10 +391,10 @@
   },
   {
     "id": "w01-project-exercise",
-    "title": "Zu zweit: Ihre erste Projektkarte",
+    "title": "Ihre erste Projektkarte",
     "time": "150–170",
-    "body": "<div class=\"steps\"><article class=\"step\"><h3>Team bilden</h3><p>Finden Sie eine zweite Person und legen Sie fest, wer heute die Idee notiert.</p></article><article class=\"step\"><h3>Problem benennen</h3><p>Für wen ist welche Aufgabe schwierig oder zeitaufwendig?</p></article><article class=\"step\"><h3>Ergebnis skizzieren</h3><p>Was soll Ihre Anwendung zeigen oder Ihre Analyse beantworten?</p></article><article class=\"step\"><h3>Prüfung festlegen</h3><p>Welche Daten brauchen Sie? Woran erkennen Sie ein brauchbares Ergebnis?</p></article></div><p class=\"takeaway\">5 Min Gruppenbildung → 10 Min Projektkarte → 5 Min Kurzvorstellung.</p><div class=\"row\"><a class=\"pill\" href=\"arbeitsblatt.html\" target=\"_blank\" rel=\"noopener\">Projektkarte öffnen ↗</a></div>",
-    "notes": "Geben Sie fünf Minuten für Zweiergruppen, zehn Minuten für eine erste schriftliche Projektidee und fünf Minuten für ausgewählte Kurzvorstellungen. Die Karte enthält Zielgruppe, Problem, gewünschtes Ergebnis, Datenbedarf und einen ersten Prüffall. Eine Idee kann sich noch ändern. Neue Vorschläge werden mit Ihnen abgestimmt. Die Übung endet mit einer konkreten Notiz, nicht mit der Pflicht zu einem fertigen System. Arbeitsblatt und Export funktionieren lokal im Browser.",
+    "body": "<div class=\"steps\"><article class=\"step\"><h3>Thema wählen</h3><p>Notieren Sie zunächst selbst eine Projektidee. Ein Austausch ist freiwillig.</p></article><article class=\"step\"><h3>Problem benennen</h3><p>Für wen ist welche Aufgabe schwierig oder zeitaufwendig?</p></article><article class=\"step\"><h3>Ergebnis skizzieren</h3><p>Was soll Ihre Anwendung zeigen oder Ihre Analyse beantworten?</p></article><article class=\"step\"><h3>Prüfung festlegen</h3><p>Welche Daten brauchen Sie? Woran erkennen Sie ein brauchbares Ergebnis?</p></article></div><p class=\"takeaway\">5 Min Themenwahl → 10 Min eigene Projektkarte → 5 Min Kurzvorstellung.</p><div class=\"row\"><a class=\"pill\" href=\"arbeitsblatt.html\" target=\"_blank\" rel=\"noopener\">Projektkarte öffnen ↗</a></div>",
+    "notes": "Geben Sie fünf Minuten für die eigene Themenwahl, zehn Minuten für eine erste schriftliche Projektidee und fünf Minuten für ausgewählte Kurzvorstellungen. Die Karte enthält Zielgruppe, Problem, gewünschtes Ergebnis, Datenbedarf und einen ersten Prüffall. Eine Idee kann sich noch ändern. Neue Vorschläge werden mit Ihnen abgestimmt. Die Übung endet mit einer konkreten Notiz, nicht mit der Pflicht zu einem fertigen System. Arbeitsblatt und Export funktionieren lokal im Browser.",
     "sources": [
       "K2",
       "K3"

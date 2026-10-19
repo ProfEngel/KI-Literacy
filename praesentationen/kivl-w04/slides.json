@@ -11,12 +11,12 @@
     ],
     "timer": null,
     "window": {
-      "label": "Einstieg",
       "first": 1,
       "last": 3,
-      "minutes": 5,
       "start": 0,
-      "end": 5
+      "end": 5,
+      "minutes": 5,
+      "label": "Einstieg"
     }
   },
   {
@@ -30,12 +30,12 @@
     ],
     "timer": null,
     "window": {
-      "label": "Einstieg",
       "first": 1,
       "last": 3,
-      "minutes": 5,
       "start": 0,
-      "end": 5
+      "end": 5,
+      "minutes": 5,
+      "label": "Einstieg"
     }
   },
   {
@@ -49,12 +49,12 @@
     ],
     "timer": null,
     "window": {
-      "label": "Einstieg",
       "first": 1,
       "last": 3,
-      "minutes": 5,
       "start": 0,
-      "end": 5
+      "end": 5,
+      "minutes": 5,
+      "label": "Einstieg"
     }
   },
   {
@@ -69,12 +69,12 @@
     ],
     "timer": null,
     "window": {
-      "label": "Modell, Agent, Harness, Mitarbeiterakte",
       "first": 4,
       "last": 5,
-      "minutes": 12,
       "start": 5,
-      "end": 17
+      "end": 17,
+      "minutes": 12,
+      "label": "Modell / Harness / Mitarbeiter"
     }
   },
   {
@@ -86,16 +86,17 @@
     "sources": [
       "W04-P1",
       "D1",
+      "TR1",
       "M1"
     ],
     "timer": null,
     "window": {
-      "label": "Modell, Agent, Harness, Mitarbeiterakte",
       "first": 4,
       "last": 5,
-      "minutes": 12,
       "start": 5,
-      "end": 17
+      "end": 17,
+      "minutes": 12,
+      "label": "Modell / Harness / Mitarbeiter"
     }
   },
   {
@@ -106,17 +107,18 @@
     "notes": "Minute 17–20: Frontier-Bau starten und Zugänge prüfen. Minute 20–28: Newsflash zur letzten Woche, solange die Generierung läuft. Minute 28–40: Ergebnis öffnen, kurzen E01-Auftrag ohne UI ausführen, tatsächliche Tools zeigen. Bei Setup-Problemen Briefing verkürzen, Referenzpaket als Rückfallweg anbieten. Der ZIP-Stand ist eine vorbereitete Vorlage, nicht studentisch generierter Code.",
     "sources": [
       "D1",
+      "TR1",
       "M1",
       "OCLI"
     ],
     "timer": 1380,
     "window": {
-      "label": "Erster Bau samt Newsflash, dann Wrap-up",
       "first": 6,
       "last": 7,
-      "minutes": 28,
       "start": 17,
-      "end": 45
+      "end": 45,
+      "minutes": 28,
+      "label": "Bau mit Newsflash und Wrap-up"
     }
   },
   {
@@ -131,12 +133,12 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Erster Bau samt Newsflash, dann Wrap-up",
       "first": 6,
       "last": 7,
-      "minutes": 28,
       "start": 17,
-      "end": 45
+      "end": 45,
+      "minutes": 28,
+      "label": "Bau mit Newsflash und Wrap-up"
     }
   },
   {
@@ -151,12 +153,12 @@
     ],
     "timer": null,
     "window": {
-      "label": "Memory und erste Dokumente samt Übung/Wrap-up",
       "first": 8,
       "last": 11,
-      "minutes": 15,
       "start": 45,
-      "end": 60
+      "end": 60,
+      "minutes": 15,
+      "label": "Memory und Dokumente"
     }
   },
   {
@@ -170,12 +172,12 @@
     ],
     "timer": null,
     "window": {
-      "label": "Memory und erste Dokumente samt Übung/Wrap-up",
       "first": 8,
       "last": 11,
-      "minutes": 15,
       "start": 45,
-      "end": 60
+      "end": 60,
+      "minutes": 15,
+      "label": "Memory und Dokumente"
     }
   },
   {
@@ -190,12 +192,12 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Memory und erste Dokumente samt Übung/Wrap-up",
       "first": 8,
       "last": 11,
-      "minutes": 15,
       "start": 45,
-      "end": 60
+      "end": 60,
+      "minutes": 15,
+      "label": "Memory und Dokumente"
     }
   },
   {
@@ -210,12 +212,12 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Memory und erste Dokumente samt Übung/Wrap-up",
       "first": 8,
       "last": 11,
-      "minutes": 15,
       "start": 45,
-      "end": 60
+      "end": 60,
+      "minutes": 15,
+      "label": "Memory und Dokumente"
     }
   },
   {
@@ -223,38 +225,38 @@
     "id": "w04-abnahme",
     "kind": "T",
     "title": "Ein Einzelbeispiel ist keine Abnahme",
-    "notes": "Die 30 Fälle sind eine didaktische Testsuite, kein allgemeines wissenschaftliches Minimum. Vor produktiver Nutzung zusätzliche risikogerechte und unbekannte Transferfälle vorsehen. Ein schöner Gesamtscore darf kritische Verstöße nicht verstecken.",
+    "notes": "Die sechs Unterrichtsfälle und die erweiterte 30er-Suite sind didaktische Testsuiten, kein allgemeines wissenschaftliches Minimum. Vor produktiver Nutzung zusätzliche risikogerechte und unbekannte Transferfälle vorsehen. Ein schöner Gesamtscore darf kritische Verstöße nicht verstecken.",
     "sources": [
       "D1",
       "M1"
     ],
     "timer": null,
     "window": {
-      "label": "Benchmark-Cockpit, Baseline und Wrap-up",
       "first": 12,
       "last": 15,
-      "minutes": 15,
       "start": 60,
-      "end": 75
+      "end": 75,
+      "minutes": 15,
+      "label": "Unterrichtsbenchmark / Baseline"
     }
   },
   {
     "number": 13,
     "id": "w04-testmatrix",
     "kind": "T/I",
-    "title": "Unser fertiges Benchmark-Cockpit organisiert die Prüfung",
-    "notes": "Öffnen Sie das bereits fertige Cockpit. Es enthält bewusst keine erfundenen Modell-Erfolge. Demonstrieren Sie die Kategorien und den Kernfallfilter. Die Studierenden bauen heute nicht noch einen Benchmark-Editor; sie nutzen die vorbereitete Anwendung.",
+    "title": "Sechs Fälle für heute — gründlicher prüfen vor Produktivbetrieb",
+    "notes": "Sechs Fälle sind die komplette Lehrkurzfassung, nicht sechs Fälle pro Station. Keine 30 Aufgaben heute. Modellvergleiche zuerst nur mit zwei identischen, schon geprüften Fällen. Vollständige Suite bleibt freiwillige Vertiefung.",
     "sources": [
       "D1"
     ],
     "timer": null,
     "window": {
-      "label": "Benchmark-Cockpit, Baseline und Wrap-up",
       "first": 12,
       "last": 15,
-      "minutes": 15,
       "start": 60,
-      "end": 75
+      "end": 75,
+      "minutes": 15,
+      "label": "Unterrichtsbenchmark / Baseline"
     }
   },
   {
@@ -262,19 +264,19 @@
     "id": "w04-baseline",
     "kind": "A",
     "title": "Sichere Version v0 und erste Testergebnisse",
-    "notes": "Erste Ausgangsmessung, keine Optimierung. Verteilen Sie Fälle, wenn die Generationen lange dauern. Die Katalog-Sollwerte sind menschliche Prüfhilfe und gehören nicht als Lernmaterial in den Agentenkontext.",
+    "notes": "Zuerst nur T03 und D02. Die verbleibenden vier Fälle werden später verteilt nach Station ergänzt, nicht als Pflichtmatrix mit allen Modellen auf einmal.",
     "sources": [
       "D1",
       "M1"
     ],
     "timer": 300,
     "window": {
-      "label": "Benchmark-Cockpit, Baseline und Wrap-up",
       "first": 12,
       "last": 15,
-      "minutes": 15,
       "start": 60,
-      "end": 75
+      "end": 75,
+      "minutes": 15,
+      "label": "Unterrichtsbenchmark / Baseline"
     }
   },
   {
@@ -289,35 +291,16 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Benchmark-Cockpit, Baseline und Wrap-up",
       "first": 12,
       "last": 15,
-      "minutes": 15,
       "start": 60,
-      "end": 75
+      "end": 75,
+      "minutes": 15,
+      "label": "Unterrichtsbenchmark / Baseline"
     }
   },
   {
     "number": 16,
-    "id": "w04-pause",
-    "kind": "O",
-    "title": "Pause",
-    "notes": "Minute 75–90. Vor der Pause Ergebnisexport empfehlen, aber keine zusätzliche Pflichtaufgabe auf der Pausenfolie.",
-    "sources": [
-      "D1"
-    ],
-    "timer": 900,
-    "window": {
-      "label": "Pause",
-      "first": 16,
-      "last": 16,
-      "minutes": 15,
-      "start": 75,
-      "end": 90
-    }
-  },
-  {
-    "number": 17,
     "id": "w04-hardtests",
     "kind": "A",
     "title": "Bringe den Agenten kontrolliert zum Stolpern",
@@ -328,16 +311,16 @@
     ],
     "timer": 600,
     "window": {
-      "label": "Härtetests, Optimierung, zwei Wrap-ups",
-      "first": 17,
-      "last": 20,
-      "minutes": 30,
+      "first": 16,
+      "last": 19,
       "start": 90,
-      "end": 120
+      "end": 120,
+      "minutes": 30,
+      "label": "Härtetests und Optimierung"
     }
   },
   {
-    "number": 18,
+    "number": 17,
     "id": "w04-wrap-hardtests",
     "kind": "R",
     "title": "An welcher Grenze ist er gescheitert?",
@@ -348,16 +331,16 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Härtetests, Optimierung, zwei Wrap-ups",
-      "first": 17,
-      "last": 20,
-      "minutes": 30,
+      "first": 16,
+      "last": 19,
       "start": 90,
-      "end": 120
+      "end": 120,
+      "minutes": 30,
+      "label": "Härtetests und Optimierung"
     }
   },
   {
-    "number": 19,
+    "number": 18,
     "id": "w04-optimize",
     "kind": "A",
     "title": "Verbessere gezielt Auftrag, Tool oder Kontrolle",
@@ -368,16 +351,16 @@
     ],
     "timer": 600,
     "window": {
-      "label": "Härtetests, Optimierung, zwei Wrap-ups",
-      "first": 17,
-      "last": 20,
-      "minutes": 30,
+      "first": 16,
+      "last": 19,
       "start": 90,
-      "end": 120
+      "end": 120,
+      "minutes": 30,
+      "label": "Härtetests und Optimierung"
     }
   },
   {
-    "number": 20,
+    "number": 19,
     "id": "w04-wrap-optimize",
     "kind": "R",
     "title": "Welche Verbesserung hält einer Wiederholung stand?",
@@ -388,16 +371,16 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Härtetests, Optimierung, zwei Wrap-ups",
-      "first": 17,
-      "last": 20,
-      "minutes": 30,
+      "first": 16,
+      "last": 19,
       "start": 90,
-      "end": 120
+      "end": 120,
+      "minutes": 30,
+      "label": "Härtetests und Optimierung"
     }
   },
   {
-    "number": 21,
+    "number": 20,
     "id": "w04-lunasol",
     "kind": "T/I",
     "title": "Dasselbe Agentenpaket, anderes Laufzeitmodell",
@@ -409,16 +392,16 @@
     ],
     "timer": null,
     "window": {
-      "label": "Modellvergleich und menschliche Abnahme",
-      "first": 21,
-      "last": 23,
-      "minutes": 25,
+      "first": 20,
+      "last": 22,
       "start": 120,
-      "end": 145
+      "end": 145,
+      "minutes": 25,
+      "label": "Begrenzter Modell-/Versionsvergleich"
     }
   },
   {
-    "number": 22,
+    "number": 21,
     "id": "w04-benchmark",
     "kind": "A/I",
     "title": "Vergleiche Qualität und Aufwand im fertigen Cockpit",
@@ -430,16 +413,16 @@
     ],
     "timer": 900,
     "window": {
-      "label": "Modellvergleich und menschliche Abnahme",
-      "first": 21,
-      "last": 23,
-      "minutes": 25,
+      "first": 20,
+      "last": 22,
       "start": 120,
-      "end": 145
+      "end": 145,
+      "minutes": 25,
+      "label": "Begrenzter Modell-/Versionsvergleich"
     }
   },
   {
-    "number": 23,
+    "number": 22,
     "id": "w04-wrap-benchmark",
     "kind": "R",
     "title": "Freigeben, verbessern oder ungeeignet?",
@@ -450,16 +433,16 @@
     ],
     "timer": 300,
     "window": {
-      "label": "Modellvergleich und menschliche Abnahme",
-      "first": 21,
-      "last": 23,
-      "minutes": 25,
+      "first": 20,
+      "last": 22,
       "start": 120,
-      "end": 145
+      "end": 145,
+      "minutes": 25,
+      "label": "Begrenzter Modell-/Versionsvergleich"
     }
   },
   {
-    "number": 24,
+    "number": 23,
     "id": "w04-werkstatt",
     "kind": "T/I",
     "title": "Zwei Mitarbeiter teilen ein Projekt, nicht ihr ganzes Gedächtnis",
@@ -470,75 +453,79 @@
     ],
     "timer": null,
     "window": {
-      "label": "Werkstatt/Konzil und optionaler Zweitagent",
-      "first": 24,
-      "last": 27,
-      "minutes": 10,
+      "first": 23,
+      "last": 26,
       "start": 145,
-      "end": 155
+      "end": 155,
+      "minutes": 10,
+      "label": "Werkstatt und Klinik-Konzil"
+    }
+  },
+  {
+    "number": 24,
+    "id": "w04-konzil",
+    "kind": "T/I",
+    "title": "Ein Konzil verbindet unterschiedliche Expertisen",
+    "notes": "Keine Diagnose oder Behandlung lehren. Organisationsmetapher: verschiedene Fachgebiete erweitern den Blick. Ein LLM-as-a-Judge kann Rubriken prüfen, bleibt aber fehlbar. Unabhängige Ersturteile und Quellen verlangen; gleiche Modellfehler können sich wiederholen. Einigkeit ist keine Wahrheit.",
+    "sources": [
+      "D1",
+      "REV-KONZIL",
+      "M1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 23,
+      "last": 26,
+      "start": 145,
+      "end": 155,
+      "minutes": 10,
+      "label": "Werkstatt und Klinik-Konzil"
     }
   },
   {
     "number": 25,
-    "id": "w04-konzil",
-    "kind": "T/I",
-    "title": "Ein Konzil macht begründete Differenzen sichtbar",
-    "notes": "Ein Konzil ist hier eine geordnete Gegenüberstellung von Einschätzungen. Zwei Modelle können denselben Fehler teilen. Einigkeit ist kein Wahrheitsbeweis, und der Prüfer braucht später selbst Abnahmetests.",
-    "sources": [
-      "D1"
-    ],
-    "timer": null,
-    "window": {
-      "label": "Werkstatt/Konzil und optionaler Zweitagent",
-      "first": 24,
-      "last": 27,
-      "minutes": 10,
-      "start": 145,
-      "end": 155
-    }
-  },
-  {
-    "number": 26,
     "id": "w04-bonusagent",
     "kind": "A",
     "title": "Ergänze einen Prüfer und übergib einen Fall",
     "notes": "Optionaler kurzer Bonus. Der gesamte Werkstattblock dauert zehn Minuten, also kein vollständiger neuer Agentenbau. Wenn der erste Benchmark noch unklar ist, nur das Übergabekonzept zeigen und die Übung als Vertiefung ausgeben.",
     "sources": [
       "D1",
+      "REV-KONZIL",
       "M1"
     ],
     "timer": 180,
     "window": {
-      "label": "Werkstatt/Konzil und optionaler Zweitagent",
-      "first": 24,
-      "last": 27,
-      "minutes": 10,
+      "first": 23,
+      "last": 26,
       "start": 145,
-      "end": 155
+      "end": 155,
+      "minutes": 10,
+      "label": "Werkstatt und Klinik-Konzil"
     }
   },
   {
-    "number": 27,
+    "number": 26,
     "id": "w04-wrap-werkstatt",
     "kind": "R",
     "title": "Was hat Zusammenarbeit verbessert — was bleibt ungeprüft?",
     "notes": "Drei Minuten im Bonusblock. Den ungeprüften Status des neuen Workers ausdrücklich nennen. Keine Abnahme des ersten Mitarbeiters auf das gesamte System übertragen.",
     "sources": [
       "D1",
+      "REV-KONZIL",
       "M1"
     ],
     "timer": 180,
     "window": {
-      "label": "Werkstatt/Konzil und optionaler Zweitagent",
-      "first": 24,
-      "last": 27,
-      "minutes": 10,
+      "first": 23,
+      "last": 26,
       "start": 145,
-      "end": 155
+      "end": 155,
+      "minutes": 10,
+      "label": "Werkstatt und Klinik-Konzil"
     }
   },
   {
-    "number": 28,
+    "number": 27,
     "id": "w04-local",
     "kind": "I",
     "title": "Kann ein lokales kleines Modell einen abgegrenzten Teilauftrag übernehmen?",
@@ -552,16 +539,16 @@
     ],
     "timer": null,
     "window": {
-      "label": "Lokale Teilaufgabe, Claude Desktop, Hausaufgabe",
-      "first": 28,
-      "last": 30,
-      "minutes": 20,
+      "first": 27,
+      "last": 29,
       "start": 155,
-      "end": 175
+      "end": 175,
+      "minutes": 20,
+      "label": "Lokaler Ausblick"
     }
   },
   {
-    "number": 29,
+    "number": 28,
     "id": "w04-claudedesktop",
     "kind": "I",
     "title": "Derselbe Auftrag mit anderer Modellanbindung",
@@ -574,16 +561,16 @@
     ],
     "timer": null,
     "window": {
-      "label": "Lokale Teilaufgabe, Claude Desktop, Hausaufgabe",
-      "first": 28,
-      "last": 30,
-      "minutes": 20,
+      "first": 27,
+      "last": 29,
       "start": 155,
-      "end": 175
+      "end": 175,
+      "minutes": 20,
+      "label": "Lokaler Ausblick"
     }
   },
   {
-    "number": 30,
+    "number": 29,
     "id": "w04-hausaufgabe",
     "kind": "I/O",
     "title": "Lokalen Kandidaten freiwillig gegen bekannte Fälle testen",
@@ -597,16 +584,16 @@
     ],
     "timer": null,
     "window": {
-      "label": "Lokale Teilaufgabe, Claude Desktop, Hausaufgabe",
-      "first": 28,
-      "last": 30,
-      "minutes": 20,
+      "first": 27,
+      "last": 29,
       "start": 155,
-      "end": 175
+      "end": 175,
+      "minutes": 20,
+      "label": "Lokaler Ausblick"
     }
   },
   {
-    "number": 31,
+    "number": 30,
     "id": "w04-bigpicture",
     "kind": "R",
     "title": "Auftrag → Wissen → Tool → Test → Modellvergleich → Freigabe",
@@ -617,16 +604,16 @@
     ],
     "timer": null,
     "window": {
-      "label": "Big Picture und Quellen",
-      "first": 31,
-      "last": 32,
-      "minutes": 5,
+      "first": 30,
+      "last": 31,
       "start": 175,
-      "end": 180
+      "end": 180,
+      "minutes": 5,
+      "label": "Big Picture / Quellen"
     }
   },
   {
-    "number": 32,
+    "number": 31,
     "id": "w04-sources",
     "kind": "O",
     "title": "Quellen, Daten, Benchmark und Template",
@@ -641,12 +628,12 @@
     ],
     "timer": null,
     "window": {
-      "label": "Big Picture und Quellen",
-      "first": 31,
-      "last": 32,
-      "minutes": 5,
+      "first": 30,
+      "last": 31,
       "start": 175,
-      "end": 180
+      "end": 180,
+      "minutes": 5,
+      "label": "Big Picture / Quellen"
     }
   }
 ]

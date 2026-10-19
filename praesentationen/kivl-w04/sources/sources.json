@@ -191,6 +191,23 @@
     "status": "built"
   },
   {
+    "id": "REV-KONZIL",
+    "title": "Zusammenarbeit verschiedener medizinischer Fachrichtungen",
+    "url": "https://www.krebsinformationsdienst.de/arzt-und-kliniksuche",
+    "claim": "Fachübergreifende Fallkonferenz als Organisationsmetapher. Kein medizinischer Rat und kein Beleg, dass LLM-Mehrheitsentscheidungen verlässlich wären.",
+    "author": "DKFZ / Krebsinformationsdienst",
+    "type": "documentation",
+    "year": "2026",
+    "accessed": "2026-10-19",
+    "evidence": "Primärquelle am 19.10.2026 geöffnet; Grenzen im Quellenanhang",
+    "slideIds": [
+      "w04-konzil",
+      "w04-bonusagent",
+      "w04-wrap-werkstatt"
+    ],
+    "status": "built"
+  },
+  {
     "id": "D1",
     "type": "synthetic-teaching-data",
     "author": "Kurskonzeption nach Nutzerauftrag",
@@ -215,7 +232,6 @@
       "w04-testmatrix",
       "w04-baseline",
       "w04-wrap-baseline",
-      "w04-pause",
       "w04-hardtests",
       "w04-wrap-hardtests",
       "w04-optimize",
@@ -242,6 +258,8 @@
     "evidence": "Projektseite und aktuelle Repository-Fassung gelesen; Architekturreferenz, nicht allgemeiner wissenschaftlicher Beleg",
     "claim": "Kompakte Rolle, separate Governance/Tools/Schemata, SQLite-Memory und Feedback als Projektarchitektur. 1600-Zeichen-Schwelle nicht aus Lost-in-the-Middle ableiten; technische Kontrollen müssen implementiert sein.",
     "slideIds": [
+      "w04-worker",
+      "w04-build",
       "w04-werkstatt"
     ],
     "status": "built"
@@ -275,6 +293,7 @@
       "w04-benchmark",
       "w04-wrap-benchmark",
       "w04-werkstatt",
+      "w04-konzil",
       "w04-bonusagent",
       "w04-wrap-werkstatt",
       "w04-claudedesktop",

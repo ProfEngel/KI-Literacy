@@ -2,7 +2,7 @@
   "revision": "2026-10-07",
   "entryFile": "AA_W01_Einstieg.html",
   "durationMinutes": 180,
-  "slideCount": 30,
+  "slideCount": 29,
   "template": {
     "id": "ki-literacy-basics-reference",
     "name": "KI Literacy Basics – vom Nutzer gewähltes Referenzlayout"
@@ -109,12 +109,6 @@
       "title": "Entscheidend sind die Kosten des ganzen Auftrags",
       "time": "87–90",
       "duration": 0
-    },
-    {
-      "id": "w01-pause",
-      "title": "Pause",
-      "time": "90–105",
-      "duration": 15
     },
     {
       "id": "w01-artificialanalysis",

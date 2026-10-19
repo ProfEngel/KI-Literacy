@@ -104,7 +104,7 @@ Zeit: 20–35 Minuten.
 
 ### Absicht, Erklärung und Moderation
 
-Geben Sie jeder Person zwei Karten. Auf der ersten steht der Grund für die Teilnahme, auf der zweiten eine konkrete Erwartung. Drei Minuten Einzelarbeit, fünf Minuten Austausch zu zweit und sieben Minuten gemeinsame Bündelung. Fragen Sie bei abstrakten Erwartungen nach einem Beispiel. Bewahren Sie die Themen als Parkplatz für spätere Wochen auf. Der sichtbare Countdown wird manuell gestartet.
+Geben Sie jeder Person zwei Karten. Auf der ersten steht der Grund für die Teilnahme, auf der zweiten eine konkrete Erwartung. Drei Minuten Einzelarbeit, fünf Minuten freiwilliger Austausch und sieben Minuten gemeinsame Bündelung. Fragen Sie bei abstrakten Erwartungen nach einem Beispiel. Bewahren Sie die Themen als Parkplatz für spätere Wochen auf. Der sichtbare Countdown wird manuell gestartet.
 
 ### Stolperstelle
 
@@ -216,7 +216,7 @@ Zeit: 60–75 Minuten.
 
 ### Absicht, Erklärung und Moderation
 
-Nach den drei Showcases folgt die vom Nutzer gewünschte Fragerunde. Lassen Sie zunächst drei Minuten konkrete Kontakte notieren, dann sieben Minuten im Tandem einordnen und fünf Minuten gemeinsam besprechen. Akzeptieren Sie Unsicherheit darüber, ob ein System wirklich agentisch ist: Von einem Ergebnis allein lässt sich die interne Architektur oft nicht erkennen. Sammeln Sie zwei Beispiele als spätere Bezugspunkte.
+Nach den drei Showcases folgt die vom Nutzer gewünschte Fragerunde. Lassen Sie zunächst drei Minuten konkrete Kontakte notieren, dann sieben Minuten eigenständig einordnen und fünf Minuten gemeinsam besprechen. Akzeptieren Sie Unsicherheit darüber, ob ein System wirklich agentisch ist: Von einem Ergebnis allein lässt sich die interne Architektur oft nicht erkennen. Sammeln Sie zwei Beispiele als spätere Bezugspunkte.
 
 ### Stolperstelle
 
@@ -272,25 +272,9 @@ Tokenpreis, Kosten pro Anfrage und Kosten eines erfolgreich erledigten Auftrags 
 
 ### Übergang
 
-Übergang: Pause
+Moderationspause 90–105 Minuten; danach Artificial Analysis
 
-## 18 · w01-pause · Pause
-
-Zeit: 90–105 Minuten.
-
-### Absicht, Erklärung und Moderation
-
-Geben Sie die Rückkehrzeit bekannt und starten Sie bei Bedarf den 15-Minuten-Timer. Die Pause steht den Studierenden vollständig zur Verfügung; keine zusätzlichen Pflichtinhalte parallel erklären.
-
-### Stolperstelle
-
-Wenige konkrete Beispiele besprechen und das angegebene Zeitfenster einhalten.
-
-### Übergang
-
-Übergang: Artificial Analysis: Qualität und Aufwand gemeinsam betrachten
-
-## 19 · w01-artificialanalysis · Artificial Analysis: Qualität und Aufwand gemeinsam betrachten
+## 18 · w01-artificialanalysis · Artificial Analysis: Qualität und Aufwand gemeinsam betrachten
 
 Zeit: 105–110 Minuten.
 
@@ -306,7 +290,7 @@ Qualität verschiedener Benchmarks nicht wie dieselbe einheitliche Messgröße b
 
 Übergang: Hugging Face: Modelle und ihre Dokumentation finden
 
-## 20 · w01-huggingface · Hugging Face: Modelle und ihre Dokumentation finden
+## 19 · w01-huggingface · Hugging Face: Modelle und ihre Dokumentation finden
 
 Zeit: 110–114 Minuten.
 
@@ -322,7 +306,7 @@ Ein populäres Modell oder eine hohe Downloadzahl beweist keine Qualität für d
 
 Übergang: GitHub: von der Idee zum nachvollziehbaren Projekt
 
-## 21 · w01-profengel · GitHub: von der Idee zum nachvollziehbaren Projekt
+## 20 · w01-profengel · GitHub: von der Idee zum nachvollziehbaren Projekt
 
 Zeit: 114–118 Minuten.
 
@@ -338,7 +322,7 @@ Wenige konkrete Beispiele besprechen und das angegebene Zeitfenster einhalten.
 
 Übergang: Jetzt richten wir ChatGPT Desktop gemeinsam ein
 
-## 22 · w01-desktop-intro · Jetzt richten wir ChatGPT Desktop gemeinsam ein
+## 21 · w01-desktop-intro · Jetzt richten wir ChatGPT Desktop gemeinsam ein
 
 Zeit: 118–120 Minuten.
 
@@ -354,13 +338,13 @@ Ein Chat-Abonnement ist kein Beleg, dass jeder API-Zugang oder jede optionale Fu
 
 Übergang: Ihr erster gemeinsamer Funktionstest
 
-## 23 · w01-desktop-exercise · Ihr erster gemeinsamer Funktionstest
+## 22 · w01-desktop-exercise · Ihr erster gemeinsamer Funktionstest
 
 Zeit: 120–140 Minuten.
 
 ### Absicht, Erklärung und Moderation
 
-Reservieren Sie fünf Minuten für Installation und Anmeldung, fünf für den gemeinsamen Rundgang durch Modelle und Einstellungen, fünf für eine kleine Aufgabe und fünf für Prüfung und Rückfragen. Lassen Sie zum Beispiel drei frei gewählte Artikelpreise addieren und das Ergebnis unabhängig kontrollieren. Erklären Sie nur sichtbare Einstellungen der verwendeten Version. Unterstützen Sie technische Probleme im Tandem. Der Timer beträgt 20 Minuten.
+Reservieren Sie fünf Minuten für Installation und Anmeldung, fünf für den gemeinsamen Rundgang durch Modelle und Einstellungen, fünf für eine kleine Aufgabe und fünf für Prüfung und Rückfragen. Lassen Sie zum Beispiel drei frei gewählte Artikelpreise addieren und das Ergebnis unabhängig kontrollieren. Erklären Sie nur sichtbare Einstellungen der verwendeten Version. Unterstützen Sie bei technischen Problemen; gegenseitige Hilfe ist freiwillig. Der Timer beträgt 20 Minuten.
 
 ### Stolperstelle
 
@@ -370,7 +354,7 @@ Anmeldedaten bleiben auf dem eigenen Gerät; bei Menüunterschieden nicht auf ei
 
 Übergang: Zwei Projekte – zwei überprüfbare Ergebnisse
 
-## 24 · w01-projects · Zwei Projekte – zwei überprüfbare Ergebnisse
+## 23 · w01-projects · Zwei Projekte – zwei überprüfbare Ergebnisse
 
 Zeit: 140–144 Minuten.
 
@@ -386,7 +370,7 @@ Wenige konkrete Beispiele besprechen und das angegebene Zeitfenster einhalten.
 
 Ein kleines Projekt an einem klaren, gerechneten Beispiel greifbar machen.
 
-## 25 · w01-02 · Ein Angebotsassistent macht Preise vergleichbar
+## 24 · w01-02 · Ein Angebotsassistent macht Preise vergleichbar
 
 Zeit: 144–148 Minuten.
 
@@ -402,7 +386,7 @@ Die bisherige Folie 5 wird in den Projektabschnitt verschoben. Rechnen Sie A als
 
 Übergang: Wo finden Sie Projektideen?
 
-## 26 · w01-project-catalog · Wo finden Sie Projektideen?
+## 25 · w01-project-catalog · Wo finden Sie Projektideen?
 
 Zeit: 148–150 Minuten.
 
@@ -416,15 +400,15 @@ Wenige konkrete Beispiele besprechen und das angegebene Zeitfenster einhalten.
 
 ### Übergang
 
-Übergang: Zu zweit: Ihre erste Projektkarte
+Übergang: Ihre erste Projektkarte
 
-## 27 · w01-project-exercise · Zu zweit: Ihre erste Projektkarte
+## 26 · w01-project-exercise · Ihre erste Projektkarte
 
 Zeit: 150–170 Minuten.
 
 ### Absicht, Erklärung und Moderation
 
-Geben Sie fünf Minuten für Zweiergruppen, zehn Minuten für eine erste schriftliche Projektidee und fünf Minuten für ausgewählte Kurzvorstellungen. Die Karte enthält Zielgruppe, Problem, gewünschtes Ergebnis, Datenbedarf und einen ersten Prüffall. Eine Idee kann sich noch ändern. Neue Vorschläge werden mit Ihnen abgestimmt. Die Übung endet mit einer konkreten Notiz, nicht mit der Pflicht zu einem fertigen System. Arbeitsblatt und Export funktionieren lokal im Browser.
+Geben Sie fünf Minuten für die eigene Themenwahl, zehn Minuten für eine erste schriftliche Projektidee und fünf Minuten für ausgewählte Kurzvorstellungen. Die Karte enthält Zielgruppe, Problem, gewünschtes Ergebnis, Datenbedarf und einen ersten Prüffall. Eine Idee kann sich noch ändern. Neue Vorschläge werden mit Ihnen abgestimmt. Die Übung endet mit einer konkreten Notiz, nicht mit der Pflicht zu einem fertigen System. Arbeitsblatt und Export funktionieren lokal im Browser.
 
 ### Stolperstelle
 
@@ -434,7 +418,7 @@ Eine Liste von Tools ist noch keine Beschreibung des Problems.
 
 Übergang: Das werden wir Schritt für Schritt vertiefen
 
-## 28 · w01-outlook · Das werden wir Schritt für Schritt vertiefen
+## 27 · w01-outlook · Das werden wir Schritt für Schritt vertiefen
 
 Zeit: 170–174 Minuten.
 
@@ -450,7 +434,7 @@ Wenige konkrete Beispiele besprechen und das angegebene Zeitfenster einhalten.
 
 Die Initialfrage mit der gesamten Lernlandkarte beantworten.
 
-## 29 · w01-bigpicture · Vom Einstieg zum eigenen Werkstück
+## 28 · w01-bigpicture · Vom Einstieg zum eigenen Werkstück
 
 Zeit: 174–178 Minuten.
 
@@ -466,7 +450,7 @@ Die Metapher nicht als vollständige technische Systemarchitektur lesen.
 
 Übergang: Quellenverzeichnis
 
-## 30 · w01-sources · Quellenverzeichnis
+## 29 · w01-sources · Quellenverzeichnis
 
 Zeit: 178–180 Minuten.
 

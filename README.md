@@ -21,8 +21,9 @@ HTML-Präsentationen direkt auf GitHub Pages:
 
 Begleitmaterial für die Agentenwerkstatt:
 
-- [Event-Agent · Daten und Benchmark](https://profengel.github.io/KI-Literacy/materialien/w04-event-agent/) – synthetische Eventdaten, Werkzeuge, UI-freier Codex-Start, 30 Abnahmefälle und ein leeres Benchmark-Template für eigene Agenten. Noch keine vorgegebenen Modell-Ergebnisse oder Produktivfreigabe.
-- Direkt öffnen: [Benchmark-Cockpit · 30 Fälle](https://profengel.github.io/KI-Literacy/materialien/w04-event-agent/benchmark/index.html) · [Leeres Benchmark-Template](https://profengel.github.io/KI-Literacy/materialien/w04-event-agent/benchmark-template/index.html) · [Event-Agent herunterladen · ZIP](https://profengel.github.io/KI-Literacy/materialien/w04-event-agent/event-agent.zip).
+- [Woche 3 · Offline-App und Feedback](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w03/material/GitHub_und_PWA.html) – GitHub/Pages-Anleitung, installierbares [PWA-Muster](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w03/material/eventplaner-pwa/) und [gezielter Feedbackbogen](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w03/material/feedback.html).
+- [Event-Agent · Daten und Benchmark](https://profengel.github.io/KI-Literacy/materialien/w04-event-agent/) – synthetische Eventdaten, Werkzeuge, UI-freier Codex-Start, sechs Unterrichtsfälle (zunächst zwei), 30 Fälle als Vertiefung und ein leeres Benchmark-Template. Keine vorgegebenen Modell-Ergebnisse oder Produktivfreigabe.
+- Direkt öffnen: [Unterrichtsbenchmark · 6 Fälle](https://profengel.github.io/KI-Literacy/materialien/w04-event-agent/benchmark-lecture/index.html) · [Vertiefung · 30 Fälle](https://profengel.github.io/KI-Literacy/materialien/w04-event-agent/benchmark/index.html) · [Leeres Benchmark-Template](https://profengel.github.io/KI-Literacy/materialien/w04-event-agent/benchmark-template/index.html) · [Event-Agent herunterladen · ZIP](https://profengel.github.io/KI-Literacy/materialien/w04-event-agent/event-agent.zip).
 
 ### HR/WF Analytics · 4 SWS
 

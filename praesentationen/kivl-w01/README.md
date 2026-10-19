@@ -1,6 +1,6 @@
 # KI & Data Science · Woche 1
 
-Start: [AA_W01_Einstieg.html](AA_W01_Einstieg.html). 30 Folien, 180 Minuten inklusive Pause. Referenzlayout: KI Literacy Basics, im Nutzerauftrag ausdrücklich gewählt.
+Start: [AA_W01_Einstieg.html](AA_W01_Einstieg.html). 29 Folien, 180 Minuten inklusive Pause. Referenzlayout: KI Literacy Basics, im Nutzerauftrag ausdrücklich gewählt.
 
 Pfeile/Leertaste, Home/End, Folienauswahl, Hell/Dunkel/Auto, Vollbild, Notizen und Druck. Vier Übungsfolien haben Timer mit Start/Pause/Reset (15, 15, 20, 20 Minuten). Beim Wechsel pausiert der Timer. Online-Frames werden beim Folienwechsel entfernt.
 

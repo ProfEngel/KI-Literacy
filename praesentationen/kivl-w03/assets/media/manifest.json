@@ -27,8 +27,7 @@
       "taskId": "2f1628d0295f526bd18fe26998d22b4e",
       "inputReferences": [],
       "slideIds": [
-        "w03-mini-context",
-        "w03-auftrag"
+        "w03-mini-context"
       ],
       "fit": "contain",
       "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
@@ -61,8 +60,7 @@
       "taskId": "2f4557b1caadf8272ada50af35495482",
       "inputReferences": [],
       "slideIds": [
-        "w03-wrap-context",
-        "w03-lmstudio"
+        "w03-wrap-context"
       ],
       "fit": "contain",
       "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
@@ -96,7 +94,25 @@
       "slideIds": [
         "w03-eventziel",
         "w03-build",
+        "w03-deploy",
         "w03-wrap-build"
+      ],
+      "fit": "contain",
+      "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
+      "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "local-cloud.png",
+      "provider": "Kie.ai",
+      "model": "nano-banana-2",
+      "language": "de",
+      "promptFile": "../prompts/local-cloud.txt",
+      "receiptFile": "../prompts/local-cloud-receipt.json",
+      "taskId": "cb32baffddfe4209a7a73453f598bd8a",
+      "inputReferences": [],
+      "slideIds": [
+        "w03-local",
+        "w03-lmstudio"
       ],
       "fit": "contain",
       "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
@@ -118,6 +134,18 @@
       "fit": "contain",
       "provenance": "Neu im freigegebenen Kursauftrag generiert; Metapher, kein echter Screenshot.",
       "rights": "Generiert über bestehenden Nutzerzugang; Anbieterbedingungen und Publikationsprüfung beachten."
+    },
+    {
+      "file": "prompt-rocket.jpg",
+      "provider": "Vorhandenes vom Nutzer bereitgestelltes Lehrmaterial",
+      "model": null,
+      "source": "KI Literacy Basics/assets/media/anatomie_prompt.jpg",
+      "slideIds": [
+        "w03-auftrag"
+      ],
+      "fit": "contain",
+      "provenance": "Tatsächlich visuell geprüft und unverändert übernommen. Kein neuer Bildgenerator-Aufruf.",
+      "rights": "Nutzerbestand; ursprüngliche Rechte/Anbieterbedingungen beachten."
     },
     {
       "file": "repair.png",

@@ -49,7 +49,7 @@ Zeigen Sie sechs Dateien als Mitarbeiterakte, ohne Dateiformate ausführlich zu 
 
 Didaktische Grenze: Metapher und Simulation erklären einen Mechanismus, keine vollständige Architektur oder universelle Modellleistung. Fragen am konkreten Eventfall beantworten; notwendige Vertiefung in den Quellenanhang verlagern.
 
-Quellen: W04-P1, D1, M1
+Quellen: W04-P1, D1, TR1, M1
 
 ## 06 · Ein Frontiermodell baut unseren Event-Agenten
 
@@ -59,7 +59,7 @@ Minute 17–20: Frontier-Bau starten und Zugänge prüfen. Minute 20–28: Newsf
 
 Durchführung: Erwartung nennen lassen, vollständigen integrierten Auftrag öffnen/kopieren, Timer starten. Tatsächliche Ausführung beobachten. Bei technischem Stillstand vorbereitete Referenz nutzen; nicht so tun, als sei sie die studentische Generierung. Nachher Ergebnisse anhand der Gegenprobe besprechen.
 
-Quellen: D1, M1, OCLI
+Quellen: D1, TR1, M1, OCLI
 
 ## 07 · Was war Modellarbeit, was Werkzeugausführung?
 
@@ -115,17 +115,17 @@ Quellen: D1, M1
 
 ID: w04-abnahme · Block 60–75 Minuten · Typ T
 
-Die 30 Fälle sind eine didaktische Testsuite, kein allgemeines wissenschaftliches Minimum. Vor produktiver Nutzung zusätzliche risikogerechte und unbekannte Transferfälle vorsehen. Ein schöner Gesamtscore darf kritische Verstöße nicht verstecken.
+Die sechs Unterrichtsfälle und die erweiterte 30er-Suite sind didaktische Testsuiten, kein allgemeines wissenschaftliches Minimum. Vor produktiver Nutzung zusätzliche risikogerechte und unbekannte Transferfälle vorsehen. Ein schöner Gesamtscore darf kritische Verstöße nicht verstecken.
 
 Didaktische Grenze: Metapher und Simulation erklären einen Mechanismus, keine vollständige Architektur oder universelle Modellleistung. Fragen am konkreten Eventfall beantworten; notwendige Vertiefung in den Quellenanhang verlagern.
 
 Quellen: D1, M1
 
-## 13 · Unser fertiges Benchmark-Cockpit organisiert die Prüfung
+## 13 · Sechs Fälle für heute — gründlicher prüfen vor Produktivbetrieb
 
 ID: w04-testmatrix · Block 60–75 Minuten · Typ T/I
 
-Öffnen Sie das bereits fertige Cockpit. Es enthält bewusst keine erfundenen Modell-Erfolge. Demonstrieren Sie die Kategorien und den Kernfallfilter. Die Studierenden bauen heute nicht noch einen Benchmark-Editor; sie nutzen die vorbereitete Anwendung.
+Sechs Fälle sind die komplette Lehrkurzfassung, nicht sechs Fälle pro Station. Keine 30 Aufgaben heute. Modellvergleiche zuerst nur mit zwei identischen, schon geprüften Fällen. Vollständige Suite bleibt freiwillige Vertiefung.
 
 Didaktische Grenze: Metapher und Simulation erklären einen Mechanismus, keine vollständige Architektur oder universelle Modellleistung. Fragen am konkreten Eventfall beantworten; notwendige Vertiefung in den Quellenanhang verlagern.
 
@@ -135,7 +135,7 @@ Quellen: D1
 
 ID: w04-baseline · Block 60–75 Minuten · Typ A
 
-Erste Ausgangsmessung, keine Optimierung. Verteilen Sie Fälle, wenn die Generationen lange dauern. Die Katalog-Sollwerte sind menschliche Prüfhilfe und gehören nicht als Lernmaterial in den Agentenkontext.
+Zuerst nur T03 und D02. Die verbleibenden vier Fälle werden später verteilt nach Station ergänzt, nicht als Pflichtmatrix mit allen Modellen auf einmal.
 
 Durchführung: Erwartung nennen lassen, vollständigen integrierten Auftrag öffnen/kopieren, Timer starten. Tatsächliche Ausführung beobachten. Bei technischem Stillstand vorbereitete Referenz nutzen; nicht so tun, als sei sie die studentische Generierung. Nachher Ergebnisse anhand der Gegenprobe besprechen.
 
@@ -151,17 +151,7 @@ Moderation: erst einen konkreten Befund aus der Gruppe hören, dann die Zielerke
 
 Quellen: D1, M1
 
-## 16 · Pause
-
-ID: w04-pause · Block 75–90 Minuten · Typ O
-
-Minute 75–90. Vor der Pause Ergebnisexport empfehlen, aber keine zusätzliche Pflichtaufgabe auf der Pausenfolie.
-
-Didaktische Grenze: Metapher und Simulation erklären einen Mechanismus, keine vollständige Architektur oder universelle Modellleistung. Fragen am konkreten Eventfall beantworten; notwendige Vertiefung in den Quellenanhang verlagern.
-
-Quellen: D1
-
-## 17 · Bringe den Agenten kontrolliert zum Stolpern
+## 16 · Bringe den Agenten kontrolliert zum Stolpern
 
 ID: w04-hardtests · Block 90–120 Minuten · Typ A
 
@@ -171,7 +161,7 @@ Durchführung: Erwartung nennen lassen, vollständigen integrierten Auftrag öff
 
 Quellen: D1, M1
 
-## 18 · An welcher Grenze ist er gescheitert?
+## 17 · An welcher Grenze ist er gescheitert?
 
 ID: w04-wrap-hardtests · Block 90–120 Minuten · Typ R
 
@@ -181,7 +171,7 @@ Moderation: erst einen konkreten Befund aus der Gruppe hören, dann die Zielerke
 
 Quellen: D1, M1
 
-## 19 · Verbessere gezielt Auftrag, Tool oder Kontrolle
+## 18 · Verbessere gezielt Auftrag, Tool oder Kontrolle
 
 ID: w04-optimize · Block 90–120 Minuten · Typ A
 
@@ -191,7 +181,7 @@ Durchführung: Erwartung nennen lassen, vollständigen integrierten Auftrag öff
 
 Quellen: D1, M1
 
-## 20 · Welche Verbesserung hält einer Wiederholung stand?
+## 19 · Welche Verbesserung hält einer Wiederholung stand?
 
 ID: w04-wrap-optimize · Block 90–120 Minuten · Typ R
 
@@ -201,7 +191,7 @@ Moderation: erst einen konkreten Befund aus der Gruppe hören, dann die Zielerke
 
 Quellen: D1, M1
 
-## 21 · Dasselbe Agentenpaket, anderes Laufzeitmodell
+## 20 · Dasselbe Agentenpaket, anderes Laufzeitmodell
 
 ID: w04-lunasol · Block 120–145 Minuten · Typ T/I
 
@@ -211,7 +201,7 @@ Didaktische Grenze: Metapher und Simulation erklären einen Mechanismus, keine v
 
 Quellen: W04-M1, D1, OCLI
 
-## 22 · Vergleiche Qualität und Aufwand im fertigen Cockpit
+## 21 · Vergleiche Qualität und Aufwand im fertigen Cockpit
 
 ID: w04-benchmark · Block 120–145 Minuten · Typ A/I
 
@@ -221,7 +211,7 @@ Durchführung: Erwartung nennen lassen, vollständigen integrierten Auftrag öff
 
 Quellen: D1, M1, OCLI
 
-## 23 · Freigeben, verbessern oder ungeeignet?
+## 22 · Freigeben, verbessern oder ungeeignet?
 
 ID: w04-wrap-benchmark · Block 120–145 Minuten · Typ R
 
@@ -231,7 +221,7 @@ Moderation: erst einen konkreten Befund aus der Gruppe hören, dann die Zielerke
 
 Quellen: D1, M1
 
-## 24 · Zwei Mitarbeiter teilen ein Projekt, nicht ihr ganzes Gedächtnis
+## 23 · Zwei Mitarbeiter teilen ein Projekt, nicht ihr ganzes Gedächtnis
 
 ID: w04-werkstatt · Block 145–155 Minuten · Typ T/I
 
@@ -241,17 +231,17 @@ Didaktische Grenze: Metapher und Simulation erklären einen Mechanismus, keine v
 
 Quellen: TR1, M1
 
-## 25 · Ein Konzil macht begründete Differenzen sichtbar
+## 24 · Ein Konzil verbindet unterschiedliche Expertisen
 
 ID: w04-konzil · Block 145–155 Minuten · Typ T/I
 
-Ein Konzil ist hier eine geordnete Gegenüberstellung von Einschätzungen. Zwei Modelle können denselben Fehler teilen. Einigkeit ist kein Wahrheitsbeweis, und der Prüfer braucht später selbst Abnahmetests.
+Keine Diagnose oder Behandlung lehren. Organisationsmetapher: verschiedene Fachgebiete erweitern den Blick. Ein LLM-as-a-Judge kann Rubriken prüfen, bleibt aber fehlbar. Unabhängige Ersturteile und Quellen verlangen; gleiche Modellfehler können sich wiederholen. Einigkeit ist keine Wahrheit.
 
 Didaktische Grenze: Metapher und Simulation erklären einen Mechanismus, keine vollständige Architektur oder universelle Modellleistung. Fragen am konkreten Eventfall beantworten; notwendige Vertiefung in den Quellenanhang verlagern.
 
-Quellen: D1
+Quellen: D1, REV-KONZIL, M1
 
-## 26 · Ergänze einen Prüfer und übergib einen Fall
+## 25 · Ergänze einen Prüfer und übergib einen Fall
 
 ID: w04-bonusagent · Block 145–155 Minuten · Typ A
 
@@ -259,9 +249,9 @@ Optionaler kurzer Bonus. Der gesamte Werkstattblock dauert zehn Minuten, also ke
 
 Durchführung: Erwartung nennen lassen, vollständigen integrierten Auftrag öffnen/kopieren, Timer starten. Tatsächliche Ausführung beobachten. Bei technischem Stillstand vorbereitete Referenz nutzen; nicht so tun, als sei sie die studentische Generierung. Nachher Ergebnisse anhand der Gegenprobe besprechen.
 
-Quellen: D1, M1
+Quellen: D1, REV-KONZIL, M1
 
-## 27 · Was hat Zusammenarbeit verbessert — was bleibt ungeprüft?
+## 26 · Was hat Zusammenarbeit verbessert — was bleibt ungeprüft?
 
 ID: w04-wrap-werkstatt · Block 145–155 Minuten · Typ R
 
@@ -269,9 +259,9 @@ Drei Minuten im Bonusblock. Den ungeprüften Status des neuen Workers ausdrückl
 
 Moderation: erst einen konkreten Befund aus der Gruppe hören, dann die Zielerkenntnis aufklappen. Nachweis und Vermutung trennen. Timer gilt für die gesamte Auswertung.
 
-Quellen: D1, M1
+Quellen: D1, REV-KONZIL, M1
 
-## 28 · Kann ein lokales kleines Modell einen abgegrenzten Teilauftrag übernehmen?
+## 27 · Kann ein lokales kleines Modell einen abgegrenzten Teilauftrag übernehmen?
 
 ID: w04-local · Block 155–175 Minuten · Typ I
 
@@ -281,7 +271,7 @@ Didaktische Grenze: Metapher und Simulation erklären einen Mechanismus, keine v
 
 Quellen: W04-O2, W04-O3, W04-A1, W04-A2, AA1
 
-## 29 · Derselbe Auftrag mit anderer Modellanbindung
+## 28 · Derselbe Auftrag mit anderer Modellanbindung
 
 ID: w04-claudedesktop · Block 155–175 Minuten · Typ I
 
@@ -291,7 +281,7 @@ Didaktische Grenze: Metapher und Simulation erklären einen Mechanismus, keine v
 
 Quellen: W04-O1, W04-O6, W04-O7, M1
 
-## 30 · Lokalen Kandidaten freiwillig gegen bekannte Fälle testen
+## 29 · Lokalen Kandidaten freiwillig gegen bekannte Fälle testen
 
 ID: w04-hausaufgabe · Block 155–175 Minuten · Typ I/O
 
@@ -301,7 +291,7 @@ Didaktische Grenze: Metapher und Simulation erklären einen Mechanismus, keine v
 
 Quellen: W04-O4, W04-O5, W04-A1, W04-A2, AA1
 
-## 31 · Auftrag → Wissen → Tool → Test → Modellvergleich → Freigabe
+## 30 · Auftrag → Wissen → Tool → Test → Modellvergleich → Freigabe
 
 ID: w04-bigpicture · Block 175–180 Minuten · Typ R
 
@@ -311,7 +301,7 @@ Didaktische Grenze: Metapher und Simulation erklären einen Mechanismus, keine v
 
 Quellen: D1, M1
 
-## 32 · Quellen, Daten, Benchmark und Template
+## 31 · Quellen, Daten, Benchmark und Template
 
 ID: w04-sources · Block 175–180 Minuten · Typ O
 

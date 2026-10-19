@@ -112,7 +112,7 @@
       "M4"
     ],
     "tag": "STATION 1 · WRAP-UP",
-    "notes": "Fünf Minuten insgesamt: zwei Minuten Partnerprüfung, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.",
+    "notes": "Fünf Minuten insgesamt: zwei Minuten eigene Gegenprobe, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.",
     "expect": "",
     "test": "Prüft 1955/1956 und zwei falsche Zuordnungen im Spiel.",
     "corner": "<div class=\"timer corner-timer\" data-seconds=\"300\" data-timer-group=\"history-wrap\" aria-label=\"Wrap-up\"><span class=\"timer-label\">Wrap-up</span><output aria-live=\"off\">05:00</output><div><button data-timer=\"start\">Start</button><button data-timer=\"pause\">Pause</button><button data-timer=\"reset\">Reset</button></div><span class=\"timer-state\" aria-live=\"polite\">Bereit</span></div>"
@@ -225,7 +225,7 @@
       "M4"
     ],
     "tag": "STATION 2 · WRAP-UP",
-    "notes": "Fünf Minuten insgesamt: zwei Minuten Partnerprüfung, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.",
+    "notes": "Fünf Minuten insgesamt: zwei Minuten eigene Gegenprobe, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.",
     "expect": "",
     "test": "Welche Regel scheitert bei Grün? Warum war das vorher nicht erkennbar?",
     "corner": "<div class=\"timer corner-timer\" data-seconds=\"300\" data-timer-group=\"learning-wrap\" aria-label=\"Wrap-up\"><span class=\"timer-label\">Wrap-up</span><output aria-live=\"off\">05:00</output><div><button data-timer=\"start\">Start</button><button data-timer=\"pause\">Pause</button><button data-timer=\"reset\">Reset</button></div><span class=\"timer-state\" aria-live=\"polite\">Bereit</span></div>"
@@ -303,19 +303,10 @@
       "M4"
     ],
     "tag": "STATION 3 · WRAP-UP",
-    "notes": "Fünf Minuten insgesamt: zwei Minuten Partnerprüfung, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.",
+    "notes": "Fünf Minuten insgesamt: zwei Minuten eigene Gegenprobe, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.",
     "expect": "",
     "test": "Vergebt einen Auftrag mit fehlendem Skill. Nach Upgrade erneut testen. Wächst Memory nur nach erfolgreicher Arbeit?",
     "corner": "<div class=\"timer corner-timer\" data-seconds=\"300\" data-timer-group=\"agents-wrap\" aria-label=\"Wrap-up\"><span class=\"timer-label\">Wrap-up</span><output aria-live=\"off\">05:00</output><div><button data-timer=\"start\">Start</button><button data-timer=\"pause\">Pause</button><button data-timer=\"reset\">Reset</button></div><span class=\"timer-state\" aria-live=\"polite\">Bereit</span></div>"
-  },
-  {
-    "id": "w02-break",
-    "title": "Kurz Luft holen.",
-    "sources": [],
-    "tag": "15 MINUTEN PAUSE",
-    "notes": "Pause nach drei Stationen bei Minute101–116. Pausentimer unabhängig von den zehn Übungstimern.",
-    "expect": "",
-    "test": ""
   },
   {
     "id": "w02-subtraction-01",
@@ -386,7 +377,7 @@
       "M4"
     ],
     "tag": "STATION 4 · WRAP-UP",
-    "notes": "Fünf Minuten insgesamt: zwei Minuten Partnerprüfung, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.",
+    "notes": "Fünf Minuten insgesamt: zwei Minuten eigene Gegenprobe, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.",
     "expect": "",
     "test": "Entfernt das E-Mail-Feld. Erkennt der Check den Fehler? Prüft eine kontrastarme Farbe.",
     "corner": "<div class=\"timer corner-timer\" data-seconds=\"300\" data-timer-group=\"subtraction-wrap\" aria-label=\"Wrap-up\"><span class=\"timer-label\">Wrap-up</span><output aria-live=\"off\">05:00</output><div><button data-timer=\"start\">Start</button><button data-timer=\"pause\">Pause</button><button data-timer=\"reset\">Reset</button></div><span class=\"timer-state\" aria-live=\"polite\">Bereit</span></div>"
@@ -448,7 +439,7 @@
       "M4"
     ],
     "tag": "STATION 5 · WRAP-UP",
-    "notes": "Fünf Minuten insgesamt: zwei Minuten Partnerprüfung, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.",
+    "notes": "Fünf Minuten insgesamt: zwei Minuten eigene Gegenprobe, zwei Minuten ein Beispiel im Plenum, eine Minute Korrektur/Erkenntnis. Modellfeedback an sichtbaren Befunden überprüfen. Kein automatisches Urteil als Wahrheit übernehmen.",
     "expect": "",
     "test": "Erhöht die Prüfzeit auf 5 Minuten: erste Woche −220 min, Folgewochen −100 min.",
     "corner": "<div class=\"timer corner-timer\" data-seconds=\"300\" data-timer-group=\"value-wrap\" aria-label=\"Wrap-up\"><span class=\"timer-label\">Wrap-up</span><output aria-live=\"off\">05:00</output><div><button data-timer=\"start\">Start</button><button data-timer=\"pause\">Pause</button><button data-timer=\"reset\">Reset</button></div><span class=\"timer-state\" aria-live=\"polite\">Bereit</span></div>"
