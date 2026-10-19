@@ -17,6 +17,10 @@ HTML-Präsentationen direkt auf GitHub Pages:
 - [Woche 1 · Einstieg](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w01/AA_W01_Einstieg.html)
 - [Woche 2 · Fundamente: Build & Check](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w02/AA_W02_Fundamente.html) – fünf praktische Stationen mit Prompts, Schaubildern und Übungen.
 
+Begleitmaterial für die Agentenwerkstatt:
+
+- [Event-Agent · Daten und Benchmark](https://profengel.github.io/KI-Literacy/materialien/w04-event-agent/) – synthetische Eventdaten, Werkzeuge, UI-freier Codex-Start, 30 Abnahmefälle und ein leeres Benchmark-Template für eigene Agenten. Noch keine vorgegebenen Modell-Ergebnisse oder Produktivfreigabe.
+
 ### HR/WF Analytics · 4 SWS
 
 Personal- und Workforce-Fragen mit Daten untersuchen, Kennzahlen interpretieren und Ergebnisse verantwortungsvoll verwenden.

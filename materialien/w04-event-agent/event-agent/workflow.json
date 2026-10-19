@@ -1,0 +1,12 @@
+{
+  "steps": [
+    "Auftrag lesen",
+    "bestätigtes Memory abrufen",
+    "Quelldaten prüfen",
+    "Werkzeuge ausführen",
+    "Vorschlag validieren",
+    "menschlich bewerten"
+  ],
+  "maxToolSteps": 8,
+  "externalActions": false
+}

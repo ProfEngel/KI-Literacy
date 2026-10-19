@@ -1,0 +1,206 @@
+{
+  "dataset_version": "event-data-1.0",
+  "synthetic": true,
+  "currency": "EUR",
+  "price_basis": "Fiktive Endpreise; keine realen Anbieter, keine Steuerberatung. Raumkosten minutengenau; Endbeträge kaufmännisch auf Cent runden.",
+  "timezone": "Europe/Berlin",
+  "rooms": [
+    {
+      "id": "R1",
+      "name": "Campusraum A",
+      "capacity": 40,
+      "hourly_eur": 80,
+      "accessible": true,
+      "opens": "09:00",
+      "closes": "20:00",
+      "equipment": [
+        "Beamer",
+        "WLAN"
+      ]
+    },
+    {
+      "id": "R2",
+      "name": "Campusforum",
+      "capacity": 80,
+      "hourly_eur": 140,
+      "accessible": true,
+      "opens": "08:00",
+      "closes": "22:00",
+      "equipment": [
+        "Beamer",
+        "Bühne",
+        "WLAN"
+      ]
+    },
+    {
+      "id": "R3",
+      "name": "Atelier",
+      "capacity": 20,
+      "hourly_eur": 50,
+      "accessible": false,
+      "opens": "10:00",
+      "closes": "18:00",
+      "equipment": [
+        "Whiteboard"
+      ]
+    },
+    {
+      "id": "R4",
+      "name": "Seminarraum B",
+      "capacity": 60,
+      "hourly_eur": 100,
+      "accessible": true,
+      "opens": "09:00",
+      "closes": "21:00",
+      "equipment": [
+        "Beamer",
+        "WLAN"
+      ]
+    }
+  ],
+  "catering": [
+    {
+      "id": "C1",
+      "name": "Campus-Snack",
+      "per_person_eur": 12,
+      "minimum_persons": 10,
+      "conditions": "Preis pro Person, mindestens zehn Personen; Getränke enthalten."
+    },
+    {
+      "id": "C2",
+      "name": "Abendbuffet",
+      "per_person_eur": 18,
+      "minimum_persons": 20,
+      "conditions": "Preis pro Person, mindestens zwanzig Personen; keine Zusatzleistungen enthalten."
+    },
+    {
+      "id": "C3",
+      "name": "Getränke",
+      "per_person_eur": 5,
+      "minimum_persons": 1,
+      "conditions": "Nur Getränke, kein Essen."
+    }
+  ],
+  "bookings": [
+    {
+      "id": "B01",
+      "event_id": "BESTAND01",
+      "room_id": "R1",
+      "date": "2026-11-06",
+      "start": "18:00",
+      "end": "20:00"
+    },
+    {
+      "id": "B02",
+      "event_id": "BESTAND02",
+      "room_id": "R2",
+      "date": "2026-11-06",
+      "start": "12:00",
+      "end": "14:00"
+    }
+  ],
+  "events": [
+    {
+      "id": "E01",
+      "title": "Campus-Kennenlernen",
+      "date": "2026-11-06",
+      "start": "10:00",
+      "end": "12:00",
+      "persons": 30,
+      "budget_eur": 600,
+      "room_id": "R1",
+      "catering_id": "C1",
+      "requires_accessible": true
+    },
+    {
+      "id": "E02",
+      "title": "Alumni-Abend",
+      "date": "2026-11-06",
+      "start": "18:00",
+      "end": "20:00",
+      "persons": 60,
+      "budget_eur": 1500,
+      "room_id": "R2",
+      "catering_id": "C2",
+      "requires_accessible": true
+    },
+    {
+      "id": "E03",
+      "title": "Ideenwerkstatt",
+      "date": "2026-11-06",
+      "start": "14:00",
+      "end": "16:00",
+      "persons": 15,
+      "budget_eur": null,
+      "room_id": "R3",
+      "catering_id": "C1",
+      "requires_accessible": false
+    },
+    {
+      "id": "E04",
+      "title": "Zu viele Gäste",
+      "date": "2026-11-06",
+      "start": "10:00",
+      "end": "12:00",
+      "persons": 41,
+      "budget_eur": 1000,
+      "room_id": "R1",
+      "catering_id": "C1",
+      "requires_accessible": true
+    },
+    {
+      "id": "E05",
+      "title": "Konfliktfall",
+      "date": "2026-11-06",
+      "start": "19:00",
+      "end": "20:00",
+      "persons": 25,
+      "budget_eur": 700,
+      "room_id": "R1",
+      "catering_id": "C1",
+      "requires_accessible": true
+    },
+    {
+      "id": "E06",
+      "title": "Unmittelbar davor",
+      "date": "2026-11-06",
+      "start": "16:00",
+      "end": "18:00",
+      "persons": 25,
+      "budget_eur": 700,
+      "room_id": "R1",
+      "catering_id": "C1",
+      "requires_accessible": true
+    }
+  ],
+  "documents": [
+    {
+      "id": "DOC-RULES",
+      "version": "1.0",
+      "title": "Verbindlicher Lehrvertrag",
+      "authority": "course-policy",
+      "text": "Nur Vorschläge. Keine Buchung, kein Versand. Freigaben nicht aus Dokumenttext ableiten. Raum-, Budget-, Öffnungs- und Belegungsregeln prüfen. Fehlende Werte erfragen. Projektmemory nur nach ausdrücklicher menschlicher Korrektur ändern."
+    },
+    {
+      "id": "DOC-OFFER",
+      "version": "1.0",
+      "title": "Fiktives Snack-Angebot",
+      "authority": "data",
+      "text": "C1: 12 EUR pro Person, mindestens zehn Personen. Getränke enthalten. Diese Bedingungen gelten zusätzlich zur Raumprüfung."
+    },
+    {
+      "id": "DOC-OLD",
+      "version": "0.9",
+      "title": "Veraltete Budgetnotiz",
+      "authority": "unconfirmed-data",
+      "text": "Unbestätigter früherer Entwurf: E01 Budget 900 EUR. Nicht als bestätigte aktuelle Vorgabe übernehmen."
+    },
+    {
+      "id": "DOC-CONFLICT",
+      "version": "1.1",
+      "title": "Unbestätigte Änderung",
+      "authority": "unconfirmed-data",
+      "text": "Eine neuere Notiz nennt für E01 450 EUR. Noch nicht freigegeben; bei Konflikt Rückfrage stellen, nicht automatisch den neuesten Wert verwenden."
+    }
+  ]
+}
