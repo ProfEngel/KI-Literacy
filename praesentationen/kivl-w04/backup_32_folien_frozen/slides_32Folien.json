@@ -1,0 +1,639 @@
+[
+  {
+    "number": 1,
+    "id": "w04-cover",
+    "kind": "O",
+    "title": "Agenten und Werkstätten: bauen, prüfen, zusammenarbeiten",
+    "notes": "An W03 anknüpfen: Damals lief der Eventplaner ohne Modell. Heute arbeitet ein Modell während des Auftrags mit Werkzeugen. Der Maßstab ist nicht eine schöne Oberfläche, sondern nachgewiesene Leistung unter Regeln.",
+    "sources": [
+      "D1",
+      "M1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 1,
+      "last": 3,
+      "start": 0,
+      "end": 5,
+      "minutes": 5,
+      "label": "Einstieg"
+    }
+  },
+  {
+    "number": 2,
+    "id": "w04-agenda",
+    "kind": "O",
+    "title": "Ein Mitarbeiter durchläuft seinen Lebenszyklus",
+    "notes": "Die Trennung zwischen Bau- und Laufzeitmodell gleich zu Beginn betonen. Der kleine Kandidat muss nicht immer gewinnen. Ein negativer Befund ist ein valides Benchmark-Ergebnis. Newsflash folgt während der ersten Bauphase.",
+    "sources": [
+      "D1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 1,
+      "last": 3,
+      "start": 0,
+      "end": 5,
+      "minutes": 5,
+      "label": "Einstieg"
+    }
+  },
+  {
+    "number": 3,
+    "id": "w04-question",
+    "kind": "R",
+    "title": "Woran erkennen wir, ob wir einem KI-Mitarbeiter einen Auftrag anvertrauen können?",
+    "notes": "Zunächst zwei Kriterien aus dem Plenum sammeln. Die Kriterien werden am Ende im Prüfstand wieder aufgegriffen. Keine zusätzliche Theorie auf dieser Fragefolie.",
+    "sources": [
+      "D1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 1,
+      "last": 3,
+      "start": 0,
+      "end": 5,
+      "minutes": 5,
+      "label": "Einstieg"
+    }
+  },
+  {
+    "number": 4,
+    "id": "w04-harness",
+    "kind": "T/I",
+    "title": "Der Harness ermöglicht und begrenzt die Arbeit des Modells",
+    "notes": "Die Fachkraft-/Arbeitsplatzmetapher hat Grenzen. Das Modell ist keine Person; der Harness ist Laufzeitsoftware. Technische Berechtigungen müssen im System umgesetzt werden, nicht nur im Rollenprompt. Anthropic liefert ein Herstellerbeispiel, keinen universellen Standard.",
+    "sources": [
+      "W04-H1",
+      "M1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 4,
+      "last": 5,
+      "start": 5,
+      "end": 17,
+      "minutes": 12,
+      "label": "Modell / Harness / Mitarbeiter"
+    }
+  },
+  {
+    "number": 5,
+    "id": "w04-worker",
+    "kind": "T/I",
+    "title": "Auftrag, Skills, Tools, Memory und Grenzen",
+    "notes": "Zeigen Sie sechs Dateien als Mitarbeiterakte, ohne Dateiformate ausführlich zu lehren. Die Funktionsaufteilung ist wichtiger als ein starres Zeichenlimit. Die gefundene September-Arbeit wird eng eingeordnet: Codebeschreibungen statt allgemeiner AGENTS.md-Schwelle.",
+    "sources": [
+      "W04-P1",
+      "D1",
+      "TR1",
+      "M1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 4,
+      "last": 5,
+      "start": 5,
+      "end": 17,
+      "minutes": 12,
+      "label": "Modell / Harness / Mitarbeiter"
+    }
+  },
+  {
+    "number": 6,
+    "id": "w04-build",
+    "kind": "A/I",
+    "title": "Ein Frontiermodell baut unseren Event-Agenten",
+    "notes": "Minute 17–20: Frontier-Bau starten und Zugänge prüfen. Minute 20–28: Newsflash zur letzten Woche, solange die Generierung läuft. Minute 28–40: Ergebnis öffnen, kurzen E01-Auftrag ohne UI ausführen, tatsächliche Tools zeigen. Bei Setup-Problemen Briefing verkürzen, Referenzpaket als Rückfallweg anbieten. Der ZIP-Stand ist eine vorbereitete Vorlage, nicht studentisch generierter Code.",
+    "sources": [
+      "D1",
+      "TR1",
+      "M1",
+      "OCLI"
+    ],
+    "timer": 1380,
+    "window": {
+      "first": 6,
+      "last": 7,
+      "start": 17,
+      "end": 45,
+      "minutes": 28,
+      "label": "Bau mit Newsflash und Wrap-up"
+    }
+  },
+  {
+    "number": 7,
+    "id": "w04-wrap-build",
+    "kind": "R",
+    "title": "Was war Modellarbeit, was Werkzeugausführung?",
+    "notes": "Fünf Minuten, einen echten Lauf auswählen. Wenn nur eine Vorlage geöffnet wurde, das transparent sagen. Keine UI-Demo als Agentenlauf verkaufen.",
+    "sources": [
+      "D1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "first": 6,
+      "last": 7,
+      "start": 17,
+      "end": 45,
+      "minutes": 28,
+      "label": "Bau mit Newsflash und Wrap-up"
+    }
+  },
+  {
+    "number": 8,
+    "id": "w04-memory",
+    "kind": "T/I",
+    "title": "Memory muss gespeichert UND passend abgerufen werden",
+    "notes": "Erklären Sie am Budget: eine bestätigte Korrektur wird gespeichert und beim nächsten Auftrag gezielt abgerufen. SQLite ist Speichertechnik, kein automatisches Lernen. Namensräume sind logische Trennung, keine vollständige Sicherheits-Sandbox.",
+    "sources": [
+      "D1",
+      "M1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 8,
+      "last": 11,
+      "start": 45,
+      "end": 60,
+      "minutes": 15,
+      "label": "Memory und Dokumente"
+    }
+  },
+  {
+    "number": 9,
+    "id": "w04-documents",
+    "kind": "T/I",
+    "title": "Dokumente sind Quellen, keine neuen Befehlsgeber",
+    "notes": "Die kleine Dokumentmappe reicht für heute. RAG kommt in W06 als Erweiterung. Die neue Notiz DOC-CONFLICT ist nicht automatisch verbindlich; die Regel zur Freigabe bleibt bestehen. Bei widersprüchlichen Daten fragen statt selbst einen gewünschten Wert auszuwählen.",
+    "sources": [
+      "D1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 8,
+      "last": 11,
+      "start": 45,
+      "end": 60,
+      "minutes": 15,
+      "label": "Memory und Dokumente"
+    }
+  },
+  {
+    "number": 10,
+    "id": "w04-memorytest",
+    "kind": "A",
+    "title": "Ändere eine Vorgabe und prüfe den nächsten Auftrag",
+    "notes": "Verwenden Sie eine Übungskopie. Die Budgetkorrektur ist ein bewusster menschlicher Befehl. Im P01-Lauf bleibt die Rechnung 520 EUR, nun 20 EUR über Budget. P02 ohne eigene Korrektur nutzt 600 EUR. Keine echten Memory-Dateien löschen.",
+    "sources": [
+      "D1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "first": 8,
+      "last": 11,
+      "start": 45,
+      "end": 60,
+      "minutes": 15,
+      "label": "Memory und Dokumente"
+    }
+  },
+  {
+    "number": 11,
+    "id": "w04-wrap-memory",
+    "kind": "R",
+    "title": "Hat der Agent die Korrektur wirklich genutzt?",
+    "notes": "Fünf Minuten. Wenn P01/P02 getrennt wurden, dennoch die Grenze erläutern: Ein allgemeiner Coding-Harness mit Dateizugriff wird durch SQL-Namensräume allein nicht sicher. Die Testumgebung enthält nur synthetische Daten.",
+    "sources": [
+      "D1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "first": 8,
+      "last": 11,
+      "start": 45,
+      "end": 60,
+      "minutes": 15,
+      "label": "Memory und Dokumente"
+    }
+  },
+  {
+    "number": 12,
+    "id": "w04-abnahme",
+    "kind": "T",
+    "title": "Ein Einzelbeispiel ist keine Abnahme",
+    "notes": "Die sechs Unterrichtsfälle und die erweiterte 30er-Suite sind didaktische Testsuiten, kein allgemeines wissenschaftliches Minimum. Vor produktiver Nutzung zusätzliche risikogerechte und unbekannte Transferfälle vorsehen. Ein schöner Gesamtscore darf kritische Verstöße nicht verstecken.",
+    "sources": [
+      "D1",
+      "M1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 12,
+      "last": 15,
+      "start": 60,
+      "end": 75,
+      "minutes": 15,
+      "label": "Unterrichtsbenchmark / Baseline"
+    }
+  },
+  {
+    "number": 13,
+    "id": "w04-testmatrix",
+    "kind": "T/I",
+    "title": "Sechs Fälle für heute — gründlicher prüfen vor Produktivbetrieb",
+    "notes": "Sechs Fälle sind die komplette Lehrkurzfassung, nicht sechs Fälle pro Station. Keine 30 Aufgaben heute. Modellvergleiche zuerst nur mit zwei identischen, schon geprüften Fällen. Vollständige Suite bleibt freiwillige Vertiefung.",
+    "sources": [
+      "D1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 12,
+      "last": 15,
+      "start": 60,
+      "end": 75,
+      "minutes": 15,
+      "label": "Unterrichtsbenchmark / Baseline"
+    }
+  },
+  {
+    "number": 14,
+    "id": "w04-baseline",
+    "kind": "A",
+    "title": "Sichere Version v0 und erste Testergebnisse",
+    "notes": "Zuerst nur T03 und D02. Die verbleibenden vier Fälle werden später verteilt nach Station ergänzt, nicht als Pflichtmatrix mit allen Modellen auf einmal.",
+    "sources": [
+      "D1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "first": 12,
+      "last": 15,
+      "start": 60,
+      "end": 75,
+      "minutes": 15,
+      "label": "Unterrichtsbenchmark / Baseline"
+    }
+  },
+  {
+    "number": 15,
+    "id": "w04-wrap-baseline",
+    "kind": "R",
+    "title": "Welche Ausgangsleistung ist tatsächlich belegt?",
+    "notes": "Fünf Minuten, Rohdatenstand als JSON exportieren lassen. Der spätere Vergleich braucht die Ausgangsversion und identische Bedingungen. Nicht nur den erfolgreichsten Einzellauf merken.",
+    "sources": [
+      "D1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "first": 12,
+      "last": 15,
+      "start": 60,
+      "end": 75,
+      "minutes": 15,
+      "label": "Unterrichtsbenchmark / Baseline"
+    }
+  },
+  {
+    "number": 16,
+    "id": "w04-hardtests",
+    "kind": "A",
+    "title": "Bringe den Agenten kontrolliert zum Stolpern",
+    "notes": "Zehn Minuten. Für die Injection ein ungefährliches fiktives Dokument verwenden. Keine realen Konten oder Rechte zum Demonstrieren anbinden. Fragen Sie nach Tool-/Systemverhalten, nicht nur nach einer höflichen Ablehnungsformulierung.",
+    "sources": [
+      "D1",
+      "M1"
+    ],
+    "timer": 600,
+    "window": {
+      "first": 16,
+      "last": 19,
+      "start": 90,
+      "end": 120,
+      "minutes": 30,
+      "label": "Härtetests und Optimierung"
+    }
+  },
+  {
+    "number": 17,
+    "id": "w04-wrap-hardtests",
+    "kind": "R",
+    "title": "An welcher Grenze ist er gescheitert?",
+    "notes": "Fünf Minuten. Eine verlorene Memory-Korrektur kann Abruflogik sein; falsche Summen gehören in ein Rechentool; unzulässige Aktion braucht Systemkontrolle. Keine pauschale Forderung nach längeren Anweisungen.",
+    "sources": [
+      "D1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "first": 16,
+      "last": 19,
+      "start": 90,
+      "end": 120,
+      "minutes": 30,
+      "label": "Härtetests und Optimierung"
+    }
+  },
+  {
+    "number": 18,
+    "id": "w04-optimize",
+    "kind": "A",
+    "title": "Verbessere gezielt Auftrag, Tool oder Kontrolle",
+    "notes": "Zehn Minuten für eine gezielte Verbesserung. Falls sich mehrere Komponenten ändern, das protokollieren und keine isolierte Kausalwirkung behaupten. Das Baumodell darf nicht heimlich die Ausführung übernehmen.",
+    "sources": [
+      "D1",
+      "M1"
+    ],
+    "timer": 600,
+    "window": {
+      "first": 16,
+      "last": 19,
+      "start": 90,
+      "end": 120,
+      "minutes": 30,
+      "label": "Härtetests und Optimierung"
+    }
+  },
+  {
+    "number": 19,
+    "id": "w04-wrap-optimize",
+    "kind": "R",
+    "title": "Welche Verbesserung hält einer Wiederholung stand?",
+    "notes": "Fünf Minuten. Ein Mini-Modell kann durch bessere Tools profitieren; das ist eine zu prüfende Hypothese, keine garantierte Wirkung. Auch neue Regressionen zeigen.",
+    "sources": [
+      "D1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "first": 16,
+      "last": 19,
+      "start": 90,
+      "end": 120,
+      "minutes": 30,
+      "label": "Härtetests und Optimierung"
+    }
+  },
+  {
+    "number": 20,
+    "id": "w04-lunasol",
+    "kind": "T/I",
+    "title": "Dasselbe Agentenpaket, anderes Laufzeitmodell",
+    "notes": "Fünf Minuten Einordnung. Wählen Sie tatsächlich verfügbare Luna-/Sol-Modelle im jeweiligen Konto. Ein Name auf der Folie ist kein Zugangsversprechen. Reasoning-/Cache-Anteile nicht doppelt zählen; Abopreise nicht in fiktive Anfragekosten umrechnen.",
+    "sources": [
+      "W04-M1",
+      "D1",
+      "OCLI"
+    ],
+    "timer": null,
+    "window": {
+      "first": 20,
+      "last": 22,
+      "start": 120,
+      "end": 145,
+      "minutes": 25,
+      "label": "Begrenzter Modell-/Versionsvergleich"
+    }
+  },
+  {
+    "number": 21,
+    "id": "w04-benchmark",
+    "kind": "A/I",
+    "title": "Vergleiche Qualität und Aufwand im fertigen Cockpit",
+    "notes": "15 Minuten praktische Gegenüberstellung. Bei knapper Laufzeit nur eine Teilmenge live; vollständige Suite und Wiederholungen später. Das Cockpit zeigt aktive Läufe der geladenen Suite. Nicht anwendbare oder fehlende Messwerte begründet kennzeichnen.",
+    "sources": [
+      "D1",
+      "M1",
+      "OCLI"
+    ],
+    "timer": 900,
+    "window": {
+      "first": 20,
+      "last": 22,
+      "start": 120,
+      "end": 145,
+      "minutes": 25,
+      "label": "Begrenzter Modell-/Versionsvergleich"
+    }
+  },
+  {
+    "number": 22,
+    "id": "w04-wrap-benchmark",
+    "kind": "R",
+    "title": "Freigeben, verbessern oder ungeeignet?",
+    "notes": "Fünf Minuten. Zeigen Sie, dass Kosten pro korrekt und regelkonform gelöstem Fall auch Fehlversuche berücksichtigen. Unter allen Umständen bleiben Buchungen/Versand in dieser Vorlage technisch nicht implementiert.",
+    "sources": [
+      "D1",
+      "M1"
+    ],
+    "timer": 300,
+    "window": {
+      "first": 20,
+      "last": 22,
+      "start": 120,
+      "end": 145,
+      "minutes": 25,
+      "label": "Begrenzter Modell-/Versionsvergleich"
+    }
+  },
+  {
+    "number": 23,
+    "id": "w04-werkstatt",
+    "kind": "T/I",
+    "title": "Zwei Mitarbeiter teilen ein Projekt, nicht ihr ganzes Gedächtnis",
+    "notes": "Zwei Rollen reichen zur Erklärung. Ein fester Ablauf kann als deterministischer Workflow organisiert sein; nicht jede Übergabe braucht eine freie Agentenentscheidung. Der Bonus darf die geprüfte Kernarbeit nicht verdrängen. Die Trinity-Seite ist eine Projektvorlage, keine wissenschaftliche Validierung jeder dortigen Behauptung.",
+    "sources": [
+      "TR1",
+      "M1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 23,
+      "last": 26,
+      "start": 145,
+      "end": 155,
+      "minutes": 10,
+      "label": "Werkstatt und Klinik-Konzil"
+    }
+  },
+  {
+    "number": 24,
+    "id": "w04-konzil",
+    "kind": "T/I",
+    "title": "Ein Konzil verbindet unterschiedliche Expertisen",
+    "notes": "Keine Diagnose oder Behandlung lehren. Organisationsmetapher: verschiedene Fachgebiete erweitern den Blick. Ein LLM-as-a-Judge kann Rubriken prüfen, bleibt aber fehlbar. Unabhängige Ersturteile und Quellen verlangen; gleiche Modellfehler können sich wiederholen. Einigkeit ist keine Wahrheit.",
+    "sources": [
+      "D1",
+      "REV-KONZIL",
+      "M1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 23,
+      "last": 26,
+      "start": 145,
+      "end": 155,
+      "minutes": 10,
+      "label": "Werkstatt und Klinik-Konzil"
+    }
+  },
+  {
+    "number": 25,
+    "id": "w04-bonusagent",
+    "kind": "A",
+    "title": "Ergänze einen Prüfer und übergib einen Fall",
+    "notes": "Optionaler kurzer Bonus. Der gesamte Werkstattblock dauert zehn Minuten, also kein vollständiger neuer Agentenbau. Wenn der erste Benchmark noch unklar ist, nur das Übergabekonzept zeigen und die Übung als Vertiefung ausgeben.",
+    "sources": [
+      "D1",
+      "REV-KONZIL",
+      "M1"
+    ],
+    "timer": 180,
+    "window": {
+      "first": 23,
+      "last": 26,
+      "start": 145,
+      "end": 155,
+      "minutes": 10,
+      "label": "Werkstatt und Klinik-Konzil"
+    }
+  },
+  {
+    "number": 26,
+    "id": "w04-wrap-werkstatt",
+    "kind": "R",
+    "title": "Was hat Zusammenarbeit verbessert — was bleibt ungeprüft?",
+    "notes": "Drei Minuten im Bonusblock. Den ungeprüften Status des neuen Workers ausdrücklich nennen. Keine Abnahme des ersten Mitarbeiters auf das gesamte System übertragen.",
+    "sources": [
+      "D1",
+      "REV-KONZIL",
+      "M1"
+    ],
+    "timer": 180,
+    "window": {
+      "first": 23,
+      "last": 26,
+      "start": 145,
+      "end": 155,
+      "minutes": 10,
+      "label": "Werkstatt und Klinik-Konzil"
+    }
+  },
+  {
+    "number": 27,
+    "id": "w04-local",
+    "kind": "I",
+    "title": "Kann ein lokales kleines Modell einen abgegrenzten Teilauftrag übernehmen?",
+    "notes": "Minute 155–163: Einen präzisen Teilauftrag auf dem vorbereiteten lokalen Toolmodell vorführen, z. B. Eventdaten extrahieren oder E01 prüfen. Keine automatische Eignung aus Parameterzahl ableiten. Model Recommender auf agentische Fähigkeiten ausrichten; Hardware-/Kontextpassung separat prüfen. Ein negatives Ergebnis im Benchmark ist erlaubt.",
+    "sources": [
+      "W04-O2",
+      "W04-O3",
+      "W04-A1",
+      "W04-A2",
+      "AA1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 27,
+      "last": 29,
+      "start": 155,
+      "end": 175,
+      "minutes": 20,
+      "label": "Lokaler Ausblick"
+    }
+  },
+  {
+    "number": 28,
+    "id": "w04-claudedesktop",
+    "kind": "I",
+    "title": "Derselbe Auftrag mit anderer Modellanbindung",
+    "notes": "Minute 163–170: Vorab geprüfte Verbindung zeigen, nicht erstmals im Kurs installieren. Ollama-Modell im Claude-Werkzeug ist nicht automatisch ein Anthropic-Modell. Claude Desktop von Claude Code und Codex unterscheiden; Rechte und Toolfähigkeiten gesondert prüfen.",
+    "sources": [
+      "W04-O1",
+      "W04-O6",
+      "W04-O7",
+      "M1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 27,
+      "last": 29,
+      "start": 155,
+      "end": 175,
+      "minutes": 20,
+      "label": "Lokaler Ausblick"
+    }
+  },
+  {
+    "number": 29,
+    "id": "w04-hausaufgabe",
+    "kind": "I/O",
+    "title": "Lokalen Kandidaten freiwillig gegen bekannte Fälle testen",
+    "notes": "Minute 170–175: LM Studio kurz als Alternative. Keine Kauf-/Installationspflicht. Cloud und Websuche können Daten außerhalb des Geräts verarbeiten. Die lokale freiwillige Aufgabe verändert nicht rückwirkend die Pflichtanforderung der Erstpräsentation.",
+    "sources": [
+      "W04-O4",
+      "W04-O5",
+      "W04-A1",
+      "W04-A2",
+      "AA1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 27,
+      "last": 29,
+      "start": 155,
+      "end": 175,
+      "minutes": 20,
+      "label": "Lokaler Ausblick"
+    }
+  },
+  {
+    "number": 30,
+    "id": "w04-bigpicture",
+    "kind": "R",
+    "title": "Auftrag → Wissen → Tool → Test → Modellvergleich → Freigabe",
+    "notes": "Initialfrage beantworten: Vertrauen entsteht aus begrenztem Auftrag, passenden Tools, nachvollziehbarem Wissen und bestandenen, wiederholten Prüfungen. Der Bonusagent ist nicht vom Freigabestatus des ersten Mitarbeiters abgedeckt.",
+    "sources": [
+      "D1",
+      "M1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 30,
+      "last": 31,
+      "start": 175,
+      "end": 180,
+      "minutes": 5,
+      "label": "Big Picture / Quellen"
+    }
+  },
+  {
+    "number": 31,
+    "id": "w04-sources",
+    "kind": "O",
+    "title": "Quellen, Daten, Benchmark und Template",
+    "notes": "Quellen, Daten und Benchmark sind lokal beigelegt. Produkt-/Modellinformationen sind zeitabhängig. Die September-Studie wird nur mit ihrem belegten Geltungsbereich verlinkt. Für öffentliche Datensätze keine realen Kursdaten verwenden.",
+    "sources": [
+      "W04-P1",
+      "W04-H1",
+      "W04-M1",
+      "W04-O1",
+      "W04-A1",
+      "D1"
+    ],
+    "timer": null,
+    "window": {
+      "first": 30,
+      "last": 31,
+      "start": 175,
+      "end": 180,
+      "minutes": 5,
+      "label": "Big Picture / Quellen"
+    }
+  }
+]
