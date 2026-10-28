@@ -18,6 +18,7 @@ HTML-Präsentationen direkt auf GitHub Pages:
 - [Woche 2 · Fundamente: Build & Check](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w02/AA_W02_Fundamente.html) – fünf praktische Stationen mit Prompts, Schaubildern und Übungen.
 - [Woche 3 · LLM und Prompting](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w03/AA_W03_LLM_und_Prompting.html) – interaktive LLM-Hebel, präzise Aufträge und eine lokal lauffähige HTML-Anwendung.
 - [Woche 4 · Agenten und Werkstätten](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w04/AA_W04_Agenten_und_Werkstaetten.html) – Harnesses, Memory, Werkzeuge, Härtetests und nachvollziehbarer Modell-/Versionsvergleich.
+- [Woche 4 · Interaktive Workshop-Checkliste & Motion-Labor](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w04/workshop-checkliste.html) – 6 Hands-on-Meilensteine (GitHub-Portfolio, Karriere-Onepager, Lernwerkstatt-PWA, Sokratischer Agent) plus interaktives Agenten-Motion-Labor für BWL-Studierende.
 
 Begleitmaterial für die Agentenwerkstatt:
 
