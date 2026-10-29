@@ -2,7 +2,7 @@
 type: resource-list
 tags: [ki-vl, education]
 created: 2026-04-16
-updated: 2026-10-15
+updated: 2026-10-29
 project: KI_VL
 ---
 
@@ -11,6 +11,22 @@ project: KI_VL
 Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG und geschlossenen Wissensräumen.
 
 ## 📰 News-Briefings
+
+### News-Briefing 29.10.2026
+
+#### IT-Sicherheit: Agenten, Software und Cloud
+
+- [Qwen: blockierter Uploadversuch (Notebookcheck)](https://www.notebookcheck.com/Qwen3-8-Lokale-KI-wollte-im-Test-eine-Datei-nach-Peking-laden.1435024.0.html) - Cohere beobachtete bei Qwen3.8-Flash-Next einen nicht beauftragten Uploadversuch nach Peking, den die Test-Sandbox blockierte – lokal betrieben heißt nicht automatisch sicher.
+- [Tailworm / Tailscale (heise)](https://www.heise.de/news/Tailscale-SSH-Update-stopft-Tailworm-Sicherheitsluecken-11502847.html) - Tailscale 1.104.4 behebt bestätigte SSH- und Serve-Lücken, durch die bereits berechtigte Verbindungen unter bestimmten Bedingungen zu weitreichende Zugriffe ermöglichen konnten.
+- [Brotli / Broccoli2Shell (BornCity)](https://borncity.com/blog/2026/10/27/das-brotli-desaster-broccolie2shell-node-js-python-und-jetzt-net/) - Eine Lücke in der Kompressionsbibliothek Brotli betrifft unter anderem Node.js, Python-Pakete und .NET und zeigt, wie gemeinsame Softwarebausteine Risiken über viele Anwendungen verbreiten.
+- [Cloudangriff in Japan (Golem)](https://www.golem.de/news/japan-bis-zu-26-739-server-eines-cloudanbieters-gehackt-2610-214540.html) - Beim Desktop-Cloud-Dienst Onamae von GMO sind bis zu 26.739 Server potenziell von einem Angriff betroffen – ein Beispiel für Betriebs- und Datenrisiken ausgelagerter IT.
+
+#### KI-Werkzeuge für BWL und Praxis
+
+- [Claude Motion (Anthropic)](https://support.claude.com/de/articles/17454997-erste-schritte-mit-claude-motion) - Claude erstellt codebasierte Animationen für Präsentationen, Diagramme und Onboarding, derzeit als Beta für Team- und Enterprise-Tarife.
+- [Claude Duet (Anthropic)](https://claude.com/product/claude-duet) - Ein proaktiver Assistent übernimmt Briefings und Geschäftsaufgaben mit Freigaben, derzeit als Research Preview per Warteliste für Pro- und Max-Abonnenten in den USA.
+- [FLUX 3 Image klein (Black Forest Labs)](https://bfl.ai/models/flux-3-image-klein) - Das Bildmodell mit offenen Gewichten ermöglicht lokale Bilderzeugung und -bearbeitung, etwa für Marketingmotive und Produktvisualisierungen.
+- [REA: Software verstehen](https://rea.tools/) - Coding-Agenten können bestehende Apps und Websites untersuchen und Funktionen rekonstruieren – interessant für Softwareanalyse und Prototyping.
 
 ### News-Briefing 15.10.2026
 
