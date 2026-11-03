@@ -1,6 +1,6 @@
 Eine Änderung – dann genau hinsehen
 
-Lade erneut O0 oder P0 hoch. Wähle eine Objekt- und eine Personenänderung. Stilversuch nur, wenn Zeit bleibt. Die einzelnen fertigen Prompts stehen neben der Bilderauswahl.
+Lade O0/P0 erneut hoch. Wähle eine Objekt- und eine Personenänderung. Weitere Szenen, Stil oder Typografie sind Optionen; nicht alles neu generieren.
 
 Ergebnis: Original + Variante + zwei Sätze: Was sollte sich ändern? Was wurde unbeabsichtigt verändert?
 Gegenprobe: Vergleiche Gesicht, Hände, Motivposition, Teller, Licht und Hintergrund. „Beibehalten“ ist ein Auftrag, keine Pixelgarantie.

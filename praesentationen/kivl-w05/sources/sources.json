@@ -102,7 +102,8 @@
     "slideIds": [
       "w05-uiux",
       "w05-build",
-      "w05-bigpicture"
+      "w05-bigpicture",
+      "w05-dashboard"
     ]
   },
   {
@@ -212,7 +213,8 @@
       "w05-uiux",
       "w05-safari",
       "w05-build",
-      "w05-cover"
+      "w05-cover",
+      "w05-dashboard"
     ]
   },
   {
@@ -275,6 +277,62 @@
       "w05-image",
       "w05-edit",
       "w05-bigpicture"
+    ]
+  },
+  {
+    "id": "UI14",
+    "author": "Raluca Budiu / Nielsen Norman Group",
+    "year": 2015,
+    "title": "Basic Patterns for Mobile Navigation: A Primer",
+    "type": "primary-practitioner-guidance",
+    "url": "https://www.nngroup.com/articles/mobile-navigation-patterns/",
+    "accessed": "2026-11-03",
+    "evidence": "Primärdarstellung geöffnet und gelesen; Gegenabgleich mit Nielsens Heuristiken.",
+    "claim": "Sichtbare, beschriftete Navigation und Inhalt priorisieren. Die drei Kurs-Dashboards sind eigene Beispiele, keine empirisch geprüften Gewinner.",
+    "slideIds": [
+      "w05-dashboard"
+    ]
+  },
+  {
+    "id": "UI15",
+    "author": "W3C WAI",
+    "year": null,
+    "title": "Images of Text",
+    "type": "accessibility-guidance",
+    "url": "https://www.w3.org/WAI/tutorials/images/textual/",
+    "accessed": "2026-11-03",
+    "evidence": "Original geöffnet; gegen WAI Complex Images gegengeprüft.",
+    "claim": "Für Weboberflächen echte Texte bevorzugen. Generierte Poster-Schrift ist hier eine Bildübung; derselbe Wortlaut wird im Alt-Text zugänglich gemacht.",
+    "slideIds": [
+      "w05-edit"
+    ]
+  },
+  {
+    "id": "UI16",
+    "author": "W3C WAI",
+    "year": null,
+    "title": "Complex Images",
+    "type": "accessibility-guidance",
+    "url": "https://www.w3.org/WAI/tutorials/images/complex/",
+    "accessed": "2026-11-03",
+    "evidence": "Original geöffnet und Anforderungen an textliche Datenalternativen geprüft.",
+    "claim": "Diagramme brauchen verständliche Aussage und zugängliche Datendarstellung. Das Kursbeispiel enthält eine lokale Wertetabelle.",
+    "slideIds": [
+      "w05-dashboard"
+    ]
+  },
+  {
+    "id": "DEMO1",
+    "author": "Kursredaktion",
+    "year": 2026,
+    "title": "Campus-Café: synthetische Dashboard-Daten",
+    "type": "synthetic-demonstration",
+    "url": "https://profengel.github.io/KI-Literacy/praesentationen/kivl-w05/material/dashboard-demo.json",
+    "accessed": "2026-11-03",
+    "evidence": "Fiktive Daten lokal in material/dashboard-demo.json, Summen und Verhältniswerte automatisiert nachgerechnet.",
+    "claim": "Keine echten Unternehmensdaten. Woche A 3600 Euro, Vorwoche 3000 Euro, 450 Bestellungen, Durchschnittsbon 8 Euro, Wochenziel 4000 Euro (90%). Keine kausale Wirksamkeitsbehauptung.",
+    "slideIds": [
+      "w05-dashboard"
     ]
   }
 ]

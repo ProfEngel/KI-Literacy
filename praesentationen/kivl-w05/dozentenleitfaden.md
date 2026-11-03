@@ -1,6 +1,6 @@
 # W05 · UI/UX und Bildgestaltung · Dozentenleitfaden
 
-180 Minuten einschließlich 15 Minuten Pause. Acht Workshopseiten. Aufgaben eigenständig,
+180 Minuten einschließlich 15 Minuten Pause. Neun Workshopseiten. Aufgaben eigenständig,
 kein verpflichtendes Tandem. Fremdtest am Ende ist eine separate Testhandlung.
 Der Button „Moderation“ zeigt kurze Hinweise; dieser Leitfaden erklärt jede Seite ausführlicher.
 
@@ -113,6 +113,21 @@ rechtssicher. Anbieterbedingungen bleiben relevant.
 
 ## Seite 6 · Eine gezielte Änderung · 100–125 Minuten
 
+**Erweiterter Nutzerreview:** Typografie auf O0 mit dem identischen Text „Einfach gut.“:
+Sans Serif oben links, Serif unten links, Handschrift oben rechts. Lesbarkeit, Schreibweise,
+Position und Motivüberdeckung vergleichen. Eine genaue Schriftfamilie kann ein Bildmodell
+nicht verlässlich garantieren. Für eine produktive Web-UI besser echten HTML-/CSS-Text
+verwenden; die generierten Schriftbilder sind hier eine bewusst getrennte Posterübung.
+
+P8: Wohnzimmer; P9: Berggipfel und Schneefall; P10: im Café sitzend; P11: dicker,
+kräftiger, freundlicher Fantasy-Troll. Dazu PS4–PS7: Knete/Stop-Motion, Holzschnitt,
+Ölgemälde und Retro-Comic. Alle verwenden P0, nicht das vorherige Ergebnis. Für Szene
+und Sitzen dürfen Hintergrund, Licht, Schatten und Pose bewusst wechseln. Augenpartie,
+Nase, Lächeln, Haaransatz und Frisur als Charakteranker vergleichen. Über „Bildpaar
+vergrößern“ genauer prüfen. Eine starke Troll-Verwandlung testet die Grenze der
+Wiedererkennbarkeit; sie beweist keine biometrische oder perfekte Identitätstreue.
+Neue Beispiele sind Auswahlbibliothek, kein zusätzlicher Variantenmarathon im Kurs.
+
 **Didaktische Absicht:** Änderungsziel und Erhaltungsziel auseinanderhalten; Bildmodelle
 kritisch beurteilen, statt nur das erste schöne Resultat zu akzeptieren.
 
@@ -134,7 +149,32 @@ ist eine unzulässige Abweichung.
 
 **Übergang:** „Unsere Anwendung bekommt jetzt nicht einfach mehr Bilder, sondern ein passendes Bild.“
 
-## Seite 7 · Projekt überarbeiten und testen · 125–170 Minuten
+## Seite 7 · Smartphone-Dashboard · 125–135 Minuten
+
+**Didaktische Absicht:** An einem konkreten mobilen Beispiel zeigen, wie dieselben Daten
+je nach Nutzerfrage eine andere, aber einfache Oberfläche erhalten.
+
+**Fachliche Erklärung:** Drei eigene didaktische Muster, keine empirisch ermittelten
+„Sieger“: Überblick priorisiert eine Hauptkennzahl; Vergleich zeigt gleiche Zeiträume
+und Skalen; Handlung zeigt Zielabstand und eine Hauptaktion. Beschriftete Navigation,
+sichtbarer aktiver Zustand und echte lokale Rückmeldungen unterstützen Orientierung.
+Diagramme haben eine Nullbasis, Einheit und zugängliche Wertetabelle. Keine echte
+Bank-/Geschäftsanwendung, sondern eine native HTML-Demo mit erfundenen Café-Daten.
+
+**Moderation:** Zwischen den drei Ansichten wechseln; Erklärung steht rechts. Bericht-
+Button, Wertetabelle und Notizfeld ausprobieren. Gleiche Daten betonen: 3.600 € versus
+3.000 € (+20 %), 450 Bestellungen, Ø Bon 8 €, Ziel 4.000 € zu 90 % erreicht. Eine
+Beobachtungsfrage: Welche Hauptfrage beantwortet diese Ansicht – und was lässt sie weg?
+Dashboard-Prompt ist optionaler Transfer, kein neuer Pflicht-Bauauftrag.
+
+**Stolperstellen:** Mehr Kennzahlen ist nicht automatisch mehr Erkenntnis. Fiktive Werte
+nicht als echte Geschäftsdaten verwenden. Ein schöner Chart ohne Einheit, Zeitraum oder
+faire Skala kann irreführen. Die Miniatur ist ein Designbeispiel, keine vollständige
+Barrierefreiheits-/Touch-Zielgrößenprüfung für eine produktive mobile App.
+
+**Übergang:** „Welches dieser Muster hilft der wichtigsten Aufgabe Ihrer Anwendung?“
+
+## Seite 8 · Projekt überarbeiten und testen · 135–170 Minuten
 
 **Didaktische Absicht:** Die Gestaltung auf das eigene W04-Projekt übertragen und Nutzen
 durch beobachtetes Verhalten statt Selbstlob beurteilen.
@@ -145,11 +185,11 @@ und erweiterte Option. Drei gelungene Aufgaben sind hilfreiche Beobachtungen, ke
 Usability- oder Sicherheitsnachweis. Der Fallback ist eine eigenständige, lokal lauffähige
 HTML-Datei mit eingebettetem CSS/JavaScript; keine echte Buchung oder Datenübertragung.
 
-**Moderation:** 125–130 Dateien und Prompt klären. 130–155 bauen (25 Minuten).
-**130–133 Setup-Check: Haben alle die Generierung gestartet? 133–141 mögliches Newsfenster**
+**Moderation:** 135–138 Dateien und Prompt klären. 138–158 bauen (20 Minuten).
+**138–141 Setup-Check: Haben alle die Generierung gestartet? 141–149 mögliches Newsfenster**
 mit der bestehenden Linkliste. Nur bei tatsächlich laufenden Builds; bei Problemen Unterstützung
 vorziehen und News verschieben/verkürzen. Keine Bauzeit doppelt zählen oder Timer neu starten.
-155–165 andere Person testen lassen, Timer auf Test 10 Minuten. 165–170 Wrap-up 5 Minuten.
+158–165 andere Person testen lassen, Timer auf Test 7 Minuten. 165–170 Wrap-up 5 Minuten.
 Feedbackbogen anonym lokal, kein Versand; bei Bedarf TXT sichern.
 
 **Stolperstellen:** Ausgangsversion sichern; kein versehentliches Backend-/Logik-Redesign.
@@ -160,7 +200,7 @@ an das Modell; bestehende Offline-Funktion bewahren, kein neuer PWA-Installation
 
 **Übergang:** „Welche eine Verbesserung macht den nächsten Schritt für die Person leichter?“
 
-## Seite 8 · Big Picture, Prüfliste und Quellen · 170–180 Minuten
+## Seite 9 · Big Picture, Prüfliste und Quellen · 170–180 Minuten
 
 **Didaktische Absicht:** Den Gestaltungszyklus verbinden und eine nächste konkrete Verbesserung festhalten.
 
@@ -173,7 +213,7 @@ einen Teil einer vollständigen Qualitätsprüfung ab.
 **Moderation:** Erst das statische Big Picture lesen lassen. Eine Verbesserung pro Person.
 Prüfliste und Quellen als Reiter dieser Seite, bewusst kein neuer Theorieblock. Vollständige
 Quellenübersicht liegt offline bei; Originalseiten benötigen Internet. Die freigegebene
-achtseitige Workshopstruktur bündelt Agenda/Initialfrage im Cockpit und Quellen im Schlussreiter.
+Workshopstruktur bündelt Agenda/Initialfrage im Cockpit und Quellen im Schlussreiter.
 
 **Stolperstellen:** Das Bild ersetzt nicht die Prüfung. Generierte Medien nicht als echte
 Fotobeweise verwenden. Kein Konversionsversprechen oder Barrierefreiheitszertifikat ableiten.

@@ -1,0 +1,39 @@
+{
+  "type": "synthetic demo; not real business data",
+  "currency": "EUR",
+  "period": "two fictitious weeks, Monday–Sunday",
+  "days": [
+    "Mo",
+    "Di",
+    "Mi",
+    "Do",
+    "Fr",
+    "Sa",
+    "So"
+  ],
+  "current": [
+    310,
+    420,
+    390,
+    510,
+    640,
+    720,
+    610
+  ],
+  "previous": [
+    300,
+    350,
+    400,
+    450,
+    500,
+    520,
+    480
+  ],
+  "ordersCurrent": 450,
+  "revenueGoal": 4000,
+  "totalCurrent": 3600,
+  "totalPrevious": 3000,
+  "changePercent": 20,
+  "averageOrder": 8,
+  "goalPercent": 90
+}

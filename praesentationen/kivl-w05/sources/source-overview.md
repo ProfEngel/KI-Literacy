@@ -44,13 +44,14 @@ unpassenden Bilder als Vorher/Nachher-Paar ausgegeben.
 ## Ausführung und Grenzen
 
 Webrecherche, Browserdarstellung und Bildsichtung tatsächlich durchgeführt.
-Nach Freigabe: Kie.ai / Nano Banana 2 tatsächlich ausgeführt. 20 finale Bilder:
-zwei Originale, 16 Einzelbearbeitungen/Stilvarianten und zwei deutsche Infografiken.
+Nach Freigabe und gezieltem Nutzerreview: Kie.ai / Nano Banana 2 tatsächlich ausgeführt.
+31 finale Bilder: zwei Originale, 27 Einzelbearbeitungen/Stil-/Typografievarianten
+und zwei deutsche Infografiken. Workshop jetzt neun statt acht Seiten.
 Jede Einzelbearbeitung mit Bildreferenz erneut aus O0/P0, keine kumulative Editkette.
 Erste Infografikentwürfe wegen englischer Beschriftungen verworfen; finale Fassungen
 visuell geprüft und nur die finalen Medien für das öffentliche Paket ausgewählt.
 Dies ist kein systematischer Bildmodellbenchmark oder Nachweis pixelgenauer Erhaltung.
-Acht HTML-Seiten gebaut, Prüfung lokal/offline vor Veröffentlichung. W04, Buch,
+Neun HTML-Seiten nach Nutzerreview, Prüfung lokal/offline vor Veröffentlichung. W04, Buch,
 Intern und historische Quellen unberührt.
 Patricks Vorlage bleibt lokale Referenz mit Namensnennung und offenem Repo-Link.
 
@@ -159,6 +160,25 @@ https://www.nngroup.com/articles/flat-design-best-practices/
 Reduzierte Gestaltung darf visuelle Bedienhinweise nicht beseitigen; anklickbare Elemente müssen erkennbar sein. Nicht gleichbedeutend mit Function follows form.
 
 IMG3 · Kie.ai · Nano Banana 2 generation and reference-image editing
+
+### Rechercheergänzung für den Nutzerreview
+
+Zyklus 1: NNG mobile Navigation und W3C Bildtext gelesen. Zyklus 2: gegen Nielsens
+Heuristiken und W3C Complex Images gegengeprüft. Klare Navigation, Bildtext-Alternativen
+und zugängliche Daten statt bloßer dekorativer Charts. Apples Typografie-Seite lieferte
+im Werkzeug nur einen JavaScript-Hinweis; daraus keine neuen Apple-spezifischen Regeln
+abgeleitet. Typografiegattungen sind visuelle Kursbeispiele, keine Garantie einer exakten
+Schriftfamilie. Fiktive Dashboard-Werte rechnerisch geprüft; keine Wirksamkeitsmessung.
+Charakterkonsistenz qualitativ am Original geprüft, kein biometrischer Nachweis.
+Schwache Stilversuche PS4/PS6 und Randnähe OT2 ausdrücklich als Gegenprobe markiert.
+
+UI14: [Mobile Navigation · NNG](https://www.nngroup.com/articles/mobile-navigation-patterns/)
+
+UI15: [Images of Text · W3C](https://www.w3.org/WAI/tutorials/images/textual/)
+
+UI16: [Complex Images · W3C](https://www.w3.org/WAI/tutorials/images/complex/)
+
+DEMO1: eigene synthetische Daten unter `material/dashboard-demo.json`; keine echten Unternehmensdaten.
 
 https://docs.kie.ai/market/google/nanobanana2
 

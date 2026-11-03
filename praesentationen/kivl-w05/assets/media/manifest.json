@@ -350,5 +350,203 @@
     "alt": "Vom Ziel zur Anwendung · deutsch",
     "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
     "referenceInventoryId": null
+  },
+  {
+    "id": "OT1",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/OT1.txt",
+    "inputReferences": [
+      "O0.webp"
+    ],
+    "outputFile": "OT1.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "de",
+    "alt": "Sans Serif · oben links · Bildtext: Einfach gut.",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "OT2",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/OT2.txt",
+    "inputReferences": [
+      "O0.webp"
+    ],
+    "outputFile": "OT2.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "de",
+    "alt": "Serif · unten links · Bildtext: Einfach gut.",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "OT3",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/OT3.txt",
+    "inputReferences": [
+      "O0.webp"
+    ],
+    "outputFile": "OT3.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "de",
+    "alt": "Handschrift · oben rechts · Bildtext: Einfach gut.",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "P8",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/P8.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "P8.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Hintergrund · Wohnzimmer",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "P9",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/P9.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "P9.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Hintergrund · Berggipfel mit Schneefall",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "P10",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/P10.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "P10.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Neue Szene · im Café sitzen",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "P11",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/P11.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "P11.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Fantasy · kräftiger Troll",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "PS4",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/PS4.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "PS4.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Knetfigur / Stop-Motion",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "PS5",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/PS5.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "PS5.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Holzschnitt",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "PS6",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/PS6.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "PS6.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Ölgemälde",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "PS7",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/PS7.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "PS7.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Retro-Comic",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
   }
 ]
