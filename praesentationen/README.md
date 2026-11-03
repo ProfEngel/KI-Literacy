@@ -9,6 +9,8 @@
 - [KI & Data Science · W04 Agenten und Werkstätten](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w04/AA_W04_Agenten_und_Werkstaetten.html)
 - [Dozentenleitfaden W04](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w04/dozentenleitfaden.html)
 - [Zusatzmaterialien W04 · Event-Agent, Daten, Benchmark und Template](https://profengel.github.io/KI-Literacy/materialien/w04-event-agent/)
+- [KI & Data Science · W05 UI/UX und Bildgestaltung](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w05/AA_W05_UI_UX_und_Bildgestaltung.html)
+- [Dozentenleitfaden W05](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w05/dozentenleitfaden.html) · [Bildprompts](kivl-w05/bildprompts.md) · [Übungs-Onepager](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w05/material/campus-workshop.html) · [Feedbackbogen](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w05/material/feedback.html)
 - [HR/WF Analytics · Leitfaden und Fahrplan](https://profengel.github.io/KI-Literacy/praesentationen/hrwf-analytics/AA_HR_WF_Analytics_Leitfaden_WS2526.html)
 
 Die Folien funktionieren nach Download lokal ohne Build-Schritt. Live-Webseiten, Menti und YouTube benötigen Internet. Weitere Veranstaltungs- und Wochenpräsentationen folgen.

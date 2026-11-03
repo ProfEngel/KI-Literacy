@@ -1,0 +1,280 @@
+[
+  {
+    "id": "UI1",
+    "type": "design-guidance",
+    "author": "Mailchimp",
+    "year": null,
+    "title": "Der Unterschied zwischen UX und UI",
+    "url": "https://mailchimp.com/de/marketing-glossary/ux-ui/",
+    "accessed": "2026-11-03",
+    "evidence": "Quelle am 03.11.2026 geöffnet; Praxisleitfaden oder Dokumentation, keine behauptete Wirkungsmessung",
+    "claim": "UI: bedienbare Oberfläche; UX: Nutzungserlebnis und Weg zum Ziel. Keine alten Marketingkennzahlen übernehmen.",
+    "slideIds": [
+      "w05-uiux"
+    ]
+  },
+  {
+    "id": "UI2",
+    "type": "design-guidance",
+    "author": "Nadya A. / Hostinger",
+    "year": 2026,
+    "title": "Web design best practices",
+    "url": "https://www.hostinger.com/tutorials/web-design-best-practices/",
+    "accessed": "2026-11-03",
+    "evidence": "Quelle am 03.11.2026 geöffnet; Praxisleitfaden oder Dokumentation, keine behauptete Wirkungsmessung",
+    "claim": "Zielgruppe, Hierarchie, Navigation und zugängliche Gestaltung; keine Konversionsgarantien.",
+    "slideIds": [
+      "w05-uiux",
+      "w05-safari",
+      "w05-build"
+    ]
+  },
+  {
+    "id": "UI3",
+    "type": "design-guidance",
+    "author": "Lovable",
+    "year": null,
+    "title": "Design systems",
+    "url": "https://docs.lovable.dev/features/design-systems",
+    "accessed": "2026-11-03",
+    "evidence": "Quelle am 03.11.2026 geöffnet; Praxisleitfaden oder Dokumentation, keine behauptete Wirkungsmessung",
+    "claim": "Wiederverwendbare Komponenten und Gestaltungsregeln. Produktfunktion auf bezahlten Plänen; kein notwendiger Kurszugang oder React-Setup.",
+    "slideIds": [
+      "w05-safari",
+      "w05-build"
+    ]
+  },
+  {
+    "id": "UI4",
+    "type": "design-guidance",
+    "author": "Lovable",
+    "year": null,
+    "title": "Website- und App-Vorlagen",
+    "url": "https://lovable.dev/de/templates",
+    "accessed": "2026-11-03",
+    "evidence": "Quelle am 03.11.2026 geöffnet; Praxisleitfaden oder Dokumentation, keine behauptete Wirkungsmessung",
+    "claim": "15 Minuten Vorlagensafari als Inspiration; keine pauschale Kopiererlaubnis für fremde Medien und Marken.",
+    "slideIds": [
+      "w05-safari"
+    ]
+  },
+  {
+    "id": "UI5",
+    "type": "design-guidance",
+    "author": "Emily Stevens / UX Design Institute",
+    "year": 2023,
+    "title": "8 UI Design Dos and Don'ts",
+    "url": "https://www.uxdesigninstitute.com/blog/ui-design-dos-and-donts/",
+    "accessed": "2026-11-03",
+    "evidence": "Quelle am 03.11.2026 geöffnet; Praxisleitfaden oder Dokumentation, keine behauptete Wirkungsmessung",
+    "claim": "Beispiele für Weißraum, Ausrichtung, Bilder, Kontrast und Bedienbarkeit.",
+    "slideIds": [
+      "w05-uiux",
+      "w05-safari",
+      "w05-build"
+    ]
+  },
+  {
+    "id": "UI6",
+    "type": "design-guidance",
+    "author": "Louise Bruton / UX Design Institute",
+    "year": 2022,
+    "title": "User interface guidelines: 10 essential rules to follow",
+    "url": "https://www.uxdesigninstitute.com/blog/10-user-interface-guidelines/",
+    "accessed": "2026-11-03",
+    "evidence": "Quelle am 03.11.2026 geöffnet; Praxisleitfaden oder Dokumentation, keine behauptete Wirkungsmessung",
+    "claim": "Zehn Heuristiken als bildhafte Prüfhilfe, keine zehn Theorieeinzelfolien.",
+    "slideIds": [
+      "w05-uiux",
+      "w05-bigpicture"
+    ]
+  },
+  {
+    "id": "UI7",
+    "type": "design-guidance",
+    "author": "Jakob Nielsen / Nielsen Norman Group",
+    "year": "1994; zuletzt geprüft 2024",
+    "title": "10 Usability Heuristics for User Interface Design",
+    "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+    "accessed": "2026-11-03",
+    "evidence": "Quelle am 03.11.2026 geöffnet; Praxisleitfaden oder Dokumentation, keine behauptete Wirkungsmessung",
+    "claim": "Primärabgleich: allgemeine Faustregeln, kein Qualitätszertifikat. Kursfragen sind eigene didaktische Übertragung.",
+    "slideIds": [
+      "w05-uiux",
+      "w05-build",
+      "w05-bigpicture"
+    ]
+  },
+  {
+    "id": "UI8",
+    "type": "design-guidance",
+    "author": "W3C WAI",
+    "year": null,
+    "title": "Understanding SC 1.4.3: Contrast (Minimum)",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "accessed": "2026-11-03",
+    "evidence": "Quelle am 03.11.2026 geöffnet; Praxisleitfaden oder Dokumentation, keine behauptete Wirkungsmessung",
+    "claim": "Normaler Text 4,5:1; definierter großer Text 3:1. Teilaspekt, keine vollständige Barrierefreiheitsprüfung.",
+    "slideIds": [
+      "w05-uiux",
+      "w05-build"
+    ]
+  },
+  {
+    "id": "UI9",
+    "type": "design-guidance",
+    "author": "W3C WAI",
+    "year": null,
+    "title": "Images Tutorial",
+    "url": "https://www.w3.org/WAI/tutorials/images/",
+    "accessed": "2026-11-03",
+    "evidence": "Quelle am 03.11.2026 geöffnet; Praxisleitfaden oder Dokumentation, keine behauptete Wirkungsmessung",
+    "claim": "Bildalternativen nach Zweck: informativ, funktional oder dekorativ. Wesentliche Webtexte nicht ausschließlich ins Bild einbrennen.",
+    "slideIds": [
+      "w05-image",
+      "w05-build"
+    ]
+  },
+  {
+    "id": "IMG1",
+    "type": "teaching-workflow-reference",
+    "author": "ProfEngel / Kursmaterial",
+    "year": 2026,
+    "title": "Exkurs Bilderzeugung: Vorlesungsbegleiter, Cheat Sheet, Prompt-Katalog",
+    "url": "https://github.com/ProfEngel/KI-Literacy/tree/main/modules/Exkurs_bilderzeugung",
+    "accessed": "2026-11-03",
+    "evidence": "Kursdateien gelesen, drei Medien tatsächlich als Bild geöffnet",
+    "claim": "Sehen lernen, Bildbriefing, jeweils eine Änderung pro Iteration. Modellabhängige Parameter und Garantien nicht ungeprüft übernehmen.",
+    "slideIds": [
+      "w05-image",
+      "w05-edit"
+    ]
+  },
+  {
+    "id": "IMG2",
+    "type": "teaching-workflow-reference",
+    "author": "Google",
+    "year": null,
+    "title": "Image generation: image editing prompts",
+    "url": "https://aistudio.google.com/docs/image-generation",
+    "accessed": "2026-11-03",
+    "evidence": "Quelle am 03.11.2026 geöffnet; Praxisleitfaden oder Dokumentation, keine behauptete Wirkungsmessung",
+    "claim": "Referenzbilder, Ergänzen, Entfernen, Stilvariation. Generischer Workflow, keine ungetesteten Konto-/Modellversprechen.",
+    "slideIds": [
+      "w05-image",
+      "w05-edit"
+    ]
+  },
+  {
+    "id": "REF1",
+    "type": "provided-design-reference",
+    "author": "Prof. Dr. Mathias Engel",
+    "year": 2026,
+    "title": "W04: aktuelle achtseitige Workshopfassung",
+    "url": "https://profengel.github.io/KI-Literacy/praesentationen/kivl-w04/AA_W04_Agenten_und_Werkstaetten.html",
+    "accessed": "2026-11-03",
+    "evidence": "Live und visuell geprüft",
+    "claim": "Im Browser und als Screenshot geprüft: acht Seiten, sechs Meilensteine, drei Laborteile. Gestaltungsreferenz, keine empirische Wirkungsmessung.",
+    "slideIds": [
+      "w05-cover",
+      "w05-cockpit",
+      "w05-uiux",
+      "w05-bigpicture"
+    ]
+  },
+  {
+    "id": "REF2",
+    "type": "provided-design-reference",
+    "author": "Student Patrick Müller",
+    "year": 2026,
+    "title": "Von der Idee zur Anwendung; angepasste lokale Referenz",
+    "url": null,
+    "accessed": "2026-11-03",
+    "evidence": "Lokale Referenz, zuvor im Browser geprüft",
+    "claim": "Optionaler UI-Baukasten. Quelle nennen; keinen Repository-Link erfinden oder Original ungefragt veröffentlichen.",
+    "slideIds": [
+      "w05-safari",
+      "w05-build"
+    ]
+  },
+  {
+    "id": "UI10",
+    "type": "primary-practitioner-guidance",
+    "author": "Jakob Nielsen / Nielsen Norman Group",
+    "year": 2006,
+    "title": "Progressive Disclosure",
+    "url": "https://www.nngroup.com/articles/progressive-disclosure/",
+    "accessed": "2026-11-03",
+    "evidence": "Primärdarstellung der Designempfehlung geöffnet und gelesen",
+    "claim": "Häufig benötigte Hauptfunktionen zuerst zeigen, seltene/fortgeschrittene Funktionen über klar erkennbare Zugänge nach Bedarf anbieten. Keine essenziellen Funktionen verstecken.",
+    "slideIds": [
+      "w05-cockpit",
+      "w05-uiux",
+      "w05-safari",
+      "w05-build",
+      "w05-cover"
+    ]
+  },
+  {
+    "id": "UI11",
+    "type": "historical-primary-text-reprint",
+    "author": "Louis H. Sullivan / Nachdruck bei Grantmakers in the Arts",
+    "year": 1896,
+    "title": "The Tall Office Building Artistically Considered (excerpt)",
+    "url": "https://www.giarts.org/article/tall-office-building-artistically-considered-excerpt",
+    "accessed": "2026-11-03",
+    "evidence": "Historischer Textauszug und Originalfundstelle 1896, S. 403–409, auf der Seite gelesen; kein seitengetreues Einzelzitat behauptet",
+    "claim": "Historischer Form-follows-function-Gedanke. Nutzeraufgabe vor UI-Dekoration ist unsere didaktische Übertragung, keine aus dem Architekturtext gemessene Softwarewirkung.",
+    "slideIds": [
+      "w05-uiux",
+      "w05-safari",
+      "w05-build",
+      "w05-cover"
+    ]
+  },
+  {
+    "id": "UI12",
+    "type": "method-provider-primary-explanation",
+    "author": "Systematic Inventive Thinking (SIT)",
+    "year": null,
+    "title": "Function Follows Form (FFF)",
+    "url": "https://www.sitsite.com/method/function-follows-form/",
+    "accessed": "2026-11-03",
+    "evidence": "Eigene Methodenerläuterung des Anbieters geöffnet; keine unabhängige Wirksamkeitsprüfung",
+    "claim": "Im kreativen Gegenansatz zunächst eine veränderte Form entwerfen und mögliche neue Nutzungen erkunden. Kein Grund, notwendige Nutzeraufgaben einer attraktiven Vorlage unterzuordnen.",
+    "slideIds": [
+      "w05-safari"
+    ]
+  },
+  {
+    "id": "UI13",
+    "type": "primary-practitioner-guidance",
+    "author": "Nielsen Norman Group",
+    "year": null,
+    "title": "Flat-Design Best Practices",
+    "url": "https://www.nngroup.com/articles/flat-design-best-practices/",
+    "accessed": "2026-11-03",
+    "evidence": "Designempfehlungen zur Erkennbarkeit interaktiver Elemente geöffnet",
+    "claim": "Reduzierte Gestaltung darf visuelle Bedienhinweise nicht beseitigen; anklickbare Elemente müssen erkennbar sein. Nicht gleichbedeutend mit Function follows form.",
+    "slideIds": [
+      "w05-uiux",
+      "w05-build"
+    ]
+  },
+  {
+    "id": "IMG3",
+    "type": "provider-documentation",
+    "author": "Kie.ai",
+    "year": 2026,
+    "title": "Nano Banana 2 generation and reference-image editing",
+    "url": "https://docs.kie.ai/market/google/nanobanana2",
+    "accessed": "2026-11-03",
+    "evidence": "Offizielle API-Dokumentation geöffnet; tatsächliche Generierungen im Medienmanifest dokumentiert.",
+    "claim": "Provider/Modell der Übungsmedien, keine Behauptung garantierter Identität oder Bearbeitungspräzision.",
+    "slideIds": [
+      "w05-image",
+      "w05-edit",
+      "w05-bigpicture"
+    ]
+  }
+]

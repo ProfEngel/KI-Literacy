@@ -1,0 +1,1 @@
+Bearbeite das Ausgangsbild O0. Ändere ausschließlich die Farbe des weißen Tellers zu mattem Petrol. Behalte Form und Größe des Tellers sowie Erdbeere, Positionen, Tisch, Hintergrund, Bildausschnitt und Beleuchtung bei.

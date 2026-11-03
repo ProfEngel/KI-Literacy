@@ -1,0 +1,10 @@
+Ein Motiv gezielt erzeugen
+
+Wähle Objekt oder Person. Kopiere den Basis-Prompt, erzeuge ein Bild in deinem verfügbaren Bildwerkzeug und speichere das Original. Nutze die zweite Basis bei Bedarf aus der vorbereiteten Bibliothek.
+
+Ergebnis: Ein eigenes Ausgangsbild und ein kurzer Bildauftrag. Die vorbereiteten O0/P0 stehen zum Download bereit.
+Gegenprobe: Stimmen Motivanzahl, Ausschnitt, Licht und Bildzweck? Hände, Texturen und ungewollte Extras prüfen.
+
+Erzeuge das unten beschriebene Bild als Datei, nicht nur als Beschreibung. Zweck: ruhiges, gut erkennbares Übungsmotiv für gezielte Bildbearbeitung. Keine Schrift, Logos oder weiteren Hauptmotive. Halte dich an Motiv, Ausschnitt, Licht und Stil. Wenn du keine Bildgenerierung ausführen kannst, sage das offen und liefere keinen vermeintlichen Bildnachweis.
+
+[Hier den auf der Folie gewählten Basis-Prompt O0 oder P0 einsetzen.]

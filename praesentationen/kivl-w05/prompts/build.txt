@@ -1,0 +1,14 @@
+Deine Anwendung: einfacher, nicht ärmer
+
+Öffne dein W04-Projekt (Onepager oder Lernwerkstatt) und übergib die vorhandenen Dateien, deine Stilkarte und ein passendes Bild an ChatGPT/Codex. Lass die UI überarbeiten, nicht die fachliche Logik. Ohne Projekt: Fallback herunterladen.
+
+Ergebnis: Eine lokal lauffähige Version 2, kurze Änderungsliste und drei Testbeobachtungen einer anderen Person.
+Gegenprobe: Eine andere Person findet die Hauptaktion, korrigiert eine fehlerhafte Eingabe und findet eine erweiterte Option – ohne Erklärung durch dich.
+
+Überarbeite die Oberfläche meiner beigefügten bestehenden Anwendung, nicht ihre fachliche Logik. Zielgruppe: [einsetzen]. Wichtigste Aufgabe: [einsetzen]. Primäre Aktion: [einsetzen]. Stilkarte: [einsetzen]. Bilddatei: [einsetzen; nur nutzen, wenn sie die Aufgabe unterstützt].
+
+Simplicity: ein klarer Hauptweg, gut lesbare Systemschrift, großzügige Abstände, einheitliche abgerundete Ecken, sichtbare Labels und Fokuszustände. Grundpalette: Creme #F7F7F5, dunkle Schrift #182C33, Petrol #24666A und Salbei #DCEFE1 als zurückhaltende Akzentfläche. Normale Texte mindestens 4,5:1 Kontrast, große Texte mindestens 3:1; sichtbare Status- und Fehlermeldungen mit Lösungshinweis. Fortgeschrittene Funktionen über klar beschriftete weitere Optionen, keine versteckten notwendigen Funktionen. Keine dekorative Kachelwand oder erzwungener Hero. Form follows function.
+
+Erhalte alle vereinbarten Funktionen und Datenformate. Halte vorab eine Funktionsliste fest. Nutze semantisches HTML, Tastaturbedienung, responsives Layout für PC/Mac/iPad und lokale relative Medien. Keine CDNs, Tracker, API-Schlüssel, Pflicht-API oder neuen Abhängigkeiten. Bilder nicht verzerren; erklärende Bilder vollständig zeigen. Für informative Bilder passende Alt-Texte. Kein echter Versand und keine Veröffentlichung ohne separaten Auftrag. Bewahre vorhandene Offline-Funktion; dies ist kein neuer PWA-Einrichtungsauftrag.
+
+Liefere vollständige lauffähige Dateien mit einer Startdatei sowie kurze Startanleitung, Änderungsliste und Funktionsvergleich vorher/nachher. Prüfe Hauptaktion, fehlerhafte Eingaben, Rückweg, erweiterte Option und kleine Bildschirmbreite. Weise ungetestete Punkte offen aus. Fehlen die Ausgangsdateien, frage danach statt eine angebliche Überarbeitung zu erfinden.

@@ -1,0 +1,354 @@
+[
+  {
+    "id": "O0",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/O0.txt",
+    "inputReferences": [],
+    "outputFile": "O0.webp",
+    "slideIds": [
+      "w05-image"
+    ],
+    "language": "textfrei",
+    "alt": "Ausgangsbild: Erdbeere auf Teller",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "O1",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/O1.txt",
+    "inputReferences": [
+      "O0.webp"
+    ],
+    "outputFile": "O1.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Nur die Frucht austauschen",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "O2",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/O2.txt",
+    "inputReferences": [
+      "O0.webp"
+    ],
+    "outputFile": "O2.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Nur die Tellerfarbe ändern",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "O3",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/O3.txt",
+    "inputReferences": [
+      "O0.webp"
+    ],
+    "outputFile": "O3.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Nur den Hintergrund ändern",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "P0",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/P0.txt",
+    "inputReferences": [],
+    "outputFile": "P0.webp",
+    "slideIds": [
+      "w05-image"
+    ],
+    "language": "textfrei",
+    "alt": "Ausgangsbild: fiktive erwachsene Person",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "P1",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/P1.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "P1.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Jünger – weiterhin erwachsen",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "P2",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/P2.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "P2.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Älter",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "P3",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/P3.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "P3.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Frisur",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "P4",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/P4.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "P4.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Pose / Körperhaltung",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "P5",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/P5.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "P5.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Mimik / Gesichtsausdruck",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "P6",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/P6.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "P6.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Gestik / Handbewegung",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "P7",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/P7.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "P7.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Kleidung austauschen",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "OS1",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/OS1.txt",
+    "inputReferences": [
+      "O0.webp"
+    ],
+    "outputFile": "OS1.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Aquarell",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "PS1",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/PS1.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "PS1.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Aquarell",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "OS2",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/OS2.txt",
+    "inputReferences": [
+      "O0.webp"
+    ],
+    "outputFile": "OS2.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Comic",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "PS2",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/PS2.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "PS2.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Comic",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "OS3",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/OS3.txt",
+    "inputReferences": [
+      "O0.webp"
+    ],
+    "outputFile": "OS3.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Freundlicher 3D-Illustrationslook",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "PS3",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/PS3.txt",
+    "inputReferences": [
+      "P0.webp"
+    ],
+    "outputFile": "PS3.webp",
+    "slideIds": [
+      "w05-edit"
+    ],
+    "language": "textfrei",
+    "alt": "Freundlicher 3D-Illustrationslook",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "ui-final",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/ui-final.txt",
+    "inputReferences": [],
+    "outputFile": "ui-final.webp",
+    "slideIds": [
+      "w05-uiux"
+    ],
+    "language": "de",
+    "alt": "Zehn UI-Wegweiser · deutsch",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  },
+  {
+    "id": "big-final",
+    "provider": "Kie.ai",
+    "model": "nano-banana-2",
+    "created": "2026-11-03",
+    "promptFile": "../prompts/big-final.txt",
+    "inputReferences": [],
+    "outputFile": "big-final.webp",
+    "slideIds": [
+      "w05-bigpicture"
+    ],
+    "language": "de",
+    "alt": "Vom Ziel zur Anwendung · deutsch",
+    "provenance": "KI-generiertes Lehrmaterial. Fiktive Person; keine Fotografie einer realen Person. Keine exklusive Rechtegarantie. Anbieterbedingungen beachten; keine Fremdmarken vorgesehen.",
+    "referenceInventoryId": null
+  }
+]

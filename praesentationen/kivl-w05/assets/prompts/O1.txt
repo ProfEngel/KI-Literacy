@@ -1,0 +1,1 @@
+Bearbeite das hochgeladene Ausgangsbild O0. Ersetze nur die Erdbeere durch eine einzelne rote Kirsche mit Stiel. Behalte Teller, Tisch, Hintergrund, Blickwinkel, Bildausschnitt und Lichtrichtung bei. Größe und Kontaktschatten der neuen Frucht sollen plausibel sein. Bleibe beim fotografischen Bildstil. Füge keine zweite Frucht oder andere Gegenstände hinzu.

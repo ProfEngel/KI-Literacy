@@ -1,0 +1,8 @@
+Eine Oberfläche verständlicher machen
+
+Nutze die Vorher-/Nachher-Demo. Finde drei Hindernisse und erkläre je eine Verbesserung. Arbeite eigenständig; ein Austausch ist freiwillig.
+
+Ergebnis: Drei konkrete Beobachtungen: Hindernis → Verbesserung → Nutzen.
+Gegenprobe: Kann man sich in beiden Varianten zum gleichen Termin anmelden und dieselben Optionen erreichen?
+
+Beurteile die beigefügte Oberfläche einer fiktiven Campus-Workshop-Anmeldung. Zielgruppe: BWL-Studierende. Hauptaufgabe: einen passenden Termin reservieren. Nenne die drei wichtigsten Bedienhindernisse. Beschreibe zu jedem eine kleine konkrete Verbesserung und warum sie hilft. Behalte den Funktionsumfang: Name, E-Mail, Termin, optionale Erinnerung und Unterstützungsbedarf, Rückmeldung, Zurücksetzen und Zusammenfassung. Keine neuen Funktionen erfinden. Falls kein Screenshot beigefügt ist, frage zuerst danach. Antworte als kurze Tabelle: Beobachtung | Änderung | Nutzen. Unterscheide Sichtbares von Annahmen.

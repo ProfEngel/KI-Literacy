@@ -1,0 +1,8 @@
+Eine Änderung – dann genau hinsehen
+
+Lade erneut O0 oder P0 hoch. Wähle eine Objekt- und eine Personenänderung. Stilversuch nur, wenn Zeit bleibt. Die einzelnen fertigen Prompts stehen neben der Bilderauswahl.
+
+Ergebnis: Original + Variante + zwei Sätze: Was sollte sich ändern? Was wurde unbeabsichtigt verändert?
+Gegenprobe: Vergleiche Gesicht, Hände, Motivposition, Teller, Licht und Hintergrund. „Beibehalten“ ist ein Auftrag, keine Pixelgarantie.
+
+Bearbeite das hochgeladene Original. Ändere ausschließlich: [genaue Änderung]. Erhalte: [Motiv/Identitätsmerkmale], [Anordnung/Pose], [Ausschnitt/Perspektive], [Hintergrund/Licht] – außer soweit die Änderung physikalisch Anpassungen erfordert. Keine weiteren Personen, Gegenstände, Schrift oder Marken hinzufügen. Gib ein echtes bearbeitetes Bild aus. Vergleiche anschließend kurz gewünschte und mögliche ungewollte Änderungen. Jede neue Variante beginnt erneut beim Original, nicht bei der letzten Variante.
