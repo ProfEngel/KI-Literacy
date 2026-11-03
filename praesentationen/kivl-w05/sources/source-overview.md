@@ -186,3 +186,11 @@ Offizielle API-Dokumentation am 03.11.2026 geprüft; tatsächlich benutzter
 Provider/Modell im Medienmanifest. Keine Präzisions- oder Identitätsgarantie.
 
 
+# Gezielte Erweiterung · Personen und Farben · 03.11.2026
+
+Recherchezyklus1: PubMed-Abstract Barrett et al.2019, DOI10.1177/1529100619832930, https://pubmed.ncbi.nlm.nih.gov/31313636/ tatsächlich gelesen. Gegenprüfung Herausgeber APS: https://www.psychologicalscience.org/publications/emotional-expressions-reconsidered-challenges-to-inferring-emotion-from-human-facial-movements.html . Keine erfundenen Seitenzitate. Mimik nicht als Diagnostik oder vollständige universelle Liste darstellen. Acht inszenierte Varianten sind didaktische Auswahl.
+
+Recherchezyklus2: Offizielles Kie-Schema erneut geöffnet; Rastertafeln tatsächlich mit Nano Banana2 erzeugt. W3C zu komplexen Bildern gegengeprüft: Raster-Legende, sichtbare Erläuterung und lange Prompts ergänzen die Bilddatei. Bildanatomie und Identität nicht garantiert. Frau-Kleidung Erstfassung wegen10statt8Feldern verworfen, neue v2 separat erzeugt. Subtile Augen-/Formänderungen und Poseabweichungen werden als Gegenprobe benannt.
+
+Farben Zyklus1: Adobe Express https://www.adobe.com/express/learn/blog/color-wheel-explained (28.05.2026) geöffnet. Zyklus2/Gegenprüfung: Kelley Gordon2021 https://www.nngroup.com/articles/color-enhance-design/ vollständig geöffnet, insbesondere Farbharmonien und Grenzen kultureller/psychologischer Bedeutungen. W3C https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html und https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html geöffnet. Keine starren Gefühlsgesetze oder Kontrastgarantie allein durch Komplementärfarben. Eigene digitale HSL-Demo, kein Pigmentmischmodell. Drei UI-Paletten lokal auf tatsächliche Text-/Button-Kontrastwerte nachgerechnet. Ganze WCAG-Konformität nicht behauptet. Dekorative Poster-Schrift bleibt bewusst eine separate Bildübung.
+

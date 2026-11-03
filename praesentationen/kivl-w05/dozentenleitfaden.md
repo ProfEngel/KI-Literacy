@@ -1,6 +1,6 @@
 # W05 · UI/UX und Bildgestaltung · Dozentenleitfaden
 
-180 Minuten einschließlich 15 Minuten Pause. Neun Workshopseiten. Aufgaben eigenständig,
+180 Minuten einschließlich 15 Minuten Pause. Elf Workshopseiten. Aufgaben eigenständig,
 kein verpflichtendes Tandem. Fremdtest am Ende ist eine separate Testhandlung.
 Der Button „Moderation“ zeigt kurze Hinweise; dieser Leitfaden erklärt jede Seite ausführlicher.
 
@@ -44,7 +44,7 @@ späteren Test ist kein vorgeschriebener Baupartner.
 
 **Übergang:** „Erst schauen wir auf die Oberfläche und den tatsächlichen Weg zum Ziel.“
 
-## Seite 3 · UI und UX · 10–35 Minuten
+## Seite 3 · UI und UX · 10–25 Minuten
 
 **Didaktische Absicht:** Oberfläche von Nutzungserlebnis unterscheiden und am gleichen
 Beispiel drei überprüfbare Verbesserungen erkennen.
@@ -57,8 +57,8 @@ Wiedererkennen, Effizienz, Wesentliches, Fehlerbehebung, Hilfe. Es sind Faustreg
 Zertifikat. Kontrast und Bildalternativen sind wichtige, aber nicht alle Aspekte von
 Barrierefreiheit; 4,5:1 gilt für normalen Text, 3:1 für nach WCAG definierten großen Text.
 
-**Moderation:** 10–15 Demo; drei Wegweiser auswählen, Gesamtinfografik bei Bedarf öffnen.
-15–30 eigenständiger UI-Check (Aufgabe 15 Minuten). 30–35 Wrap-up (5 Minuten).
+**Moderation:** 10–13 Demo; drei Wegweiser auswählen, Gesamtinfografik bei Bedarf öffnen.
+13–20 eigenständiger UI-Check (Aufgabe7Minuten). 20–25 Wrap-up (5 Minuten).
 Auftrag: drei Hindernisse mit Änderung und Nutzen; vollständiger Prompt auf der Seite.
 
 **Stolperstellen:** Nicht zehn Regeln nacheinander dozieren. Vorher/Nachher nicht mit
@@ -68,7 +68,22 @@ belastbar bewerten – der Prompt fordert das Material ausdrücklich an.
 
 **Übergang:** „Welche Gestaltungsmuster helfen unserer Hauptaufgabe – und welche lenken ab?“
 
-## Seite 4 · Vorlagensafari und Stilkarte · 35–55 Minuten
+## Seite 4 · Farbkreis und Paletten · 25–30 Minuten
+
+**Absicht:** Mit drei einfachen Beziehungen eine bewusste Palette statt zufälliger Lieblingsfarben wählen.
+Analog = benachbart (hier −30°/0°/+30°), komplementär = gegenüber (180°), triadisch = drei gleichmäßig verteilte Farbtöne (120°).
+Die Interaktion verwendet den digitalen HSL-Kreis, keinen traditionellen Pigment-Farbkreis. Sättigung und Helligkeit bleiben in den Farbfeldern gleich; Abstände allein garantieren keine Lesbarkeit.
+
+**Moderation:** Drei Schemata umschalten, Regler einmal bewegen, Zahlen und HEX-Werte vergleichen. Die drei generierten Leseecken zeigen feste illustrative Beispiele. Der Regler färbt diese Bilder nicht live um. Adobe Color ist eine optionale externe Vertiefung mit Internetbedarf. Keine zusätzliche Pflichtaufgabe.
+
+## Seite 5 · Farbe anwenden · 30–35 Minuten
+
+**Absicht:** Gleiche Funktion, andere Farbwelt. Basis, Hauptfarbe und Akzent haben unterschiedliche Aufgaben.
+Ruhig/Warm/Mutig ändern nur das Aussehen der fiktiven Workshop-Anwendung. Button bleibt lokal benutzbar, keine echte Reservierung. Farbe soll die Hauptaktion führen, nicht jede Fläche gleich wichtig machen.
+
+**Einordnung:** Die Beispiele für Blau, Grün, Rot/Orange und Violett/Gold sind kontextabhängige gestalterische Konventionen, keine universellen Gefühle oder Kulturgesetze. Mit der Zielgruppe testen. Status zusätzlich als Text/Symbol, nie nur Rot/Grün. Kontrastwerte werden für Fließtext auf Hintergrund und weißen Buttontext auf Buttonfarbe berechnet; alle drei Beispiele liegen über4,5:1. Das ist keine vollständige WCAG-Prüfung. Harmonie der Farbtöne und Lesbarkeit sind unterschiedliche Fragen. Quellen COL1–COL3.
+
+## Seite 6 · Vorlagensafari und Stilkarte · 35–55 Minuten
 
 **Didaktische Absicht:** Aus Vorbildern wenige begründete Regeln statt eine fremde Website kopieren.
 
@@ -89,7 +104,7 @@ Zugriff auf eine vom Modell nicht gelesene Website. Schönes Muster ohne Nutzen 
 
 **Übergang:** „Ein Bild ist ebenfalls eine Designentscheidung. Welches Motiv brauchen wir wirklich?“
 
-## Seite 5 · Ein Objekt, eine Person · 55–85 Minuten
+## Seite 7 · Ein Objekt, eine Person · 55–85 Minuten
 
 **Didaktische Absicht:** Bildwünsche als beobachtbare Eigenschaften formulieren und eine
 geeignete Ausgangsbasis für kontrollierte Änderungen schaffen.
@@ -111,7 +126,13 @@ rechtssicher. Anbieterbedingungen bleiben relevant.
 
 **Übergang:** „Jetzt ändern wir genau einen Aspekt – und prüfen, was versehentlich mitwandert.“
 
-## Seite 6 · Eine gezielte Änderung · 100–125 Minuten
+## Seite 8 · Eine gezielte Änderung · 100–125 Minuten
+
+**Optionale Vertiefung:** „Personen-Atlas · Frau & Mann“ bietet14 Rastertafeln mit je8 Feldern: Mimik als große Gesichtsportraits, Gestik, Posen, Kleidung, Frisuren, Augenpartie und Gesichtsform für P0/M0. Ganze Tafel und passende Referenz sind lokal herunterladbar. Kein Anspruch auf alle möglichen Ausdrucksformen; inszenierte Mimik ist kein Nachweis innerer Gefühle. Bei anatomischen Änderungen kann sich Wiedererkennbarkeit bewusst verändern. Die sichtbaren Abweichungen bei Händen, Pose oder Augenmerkmalen sind Gegenproben, keine behauptete Perfektion.
+
+**Werbetypografie:** OT4–7 zeigen Editorial, verspielt, Luxus und experimentelle Ebenen/Outline mit längeren Headlines, Subline und fiktivem Label. Nicht nur Schriftart nennen: Hierarchie, Position, Zeilenumbrüche, Kontrast, Freiraum und Überlagerung präzisieren. Alle Texte nachlesen; genaue Schriftfamilie und kleine Texte können Nacharbeit erfordern. In produktiven UIs echte HTML-Schrift statt eingebrannter Bildschrift verwenden.
+
+**Großmodus:** Basis und Variante direkt im vergrößerten Bildpaar wechseln. „Prompt kopieren“ passt immer zur Auswahl; im Atlas ebenfalls Person/Thema ändern und Tafel-Prompt kopieren. Bei gesperrter Zwischenablage wird der Text für manuelle Kopie geöffnet und markiert. Die volle Bibliothek ist Auswahlmaterial, keine112 zusätzlichen Aufgaben.
 
 **Erweiterter Nutzerreview:** Typografie auf O0 mit dem identischen Text „Einfach gut.“:
 Sans Serif oben links, Serif unten links, Handschrift oben rechts. Lesbarkeit, Schreibweise,
@@ -149,7 +170,7 @@ ist eine unzulässige Abweichung.
 
 **Übergang:** „Unsere Anwendung bekommt jetzt nicht einfach mehr Bilder, sondern ein passendes Bild.“
 
-## Seite 7 · Smartphone-Dashboard · 125–135 Minuten
+## Seite 9 · Smartphone-Dashboard · 125–135 Minuten
 
 **Didaktische Absicht:** An einem konkreten mobilen Beispiel zeigen, wie dieselben Daten
 je nach Nutzerfrage eine andere, aber einfache Oberfläche erhalten.
@@ -174,7 +195,7 @@ Barrierefreiheits-/Touch-Zielgrößenprüfung für eine produktive mobile App.
 
 **Übergang:** „Welches dieser Muster hilft der wichtigsten Aufgabe Ihrer Anwendung?“
 
-## Seite 8 · Projekt überarbeiten und testen · 135–170 Minuten
+## Seite 10 · Projekt überarbeiten und testen · 135–170 Minuten
 
 **Didaktische Absicht:** Die Gestaltung auf das eigene W04-Projekt übertragen und Nutzen
 durch beobachtetes Verhalten statt Selbstlob beurteilen.
@@ -200,7 +221,7 @@ an das Modell; bestehende Offline-Funktion bewahren, kein neuer PWA-Installation
 
 **Übergang:** „Welche eine Verbesserung macht den nächsten Schritt für die Person leichter?“
 
-## Seite 9 · Big Picture, Prüfliste und Quellen · 170–180 Minuten
+## Seite 11 · Big Picture, Prüfliste und Quellen · 170–180 Minuten
 
 **Didaktische Absicht:** Den Gestaltungszyklus verbinden und eine nächste konkrete Verbesserung festhalten.
 

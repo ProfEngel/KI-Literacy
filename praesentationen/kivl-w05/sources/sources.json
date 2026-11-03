@@ -334,5 +334,63 @@
     "slideIds": [
       "w05-dashboard"
     ]
+  },
+  {
+    "id": "EMO1",
+    "author": "Lisa Feldman Barrett, Ralph Adolphs, Stacy Marsella, Aleix M. Martinez, Seth D. Pollak",
+    "year": 2019,
+    "title": "Emotional Expressions Reconsidered: Challenges to Inferring Emotion From Human Facial Movements",
+    "type": "scientific-review",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31313636/",
+    "doi": "10.1177/1529100619832930",
+    "accessed": "2026-11-03",
+    "evidence": "PubMed-Abstract geöffnet und gegen die Herausgeberdarstellung der APS gegengeprüft; keine wörtlichen Seitenzitate oder eigene Diagnostik behauptet.",
+    "claim": "Mimiktafeln zeigen inszenierte Ausdrucksvorgaben. Aus einem einzelnen Gesichtsausdruck lassen sich innere Gefühle nicht kontextfrei und eindeutig ablesen. Die acht Kursmuster sind kein vollständiger oder universeller Emotionskatalog.",
+    "slideIds": [
+      "w05-edit"
+    ]
+  },
+  {
+    "accessed": "2026-11-03",
+    "year": 2026,
+    "type": "design-guidance",
+    "id": "COL1",
+    "author": "Adobe Express",
+    "title": "The color wheel explained and how colors work together",
+    "url": "https://www.adobe.com/express/learn/blog/color-wheel-explained",
+    "evidence": "Offiziellen Artikel geöffnet; Nachbarschaft/Gegenüber/Dreieck mit NN/G gegengeprüft. Interaktion ist eigene didaktische HSL-Umsetzung, keine Pigmentmischung.",
+    "claim": "Analog: Nachbarn. Komplementär: gegenüber. Triadisch: drei gleichmäßig verteilte Farbtöne. Hier digitaler HSL-Kreis; andere Farbmodelle ergeben andere konkrete Paletten.",
+    "slideIds": [
+      "w05-color-wheel"
+    ]
+  },
+  {
+    "accessed": "2026-11-03",
+    "year": 2021,
+    "type": "design-guidance",
+    "id": "COL2",
+    "author": "Kelley Gordon / Nielsen Norman Group",
+    "title": "Using Color to Enhance Your Design",
+    "url": "https://www.nngroup.com/articles/color-enhance-design/",
+    "evidence": "Originalartikel vollständig geöffnet, Abschnitte Color Theory, Color Meanings, Applying Color geprüft. Kulturelle und individuelle Grenzen ausdrücklich erhalten.",
+    "claim": "Eine kleine Palette und feste Farbrollen unterstützen Orientierung. Farbbedeutungen sind kontextabhängig; die Beispiele sind Design-Konventionen, keine allgemeingültigen psychologischen Wirkungen.",
+    "slideIds": [
+      "w05-color-wheel",
+      "w05-color-use"
+    ]
+  },
+  {
+    "accessed": "2026-11-03",
+    "year": 2026,
+    "type": "design-guidance",
+    "id": "COL3",
+    "author": "W3C WAI",
+    "title": "WCAG 2.2 · Understanding 1.4.1 Use of Color / 1.4.3 Contrast Minimum",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+    "evidence": "Beide W3C-Seiten geöffnet: https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html . Normale Schrift mindestens4,5:1, große Schrift3:1; Farbe nicht allein als Bedeutungsträger.",
+    "claim": "Status zusätzlich beschriften. Ausreichenden Hell-Dunkel-Kontrast prüfen; Farbton-Gegensätze allein garantieren keine Lesbarkeit.",
+    "slideIds": [
+      "w05-color-use"
+    ]
   }
 ]
