@@ -2,7 +2,7 @@
 type: resource-list
 tags: [ki-vl, education]
 created: 2026-04-16
-updated: 2026-10-29
+updated: 2026-11-04
 project: KI_VL
 ---
 
@@ -11,6 +11,14 @@ project: KI_VL
 Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG und geschlossenen Wissensräumen.
 
 ## 📰 News-Briefings
+
+### News-Briefing 04.11.2026
+
+- [Digitalgipfel: KI-Souveränität (BMDS)](https://bmds.bund.de/aktuelles/digital-gipfel) - Am 2. und 3. November standen sichere KI, europäische Wettbewerbsfähigkeit und der praktische Einsatz in Wirtschaft und Verwaltung im Mittelpunkt.
+- [NCM: Erst die Struktur, dann die Details (Stanford)](https://hazyresearch.stanford.edu/blog/2026-10-12-ncm) - Forschungsausblick aus Oktober 2026: Next-Concept Modeling erzeugt Text über zunehmend detaillierte Darstellungsebenen und berechnet Teile parallel statt ausschließlich Token für Token.
+- [Mistral Large 4: offene Modellgewichte (Mistral)](https://mistral.ai/news/mistral-large-4-oss/) - Nach der bereits besprochenen API-Vorschau veröffentlicht Mistral die verbesserten Modellgewichte und ermöglicht damit eigene Bereitstellung und Anpassung statt ausschließlicher API-Nutzung.
+- [Manipulierte Claude-Code-Erweiterung (Cursor)](https://cursor.com/blog/claude-code-extension-security-notice) - Eine manipulierte Erweiterung versuchte am 29. Oktober eine dauerhafte Hintertür einzurichten; betroffen war die Verteilung über den Cursor-Marktplatz, nicht die offizielle Anthropic-Version.
+- [AWS: Wachstum und KI-Investitionen (Amazon)](https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf) - Amazon meldet für AWS im dritten Quartal 39,3 Prozent Umsatzwachstum gegenüber dem Vorjahr, während hohe KI-Investitionen den freien Cashflow des Konzerns belasten.
 
 ### News-Briefing 29.10.2026
 
