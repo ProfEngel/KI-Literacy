@@ -43,13 +43,13 @@ Nach jeder fertiggestellten Stufe mit Code folgt: **Funktion und IT-Sicherheit p
 
 ## 3. Was Dein Helfer mitbringt
 
-![Hugo HUBmeister als Handwerker mit Auftrag, Skills, Tools, gemeinsamem Memory und geprüftem Ergebnis](../assets/trinity/hugo-hubmeister-handwerker.png)
+![Hugo HUBmeister mit austauschbarem LLM, Auftrag, Skills, Tools, gemeinsamem Memory und geprüftem Ergebnis](../assets/trinity/hugo-hubmeister-handwerker-llm.png)
 
 Hugo HUBmeister: Dein Agent als Handwerker. KI-generierte Infografik, 2026; Hugo nach profengel.de.
 
 Ein Handwerker braucht einen **Auftrag**, **Fähigkeiten**, **Werkzeuge**, **Erfahrungswissen** und einen **Qualitätscheck**. So ist auch Dein Agent aufgebaut. Skills sind seine Arbeitsanleitungen; der Harness ist seine Arbeitsumgebung, die Modell und Werkzeuge verbindet und Grenzen durchsetzt. Ein LLM muss nicht alles selbst erledigen: Rechnen, Dateien prüfen und feste Abläufe können zuverlässige Softwarewerkzeuge übernehmen.
 
-Nicht jeder Spezialist braucht das größte Modell. Ein leistungsfähiges Modell kann bauen und verbessern; ein kleineres, eventuell lokales Modell kann passende Aufgaben ausführen. Ob es dafür gut genug ist, zeigen mehrere Testaufgaben – nicht die Modellgröße allein.
+**Hugos Kopf steht für das LLM, nicht für den ganzen Agenten.** Das Modell soll austauschbar und möglichst **modellagnostisch angebunden** sein. Ein leistungsfähiges Modell kann bauen; ein kleines, eventuell lokales LLM kann wie ein „Praktikant“ geeignete Aufgaben ausführen, wenn es AGENTS.md und Skills zuverlässig umsetzt und die passenden Tools nutzt. Ob das reicht, zeigt der Aufgabenbenchmark. Rechte und Grenzen erzwingt die Laufzeit; sie dürfen nicht allein vom Gehorsam des Modells abhängen.
 
 ## 4. Ein Gedächtnis, das wirklich genutzt wird
 
