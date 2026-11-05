@@ -34,16 +34,32 @@
       "correctionPrompt": "Edit this infographic only to correct the LOWER memory arrows. Preserve all text, four scenes, people, title, colors, proportions and all three Test & Freigabe checkpoints. At the shared bottom cabinet 'Gemeinsames Memory', GREEN arrows labelled 'Abruf' MUST point OUTWARD from the cabinet UP TO the Agent and Werkstatt scenes, because retrieval means reading existing knowledge from storage. AMBER arrows labelled 'Speichern' must point FROM those scenes INTO the cabinet. Remove the misleading long amber line coming from the App checkpoint into the cabinet. Keep exactly one shared memory cabinet. Make arrowheads and source/destination unambiguous, with green FROM memory TO agents, amber FROM agents TO memory. No new words, no other layout changes. This is a precise educational diagram correction."
     },
     {
-      "file": "assets/handwerker_agent_metapher.jpg",
-      "type": "Unveränderte bestehende Metapher-Abbildung",
-      "source": "KI-Literacy/assets/handwerker_agent_metapher.jpg",
-      "provider": "Im Original nicht ausgewiesen",
-      "rights": "Keine neue Lizenzprüfung; aus bestehendem Lehrmaterial übernommen."
+      "file": "assets/trinity/hugo-hubmeister-handwerker.png",
+      "type": "KI-generierte Infografik, stilistische Neugestaltung der ursprünglichen Handwerker-Metapher",
+      "prompt": "Use case: style-transfer, educational infographic.\nAsset: replace the existing craftsman metaphor illustration in the Trinity practice guide.\nImage 1 is the CONTENT/COMPOSITION reference to reinterpret; image 2 is the STYLE AND CHARACTER reference.\nRecreate the craftsman-and-workbench explanation from image 1 in EXACTLY the friendly warm illustrated comic infographic style of image 2. Real raster image, 16:9 landscape. Cream background, forest-green and petrol outlines, sage and restrained amber, warm wood workshop details, clear legible German labels, generous whitespace, rounded label plaques. Not photorealistic, not 3D figurine render.\nThe central craftsman MUST be Hugo HUBmeister from image 2: recognizable same friendly curly dark-haired bearded adult man, prominent eyebrows, safety goggles resting on his head, petrol work shirt and tan tool harness. He works at a wooden workbench with a clear task plan. No unrelated agents, no extra people. Keep the five explanatory functions visible:\n1. On the left a single instruction/contract clipboard or plan labelled exactly 'Auftrag & Grenzen'.\n2. A physical handbook open on the bench labelled exactly 'Skills & Wissen'.\n3. A tool board in the workshop labelled exactly 'Tools & Harness'.\n4. One shared filing cabinet under/beside the workbench labelled exactly 'Gemeinsames Memory'. Hugo actively consults a reference card from it; show that memory is retrieved, not merely filled.\n5. A finished tangible workpiece, an inspection checklist and green check at the right labelled exactly 'Geprüftes Ergebnis'. No claim of guaranteed correctness or safety.\nHeading exactly 'Hugo HUBmeister' and smaller subtitle exactly 'Dein Agent als Handwerker'.\nUse clear spatial leader lines so each plaque connects to its object, no dense explanatory paragraphs, no English labels, no tiny lorem ipsum, no duplicate cabinets, no new slogans. The metaphor should show a capable worker with instructions, useful skills, real tools and shared reference memory who checks his output. Match image 2's character identity and illustration language while keeping image 1's helpful workbench metaphor.",
+      "inputs": [
+        "assets/handwerker_agent_metapher.jpg",
+        "assets/trinity/trinity-hybrid-hub.png"
+      ],
+      "source": "Hugo-Charakter nach profengel.de; ursprüngliche Handwerker-Komposition aus KI-Literacy",
+      "provider": "OpenAI, integriertes image_gen-Werkzeug",
+      "model": "Vom Werkzeug nicht separat ausgewiesen",
+      "review": "Visuell geprüft: Hugo mit Locken, Bart, Schutzbrille, petrolfarbenem Hemd und Werkzeuggurt; alle fünf deutschen Labels korrekt; aktives Nachschlagen im gemeinsamen Memory sichtbar."
     }
   ],
   "notes": [
     "Hugo ist eine virtuelle Figur von profengel.de. Keine reale Person oder Sicherheitsinstanz.",
     "Infografiken erklären das Zielbild; sie belegen keine bereits vorhandene Implementierung.",
     "Bildprompts sind Produktionsanweisungen, keine Anweisungen zum automatischen Ausführen eines Agenten."
+  ],
+  "archivedReferences": [
+    {
+      "file": "assets/handwerker_agent_metapher.jpg",
+      "type": "Unveränderte bestehende Metapher-Abbildung",
+      "source": "KI-Literacy/assets/handwerker_agent_metapher.jpg",
+      "provider": "Im Original nicht ausgewiesen",
+      "rights": "Keine neue Lizenzprüfung; aus bestehendem Lehrmaterial übernommen.",
+      "note": "Im aktuellen Leitfaden durch Hugo-Infografik ersetzt; Originaldatei und datiertes Backup bleiben unverändert erhalten."
+    }
   ]
 }

@@ -43,9 +43,9 @@ Nach jeder fertiggestellten Stufe mit Code folgt: **Funktion und IT-Sicherheit p
 
 ## 3. Was Dein Helfer mitbringt
 
-![Die ursprüngliche Handwerker-Metapher für den Trinity-Agenten](../assets/handwerker_agent_metapher.jpg)
+![Hugo HUBmeister als Handwerker mit Auftrag, Skills, Tools, gemeinsamem Memory und geprüftem Ergebnis](../assets/trinity/hugo-hubmeister-handwerker.png)
 
-Der Agent als Handwerker. Vorhandenes Metapherbild aus dem ursprünglichen Trinity-Leitfaden.
+Hugo HUBmeister: Dein Agent als Handwerker. KI-generierte Infografik, 2026; Hugo nach profengel.de.
 
 Ein Handwerker braucht einen **Auftrag**, **Fähigkeiten**, **Werkzeuge**, **Erfahrungswissen** und einen **Qualitätscheck**. So ist auch Dein Agent aufgebaut. Skills sind seine Arbeitsanleitungen; der Harness ist seine Arbeitsumgebung, die Modell und Werkzeuge verbindet und Grenzen durchsetzt. Ein LLM muss nicht alles selbst erledigen: Rechnen, Dateien prüfen und feste Abläufe können zuverlässige Softwarewerkzeuge übernehmen.
 
@@ -86,6 +86,6 @@ Offene kritische oder hohe Risiken blockieren die Aktivierung. Fehlende Prüfung
 
 [2] [SQLite: Einsatzmöglichkeiten und Grenzen](https://www.sqlite.org/whentouse.html). [Bandit](https://bandit.readthedocs.io/en/latest/), [Semgrep](https://docs.semgrep.dev/), [pip-audit](https://github.com/pypa/pip-audit) und [Gitleaks](https://github.com/gitleaks/gitleaks): offizielle Werkzeugdokumentationen. Die Eignung ist beim konkreten Projekt zu prüfen.
 
-Hugo: virtuelle Figur nach [profengel.de](https://profengel.de/). Drei neue Infografiken mit integrierter OpenAI-Bildgenerierung erstellt und visuell geprüft. Produktionsprompts und Herkunft: [Medienmanifest](Trinity_Medienmanifest.json). Die Beschreibung ist ein Zielbild, kein Nachweis einer bereits implementierten oder sicherheitsgeprüften Hub-Version.
+Hugo: virtuelle Figur nach [profengel.de](https://profengel.de/). Vier Infografiken mit integrierter OpenAI-Bildgenerierung erstellt und visuell geprüft. Produktionsprompts und Herkunft: [Medienmanifest](Trinity_Medienmanifest.json). Die Beschreibung ist ein Zielbild, kein Nachweis einer bereits implementierten oder sicherheitsgeprüften Hub-Version.
 
 [Frühere Fassung im Backup](https://profengel.github.io/KI-Literacy/backup/trinity-agenten/2026-11-05/).
