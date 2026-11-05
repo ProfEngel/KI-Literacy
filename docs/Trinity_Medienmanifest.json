@@ -1,0 +1,49 @@
+{
+  "status": "Freigegebene Leitfaden-Fassung vom 05.11.2026. Keine laufende Hub-Anwendung.",
+  "date": "2026-11-05",
+  "provider": "OpenAI, integriertes image_gen-Werkzeug",
+  "model": "Vom Werkzeug nicht separat ausgewiesen",
+  "images": [
+    {
+      "file": "assets/trinity/trinity-hybrid-hub.png",
+      "prompt": "Use case: infographic-diagram. Create a beautiful image-dominant educational infographic in German, exact 16:9 landscape, for a simple non-technical Trinity Agent guide. Warm cream background, deep forest-green and petrol, sage, restrained amber, premium friendly comic illustration with subtle isometric workshop details. Use the supplied image ONLY as character reference: HUGO is the dark curly-haired bearded male craftsman on the RIGHT, with safety goggles on top of his hair, petrol shirt and tan tool harness. Keep that recognizable Hugo design; do not copy the other two people. Main message: From the FIRST agent there is ONE shared HUB. Center: a large open workshop/office labelled exactly 'Trinity HUB'. Hugo, labelled exactly 'Hugo HUBmeister', is the first specialist inside one clearly visible agent tile; show two more modest illustrated specialist tiles nearby labelled 'Recherche' and 'Planung', plus a small optional add tile '+'. Left side a human user enters one task through TWO distinct entryways, a terminal/chat screen labelled 'Codex-Chat' and a laptop browser labelled 'HTML-UI'; both visibly connect to the SAME hub. At the bottom inside the hub ONE shared filing archive labelled exactly 'Gemeinsames Gedächtnis'. Two clearly separated directional arrows connect all agent tiles with this ONE archive: outward from archive to agents labelled 'Nachschlagen', inward from agents to archive labelled 'Geprüft merken'. This is not just write-only storage. On the right a completed result and a human approval checkpoint labelled 'Prüfen & freigeben'. Large clear short text only, no explanatory paragraphs. Main heading exactly 'Ein Hub. Dein erster Helfer. Platz für mehr.' Keep all labels on neutral flat areas, correct German umlauts, extremely clear reading order and substantial whitespace. This is a real raster infographic, not a generic website screenshot or a page full of decorative cards. No promises of guaranteed safety or all-knowing AI. Human remains in charge.",
+      "inputs": [
+        "https://profengel.de/assets/tutoren-trio-hugo-v3.webp"
+      ],
+      "source": "https://profengel.de/assets/tutoren-trio-hugo-v3.webp",
+      "type": "KI-generierte Infografik",
+      "review": "Visuell geprüft: zwei Zugänge, ein Hub, ein gemeinsames Memory mit Abruf und geprüfter Speicherung."
+    },
+    {
+      "file": "assets/trinity/informationssystem.png",
+      "prompt": "Use case: scientific-educational infographic. Generate a real raster infographic, exact16:9 landscape, German labels, same friendly premium illustrated comic palette as supplied style reference (cream, forest green, sage, amber), generous whitespace and few very large short labels. Explain a SOCIOTECHNICAL INFORMATION SYSTEM to business students, without incorrectly pretending an LLM is itself a human or that all technical operations are perfectly deterministic. Heading exactly 'Mehr als eine App: ein Informationssystem'. At top a clearly HUMAN user, not Hugo or a robot, at a small approval desk with three big visible labels: 'Ziel', 'Freigabe', 'Verantwortung'. Below show ONE large grouped technical workbench/room labelled 'Technik unterstützt'. Within it two equally weighted adjacent illustrated zones: LEFT zone heading 'Feste Abläufe', with calculator, gear-driven conveyor, software window, file folder, hardware/network symbols; small label 'Apps & Tools'. RIGHT zone heading 'Flexible Bearbeitung', with language-model neural device, speech bubbles, documents under a magnifier, and highlighted alternative options; small label 'LLM'. BOTH are clearly inside the TECHNICAL group, connected bidirectionally, not humans-versus-machines split. Between/below them support two simple objects: a recipe/handbook labelled 'Skills' and a single reference library/filing drawer labelled 'Memory'; Memory is reused knowledge, not just a trash chute. Connect those with the workflow, show memory retrieval visually. A human-approved result emerges at bottom right. Bottom short statement exactly 'Mensch, Aufgabe und Technik wirken zusammen.' No extra paragraphs, no claims of consciousness, no claim LLM replaces the social dimension, no SVG-looking boxes-only flowchart. Rich explanatory objects and spatial metaphor, very readable concise typography. Do not reproduce irrelevant character names or labels from style reference.",
+      "inputs": [
+        "assets/trinity/trinity-hybrid-hub.png"
+      ],
+      "type": "KI-generierte Infografik",
+      "review": "Visuell geprüft: Menschen behalten Verantwortung; LLM ist Teil der Technik, nicht selbst der soziale Anteil."
+    },
+    {
+      "file": "assets/trinity/idee-app-agent-werkstatt.png",
+      "prompt": "Generate a genuine raster educational infographic in exact 16:9, German labels, matching the supplied cream, forest-green, sage and amber warm premium illustrated comic style. Show the journey 'Von der Idee zur Werkstatt' as a very clear left-to-right workshop panorama with FOUR main stages, each a large recognizable illustrated scene rather than text boxes. Stage1 heading 'Idee': a human with a lightbulb describing a useful event planning task. Stage2 heading 'App': a simple screen and calculator/calendar gears, short label 'Feste Regeln'. Stage3 heading 'Hub + erster Agent': one welcoming workshop hub containing its FIRST tile with the SAME fictional curly dark-haired bearded craftsman Hugo, goggles on head, petrol shirt and tan toolbelt. A small goal/action/feedback circular arrow suggests bounded agent work. Stage4 heading 'Werkstatt': the SAME hub expanded with Hugo and two specialist tiles, a coordinator path to a small subordinate helper, not chaotic all-to-all links. A single shared filing cabinet under the last TWO scenes has exactly the label 'Gemeinsames Memory', with retrieval and checked storage arrows connecting both scenes to that ONE cabinet. Under the completed App, first Agent and Werkstatt scenes, place THREE clearly visible small checkpoints, each with shield, checklist and a HUMAN approving, label each checkpoint exactly 'Test & Freigabe'. No security checkpoint before any code exists. Tiny amber repair/retest return arrows above those checkpoints. Main flow arrows connect all four stages, but make the arrow beyond App dotted to communicate optional evolution, not that all apps need agents. Bottom small statement 'Nur so viel KI wie nötig.' Rich metaphor illustrations, short LARGE readable labels only, maximum whitespace, no paragraphs, no safety guarantee, no fake scientific claims. Title exact 'Von der Idee zur Werkstatt'. No irrelevant character labels from reference.",
+      "inputs": [
+        "assets/trinity/trinity-hybrid-hub.png"
+      ],
+      "type": "KI-generierte Infografik",
+      "review": "Visuell geprüft und korrigiert: vier Entwicklungsstufen, ein gemeinsames Memory und drei Test-/Freigabepunkte. Grüne Abrufpfeile führen aus dem Memory zu Agent/Werkstatt; orange Speicherung führt hinein. Metapher, keine technische Datenfluss-Spezifikation.",
+      "correctionPrompt": "Edit this infographic only to correct the LOWER memory arrows. Preserve all text, four scenes, people, title, colors, proportions and all three Test & Freigabe checkpoints. At the shared bottom cabinet 'Gemeinsames Memory', GREEN arrows labelled 'Abruf' MUST point OUTWARD from the cabinet UP TO the Agent and Werkstatt scenes, because retrieval means reading existing knowledge from storage. AMBER arrows labelled 'Speichern' must point FROM those scenes INTO the cabinet. Remove the misleading long amber line coming from the App checkpoint into the cabinet. Keep exactly one shared memory cabinet. Make arrowheads and source/destination unambiguous, with green FROM memory TO agents, amber FROM agents TO memory. No new words, no other layout changes. This is a precise educational diagram correction."
+    },
+    {
+      "file": "assets/handwerker_agent_metapher.jpg",
+      "type": "Unveränderte bestehende Metapher-Abbildung",
+      "source": "KI-Literacy/assets/handwerker_agent_metapher.jpg",
+      "provider": "Im Original nicht ausgewiesen",
+      "rights": "Keine neue Lizenzprüfung; aus bestehendem Lehrmaterial übernommen."
+    }
+  ],
+  "notes": [
+    "Hugo ist eine virtuelle Figur von profengel.de. Keine reale Person oder Sicherheitsinstanz.",
+    "Infografiken erklären das Zielbild; sie belegen keine bereits vorhandene Implementierung.",
+    "Bildprompts sind Produktionsanweisungen, keine Anweisungen zum automatischen Ausführen eines Agenten."
+  ]
+}
