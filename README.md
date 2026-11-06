@@ -8,6 +8,10 @@ Die Website zeigt die Präsentationen direkt im Browser. Auf GitHub findest du d
 
 ## Die Vorlesungen
 
+### Wirtschaftsinformatik 1
+
+- [KI Literacy Basics · HTML-Präsentation](https://profengel.github.io/KI-Literacy/praesentationen/wi1-ki-literacy-basics/) – Einstieg in Künstliche Intelligenz: Funktionsweise von KI und Sprachmodellen, Grenzen und Verantwortung, RAG/Memory, Werkzeuge und Prompting. Mit interaktiven Beispielen, Mini-Quiz und studentischen Projekten.
+
 ### Data Science und KI · 4 SWS
 
 KI verstehen, mit Modellen und Werkzeugen arbeiten, eine KI-Anwendung entwickeln und Daten in einem Dashboard erklären.

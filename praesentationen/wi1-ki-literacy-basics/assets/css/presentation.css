@@ -1,0 +1,899 @@
+/* Modern UI Design Tokens & Theme Variables */
+:root {
+  --bg: #f7f7f5;
+  --card: #ffffff;
+  --ink: #182c33;
+  --muted: #61726f;
+  --line: #d8e0d9;
+  --green: #2d8a05;
+  --mint: #dcefe1;
+  --blue: #e1eef0;
+  --yellow: #f4eac8;
+  --red: #f8ded9;
+  --red-ink: #701a11;
+  --shadow: 0 18px 50px rgba(23, 59, 43, 0.08);
+  --radius: 18px;
+  --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+:root[data-theme=dark] {
+  --bg: #15242a;
+  --card: #1e343a;
+  --ink: #e9f3f0;
+  --muted: #b7c9c5;
+  --line: #416168;
+  --mint: #244b42;
+  --blue: #23444e;
+  --yellow: #4f4528;
+  --red: #4a2723;
+  --red-ink: #ffb4ab;
+  --shadow: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --bg: #15242a;
+    --card: #1e343a;
+    --ink: #e9f3f0;
+    --muted: #b7c9c5;
+    --line: #416168;
+    --mint: #244b42;
+    --blue: #23444e;
+    --yellow: #4f4528;
+    --red: #4a2723;
+    --red-ink: #ffb4ab;
+    --shadow: none;
+  }
+}
+
+/* Reset & Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #17282d;
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* The Slide Deck Stage (16:9 ratio locked) */
+.deck {
+  width: min(100vw, 177.78vh);
+  height: min(56.25vw, 100vh);
+  min-height: 500px;
+  margin: auto;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  overflow: hidden;
+  background: var(--bg);
+  box-shadow: 0 25px 70px rgba(0,0,0,0.4);
+  container-type: size;
+}
+
+/* Individual Slide Structure */
+.slide {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 4.5% 6.5% 6%;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.slide.active {
+  display: flex;
+  flex-direction: column;
+  animation: slide-in 0.36s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Animations */
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(1.5%);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slide.active {
+    animation: none;
+  }
+}
+
+/* Slide Header */
+.slide-top {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1.5rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1.5%;
+  margin-bottom: 2%;
+  flex-shrink: 0;
+}
+
+.kicker {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  color: var(--green);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.slide-title {
+  margin: 0;
+  font-size: clamp(1.2rem, 2.3cqw, 3.2rem);
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  font-weight: 800;
+}
+
+.brand {
+  justify-self: end;
+  max-width: 90px;
+  max-height: 38px;
+  object-fit: contain;
+}
+
+/* Main Content Area */
+.content {
+  flex-grow: 1;
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.content.two {
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 6%;
+}
+
+.content.hero {
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 5%;
+}
+
+/* Typography elements */
+.eyebrow {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: var(--green);
+  margin: 0 0 0.6rem;
+  text-transform: uppercase;
+}
+
+.display {
+  font-size: clamp(1.8rem, 4cqw, 5.2rem);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+  margin: 0.1em 0 0.3em;
+  font-weight: 800;
+}
+
+.display em, h2 em, h1 em {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lede {
+  font-size: clamp(0.95rem, 1.35cqw, 2.2rem);
+  line-height: 1.45;
+  color: var(--muted);
+  margin-top: 0;
+}
+
+.quote {
+  font: clamp(1.4rem, 2.5cqw, 3.6rem)/1.15 Georgia, serif;
+  font-style: italic;
+  max-width: 32ch;
+  margin: 0;
+  color: var(--ink);
+}
+
+/* Cards & Lists */
+.card {
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.facts {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.fact {
+  display: flex;
+  gap: 0.85rem;
+  align-items: flex-start;
+}
+
+.fact-title {
+  font-weight: 750;
+  margin-bottom: 0.15rem;
+  display: block;
+  font-size: clamp(0.92rem, 1.15cqw, 1.8rem);
+}
+
+.fact-text {
+  font-size: clamp(0.82rem, 0.95cqw, 1.4rem);
+  color: var(--muted);
+  line-height: 1.35;
+}
+
+.icon {
+  width: 2.2rem;
+  height: 2.2rem;
+  flex: 0 0 2.2rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--mint);
+  color: var(--green);
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+/* Media Framework */
+.media-frame {
+  height: 100%;
+  max-height: 52cqh;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: #e9eee9;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--line);
+  position: relative;
+}
+
+.media-frame img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: var(--crop-x, 50%) var(--crop-y, 50%);
+  transform: scale(var(--crop-scale, 1));
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.media-frame.contain {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.media-frame.contain img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transform: none;
+  background: var(--bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--line);
+}
+
+/* Interactive Components & Choices */
+.choice-row, .action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.2rem 0 0.8rem;
+}
+
+.choice-row button, .action-row button {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--card);
+  padding: 0.65rem 0.95rem;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  transition: var(--transition);
+}
+
+.choice-row button:hover, .choice-row button:focus,
+.action-row button:hover, .action-row button:focus {
+  background: var(--mint);
+  border-color: var(--green);
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.choice-row button.selected {
+  background: var(--green);
+  color: #fff;
+  border-color: var(--green);
+}
+
+.answer {
+  min-height: 2.8em;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--green);
+  line-height: 1.4;
+  margin-top: 0.8rem;
+  background: var(--mint);
+  padding: 0.6rem 0.9rem;
+  border-radius: 10px;
+  border-left: 4px solid var(--green);
+  opacity: 0;
+  transform: translateY(5px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.answer.visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Cover Slide specific overrides */
+.cover-slide {
+  padding: 0;
+  position: relative;
+}
+
+.cover-slide.active {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.cover-image {
+  grid-area: 1 / 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cover-overlay {
+  grid-area: 1 / 1;
+  z-index: 2;
+  background: linear-gradient(90deg, rgba(21, 36, 42, 0.95) 30%, rgba(21, 36, 42, 0.5) 70%, rgba(21, 36, 42, 0.2) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8% 10%;
+  color: #eff9f7;
+}
+
+.cover-overlay h1 {
+  font-size: clamp(2.5rem, 5.5cqw, 6.2rem);
+  line-height: 1.05;
+  letter-spacing: -0.06em;
+  margin: 0.1em 0 0.25em;
+  font-weight: 900;
+}
+
+.cover-subtitle {
+  font-size: clamp(1.1rem, 1.8cqw, 2.6rem);
+  color: #b7c9c5;
+  margin: 0 0 1.8rem;
+  font-weight: 400;
+}
+
+.cover-meta {
+  display: flex;
+  gap: 1.8rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: #8fa5a0;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 1.2rem;
+  margin-top: 1rem;
+}
+
+.cover-brand {
+  position: absolute;
+  top: 5.2%;
+  right: 8%;
+  max-width: 120px;
+  max-height: 50px;
+  object-fit: contain;
+  z-index: 3;
+}
+
+.cover-index {
+  position: absolute;
+  left: 8%;
+  bottom: 2.8%;
+  font-size: 0.8rem;
+  color: #8fa5a0;
+  z-index: 3;
+}
+
+/* Question Slide */
+.question-slide {
+  padding: 0;
+  position: relative;
+}
+
+.question-slide.active {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.question-overlay {
+  grid-area: 1 / 1;
+  z-index: 2;
+  background: rgba(21, 36, 42, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8% 12%;
+  color: #eff9f7;
+}
+
+.question-overlay h1 {
+  font-size: clamp(1.8rem, 3.5cqw, 4.8rem);
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  font-weight: 800;
+  margin: 0.2em 0 0.6em;
+}
+
+.question-overlay p {
+  font-size: clamp(1rem, 1.5cqw, 2.2rem);
+  color: #b7c9c5;
+  line-height: 1.45;
+  max-width: 44rem;
+}
+
+/* Timelines and lists */
+.timeline {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 1.2rem 0;
+}
+
+.timeline span {
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  background: var(--mint);
+  color: var(--green);
+  font-size: 0.8rem;
+  font-weight: 750;
+  border: 1px solid var(--line);
+}
+
+.timeline span:last-child {
+  background: var(--green);
+  color: #fff;
+}
+
+/* Multi-Agent Orchestration Flow / Steps */
+.agent-flow-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  margin-top: 0.8rem;
+}
+
+.agent-step {
+  padding: 1.2rem;
+  border-radius: var(--radius);
+  background: var(--blue);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.agent-step span {
+  display: block;
+  font-size: clamp(1.1rem, 1.4cqw, 2.2rem);
+  font-weight: 900;
+  color: var(--green);
+  margin-bottom: 0.4rem;
+}
+
+.agent-step h3 {
+  margin: 0 0 0.35rem;
+  font-size: clamp(0.95rem, 1.1cqw, 1.8rem);
+  font-weight: 800;
+}
+
+.agent-step p {
+  margin: 0;
+  font-size: clamp(0.8rem, 0.9cqw, 1.4rem);
+  line-height: 1.35;
+  color: var(--muted);
+}
+
+/* Quiz layout */
+.quiz-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  align-items: start;
+}
+
+.quiz-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.3rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+}
+
+.quiz-card span {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: var(--green);
+  margin-bottom: 0.5rem;
+}
+
+.quiz-card h2 {
+  font-size: clamp(0.9rem, 1cqw, 1.6rem);
+  line-height: 1.3;
+  margin: 0 0 1rem;
+  font-weight: 750;
+  height: 2.8em;
+  overflow: hidden;
+}
+
+.quiz-card .choice-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  margin: 0 0 0.5rem;
+}
+
+.quiz-card .choice-row button {
+  width: 100%;
+  text-align: left;
+  padding: 0.55rem 0.75rem;
+  font-size: clamp(0.78rem, 0.88cqw, 1.4rem);
+}
+
+.quiz-card .answer {
+  min-height: 4em;
+  font-size: clamp(0.78rem, 0.88cqw, 1.4rem);
+  padding: 0.5rem 0.7rem;
+  margin-top: 0.4rem;
+}
+
+/* Takeaway grid */
+.takeaway-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  margin-top: 0.8rem;
+}
+
+.takeaway-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.takeaway-card span {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: var(--green);
+  margin-bottom: 0.6rem;
+}
+
+.takeaway-card h3 {
+  margin: 0 0 0.45rem;
+  font-size: clamp(0.95rem, 1.15cqw, 1.8rem);
+  font-weight: 800;
+}
+
+.takeaway-card p {
+  margin: 0;
+  font-size: clamp(0.82rem, 0.92cqw, 1.5rem);
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.final-prompt-box {
+  background: var(--yellow);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.85rem 1.2rem;
+  margin-top: 1.2rem;
+  font-weight: 700;
+  font-size: clamp(0.88rem, 0.98cqw, 1.6rem);
+  text-align: center;
+  color: var(--ink);
+}
+
+/* Interactive Slider Element */
+.slider-container {
+  margin-top: 1.2rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: var(--blue);
+  border: 1px solid var(--line);
+}
+
+.slider-label {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 750;
+  font-size: 0.88rem;
+  margin-bottom: 0.5rem;
+}
+
+.slider-input {
+  width: 100%;
+  accent-color: var(--green);
+  cursor: pointer;
+}
+
+/* Footer elements */
+.presenter {
+  position: absolute;
+  left: 6.5%;
+  bottom: 2.8%;
+  font-size: 0.72rem;
+  font-weight: 750;
+  color: var(--muted);
+}
+
+.slide-sources {
+  position: absolute;
+  right: 6.5%;
+  bottom: 2.8%;
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
+.slide-sources a {
+  color: #216650;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.slide-sources a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation Overlays (Desktop view only, offline controller) */
+.navigation {
+  position: fixed;
+  z-index: 10;
+  right: 16px;
+  bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(24, 44, 51, 0.9);
+  padding: 4px 8px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.navigation button {
+  padding: 0.45rem 0.7rem;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.navigation button:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.navigation span {
+  min-width: 45px;
+  text-align: center;
+  font-size: 0.78rem;
+  color: #eff9f7;
+  font-weight: 600;
+}
+
+.progress {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.progress span {
+  display: block;
+  width: 0%;
+  height: 100%;
+  background: #8ed19b;
+  transition: width 0.25s ease-out;
+}
+
+/* Responsive Scaling for smaller screens */
+@media (max-width: 720px) {
+  .deck {
+    width: 100vw;
+    height: 100svh;
+    min-height: 0;
+    position: relative;
+    box-shadow: none;
+  }
+  
+  .slide {
+    padding: 6% 6% 12%;
+  }
+  
+  .slide-top {
+    grid-template-columns: 1fr auto;
+  }
+  
+  .slide-top .kicker {
+    display: none;
+  }
+  
+  .content.two, .content.hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .media-frame {
+    height: 25vh;
+  }
+  
+  .display {
+    font-size: clamp(1.6rem, 8vw, 2.5rem);
+  }
+  
+  .agent-flow-grid, .quiz-grid, .takeaway-grid {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+    overflow-y: auto;
+    max-height: 60vh;
+  }
+  
+  .slide-sources {
+    bottom: 5%;
+    right: 6%;
+  }
+  
+  .presenter {
+    left: 6%;
+    bottom: 5%;
+  }
+}
+
+/* Glossary Layout */
+.glossary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem 1.8rem;
+  align-items: start;
+  margin-top: 0.5rem;
+}
+
+.glossary-item {
+  border-left: 3px solid var(--green);
+  padding-left: 0.85rem;
+  margin-bottom: 0.2rem;
+}
+
+.glossary-item h3 {
+  margin: 0 0 0.15rem;
+  font-size: clamp(0.95rem, 1.15cqw, 1.6rem);
+  font-weight: 800;
+  color: var(--ink);
+}
+
+.glossary-item p {
+  margin: 0;
+  font-size: clamp(0.8rem, 0.9cqw, 1.35rem);
+  line-height: 1.35;
+  color: var(--muted);
+}
+
+/* Print Styles (Strictly enforced Helfer-Ansicht) */
+@media print {
+  @page {
+    size: 16in 9in;
+    margin: 0;
+  }
+
+  html, body {
+    background: #fff;
+    overflow: visible;
+    height: auto;
+  }
+  
+  .deck {
+    position: static;
+    width: 16in;
+    height: auto;
+    box-shadow: none;
+    overflow: visible;
+  }
+  
+  .slide {
+    display: block !important;
+    break-after: page;
+    page-break-after: always;
+    width: 16in;
+    height: 9in;
+    background: #fff !important;
+    color: #111 !important;
+    border: none;
+    box-shadow: none;
+    padding: 4.5% 6.5% 6%;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .media-frame {
+    max-height: 4.8in !important;
+  }
+  
+  .slide:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+  
+  .navigation, .progress {
+    display: none !important;
+  }
+  
+  .choice-row button, .action-row button, .slider-container {
+    display: none !important;
+  }
+  
+  .answer {
+    opacity: 1 !important;
+    transform: none !important;
+    background: #f0f0f0 !important;
+    border-color: #333 !important;
+    color: #111 !important;
+  }
+  
+  .slide-sources, .presenter {
+    color: #333 !important;
+    position: absolute;
+  }
+  
+  .slide-sources a {
+    color: #111 !important;
+    text-decoration: underline !important;
+  }
+  
+  .card, .agent-step, .quiz-card, .takeaway-card {
+    box-shadow: none !important;
+    border: 1px solid #aaa !important;
+    background: #fff !important;
+    color: #111 !important;
+  }
+}

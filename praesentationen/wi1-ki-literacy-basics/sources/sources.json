@@ -1,0 +1,146 @@
+[
+  {
+    "id": "A1",
+    "type": "paper",
+    "author": "Vaswani et al.",
+    "year": "2017",
+    "title": "Attention Is All You Need",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "accessed": "2026-06-29",
+    "evidence": "peer reviewed",
+    "claim": "Einführung der Transformer-Architektur, welche die Basis moderner Large Language Models (LLMs) bildet und auf Self-Attention-Mechanismen beruht.",
+    "slideIds": [
+      "slide-10-funktionsweise-llm",
+      "slide-12-llm-training"
+    ]
+  },
+  {
+    "id": "E2",
+    "type": "official-guidance",
+    "author": "UNESCO",
+    "year": "2023",
+    "title": "Guidance for generative AI in education and research",
+    "url": "https://www.unesco.org/en/digital-education/ai-future-learning/guidance",
+    "accessed": "2026-06-29",
+    "evidence": "official",
+    "claim": "UNESCO empfiehlt einen menschenzentrierten Umgang mit GenAI im Bildungswesen, die Schärfung der KI-Literacy und die Wahrung von Datenschutz und Urheberrechten.",
+    "slideIds": [
+      "slide-06-funktionsweise-ki",
+      "slide-16-halluzinationen",
+      "slide-18-sprachen-ki",
+      "slide-26-werkzeuguebersicht",
+      "slide-27-lokal-vs-cloud",
+      "slide-35-abschluss"
+    ]
+  },
+  {
+    "id": "W1",
+    "type": "employer-survey-report",
+    "author": "World Economic Forum",
+    "year": "2025",
+    "title": "The Future of Jobs Report 2025",
+    "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2025/",
+    "accessed": "2026-06-29",
+    "evidence": "contextual",
+    "claim": "Übergang von reinem Task-Execution hin zu System-Orchestrierung und kritischer Bewertung. 39% der Kernkompetenzen verändern sich bis 2030.",
+    "slideIds": [
+      "slide-14-spezialisten-modelle",
+      "slide-22-kreativitaetstrennung",
+      "slide-32-agenten-orchestrierung"
+    ]
+  },
+  {
+    "id": "M1",
+    "type": "technical-spec",
+    "author": "Anthropic",
+    "year": "2024",
+    "title": "Model Context Protocol (MCP) Specification",
+    "url": "https://modelcontextprotocol.io/",
+    "accessed": "2026-06-29",
+    "evidence": "official",
+    "claim": "Das Model Context Protocol (MCP) etabliert einen offenen Standard für die Anbindung von Tools, Datenquellen und Kontexten an KI-Modelle.",
+    "slideIds": [
+      "slide-21-tool-anbindung"
+    ]
+  },
+  {
+    "id": "H1",
+    "type": "paper",
+    "author": "Ouyang et al.",
+    "year": "2022",
+    "title": "Training language models to follow instructions with human feedback",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "accessed": "2026-06-29",
+    "evidence": "peer reviewed",
+    "claim": "RLHF (Reinforcement Learning from Human Feedback) verbessert die Ausrichtung (Alignment) von Modellen, löst jedoch Halluzinationen nicht vollständig, da Modelle auf Plausibilität optimiert bleiben.",
+    "slideIds": [
+      "slide-12-llm-training",
+      "slide-16-halluzinationen"
+    ]
+  },
+  {
+    "id": "I1",
+    "type": "internal-course-material",
+    "author": "Prof. Dr. Mathias Engel / KI-Literacy",
+    "year": "2026",
+    "title": "KI Literacy Basics - Vorlesungsunterlagen",
+    "url": null,
+    "availability": "Interne Aufbauquelle; nicht als separate Quelldatei in dieser Veröffentlichung enthalten.",
+    "accessed": "2026-06-29",
+    "evidence": "internal-context",
+    "claim": "Didaktische Strukturierung und Abfolge der Lehrinhalte für das erste Semester; Einteilung in Fundamente, Limitationen und Praxis.",
+    "slideIds": [
+      "slide-02-leitfrage",
+      "slide-03-evolution-innovation",
+      "slide-04-amaras-law",
+      "slide-05-evolution-ki",
+      "slide-09-funktionsweise-ki",
+      "slide-10-bio-neuron",
+      "slide-11-synapse",
+      "slide-12-hebbsche-regel",
+      "slide-13-funktionsweise-llm",
+      "slide-14-generalize-memorize",
+      "slide-15-llm-training",
+      "slide-16-energy-efficiency",
+      "slide-17-spezialisten-modelle",
+      "slide-18-agentic-ai",
+      "slide-19-halluzinationen",
+      "slide-20-kontextfenster",
+      "slide-21-sprachen-ki",
+      "slide-22-rag-memory",
+      "slide-23-rag-koch",
+      "slide-24-tool-anbindung",
+      "slide-25-kreativitaetstrennung",
+      "slide-26-creativity-comparison",
+      "slide-27-multimodalität",
+      "slide-28-architectures-diagram",
+      "slide-29-werkzeuguebersicht",
+      "slide-30-lokal-vs-cloud",
+      "slide-31-prompting",
+      "slide-32-anatomie-prompt",
+      "slide-33-context-engineering",
+      "slide-34-vibe-coding",
+      "slide-35-agenten-orchestrierung",
+      "slide-33-abschlussquiz",
+      "slide-34-glossar"
+    ]
+  },
+  {
+    "id": "S1",
+    "type": "student-project",
+    "author": "Studierende der HFWU (SoSe 2026)",
+    "year": "2026",
+    "title": "Semesterprojekte im Modul Data Science und KI",
+    "url": "#",
+    "accessed": "2026-07-02",
+    "evidence": "illustrative",
+    "claim": "Projektarbeiten von Studierenden zur praktischen Anwendung von KI-Agenten und Prompts in Web-Dashboards (RestaurantFinder, StudyBuddy, Karriereberater, swimcoach agent, Essy's Salon Assistant).",
+    "slideIds": [
+      "slide-33b-student-restaurant-finder",
+      "slide-33c-student-study-buddy",
+      "slide-33d-student-karriereberater",
+      "slide-33e-student-swimcoach",
+      "slide-33f-student-salon-assistant"
+    ]
+  }
+]

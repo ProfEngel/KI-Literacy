@@ -1,0 +1,668 @@
+{
+  "publicationDate": "2026-11-06",
+  "scope": "Publikation bestehender Referenzpräsentation, keine neue fachliche Ausgabe.",
+  "images": [
+    {
+      "file": "2026-06-29_agenten_orchestrierung.jpg",
+      "slideIds": [
+        "slide-32-agenten-orchestrierung"
+      ],
+      "sha256": "358ac0f0535a1d40ff5eca73d2e954896ed655d9e67f1fae0f153df2ddfb9c9a",
+      "bytes": 489616,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 32 (5.3 Teams)",
+        "descriptionAsSupplied": "Orchestrierung paralleler spezialisierter Agenten",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_agentic_ai_vs_chatbots.jpg",
+      "slideIds": [
+        "slide-15-agentic-ai"
+      ],
+      "sha256": "eba22877cb6c6132fc9e3e3327e3a27ae8ab62087623973f03f9bab2b4154d1d",
+      "bytes": 484235,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 15 (1.5 Agenten)",
+        "descriptionAsSupplied": "Evolutionsschritte von Chatbots zu Loops",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_funktionsweise_ki_u_ziel.jpg",
+      "slideIds": [
+        "slide-06-funktionsweise-ki"
+      ],
+      "sha256": "cea653fc4f3b5e906a871ec8a0e933e7c96bd0241d445fcd76f46fdaf48c8ee8",
+      "bytes": 390003,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 6 (1.1 KI-Ziel)",
+        "descriptionAsSupplied": "Input-Datenstrom, Modellverarbeitung, statistischer Output",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_funktionsweise_llm_u_ziel.jpg",
+      "slideIds": [
+        "slide-10-funktionsweise-llm"
+      ],
+      "sha256": "37b1d37e2260bab71ce6e9cfaedcb45594f6f1da7757cb9d527b6a8e2e2582da",
+      "bytes": 429445,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 10 (1.2 LLM-Ziel)",
+        "descriptionAsSupplied": "Tokenisierung und Berechnung des nächsten Tokens",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_kreativitaetstrennung_llm_vs.jpg",
+      "slideIds": [
+        "slide-22-kreativitaetstrennung"
+      ],
+      "sha256": "315e3caec99d4c2e6434f22aacf186c0ac1160c66036f67f48f804dda21900fc",
+      "bytes": 699640,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 22 (3.1 Kreativität)",
+        "descriptionAsSupplied": "Divergenz (KI-Varianten) vs. Konvergenz (Mensch)",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_limitationen_halluzinationen.jpg",
+      "slideIds": [
+        "slide-16-halluzinationen"
+      ],
+      "sha256": "435858c0be2fe8139b0b1175b40d1bfeb6a93873032345c35a24153b68fc5aee",
+      "bytes": 563004,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 16 (2.1 Halluzination)",
+        "descriptionAsSupplied": "Metapher von Verbindungen, die Lücken füllen",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_limitationen_kontextfenster.jpg",
+      "slideIds": [
+        "slide-17-kontextfenster"
+      ],
+      "sha256": "6041e7d1c253c381e15b0a4d9281a5f6b0040d348bb1c12affba5d6a0906acd6",
+      "bytes": 492261,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 17 (2.2 Kontext)",
+        "descriptionAsSupplied": "Arbeitsspeicher und Lost-in-the-Middle-U-Kurve",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_limitationen_uebersicht.jpg",
+      "slideIds": [],
+      "sha256": "670889a96d14ba7798cfe4f4a8be5b052ac56320cf7496a89b0ad665b83a2efc",
+      "bytes": 475028,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "provenanceAsSupplied": "Bereits in der bereitgestellten Präsentation enthalten; keine zusätzliche Herkunftsangabe in deren Medien-README."
+      }
+    },
+    {
+      "file": "2026-06-29_llm_training.jpg",
+      "slideIds": [
+        "slide-12-llm-training"
+      ],
+      "sha256": "13e7213e967d94fc7ed0b701d99e938b7443613bbf164a6eb25fe86dd92e1857",
+      "bytes": 656866,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 12 (1.3 Training)",
+        "descriptionAsSupplied": "Phasen: Pretraining, Fine-Tuning und Alignment",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_lokal_vs_cloud.jpg",
+      "slideIds": [
+        "slide-27-lokal-vs-cloud"
+      ],
+      "sha256": "cbfd9827cdd8b7423099ea4a7508104f7d80b623a6b98e17234d4d049b47eaf9",
+      "bytes": 473003,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 27 (4.2 Bereitstellung)",
+        "descriptionAsSupplied": "Datenhoheit: Cloud-Server vs. lokaler Laptop",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_multimodale_generierung.jpg",
+      "slideIds": [
+        "slide-24-multimodalität"
+      ],
+      "sha256": "d4c51dce3e457f856d28f48e70d9523576e2fbf7762d1d2ec7f0a550f80eb321",
+      "bytes": 411478,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 24 (3.2 Multimodal)",
+        "descriptionAsSupplied": "Bild, Video, Audio, Musikgenerierung im Überblick",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_prompting_steuerung.jpg",
+      "slideIds": [
+        "slide-28-prompting"
+      ],
+      "sha256": "5909547c38590b6183cf38463c981513192809056bc4926462be9053d1dea9ea",
+      "bytes": 479344,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 28 (5.1 Prompting)",
+        "descriptionAsSupplied": "Prompt-Anatomie: Rolle, Aufgabe, Constraints",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_rag_und_memory.jpg",
+      "slideIds": [
+        "slide-19-rag-memory"
+      ],
+      "sha256": "bb4f94cdae66af34cb131aec756d4947ab1d61a7eea7dd09167fca7ff0621c1b",
+      "bytes": 543508,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 19 (2.3 RAG)",
+        "descriptionAsSupplied": "Ablauf von Suche, Kontextinjektion und Generation",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_spezialisten_grosse_kleine_llm.jpg",
+      "slideIds": [
+        "slide-14-spezialisten-modelle"
+      ],
+      "sha256": "bad6fa2efa874e292b443af9a3917dd9a0bfd361b64e0f9f5aac63e18224cf4a",
+      "bytes": 499678,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 14 (1.4 Modelle)",
+        "descriptionAsSupplied": "Größenrelationen SLM (lokal) vs. LLM (Cloud)",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_sprachen_verteilung.jpg",
+      "slideIds": [
+        "slide-18-sprachen-ki"
+      ],
+      "sha256": "fd11ed2ea5f30e9434e50fac7be767fcb74e261a10ca864305da2da692c0fe2e",
+      "bytes": 352079,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 18 (2.5 Sprachen)",
+        "descriptionAsSupplied": "Sprachdatenverteilung im Netz (EN vs. DE)",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_tool_anbindung_schnittstellen.jpg",
+      "slideIds": [
+        "slide-21-tool-anbindung"
+      ],
+      "sha256": "c907a765f7ce80e86bf6993d77a1e3a9d2cd593e15f27a32bb339baab463f64d",
+      "bytes": 498328,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 21 (2.4 Schnittstellen)",
+        "descriptionAsSupplied": "APIs und die Anbindung von Rechnern/Sandboxes",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_vibe_coding.jpg",
+      "slideIds": [
+        "slide-31-vibe-coding"
+      ],
+      "sha256": "fa14115841d180bcfc5e2e27b173cef897ff63f5904a3d41ae1de337df664079",
+      "bytes": 589128,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 31 (5.2 VibeCoding)",
+        "descriptionAsSupplied": "Softwareentwicklung im deklarativen Dialog",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "2026-06-29_werkzeuge_uebersicht.jpg",
+      "slideIds": [
+        "slide-26-werkzeuguebersicht"
+      ],
+      "sha256": "591b2965af85be6e8d39cefd6e107bda214dbde9367f872cf45b8aca621ce733",
+      "bytes": 559318,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 26 (4.1 Tools)",
+        "descriptionAsSupplied": "Spezialisierte Plattformen (NotebookLM, Higgsfield)",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "amara_law_hype_integration.jpg",
+      "slideIds": [
+        "slide-04-amaras-law"
+      ],
+      "sha256": "8125eeb09edb7f97985f7b0d4b38f99dd85f6bbd10370c58eb68fc0d338a6fe3",
+      "bytes": 303774,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 4 (Erwartungen)",
+        "descriptionAsSupplied": "Visualisierung von Amaras Gesetz (Hype-Feuerwerk vs. tiefe Integration)",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "anatomie_prompt.jpg",
+      "slideIds": [
+        "slide-29-anatomie-prompt"
+      ],
+      "sha256": "342ca60c582d426b73dc7686e5535a42d0a54cd8fc97a053935da71af192d29a",
+      "bytes": 436908,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 29 (Prompt-Anatomie)",
+        "descriptionAsSupplied": "Systematischer Aufbau eines Prompt-Templates",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "architectures_diagram.png",
+      "slideIds": [
+        "slide-25-architectures-diagram"
+      ],
+      "sha256": "1ffccccf2711c7c53279c326bd50f40aa751781e035baba568ecf54a27c35ae7",
+      "bytes": 4757731,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 25 (Bilderstellung)",
+        "descriptionAsSupplied": "Funktionsweise von Diffusionsmodellen zur Bilderstellung",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "ch3_rag_koch.jpg",
+      "slideIds": [
+        "slide-20-rag-koch"
+      ],
+      "sha256": "8e4b2a16bb4f3b943612f7af6f09ed12defa015d558e749a839a199dbe45f139",
+      "bytes": 670077,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 20 (Kochmetapher)",
+        "descriptionAsSupplied": "RAG-Koch, Rezeptdatenbank und Küchen-Arbeitsplatz",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "context_engineering.jpg",
+      "slideIds": [
+        "slide-30-context-engineering"
+      ],
+      "sha256": "9f88910276d8c50490c0868c934fb40c3e26510033240a57aefbb059b1da3706",
+      "bytes": 616393,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 30 (Kontext-Eng)",
+        "descriptionAsSupplied": "In-Context Learning und Rohdatenvorbereitung",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "creativity_comparison.png",
+      "slideIds": [
+        "slide-23-creativity-comparison"
+      ],
+      "sha256": "a9ba6abdcd4f40c98d370bafcd5764ea4d1bb6c572df83e46de3c5b2a5cba217",
+      "bytes": 1633763,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 23 (Kreativ-Typen)",
+        "descriptionAsSupplied": "Gegenüberstellung additiver und subtraktiver Kreativität",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "energy_efficiency_brain_vs_chip.png",
+      "slideIds": [
+        "slide-13-energy-efficiency"
+      ],
+      "sha256": "8c2de7203a8d7479f7a94cc7a96e7544bbfd1858da0f088135671ae725846565",
+      "bytes": 478071,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 13 (Effizienz)",
+        "descriptionAsSupplied": "Stromverbrauch des Gehirns (20W) vs. Supercomputer",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "evolution_ki.png",
+      "slideIds": [
+        "slide-05-evolution-ki"
+      ],
+      "sha256": "cd0f36bf7bd3b96960aaf2aa9c3d71d56301280388e16154084deeb0ab149d6d",
+      "bytes": 775871,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 5 (KI-Evolution)",
+        "descriptionAsSupplied": "Entwicklungsstufen der KI vom Perzeptron bis Agentic AI",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "hebbian_path_medium.jpg",
+      "slideIds": [
+        "slide-09-hebbsche-regel"
+      ],
+      "sha256": "53776986d31cf2a5c377bd7f69cf890bac676ed35a488c0c3e5a05bd29b4a6fa",
+      "bytes": 238276,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 9 (Hebb)",
+        "descriptionAsSupplied": "Wiesenpfad-Metapher für biologisches Lernen",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "hfwu_logo.png",
+      "slideIds": [
+        "slide-01-cover",
+        "slide-02-qr-code",
+        "slide-02-leitfrage",
+        "slide-03-evolution-innovation",
+        "slide-04-amaras-law",
+        "slide-05-evolution-ki",
+        "slide-06-funktionsweise-ki",
+        "slide-07-bio-neuron",
+        "slide-08-synapse",
+        "slide-09-hebbsche-regel",
+        "slide-10-funktionsweise-llm",
+        "slide-11-generalize-memorize",
+        "slide-12-llm-training",
+        "slide-13-energy-efficiency",
+        "slide-14-spezialisten-modelle",
+        "slide-15-agentic-ai",
+        "slide-16-halluzinationen",
+        "slide-17-kontextfenster",
+        "slide-18-sprachen-ki",
+        "slide-19-rag-memory",
+        "slide-20-rag-koch",
+        "slide-21-tool-anbindung",
+        "slide-22-kreativitaetstrennung",
+        "slide-23-creativity-comparison",
+        "slide-24-multimodalität",
+        "slide-25-architectures-diagram",
+        "slide-26-werkzeuguebersicht",
+        "slide-27-lokal-vs-cloud",
+        "slide-28-prompting",
+        "slide-29-anatomie-prompt",
+        "slide-30-context-engineering",
+        "slide-31-vibe-coding",
+        "slide-32-agenten-orchestrierung",
+        "slide-33-abschlussquiz",
+        "slide-33b-student-restaurant-finder",
+        "slide-33c-student-study-buddy",
+        "slide-33d-student-karriereberater",
+        "slide-33e-student-swimcoach",
+        "slide-33f-student-salon-assistant",
+        "slide-34-glossar",
+        "slide-35-abschluss"
+      ],
+      "sha256": "be564f01fdf5bd5163e877c0bf40950203b8715458b84afa08649bd1073f1590",
+      "bytes": 39969,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Alle Arbeitsfolien",
+        "descriptionAsSupplied": "Logo der Hochschule Nürtingen-Geislingen (oben rechts)",
+        "provenanceAsSupplied": "Template / HFWU"
+      }
+    },
+    {
+      "file": "human_innovation_timeline.png",
+      "slideIds": [
+        "slide-03-evolution-innovation"
+      ],
+      "sha256": "051e87a09e138c149fd935a7099a96736974eb558164a98ff4d0f52f2b15c205",
+      "bytes": 938199,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 3 (Evolution)",
+        "descriptionAsSupplied": "Zeitstrahl der menschlichen Innovationen seit Homo Sapiens",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "memorize_vs_generalize.png",
+      "slideIds": [
+        "slide-11-generalize-memorize"
+      ],
+      "sha256": "ca07b6daf66d28c999eef2c3fb82d8ee09b916bbfe0b66268e8fc4fa46111a38",
+      "bytes": 1347231,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 11 (Lernvergleich)",
+        "descriptionAsSupplied": "Gegenüberstellung von Auswendiglernen und Verstehen",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "neuron_anatomy.png",
+      "slideIds": [
+        "slide-07-bio-neuron"
+      ],
+      "sha256": "19e898a6007d2a79bbebe7d70df7878e8f3aafdac28de85e419dd0d230bdf117",
+      "bytes": 1399106,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 7 (Bio-Neuron)",
+        "descriptionAsSupplied": "Anatomie und Aufbau einer menschlichen Nervenzelle",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    },
+    {
+      "file": "qr-code-presentation.png",
+      "slideIds": [
+        "slide-02-qr-code"
+      ],
+      "sha256": "4e8c7a94505e2a313d2cd0153e0ee03fd60b40d1abcd40b5c90dbe945f76faae",
+      "bytes": 1128,
+      "type": "deterministic-qr-code",
+      "provider": "Python qrcode",
+      "inputUrl": "https://profengel.github.io/KI-Literacy/praesentationen/wi1-ki-literacy-basics/",
+      "verification": "Aus generiertem PNG unabhängig mit zxing-cpp auf die Zieladresse dekodiert."
+    },
+    {
+      "file": "slide-01-human-ai-hero-kie.png",
+      "slideIds": [
+        "slide-01-cover"
+      ],
+      "sha256": "fcf5d721886fa422444a0bb8093478bb7039eba58e60259ad67006e44c4376dc",
+      "bytes": 2912328,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 1 (Titel)",
+        "descriptionAsSupplied": "Lernszene von Studierenden mit Technologie",
+        "provenanceAsSupplied": "Template (Kie.ai)"
+      }
+    },
+    {
+      "file": "slide-02-guiding-question-kie.png",
+      "slideIds": [
+        "slide-02-leitfrage"
+      ],
+      "sha256": "f2893aea665a6c720e7ba8f9e8bc8f3ab5d46fa8bf67c4f310ecb3ebe5c8ea93",
+      "bytes": 2487546,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 2 (Leitfrage)",
+        "descriptionAsSupplied": "Stimmungsbild für die menschzentrierte Leitfrage",
+        "provenanceAsSupplied": "Template (Kie.ai)"
+      }
+    },
+    {
+      "file": "student_karriereberater.png",
+      "slideIds": [
+        "slide-33d-student-karriereberater"
+      ],
+      "sha256": "9b9b4ff15c18f6f111a6902e89f1e17d8e8050e7b93f45fc1daaa641b75b9e49",
+      "bytes": 205840,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "provenanceAsSupplied": "Bereits in der bereitgestellten Präsentation enthalten; keine zusätzliche Herkunftsangabe in deren Medien-README."
+      }
+    },
+    {
+      "file": "student_restaurant_finder.png",
+      "slideIds": [
+        "slide-33b-student-restaurant-finder"
+      ],
+      "sha256": "e340a879c13114497cb486928bcb77fd16dfaee12f7415cddc264b4b0ab72ccd",
+      "bytes": 353103,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "provenanceAsSupplied": "Bereits in der bereitgestellten Präsentation enthalten; keine zusätzliche Herkunftsangabe in deren Medien-README."
+      }
+    },
+    {
+      "file": "student_salon_assistant.png",
+      "slideIds": [
+        "slide-33f-student-salon-assistant"
+      ],
+      "sha256": "05fbe1cb5cf14ee72705694e0a0e6261e90a06f22752d2d540a8c358b1039378",
+      "bytes": 304413,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "provenanceAsSupplied": "Bereits in der bereitgestellten Präsentation enthalten; keine zusätzliche Herkunftsangabe in deren Medien-README."
+      }
+    },
+    {
+      "file": "student_study_buddy.png",
+      "slideIds": [
+        "slide-33c-student-study-buddy"
+      ],
+      "sha256": "4599371f413dc18f08b2d766b68c04b6f7a7619c42be6a3df268acc115d49aa8",
+      "bytes": 199454,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "provenanceAsSupplied": "Bereits in der bereitgestellten Präsentation enthalten; keine zusätzliche Herkunftsangabe in deren Medien-README."
+      }
+    },
+    {
+      "file": "student_swimcoach.png",
+      "slideIds": [
+        "slide-33e-student-swimcoach"
+      ],
+      "sha256": "b558ec94bb4179d5c65040f36c294f08c530b90e549e7dbb20457cf73547a061",
+      "bytes": 123667,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "provenanceAsSupplied": "Bereits in der bereitgestellten Präsentation enthalten; keine zusätzliche Herkunftsangabe in deren Medien-README."
+      }
+    },
+    {
+      "file": "synapse_neurotransmitters.png",
+      "slideIds": [
+        "slide-08-synapse"
+      ],
+      "sha256": "fa93a46a66becb259e4e1f52f1a6d9c20e771359ed857f1ffb7651151400f4ec",
+      "bytes": 1155488,
+      "type": "inherited-user-provided-media",
+      "source": "Vorhandene Referenzpräsentation KI Literacy Basics",
+      "verification": "Bestehende Lehrmaterial-Abbildung übernommen; keine neue Generierung oder unabhängige Lizenz-/Quellenverifikation behauptet.",
+      "providedMetadata": {
+        "slideReferenceAsSupplied": "Folie 8 (Synapse)",
+        "descriptionAsSupplied": "Informationsübertragung über synaptischen Spalt",
+        "provenanceAsSupplied": "UPLOADS"
+      }
+    }
+  ]
+}
