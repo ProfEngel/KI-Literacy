@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>Mein Agentenpass · Sicherheits-Prüfcockpit · ProfEngel</title><link rel="stylesheet" href="../assets/css/cockpit.css"></head><body>
+<header class="app-header"><div><p class="eyebrow">ProfEngel · W06 Teil 2</p><h1>Mein Agentenpass.</h1><p>Selbst dokumentieren. Grenzen belegen. Offenes offen lassen.</p></div><div class="toolbar"><button id="theme">◐ System</button><a href="../presentation.html#safety-04-eigenpruefung">Zur Präsentation</a></div></header>
+<main>
+<div class="notice"><strong>Dieses Cockpit testet keinen Agenten.</strong> Es verbindet sich mit keinem Modell, lädt nichts hoch und führt keine Befehle aus. Einträge sind manuelle Beobachtungen, keine Zertifizierung. Nur erfundene oder ausdrücklich freigegebene, bereinigte Informationen eintragen. Keine Schlüssel, privaten Logs oder personenbezogenen Daten.</div>
+<div class="toolbar exportbar"><button id="export-json" class="primary">Prüfstand als JSON sichern</button><button id="export-md">Bericht als Markdown</button><button id="import-open">JSON wieder öffnen</button><button id="print">Drucken</button><button id="clear">Formular leeren</button><input type="file" id="import-file" accept=".json,application/json" hidden></div>
+<p id="document-state" role="status">Nur im geöffneten Tab. Zum Aufbewahren ausdrücklich exportieren. Keine automatische Speicherung.</p>
+<section class="panel"><h2>1 · Der geprüfte Stand</h2><div class="form-grid">
+<label>Agent / Projekt<input data-meta="agent" maxlength="180" autocomplete="off" placeholder="z. B. Event-Planer"></label>
+<label>Code-/Agentenversion<input data-meta="version" maxlength="180" autocomplete="off" placeholder="Commit, Hash oder eindeutige Version"></label>
+<label>Ausführungsmodell / Version<input data-meta="model" maxlength="180" autocomplete="off" placeholder="Nicht das Baumodell eintragen"></label>
+<label>Anbieter / Datenweg<input data-meta="provider" maxlength="220" autocomplete="off" placeholder="Lokal oder welcher freigegebene Dienst?"></label>
+<label>Umgebung / Limits<input data-meta="environment" maxlength="220" autocomplete="off" placeholder="Testumgebung, Schritte, Gesamtzeit, Budget"></label>
+<label>Datum<input data-meta="date" type="date"></label>
+<label>Daten-/Testsuite-Version<input data-meta="dataVersion" maxlength="180" autocomplete="off"></label>
+<label>Verantwortliche Person / Rolle<input data-meta="owner" maxlength="180" autocomplete="off" placeholder="Für Lehrdatei genügt eine Rollenbezeichnung"></label>
+</div></section>
+<section class="panel"><h2>2 · Vor dem Ausführen</h2><p>Wenn eine notwendige Voraussetzung fehlt: nur Inventur und Testplanung, keine Ausführung.</p><div class="checks" id="preflight-checks"></div></section>
+<section class="panel"><div class="section-heading"><div><h2>3 · Testfälle und Belege</h2><p>Heute T01, T04 und T06. Weitere Fälle später passend zum eigenen Agenten.</p></div><label>Ansicht<select id="case-filter"><option value="core">Drei Unterrichtsfälle</option><option value="all">Alle zehn Fälle</option></select></label></div>
+<div id="test-summary" class="notice" role="status">Noch keine Prüfergebnisse eingetragen.</div><p class="help">„Bestanden“ benötigt dokumentiertes Soll, Beobachtung und Beleg. Bei Sicherheitsfällen Modellverhalten und technische Kontrollwirkung getrennt angeben. Fehlende Nachweise werden als offen gezählt. Eine blockierte Aktion kann das erwartete Testergebnis sein.</p>
+<div id="test-cards"></div></section>
+<section class="panel"><h2>4 · Codeprüfung separat dokumentieren</h2><p>Die drei Live-Fälle ersetzen weder Skript-/Abhängigkeitsprüfung noch unabhängige Reviews.</p><div class="checks" id="code-checks"></div>
+<label>Werkzeuge / Versionen / Umfang / Befunde<textarea data-pass="codeReview" rows="4" maxlength="4000" placeholder="Nur wirklich durchgeführte Prüfungen nennen. Fehlende Scanner oder Modellreviews bleiben offen."></textarea></label>
+<p class="help">Beispiele nach Stack: Code-, Secret- und Abhängigkeits-Scanner. Keine Installation oder Ausführung allein wegen dieser Liste. 2–3 unabhängige LLM-Reviews gemäß Trinity-Leitfaden nur mit Daten-/Kostenfreigabe; ein Konzil ersetzt keine technischen Prüfungen.</p></section>
+<section class="panel"><h2>5 · Agentenpass: Zweck, Grenzen und Rückweg</h2><div class="form-grid">
+<label>Zweck und erlaubte Aufgaben<textarea data-pass="purpose" rows="3" maxlength="2000"></textarea></label>
+<label>Erlaubte Daten / Tools / Aktionen<textarea data-pass="allowed" rows="3" maxlength="2000"></textarea></label>
+<label>Verbotene Daten / Tools / Aktionen<textarea data-pass="forbidden" rows="3" maxlength="2000"></textarea></label>
+<label>Datenwege / Aufbewahrung / Löschung<textarea data-pass="data" rows="3" maxlength="2000"></textarea></label>
+<label>Technische Schutzstellen und Freigaben<textarea data-pass="controls" rows="3" maxlength="2000"></textarea></label>
+<label>Offene Risiken / deaktivierte Funktionen<textarea data-pass="risks" rows="3" maxlength="2000"></textarea></label>
+<label>Stop / Backup / geprüfte Wiederherstellung<textarea data-pass="recovery" rows="3" maxlength="2000"></textarea></label>
+<label>Nächste Prüfung: Anlass / Verantwortung<textarea data-pass="next" rows="3" maxlength="2000"></textarea></label>
+</div><label>Einsatzstatus<select data-pass="deployment"><option value="Entwurf">Entwurf – Prüfung offen</option><option value="Begrenzte Lehrdemo">Begrenzte Lehrdemo – nur mit dokumentierten Grenzen</option><option value="Weiterer Prüfbedarf">Weiterer Prüfbedarf – betroffene Funktionen aus</option></select></label>
+<p class="notice">Kein Produktivfreigabe-Knopf. Menschliche Entscheidung, passende fachkundige Prüfung und tatsächliche Berechtigungen sind durch dieses Formular nicht ersetzt. Hohe/kritische Befunde nicht mit anderen bestandenen Fällen verrechnen.</p></section>
+<footer><a href="../sources/source-overview.html">Quellen S1–S5, I1–I2</a> · <a href="Arbeitsblatt_Agentenpass_und_Sicherheitscheck.md" download>Arbeitsblatt und Prompts</a><p>Die Ergebnisse werden nicht automatisch gespeichert. Exportierte Prüfberichte können vertraulich sein – nicht ungeprüft veröffentlichen.</p></footer>
+</main>
+<dialog id="message-dialog"><h2>Prüfstand</h2><p id="message-text"></p><button id="message-close">Schließen</button></dialog>
+<noscript><p>Für das interaktive Cockpit JavaScript aktivieren oder das verlinkte Markdown-Arbeitsblatt ausfüllen. Keine Tests werden dadurch gestartet.</p></noscript>
+<script src="../assets/js/data.js"></script><script src="../assets/js/cockpit.js"></script>
+</body></html>

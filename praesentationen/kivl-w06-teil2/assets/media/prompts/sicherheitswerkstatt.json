@@ -1,0 +1,21 @@
+{
+  "provider": "Kie.ai",
+  "model": "gpt-image-2-6/sunburst-image-to-image",
+  "useCase": "scientific-educational",
+  "authorization": "Explizit freigegebener Kie.ai-Modellpfad aus dem Nutzerauftrag; keine Behauptung Nano Banana 2.",
+  "title": "Hugo und die begrenzte Werkstatt",
+  "slideIds": [
+    "safety-01-start",
+    "safety-02-inventur"
+  ],
+  "input": {
+    "prompt": "Use case: scientific-educational. Asset type: a real raster infographic for a 16:9 German university workshop for non-technical business students. Input image 1 is an identity and artistic style reference ONLY, not a layout to duplicate. Premium warm editorial digital comic, adult natural proportions, confident ink contours, cream background, petrol, sage, amber; meaningful large objects, simple visual storytelling, NO decorative clutter. Hugo: dark curly hair, beard, goggles on head, petrol workshirt, amber tool harness. ProfEngel: bald, black glasses, small chin beard, dark blazer. Eve: blond bob, glasses, cream cardigan. Preserve recognizable identities. Large German labels exactly as specified, no tiny writing or unrequested text, no logos, no watermark. Everything inside generous margins. ONE continuous friendly workshop scene showing Hugo as specialist with LIMITED ACCESS, not an all-powerful robot. Beside him a small keyring with only two keys, a neatly separated green authorized document drawer, a closed dark cabinet with lock, and a tool board whose few approved tools are clearly separated from a locked tool case. A large incoming envelope holds a page with one suspicious orange instruction strip indicated by a small warning triangle, no readable text. On the desk a clipboard with blank check rows and magnifier; a conspicuous but small red emergency stop switch. ProfEngel at the side holds a permission clipboard and decides whether a specific action may proceed. The overall relation input -> worker with limited tools -> reviewed output is visually clear without arrows everywhere. No text at all.",
+    "input_urls": [
+      "https://profengel.de/labor/module/ki-als-superkraft/assets/media/tutoren-trio.webp"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "2K",
+    "output_format": "png",
+    "background": "auto"
+  }
+}

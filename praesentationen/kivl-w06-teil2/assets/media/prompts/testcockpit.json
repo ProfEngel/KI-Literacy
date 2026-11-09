@@ -1,0 +1,20 @@
+{
+  "provider": "Kie.ai",
+  "model": "gpt-image-2-6/sunburst-image-to-image",
+  "useCase": "scientific-educational",
+  "authorization": "Explizit freigegebener Kie.ai-Modellpfad aus dem Nutzerauftrag; keine Behauptung Nano Banana 2.",
+  "title": "Das erwartete Prüfprotokoll",
+  "slideIds": [
+    "safety-04-eigenpruefung"
+  ],
+  "input": {
+    "prompt": "Use case: scientific-educational. Asset type: a real raster infographic for a 16:9 German university workshop for non-technical business students. Input image 1 is an identity and artistic style reference ONLY, not a layout to duplicate. Premium warm editorial digital comic, adult natural proportions, confident ink contours, cream background, petrol, sage, amber; meaningful large objects, simple visual storytelling, NO decorative clutter. Hugo: dark curly hair, beard, goggles on head, petrol workshirt, amber tool harness. ProfEngel: bald, black glasses, small chin beard, dark blazer. Eve: blond bob, glasses, cream cardigan. Preserve recognizable identities. Large German labels exactly as specified, no tiny writing or unrequested text, no logos, no watermark. Everything inside generous margins. An inviting large tablet on a clean workshop desk, screen facing viewer, displaying a SIMPLE AGENT TEST NOTEBOOK rather than technical code or a slide template. Hugo's hand points to the middle of three test rows. Three large column headers on the screen exactly: \"Soll\", \"Ist\", \"Beleg\". First row has a normal message icon, a checked small calculator and a source-page icon. Second row has a suspicious envelope with amber warning, a small closed tool lock and a visible log-sheet icon. Third row has an unanswered question and an empty status circle, CLEARLY OPEN, not all green. A real paper evidence card and small magnifier beside tablet reinforce that actual observation is needed. The only text is the three column headers and a very clear lower chip \"Offen bleibt offen\". No generated output claim, no fake numbers, no tiny text.",
+    "input_urls": [
+      "https://profengel.de/labor/module/ki-als-superkraft/assets/media/tutoren-trio.webp"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "2K",
+    "output_format": "png",
+    "background": "auto"
+  }
+}

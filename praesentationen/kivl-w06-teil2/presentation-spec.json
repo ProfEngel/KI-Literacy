@@ -1,0 +1,60 @@
+{
+  "status": "release_approved",
+  "templateId": "trinity-klar",
+  "templateName": "Trinity Klar – bewährter Standard",
+  "title": "W06 · Teil 2: Mein Agent unter Sicherheitsprüfung",
+  "speaker": "Prof. Dr. Mathias Engel",
+  "sessionDate": "2026-11-12",
+  "audience": "BWL-Studierende; bestehende Lehrprototypen; geringe technische Vorkenntnisse",
+  "languages": [
+    "de"
+  ],
+  "timing": {
+    "durationMinutes": 40,
+    "desiredSlideCount": 7,
+    "precedingRagPartMinutes": 30,
+    "totalProposedMinutes": 70
+  },
+  "learningGoal": "Anweisungen, technisch erzwungene Grenzen und reale Testnachweise unterscheiden und am eigenen Agenten dokumentieren.",
+  "design": {
+    "aspectRatio": "16:9",
+    "palette": {
+      "cream": "#F7F7F5",
+      "petrol": "#24666A",
+      "sage": "#DCEFE1",
+      "ink": "#182C33"
+    },
+    "simplicity": true,
+    "reference": "Aktuelle kompakte W04–W06-Workshopführung"
+  },
+  "liveTestIds": [
+    "T01",
+    "T04",
+    "T06"
+  ],
+  "safety": {
+    "syntheticOnly": true,
+    "noAutomaticRepairs": true,
+    "noAutomaticInstallation": true,
+    "noRealExternalEffects": true,
+    "noNewPaidRuns": true,
+    "noAssuranceFromChecklistAlone": true
+  },
+  "publication": {
+    "authorized": true,
+    "repoPath": "praesentationen/kivl-w06-teil2",
+    "url": "https://profengel.github.io/KI-Literacy/praesentationen/kivl-w06-teil2/",
+    "approved": "2026-11-09",
+    "userQuote": "klasse. Bitte als zweiten Teil für Woche 6 hochladen"
+  },
+  "media": {
+    "plannedNewRasterMotifs": 4,
+    "generateBeforeApproval": false
+  },
+  "approval": {
+    "date": "2026-11-09",
+    "quote": "FREIGABE",
+    "record": "FREIGABE.md",
+    "scope": "Local build and portable package, no publication"
+  }
+}

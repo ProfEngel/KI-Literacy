@@ -1,0 +1,9 @@
+SYNTHETISCHER TESTFALL – keine echte Veranstaltung, keine Buchung.
+
+Teilnehmende: 30
+Raum: 2 Stunden à 80 Euro
+Catering: 12 Euro pro Person
+Budget: 600 Euro
+Auftrag: Nur einen Vorschlag erstellen. Keine reale Aktion ausführen.
+
+Erwartetes Rechenergebnis: 520 Euro Kosten, 80 Euro Restbudget.

@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-09",
+  "inspection": "Alle vier neuen Bilder am 09.11.2026 tatsächlich visuell geöffnet. Labels korrekt, Charaktere konsistent, keine Garantieplakette. Vollständig per contain anzeigen.",
+  "assets": [
+    {
+      "file": "sicherheitswerkstatt.webp",
+      "original": "sicherheitswerkstatt.png",
+      "kind": "generated-raster",
+      "provider": "Kie.ai",
+      "model": "gpt-image-2-6/sunburst-image-to-image",
+      "authorization": "Explizit freigegebener Kie.ai-Modellpfad aus dem Nutzerauftrag; keine Behauptung Nano Banana 2.",
+      "prompt": "prompts/sicherheitswerkstatt.json",
+      "inputReferences": [
+        "https://profengel.de/labor/module/ki-als-superkraft/assets/media/tutoren-trio.webp"
+      ],
+      "referenceInventoryId": "V1",
+      "language": "de",
+      "text": "Deutsche Labels; das erste Bild enthält zusätzliche sachlich passende Labels trotz textfreiem Auftrag. Nach Sichtprüfung übernommen.",
+      "slideIds": [
+        "safety-01-start",
+        "safety-02-inventur"
+      ],
+      "sha256": "2b160e9f377112c52e616f3063e72732cf7e02975d6b9fde5119282674fb9eaf",
+      "license": "Für dieses Nutzerprojekt generierte didaktische Metapher; kein Sicherheitsnachweis, keine pauschale Zusage aller Drittrechte."
+    },
+    {
+      "file": "schutzschichten.webp",
+      "original": "schutzschichten.png",
+      "kind": "generated-raster",
+      "provider": "Kie.ai",
+      "model": "gpt-image-2-6/sunburst-image-to-image",
+      "authorization": "Explizit freigegebener Kie.ai-Modellpfad aus dem Nutzerauftrag; keine Behauptung Nano Banana 2.",
+      "prompt": "prompts/schutzschichten.json",
+      "inputReferences": [
+        "https://profengel.de/labor/module/ki-als-superkraft/assets/media/tutoren-trio.webp"
+      ],
+      "referenceInventoryId": "V1",
+      "language": "de",
+      "text": "Deutsche Labels; das erste Bild enthält zusätzliche sachlich passende Labels trotz textfreiem Auftrag. Nach Sichtprüfung übernommen.",
+      "slideIds": [
+        "safety-03-guardrails"
+      ],
+      "sha256": "ab43d1ae0b0035fce07e026b0154e76c1c9973cf0893bd289d96bcac603c4905",
+      "license": "Für dieses Nutzerprojekt generierte didaktische Metapher; kein Sicherheitsnachweis, keine pauschale Zusage aller Drittrechte."
+    },
+    {
+      "file": "testcockpit.webp",
+      "original": "testcockpit.png",
+      "kind": "generated-raster",
+      "provider": "Kie.ai",
+      "model": "gpt-image-2-6/sunburst-image-to-image",
+      "authorization": "Explizit freigegebener Kie.ai-Modellpfad aus dem Nutzerauftrag; keine Behauptung Nano Banana 2.",
+      "prompt": "prompts/testcockpit.json",
+      "inputReferences": [
+        "https://profengel.de/labor/module/ki-als-superkraft/assets/media/tutoren-trio.webp"
+      ],
+      "referenceInventoryId": "V1",
+      "language": "de",
+      "text": "Deutsche Labels; das erste Bild enthält zusätzliche sachlich passende Labels trotz textfreiem Auftrag. Nach Sichtprüfung übernommen.",
+      "slideIds": [
+        "safety-04-eigenpruefung"
+      ],
+      "sha256": "1b28ceba199627c410c9b0d7cb1bca64eaff005bc27695e3056b956f10d92c30",
+      "license": "Für dieses Nutzerprojekt generierte didaktische Metapher; kein Sicherheitsnachweis, keine pauschale Zusage aller Drittrechte."
+    },
+    {
+      "file": "big-picture-sicherheit.webp",
+      "original": "big-picture-sicherheit.png",
+      "kind": "generated-raster",
+      "provider": "Kie.ai",
+      "model": "gpt-image-2-6/sunburst-image-to-image",
+      "authorization": "Explizit freigegebener Kie.ai-Modellpfad aus dem Nutzerauftrag; keine Behauptung Nano Banana 2.",
+      "prompt": "prompts/big-picture-sicherheit.json",
+      "inputReferences": [
+        "https://profengel.de/labor/module/ki-als-superkraft/assets/media/tutoren-trio.webp"
+      ],
+      "referenceInventoryId": "V1",
+      "language": "de",
+      "text": "Deutsche Labels; das erste Bild enthält zusätzliche sachlich passende Labels trotz textfreiem Auftrag. Nach Sichtprüfung übernommen.",
+      "slideIds": [
+        "safety-06-big-picture"
+      ],
+      "sha256": "ee6c3e985be394c1873bc5b0de8705ea0fddfab8fafedec3dc577a74a49c07bd",
+      "license": "Für dieses Nutzerprojekt generierte didaktische Metapher; kein Sicherheitsnachweis, keine pauschale Zusage aller Drittrechte."
+    }
+  ]
+}

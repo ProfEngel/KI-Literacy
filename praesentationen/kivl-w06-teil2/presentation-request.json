@@ -1,0 +1,26 @@
+{
+  "templateId": "trinity-klar",
+  "templateName": "Trinity Klar – bewährter Standard",
+  "status": "release_approved",
+  "request": "Kompakte bildhafte Workshop-Unterlage zur Sicherheit des eigenen Agenten, mit Checkliste, Guardrails, Skriptprüfung, Prompt Injection und nachweislichem Testing.",
+  "followup": "Teil 2 am Donnerstag 12.11.2026 direkt nach RAG",
+  "timing": {
+    "durationMinutes": 40,
+    "desiredSlideCount": 7
+  },
+  "language": "de",
+  "publicationAuthorized": true,
+  "approval": {
+    "date": "2026-11-09",
+    "quote": "FREIGABE",
+    "record": "FREIGABE.md",
+    "scope": "Local build and portable package, no publication"
+  },
+  "publication": {
+    "authorized": true,
+    "repoPath": "praesentationen/kivl-w06-teil2",
+    "url": "https://profengel.github.io/KI-Literacy/praesentationen/kivl-w06-teil2/",
+    "approved": "2026-11-09",
+    "userQuote": "klasse. Bitte als zweiten Teil für Woche 6 hochladen"
+  }
+}
