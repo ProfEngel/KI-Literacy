@@ -14,7 +14,7 @@
 
 ## 4. Eve erklärt. Hugo packt an.
 
-03–04:30 · Erst den späteren Film zeigen, dann Vergleich und Harness, erst danach Quiz. Derzeit Standbild erklären oder lokal fertiges MP4 laden. Kein Autoplay. Videoerstellung nachrangig.
+03–04:30 · Den freigegebenen Eve-/Hugo-Film v2 manuell starten (77 Sekunden). Vollbild oder CC bei Bedarf. Danach Vergleich, Harness und Quiz. Kein automatischer Folienwechsel; beim Verlassen der Folie pausiert der Film. Offline sind Film und Ton enthalten; Browser können Untertitel bei file:// einschränken.
 
 ## 5. Ein Auftrag. Drei Arbeitsweisen.
 
