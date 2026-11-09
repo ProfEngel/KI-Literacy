@@ -106,55 +106,57 @@
       ]
     },
     {
-      "file": "eve-hugo-erklaerfilm-v2.mp4",
-      "kind": "generated-character-video",
-      "source": "Freigegebener Eve-/Hugo-Film v2, 09.11.2026",
-      "provider": "Startbilder/Requisiten: Kie.ai; Sprache: eigener TrinityHub/Qwen3; Video: eigener ComfyUI/MiniMax H3; Montage: FFmpeg",
-      "model": "gpt-image-2-6/sunburst-image-to-image; minimax_h3_ref2va_pruned_int8_convrot.safetensors mit passender Turbo-4-Step-LoRA und Audio Drive",
-      "prompt": "../prompts/eve-hugo-film-v2.md",
+      "file": "eve-hugo-erklaerfilm-v3.mp4",
+      "kind": "generated-character-video-with-chapter-cards",
+      "source": "Freigegebener Eve-/Hugo-Film v3, 09.11.2026",
+      "provider": "Sprechszenen: Kie.ai-Startbilder, TrinityHub/Qwen3-Sprache, ComfyUI/MiniMax H3; Montage und Kapitelkarten: deterministisch mit FFmpeg/Sharp",
+      "model": "Sprechszenen unverändert aus v2; keine neue Modellgenerierung für v3",
+      "prompt": "../prompts/eve-hugo-film-v3.md",
       "inputs": [
-        "Freigegebene virtuelle Figuren Eve/Hugo und vom Nutzer freigegebene synthetische Stimmen; private Referenzdateien nicht im Paket"
+        "Freigegebene virtuelle Figuren und synthetische Stimmen; private Referenzen nicht enthalten"
       ],
       "slideIds": [
         "slide-film-eve-hugo"
       ],
-      "format": "77,2 Sekunden; H.264/AAC, 1280x720 skaliert, 24fps; optionale deutsche Untertitel",
-      "license": "KI-generiert bzw. daraus abgeleitet für das Nutzerprojekt; keine pauschale Drittverwendung privater Stimmen/Figurenreferenzen",
-      "approval": "Nutzer: „ja. sieht super aus. bitte in der lokalen und zip und onlinefassung einbinden.“",
-      "sha256": "531e096930f13acad510e07410a5abddb823b9ed52876729b452d7016ecd2bc7"
+      "format": "87,3 Sekunden; H.264/AAC; 1280x720 skaliert, 24fps; deutsche Untertitel",
+      "approval": "Nutzer: „Großartig. Beides klasse geworden. Bitte so updaten und hochladen an den jeweiligen Stellen.“",
+      "license": "Für das Nutzerprojekt; keine pauschale Drittverwendung privater Stimmen/Figurenreferenzen",
+      "sha256": "3a341cef8cf706bb10b6f3ef44c0ccc2a37e57a28aac84f83830bd56eb273bc2"
     },
     {
-      "file": "eve-hugo-erklaerfilm-v2.de.vtt",
+      "file": "eve-hugo-erklaerfilm-v3.de.vtt",
       "kind": "dialogue-captions",
-      "source": "Freigegebener Eve-/Hugo-Film v2, 09.11.2026",
-      "provider": "Eigenes freigegebenes Filmprojekt",
-      "prompt": "../prompts/eve-hugo-film-v2.md",
+      "source": "Freigegebener Eve-/Hugo-Film v3, 09.11.2026",
+      "provider": "Sprechszenen: Kie.ai-Startbilder, TrinityHub/Qwen3-Sprache, ComfyUI/MiniMax H3; Montage und Kapitelkarten: deterministisch mit FFmpeg/Sharp",
+      "model": "Sprechszenen unverändert aus v2; keine neue Modellgenerierung für v3",
+      "prompt": "../prompts/eve-hugo-film-v3.md",
       "inputs": [
-        "Freigegebene virtuelle Figuren Eve/Hugo und vom Nutzer freigegebene synthetische Stimmen; private Referenzdateien nicht im Paket"
+        "Freigegebene virtuelle Figuren und synthetische Stimmen; private Referenzen nicht enthalten"
       ],
       "slideIds": [
         "slide-film-eve-hugo"
       ],
-      "format": "WebVTT; 20 Abschnitte, näherungsweise Sprachzuordnung",
-      "license": "KI-generiert bzw. daraus abgeleitet für das Nutzerprojekt; keine pauschale Drittverwendung privater Stimmen/Figurenreferenzen",
-      "approval": "Nutzer: „ja. sieht super aus. bitte in der lokalen und zip und onlinefassung einbinden.“",
-      "sha256": "afd1c53ecd07b89390d71158ad78d4e2a24122a1a830998060f19b788ec6b6ba"
+      "format": "WebVTT; 20 zeitversetzte Abschnitte",
+      "approval": "Nutzer: „Großartig. Beides klasse geworden. Bitte so updaten und hochladen an den jeweiligen Stellen.“",
+      "license": "Für das Nutzerprojekt; keine pauschale Drittverwendung privater Stimmen/Figurenreferenzen",
+      "sha256": "a5ca959271f11c9ff65d7b46851641dd66548c561a2cca5b491d72536f28fbfd"
     },
     {
-      "file": "eve-hugo-erklaerfilm-v2-poster.jpg",
+      "file": "eve-hugo-erklaerfilm-v3-poster.jpg",
       "kind": "frame-from-approved-video",
-      "source": "Freigegebener Eve-/Hugo-Film v2, 09.11.2026",
-      "provider": "Eigenes freigegebenes Filmprojekt",
-      "prompt": "../prompts/eve-hugo-film-v2.md",
+      "source": "Freigegebener Eve-/Hugo-Film v3, 09.11.2026",
+      "provider": "Sprechszenen: Kie.ai-Startbilder, TrinityHub/Qwen3-Sprache, ComfyUI/MiniMax H3; Montage und Kapitelkarten: deterministisch mit FFmpeg/Sharp",
+      "model": "Sprechszenen unverändert aus v2; keine neue Modellgenerierung für v3",
+      "prompt": "../prompts/eve-hugo-film-v3.md",
       "inputs": [
-        "Freigegebene virtuelle Figuren Eve/Hugo und vom Nutzer freigegebene synthetische Stimmen; private Referenzdateien nicht im Paket"
+        "Freigegebene virtuelle Figuren und synthetische Stimmen; private Referenzen nicht enthalten"
       ],
       "slideIds": [
         "slide-film-eve-hugo"
       ],
-      "format": "JPEG, Einzelbild bei 6 Sekunden",
-      "license": "KI-generiert bzw. daraus abgeleitet für das Nutzerprojekt; keine pauschale Drittverwendung privater Stimmen/Figurenreferenzen",
-      "approval": "Nutzer: „ja. sieht super aus. bitte in der lokalen und zip und onlinefassung einbinden.“",
+      "format": "JPEG; unverändertes freigegebenes Poster",
+      "approval": "Nutzer: „Großartig. Beides klasse geworden. Bitte so updaten und hochladen an den jeweiligen Stellen.“",
+      "license": "Für das Nutzerprojekt; keine pauschale Drittverwendung privater Stimmen/Figurenreferenzen",
       "sha256": "05fcb15637a6dc999964f771f11d6b4756f3f4bdbcb5cf7060d32456c74d55f0"
     }
   ]

@@ -1,0 +1,16 @@
+{
+  "provider": "Kie.ai",
+  "model": "gpt-image-2-6/sunburst-image-to-image",
+  "useCase": "scientific-educational",
+  "input": {
+    "prompt": "Use case: scientific-educational. Asset: a richly illustrated but exceptionally clear 16:9 university workshop infographic for non-technical business students. Image 1 is an IDENTITY AND STYLE REFERENCE only, not a layout to copy. Warm premium editorial digital comic, confident ink contours, natural adult proportions, cream background, petrol, sage and amber, beautifully legible large German labels. Preserve Hugo: dark curly hair, short full beard, goggles on forehead, petrol work shirt, amber tool harness. Eve: blond bob, glasses, cream cardigan. ProfEngel: bald, glasses, small chin beard, dark blazer. Avoid tiny text, random pseudo-writing, clutter, gradients as substitutes for information, logos, watermark. Every element must convey the educational relationship. All labels correctly spelled in German. All content inside generous margins. An extremely clear illustrated two-route map, no characters necessary. Across the top four large source objects with exact labels \"Text\", \"Bild\", \"Audio\", \"Video\": a typed contract page, a colorful room floorplan, microphone and waveform, film strip with three sequential frames of a moving person. The upper destination is a small pile of black printed text sheets, labelled \"Textweg\"; it shows OCR/transcription reducing the rich media into text. Tiny fading palette, musical note and movement marks indicate what may be lost, not that all information is necessarily always lost. The lower destination is a large luminous library map containing matching text, picture, waveform and film icons, labelled \"Multimodal\". Two clear differently colored branching paths from the source objects to these destinations; no spaghetti arrows. A magnifying glass searches both. Meaning: extraction is not embedding, appropriate encoders represent richer inputs for retrieval. Only six labels, not a lecture slide.",
+    "input_urls": [
+      "https://profengel.de/labor/module/ki-als-superkraft/assets/media/tutoren-trio.webp"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "2K",
+    "output_format": "png",
+    "background": "auto"
+  },
+  "createdAt": "2026-11-09T13:24:59.355Z"
+}

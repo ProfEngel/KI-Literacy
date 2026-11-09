@@ -1,0 +1,16 @@
+{
+  "provider": "Kie.ai",
+  "model": "gpt-image-2-6/sunburst-image-to-image",
+  "useCase": "scientific-educational",
+  "input": {
+    "prompt": "Use case: scientific-educational. Asset: a richly illustrated but exceptionally clear 16:9 university workshop infographic for non-technical business students. Image 1 is an IDENTITY AND STYLE REFERENCE only, not a layout to copy. Warm premium editorial digital comic, confident ink contours, natural adult proportions, cream background, petrol, sage and amber, beautifully legible large German labels. Preserve Hugo: dark curly hair, short full beard, goggles on forehead, petrol work shirt, amber tool harness. Eve: blond bob, glasses, cream cardigan. ProfEngel: bald, glasses, small chin beard, dark blazer. Avoid tiny text, random pseudo-writing, clutter, gradients as substitutes for information, logos, watermark. Every element must convey the educational relationship. All labels correctly spelled in German. All content inside generous margins. A premium illustrated evidence card filling most of frame on a clean wooden desk, with magnifying glass, a small source document and a separate colored floorplan next to it. The card has THREE large clean horizontal rows, only exact text: first row green check icon \"Belegt\" with a source-page symbol; second row blue floorplan icon \"Im Bild prüfen\"; third row amber question icon \"Nicht belegt\". At the bottom three separate metadata chips: \"Quelle\", \"Stand\", \"Projekt\". A hand wearing a petrol sleeve places a checked small note into a memory drawer. Show the desirable outcome of a document detective exercise, not design guidelines, no student UI screenshot, no other text. Huge readable labels, calm uncluttered layout.",
+    "input_urls": [
+      "https://profengel.de/labor/module/ki-als-superkraft/assets/media/tutoren-trio.webp"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "2K",
+    "output_format": "png",
+    "background": "auto"
+  },
+  "createdAt": "2026-11-09T13:26:02.667Z"
+}

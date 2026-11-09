@@ -1,0 +1,16 @@
+{
+  "provider": "Kie.ai",
+  "model": "gpt-image-2-6/sunburst-image-to-image",
+  "useCase": "scientific-educational",
+  "input": {
+    "prompt": "Use case: scientific-educational. Asset: a richly illustrated but exceptionally clear 16:9 university workshop infographic for non-technical business students. Image 1 is an IDENTITY AND STYLE REFERENCE only, not a layout to copy. Warm premium editorial digital comic, confident ink contours, natural adult proportions, cream background, petrol, sage and amber, beautifully legible large German labels. Preserve Hugo: dark curly hair, short full beard, goggles on forehead, petrol work shirt, amber tool harness. Eve: blond bob, glasses, cream cardigan. ProfEngel: bald, glasses, small chin beard, dark blazer. Avoid tiny text, random pseudo-writing, clutter, gradients as substitutes for information, logos, watermark. Every element must convey the educational relationship. All labels correctly spelled in German. All content inside generous margins. Create the final BIG PICTURE as a real rich raster educational infographic. A beautiful dollhouse cutaway of ONE connected two-storey knowledge workshop with exactly SIX large rooms, three per storey, in reading order left to right, top then bottom. Each room has a huge exact label and meaningful scene. Top left \"W01 · Erleben\": ProfEngel at a laptop, discover useful AI creations. Top middle \"W02 · Einordnen\": balance scales comparing claims against evidence and small biological neuron metaphor. Top right \"W03 · Prompten\": Eve at an open prompt rocket and a limited desk work surface/context, no formulas. Bottom left \"W04 · Agenten\": Hugo with harness, deterministic tools, clear task card and memory drawer. Bottom middle \"W05 · Gestalten\": simple mobile interface, palette and a photograph being edited. Bottom right \"W06 · Wissen\": sniffer dog fetches a source page from cabinet to desk, checked evidence card. Staircase/path connects the rooms without suggesting six different AIs. In the courtyard foreground all THREE recognizable characters together: ProfEngel holding a target/approval clipboard, Eve explaining, Hugo holding a tool. Small unifying bottom banner exact text \"Du setzt Ziel, Grenzen und Prüfung.\" No extra text or equations. Draw rooms BIG so the image works projected. Warm cheerful adult premium comic, not childlike. Every room and character fully visible.",
+    "input_urls": [
+      "https://profengel.de/labor/module/ki-als-superkraft/assets/media/tutoren-trio.webp"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "2K",
+    "output_format": "png",
+    "background": "auto"
+  },
+  "createdAt": "2026-11-09T13:26:54.532Z"
+}

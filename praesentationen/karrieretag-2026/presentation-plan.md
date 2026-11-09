@@ -1,6 +1,6 @@
 # Präsentationsplan · KI als Superkraft
 
-Status: **Gebaut; Film v2 am 09.11.2026 für lokale, ZIP- und Onlinefassung freigegeben. Siehe presentation-approval.md.**
+Status: **Gebaut; Film v3 am 09.11.2026 für lokale, ZIP- und Onlinefassung freigegeben. Siehe presentation-approval.md.**
 
 ## Anlass und Ziel
 

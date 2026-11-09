@@ -1,0 +1,30 @@
+{
+  "requested": "2026-11-09",
+  "status": "release_approved",
+  "templateId": "trinity-klar",
+  "templateName": "Trinity Klar – bewährter Standard",
+  "request": "Woche 6 KI/Data Science: Dokumente, RAG, Memory und multimodale Wissenseinbindung. Höchstens 30 Minuten, wenige bildstarke Workshopseiten im aktuellen W04/W05-Stil. Nutzer-PDF als Aufbauhilfe. Schreibtisch, Aktenschrank, Spürhund, Haus mit Räumen; Text, Bild, Audio und Video unterscheiden. Am Ende Rückblick W01–W06, Top20 und bestehende ProfEngel-/Eve-/Hugo-Übersicht wiederverwenden.",
+  "assumptionsForApproval": [
+    "Sieben Workshopseiten mit genau 30 Minuten einschließlich einer siebenminütigen Einzelübung und zweiminütigem Wrap-up.",
+    "Wie aktuelle W04/W05: Fahrplan und Leitfrage im Einstieg, Quellenverzeichnis als klar benannter Reiter der Schlussseite; keine zusätzlichen Agenda-, Pausen- oder reinen Quellenfolien.",
+    "Fünf neue Rastermotive nach Freigabe; zwei visuell geprüfte freigegebene Infografiken aus KI als Superkraft unverändert wiederverwenden.",
+    "Ein kleines synthetisches Übungspaket aus Text-PDF und Bild; Audio/Video als Demonstration mit Transkript-/Standbild-Fallback. Keine Installation, keine persönlichen oder internen Daten.",
+    "Vorhandene Anwendungen und Agenten dienen als Anschluss, kein neuer Agentenbau oder großes HTML-Programmierprojekt innerhalb der 30 Minuten."
+  ],
+  "sourceLimits": "Nutzer-PDF lokal unverändert bewahren, nicht automatisch öffentlich weitergeben. Unbelegte pauschale Prozent-/Seiten-/Qualitätsversprechen nicht übernehmen.",
+  "publicationAuthorization": "Nutzer hat nach Sichtung Veröffentlichung der fertigen W06 beauftragt; siehe FREIGABE.md.",
+  "approval": {
+    "userQuote": "ok klingt gut. Leg los",
+    "followup": "fahre fort",
+    "scope": "Approved local, ZIP and GitHub Pages publication; no private references",
+    "record": "FREIGABE.md",
+    "publicationQuote": "Großartig. Beides klasse geworden. Bitte so updaten und hochladen an den jeweiligen Stellen."
+  },
+  "publication": {
+    "authorized": true,
+    "repoPath": "praesentationen/kivl-w06",
+    "url": "https://profengel.github.io/KI-Literacy/praesentationen/kivl-w06/",
+    "userQuote": "Großartig. Beides klasse geworden. Bitte so updaten und hochladen an den jeweiligen Stellen.",
+    "approved": "2026-11-09"
+  }
+}

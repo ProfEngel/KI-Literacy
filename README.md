@@ -24,6 +24,7 @@ HTML-Präsentationen direkt auf GitHub Pages:
 - [Woche 4 · Agenten und Werkstätten](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w04/AA_W04_Agenten_und_Werkstaetten.html) – Harnesses, Memory, Werkzeuge, Härtetests und nachvollziehbarer Modell-/Versionsvergleich.
 - [Woche 4 · Interaktive Workshop-Checkliste & Motion-Labor](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w04/workshop-checkliste.html) – 6 Hands-on-Meilensteine (GitHub-Portfolio, Karriere-Onepager, Lernwerkstatt-PWA, Sokratischer Agent) plus interaktives Agenten-Motion-Labor für BWL-Studierende.
 - [Woche 5 · UI/UX und Bildgestaltung](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w05/AA_W05_UI_UX_und_Bildgestaltung.html) – kompakter Workshop: einfache Oberflächen, interaktiver Farbkreis und Paletten, Smartphone-Dashboard, Vorlagensafari und echte Bildbeispiele mit Werbetypografie, Szenenwechsel und Charakterkonsistenz.
+- [Woche 6 · Dokumente, RAG und Memory](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w06/AA_W06_Dokumente_RAG_und_Memory.html) – 30-Minuten-Workshop mit bildhaften Wissensorten, multimodalen Dokumenten, interaktiver Suchsimulation und einer kurzen Belegprüfung; mit Rückblick W01–W06 und Begriffs-Kompass. [Übungsdateien & Prompt](https://profengel.github.io/KI-Literacy/praesentationen/kivl-w06/material/uebung.html).
 
 Begleitmaterial für die Agentenwerkstatt:
 
@@ -55,7 +56,7 @@ Weitere Wochenlinks werden unter der jeweiligen Veranstaltung ergänzt. Die ält
 
 ## Vorträge und Workshops
 
-- [KI als Superkraft · Dein Studium. Deine KI. Deine Möglichkeiten.](https://profengel.de/labor/index.php?modul=ki-als-superkraft) – kompakter, interaktiver Vortrag mit zwölf Quizfragen, Offline-Lernwerkstatt, kopierbaren Bau-Prompts und zwei illustrierten Übersichten. [Lernwerkstatt öffnen](https://profengel.de/labor/module/ki-als-superkraft/material/pwa/) · [Live-Quiz auf profengel.de](https://profengel.de/labor/karrieretag-2026/quiz/). Der Eve-/Hugo-Film ist noch nicht produziert; die Filmfolie enthält einen gekennzeichneten Platzhalter.
+- [KI als Superkraft · Dein Studium. Deine KI. Deine Möglichkeiten.](https://profengel.de/labor/index.php?modul=ki-als-superkraft) – kompakter, interaktiver Vortrag mit zwölf Quizfragen, Offline-Lernwerkstatt, kopierbaren Bau-Prompts und zwei illustrierten Übersichten. Der integrierte Eve-/Hugo-Film erklärt Software 1.0, Chatbot und Agent mit drei kurzen Kapiteltrennern. [Präsentation direkt öffnen](https://profengel.de/labor/module/ki-als-superkraft/) · [Lernwerkstatt öffnen](https://profengel.de/labor/module/ki-als-superkraft/material/pwa/) · [Live-Quiz auf profengel.de](https://profengel.de/labor/karrieretag-2026/quiz/).
 
 ## Dein Einstieg
 
@@ -141,4 +142,4 @@ Das Repository ergänzt die Bucharbeit **„KI & Data Science – AI in a Brains
 
 Die bestehenden Daten, Module und Installationsanleitungen bleiben als Vertiefungsbestand erhalten. Der Einstieg erfolgt über die Veranstaltungen, die Kurs-Website und die Präsentationen.
 
-Prof. Dr. Mathias Engel · Stand: **8. Oktober 2026**
+Prof. Dr. Mathias Engel · Stand: **9. November 2026**

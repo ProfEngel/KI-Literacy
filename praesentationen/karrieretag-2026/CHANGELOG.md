@@ -1,5 +1,14 @@
 # Änderungsstand · 09.11.2026
 
+## Freigegebene Filmfassung v3
+
+- Drei ruhige Kapiteltrenner mit Symbol vor Software 1.0, Chatbot und Agent;
+  je drei Sekunden volle Standzeit mit weichen Übergängen.
+- Gesamtlänge 87,3 Sekunden; identische Sprechszenen, exakt begrenzte Audiosegmente,
+  20 passend verschobene Untertitel. Keine neue generative Produktion.
+- Nutzer hat Vorschau und Veröffentlichung in allen bisherigen Ausgaben bestätigt.
+  V1/V2 und Rohmaterial bleiben in der privaten Produktion erhalten.
+
 - 16 Folien im freigegebenen Stil; 45-Minuten-Ablauf mit Moderationsnotizen.
 - Auf ausdrücklichen letzten Wunsch Titelfolie ohne Karrieretag, Datum und Uhrzeit. Titel, HfWU und ProfEngel bleiben.
 - Zwei neue generierte Rasterinfografiken, 20 Begriffe im auswählbaren Zoom.

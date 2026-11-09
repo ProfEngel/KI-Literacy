@@ -1,0 +1,16 @@
+{
+  "provider": "Kie.ai",
+  "model": "gpt-image-2-6/sunburst-image-to-image",
+  "useCase": "scientific-educational",
+  "input": {
+    "prompt": "Use case: scientific-educational. Asset: a richly illustrated but exceptionally clear 16:9 university workshop infographic for non-technical business students. Image 1 is an IDENTITY AND STYLE REFERENCE only, not a layout to copy. Warm premium editorial digital comic, confident ink contours, natural adult proportions, cream background, petrol, sage and amber, beautifully legible large German labels. Preserve Hugo: dark curly hair, short full beard, goggles on forehead, petrol work shirt, amber tool harness. Eve: blond bob, glasses, cream cardigan. ProfEngel: bald, glasses, small chin beard, dark blazer. Avoid tiny text, random pseudo-writing, clutter, gradients as substitutes for information, logos, watermark. Every element must convey the educational relationship. All labels correctly spelled in German. All content inside generous margins. ONE continuous welcoming knowledge workshop. On the LEFT a wooden desk with exactly three open source pages and a glowing limited desk lamp: label \"Kontext\". In the CENTER a tidy green filing cabinet with alphabetical folders: label \"Speicher\". A friendly golden sniffer dog carries a relevant paper from the cabinet toward the desk: label \"Suche\". On the RIGHT a large cutaway model house with separated topic rooms and dated drawers: label \"Struktur\". Hugo works at the desk, Eve guides attention toward the cabinet. A blue paper visibly travels from the cabinet via dog to desk, so knowledge must be retrieved, not magically already in the head. One subtle small loop arrow back to checked stored card: label \"Memory\". These are complementary functions, NOT a left-to-right upgrade ladder. Only these five labels, no title.",
+    "input_urls": [
+      "https://profengel.de/labor/module/ki-als-superkraft/assets/media/tutoren-trio.webp"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "2K",
+    "output_format": "png",
+    "background": "auto"
+  },
+  "createdAt": "2026-11-09T13:24:59.326Z"
+}

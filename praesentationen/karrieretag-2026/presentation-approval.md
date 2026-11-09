@@ -22,3 +22,13 @@ onlinefassung einbinden.“ Dies erlaubt die Einbindung genau dieser
 77-Sekunden-Fassung in die lokale Präsentation, das portable ZIP, die
 Lernwerkstatt auf profengel.de und den bestehenden GitHub-Pages-Spiegel.
 Keine neuen Renderjobs oder privaten Roh-/Referenzdateien veröffentlichen.
+
+## Film v3 · Abnahme und Veröffentlichung · 09.11.2026
+
+Nach Vorschau der drei Kapiteltrenner und der fertigen Woche 6 bestätigt der Nutzer:
+„Großartig. Beides klasse geworden. Bitte so updaten und hochladen an den jeweiligen Stellen.“
+
+Dies erlaubt Film v3 (87,3 Sekunden; Software 1.0, Chatbot und Agent jeweils
+drei Sekunden vollständig sichtbar) in der bestehenden lokalen Präsentation,
+dem ZIP, dem ProfEngel-Lernwerkstatt-Modul und dem GitHub-Pages-Spiegel.
+Keine neuen Generierungsjobs. Private Produktionsdateien bleiben ausgeschlossen.

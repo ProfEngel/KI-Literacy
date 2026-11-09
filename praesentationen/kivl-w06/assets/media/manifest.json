@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-09",
+  "templateId": "trinity-klar",
+  "inspection": "Alle fünf neuen Rasterbilder und die beiden vorhandenen Infografiken tatsächlich visuell geprüft. Text/Labels vollständig per contain anzeigen.",
+  "assets": [
+    {
+      "file": "wissenswerkstatt.webp",
+      "original": "wissenswerkstatt.png",
+      "kind": "generated-raster",
+      "provider": "Kie.ai",
+      "model": "gpt-image-2-6/sunburst-image-to-image",
+      "authorization": "Vom Nutzer explizit freigegebener Anbieter/Modellpfad; kein Nano-Banana-Claim",
+      "prompt": "prompts/wissenswerkstatt.json",
+      "slideIds": [
+        "w06-start",
+        "w06-knowledge-workshop"
+      ],
+      "sha256": "03b3b195037936de1690d978fcae0e8caa4f453c29bb7f4eef9e26d09e17ffaf",
+      "license": "Für dieses Nutzerprojekt erzeugte didaktische Illustration; kein Realnachweis."
+    },
+    {
+      "file": "vier-medien.webp",
+      "original": "vier-medien.png",
+      "kind": "generated-raster",
+      "provider": "Kie.ai",
+      "model": "gpt-image-2-6/sunburst-image-to-image",
+      "authorization": "Vom Nutzer explizit freigegebener Anbieter/Modellpfad; kein Nano-Banana-Claim",
+      "prompt": "prompts/vier-medien.json",
+      "slideIds": [
+        "w06-media"
+      ],
+      "sha256": "30dbd74529114153037518d5bbd1af511d3170ed4df639782a5b64ed36f5618d",
+      "license": "Für dieses Nutzerprojekt erzeugte didaktische Illustration; kein Realnachweis."
+    },
+    {
+      "file": "rag-spuerhund.webp",
+      "original": "rag-spuerhund.png",
+      "kind": "generated-raster",
+      "provider": "Kie.ai",
+      "model": "gpt-image-2-6/sunburst-image-to-image",
+      "authorization": "Vom Nutzer explizit freigegebener Anbieter/Modellpfad; kein Nano-Banana-Claim",
+      "prompt": "prompts/rag-spuerhund.json",
+      "slideIds": [
+        "w06-rag-lab"
+      ],
+      "sha256": "223a9ff64277445457ad8e0335a2e4626c0b595ba3639df83eef05cccb93c438",
+      "license": "Für dieses Nutzerprojekt erzeugte didaktische Illustration; kein Realnachweis."
+    },
+    {
+      "file": "belegkarte.webp",
+      "original": "belegkarte.png",
+      "kind": "generated-raster",
+      "provider": "Kie.ai",
+      "model": "gpt-image-2-6/sunburst-image-to-image",
+      "authorization": "Vom Nutzer explizit freigegebener Anbieter/Modellpfad; kein Nano-Banana-Claim",
+      "prompt": "prompts/belegkarte.json",
+      "slideIds": [
+        "w06-detective"
+      ],
+      "sha256": "4cd5d81d495039d52a4bf264b634a5bebddec242ef0a8dfd9f32b5b1fc5537cd",
+      "license": "Für dieses Nutzerprojekt erzeugte didaktische Illustration; kein Realnachweis."
+    },
+    {
+      "file": "sechs-wochen-haus.webp",
+      "original": "sechs-wochen-haus.png",
+      "kind": "generated-raster",
+      "provider": "Kie.ai",
+      "model": "gpt-image-2-6/sunburst-image-to-image",
+      "authorization": "Vom Nutzer explizit freigegebener Anbieter/Modellpfad; kein Nano-Banana-Claim",
+      "prompt": "prompts/sechs-wochen-haus.json",
+      "slideIds": [
+        "w06-bigpicture"
+      ],
+      "sha256": "6416571fe7853d3bb1ce9844d5c53a0f8f812b0720c6a06cbf48acb01a786644",
+      "license": "Für dieses Nutzerprojekt erzeugte didaktische Illustration; kein Realnachweis."
+    }
+  ],
+  "reused": [
+    {
+      "file": "big-picture.webp",
+      "sourceProject": "KI als Superkraft 2026-11-11",
+      "sourceFile": "big-picture.de.png",
+      "sourceSha256": "572cf33226b99f165ffde4d64b22f4b1b67101fbf724d4211ef434d3ebb3ebda",
+      "sha256": "5ba1f8829a9267bcc8b5123ab5ad71eabbccbff1718f1816b25f438a52e5bf19",
+      "conversion": "Unbeschnitten und unverzerrt nach WebP; keine Inhaltsänderung.",
+      "originalProvenance": {
+        "file": "big-picture.de.png",
+        "kind": "generated-raster",
+        "provider": "OpenAI, integriertes image_gen-Werkzeug",
+        "model": "Vom Werkzeug nicht als konkrete Modell-ID ausgewiesen; keine Behauptung einer bestimmten API-Modellversion",
+        "prompt": "../prompts/big-picture.txt",
+        "inputs": [
+          "Geprüfte Nutzer-Figuren-/Hugo-Referenzen"
+        ],
+        "slideIds": [
+          "slide-04-drei-arten",
+          "slide-14-big-picture"
+        ],
+        "license": "KI-generiert für Nutzerprojekt; Metapher, kein Realnachweis"
+      },
+      "slideIds": [
+        "w06-bigpicture"
+      ]
+    },
+    {
+      "file": "begriffs-kompass.webp",
+      "sourceProject": "KI als Superkraft 2026-11-11",
+      "sourceFile": "begriffs-kompass.de.png",
+      "sourceSha256": "ddb54df92f262aa20a83c96598a6d4a818fdd0f84e8f839c7bab114d24c9d471",
+      "sha256": "ea4987e6331721bb75efd124f1fa7546bbeda179204035991175fd731ca954bf",
+      "conversion": "Unbeschnitten und unverzerrt nach WebP; keine Inhaltsänderung.",
+      "originalProvenance": {
+        "file": "begriffs-kompass.de.png",
+        "kind": "generated-raster",
+        "provider": "OpenAI, integriertes image_gen-Werkzeug",
+        "model": "Konkrete Modell-ID vom Werkzeug nicht ausgewiesen",
+        "prompt": "../prompts/begriffs-kompass.txt",
+        "inputs": [
+          "Nutzer-Figurenreferenzen",
+          "fachlich geprüfter 20-Begriffe-Plan"
+        ],
+        "slideIds": [
+          "slide-13-begriffe"
+        ],
+        "license": "KI-generiert für Nutzerprojekt"
+      },
+      "slideIds": [
+        "w06-compass"
+      ]
+    },
+    {
+      "file": "hugo-memory.mp4",
+      "audio": "hugo-memory.mp3",
+      "source": "Freigegebener Superkraft-Film v2, Zeit 43.875–53.500 s",
+      "sourceSha256": "531e096930f13acad510e07410a5abddb823b9ed52876729b452d7016ecd2bc7",
+      "operation": "Ausschnitt, Skalierung, kurze Tonränder. Keine neue Stimme oder Videoerzeugung.",
+      "seconds": 9.625,
+      "slideIds": [
+        "w06-media"
+      ],
+      "license": "Vom Nutzer freigegebene Figuren-/Stimmenproduktion; keine pauschale Drittnutzung."
+    }
+  ]
+}

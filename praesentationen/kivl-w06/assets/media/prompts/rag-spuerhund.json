@@ -1,0 +1,16 @@
+{
+  "provider": "Kie.ai",
+  "model": "gpt-image-2-6/sunburst-image-to-image",
+  "useCase": "scientific-educational",
+  "input": {
+    "prompt": "Use case: scientific-educational. Asset: a richly illustrated but exceptionally clear 16:9 university workshop infographic for non-technical business students. Image 1 is an IDENTITY AND STYLE REFERENCE only, not a layout to copy. Warm premium editorial digital comic, confident ink contours, natural adult proportions, cream background, petrol, sage and amber, beautifully legible large German labels. Preserve Hugo: dark curly hair, short full beard, goggles on forehead, petrol work shirt, amber tool harness. Eve: blond bob, glasses, cream cardigan. ProfEngel: bald, glasses, small chin beard, dark blazer. Avoid tiny text, random pseudo-writing, clutter, gradients as substitutes for information, logos, watermark. Every element must convey the educational relationship. All labels correctly spelled in German. All content inside generous margins. One story in three visually connected scenes across a continuous workshop. LEFT: open archive room with a green folder marked \"Aktuell\" and dusty gray folder marked \"Alt\" on another shelf; each contains real-looking pages, no fake tiny writing. CENTER: golden sniffer dog follows a short dotted trail and carries the green-source page toward a desk. RIGHT: Hugo checks the retrieved page with a magnifying glass at his desk beside Eve; checked source page and answer card lie SIDE BY SIDE. The dog is a search metaphor, not a magical answer machine. Three large labels only: \"Finden\", \"Mitgeben\", \"Prüfen\". Make the archive, fetched evidence, answer relationship perfectly clear, no claim of guaranteed truth, no robot dog.",
+    "input_urls": [
+      "https://profengel.de/labor/module/ki-als-superkraft/assets/media/tutoren-trio.webp"
+    ],
+    "aspect_ratio": "16:9",
+    "resolution": "2K",
+    "output_format": "png",
+    "background": "auto"
+  },
+  "createdAt": "2026-11-09T13:26:02.005Z"
+}

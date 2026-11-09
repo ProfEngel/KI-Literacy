@@ -1,0 +1,314 @@
+window.W06_SOURCES=[
+  {
+    "id": "U1",
+    "type": "user-reference-pdf",
+    "author": "Nicht im Dokument ausgewiesen; vom Nutzer bereitgestellt",
+    "year": "2026 (Dateimetadaten, kein gesichertes Publikationsdatum)",
+    "title": "Dokumente, RAG und Memory in Sprachmodellen",
+    "url": null,
+    "accessed": "2026-11-09",
+    "evidence": "Interne Aufbauhilfe, keine unabhängig belegte Fachquelle",
+    "claim": "Zwölf bildbasierte PDF-Seiten; Schreibtisch, Aktenschrank, Spürhund und Haus-/Raumstruktur als Metaphern.",
+    "verification": "Alle zwölf Seiten gerendert und visuell gelesen. Keine auslesbare Textschicht. Absolute Leistungsversprechen und pauschale Seiten-/Prozentgrenzen müssen separat geprüft oder weggelassen werden.",
+    "slideIds": [
+      "w06-start",
+      "w06-knowledge-workshop"
+    ],
+    "localAvailability": "Interne Referenz im Werkstattordner, bewusst nicht im Nutzungspaket enthalten."
+  },
+  {
+    "id": "SQL1",
+    "type": "official-documentation",
+    "author": "SQLite Development Team",
+    "year": "o. J.",
+    "title": "SQLite FTS5 Extension",
+    "url": "https://www.sqlite.org/fts5.html",
+    "accessed": "2026-11-09",
+    "evidence": "Offizielle technische Primärdokumentation",
+    "claim": "FTS5 ermöglicht Volltextsuche, Tokenisierung, Präfix-/Phrasenabfragen und Rangfolgen; diese Suchfunktion ist nicht gleichbedeutend mit einem allgemeinen Verständnis von Inhalten.",
+    "verification": "Originalseite geöffnet; Übersicht und Suchsyntax geprüft.",
+    "limits": "Keine allgemeine Millisekunden-Garantie, keine 80-Prozent-Abdeckungsquote. SQL und Volltextsuche nicht gleichsetzen.",
+    "slideIds": [
+      "w06-knowledge-workshop",
+      "w06-rag-lab"
+    ]
+  },
+  {
+    "id": "MM1",
+    "type": "official-model-card",
+    "author": "Google DeepMind",
+    "year": "2026",
+    "title": "EmbeddingGemma 2 model card",
+    "url": "https://ai.google.dev/gemma/docs/embeddinggemma/model_card_2?hl=en",
+    "accessed": "2026-11-09",
+    "evidence": "Hersteller-Primärdokumentation; keine unabhängige Überlegenheitsstudie",
+    "claim": "EmbeddingGemma 2 unterstützt Text, Bild, Audio und Video in einem gemeinsamen Embeddingraum. Die Modellkarte nennt 768 Ausgabedimensionen und getrennt ladbare Modalitätsencoder.",
+    "verification": "Originalmodellkarte geöffnet und Modalitäten/Architektur geprüft; Produkteinführung 06.10.2026 im offiziellen Google-Blog gegengeprüft.",
+    "limits": "Nicht mit einem antwortgenerierenden Chatmodell gleichsetzen. Keine allgemeine Qualitätsgarantie oder pauschale On-device-Hardwarezusage; passende Encoder und Verarbeitung nötig.",
+    "slideIds": [
+      "w06-knowledge-workshop",
+      "w06-media",
+      "w06-compass"
+    ]
+  },
+  {
+    "id": "RAG1",
+    "type": "paper",
+    "author": "Patrick Lewis et al.",
+    "year": "2020",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "accessed": "2026-11-09",
+    "evidence": "Wissenschaftliche Primärarbeit, NeurIPS 2020; arXiv-Autorenversion",
+    "claim": "RAG verbindet ein generierendes Modell mit abgerufenem externem Wissen. Abruf und Antworterzeugung sind unterschiedliche Funktionen.",
+    "verification": "arXiv-Originalseite und Abstract geöffnet. NeurIPS-Seite lieferte Timeout; auf Autorenversion gewechselt.",
+    "limits": "Kein Beweis, dass Quellenabruf Halluzinationen ausschließt. Das ursprüngliche konkrete Modell ist nicht mit sämtlichen heutigen RAG-Systemen gleichzusetzen.",
+    "slideIds": [
+      "w06-rag-lab",
+      "w06-detective",
+      "w06-bigpicture",
+      "w06-compass"
+    ]
+  },
+  {
+    "id": "CTX1",
+    "type": "paper",
+    "author": "Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni und Percy Liang",
+    "year": "2024",
+    "title": "Lost in the Middle: How Language Models Use Long Contexts",
+    "url": "https://aclanthology.org/2024.tacl-1.9/",
+    "doi": "10.1162/tacl_a_00638",
+    "accessed": "2026-11-09",
+    "evidence": "Begutachtete Primärarbeit, TACL 12, S. 157–173",
+    "claim": "In den untersuchten Aufgaben und Modellen hängt die Nutzung relevanter Kontextinformation von deren Position ab. Ein großes Kontextfenster garantiert keine fehlerfreie Nutzung sämtlicher Inhalte.",
+    "verification": "ACL-Anthology-Seite, Autoren, Abstract, Publikationsdaten und DOI geprüft.",
+    "limits": "Keine allgemeine 50-Seiten-Grenze; historische untersuchte Modelle sind kein pauschaler Benchmark heutiger Produkte.",
+    "slideIds": [
+      "w06-start",
+      "w06-knowledge-workshop",
+      "w06-compass"
+    ]
+  },
+  {
+    "id": "MEM1",
+    "type": "official-framework-documentation",
+    "author": "LangChain / LangGraph",
+    "year": "o. J.",
+    "title": "Stores · Cross-thread long-term memory",
+    "url": "https://github.com/langchain-ai/docs/blob/main/src/oss/langgraph/stores.mdx",
+    "accessed": "2026-11-09",
+    "evidence": "Offizielle technische Primärdokumentation im Quellrepository",
+    "claim": "Gespeicherte Informationen können nach Namespaces organisiert, gesucht und in spätere Modellaufrufe übernommen werden. Speichern, Abrufen und aktueller Modellkontext sind unterschiedliche Vorgänge.",
+    "verification": "Originaldatei geöffnet; store.put/store.search, Namespaces, Metadaten und spätere Modellaufrufe gelesen.",
+    "limits": "Beispiel einer Implementierung, kein allgemeiner Memory-Standard. Namespaces ersetzen keine Berechtigungsprüfung; keine automatische Wissenserweiterung durch bloßes Speichern behaupten.",
+    "slideIds": [
+      "w06-knowledge-workshop",
+      "w06-rag-lab",
+      "w06-detective",
+      "w06-compass"
+    ]
+  },
+  {
+    "id": "SEC1",
+    "type": "security-guidance",
+    "author": "OWASP Gen AI Security Project",
+    "year": "2025",
+    "title": "LLM01:2025 Prompt Injection",
+    "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+    "accessed": "2026-11-09",
+    "evidence": "Primärveröffentlichung eines anerkannten Sicherheitsprojekts",
+    "claim": "Externe Dokumente und multimodale Inhalte können indirekte Anweisungsangriffe enthalten. RAG beseitigt diese Risiken nicht.",
+    "verification": "Original geöffnet; indirekte und multimodale Angriffe sowie Grenzen von RAG gelesen.",
+    "limits": "Ein Prompt allein bietet keinen verlässlichen Schutz. In der Lehrdemo keine echten Daten, Zugangsdaten oder autonomen Außenaktionen.",
+    "slideIds": [
+      "w06-rag-lab",
+      "w06-detective"
+    ]
+  },
+  {
+    "id": "INPUT1",
+    "type": "official-api-documentation",
+    "author": "OpenAI",
+    "year": "o. J.",
+    "title": "File inputs · How it works",
+    "url": "https://developers.openai.com/api/docs/guides/file-inputs",
+    "accessed": "2026-11-09",
+    "evidence": "Offizielle technische Primärdokumentation",
+    "claim": "Die Dokumentation unterscheidet die Verarbeitung von PDF-Seitenbildern und Text von anderen Dateiformaten. Reine Textextraktion erhält eingebettete Bilder oder Diagramme nicht automatisch.",
+    "verification": "Über offizielle Dokumentationssuche gefunden und Original mit fetch_openai_doc gelesen.",
+    "limits": "API-Verhalten nicht pauschal auf jeden ChatGPT-Tarif, jede App oder andere Anbieter übertragen. Unterrichts-Upload konkret testen, Text-/Bild-Fallback anbieten.",
+    "slideIds": [
+      "w06-start",
+      "w06-media",
+      "w06-detective"
+    ]
+  },
+  {
+    "id": "CHAT1",
+    "type": "official-product-guidance",
+    "author": "OpenAI / ChatGPT Learn",
+    "year": "o. J.",
+    "title": "Prompting · Add context",
+    "url": "https://learn.chatgpt.com/docs/prompting",
+    "accessed": "2026-11-09",
+    "evidence": "Offizielle Anwendungshinweise",
+    "claim": "Dokumente und separate Bilder können als Aufgabenmaterial dienen; beim Bild sollte der relevante Bereich ausdrücklich benannt werden.",
+    "verification": "Nach offizieller Suche Original mit fetch_openai_doc geöffnet; Passagen zu Anhängen und visuellen Inputs gelesen.",
+    "limits": "Keine Garantie für jede Medienart, Kontoverfügbarkeit oder korrekte Antwort; Übungsergebnis gegen die Materialien prüfen.",
+    "slideIds": [
+      "w06-media",
+      "w06-detective",
+      "w06-compass"
+    ]
+  },
+  {
+    "id": "A1",
+    "type": "engineering-article",
+    "author": "Anthropic Engineering",
+    "year": "2024",
+    "title": "Building effective agents",
+    "url": "https://www.anthropic.com/research/building-effective-agents",
+    "evidence": "official, konzeptioneller Fachbeitrag; keine vergleichende Wirksamkeitsstudie",
+    "claim": "Vordefinierte Workflows von modellgesteuerter Wahl nächster Schritte und Tools unterscheiden; kleinste passende Lösung bevorzugen.",
+    "slideIds": [
+      "w06-bigpicture",
+      "w06-compass"
+    ],
+    "limits": "Der Artikel selbst weist auf seit 2024 veränderte Werkzeuge hin. Nur stabile konzeptionelle Unterscheidung verwenden.",
+    "accessed": "2026-11-09",
+    "verification": "Primärseite geöffnet und relevante Passage gelesen.",
+    "reusedFrom": "Geprüfter Superkraft-Quellenstand 09.11.2026"
+  },
+  {
+    "id": "IS1",
+    "type": "encyclopedia",
+    "author": "Robert Winter",
+    "year": "o. J.",
+    "title": "Informationssystem-Architektur",
+    "url": "https://wi-lex.de/lexikon/informations-daten-und-wissensmanagement/informationsmanagement/information/informationssystem-architektur/",
+    "evidence": "fachliches Nachschlagewerk",
+    "claim": "Informationssysteme verbinden Aufgaben, Technik und Menschen. LLM ist Technik; Verantwortung und Ziele verbleiben bei Menschen.",
+    "slideIds": [
+      "w06-bigpicture"
+    ],
+    "limits": "Übertragung auf LLM-Agenten ist eigene didaktische Analogie, keine Behauptung der Originalquelle.",
+    "accessed": "2026-11-09",
+    "verification": "Primärseite geöffnet und relevante Passage gelesen.",
+    "reusedFrom": "Geprüfter Superkraft-Quellenstand 09.11.2026"
+  },
+  {
+    "id": "C1",
+    "type": "product-documentation",
+    "author": "OpenAI",
+    "year": "o. J.",
+    "title": "Permissions – Permission modes",
+    "url": "https://learn.chatgpt.com/docs/permission-modes#permission-modes",
+    "evidence": "official; via OpenAI Docs gesucht und Abschnitt abgerufen",
+    "claim": "Lokale Aktionen, Dateiedits, Befehle und Internetzugriffe werden durch Berechtigungen begrenzt; anfänglich mit Rückfragen arbeiten.",
+    "slideIds": [
+      "w06-compass"
+    ],
+    "accessed": "2026-11-09",
+    "verification": "Primärseite geöffnet und relevante Passage gelesen.",
+    "reusedFrom": "Geprüfter Superkraft-Quellenstand 09.11.2026"
+  },
+  {
+    "id": "T1",
+    "type": "project-guide",
+    "author": "Prof. Dr. Mathias Engel",
+    "year": "2026",
+    "title": "Trinity Agenten – Praxisleitfaden",
+    "url": "https://profengel.github.io/KI-Literacy/trinity-agenten.html",
+    "evidence": "eigene didaktische Architektur, nicht unabhängiger Leistungsnachweis",
+    "claim": "Erster Agent im Hub, zusätzliche Spezialisten als Kacheln, gemeinsames Memory zum Nachschlagen und geprüften Merken, austauschbares LLM und Sicherheitsprüfungen.",
+    "slideIds": [
+      "w06-compass"
+    ],
+    "verification": "Lokale veröffentlichte Fassung und Medienmanifest gelesen.",
+    "accessed": "2026-11-09",
+    "reusedFrom": "Geprüfter Superkraft-Quellenstand 09.11.2026"
+  },
+  {
+    "id": "AA1",
+    "type": "benchmark-methodology",
+    "author": "Artificial Analysis",
+    "year": "o. J.",
+    "title": "Intelligence Benchmarking Methodology",
+    "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+    "evidence": "Primärquelle des Benchmark-Anbieters; keine allgemeingültige Modellrangliste",
+    "claim": "Ein definierter Aufgabenmix liefert Vergleichswerte. Modellwahl zusätzlich nach Aufgabe, Kosten, Zeit und eigener Gegenprobe treffen.",
+    "slideIds": [
+      "w06-compass"
+    ],
+    "limits": "Keine undatierten SOTA-Sieger oder Gleichsetzung von Benchmarkwert und universeller Eignung.",
+    "accessed": "2026-11-09",
+    "verification": "Primärseite geöffnet; für Plan ausgewertet.",
+    "reusedFrom": "Geprüfter Superkraft-Quellenstand 09.11.2026"
+  },
+  {
+    "id": "F1",
+    "type": "educational-documentation",
+    "author": "Hugging Face",
+    "year": "o. J.",
+    "title": "Introduction – LLM Course",
+    "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+    "evidence": "technische Lehrquelle des Anbieters",
+    "claim": "Einführung in Sprachmodelle, Tokenizer und Weitertraining; Grundlage für den Begriffs-Kompass.",
+    "slideIds": [
+      "w06-compass"
+    ],
+    "limits": "Begriffsspezifische Aussagen und Metaphergrenzen vor Bildproduktion weiter prüfen; diese Einführung allein belegt nicht alle 20 Definitionen.",
+    "accessed": "2026-11-09",
+    "verification": "Primärseite geöffnet; für Plan ausgewertet.",
+    "reusedFrom": "Geprüfter Superkraft-Quellenstand 09.11.2026"
+  },
+  {
+    "id": "F2",
+    "type": "educational-documentation",
+    "author": "Hugging Face",
+    "year": "o. J.",
+    "title": "Introduction to Instruction Tuning with SmolLM3",
+    "url": "https://huggingface.co/learn/smol-course/unit1/1",
+    "evidence": "technische Primär-Lehrquelle",
+    "claim": "Kleinere Sprachmodelle können gezielt weitertrainiert werden; Fine-Tuning ist nicht bloßer Dokumentenimport.",
+    "slideIds": [
+      "w06-compass"
+    ],
+    "limits": "Keine Behauptung, das dortige Modell sei im November 2026 das beste kleine Modell.",
+    "accessed": "2026-11-09",
+    "verification": "Primärseite geöffnet; für Plan ausgewertet.",
+    "reusedFrom": "Geprüfter Superkraft-Quellenstand 09.11.2026"
+  },
+  {
+    "id": "D1",
+    "author": "Hugging Face",
+    "title": "Text generation · Transformers 4.50.0",
+    "url": "https://huggingface.co/docs/transformers/v4.50.0/en/main_classes/text_generation",
+    "claim": "Temperature beeinflusst Token-Auswahl; kein Wahrheitsregler.",
+    "type": "official-documentation",
+    "year": "o. J.",
+    "evidence": "Primärdokumentation",
+    "accessed": "2026-11-09",
+    "verification": "Geöffnet und relevante Passagen geprüft.",
+    "slideIds": [
+      "w06-compass"
+    ],
+    "reusedFrom": "Geprüfter Superkraft-Quellenstand 09.11.2026"
+  },
+  {
+    "id": "D3",
+    "author": "Google",
+    "title": "Gemini policy guidelines",
+    "url": "https://gemini.google/policy-guidelines/",
+    "claim": "Probabilistische Erzeugung und Grenzen; plausible Ausgabe kann falsch sein.",
+    "type": "official-documentation",
+    "year": "o. J.",
+    "evidence": "Primärdokumentation",
+    "accessed": "2026-11-09",
+    "verification": "Geöffnet und relevante Passagen geprüft.",
+    "slideIds": [
+      "w06-compass"
+    ],
+    "reusedFrom": "Geprüfter Superkraft-Quellenstand 09.11.2026"
+  }
+];

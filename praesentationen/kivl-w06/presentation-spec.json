@@ -1,0 +1,63 @@
+{
+  "status": "release_approved",
+  "templateId": "trinity-klar",
+  "templateName": "Trinity Klar – bewährter Standard",
+  "title": "W06 · Wissen finden. Quellen prüfen.",
+  "subtitle": "Dokumente, RAG & Memory · vom Schreibtisch zur Wissenswerkstatt",
+  "speaker": "Prof. Dr. Mathias Engel",
+  "audience": "BWL-Studierende im Kurs Data Science und KI; geringe technische Vorkenntnisse",
+  "languages": [
+    "de"
+  ],
+  "timing": {
+    "durationMinutes": 30,
+    "desiredSlideCount": 7
+  },
+  "design": {
+    "aspectRatio": "16:9",
+    "palette": {
+      "cream": "#F7F7F5",
+      "petrol": "#24666A",
+      "sage": "#DCEFE1",
+      "ink": "#182C33"
+    },
+    "simplicity": true,
+    "character": "Aktuelle kompakte W04-/W05-Workshopführung; bildstarke KI-als-Superkraft-Metaphern, keine technische Überfrachtung"
+  },
+  "media": {
+    "plannedNewRasterMotifs": 5,
+    "plannedReusedInfographics": 2,
+    "generateBeforeApproval": false
+  },
+  "interactions": [
+    "Wissensorte anklicken",
+    "Text/Bild/Audio/Video vergleichen",
+    "RAG-Suchlauf und Quellenfilter",
+    "Prompt kopieren und Belegkarte prüfen",
+    "Vergrößerung mit Auswahl und Begriffsdefinition"
+  ],
+  "requiredOutputsAfterApproval": [
+    "AA_W06_Dokumente_RAG_und_Memory.html",
+    "presentation.html",
+    "review.html",
+    "lokale Medien",
+    "Quellenanhang",
+    "Dozentenleitfaden je Seite",
+    "synthetische Übungsdateien",
+    "portables Wochenpaket und ZIP"
+  ],
+  "publication": {
+    "authorized": true,
+    "repoPath": "praesentationen/kivl-w06",
+    "url": "https://profengel.github.io/KI-Literacy/praesentationen/kivl-w06/",
+    "userQuote": "Großartig. Beides klasse geworden. Bitte so updaten und hochladen an den jeweiligen Stellen.",
+    "approved": "2026-11-09"
+  },
+  "approval": {
+    "userQuote": "ok klingt gut. Leg los",
+    "followup": "fahre fort",
+    "scope": "Approved local, ZIP and GitHub Pages publication; no private references",
+    "record": "FREIGABE.md",
+    "publicationQuote": "Großartig. Beides klasse geworden. Bitte so updaten und hochladen an den jeweiligen Stellen."
+  }
+}
