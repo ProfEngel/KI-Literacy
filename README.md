@@ -55,7 +55,7 @@ Weitere Wochenlinks werden unter der jeweiligen Veranstaltung ergänzt. Die ält
 
 ## Vorträge und Workshops
 
-- [KI als Superkraft · Dein Studium. Deine KI. Deine Möglichkeiten.](https://profengel.github.io/KI-Literacy/praesentationen/karrieretag-2026/) – kompakter, interaktiver Vortrag mit zwölf Quizfragen, Offline-Lernwerkstatt, kopierbaren Bau-Prompts und zwei illustrierten Übersichten. [Lernwerkstatt öffnen](https://profengel.github.io/KI-Literacy/praesentationen/karrieretag-2026/material/pwa/) · [Live-Quiz auf profengel.de](https://profengel.de/labor/karrieretag-2026/quiz/). Der Eve-/Hugo-Film ist noch nicht produziert; die Filmfolie enthält einen gekennzeichneten Platzhalter.
+- [KI als Superkraft · Dein Studium. Deine KI. Deine Möglichkeiten.](https://profengel.de/labor/index.php?modul=ki-als-superkraft) – kompakter, interaktiver Vortrag mit zwölf Quizfragen, Offline-Lernwerkstatt, kopierbaren Bau-Prompts und zwei illustrierten Übersichten. [Lernwerkstatt öffnen](https://profengel.de/labor/module/ki-als-superkraft/material/pwa/) · [Live-Quiz auf profengel.de](https://profengel.de/labor/karrieretag-2026/quiz/). Der Eve-/Hugo-Film ist noch nicht produziert; die Filmfolie enthält einen gekennzeichneten Platzhalter.
 
 ## Dein Einstieg
 
