@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-09",
+  "language": "de",
+  "assets": [
+    {
+      "file": "tutoren-trio.webp",
+      "kind": "reused-user-illustration",
+      "source": "reference-material/tutoren-trio-hugo-v3.webp; Nutzerprojekt profengel.de",
+      "slideIds": [
+        "slide-01-superkraft"
+      ],
+      "inspection": "Tatsächlich visuell geprüft; ProfEngel, Eve, Hugo",
+      "license": "Nutzerbestand; Rechte zur Weiterverwendung durch Dritte nicht geklärt"
+    },
+    {
+      "file": "hugo-harness.png",
+      "kind": "reused-user-illustration",
+      "source": "KI-Literacy/assets/trinity/hugo-hubmeister-handwerker-llm.png",
+      "slideIds": [
+        "slide-06-harness",
+        "slide-10-agent"
+      ],
+      "license": "Nutzerprojekt, keine pauschale Drittverwendung"
+    },
+    {
+      "file": "trinity-hub.png",
+      "kind": "reused-user-illustration",
+      "source": "Nutzerprojekt KI-Literacy · Trinity-Leitfaden",
+      "slideIds": [
+        "slide-12-trinity"
+      ],
+      "license": "Nutzerbestand"
+    },
+    {
+      "file": "informationssystem.png",
+      "kind": "reference-not-displayed",
+      "source": "Nutzerprojekt KI-Literacy · Trinity-Leitfaden",
+      "slideIds": [],
+      "license": "Nutzerbestand"
+    },
+    {
+      "file": "big-picture.de.png",
+      "kind": "generated-raster",
+      "provider": "OpenAI, integriertes image_gen-Werkzeug",
+      "model": "Vom Werkzeug nicht als konkrete Modell-ID ausgewiesen; keine Behauptung einer bestimmten API-Modellversion",
+      "prompt": "../prompts/big-picture.txt",
+      "inputs": [
+        "Geprüfte Nutzer-Figuren-/Hugo-Referenzen"
+      ],
+      "slideIds": [
+        "slide-film-eve-hugo",
+        "slide-04-drei-arten",
+        "slide-14-big-picture"
+      ],
+      "license": "KI-generiert für Nutzerprojekt; Metapher, kein Realnachweis"
+    },
+    {
+      "file": "begriffs-kompass.de.png",
+      "kind": "generated-raster",
+      "provider": "OpenAI, integriertes image_gen-Werkzeug",
+      "model": "Konkrete Modell-ID vom Werkzeug nicht ausgewiesen",
+      "prompt": "../prompts/begriffs-kompass.txt",
+      "inputs": [
+        "Nutzer-Figurenreferenzen",
+        "fachlich geprüfter 20-Begriffe-Plan"
+      ],
+      "slideIds": [
+        "slide-13-begriffe"
+      ],
+      "license": "KI-generiert für Nutzerprojekt"
+    },
+    {
+      "file": "gemini-students.png",
+      "kind": "original-website-screenshot",
+      "source": "https://gemini.google/de/students/?hl=de",
+      "captured": "2026-11-09",
+      "slideIds": [
+        "slide-03-gemini"
+      ],
+      "license": "Google-Produktabbildung zu Lehr-/Quellenzwecken; keine allgemeine Nachnutzungslizenz"
+    },
+    {
+      "file": "pwa-preview.png",
+      "kind": "actual-app-screenshot",
+      "source": "material/pwa/index.html, tatsächliche lokale Ausführung",
+      "slideIds": [
+        "slide-08-pwa"
+      ],
+      "license": "Eigenes Projekt"
+    },
+    {
+      "file": "qr-vortrag.png",
+      "kind": "locally-generated-qr",
+      "verification": "Unabhängig mit zxing-cpp dekodiert, Ziel identisch",
+      "slideIds": [
+        "slide-02-zugang",
+        "slide-15-quellen"
+      ]
+    },
+    {
+      "file": "qr-quiz.png",
+      "kind": "locally-generated-qr",
+      "verification": "Unabhängig mit zxing-cpp dekodiert, Ziel identisch",
+      "slideIds": [
+        "slide-02-zugang"
+      ]
+    }
+  ]
+}

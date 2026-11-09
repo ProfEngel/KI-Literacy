@@ -1,0 +1,86 @@
+[
+  {
+    "id": "Q01",
+    "live": true,
+    "question": "Eine Noten-App berechnet aus Klausurpunkten mit einer fest hinterlegten Formel Deinen Schnitt.",
+    "answer": "Software 1.0",
+    "explanation": "Festgelegte Daten und Regeln; kein Sprachmodell erforderlich."
+  },
+  {
+    "id": "Q02",
+    "live": true,
+    "question": "Du kopierst einen Text in ein Chatfenster und lässt ihn ins Englische übersetzen. Weitere Werkzeuge werden dabei nicht genutzt.",
+    "answer": "Chatbot",
+    "explanation": "Das Modell liefert eine Antwort; in diesem Szenario führt es keine weitere Systemaktion aus."
+  },
+  {
+    "id": "Q03",
+    "live": true,
+    "question": "Eine Lern-App lässt ein Modell Deine Freitextantwort prüfen, bei Bedarf nachfragen und den erlaubten Fortschritt nach dem Prüfergebnis aktualisieren.",
+    "answer": "Agent",
+    "explanation": "Der begrenzte Coach verbindet Bedeutung, Rückmeldung und eine erlaubte Aktion. Wie frei er Schritte wählt, bestimmt den Grad der Agentik."
+  },
+  {
+    "id": "Q04",
+    "live": true,
+    "question": "Deine selbst gebaute Lern-PWA läuft im Flugmodus weiter und wertet Zuordnungsfragen mit hinterlegten Lösungen aus.",
+    "answer": "Software 1.0",
+    "explanation": "KI kann den Code gebaut haben, ohne dass beim Benutzen noch KI läuft."
+  },
+  {
+    "id": "Q05",
+    "live": true,
+    "question": "Du bittest ein Sprachmodell im Chat um drei Ideen für Deine Bewerbung. Du überträgst die Ideen danach selbst in ein Dokument.",
+    "answer": "Chatbot",
+    "explanation": "Ideen erzeugen ist genAI; das eigenständige Bearbeiten der Datei ist in diesem Szenario nicht enthalten."
+  },
+  {
+    "id": "Q06",
+    "live": true,
+    "question": "Ein Recherchehelfer bekommt ein Ziel, wählt erlaubte Suchwerkzeuge, sammelt Firmenquellen, erkennt Lücken und erstellt ein überprüfbares Briefing.",
+    "answer": "Agent",
+    "explanation": "Zielgerichteter mehrstufiger Ablauf mit Tool-Auswahl und Rückmeldung; Ergebnisse weiterhin prüfen."
+  },
+  {
+    "id": "Q07",
+    "live": false,
+    "question": "Ein Skript benennt Dateien nach Datum und Nummer um, genau nach einer festen Regel.",
+    "answer": "Software 1.0",
+    "explanation": "Mehrere Schritte und Automatisierung allein machen noch keinen LLM-Agenten."
+  },
+  {
+    "id": "Q08",
+    "live": false,
+    "question": "Ein Chatbot formuliert eine E-Mail; ohne Dein Kopieren oder Senden bleibt sie nur im Chat.",
+    "answer": "Chatbot",
+    "explanation": "Textvorschlag, keine externe Aktion. Keine automatische Gleichsetzung aller Chatprodukte mit fehlenden Tools."
+  },
+  {
+    "id": "Q09",
+    "live": false,
+    "question": "Ein Lerncoach schaut erst in freigegebene Notizen, sucht eine passende Übung und entscheidet anhand Deiner Antwort über Rückfrage oder Abschluss.",
+    "answer": "Agent",
+    "explanation": "Memory wird aktiv benutzt; nächste Schritte folgen Rückmeldungen statt nur einem festen Textblock."
+  },
+  {
+    "id": "Q10",
+    "live": false,
+    "question": "Ein Taschenrechner zeigt nach dem Klick auf die Plus-Taste die Summe zweier Zahlen.",
+    "answer": "Software 1.0",
+    "explanation": "Zuverlässige Rechenoperation braucht kein Sprachmodell."
+  },
+  {
+    "id": "Q11",
+    "live": false,
+    "question": "Du fügst eine Anleitung namens SKILL.md in ein Chatfenster ein und erhältst eine Textantwort. Es werden keine Werkzeuge oder weiteren Aktionen ausgeführt.",
+    "answer": "Chatbot",
+    "explanation": "Eine Arbeitsanleitung allein erzeugt noch kein Agentensystem."
+  },
+  {
+    "id": "Q12",
+    "live": false,
+    "question": "Ein Helfer entwirft aus Deinen Angaben einen Lernplan, prüft Terminkonflikte mit einem Kalenderwerkzeug und fragt vor dem Eintragen nach Deiner Freigabe.",
+    "answer": "Agent",
+    "explanation": "Begrenztes zielgerichtetes Handeln mit Tools und menschlicher Freigabe; autonom heißt nicht ohne Grenzen."
+  }
+]

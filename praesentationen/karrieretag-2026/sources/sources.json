@@ -1,0 +1,308 @@
+{
+  "status": "Gebaut · Quellenstand 09.11.2026",
+  "accessed": "2026-11-09",
+  "sources": [
+    {
+      "id": "E1",
+      "type": "institutional",
+      "author": "Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen",
+      "year": "2026",
+      "title": "HfWU Karrieretag | Mittwoch, 11. November 2026",
+      "url": "https://www.hfwu.de/wirtschaftskontakte/karrieretag/",
+      "evidence": "official",
+      "claim": "Veranstaltung und Datum; 13:30 Uhr stammt aus dem Nutzerauftrag.",
+      "slideIds": [
+        "slide-01-superkraft"
+      ],
+      "accessed": "2026-11-09",
+      "verification": "Primärseite geöffnet und relevante Passage gelesen."
+    },
+    {
+      "id": "G1",
+      "type": "product-offer",
+      "author": "Google",
+      "year": "o. J.",
+      "title": "Gemini für Studis und Azubis – dein virtueller Lernpartner",
+      "url": "https://gemini.google/de/students/?hl=de",
+      "evidence": "official, zeitkritisch",
+      "claim": "Deutsche Angebotsseite nennt ein Jahr Google AI Plus kostenlos für Berechtigte ab 18 und Nachweis des Status. Bedingungen vor Aktivierung prüfen.",
+      "slideIds": [
+        "slide-03-gemini",
+        "slide-15-quellen"
+      ],
+      "limits": "Fließtext und Fußnote benennen Plus/Pro nicht konsistent. Daher keinen unbedingten Pro-Anspruch oder exakten Verlängerungspreis zusagen; am Veranstaltungstag erneut prüfen.",
+      "accessed": "2026-11-09",
+      "verification": "Primärseite geöffnet und relevante Passage gelesen."
+    },
+    {
+      "id": "A1",
+      "type": "engineering-article",
+      "author": "Anthropic Engineering",
+      "year": "2024",
+      "title": "Building effective agents",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "evidence": "official, konzeptioneller Fachbeitrag; keine vergleichende Wirksamkeitsstudie",
+      "claim": "Vordefinierte Workflows von modellgesteuerter Wahl nächster Schritte und Tools unterscheiden; kleinste passende Lösung bevorzugen.",
+      "slideIds": [
+        "slide-film-eve-hugo",
+        "slide-04-drei-arten",
+        "slide-05-quiz",
+        "slide-09-pruefen",
+        "slide-10-agent",
+        "slide-13-begriffe",
+        "slide-14-big-picture",
+        "slide-15-quellen"
+      ],
+      "limits": "Der Artikel selbst weist auf seit 2024 veränderte Werkzeuge hin. Nur stabile konzeptionelle Unterscheidung verwenden.",
+      "accessed": "2026-11-09",
+      "verification": "Primärseite geöffnet und relevante Passage gelesen."
+    },
+    {
+      "id": "IS1",
+      "type": "encyclopedia",
+      "author": "Robert Winter",
+      "year": "o. J.",
+      "title": "Informationssystem-Architektur",
+      "url": "https://wi-lex.de/lexikon/informations-daten-und-wissensmanagement/informationsmanagement/information/informationssystem-architektur/",
+      "evidence": "fachliches Nachschlagewerk",
+      "claim": "Informationssysteme verbinden Aufgaben, Technik und Menschen. LLM ist Technik; Verantwortung und Ziele verbleiben bei Menschen.",
+      "slideIds": [
+        "slide-film-eve-hugo",
+        "slide-04-drei-arten",
+        "slide-12-trinity",
+        "slide-14-big-picture"
+      ],
+      "limits": "Übertragung auf LLM-Agenten ist eigene didaktische Analogie, keine Behauptung der Originalquelle.",
+      "accessed": "2026-11-09",
+      "verification": "Primärseite geöffnet und relevante Passage gelesen."
+    },
+    {
+      "id": "H1",
+      "type": "hosting-documentation",
+      "author": "GitHub",
+      "year": "o. J.",
+      "title": "What is GitHub Pages?",
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+      "evidence": "official",
+      "claim": "GitHub Pages hostet statische HTML-, CSS- und JavaScript-Dateien. Zentrale Quiz-Antworten brauchen getrennte gemeinsame Infrastruktur.",
+      "slideIds": [
+        "slide-02-zugang",
+        "slide-05-quiz",
+        "slide-08-pwa"
+      ],
+      "limits": "Clientseitiges Quiz ist auf Pages möglich; nur echte geräteübergreifende Aggregation benötigt einen Dienst.",
+      "accessed": "2026-11-09",
+      "verification": "Primärseite geöffnet und relevante Passage gelesen."
+    },
+    {
+      "id": "W1",
+      "type": "web-platform-documentation",
+      "author": "Google / web.dev",
+      "year": "o. J.",
+      "title": "Installation – Learn PWA",
+      "url": "https://web.dev/learn/pwa/installation",
+      "evidence": "official developer documentation",
+      "claim": "PWA-Installation und Web App Manifest; iOS/iPadOS manuell über Teilen und Zum Home-Bildschirm.",
+      "slideIds": [
+        "slide-08-pwa"
+      ],
+      "limits": "Einzelne Plattformdetails der Seite wirken älter; Installierbarkeit und Offline-Verhalten separat testen, keine pauschale Plattformgarantie.",
+      "accessed": "2026-11-09",
+      "verification": "Primärseite geöffnet und relevante Passage gelesen."
+    },
+    {
+      "id": "C1",
+      "type": "product-documentation",
+      "author": "OpenAI",
+      "year": "o. J.",
+      "title": "Permissions – Permission modes",
+      "url": "https://learn.chatgpt.com/docs/permission-modes#permission-modes",
+      "evidence": "official; via OpenAI Docs gesucht und Abschnitt abgerufen",
+      "claim": "Lokale Aktionen, Dateiedits, Befehle und Internetzugriffe werden durch Berechtigungen begrenzt; anfänglich mit Rückfragen arbeiten.",
+      "slideIds": [
+        "slide-06-harness",
+        "slide-10-agent",
+        "slide-14-big-picture"
+      ],
+      "accessed": "2026-11-09",
+      "verification": "Primärseite geöffnet und relevante Passage gelesen."
+    },
+    {
+      "id": "C2",
+      "type": "product-documentation",
+      "author": "Anthropic",
+      "year": "o. J.",
+      "title": "Claude Code user FAQ",
+      "url": "https://support.claude.com/en/articles/14554922-claude-code-user-faq",
+      "evidence": "official",
+      "claim": "Claude Code kann Dateien lesen/bearbeiten und Befehle ausführen; im Code-Tab der Desktop-App sowie Terminal/IDE nutzbar.",
+      "slideIds": [
+        "slide-06-harness"
+      ],
+      "limits": "Keine allgemeine Gleichsetzung von Desktop-Chat mit uneingeschränktem Dateizugriff.",
+      "accessed": "2026-11-09",
+      "verification": "Primärseite geöffnet und relevante Passage gelesen."
+    },
+    {
+      "id": "C3",
+      "type": "product-documentation",
+      "author": "Google",
+      "year": "o. J.",
+      "title": "Agent settings – Antigravity",
+      "url": "https://antigravity.google/docs/agent-settings",
+      "evidence": "official",
+      "claim": "Agentische Entwicklungsumgebung mit einstellbaren Datei-/Befehlsrechten; Zugang bewusst auf Demo-Projekt beschränken.",
+      "slideIds": [
+        "slide-06-harness"
+      ],
+      "accessed": "2026-11-09",
+      "verification": "Primärseite geöffnet und relevante Passage gelesen."
+    },
+    {
+      "id": "T1",
+      "type": "project-guide",
+      "author": "Prof. Dr. Mathias Engel",
+      "year": "2026",
+      "title": "Trinity Agenten – Praxisleitfaden",
+      "url": "https://profengel.github.io/KI-Literacy/trinity-agenten.html",
+      "evidence": "eigene didaktische Architektur, nicht unabhängiger Leistungsnachweis",
+      "claim": "Erster Agent im Hub, zusätzliche Spezialisten als Kacheln, gemeinsames Memory zum Nachschlagen und geprüften Merken, austauschbares LLM und Sicherheitsprüfungen.",
+      "slideIds": [
+        "slide-film-eve-hugo",
+        "slide-06-harness",
+        "slide-10-agent",
+        "slide-12-trinity",
+        "slide-13-begriffe",
+        "slide-14-big-picture",
+        "slide-15-quellen"
+      ],
+      "verification": "Lokale veröffentlichte Fassung und Medienmanifest gelesen.",
+      "accessed": "2026-11-09"
+    },
+    {
+      "id": "T2",
+      "type": "project-website",
+      "author": "Prof. Dr. Mathias Engel",
+      "year": "2026",
+      "title": "ProfEngel – KI verstehen. Selbst gestalten. / Lernwerkstatt",
+      "url": "https://profengel.de/labor/",
+      "evidence": "eigene Projektinformation, kein öffentlich verifizierter Serverzugang",
+      "claim": "Bestehende Lernwerkstatt ist mögliche eigene Hosting-Umgebung. Serveranbindung und Berechtigungen sind noch nicht geklärt.",
+      "slideIds": [
+        "slide-02-zugang"
+      ],
+      "accessed": "2026-11-09",
+      "verification": "Primärseite geöffnet und relevante Passage gelesen."
+    },
+    {
+      "id": "AA1",
+      "type": "benchmark-methodology",
+      "author": "Artificial Analysis",
+      "year": "o. J.",
+      "title": "Intelligence Benchmarking Methodology",
+      "url": "https://artificialanalysis.ai/methodology/intelligence-benchmarking",
+      "evidence": "Primärquelle des Benchmark-Anbieters; keine allgemeingültige Modellrangliste",
+      "claim": "Ein definierter Aufgabenmix liefert Vergleichswerte. Modellwahl zusätzlich nach Aufgabe, Kosten, Zeit und eigener Gegenprobe treffen.",
+      "slideIds": [
+        "slide-13-begriffe",
+        "slide-15-quellen"
+      ],
+      "limits": "Keine undatierten SOTA-Sieger oder Gleichsetzung von Benchmarkwert und universeller Eignung.",
+      "accessed": "2026-11-09",
+      "verification": "Primärseite geöffnet; für Plan ausgewertet."
+    },
+    {
+      "id": "F1",
+      "type": "educational-documentation",
+      "author": "Hugging Face",
+      "year": "o. J.",
+      "title": "Introduction – LLM Course",
+      "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+      "evidence": "technische Lehrquelle des Anbieters",
+      "claim": "Einführung in Sprachmodelle, Tokenizer und Weitertraining; Grundlage für den Begriffs-Kompass.",
+      "slideIds": [
+        "slide-13-begriffe"
+      ],
+      "limits": "Begriffsspezifische Aussagen und Metaphergrenzen vor Bildproduktion weiter prüfen; diese Einführung allein belegt nicht alle 20 Definitionen.",
+      "accessed": "2026-11-09",
+      "verification": "Primärseite geöffnet; für Plan ausgewertet."
+    },
+    {
+      "id": "F2",
+      "type": "educational-documentation",
+      "author": "Hugging Face",
+      "year": "o. J.",
+      "title": "Introduction to Instruction Tuning with SmolLM3",
+      "url": "https://huggingface.co/learn/smol-course/unit1/1",
+      "evidence": "technische Primär-Lehrquelle",
+      "claim": "Kleinere Sprachmodelle können gezielt weitertrainiert werden; Fine-Tuning ist nicht bloßer Dokumentenimport.",
+      "slideIds": [
+        "slide-13-begriffe"
+      ],
+      "limits": "Keine Behauptung, das dortige Modell sei im November 2026 das beste kleine Modell.",
+      "accessed": "2026-11-09",
+      "verification": "Primärseite geöffnet; für Plan ausgewertet."
+    },
+    {
+      "id": "W2",
+      "type": "web-platform-documentation",
+      "author": "MDN contributors",
+      "year": "2026",
+      "title": "Installing and uninstalling web apps",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Installing",
+      "evidence": "Webplattform-Dokumentation; Änderungsdatum 17.09.2026",
+      "claim": "PWA-Installation ist geräte-/browserabhängig. Safari auf iOS bietet Hinzufügen zum Home-Bildschirm; Browserinstanzen teilen Daten nicht automatisch.",
+      "slideIds": [
+        "slide-08-pwa"
+      ],
+      "limits": "Offline muss tatsächlich implementiert/getestet werden; Installation allein erzeugt keinen vollständigen Cache.",
+      "accessed": "2026-11-09",
+      "verification": "Primärseite geöffnet; für Plan ausgewertet."
+    },
+    {
+      "id": "D1",
+      "author": "Hugging Face",
+      "title": "Text generation · Transformers 4.50.0",
+      "url": "https://huggingface.co/docs/transformers/v4.50.0/en/main_classes/text_generation",
+      "claim": "Temperature beeinflusst Token-Auswahl; kein Wahrheitsregler.",
+      "type": "official-documentation",
+      "year": "o. J.",
+      "evidence": "Primärdokumentation",
+      "accessed": "2026-11-09",
+      "verification": "Geöffnet und relevante Passagen geprüft.",
+      "slideIds": [
+        "slide-13-begriffe"
+      ]
+    },
+    {
+      "id": "D2",
+      "author": "Microsoft Learn",
+      "title": "Retrieval augmented generation",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/concepts/retrieval-augmented-generation",
+      "claim": "RAG, Embeddings und Abgrenzung zum Training.",
+      "type": "official-documentation",
+      "year": "o. J.",
+      "evidence": "Primärdokumentation",
+      "accessed": "2026-11-09",
+      "verification": "Geöffnet und relevante Passagen geprüft.",
+      "slideIds": [
+        "slide-13-begriffe"
+      ]
+    },
+    {
+      "id": "D3",
+      "author": "Google",
+      "title": "Gemini policy guidelines",
+      "url": "https://gemini.google/policy-guidelines/",
+      "claim": "Probabilistische Erzeugung und Grenzen; plausible Ausgabe kann falsch sein.",
+      "type": "official-documentation",
+      "year": "o. J.",
+      "evidence": "Primärdokumentation",
+      "accessed": "2026-11-09",
+      "verification": "Geöffnet und relevante Passagen geprüft.",
+      "slideIds": [
+        "slide-13-begriffe"
+      ]
+    }
+  ]
+}
