@@ -2,7 +2,7 @@
 
 Willkommen im Lehr- und Lernrepository von **Prof. Dr. Mathias Engel**. Hier findest du News-Briefings und Linklisten, HTML-Vorlesungspräsentationen, Begleitmaterial, Projektideen, Übungen, Daten und weiterführende Module rund um KI, Data Science und digitale Inhalte.
 
-**[Zur Kurs-Website auf GitHub Pages](https://profengel.github.io/KI-Literacy/)** · **[Trinity Agenten-Leitfaden](https://profengel.github.io/KI-Literacy/trinity-agenten.html)** · **[PDF-Leitfaden](docs/Trinity_Agent_Praxisleitfaden_HfWU.pdf)** · **[LLM-Bauanleitung](docs/TrinityAgenten_Leitfaden_LLM.md)** · **[News & Linkliste](docs/Linkliste.md)** · **[Projektideen](docs/Projektideen_KI_DataScience_2026.md)**
+**[Zur Kurs-Website auf GitHub Pages](https://profengel.github.io/KI-Literacy/)** · **[Trinity Agenten-Leitfaden](https://profengel.github.io/KI-Literacy/trinity-agenten.html)** · **[PDF-Leitfaden](docs/Trinity_Agent_Praxisleitfaden_HfWU.pdf)** · **[LLM-Bauanleitung](docs/TrinityAgenten_Leitfaden_LLM.md)** · **[Codex als Orchestrator](https://profengel.github.io/KI-Literacy/codex-orchestrator.html)** · **[News & Linkliste](docs/Linkliste.md)** · **[Projektideen](docs/Projektideen_KI_DataScience_2026.md)**
 
 Die Website zeigt die Präsentationen direkt im Browser. Auf GitHub findest du die Dateien zum Lesen, Herunterladen und Weiterarbeiten. Über **Code → Download ZIP** kannst du das Repository herunterladen; für die HTML-Folien benötigst du keinen Build-Schritt.
 
@@ -90,6 +90,7 @@ Einzelne Materialien dokumentieren frühere Werkzeugstände. Prüfe für Install
 
 ## Ressourcen-Übersicht
 
+- **[Codex als Orchestrator](https://profengel.github.io/KI-Literacy/codex-orchestrator.html):** lokale und Cloud-Worker passend einsetzen, vorher mit echten Dateien und Werkzeugen prüfen und eine belegte Routingmatrix erstellen. Mit [Einrichtungsprompt](docs/Codex_Orchestrator_Setup_Prompt.txt), Testplan und [leerer Reportvorlage](docs/Codex_Orchestrator_Reportvorlage.md). Die statische Seite selbst startet keine Modelle; Einrichtung und Tests erfolgen im eigenen Codex. Qualität vor Kosten vor Zeit, ausdrückliche Zustimmung vor lokal→Cloud-Fallback und keine pauschalen Einsparversprechen.
 - **[HTML-Präsentationen](praesentationen/):** portable Foliensätze mit Bildern, Übungen, Quellen und Dozentenleitfaden. Live-Webseiten und Online-Videos benötigen Internet.
 - **[News-Briefings und Linkliste](docs/Linkliste.md):** Entwicklungen, Benchmarks und praktische Werkzeuge.
 - **[Projektkatalog](docs/Projektideen_KI_DataScience_2026.md):** KI-WebUI-Anwendungen und Data-Science-Dashboards.
@@ -143,4 +144,4 @@ Das Repository ergänzt die Bucharbeit **„KI & Data Science – AI in a Brains
 
 Die bestehenden Daten, Module und Installationsanleitungen bleiben als Vertiefungsbestand erhalten. Der Einstieg erfolgt über die Veranstaltungen, die Kurs-Website und die Präsentationen.
 
-Prof. Dr. Mathias Engel · Stand: **9. November 2026**
+Prof. Dr. Mathias Engel · Stand: **12. November 2026**

@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Codex als Orchestrator · Praxisleitfaden · KI-Literacy</title>
+<meta name="description" content="Praxisleitfaden: Codex als Orchestrator für lokale Modelle – Rollen, Einrichtung, Testplan, Kosten, Sicherheit.">
+<style>
+:root{
+  --ink:#193c36;--green:#246e58;--muted:#566e64;--paper:#fbfcf7;
+  --soft:#e7eee3;--line:#d5dfd4;--accent:#cf6e55;--white:#ffffff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:var(--green);text-underline-offset:4px;overflow-wrap:anywhere}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.9em;background:var(--soft);border:1px solid var(--line);padding:1px 6px;border-radius:5px;overflow-wrap:anywhere}
+.site-header{max-width:1400px;margin:auto;padding:22px 5%;display:flex;justify-content:space-between;align-items:center;gap:24px;border-bottom:1px solid var(--line)}
+.brand{font-weight:800;font-size:24px;letter-spacing:-1px;text-decoration:none;color:var(--ink)}
+nav{display:flex;align-items:center;gap:26px;font-size:15px;font-weight:600;flex-wrap:wrap}
+main{max-width:980px;margin:auto;padding:0 5% 40px}
+.eyebrow{font-size:12px;letter-spacing:2px;font-weight:800;color:var(--green);text-transform:uppercase}
+h1{font-size:clamp(34px,4.4vw,52px);line-height:1.05;letter-spacing:-2px;margin:14px 0 18px}
+h1 em{font-style:normal;color:var(--green)}
+h2{font-size:clamp(26px,3vw,36px);letter-spacing:-1.2px;line-height:1.15;margin:0 0 16px}
+h3{font-size:21px;letter-spacing:-.4px;margin:28px 0 10px}
+.lede{max-width:720px;font-size:19px;color:var(--muted);margin:0 0 14px}
+.page-note{font-size:14.5px;color:var(--muted);border-left:3px solid var(--line);padding-left:14px;margin:16px 0 0}
+.quicknav{margin:20px 0 0;font-size:14.5px;display:flex;gap:8px 18px;flex-wrap:wrap}
+.quicknav span{color:var(--muted)}
+section{margin-top:60px;padding-top:6px}
+section.first{margin-top:38px}
+section{scroll-margin-top:24px}
+.tldr{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:22px 26px;margin:20px 0}
+.tldr p{margin:0;font-size:19px;line-height:1.6}
+.tldr strong{color:var(--green)}
+.role-flow{display:flex;gap:22px;list-style:none;padding:0;margin:24px 0 8px}
+.role-flow li{flex:1 1 0;min-width:0;background:var(--white);border:1px solid var(--line);border-radius:12px;padding:16px;position:relative}
+.role-flow li::before{content:attr(data-step);display:inline-flex;width:28px;height:28px;border-radius:50%;background:var(--soft);color:var(--green);font-weight:800;font-size:13px;align-items:center;justify-content:center;margin-bottom:10px}
+.role-flow li strong{display:block;font-size:15.5px;margin-bottom:4px}
+.role-flow li p{margin:0;font-size:13.5px;line-height:1.5;color:var(--muted)}
+.role-flow li:not(:last-child)::after{content:"→";position:absolute;right:-17px;top:50%;transform:translateY(-50%);color:var(--green);font-size:17px;font-weight:800;z-index:1}
+.flow-note{font-size:13.5px;color:var(--muted);margin:4px 0 0}
+.steps{list-style:none;padding:0;margin:22px 0;counter-reset:step}
+.steps>li{counter-increment:step;position:relative;padding:0 0 30px 62px}
+.steps>li::before{content:counter(step);position:absolute;left:0;top:2px;width:42px;height:42px;border-radius:12px;background:var(--white);border:1px solid var(--line);color:var(--green);font-weight:800;font-size:17px;display:flex;align-items:center;justify-content:center}
+.steps>li>strong{display:block;font-size:18.5px;margin-bottom:6px}
+.steps>li>p{margin:0 0 8px;max-width:760px}
+.steps ul{margin:8px 0 0;padding-left:22px;max-width:760px}
+.steps ul li{margin:7px 0}
+details{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:var(--white);padding:16px 20px}
+summary{cursor:pointer;font-weight:700;color:var(--green);font-size:16.5px}
+details[open]>summary{margin-bottom:12px}
+details p{margin:8px 0;max-width:780px}
+.plan-wrap{border:1px solid var(--line);border-radius:12px;overflow-x:auto;background:var(--white);margin:20px 0}
+table.plan{width:100%;border-collapse:collapse;font-size:15.5px;min-width:560px}
+table.plan th,table.plan td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+table.plan thead th{background:var(--soft);font-size:12.5px;letter-spacing:.6px;text-transform:uppercase;color:var(--muted)}
+table.plan tbody tr:last-child td{border-bottom:0}
+.safety-box{background:#fdf3ee;border:1px solid #eccabf;border-left:5px solid var(--accent);border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0}
+.safety-box p{margin:0 0 10px}
+.safety-box ul{margin:8px 0 0;padding-left:20px}
+.safety-box li{margin:10px 0}
+.prompt-box{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:20px;margin:20px 0}
+.prompt-box label{display:block;font-weight:700;margin-bottom:10px;font-size:15.5px}
+#setupPrompt{width:100%;min-height:340px;max-height:65vh;resize:vertical;font:13.5px/1.6 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:16px}
+.prompt-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:14px}
+#copyStatus{margin:0;font-size:14px;color:var(--muted)}
+.downloads{margin:18px 0 0;padding-left:22px}
+.downloads li{margin:8px 0}
+.button{display:inline-block;background:var(--green);color:#fff;border:1px solid var(--green);border-radius:8px;padding:11px 20px;font-size:15.5px;font-weight:650;cursor:pointer;text-decoration:none;font-family:inherit}
+.button:hover{background:#1e5c49}
+.button.secondary{background:var(--soft);color:var(--green);border-color:var(--line)}
+.button.secondary:hover{background:#dce7d6}
+.checklist{list-style:none;padding:0;margin:18px 0;display:grid;gap:10px}
+.checklist label{display:flex;gap:12px;align-items:flex-start;background:var(--white);border:1px solid var(--line);border-radius:10px;padding:13px 16px;cursor:pointer;font-size:16px}
+.checklist input[type="checkbox"]{width:20px;height:20px;accent-color:var(--green);flex:0 0 auto;margin-top:2px}
+#checklistProgress{font-size:15px;font-weight:600;color:var(--green)}
+.fine{font-size:14px;color:var(--muted)}
+footer{max-width:1400px;margin:auto;padding:26px 5%;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px}
+a:focus-visible,button:focus-visible,summary:focus-visible,textarea:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+@media (max-width:900px){
+  .role-flow{flex-direction:column;gap:14px}
+  .role-flow li:not(:last-child)::after{display:none}
+}
+@media (max-width:600px){
+  body{font-size:17px}
+  .site-header{flex-direction:column;align-items:flex-start;gap:10px;padding-top:18px}
+  nav{gap:14px}
+  main{padding:0 4% 32px}
+  section{margin-top:44px}
+  .steps>li{padding-left:52px}
+  .steps>li::before{width:36px;height:36px;font-size:15px}
+  table.plan{font-size:14px}
+  .tldr,.safety-box,.prompt-box,details{padding:16px}
+}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+}
+@media print{
+  body{background:#fff;font-size:11pt}
+  .site-header nav,.button,#copyStatus,.prompt-actions,.quicknav{display:none}
+  main{max-width:none;padding:0}
+  section{margin-top:26pt}
+  a{color:var(--ink);text-decoration:none}
+  details{border:0;background:#fff;padding:8pt 0}
+  .prompt-box textarea{border:0;background:transparent;color:#111;min-height:0;max-height:none}
+  .tldr,.safety-box{break-inside:avoid}
+  h2,h3{break-after:avoid}
+  .plan-wrap{overflow:visible}
+}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="./">KI-Literacy</a>
+  <nav aria-label="Hauptnavigation">
+    <a href="trinity-agenten.html">Trinity Agenten</a>
+    <a href="https://github.com/ProfEngel/KI-Literacy">GitHub&nbsp;↗</a>
+  </nav>
+</header>
+<main>
+<section class="first" id="intro">
+  <p class="eyebrow">Praxisleitfaden · Fassung 12.11.2026</p>
+  <h1>Codex als <em>Orchestrator</em></h1>
+  <p class="lede">Qualität vor Kosten vor Zeit. Dein gewähltes Codex-Modell bleibt die Teamleitung; passende Modelle übernehmen klar begrenzte Aufgaben.</p>
+  <p class="page-note">Eine Anleitung, kein Modellstarter: Die Seite nimmt keine API-Schlüssel entgegen und sendet keine Checklisten-Eingaben an einen Server. Einrichtung und Tests führst du in deinem eigenen Codex aus.</p>
+  <p class="quicknav"><span>Schnellzugriff:</span>
+    <a href="#tldr">Kurz gesagt</a>
+    <a href="#schritte">Vier Schritte</a>
+    <a href="#testplan">Testplan</a>
+    <a href="#prompt">Nutzerauftrag</a>
+    <a href="#checkliste">Selbstcheck</a>
+  </p>
+</section>
+
+<section id="tldr">
+  <h2>Kurz gesagt</h2>
+  <div class="tldr">
+    <p><strong>TLDR:</strong> Du gibst den Auftrag. Codex verteilt passende Arbeit, prüft sie und führt Ergebnisse zusammen. Lokale Modelle zuerst – Cloudwechsel nach einem lokalen Versuch nur mit Deiner ausdrücklichen Bestätigung.</p>
+  </div>
+</section>
+
+<section id="ablauf">
+  <h2>Vom Auftrag zur Abnahme</h2>
+  <ol class="role-flow">
+    <li data-step="1"><strong>Auftrag</strong><p>Du formulierst Aufgabe, Abnahmekriterien und Grenzen.</p></li>
+    <li data-step="2"><strong>Orchestrator</strong><p>Codex plant, verteilt Arbeitspakete und prüft Fortschritt.</p></li>
+    <li data-step="3"><strong>Geprüfter Worker</strong><p>Ein lokales Modell arbeitet mit den freigegebenen Werkzeugen.</p></li>
+    <li data-step="4"><strong>Dateien + Tests</strong><p>Ergebnis liegt als Artefakte und Testbelege vor.</p></li>
+    <li data-step="5"><strong>Abnahme</strong><p>Menschliche Prüfung; danach Freigabe oder gezielte Nacharbeit.</p></li>
+  </ol>
+  <p class="flow-note">Rollenübersicht: Sie beschreibt Zuständigkeiten und Übergaben – kein gemessener Modellvergleich.</p>
+</section>
+
+<section id="schritte">
+  <h2>Vier praktische Schritte</h2>
+  <p>Die Reihenfolge ist bewusst: erst verstehen, dann einrichten, dann beweisen, dann messen.</p>
+  <ol class="steps">
+    <li>
+      <strong>Inventar und Ausgangslage klären</strong>
+      <p>Notiere, was tatsächlich vorhanden ist: Codex-Version, Betriebssystem, freigegebene Modelle, exakte Modell- und API-Instanz, Anbieter/Host, Lizenz, Kontext- und Denkoptionen.</p>
+      <ul>
+        <li>Angeforderte und tatsächlich bestätigte Einstellungen getrennt festhalten.</li>
+        <li>Nicht freigegebene Modelle nicht laden; keine Einstellungen eines fremden Rechners blind übernehmen.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Globale Regel ergänzen, nicht überschreiben</strong>
+      <p>Sichere die bestehende Anleitung und ergänze nur einen klar markierten Abschnitt. Beachte Overrides, Projektregeln und ein anderes CODEX_HOME.</p>
+      <ul>
+        <li>In frischer Sitzung prüfen: Regelquelle, lokale Priorität, Opt-out und Cloud-Freigabe.</li>
+        <li>Bestehende Chats neu einlesen lassen. Es ist eine Arbeitsanweisung, kein technisch erzwungener Router.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Echte Agentenprobe in isolierten Dateien</strong>
+      <p>Lass Modelle reale Arbeit machen: Dateien lesen und ändern, Scripts und Tests ausführen, Fehler behandeln, Quellen und Skills nutzen.</p>
+      <ul>
+        <li>Nur isolierte, freigegebene Testdateien – keine echten Geheimnisse, keine risikoreichen Eingriffe.</li>
+        <li>Rechte technisch beschränken: Anweisungen und Promptregeln sind keine Sandbox.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Messen, routen, bilanzieren</strong>
+      <p>Teste für deinen Arbeitsmix mit gleichen Eingaben und einer kleinen wiederholten Stichprobe (z.&nbsp;B. drei Läufe je Test) statt eines Universalurteils.</p>
+      <ul>
+        <li>Routing auf Modell&nbsp;×&nbsp;Aufgabentyp beziehen – keine pauschalen Gesamtsieger.</li>
+        <li>Token- und Zeitwerte nur aus Belegen; Orchestrierung, Review, Wiederholung und Reparatur in die Bilanz, lokale Hardware und Strom separat.</li>
+        <li>Keine pauschalen Einsparungs- oder Qualitätsversprechen. Nicht getestet ist nicht schlecht und nicht bestanden.</li>
+      </ul>
+    </li>
+  </ol>
+</section>
+
+<section id="vertiefungen">
+  <h2>Vertiefungen</h2>
+  <details>
+    <summary>Lokale Inferenz und Vertraulichkeit</summary>
+    <p>Lokale Inferenz bedeutet selbstgehostet – oft auf einem eigenen GPU-Server, nicht zwingend auf dem eigenen Rechner. Das ersetzt keine Sicherheitsprüfung: Wenn Werkzeuge selbst Daten versenden (Befehle, Uploads, externe Aufrufe), garantiert ein selbstgehostetes Modell keine Vertraulichkeit. Prüfe pro Modell und pro Werkzeug, was gesendet wird – und behaupte keine Parität, die nicht nachgewiesen ist.</p>
+  </details>
+  <details>
+    <summary>Native Unteragenten und Codex-CLI-Worker</summary>
+    <p>Native Unteragenten laufen im Codex-Harness; die aktuelle OpenAI-Dokumentation beschreibt, dass sie Provider und Rechte des Elternkontexts erben. Separat gestartete Codex-CLI-Worker mit lokalem Provider sind eine andere Integration: Provider- oder Modellname allein erzeugt weder native Registrierung noch Werkzeugparität. Nutze die tatsächlich verfügbare Integration und halte fehlende Fähigkeiten im Report fest.</p>
+  </details>
+  <details>
+    <summary>Messung und Gesamtbilanz</summary>
+    <p>Lege vor den Läufen eine versionierte Testsuite fest: gleiche Eingaben, überprüfbare Soll-Ergebnisse, Qualitätsrubrik, unabhängige Abnahme. Erfasse pro Lauf Modellinstanz, angeforderte und bestätigte Einstellungen, Host, Versionen, Belege, Zeit, verfügbare Token- und Creditwerte, Fehler und Nacharbeit. Unbekannte Werte bleiben unbekannt; ein Exitcode&nbsp;0 oder „fertig“ genügt nicht zur Abnahme.</p>
+    <p>Kosten vergleiche nur bei vergleichbarer bestandener Abnahme und weise lokale Hardware- und Energiekosten separat aus. Schlechtere Qualität ist keine Ersparnis, und ohne belastbare Messwerte gibt es keine Ersparnisquote.</p>
+  </details>
+  <details>
+    <summary>Globale Regeln: Einrichtung und Prüfung</summary>
+    <p>Die globale Anleitung wird beim Start neuer Codex-Sitzungen dieses Benutzers geladen. Prüfe abweichendes CODEX_HOME, Overrides und Projektregeln; verändere Anmeldung und Berechtigungen nicht still. „Nur du, keine Delegation“ schaltet andere Modelle für den benannten Umfang aus. Prüfe das Regelverständnis in einem frischen Kontext und lass bestehende Chats neu einlesen. Es bleibt eine Arbeitsanweisung – kein technisch erzwungener Router.</p>
+  </details>
+  <details>
+    <summary>Transparenz und Freigabe im Betrieb</summary>
+    <p>Worker delegieren nicht weiter. Vor jedem Start: Teilauftrag, exakte Modellkennung, Host und lokal/Cloud ankündigen. Prüfe Fortschritt sinnvoll; lange aktive Denkphasen nicht automatisch abbrechen. Vor jedem Fallback von lokal zu Cloud: Grund, Zielmodell und Datenumfang nennen und auf die ausdrückliche Bestätigung warten. Schweigen ist keine Zustimmung.</p>
+  </details>
+</section>
+
+<section id="testplan">
+  <h2>Sechs Testkategorien</h2>
+  <p>Die Kategorien sind Vorschläge für deinen Arbeitsmix – keine angeblichen Ergebnisse und keine Freigabe. Passe sie an deine echten Aufträge an.</p>
+  <div class="plan-wrap">
+    <table class="plan">
+      <thead>
+        <tr><th>Nr.</th><th>Kategorie</th><th>Fokus</th><th>Abnahme</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Code + Tests</td><td>Kleine Änderung an echten Dateien, mit Werkzeugen und Tests</td><td>Ausführung, Testlauf, Fehlerbehandlung</td></tr>
+        <tr><td>2</td><td>Quellengebundener deutscher Fachtext</td><td>Freigegebene Quellen, fachliche Richtigkeit</td><td>Fachprüfung durch Mensch</td></tr>
+        <tr><td>3</td><td>Projekttypischer Stiltext</td><td>Definierter Stil und Stimme des Projekts</td><td>Menschliche Stilprüfung</td></tr>
+        <tr><td>4</td><td>Offline-HTML mit Interaktion</td><td>Self-contained Seite mit CSS/JS, ohne Abhängigkeiten</td><td>Sicht- und Funktionstest</td></tr>
+        <tr><td>5</td><td>Kontextwechsel</td><td>Dateiübergabe, widersprüchlicher Altstand</td><td>Konsistenzprüfung</td></tr>
+        <tr><td>6</td><td>Sicherheits-/Rechteprobe</td><td>Synthetische Prompt-Injection, isoliert</td><td>Isolierte Prüfung, keine echten Daten</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <h3>Rubrik pro Lauf</h3>
+  <ul>
+    <li>Ergebnisqualität nach vorher fester Abnahme</li>
+    <li>Werkzeugfehler und blockierte Fähigkeiten</li>
+    <li>Tatsächlich ausgeführte Tests</li>
+    <li>Nacharbeit: keine, gezielt oder wesentlich</li>
+    <li>Gesamtdauer inklusive Werkzeugen</li>
+    <li>Token-/Creditbeleg – oder unbekannt</li>
+  </ul>
+  <p class="fine">Ergänze menschliche Fach- und Stilabnahme – nicht nur die Selbsteinschätzung eines Modells. Nicht getestet ist nicht schlecht und nicht bestanden.</p>
+</section>
+
+<section id="sicherheit">
+  <h2>Sicherheit und Freigabe</h2>
+  <div class="safety-box">
+    <ul>
+      <li>Lokale Modelle zuerst. Ein Cloudwechsel nach einem lokalen Versuch nur mit ausdrücklicher Bestätigung – Grund, Zielmodell und Datenumfang vorher nennen.</li>
+      <li>„Nur du, keine Delegation“ gilt für den benannten Umfang. Worker delegieren nicht weiter; jeder Start ist sichtbar zugeordnet.</li>
+      <li>Keine echten Geheimnisse in Tests; Rechte technisch beschränken. Anweisungen und Promptregeln sind keine Sandbox.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="prompt">
+  <h2>Nutzerauftrag zum Einrichten</h2>
+  <p>Der Auftrag ist wortgleich mit der Datei <code>docs/Codex_Orchestrator_Setup_Prompt.txt</code>. Kopiere ihn in Codex oder lade die Datei herunter.</p>
+  <div class="prompt-box">
+    <details id="prompt-details">
+    <summary>Vollständigen Auftrag ansehen</summary>
+    <label for="setupPrompt">Nutzerauftrag (schreibgeschützt, wortgleich zur Datei)</label>
+    <textarea id="setupPrompt" readonly spellcheck="false">Richte in Codex eine benutzerweite Delegation ein: Qualität vor Kosten vor Zeit. Du bleibst Orchestrator. Nutze primär meine bereitgestellten lokalen LLMs; native Cloud-Untermodelle ergänzend. Frage nur nach fehlenden Zugängen oder Anforderungen.
+
+Teste die Modelle an repräsentativen Aufgaben meines tatsächlichen Arbeitsmixes: echte Dateien, Werkzeuge, Tests, Kontextwechsel sowie relevante Sprachen und Schreibstile. Erstelle daraus eine belegte Routingmatrix mit Stärken, Grenzen und Nacharbeitsbedarf.
+
+Binde lokale Modelle als echte Agenten im Codex-Harness ein, mit denselben freigegebenen Projektdateien, Scripts, Skills und benötigten Werkzeugen und höchstens den Rechten des Elternagenten. Prüfe Sandbox und Werkzeugkompatibilität praktisch; melde fehlende Fähigkeiten offen. Bloße Chat-API-Antworten reichen nicht.
+
+Verteile passende Arbeitspakete mit Abnahmekriterien und Dateiübergaben. Prüfe Fortschritt, Tests und Ergebnisse regelmäßig; redigiere gezielt nach. Nutze angemessene Zeitlimits statt vorschneller Abbrüche. Worker delegieren nicht weiter. Kündige Aufgabe, exaktes Modell, Host und lokal/Cloud an; dokumentiere Beiträge und Reparaturen. Vor lokal→Cloud-Fallback nenne Grund, Zielmodell und Datenumfang und warte auf meine ausdrückliche Bestätigung.
+
+Verankere das für alle Chats dieser Codex-Installation, ohne bestehende Anmeldung, Berechtigungen oder Projektregeln zu überschreiben. „Nur du, keine Delegation“ schaltet andere Modelle für den benannten Umfang aus. Prüfe die globale Regel in einem frischen Kontext. Liefere Report und Nachweise. Ziel ist vergleichbare Qualität bei weniger Credits; miss die Gesamtbilanz einschließlich Orchestrierung und Nacharbeit, statt Qualitätsgleichheit oder Ersparnisse zu versprechen.
+
+Ergänzende Ausführungsgrenzen:
+- Ermittle auf diesem Rechner verfügbare Modelle, Codex-Version, tatsächliche Provider-/Werkzeugfunktionen und aktive Regeln. Lade oder ersetze kein nicht freigegebenes Modell. Übernimm keine Endpunkte oder Einstellungen eines fremden Rechners blind.
+- Unterscheide native Codex-Unteragenten von separaten Codex-CLI-Workern mit lokalem Provider. Nutze die tatsächlich verfügbare Integration; behaupte keine native Registrierung oder vollständige Desktop-/MCP-Parität ohne Nachweis. Halte fehlende Fähigkeiten im Report fest.
+- Verwende für Tests isolierte, freigegebene Arbeitskopien und synthetische Sicherheitsfälle. Beschränke Rechte technisch; Anweisungen allein sind keine Sandbox. Starte bei unklarer Isolation keinen sicherheitskritischen Test. Keine echten Geheimnisse, gefährlichen Aktionen oder pauschale Datenweitergabe.
+- Sichere bestehende globale Anleitungen und ergänze nur einen klar markierten Abschnitt. Beachte Overrides und Projektregeln. Ändere Anmeldung, Hauptmodell, Berechtigungen oder bestehende Provider nicht still. Prüfe die Regelgeltung nach dem Einrichten in einer frischen Sitzung und beschreibe verbleibende Grenzen.
+- Definiere vor den Modelltests eine versionierte Testsuite mit Soll-Ergebnissen, Qualitätsrubrik und unabhängiger Abnahme. Nutze gleiche Eingaben, mehrere repräsentative Fälle und nach Möglichkeit Wiederholungen; dokumentiere einen echten Kontextwechsel. Messe Modell × Aufgabentyp, nicht bloß eine Chatantwort.
+- Erfasse pro Lauf Modellinstanz, angeforderte und bestätigte Einstellungen, Host, Versionen, Artefakt-/Testbelege, Zeit, verfügbare Token-/Creditwerte, Fehler und Nacharbeit. Unbekannte Werte bleiben unbekannt; nicht getestet ist nicht bestanden. Weise lokale Hardware-/Energiekosten separat aus.
+- Erstelle einen menschlich lesbaren Report und eine Routingmatrix mit Datum, Grenzen und Nachtestempfehlung. Berücksichtige Orchestrierung, Review und Reparaturen in der Gesamtbilanz. Vergleiche Kosten nur bei vergleichbarer bestandener Abnahme; versprich keine pauschale Ersparnis.
+- Private Berichte, Rohprotokolle und Zugangsdaten bleiben lokal. Keine kostenpflichtigen Testserien, Veröffentlichungen oder wesentlichen Datenübertragungen ohne passende Freigabe. Nach lokalem Versuch bleibt für jeden Cloud-Fallback eine ausdrückliche menschliche Bestätigung erforderlich.
+</textarea>
+    </details>
+    <div class="prompt-actions">
+      <button type="button" class="button" id="copyPrompt">Kopieren</button>
+      <p id="copyStatus" role="status">Bereit.</p>
+    </div>
+  </div>
+  <ul class="downloads">
+    <li><a href="docs/Codex_Orchestrator_Setup_Prompt.txt" download>Nutzerauftrag als Datei (.txt) herunterladen</a></li>
+    <li><a href="docs/Codex_Orchestrator_Reportvorlage.md" download>Leere Reportvorlage (.md) herunterladen</a></li>
+  </ul>
+  <p class="fine">Kopieren nutzt deine Zwischenablage. Ein Download lädt die gewählte Vorlage vom Webserver und speichert sie auf deinem Gerät. Die Checkliste wird nicht übertragen; externe Quellenlinks führen auf die jeweiligen Anbieter-Websites.</p>
+</section>
+
+<section id="checkliste">
+  <h2>Selbstcheck für deine Einrichtung</h2>
+  <p>Ein Selbstcheck in sechs Punkten – keine automatisierte Prüfung, kein Sicherheitstest, keine Freigabe. Nur Browserzustand: Es wird nichts gespeichert und nichts übertragen.</p>
+  <ul class="checklist" id="checklist">
+    <li><label><input type="checkbox" id="ck1"> Inventar steht: Versionen, freigegebene Modelle, Host, Rechte</label></li>
+    <li><label><input type="checkbox" id="ck2"> Globale Regel gesichert und markiert ergänzt – nichts überschrieben</label></li>
+    <li><label><input type="checkbox" id="ck3"> Regelverständnis in frischer Sitzung geprüft</label></li>
+    <li><label><input type="checkbox" id="ck4"> Echte Agentenprobe in isolierten Testdateien durchgeführt</label></li>
+    <li><label><input type="checkbox" id="ck5"> Testsuite mit Abnahme und Wiederholungen je Kategorie</label></li>
+    <li><label><input type="checkbox" id="ck6"> Report mit Routingmatrix; Unbekanntes als unbekannt gekennzeichnet</label></li>
+  </ul>
+  <p id="checklistProgress" role="status">0 von 6 Punkten abgehakt.</p>
+  <p><button type="button" class="button secondary" id="resetChecklist">Zurücksetzen</button></p>
+  <p class="fine">Der Selbstcheck dokumentiert deine eigene Arbeit; er ist kein Nachweis gegenüber Dritten.</p>
+</section>
+
+<section id="quellen">
+  <h2>Quellen</h2>
+  <p>Geöffnet und geprüft am 12.11.2026:</p>
+  <ul>
+    <li>Globale Anleitung (AGENTS.md): <a href="https://developers.openai.com/codex/guides/agents-md/">developers.openai.com/codex/guides/agents-md</a></li>
+    <li>Provider und OSS-Modus: <a href="https://developers.openai.com/codex/config-advanced/">developers.openai.com/codex/config-advanced</a></li>
+    <li>Subagenten und aktuelle Rollenbeschränkungen: <a href="https://learn.chatgpt.com/docs/agent-configuration/subagents">learn.chatgpt.com/docs/agent-configuration/subagents</a></li>
+  </ul>
+  <p class="fine">Die OpenAI-Dokumentation beschreibt aktuell, dass native Custom Agents Provider und Rechte des Elternkontexts erben. Eine separate CLI-Providerintegration ist daher keine automatische native lokale Unteragentenregistrierung.</p>
+</section>
+</main>
+<footer>
+  KI-Literacy · Codex als Orchestrator · Fassung 12.11.2026 · Praxisleitfaden, keine installierte Anwendung oder laufende Modellprüfung
+</footer>
+<script>
+(function () {
+  'use strict';
+  var copyBtn = document.getElementById('copyPrompt');
+  var promptBox = document.getElementById('setupPrompt');
+  var copyStatus = document.getElementById('copyStatus');
+
+  copyBtn.addEventListener('click', function () {
+    var text = promptBox.value;
+    function done() {
+      copyStatus.textContent = 'Kopiert: Der Nutzerauftrag liegt in der Zwischenablage.';
+    }
+    function failed() {
+      var details = promptBox.closest('details');
+      if (details) { details.open = true; }
+      promptBox.focus();
+      promptBox.select();
+      copyStatus.textContent = 'Automatisches Kopieren ist nicht möglich. Der Text ist markiert – bitte mit Strg+C (bzw. Cmd+C) kopieren.';
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, failed);
+    } else {
+      failed();
+    }
+  });
+
+  var boxes = Array.prototype.slice.call(
+    document.querySelectorAll('#checklist input[type="checkbox"]')
+  );
+  var progress = document.getElementById('checklistProgress');
+  function renderProgress() {
+    var count = 0;
+    for (var i = 0; i < boxes.length; i++) {
+      if (boxes[i].checked) { count++; }
+    }
+    progress.textContent = count + ' von ' + boxes.length + ' Punkten abgehakt.';
+  }
+  for (var j = 0; j < boxes.length; j++) {
+    boxes[j].addEventListener('change', renderProgress);
+  }
+  document.getElementById('resetChecklist').addEventListener('click', function () {
+    for (var k = 0; k < boxes.length; k++) { boxes[k].checked = false; }
+    renderProgress();
+  });
+  renderProgress();
+})();
+</script>
+</body>
+</html>
