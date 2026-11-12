@@ -77,6 +77,41 @@ relevante Regressionstests wiederholen. Modell-/Suiteversion und Datum mitführe
 - Keine Zuordnung von Tokens unterschiedlicher Anbieter zu vermeintlich exakten
   Credits ohne belegte Abrechnungsgrundlage. Schlechtere Qualität ist keine Ersparnis.
 
+### Token- und Kostenabschluss jedes Auftrags
+
+Auch ohne Delegation alle tatsächlich eingesetzten Modelle einschließlich Hauptmodell,
+Wiederholungen, Prüfung und Nacharbeit erfassen. Die Modell-/Providerliste stammt
+aus der jeweiligen Installation, nicht aus einer fremden Beispielkonfiguration.
+
+| Exaktes Modell / Provider / lokal oder Cloud | Lesen | Denken | Schreiben | OpenRouter-Vergleich EUR | API-Kosten EUR / Status |
+|---|---|---|---|---|---|
+| ausfüllen | nicht verfügbar | nicht verfügbar | nicht verfügbar | nicht verfügbar | nicht verfügbar |
+
+- Auftrags-ID / Erfassungszeitpunkt / Usage-Quelle und Beleg: ausfüllen
+- Lesen enthält Cache und wiederholten Kontext; Cache-Anteil, soweit gemeldet: ausfüllen
+- Denken nur aus gemeldeten Reasoning-Tokens; Schreiben nur eindeutig ableitbare
+  Nicht-Reasoning-Ausgabe, ggf. einschließlich Werkzeugaufrufen. Keine Doppelzählung.
+- OpenRouter-Modellzuordnung / exakte oder ungefähre Variante / datierter Preisbeleg:
+  ausfüllen; ohne passende Zuordnung unbekannt lassen
+- Tatsächliche API-Kosten: providerseitig auftragsbezogen **gemeldet**, aus tatsächlicher
+  Usage und geltendem Providertarif **Tarifschätzung**, sonst **nicht verfügbar**
+- Originalwährung / offizieller Wechselkurs mit Datum und Quelle / EUR-Umrechnung:
+  ausfüllen; bei USD gilt EUR = USD / USD je EUR
+- Cache-Reads/-Writes, Reasoning-Semantik, Preisstaffeln pro Anfrage und bekannte
+  Zusatzgebühren: berücksichtigt / offen; Annahmen und Ausschlüsse dokumentieren
+- OpenRouter-Vergleich gesamt oder ausdrücklich erfasste Teilsumme EUR: unbekannt
+- API-Kosten gesamt oder ausdrücklich erfasste Teilsumme EUR, Status: unbekannt
+- Selbstgehostet: 0 externe Inferenz-API-Gebühr; Strom, Hardware und Hosting separat.
+  Hypothetische Marktwerte sind keine Ausgaben; Vergleichs- und API-Werte nicht addieren.
+- Fehlende Zähler / Anfragen ohne Usage / nicht erfasste Gebühren: ausfüllen.
+  Backend-Zähler sind keine unabhängige Tokenmessung; fehlende Werte sind keine Nullen.
+- Stand vor der Abschlussantwort vorläufig; deren Tokens erst später enthalten.
+  Nachträgliche Aktualisierung des abgeschlossenen Auftrags: Beleg / noch offen
+
+OpenRouter-Listenpreise sind keine tatsächlichen Codex-Credits oder Aborechnung.
+Numerische Belege lokal speichern; keine Arbeitsinhalte oder Zugangsdaten zur
+öffentlichen Preisabfrage übertragen. Keine weiteren LLMs allein zur Buchführung.
+
 ## 6. Geltung und Übergabe
 
 - Globale Regeln gesichert / markiert ergänzt, ohne Anmeldung/Rechte zu verändern: Beleg

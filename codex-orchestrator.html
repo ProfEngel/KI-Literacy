@@ -130,6 +130,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible,textarea:focus-visibl
     <a href="#tldr">Kurz gesagt</a>
     <a href="#schritte">Vier Schritte</a>
     <a href="#testplan">Testplan</a>
+    <a href="#kosten">Token und Kosten</a>
     <a href="#prompt">Nutzerauftrag</a>
     <a href="#checkliste">Selbstcheck</a>
   </p>
@@ -260,6 +261,33 @@ a:focus-visible,button:focus-visible,summary:focus-visible,textarea:focus-visibl
   </div>
 </section>
 
+<section id="kosten">
+  <h2>Token- und Kostenabschluss je Auftrag</h2>
+  <p>Ergänze die globale Arbeitsanweisung um einen Abschlussblock für <strong>jeden Auftrag</strong>, auch ohne Delegation. Er enthält alle tatsächlich eingesetzten Modelle einschließlich des Orchestrators, Wiederholungen, Prüfung und Nacharbeit. Maßgeblich sind die Modelle und Provider des jeweiligen Nutzers – keine fest vorgegebene Modellliste oder Preiszuordnung.</p>
+  <div class="plan-wrap">
+    <table class="plan">
+      <thead><tr><th>Angabe</th><th>Was ausgewiesen wird</th></tr></thead>
+      <tbody>
+        <tr><td>Modell / Provider</td><td>Exakte tatsächlich verwendete Kennung; selbstgehostet oder Cloud.</td></tr>
+        <tr><td>Lesen</td><td>Gemeldete Eingabetokens einschließlich Cache und wiederholtem Kontext.</td></tr>
+        <tr><td>Denken</td><td>Gemeldete Reasoning-Tokens; ohne Meldung nicht verfügbar.</td></tr>
+        <tr><td>Schreiben</td><td>Eindeutig ableitbare Nicht-Reasoning-Ausgabe, gegebenenfalls einschließlich Werkzeugaufrufen.</td></tr>
+        <tr><td>OpenRouter-Vergleich EUR</td><td>Usage bewertet mit datierten Listenpreisen; lokale Modellvarianten gegebenenfalls nur näherungsweise zuordenbar.</td></tr>
+        <tr><td>API-Kosten EUR / Status</td><td>Auftragsbezogen vom Provider gemeldet, anhand des tatsächlichen Providertarifs als Tarifschätzung berechnet oder nicht verfügbar.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Nutze auftragsbezogene Backend-Zähler und vermeide doppelte Anfragen oder kumulierte Chatzähler. Cache ist Teil der Eingabe; Reasoning kann Teil der Ausgabe sein und darf dann nicht zusätzlich berechnet werden. Fehlende Zähler oder unklare Semantik bleiben <strong>nicht verfügbar</strong>, niemals eine erfundene Null. Bekannte Anteile bei Datenlücken ausdrücklich als unvollständig kennzeichnen. Backend-Zähler sind keine unabhängige Tokenmessung.</p>
+  <details>
+    <summary>Vergleichspreis, API-Kosten und Euro-Umrechnung</summary>
+    <p>Ordne nur die tatsächlich eingesetzten Modelle dem datierten <a href="https://openrouter.ai/api/v1/models">OpenRouter-Modellkatalog</a> zu. Ungefähre Varianten kennzeichnen; ohne passende Zuordnung bleibt der Vergleich unbekannt. Cache-Reads/-Writes, Reasoning-Semantik, Preisstaffeln pro Anfrage und bekannte Zusatzgebühren berücksichtigen. Zur Preisabfrage keine Arbeitsinhalte oder Zugangsdaten übertragen.</p>
+    <p>Der OpenRouter-Wert ist ein Listenpreisvergleich, keine tatsächliche Codex-Creditabrechnung. Für API-Kosten haben auftragsbezogene Provider-Kostenmeldungen Vorrang; eine Berechnung aus Usage und tatsächlichem Providertarif ist eine gekennzeichnete Tarifschätzung. Ohne Abrechnungsgrundlage bleiben tatsächliche Kosten unbekannt. Selbstgehostete Inferenz hat 0 externe API-Gebühr; Strom, Hardware und Hosting separat erfassen. Ihr hypothetischer Marktwert ist keine Ausgabe oder nachgewiesene Ersparnis.</p>
+    <p>USD mit einem datierten <a href="https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml">EZB-Referenzkurs</a> umrechnen: <strong>EUR = USD / USD je EUR</strong>. Bei anderen Währungen passende offizielle Kreuzkurse verwenden oder die Umrechnung offenlassen. Preise und Kurse cachen und datieren; bei Ausfall einen datierten Cache mit Warnung verwenden, ohne Kurs keine Eurozahl erfinden.</p>
+    <p>Vergleichs- und API-Gesamtwerte getrennt ausweisen; bei Lücken jeweils nur ausdrücklich benannte Teilsummen. Beide Spalten nicht miteinander addieren. Speichere numerische Usage, Modellzuordnung, Preis-/Kursbelege und einen kompakten Abschlussblock je Auftrag. Der Stand vor der Abschlussantwort ist vorläufig: Deren spätere Tokens fehlen noch. Ein nachträglicher Abruf kann den abgeschlossenen Auftrag vervollständigen.</p>
+  </details>
+  <p class="fine">Die Erfassung wird auf der jeweiligen Installation eingerichtet und geprüft. Diese Seite selbst misst keine Tokens oder Gebühren. Neue Chats desselben Codex-Profils laden die globale Regel; bereits offene Chats benötigen eine erneute Instruktionsprüfung. Für die Buchführung keine zusätzlichen LLMs starten.</p>
+</section>
+
 <section id="prompt">
   <h2>Nutzerauftrag zum Einrichten</h2>
   <p>Der Auftrag ist wortgleich mit der Datei <code>docs/Codex_Orchestrator_Setup_Prompt.txt</code>. Kopiere ihn in Codex oder lade die Datei herunter.</p>
@@ -286,6 +314,14 @@ Ergänzende Ausführungsgrenzen:
 - Erfasse pro Lauf Modellinstanz, angeforderte und bestätigte Einstellungen, Host, Versionen, Artefakt-/Testbelege, Zeit, verfügbare Token-/Creditwerte, Fehler und Nacharbeit. Unbekannte Werte bleiben unbekannt; nicht getestet ist nicht bestanden. Weise lokale Hardware-/Energiekosten separat aus.
 - Erstelle einen menschlich lesbaren Report und eine Routingmatrix mit Datum, Grenzen und Nachtestempfehlung. Berücksichtige Orchestrierung, Review und Reparaturen in der Gesamtbilanz. Vergleiche Kosten nur bei vergleichbarer bestandener Abnahme; versprich keine pauschale Ersparnis.
 - Private Berichte, Rohprotokolle und Zugangsdaten bleiben lokal. Keine kostenpflichtigen Testserien, Veröffentlichungen oder wesentlichen Datenübertragungen ohne passende Freigabe. Nach lokalem Versuch bleibt für jeden Cloud-Fallback eine ausdrückliche menschliche Bestätigung erforderlich.
+
+Token- und Kostenabschluss für jeden Auftrag:
+- Implementiere und prüfe eine schlanke auftragsbezogene Erfassung für die tatsächlich eingesetzten Modelle und Provider dieser Installation, einschließlich Hauptmodell, Worker, Wiederholungen und Nacharbeit. Keine fremde Modellliste, Endpunkte oder Preiszuordnung übernehmen; keine weiteren LLMs allein zur Buchführung starten.
+- Zeige am Ende auch direkter Bearbeitung: Modell/Provider | Lesen | Denken | Schreiben | OpenRouter-Vergleich EUR | API-Kosten EUR (Status). Nutze gemeldete Usage ohne Doppelzählungen: Lesen enthält Cache; Denken sind gemeldete Reasoning-Tokens; Schreiben ist eindeutig ableitbare Nicht-Reasoning-Ausgabe einschließlich etwaiger Werkzeugaufrufe. Fehlende Werte bleiben „nicht verfügbar“, bekannte Teilwerte ausdrücklich unvollständig.
+- Verwende datierte OpenRouter-Listenpreise für die tatsächlich eingesetzten Modelle. Ungefähre Varianten kennzeichnen; ohne passende Zuordnung unbekannt lassen. Cache, Reasoning-Semantik, Preisstaffeln pro Anfrage und bekannte Zusatzgebühren berücksichtigen. Nur öffentliche Preisdaten abrufen, keine Arbeitsinhalte oder Zugangsdaten übertragen.
+- API-Kosten getrennt ausweisen: auftragsbezogene Providerkosten als „gemeldet“, Berechnung aus tatsächlicher Usage und geltendem Providertarif als „Tarifschätzung“, sonst „nicht verfügbar“. Selbstgehostet: 0 externe Inferenz-API-Gebühr; Strom, Hardware und Hosting separat. Codex-Abos/Credits nicht als tatsächliche API-Rechnung ausgeben. Vergleichs- und API-Gesamt-/Teilsummen getrennt zeigen und nicht miteinander addieren.
+- USD mit datiertem EZB-Kurs in EUR umrechnen: EUR = USD / USD je EUR. Preise/Kurse cachen und datieren; bei Ausfall datierten Cache mit Warnung nutzen, ohne Kurs unbekannt lassen. Speichere numerische Usage, Modellzuordnung, Preis-/Kursbelege und einen kompakten Abschlussblock je Auftrag. Stand vor den letzten Antworttokens als vorläufig kennzeichnen; abgeschlossene Aufträge nachträglich aktualisierbar halten.
+- Ergänze den Abschluss in den wirksamen globalen Regeln dieses Codex-Profils unter Beachtung von CODEX_HOME, Overrides und Projektregeln. Prüfe die Geltung in einem frischen Kontext; bereits offene Chats müssen die Regeln erneut lesen. Benenne Erfassungslücken und behaupte keine tatsächlichen Credits oder Ersparnisse ohne Nachweis.
 </textarea>
     </details>
     <div class="prompt-actions">
