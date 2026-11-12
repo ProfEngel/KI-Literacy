@@ -2,7 +2,7 @@
 type: resource-list
 tags: [ki-vl, education]
 created: 2026-04-16
-updated: 2026-11-04
+updated: 2026-11-12
 project: KI_VL
 ---
 
@@ -11,6 +11,14 @@ project: KI_VL
 Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG und geschlossenen Wissensräumen.
 
 ## 📰 News-Briefings
+
+### News-Briefing 12.11.2026
+
+- [Weight-Space Programming (Forschungsdemo)](https://rikiyat.github.io/blog/weight-space-programming/) - MIT-Forschende zeigen erste Versuche, in denen ein Sprachmodell die inneren Zahlenwerte anderer KI-Modelle liest und gezielt verändert.
+- [Gemini Omni 1.2 Flash (Google)](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/) - Googles Videomodell erzeugt bis zu 15 Sekunden lange Clips und ermöglicht Nachbearbeitung im Dialog sowie laut Anbieter konsistentere Figuren und Produkte.
+- [Claude Code: Zugangsdaten auf GitHub (Notebookcheck)](https://www.notebookcheck.com/Claude-Code-legt-unzaehlige-Zugangsdaten-auf-GitHub-offen.1446200.0.html) - Apiiro berichtet über Zugangsdaten in öffentlich eingecheckten Claude-Code-Konfigurationen und zeigt damit, warum auch versteckte Einstellungsdateien vor einer Veröffentlichung geprüft werden müssen.
+- [Claude Fable 5.2: Betriebssystem-Prototyp (Anthropic)](https://www.anthropic.com/claude-fable-and-mythos-5-2) - Anthropic demonstriert, wie Fable 5.2 über acht Tage mehr als 1.000 Teilagenten für einen startfähigen Betriebssystem-Prototyp koordinierte – eine Herstellerdemo, kein Beleg für Produktivreife.
+- [Qwen 4: Max-Vorschau, 27B noch offen (Alibaba)](https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview) - Alibaba bietet Qwen4-Max als zeitlich begrenzte Vorschau an; beim [27B-Modell](https://www.yottalabs.ai/post/qwen-4-27b-release-date-specs-hardware-what-is-known-2026) sind laut Yotta die Veröffentlichung der Gewichte, technische Details und Erscheinungstermin noch offen.
 
 ### News-Briefing 04.11.2026
 
