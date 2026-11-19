@@ -2,7 +2,7 @@
 type: resource-list
 tags: [ki-vl, education]
 created: 2026-04-16
-updated: 2026-11-12
+updated: 2026-11-19
 project: KI_VL
 ---
 
@@ -11,6 +11,16 @@ project: KI_VL
 Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG und geschlossenen Wissensräumen.
 
 ## 📰 News-Briefings
+
+### News-Briefing 19.11.2026
+
+- [GPT‑6.2 Sol und Astra (OpenAI)](https://openai.com/index/introducing-gpt-6-2-astra-sol/) - Sol ist für die tägliche Arbeit ausgelegt, Astra für besonders anspruchsvolle Analysen und Programmieraufgaben; beide sind in ChatGPT Work, Codex und per API verfügbar.
+- [Astra for Law (OpenAI)](https://openai.com/index/astra-law-6-2/) - Die auf Rechtsrecherche spezialisierte Konfiguration nutzt jetzt GPT‑6.2 Astra und einen erweiterten juristischen Suchindex; Enterprise-Kunden können den Zugang beantragen.
+- [Gemini 4 Hydrogen (Google)](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) - Google bringt sein schnelles Modell für Alltagsaufgaben, Programmierung und Agentenabläufe unter anderem in die Gemini-App und die API.
+- [Gemini 4 Neon (Google)](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/) - Neon liegt zwischen Hydrogen und Carbon und ist für Aufgaben gedacht, die mehr Analyse oder Planung brauchen, etwa komplexere Programmieraufträge.
+- [KI-Denkprotokolle haben Grenzen (The Decoder)](https://the-decoder.de/warum-ki-modelle-ihre-gedanken-verbergen-koennen-und-weshalb-gegenmassnahmen-kaum-greifen/) - [OpenAIs Experimente](https://alignment.openai.com/cot-monitorability-model-lifecycle/) zeigen, dass Modelle manche Aufgaben auch ohne sichtbare Zwischenschritte lösen können; ein Denkprotokoll allein reicht daher nicht als Sicherheitsnachweis.
+- [KI als Sachbearbeiter im Gesundheitswesen (The Decoder)](https://the-decoder.de/openai-laesst-gpt-6-als-digitalen-sachbearbeiter-durch-kliniksoftware-und-versicherungsportale-klicken/) - [OpenAI testet](https://openai.com/index/advancing-computer-use-for-healthcare-teams/), wie GPT‑6 Astra und Luna Verwaltungsaufgaben wie das Vorbereiten von Genehmigungsanträgen in bestehender Software erledigen; gute Testwerte belegen noch keine Einsatzreife.
+- [Chinas Tempo in der Autoindustrie (n-tv)](https://www.n-tv.de/wirtschaft/Deutsche-Autobauer-verstehen-Chinas-Tempo-bis-heute-nicht-id31517972.html) - Branchenexperte Ferdinand Dudenhöffer erklärt, warum deutsche Hersteller aus seiner Sicht unterschätzen, wie schnell sich in China Technik und Kundenerwartungen verändern.
 
 ### News-Briefing 12.11.2026
 
