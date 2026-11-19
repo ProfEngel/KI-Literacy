@@ -22,6 +22,12 @@ Eine Sammlung wichtiger Ressourcen für die Arbeit mit Prompt Engineering, RAG u
 - [KI als Sachbearbeiter im Gesundheitswesen (The Decoder)](https://the-decoder.de/openai-laesst-gpt-6-als-digitalen-sachbearbeiter-durch-kliniksoftware-und-versicherungsportale-klicken/) - [OpenAI testet](https://openai.com/index/advancing-computer-use-for-healthcare-teams/), wie GPT‑6 Astra und Luna Verwaltungsaufgaben wie das Vorbereiten von Genehmigungsanträgen in bestehender Software erledigen; gute Testwerte belegen noch keine Einsatzreife.
 - [Chinas Tempo in der Autoindustrie (n-tv)](https://www.n-tv.de/wirtschaft/Deutsche-Autobauer-verstehen-Chinas-Tempo-bis-heute-nicht-id31517972.html) - Branchenexperte Ferdinand Dudenhöffer erklärt, warum deutsche Hersteller aus seiner Sicht unterschätzen, wie schnell sich in China Technik und Kundenerwartungen verändern.
 
+#### YouTube-Inspiration
+
+- [KI-Figur auf einem Mini-Supercomputer (Prompt Mastery)](https://youtu.be/LX5uQBz0-I8) - Eine Demo auf dem Olares One zeigt, wie eine KI-Figur auf eigener Hardware laufen kann.
+- [54 Claude-Ideen (AI mit Arnie)](https://youtu.be/gDQ522XgRxY) - Eine Sammlung von Anwendungsbeispielen als Ideenpool für eigene KI-Projekte.
+- [Solange wir noch staunen (LICHTBRUCH)](https://youtu.be/sqme0M6Cq_U) - Das offizielle Musikvideo als kreative Inspiration jenseits von Chatbots und Büroaufgaben.
+
 ### News-Briefing 12.11.2026
 
 - [Weight-Space Programming (Forschungsdemo)](https://rikiyat.github.io/blog/weight-space-programming/) - MIT-Forschende zeigen erste Versuche, in denen ein Sprachmodell die inneren Zahlenwerte anderer KI-Modelle liest und gezielt verändert.
